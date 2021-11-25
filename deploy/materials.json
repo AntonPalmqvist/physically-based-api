@@ -1,20 +1,122 @@
 [
   {
+    "name": "Charcoal",
+    "albedo": [0.02, 0.02, 0.02],
+    "metalness": 0,
+    "specular": 0.5,
+    "ior": 1,
+    "category": "Organic",
+    "description": "",
+    "sources": [
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+    ],
+    "tags": ["conductor"]
+  },
+  {
     "name": "Chrome",
     "albedo": [0.55, 0.556, 0.554],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1,
-    "category": "Metal",
+    "category": "Metals",
+    "description": "",
     "sources": [
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
     ],
-    "tags": ["metal", "conductor"]
+    "tags": ["conductor"]
   },
   {
-    "name": "Titanium"
+    "name": "Copper",
+    "albedo": [0.955, 0.637, 0.538],
+    "metalness": 1,
+    "specular": 0.5,
+    "ior": 1,
+    "category": "Metals",
+    "description": "",
+    "sources": [
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+    ],
+    "tags": ["conductor"]
   },
   {
-    "name": "Gold"
+    "name": "Gold",
+    "albedo": [1.0, 0.766, 0.336],
+    "metalness": 1,
+    "specular": 0.5,
+    "ior": 1,
+    "category": "Metals",
+    "description": "",
+    "sources": [
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+    ],
+    "tags": ["conductor"]
+  },
+  {
+    "name": "Milk",
+    "albedo": [0.80141, 0.79004, 0.73392],
+    "metalness": 0,
+    "specular": 0.277,
+    "ior": 1.348,
+    "category": "Liquids",
+    "description": "Cow's milk",
+    "sources": [
+      "https://www.researchgate.net/publication/346758555_What_Is_the_Color_of_Milk_and_Dairy_Products_and_How_Is_It_Measured",
+      "http://dairy-technology.blogspot.com/2014/11/refractive-index.html"
+    ],
+    "tags": ["liquid"]
+  },
+  {
+    "name": "Titanium",
+    "albedo": [0.542, 0.497, 0.449],
+    "metalness": 1,
+    "specular": 0.5,
+    "ior": 1,
+    "category": "Metals",
+    "description": "",
+    "sources": [
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+    ],
+    "tags": ["conductor"]
+  },
+  {
+    "name": "Salt",
+    "albedo": [0.8, 0.8, 0.8],
+    "metalness": 0,
+    "specular": 0.544,
+    "ior": 1.5275,
+    "category": "Crystals",
+    "description": "",
+    "sources": [
+      "https://refractiveindex.info/?shelf=3d&book=crystals&page=salt"
+    ],
+    "tags": []
+  },
+  {
+    "name": "Snow",
+    "albedo": [0.81, 0.81, 0.81],
+    "metalness": 0,
+    "specular": 0.224,
+    "ior": 1.3098,
+    "category": "Crystals",
+    "description": "",
+    "sources": [
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://refractiveindex.info/?shelf=3d&book=crystals&page=ice"
+    ],
+    "tags": []
+  },
+  {
+    "name": "Water",
+    "albedo": [0.55, 0.556, 0.554],
+    "metalness": 0,
+    "specular": 0.255,
+    "ior": 1.3325,
+    "category": "Liquids",
+    "description": "Liquid water (H2O) at 25 °C",
+    "sources": [
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://refractiveindex.info/?shelf=3d&book=liquids&page=water"
+    ],
+    "tags": ["liquid"]
   }
 ]

@@ -36,6 +36,9 @@
       "category": {
         "type": "string"
       },
+      "description": {
+        "type": "string"
+      },
       "sources": {
         "type": "array",
         "items": {
@@ -51,6 +54,15 @@
         "uniqueItems": true
       }
     },
-    "required": ["name", "albedo", "metalness", "specular", "category"]
+    "required": [
+      "name",
+      "albedo",
+      "metalness",
+      "specular",
+      "ior",
+      "category",
+      "description",
+      "sources"
+    ]
   }
 }
