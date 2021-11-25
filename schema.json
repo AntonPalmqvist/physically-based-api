@@ -6,13 +6,51 @@
   "items": {
     "additionalProperties": false,
     "properties": {
-      "id": {
-        "type": "integer"
-      },
       "name": {
+        "description": "Name of the material.",
+        "type": "string",
+        "default": "Name"
+      },
+      "albedo": {
+        "description": "Albedo RGB in decimal format in sRGB primaries.",
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "default": [0.5, 0.5, 0.5],
+        "minItems": 3,
+        "maxItems": 3
+      },
+      "metalness": {
+        "type": "number",
+        "default": 0
+      },
+      "specular": {
+        "type": "number",
+        "default": 0.5
+      },
+      "ior": {
+        "type": "number",
+        "default": 1.0
+      },
+      "category": {
         "type": "string"
+      },
+      "sources": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "tags": {
+        "description": "Tags",
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "uniqueItems": true
       }
     },
-    "required": ["id", "name"]
+    "required": ["name", "albedo", "metalness", "specular", "category"]
   }
 }

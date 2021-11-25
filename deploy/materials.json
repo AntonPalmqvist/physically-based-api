@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Chrome",
+    "albedo": [0.55, 0.556, 0.554],
+    "metalness": 1,
+    "specular": 0.5,
+    "ior": 1,
+    "category": "Metal",
+    "sources": [
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+    ],
+    "tags": ["metal", "conductor"]
+  },
+  {
+    "name": "Titanium"
+  },
+  {
+    "name": "Gold"
+  }
+]
