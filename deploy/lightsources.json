@@ -1,7 +1,7 @@
 [
   {
     "name": "Candle Flame",
-    "color": [1, 0.52157, 0],
+    "temperature": 1850,
     "power": 13,
     "unit": ["lm"],
     "category": ["Natural"],
@@ -10,16 +10,16 @@
       "https://en.wikipedia.org/wiki/Candle#Characteristics",
       "https://en.wikipedia.org/wiki/Color_temperature"
     ],
-    "tags": ["black body"]
+    "tags": [""]
   },
   {
     "name": "Clear Sky",
-    "color": [0.46, 0.582, 1],
+    "temperature": 15000,
     "power": 5000,
     "unit": ["cd/m2"],
     "category": ["Natural"],
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/Color_temperature"],
-    "tags": ["black body"]
+    "tags": [""]
   }
 ]

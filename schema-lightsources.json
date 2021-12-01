@@ -11,15 +11,10 @@
         "type": "string",
         "default": "Name"
       },
-      "color": {
-        "description": "Albedo RGB in decimal format in sRGB primaries.",
-        "type": "array",
-        "items": {
-          "type": "number"
-        },
-        "default": [0.5, 0.5, 0.5],
-        "minItems": 3,
-        "maxItems": 3
+      "temperature": {
+        "description": "Color temperature in Kelvin.",
+        "type": "number",
+        "default": 6500
       },
       "power": {
         "type": "number",
@@ -61,7 +56,7 @@
     },
     "required": [
       "name",
-      "color",
+      "temperature",
       "power",
       "unit",
       "category",
