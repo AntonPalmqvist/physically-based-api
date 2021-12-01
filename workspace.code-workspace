@@ -1,17 +1,19 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"json.schemas": [
-			{
-			  "fileMatch": [
-				"/*.json"
-			  ],
-			  "url": "/schema.json"
-			}
-		  ]
-	}
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "json.schemas": [
+      {
+        "fileMatch": ["/deploy/materials.json"],
+        "url": "/schema-materials.json"
+      },
+      {
+        "fileMatch": ["/deploy/lightsources.json"],
+        "url": "/schema-lightsources.json"
+      }
+    ]
+  }
 }

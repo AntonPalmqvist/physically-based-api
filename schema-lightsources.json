@@ -1,17 +1,17 @@
 {
   "$schema": "http://json-schema.org/schema",
-  "title": "Material",
-  "description": "A PBR material.",
+  "title": "Light",
+  "description": "A light source.",
   "type": "array",
   "items": {
     "additionalProperties": false,
     "properties": {
       "name": {
-        "description": "Name of the material.",
+        "description": "Name of the light source.",
         "type": "string",
         "default": "Name"
       },
-      "albedo": {
+      "color": {
         "description": "Albedo RGB in decimal format in sRGB primaries.",
         "type": "array",
         "items": {
@@ -21,20 +21,25 @@
         "minItems": 3,
         "maxItems": 3
       },
-      "metalness": {
+      "power": {
         "type": "number",
         "default": 0
       },
-      "specular": {
-        "type": "number",
-        "default": 0.5
-      },
-      "ior": {
-        "type": "number",
-        "default": 1.0
+      "unit": {
+        "type": "array",
+        "items": {
+          "enum": ["lm", "lx", "cd/m2"]
+        },
+        "minItems": 1,
+        "maxItems": 1
       },
       "category": {
-        "type": "string"
+        "type": "array",
+        "items": {
+          "enum": ["Artificial", "Natural"]
+        },
+        "minItems": 1,
+        "maxItems": 1
       },
       "description": {
         "type": "string"
@@ -56,10 +61,9 @@
     },
     "required": [
       "name",
-      "albedo",
-      "metalness",
-      "specular",
-      "ior",
+      "color",
+      "power",
+      "unit",
       "category",
       "description",
       "sources"

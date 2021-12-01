@@ -1,11 +1,26 @@
 [
   {
+    "name": "Blood",
+    "albedo": [0.612, 0.141, 0.161],
+    "metalness": 0,
+    "specular": 0.214,
+    "ior": 1.301,
+    "category": ["Human"],
+    "description": "The color of blood depends on how much oxygen is in the blood. When there is plenty of oxygen, the blood is more reddish in color. The reason that this is so is because of a protein called hemoglobin, which carries the oxygen in your blood. When hemoglobin has a full oxygen load, it gives the blood a reddish color.",
+    "sources": [
+      "http://scienceline.ucsb.edu/getkey.php?key=2927",
+      "https://en.wikipedia.org/wiki/Blood",
+      "https://refractiveindex.info/?shelf=other&book=blood&page=Rowe"
+    ],
+    "tags": [""]
+  },
+  {
     "name": "Charcoal",
     "albedo": [0.02, 0.02, 0.02],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1,
-    "category": "Organic",
+    "category": ["Organic"],
     "description": "",
     "sources": [
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
@@ -18,7 +33,7 @@
     "metalness": 1,
     "specular": 0.5,
     "ior": 1,
-    "category": "Metals",
+    "category": ["Metals"],
     "description": "",
     "sources": [
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
@@ -31,7 +46,7 @@
     "metalness": 1,
     "specular": 0.5,
     "ior": 1,
-    "category": "Metals",
+    "category": ["Metals"],
     "description": "",
     "sources": [
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
@@ -44,7 +59,7 @@
     "metalness": 1,
     "specular": 0.5,
     "ior": 1,
-    "category": "Metals",
+    "category": ["Metals"],
     "description": "",
     "sources": [
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
@@ -57,7 +72,7 @@
     "metalness": 0,
     "specular": 0.277,
     "ior": 1.348,
-    "category": "Liquids",
+    "category": ["Liquids"],
     "description": "Cow's milk",
     "sources": [
       "https://www.researchgate.net/publication/346758555_What_Is_the_Color_of_Milk_and_Dairy_Products_and_How_Is_It_Measured",
@@ -71,7 +86,7 @@
     "metalness": 1,
     "specular": 0.5,
     "ior": 1,
-    "category": "Metals",
+    "category": ["Metals"],
     "description": "",
     "sources": [
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
@@ -84,7 +99,7 @@
     "metalness": 0,
     "specular": 0.544,
     "ior": 1.5275,
-    "category": "Crystals",
+    "category": ["Crystals"],
     "description": "",
     "sources": [
       "https://refractiveindex.info/?shelf=3d&book=crystals&page=salt"
@@ -97,7 +112,7 @@
     "metalness": 0,
     "specular": 0.224,
     "ior": 1.3098,
-    "category": "Crystals",
+    "category": ["Crystals"],
     "description": "",
     "sources": [
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
@@ -111,7 +126,7 @@
     "metalness": 0,
     "specular": 0.255,
     "ior": 1.3325,
-    "category": "Liquids",
+    "category": ["Liquids"],
     "description": "Liquid water (H2O) at 25 °C",
     "sources": [
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
