@@ -15,11 +15,73 @@
   {
     "name": "Clear Sky",
     "temperature": 15000,
-    "power": 5000,
-    "unit": ["cd/m2"],
+    "power": 20000,
+    "unit": ["lx"],
+    "category": ["Natural"],
+    "description": "Shade illuminated by entire clear blue sky, midday",
+    "sources": ["https://en.wikipedia.org/wiki/Color_temperature"],
+    "tags": [""]
+  },
+  {
+    "name": "Daylight Overcast",
+    "temperature": 6500,
+    "power": 2000,
+    "unit": ["lx"],
     "category": ["Natural"],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Color_temperature"],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Color_temperature",
+      "https://en.wikipedia.org/wiki/Daylight"
+    ],
+    "tags": [""]
+  },
+  {
+    "name": "Kerosene Lamp",
+    "temperature": 1850,
+    "power": 50,
+    "unit": ["lm"],
+    "category": ["Natural"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kerosene_lamp#Performance",
+      "https://en.wikipedia.org/wiki/Color_temperature"
+    ],
+    "tags": [""]
+  },
+  {
+    "name": "Moonlight",
+    "temperature": 4000,
+    "power": 0.1,
+    "unit": ["lx"],
+    "category": ["Natural"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Moonlight",
+      "https://chrisbrejon.com/cg-cinematography/chapter-4-light-categories/#moon"
+    ],
+    "tags": [""]
+  },
+  {
+    "name": "Photo Flash",
+    "temperature": 5500,
+    "power": 0,
+    "unit": ["lx"],
+    "category": ["Natural"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/Flash_(photography)"],
+    "tags": [""]
+  },
+  {
+    "name": "Sun Midday",
+    "temperature": 5500,
+    "power": 98000,
+    "unit": ["lx"],
+    "category": ["Natural"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Color_temperature#The_Sun",
+      "https://en.wikipedia.org/wiki/Sunlight#Measurement"
+    ],
     "tags": [""]
   }
 ]
