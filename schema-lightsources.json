@@ -20,6 +20,16 @@
         "type": "number",
         "default": 0
       },
+      "powerRange": {
+        "description": "The typical range of power for this specific light source.",
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "default": [0, 1],
+        "minItems": 2,
+        "maxItems": 2
+      },
       "unit": {
         "type": "array",
         "items": {

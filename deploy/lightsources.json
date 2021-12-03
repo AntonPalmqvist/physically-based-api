@@ -9,8 +9,7 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Candle#Characteristics",
       "https://en.wikipedia.org/wiki/Color_temperature"
-    ],
-    "tags": [""]
+    ]
   },
   {
     "name": "Clear Sky",
@@ -18,9 +17,11 @@
     "power": 20000,
     "unit": ["lx"],
     "category": ["Natural"],
-    "description": "Shade illuminated by entire clear blue sky, midday",
-    "sources": ["https://en.wikipedia.org/wiki/Color_temperature"],
-    "tags": [""]
+    "description": "Shade illuminated by entire clear blue sky at midday",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Color_temperature",
+      "https://en.wikipedia.org/wiki/Daylight"
+    ]
   },
   {
     "name": "Daylight Overcast",
@@ -32,34 +33,33 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Color_temperature",
       "https://en.wikipedia.org/wiki/Daylight"
-    ],
-    "tags": [""]
+    ]
   },
   {
     "name": "Kerosene Lamp",
     "temperature": 1850,
     "power": 50,
+    "powerRange": [8, 100],
     "unit": ["lm"],
     "category": ["Natural"],
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Kerosene_lamp#Performance",
       "https://en.wikipedia.org/wiki/Color_temperature"
-    ],
-    "tags": [""]
+    ]
   },
   {
     "name": "Moonlight",
     "temperature": 4000,
     "power": 0.1,
+    "powerRange": [0.05, 0.32],
     "unit": ["lx"],
     "category": ["Natural"],
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Moonlight",
       "https://chrisbrejon.com/cg-cinematography/chapter-4-light-categories/#moon"
-    ],
-    "tags": [""]
+    ]
   },
   {
     "name": "Photo Flash",
@@ -68,8 +68,7 @@
     "unit": ["lx"],
     "category": ["Natural"],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Flash_(photography)"],
-    "tags": [""]
+    "sources": ["https://en.wikipedia.org/wiki/Flash_(photography)"]
   },
   {
     "name": "Sun Midday",
@@ -81,7 +80,6 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Color_temperature#The_Sun",
       "https://en.wikipedia.org/wiki/Sunlight#Measurement"
-    ],
-    "tags": [""]
+    ]
   }
 ]
