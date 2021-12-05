@@ -31,12 +31,20 @@
       },
       "ior": {
         "type": "number",
-        "default": 1.0
+        "default": 1.5
       },
       "category": {
         "type": "array",
         "items": {
-          "enum": ["Metals", "Liquids", "Crystals", "Organic", "Human"]
+          "enum": [
+            "Metals",
+            "Liquids",
+            "Crystals",
+            "Organic",
+            "Human",
+            "Calibration",
+            "Plastics"
+          ]
         },
         "minItems": 1,
         "maxItems": 1

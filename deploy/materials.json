@@ -1,5 +1,32 @@
 [
   {
+    "name": "Air",
+    "albedo": [1, 1, 1],
+    "metalness": 0,
+    "specular": 0,
+    "ior": 1.000273,
+    "category": ["Organic"],
+    "description": "Measured at standard temperature and pressure (STP)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_refractive_indices",
+      "https://refractiveindex.info/?shelf=other&book=air&page=Ciddor"
+    ],
+    "tags": [""]
+  },
+  {
+    "name": "Aluminum",
+    "albedo": [0.913, 0.921, 0.925],
+    "metalness": 1,
+    "specular": 0.5,
+    "ior": 1.5,
+    "category": ["Metals"],
+    "description": "",
+    "sources": [
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+    ],
+    "tags": ["aluminium"]
+  },
+  {
     "name": "Blood",
     "albedo": [0.612, 0.141, 0.161],
     "metalness": 0,
@@ -19,52 +46,175 @@
     "albedo": [0.02, 0.02, 0.02],
     "metalness": 0,
     "specular": 0.5,
-    "ior": 1,
+    "ior": 1.5,
     "category": ["Organic"],
     "description": "",
     "sources": [
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
     ],
-    "tags": ["conductor"]
+    "tags": [""]
+  },
+  {
+    "name": "Chocolate",
+    "albedo": [0.48235, 0.24706, 0.0],
+    "metalness": 0,
+    "specular": 0.5,
+    "ior": 1.5,
+    "category": ["Organic"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/Chocolate_(color)"],
+    "tags": [""]
   },
   {
     "name": "Chrome",
     "albedo": [0.55, 0.556, 0.554],
     "metalness": 1,
     "specular": 0.5,
-    "ior": 1,
+    "ior": 1.5,
     "category": ["Metals"],
     "description": "",
     "sources": [
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
     ],
-    "tags": ["conductor"]
+    "tags": ["chromium"]
+  },
+  {
+    "name": "Cobalt",
+    "albedo": [0.662, 0.655, 0.634],
+    "metalness": 1,
+    "specular": 0.5,
+    "ior": 1.5,
+    "category": ["Metals"],
+    "description": "",
+    "sources": [
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+    ],
+    "tags": [""]
   },
   {
     "name": "Copper",
     "albedo": [0.955, 0.637, 0.538],
     "metalness": 1,
     "specular": 0.5,
-    "ior": 1,
+    "ior": 1.5,
     "category": ["Metals"],
     "description": "",
     "sources": [
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
     ],
-    "tags": ["conductor"]
+    "tags": [""]
+  },
+  {
+    "name": "Cornea",
+    "albedo": [1, 1, 1],
+    "metalness": 0,
+    "specular": 0.313,
+    "ior": 1.376,
+    "category": ["Human"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cornea",
+      "https://www.sciencedirect.com/science/article/abs/pii/S1367048418310452"
+    ],
+    "tags": ["eye"]
+  },
+  {
+    "name": "Diamond",
+    "albedo": [1, 1, 1],
+    "metalness": 0,
+    "specular": 0.5,
+    "ior": 2.4168,
+    "category": ["Crystals"],
+    "description": "",
+    "sources": [
+      "https://refractiveindex.info/?shelf=3d&book=crystals&page=diamond"
+    ],
+    "tags": [""]
+  },
+  {
+    "name": "Glass",
+    "albedo": [1, 1, 1],
+    "metalness": 0,
+    "specular": 0.5,
+    "ior": 1.52,
+    "category": ["Crystals"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/Soda%E2%80%93lime_glass"],
+    "tags": [""]
   },
   {
     "name": "Gold",
     "albedo": [1.0, 0.766, 0.336],
     "metalness": 1,
     "specular": 0.5,
-    "ior": 1,
+    "ior": 1.5,
     "category": ["Metals"],
     "description": "",
     "sources": [
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
     ],
-    "tags": ["conductor"]
+    "tags": [""]
+  },
+  {
+    "name": "Honey",
+    "albedo": [0.92157, 0.66275, 0.21569],
+    "metalness": 0,
+    "specular": 0.5,
+    "ior": 1.504,
+    "category": ["Liquids"],
+    "description": "Variations in its water content alter its refractive index. Typically, the refractive index for honey ranges from 1.504 at 13% water content to 1.474 at 25%.",
+    "sources": [
+      "https://www.color-name.com/honey.color",
+      "https://en.wikipedia.org/wiki/Honey",
+      "https://carolinahoneybees.com/the-color-of-honey/"
+    ],
+    "tags": [""]
+  },
+  {
+    "name": "Iron",
+    "albedo": [0.56, 0.57, 0.58],
+    "metalness": 1,
+    "specular": 0.5,
+    "ior": 1.5,
+    "category": ["Metals"],
+    "description": "",
+    "sources": [
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+    ],
+    "tags": [""]
+  },
+  {
+    "name": "Lead",
+    "albedo": [0.83137, 0.83529, 0.85098],
+    "metalness": 1,
+    "specular": 0.5,
+    "ior": 1.5,
+    "category": ["Metals"],
+    "description": "",
+    "sources": ["https://www.chaosgroup.com/blog/understanding-metalness"],
+    "tags": [""]
+  },
+  {
+    "name": "Mercury",
+    "albedo": [0.89804, 0.89804, 0.89804],
+    "metalness": 1,
+    "specular": 0.5,
+    "ior": 1.5,
+    "category": ["Metals"],
+    "description": "",
+    "sources": ["https://www.chaosgroup.com/blog/understanding-metalness"],
+    "tags": [""]
+  },
+  {
+    "name": "Middle Gray",
+    "albedo": [0.46, 0.46, 0.46],
+    "metalness": 0,
+    "specular": 0.5,
+    "ior": 1.5,
+    "category": ["Calibration"],
+    "description": "Also known as 18% gray",
+    "sources": ["https://en.wikipedia.org/wiki/Middle_gray"],
+    "tags": [""]
   },
   {
     "name": "Milk",
@@ -78,20 +228,47 @@
       "https://www.researchgate.net/publication/346758555_What_Is_the_Color_of_Milk_and_Dairy_Products_and_How_Is_It_Measured",
       "http://dairy-technology.blogspot.com/2014/11/refractive-index.html"
     ],
-    "tags": ["liquid"]
+    "tags": [""]
   },
   {
-    "name": "Titanium",
-    "albedo": [0.542, 0.497, 0.449],
+    "name": "Nickel",
+    "albedo": [0.66, 0.609, 0.526],
     "metalness": 1,
     "specular": 0.5,
-    "ior": 1,
+    "ior": 1.5,
     "category": ["Metals"],
     "description": "",
     "sources": [
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
     ],
-    "tags": ["conductor"]
+    "tags": [""]
+  },
+  {
+    "name": "Polycarbonate",
+    "albedo": [1, 1, 1],
+    "metalness": 0,
+    "specular": 0.5,
+    "ior": 1.5848,
+    "category": ["Plastics"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Polycarbonate",
+      "https://refractiveindex.info/?shelf=3d&book=plastics&page=pc"
+    ],
+    "tags": ["plastic"]
+  },
+  {
+    "name": "Platinum",
+    "albedo": [0.672, 0.637, 0.585],
+    "metalness": 1,
+    "specular": 0.5,
+    "ior": 1.5,
+    "category": ["Metals"],
+    "description": "",
+    "sources": [
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+    ],
+    "tags": [""]
   },
   {
     "name": "Salt",
@@ -107,6 +284,19 @@
     "tags": []
   },
   {
+    "name": "Silver",
+    "albedo": [0.972, 0.96, 0.915],
+    "metalness": 1,
+    "specular": 0.5,
+    "ior": 1.5,
+    "category": ["Metals"],
+    "description": "",
+    "sources": [
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+    ],
+    "tags": [""]
+  },
+  {
     "name": "Snow",
     "albedo": [0.81, 0.81, 0.81],
     "metalness": 0,
@@ -118,11 +308,72 @@
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
       "https://refractiveindex.info/?shelf=3d&book=crystals&page=ice"
     ],
-    "tags": []
+    "tags": ["ice"]
+  },
+  {
+    "name": "Titanium",
+    "albedo": [0.542, 0.497, 0.449],
+    "metalness": 1,
+    "specular": 0.5,
+    "ior": 1.5,
+    "category": ["Metals"],
+    "description": "",
+    "sources": [
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+    ],
+    "tags": [""]
+  },
+  {
+    "name": "Tungsten",
+    "albedo": [0.96863, 0.92549, 0.88627],
+    "metalness": 1,
+    "specular": 0.5,
+    "ior": 1.5,
+    "category": ["Metals"],
+    "description": "",
+    "sources": ["https://www.chaosgroup.com/blog/understanding-metalness"],
+    "tags": [""]
+  },
+  {
+    "name": "Vacuum",
+    "albedo": [1, 1, 1],
+    "metalness": 0,
+    "specular": 0,
+    "ior": 1.0,
+    "category": ["Organic"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/List_of_refractive_indices"],
+    "tags": [""]
+  },
+  {
+    "name": "Vanadium",
+    "albedo": [0.96863, 0.92549, 0.88627],
+    "metalness": 1,
+    "specular": 0.5,
+    "ior": 1.5,
+    "category": ["Metals"],
+    "description": "",
+    "sources": ["https://www.chaosgroup.com/blog/understanding-metalness"],
+    "tags": [""]
+  },
+  {
+    "name": "Vegetable Oil",
+    "albedo": [0.87451, 0.84706, 0.33333],
+    "metalness": 0,
+    "specular": 0.453,
+    "ior": 1.47,
+    "category": ["Liquids"],
+    "description": "",
+    "sources": [
+      "https://hypertextbook.com/facts/2006/TingTingLuo.shtml",
+      "https://en.wikipedia.org/wiki/List_of_refractive_indices",
+      "https://www.color-name.com/olive-oil.color"
+    ],
+    "tags": [""]
   },
   {
     "name": "Water",
-    "albedo": [0.55, 0.556, 0.554],
+    "albedo": [1, 1, 1],
     "metalness": 0,
     "specular": 0.255,
     "ior": 1.3325,
@@ -132,6 +383,17 @@
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
       "https://refractiveindex.info/?shelf=3d&book=liquids&page=water"
     ],
-    "tags": ["liquid"]
+    "tags": [""]
+  },
+  {
+    "name": "Zinc",
+    "albedo": [0.9451, 0.94118, 0.93725],
+    "metalness": 1,
+    "specular": 0.5,
+    "ior": 1.5,
+    "category": ["Metals"],
+    "description": "",
+    "sources": ["https://www.chaosgroup.com/blog/understanding-metalness"],
+    "tags": [""]
   }
 ]

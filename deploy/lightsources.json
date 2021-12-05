@@ -27,6 +27,7 @@
     "name": "Daylight Overcast",
     "temperature": 6500,
     "power": 2000,
+    "powerRange": [1000, 2000],
     "unit": ["lx"],
     "category": ["Natural"],
     "description": "",
@@ -73,7 +74,7 @@
   {
     "name": "Sun Midday",
     "temperature": 5500,
-    "power": 98000,
+    "power": 100000,
     "unit": ["lx"],
     "category": ["Natural"],
     "description": "",
