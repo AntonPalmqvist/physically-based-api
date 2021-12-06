@@ -127,9 +127,10 @@
     "category": ["Crystals"],
     "description": "",
     "sources": [
-      "https://refractiveindex.info/?shelf=3d&book=crystals&page=diamond"
+      "https://refractiveindex.info/?shelf=3d&book=crystals&page=diamond",
+      "https://www.gemsociety.org/article/table-refractive-index-double-refraction-gems/"
     ],
-    "tags": [""]
+    "tags": ["gem", "gemstone"]
   },
   {
     "name": "Glass",
