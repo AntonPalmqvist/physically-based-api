@@ -337,7 +337,7 @@
   },
   {
     "name": "Vacuum",
-    "albedo": [1, 1, 1],
+    "albedo": [0, 0, 0],
     "metalness": 0,
     "specular": 0,
     "ior": 1.0,

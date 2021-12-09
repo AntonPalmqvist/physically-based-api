@@ -1,11 +1,49 @@
 [
   {
+    "name": "Arri Alexa 65",
+    "sensorSize": [54.12, 25.58],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.arrirental.com/en/cameras/exclusive-cameras/alexa-65"
+    ],
+    "tags": [""]
+  },
+  {
     "name": "Arri Alexa Mini",
-    "sensorSize": [36, 24],
+    "sensorSize": [28.25, 18.17],
     "category": ["Movie"],
     "description": "",
     "sources": ["https://www.arri.com/en/camera-systems/cameras/alexa-mini"],
-    "tags": [""]
+    "tags": ["super 35"]
+  },
+  {
+    "name": "Arri Alexa Mini LF",
+    "sensorSize": [36.7, 25.54],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://www.arri.com/en/camera-systems/cameras/alexa-mini-lf"],
+    "tags": ["super 35"]
+  },
+  {
+    "name": "Blackmagic Studio Camera",
+    "sensorSize": [17.78, 10],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.blackmagicdesign.com/products/blackmagicstudiocamera/techspecs/W-CST-05"
+    ],
+    "tags": ["four thirds"]
+  },
+  {
+    "name": "Blackmagic URSA Mini Pro 12K",
+    "sensorSize": [27.03, 14.25],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs/W-URSA-36"
+    ],
+    "tags": ["super 35"]
   },
   {
     "name": "Canon EOS 5D",
@@ -22,5 +60,32 @@
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/Canon_EOS_90D"],
     "tags": ["aps-c"]
+  },
+  {
+    "name": "Panavision DXL2",
+    "sensorSize": [40.96, 21.6],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://dxl.panavision.com/"],
+    "tags": [""]
+  },
+  {
+    "name": "RED Ranger Monstro",
+    "sensorSize": [40.96, 21.6],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://www.red.com/red-ranger-monstro"],
+    "tags": [""]
+  },
+  {
+    "name": "Sony VENICE",
+    "sensorSize": [36.2, 24.1],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://pro.sony/ue_US/products/digital-cinema-cameras/venice",
+      "https://en.wikipedia.org/wiki/List_of_Sony_E-mount_cameras"
+    ],
+    "tags": [""]
   }
 ]

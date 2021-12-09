@@ -65,15 +65,28 @@
   {
     "name": "Photo Flash",
     "temperature": 5500,
-    "power": 0,
-    "unit": ["lx"],
-    "category": ["Natural"],
+    "power": 20000,
+    "unit": ["lm"],
+    "category": ["Artificial"],
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/Flash_(photography)"]
   },
   {
+    "name": "Sodium-vapor Lamp",
+    "temperature": 4920,
+    "power": 60000,
+    "powerRange": [2000, 140000],
+    "unit": ["lm"],
+    "category": ["Artificial"],
+    "description": "To simulate a sodium-vapor light faithfully you would need a spectral renderer where you can specify the very narrow wavelength range of 589.0 - 589.6 nm in order to get its bespoke monochromatic look.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sodium-vapor_lamp",
+      "https://www.1000bulbs.com/fil/categories/high-pressure-sodium-lamps"
+    ]
+  },
+  {
     "name": "Sun Midday",
-    "temperature": 5500,
+    "temperature": 5778,
     "power": 100000,
     "unit": ["lx"],
     "category": ["Natural"],
