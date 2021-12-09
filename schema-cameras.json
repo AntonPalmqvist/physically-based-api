@@ -1,47 +1,30 @@
 {
   "$schema": "http://json-schema.org/schema",
-  "title": "Light",
-  "description": "A light source.",
+  "title": "Camera",
+  "description": "A camera.",
   "type": "array",
   "items": {
     "additionalProperties": false,
     "properties": {
       "name": {
-        "description": "Name of the light source.",
+        "description": "Name of the camera.",
         "type": "string",
         "default": "Name"
       },
-      "temperature": {
-        "description": "Color temperature in Kelvin.",
-        "type": "number",
-        "default": 6500
-      },
-      "power": {
-        "type": "number",
-        "default": 0
-      },
-      "powerRange": {
-        "description": "The typical range of power for this specific light source.",
+      "sensorSize": {
+        "description": "Sensor size in millimeters (WxH).",
         "type": "array",
         "items": {
           "type": "number"
         },
-        "default": [0, 1],
+        "default": [36, 24],
         "minItems": 2,
         "maxItems": 2
-      },
-      "unit": {
-        "type": "array",
-        "items": {
-          "enum": ["lm", "lx", "cd/m2"]
-        },
-        "minItems": 1,
-        "maxItems": 1
       },
       "category": {
         "type": "array",
         "items": {
-          "enum": ["Artificial", "Natural"]
+          "enum": ["Still", "Movie"]
         },
         "minItems": 1,
         "maxItems": 1
@@ -67,14 +50,6 @@
         "uniqueItems": true
       }
     },
-    "required": [
-      "name",
-      "temperature",
-      "power",
-      "unit",
-      "category",
-      "description",
-      "sources"
-    ]
+    "required": ["name", "sensorSize", "category", "description", "sources"]
   }
 }

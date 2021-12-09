@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Arri Alexa Mini",
+    "sensorSize": [36, 24],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://www.arri.com/en/camera-systems/cameras/alexa-mini"],
+    "tags": [""]
+  },
+  {
+    "name": "Canon EOS 5D",
+    "sensorSize": [36, 24],
+    "category": ["Still"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/Canon_EOS_5D_Mark_IV"],
+    "tags": ["full frame"]
+  },
+  {
+    "name": "Canon EOS 90D",
+    "sensorSize": [22.3, 14.9],
+    "category": ["Still"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/Canon_EOS_90D"],
+    "tags": ["aps-c"]
+  }
+]
