@@ -2,7 +2,7 @@
   {
     "name": "Candle Flame",
     "temperature": 1850,
-    "power": 13,
+    "intensity": 13,
     "unit": ["lm"],
     "category": ["Natural"],
     "description": "",
@@ -14,7 +14,7 @@
   {
     "name": "Clear Sky",
     "temperature": 15000,
-    "power": 20000,
+    "intensity": 20000,
     "unit": ["lx"],
     "category": ["Natural"],
     "description": "Shade illuminated by entire clear blue sky at midday",
@@ -26,8 +26,8 @@
   {
     "name": "Daylight Overcast",
     "temperature": 6500,
-    "power": 2000,
-    "powerRange": [1000, 2000],
+    "intensity": 2000,
+    "intensityRange": [1000, 2000],
     "unit": ["lx"],
     "category": ["Natural"],
     "description": "",
@@ -39,8 +39,8 @@
   {
     "name": "Kerosene Lamp",
     "temperature": 1850,
-    "power": 50,
-    "powerRange": [8, 100],
+    "intensity": 50,
+    "intensityRange": [8, 100],
     "unit": ["lm"],
     "category": ["Natural"],
     "description": "",
@@ -52,8 +52,8 @@
   {
     "name": "Moonlight",
     "temperature": 4000,
-    "power": 0.1,
-    "powerRange": [0.05, 0.32],
+    "intensity": 0.1,
+    "intensityRange": [0.05, 0.32],
     "unit": ["lx"],
     "category": ["Natural"],
     "description": "",
@@ -65,7 +65,7 @@
   {
     "name": "Photo Flash",
     "temperature": 5500,
-    "power": 20000,
+    "intensity": 20000,
     "unit": ["lm"],
     "category": ["Artificial"],
     "description": "",
@@ -74,8 +74,8 @@
   {
     "name": "Sodium-vapor Lamp",
     "temperature": 4920,
-    "power": 60000,
-    "powerRange": [2000, 140000],
+    "intensity": 60000,
+    "intensityRange": [2000, 140000],
     "unit": ["lm"],
     "category": ["Artificial"],
     "description": "To simulate a sodium-vapor light faithfully you would need a spectral renderer where you can specify the very narrow wavelength range of 589.0 - 589.6 nm in order to get its bespoke monochromatic look.",
@@ -87,7 +87,7 @@
   {
     "name": "Sun Midday",
     "temperature": 5778,
-    "power": 100000,
+    "intensity": 100000,
     "unit": ["lx"],
     "category": ["Natural"],
     "description": "",

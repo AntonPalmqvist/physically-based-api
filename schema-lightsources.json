@@ -16,12 +16,12 @@
         "type": "number",
         "default": 6500
       },
-      "power": {
+      "intensity": {
         "type": "number",
         "default": 0
       },
-      "powerRange": {
-        "description": "The typical range of power for this specific light source.",
+      "intensityRange": {
+        "description": "The typical range of intensity for this specific light source.",
         "type": "array",
         "items": {
           "type": "number"
@@ -70,7 +70,7 @@
     "required": [
       "name",
       "temperature",
-      "power",
+      "intensity",
       "unit",
       "category",
       "description",
