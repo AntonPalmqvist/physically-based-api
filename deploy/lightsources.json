@@ -27,13 +27,69 @@
     "name": "Daylight Overcast",
     "temperature": 6500,
     "intensity": 2000,
-    "intensityRange": [1000, 2000],
+    "intensityRange": [100, 2000],
     "unit": ["lx"],
     "category": ["Natural"],
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Color_temperature",
-      "https://en.wikipedia.org/wiki/Daylight"
+      "https://en.wikipedia.org/wiki/Daylight",
+      "https://en.wikipedia.org/wiki/Lux"
+    ]
+  },
+  {
+    "name": "Digital Display",
+    "temperature": 6500,
+    "intensity": 200,
+    "intensityRange": [100, 2000],
+    "unit": ["cd/m2"],
+    "category": ["Artificial"],
+    "description": "Denotes displays like computer monitors, TVs, signage, etc. Typically they have a temperature of 6500K but it varies. The sRGB spec for monitors targets 80 cd/m2. Typically, monitors calibrated for broadcast or studio color grading should have a brightness of 100 cd/m2 in Japan and in the United States, or 120 cd/m2 in the European Union.",
+    "sources": [
+      "https://www.digitalview.com/blog/lcd-panels-backlights-brightness/",
+      "https://en.wikipedia.org/wiki/Color_temperature",
+      "https://en.wikipedia.org/wiki/Candela_per_square_metre"
+    ],
+    "tags": ["computer", "monitor", "lcd", "oled", "screen"]
+  },
+  {
+    "name": "Direct Sunlight",
+    "temperature": 5778,
+    "intensity": 100000,
+    "intensityRange": [32000, 129000],
+    "unit": ["lx"],
+    "category": ["Natural"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Color_temperature#The_Sun",
+      "https://en.wikipedia.org/wiki/Sunlight#Measurement",
+      "http://stjarnhimlen.se/comp/radfaq.html#10"
+    ]
+  },
+  {
+    "name": "Firefly",
+    "temperature": 0,
+    "intensity": 0.0006,
+    "unit": ["lm"],
+    "category": ["Natural"],
+    "description": "",
+    "sources": [
+      "https://what-if.xkcd.com/151/",
+      "https://www.nature.com/articles/s41598-021-91839-3"
+    ],
+    "tags": ["bioluminescence"]
+  },
+  {
+    "name": "Fluorescent Tube Light",
+    "temperature": 5000,
+    "intensity": 1000,
+    "intensityRange": [500, 5000],
+    "unit": ["lm"],
+    "category": ["Artificial"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fluorescent_lamp",
+      "https://www.homedepot.com/b/Lighting-Light-Bulbs-Tube-Lights-Fluorescent-Tube-Lights/N-5yc1vZ2fkol29"
     ]
   },
   {
@@ -50,13 +106,41 @@
     ]
   },
   {
+    "name": "Light Bulb",
+    "temperature": 2700,
+    "intensity": 800,
+    "intensityRange": [400, 1000],
+    "unit": ["lm"],
+    "category": ["Artificial"],
+    "description": "Today's household lightbulbs has a LED light source whereas older light bulbs were using a glowing tungsten filament. LED:s are much much more energy efficient and makes the use of wattage, as a measure of intensity, not very useful. This is why lumen is preferred.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Incandescent_light_bulb",
+      "https://en.wikipedia.org/wiki/LED_lamp"
+    ],
+    "tags": ["incandescent", "tungsten"]
+  },
+  {
+    "name": "Moonless Clear Night Sky",
+    "temperature": 0,
+    "intensity": 0.002,
+    "unit": ["lx"],
+    "category": ["Natural"],
+    "description": "Even a moonless sky casts some light on earth. A phenomenon called airglow, and also starlight contributes to this",
+    "sources": [
+      "http://stjarnhimlen.se/comp/radfaq.html#10",
+      "https://en.wikipedia.org/wiki/Airglow",
+      "https://en.wikipedia.org/wiki/Starlight"
+    ],
+    "tags": ["airglow"]
+  },
+  {
     "name": "Moonlight",
     "temperature": 4000,
     "intensity": 0.1,
     "intensityRange": [0.05, 0.32],
     "unit": ["lx"],
     "category": ["Natural"],
-    "description": "",
+    "description": "Technically not a light source, since the light from the moon is simply reflected sunlight.",
     "sources": [
       "https://en.wikipedia.org/wiki/Moonlight",
       "https://chrisbrejon.com/cg-cinematography/chapter-4-light-categories/#moon"
@@ -69,31 +153,21 @@
     "unit": ["lm"],
     "category": ["Artificial"],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Flash_(photography)"]
+    "sources": ["https://en.wikipedia.org/wiki/Flash_(photography)"],
+    "tags": ["camera"]
   },
   {
-    "name": "Sodium-vapor Lamp",
+    "name": "Street Light",
     "temperature": 4920,
     "intensity": 60000,
     "intensityRange": [2000, 140000],
     "unit": ["lm"],
     "category": ["Artificial"],
-    "description": "To simulate a sodium-vapor light faithfully you would need a spectral renderer where you can specify the very narrow wavelength range of 589.0 - 589.6 nm in order to get its bespoke monochromatic look.",
+    "description": "The type of yellow light typically used in street lighting is usually a sodium-vapor light. To simulate a sodium-vapor light faithfully you would need a spectral renderer where you can specify the very narrow wavelength range of 589.0 - 589.6 nm in order to get its bespoke monochromatic look.",
     "sources": [
       "https://en.wikipedia.org/wiki/Sodium-vapor_lamp",
       "https://www.1000bulbs.com/fil/categories/high-pressure-sodium-lamps"
-    ]
-  },
-  {
-    "name": "Sun Midday",
-    "temperature": 5778,
-    "intensity": 100000,
-    "unit": ["lx"],
-    "category": ["Natural"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Color_temperature#The_Sun",
-      "https://en.wikipedia.org/wiki/Sunlight#Measurement"
-    ]
+    ],
+    "tags": ["sodium", "vapor"]
   }
 ]
