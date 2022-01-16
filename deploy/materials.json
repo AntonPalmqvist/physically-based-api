@@ -15,7 +15,7 @@
   },
   {
     "name": "Aluminum",
-    "albedo": [0.96078, 0.96471, 0.96471],
+    "albedo": [0.913, 0.921, 0.925],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -43,21 +43,20 @@
   },
   {
     "name": "Charcoal",
-    "albedo": [0.15294, 0.15294, 0.15294],
+    "albedo": [0.04, 0.04, 0.04],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.5,
     "category": ["Organic"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
       "https://seblagarde.wordpress.com/2011/08/17/feeding-a-physical-based-lighting-mode/"
     ],
     "tags": [""]
   },
   {
     "name": "Chocolate",
-    "albedo": [0.48235, 0.24706, 0.0],
+    "albedo": [0.198069, 0.05, 0.0],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.5,
@@ -68,7 +67,7 @@
   },
   {
     "name": "Chrome",
-    "albedo": [0.769, 0.769, 0.769],
+    "albedo": [0.55, 0.556, 0.554],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -82,7 +81,7 @@
   },
   {
     "name": "Cobalt",
-    "albedo": [0.83529, 0.83137, 0.81569],
+    "albedo": [0.662, 0.655, 0.634],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -95,7 +94,7 @@
   },
   {
     "name": "Copper",
-    "albedo": [0.98039, 0.81961, 0.76078],
+    "albedo": [0.955, 0.637, 0.538],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -147,7 +146,7 @@
   },
   {
     "name": "Gold",
-    "albedo": [1.0, 0.89, 0.62],
+    "albedo": [1.0, 0.766, 0.336],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -160,7 +159,7 @@
   },
   {
     "name": "Gray Card (18%)",
-    "albedo": [0.46, 0.46, 0.46],
+    "albedo": [0.18, 0.18, 0.18],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.5,
@@ -171,7 +170,7 @@
   },
   {
     "name": "Honey",
-    "albedo": [0.92157, 0.66275, 0.21569],
+    "albedo": [0.83077, 0.397, 0.038],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.504,
@@ -186,7 +185,7 @@
   },
   {
     "name": "Iron",
-    "albedo": [0.77255, 0.78039, 0.78431],
+    "albedo": [0.56, 0.57, 0.58],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -199,7 +198,7 @@
   },
   {
     "name": "Lead",
-    "albedo": [0.83137, 0.83529, 0.85098],
+    "albedo": [0.6549, 0.65882, 0.6902],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -210,7 +209,7 @@
   },
   {
     "name": "Mercury",
-    "albedo": [0.89804, 0.89804, 0.89804],
+    "albedo": [0.78039, 0.77647, 0.77647],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -221,7 +220,7 @@
   },
   {
     "name": "Milk",
-    "albedo": [0.80141, 0.79004, 0.73392],
+    "albedo": [0.603827, 0.584, 0.497],
     "metalness": 0,
     "specular": 0.277,
     "ior": 1.348,
@@ -235,7 +234,7 @@
   },
   {
     "name": "Nickel",
-    "albedo": [0.83137, 0.80392, 0.75294],
+    "albedo": [0.66, 0.609, 0.526],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -262,7 +261,7 @@
   },
   {
     "name": "Platinum",
-    "albedo": [0.83922, 0.81961, 0.78824],
+    "albedo": [0.672, 0.637, 0.585],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -288,7 +287,7 @@
   },
   {
     "name": "Silver",
-    "albedo": [0.98824, 0.98039, 0.96078],
+    "albedo": [0.972, 0.96, 0.915],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -301,7 +300,7 @@
   },
   {
     "name": "Snow",
-    "albedo": [0.9, 0.9, 0.9],
+    "albedo": [0.81, 0.81, 0.81],
     "metalness": 0,
     "specular": 0.224,
     "ior": 1.3098,
@@ -316,7 +315,7 @@
   },
   {
     "name": "Titanium",
-    "albedo": [0.76078, 0.73333, 0.70196],
+    "albedo": [0.542, 0.497, 0.449],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -329,7 +328,7 @@
   },
   {
     "name": "Tungsten",
-    "albedo": [0.96863, 0.92549, 0.88627],
+    "albedo": [0.92549, 0.83529, 0.75686],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -351,7 +350,7 @@
   },
   {
     "name": "Vanadium",
-    "albedo": [0.96863, 0.92549, 0.88627],
+    "albedo": [0.9451, 0.89412, 0.78039],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -362,7 +361,7 @@
   },
   {
     "name": "Vegetable Oil",
-    "albedo": [0.87451, 0.84706, 0.33333],
+    "albedo": [0.737911, 0.687, 0.091],
     "metalness": 0,
     "specular": 0.453,
     "ior": 1.47,
@@ -391,7 +390,7 @@
   },
   {
     "name": "Zinc",
-    "albedo": [0.9451, 0.94118, 0.93725],
+    "albedo": [0.87451, 0.86667, 0.8549],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
