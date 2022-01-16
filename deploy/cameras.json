@@ -10,6 +10,22 @@
     "tags": [""]
   },
   {
+    "name": "Arri Alexa Amira",
+    "sensorSize": [26.4, 14.85],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://www.arri.com/en/camera-systems/cameras/amira"],
+    "tags": ["super 35"]
+  },
+  {
+    "name": "Arri Alexa LF",
+    "sensorSize": [36.7, 25.54],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://www.arri.com/en/camera-systems/cameras/alexa-lf"],
+    "tags": ["super 35"]
+  },
+  {
     "name": "Arri Alexa Mini",
     "sensorSize": [28.25, 18.17],
     "category": ["Movie"],
@@ -24,6 +40,24 @@
     "description": "",
     "sources": ["https://www.arri.com/en/camera-systems/cameras/alexa-mini-lf"],
     "tags": ["super 35"]
+  },
+  {
+    "name": "Arri Alexa SXT W",
+    "sensorSize": [28.25, 18.17],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://www.arri.com/en/camera-systems/cameras/alexa-sxt-w"],
+    "tags": ["super 35"]
+  },
+  {
+    "name": "Blackmagic Pocket Cinema Camera 4K",
+    "sensorSize": [18.96, 10],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.blackmagicdesign.com/products/blackmagicpocketcinemacamera/techspecs/W-CIN-12"
+    ],
+    "tags": ["four thirds"]
   },
   {
     "name": "Blackmagic Studio Camera",
@@ -62,6 +96,49 @@
     "tags": ["aps-c"]
   },
   {
+    "name": "DJI Mavic Air 2",
+    "sensorSize": [6.4, 4.8],
+    "category": ["Mobile"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
+    "tags": ["drone"]
+  },
+  {
+    "name": "DJI Phantom 3",
+    "sensorSize": [6.17, 4.55],
+    "category": ["Mobile"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
+    "tags": ["drone"]
+  },
+  {
+    "name": "GoPro HERO3",
+    "sensorSize": [6.17, 4.55],
+    "category": ["Mobile"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
+    "tags": [""]
+  },
+  {
+    "name": "Iphone XS",
+    "sensorSize": [5.76, 4.29],
+    "category": ["Mobile"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
+    "tags": ["phone"]
+  },
+  {
+    "name": "Leica S",
+    "sensorSize": [45, 30],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Leica_S-System",
+      "https://leica-camera.com/en-SG/photography/cameras/s/s3-black/details"
+    ],
+    "tags": ["medium format"]
+  },
+  {
     "name": "Panavision DXL2",
     "sensorSize": [40.96, 21.6],
     "category": ["Movie"],
@@ -76,6 +153,14 @@
     "description": "",
     "sources": ["https://www.red.com/red-ranger-monstro"],
     "tags": [""]
+  },
+  {
+    "name": "Samsung Galaxy S20 Ultra",
+    "sensorSize": [9.6, 7.2],
+    "category": ["Mobile"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
+    "tags": ["phone"]
   },
   {
     "name": "Sony VENICE",

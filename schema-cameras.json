@@ -24,7 +24,7 @@
       "category": {
         "type": "array",
         "items": {
-          "enum": ["Still", "Movie"]
+          "enum": ["Still", "Movie", "Mobile"]
         },
         "minItems": 1,
         "maxItems": 1

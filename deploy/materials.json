@@ -15,7 +15,7 @@
   },
   {
     "name": "Aluminum",
-    "albedo": [0.913, 0.921, 0.925],
+    "albedo": [0.96078, 0.96471, 0.96471],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -43,14 +43,15 @@
   },
   {
     "name": "Charcoal",
-    "albedo": [0.02, 0.02, 0.02],
+    "albedo": [0.15294, 0.15294, 0.15294],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.5,
     "category": ["Organic"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://seblagarde.wordpress.com/2011/08/17/feeding-a-physical-based-lighting-mode/"
     ],
     "tags": [""]
   },
@@ -67,20 +68,21 @@
   },
   {
     "name": "Chrome",
-    "albedo": [0.55, 0.556, 0.554],
+    "albedo": [0.769, 0.769, 0.769],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
     "category": ["Metals"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://www.chaos.com/blog/understanding-metalness"
     ],
     "tags": ["chromium"]
   },
   {
     "name": "Cobalt",
-    "albedo": [0.662, 0.655, 0.634],
+    "albedo": [0.83529, 0.83137, 0.81569],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -93,7 +95,7 @@
   },
   {
     "name": "Copper",
-    "albedo": [0.955, 0.637, 0.538],
+    "albedo": [0.98039, 0.81961, 0.76078],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -145,7 +147,7 @@
   },
   {
     "name": "Gold",
-    "albedo": [1.0, 0.766, 0.336],
+    "albedo": [1.0, 0.89, 0.62],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -154,6 +156,17 @@
     "sources": [
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
     ],
+    "tags": [""]
+  },
+  {
+    "name": "Gray Card (18%)",
+    "albedo": [0.46, 0.46, 0.46],
+    "metalness": 0,
+    "specular": 0.5,
+    "ior": 1.5,
+    "category": ["Calibration"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/Middle_gray"],
     "tags": [""]
   },
   {
@@ -173,7 +186,7 @@
   },
   {
     "name": "Iron",
-    "albedo": [0.56, 0.57, 0.58],
+    "albedo": [0.77255, 0.78039, 0.78431],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -207,17 +220,6 @@
     "tags": [""]
   },
   {
-    "name": "Middle Gray",
-    "albedo": [0.46, 0.46, 0.46],
-    "metalness": 0,
-    "specular": 0.5,
-    "ior": 1.5,
-    "category": ["Calibration"],
-    "description": "Also known as 18% gray",
-    "sources": ["https://en.wikipedia.org/wiki/Middle_gray"],
-    "tags": [""]
-  },
-  {
     "name": "Milk",
     "albedo": [0.80141, 0.79004, 0.73392],
     "metalness": 0,
@@ -233,7 +235,7 @@
   },
   {
     "name": "Nickel",
-    "albedo": [0.66, 0.609, 0.526],
+    "albedo": [0.83137, 0.80392, 0.75294],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -260,7 +262,7 @@
   },
   {
     "name": "Platinum",
-    "albedo": [0.672, 0.637, 0.585],
+    "albedo": [0.83922, 0.81961, 0.78824],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -286,7 +288,7 @@
   },
   {
     "name": "Silver",
-    "albedo": [0.972, 0.96, 0.915],
+    "albedo": [0.98824, 0.98039, 0.96078],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -299,7 +301,7 @@
   },
   {
     "name": "Snow",
-    "albedo": [0.81, 0.81, 0.81],
+    "albedo": [0.9, 0.9, 0.9],
     "metalness": 0,
     "specular": 0.224,
     "ior": 1.3098,
@@ -307,13 +309,14 @@
     "description": "",
     "sources": [
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://seblagarde.wordpress.com/2011/08/17/feeding-a-physical-based-lighting-mode/",
       "https://refractiveindex.info/?shelf=3d&book=crystals&page=ice"
     ],
     "tags": ["ice"]
   },
   {
     "name": "Titanium",
-    "albedo": [0.542, 0.497, 0.449],
+    "albedo": [0.76078, 0.73333, 0.70196],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
