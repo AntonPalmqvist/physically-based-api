@@ -125,11 +125,12 @@
     "intensity": 0.002,
     "unit": ["lx"],
     "category": ["Natural"],
-    "description": "Even a moonless sky casts some light on earth. A phenomenon called airglow, and also starlight contributes to this",
+    "description": "Even a moonless sky casts some light on earth. A phenomenon called airglow, and also starlight contributes to this. The color of airglow varies",
     "sources": [
       "http://stjarnhimlen.se/comp/radfaq.html#10",
       "https://en.wikipedia.org/wiki/Airglow",
-      "https://en.wikipedia.org/wiki/Starlight"
+      "https://en.wikipedia.org/wiki/Starlight",
+      "https://sciencenotes.org/what-is-airglow/"
     ],
     "tags": ["airglow"]
   },
