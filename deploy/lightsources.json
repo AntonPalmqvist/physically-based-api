@@ -44,7 +44,7 @@
     "intensityRange": [100, 2000],
     "unit": ["cd/m2"],
     "category": ["Artificial"],
-    "description": "Denotes displays like computer monitors, TVs, signage, etc. Typically they have a temperature of 6500K but it varies. The sRGB spec for monitors targets 80 cd/m2. Typically, monitors calibrated for broadcast or studio color grading should have a brightness of 100 cd/m2 in Japan and in the United States, or 120 cd/m2 in the European Union.",
+    "description": "Displays like computer monitors, TVs, signage, etc. Typically they have a temperature of 6500K but it varies. The sRGB spec for monitors targets 80 cd/m2. Typically, monitors calibrated for broadcast or studio color grading should have a brightness of 100 cd/m2 in Japan and in the United States, or 120 cd/m2 in the European Union.",
     "sources": [
       "https://www.digitalview.com/blog/lcd-panels-backlights-brightness/",
       "https://en.wikipedia.org/wiki/Color_temperature",
