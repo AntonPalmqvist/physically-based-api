@@ -5,11 +5,14 @@
     "metalness": 0,
     "specular": 0,
     "ior": 1.000273,
-    "category": ["Organic"],
-    "description": "Measured at standard temperature and pressure (STP)",
+    "density": 1.2,
+    "densityRange": [1.146, 1.423],
+    "category": ["Gas"],
+    "description": "Measured at standard temperature and pressure (STP).",
     "sources": [
       "https://en.wikipedia.org/wiki/List_of_refractive_indices",
-      "https://refractiveindex.info/?shelf=other&book=air&page=Ciddor"
+      "https://refractiveindex.info/?shelf=other&book=air&page=Ciddor",
+      "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""]
   },
@@ -19,27 +22,48 @@
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
+    "density": 2700,
     "category": ["Metals"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": ["aluminium"]
   },
   {
     "name": "Blood",
-    "albedo": [0.612, 0.141, 0.161],
+    "albedo": [0.332452, 0.18, 0.22],
     "metalness": 0,
     "specular": 0.214,
     "ior": 1.301,
+    "density": 1060,
     "category": ["Human"],
     "description": "The color of blood depends on how much oxygen is in the blood. When there is plenty of oxygen, the blood is more reddish in color. The reason that this is so is because of a protein called hemoglobin, which carries the oxygen in your blood. When hemoglobin has a full oxygen load, it gives the blood a reddish color.",
     "sources": [
       "http://scienceline.ucsb.edu/getkey.php?key=2927",
       "https://en.wikipedia.org/wiki/Blood",
-      "https://refractiveindex.info/?shelf=other&book=blood&page=Rowe"
+      "https://refractiveindex.info/?shelf=other&book=blood&page=Rowe",
+      "https://hypertextbook.com/facts/2004/MichaelShmukler.shtml"
     ],
     "tags": [""]
+  },
+  {
+    "name": "Bone",
+    "albedo": [1, 1, 0.871367],
+    "metalness": 0,
+    "specular": 0.5,
+    "ior": 1.5,
+    "density": 1900,
+    "densityRange": [1000, 2000],
+    "category": ["Organic"],
+    "description": "",
+    "sources": [
+      "https://hypertextbook.com/facts/2002/AnnaYarusskaya.shtml",
+      "https://www.tandfonline.com/doi/pdf/10.3109/02841867809127938",
+      "https://en.wikipedia.org/wiki/Ivory_(color)"
+    ],
+    "tags": ["skeleton"]
   },
   {
     "name": "Charcoal",
@@ -47,37 +71,48 @@
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.5,
+    "density": 300,
+    "densityRange": [200, 500],
     "category": ["Organic"],
     "description": "",
     "sources": [
-      "https://seblagarde.wordpress.com/2011/08/17/feeding-a-physical-based-lighting-mode/"
+      "https://seblagarde.wordpress.com/2011/08/17/feeding-a-physical-based-lighting-mode/",
+      "http://ukrfuel.com/news-physical-properties-of-charcoal-22.html",
+      "https://en.wikipedia.org/wiki/Activated_carbon"
     ],
     "tags": [""]
   },
   {
     "name": "Chocolate",
-    "albedo": [0.198069, 0.05, 0.0],
+    "albedo": [0.198, 0.05, 0.0],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.5,
+    "density": 1300,
+    "densityRange": [1229, 1336],
     "category": ["Organic"],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Chocolate_(color)"],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chocolate_(color)",
+      "https://www.density.co.uk/documents/Density-of-Chocolate.pdf"
+    ],
     "tags": [""]
   },
   {
-    "name": "Chrome",
+    "name": "Chromium",
     "albedo": [0.55, 0.556, 0.554],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
+    "density": 7200,
     "category": ["Metals"],
     "description": "",
     "sources": [
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
-      "https://www.chaos.com/blog/understanding-metalness"
+      "https://www.chaos.com/blog/understanding-metalness",
+      "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["chromium"]
+    "tags": ["chrome"]
   },
   {
     "name": "Cobalt",
@@ -85,10 +120,44 @@
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
+    "density": 8900,
     "category": ["Metals"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://en.wikipedia.org/wiki/Density"
+    ],
+    "tags": [""]
+  },
+  {
+    "name": "Concrete",
+    "albedo": [0.51, 0.51, 0.51],
+    "metalness": 0,
+    "specular": 0.5,
+    "ior": 1.5,
+    "density": 2400,
+    "category": ["Organic"],
+    "description": "",
+    "sources": [
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://en.wikipedia.org/wiki/Density"
+    ],
+    "tags": [""]
+  },
+  {
+    "name": "Cooking Oil",
+    "albedo": [0.737911, 0.687, 0.091],
+    "metalness": 0,
+    "specular": 0.453,
+    "ior": 1.47,
+    "density": 920,
+    "category": ["Liquids"],
+    "description": "",
+    "sources": [
+      "https://hypertextbook.com/facts/2006/TingTingLuo.shtml",
+      "https://en.wikipedia.org/wiki/List_of_refractive_indices",
+      "https://www.color-name.com/olive-oil.color",
+      "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""]
   },
@@ -98,10 +167,12 @@
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
+    "density": 8940,
     "category": ["Metals"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""]
   },
@@ -111,6 +182,7 @@
     "metalness": 0,
     "specular": 0.313,
     "ior": 1.376,
+    "density": 0,
     "category": ["Human"],
     "description": "",
     "sources": [
@@ -125,11 +197,13 @@
     "metalness": 0,
     "specular": 0.5,
     "ior": 2.4168,
+    "density": 3500,
     "category": ["Crystals"],
     "description": "",
     "sources": [
       "https://refractiveindex.info/?shelf=3d&book=crystals&page=diamond",
-      "https://www.gemsociety.org/article/table-refractive-index-double-refraction-gems/"
+      "https://www.gemsociety.org/article/table-refractive-index-double-refraction-gems/",
+      "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": ["gem", "gemstone"]
   },
@@ -139,9 +213,13 @@
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.52,
+    "density": 2500,
     "category": ["Crystals"],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Soda%E2%80%93lime_glass"],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Soda%E2%80%93lime_glass",
+      "https://en.wikipedia.org/wiki/Density"
+    ],
     "tags": [""]
   },
   {
@@ -150,10 +228,12 @@
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
+    "density": 19320,
     "category": ["Metals"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""]
   },
@@ -163,6 +243,7 @@
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.5,
+    "density": 0,
     "category": ["Calibration"],
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/Middle_gray"],
@@ -174,12 +255,16 @@
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.504,
+    "density": 1400,
+    "densityRange": [1380, 1450],
     "category": ["Liquids"],
     "description": "Variations in its water content alter its refractive index. Typically, the refractive index for honey ranges from 1.504 at 13% water content to 1.474 at 25%.",
     "sources": [
       "https://www.color-name.com/honey.color",
       "https://en.wikipedia.org/wiki/Honey",
-      "https://carolinahoneybees.com/the-color-of-honey/"
+      "https://carolinahoneybees.com/the-color-of-honey/",
+      "https://books.google.se/books?id=6RfVqdqxCiUC&pg=PA74&redir_esc=y#v=onepage&q&f=false",
+      "https://wiki.anton-paar.com/en/flower-honey-blended/"
     ],
     "tags": [""]
   },
@@ -189,10 +274,12 @@
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
+    "density": 7870,
     "category": ["Metals"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""]
   },
@@ -202,9 +289,13 @@
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
+    "density": 11340,
     "category": ["Metals"],
     "description": "",
-    "sources": ["https://www.chaosgroup.com/blog/understanding-metalness"],
+    "sources": [
+      "https://www.chaosgroup.com/blog/understanding-metalness",
+      "https://en.wikipedia.org/wiki/Density"
+    ],
     "tags": [""]
   },
   {
@@ -213,9 +304,13 @@
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
+    "density": 13546,
     "category": ["Metals"],
     "description": "",
-    "sources": ["https://www.chaosgroup.com/blog/understanding-metalness"],
+    "sources": [
+      "https://www.chaosgroup.com/blog/understanding-metalness",
+      "https://en.wikipedia.org/wiki/Density"
+    ],
     "tags": [""]
   },
   {
@@ -224,11 +319,15 @@
     "metalness": 0,
     "specular": 0.277,
     "ior": 1.348,
+    "density": 1030,
+    "densityRange": [1026, 1035],
     "category": ["Liquids"],
     "description": "Cow's milk",
     "sources": [
       "https://www.researchgate.net/publication/346758555_What_Is_the_Color_of_Milk_and_Dairy_Products_and_How_Is_It_Measured",
-      "http://dairy-technology.blogspot.com/2014/11/refractive-index.html"
+      "http://dairy-technology.blogspot.com/2014/11/refractive-index.html",
+      "https://www.theengineer.co.uk/supplier-network/product/density-measurement-of-milk-and-dairy-products/",
+      "https://hypertextbook.com/facts/2002/AliciaNoelleJones.shtml"
     ],
     "tags": [""]
   },
@@ -238,10 +337,12 @@
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
+    "density": 8900,
     "category": ["Metals"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""]
   },
@@ -251,13 +352,62 @@
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.5848,
+    "density": 1200,
     "category": ["Plastics"],
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Polycarbonate",
-      "https://refractiveindex.info/?shelf=3d&book=plastics&page=pc"
+      "https://refractiveindex.info/?shelf=3d&book=plastics&page=pc",
+      "https://www.bpf.co.uk/plastipedia/polymers/polycarbonate.aspx"
     ],
     "tags": ["plastic"]
+  },
+  {
+    "name": "Polyethylene Terephthalate",
+    "albedo": [1, 1, 1],
+    "metalness": 0,
+    "specular": 0.5,
+    "ior": 1.575,
+    "density": 1380,
+    "category": ["Plastics"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Polyethylene_terephthalate",
+      "https://polymerdatabase.com/polymer%20physics/Ref%20Index%20Table2%20.html"
+    ],
+    "tags": ["plastic", "PET"]
+  },
+  {
+    "name": "Polypropylene",
+    "albedo": [1, 1, 1],
+    "metalness": 0,
+    "specular": 0.5,
+    "ior": 1.492,
+    "density": 900,
+    "category": ["Plastics"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Polypropylene",
+      "https://refractiveindex.info/?shelf=3d&book=plastics&page=pc",
+      "https://www.osapublishing.org/ao/viewmedia.cfm?uri=ao-42-3-592"
+    ],
+    "tags": ["plastic"]
+  },
+  {
+    "name": "Polyvinyl Chloride",
+    "albedo": [1, 1, 1],
+    "metalness": 0,
+    "specular": 0.5,
+    "ior": 1.531,
+    "density": 1300,
+    "densityRange": [1100, 1450],
+    "category": ["Plastics"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Polyvinyl_chloride",
+      "https://polymerdatabase.com/polymer%20physics/Ref%20Index%20Table2%20.html"
+    ],
+    "tags": ["plastic", "PVC"]
   },
   {
     "name": "Platinum",
@@ -265,10 +415,12 @@
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
+    "density": 21450,
     "category": ["Metals"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""]
   },
@@ -278,10 +430,12 @@
     "metalness": 0,
     "specular": 0.544,
     "ior": 1.5275,
+    "density": 2170,
     "category": ["Crystals"],
     "description": "",
     "sources": [
-      "https://refractiveindex.info/?shelf=3d&book=crystals&page=salt"
+      "https://refractiveindex.info/?shelf=3d&book=crystals&page=salt",
+      "https://en.wikipedia.org/wiki/Sodium_chloride"
     ],
     "tags": []
   },
@@ -291,10 +445,12 @@
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
+    "density": 10500,
     "category": ["Metals"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""]
   },
@@ -304,12 +460,14 @@
     "metalness": 0,
     "specular": 0.224,
     "ior": 1.3098,
+    "density": 917,
     "category": ["Crystals"],
     "description": "",
     "sources": [
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
       "https://seblagarde.wordpress.com/2011/08/17/feeding-a-physical-based-lighting-mode/",
-      "https://refractiveindex.info/?shelf=3d&book=crystals&page=ice"
+      "https://refractiveindex.info/?shelf=3d&book=crystals&page=ice",
+      "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": ["ice"]
   },
@@ -319,10 +477,12 @@
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
+    "density": 4540,
     "category": ["Metals"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
+      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""]
   },
@@ -332,9 +492,13 @@
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
+    "density": 19300,
     "category": ["Metals"],
     "description": "",
-    "sources": ["https://www.chaosgroup.com/blog/understanding-metalness"],
+    "sources": [
+      "https://www.chaosgroup.com/blog/understanding-metalness",
+      "https://en.wikipedia.org/wiki/Density"
+    ],
     "tags": [""]
   },
   {
@@ -343,9 +507,13 @@
     "metalness": 0,
     "specular": 0,
     "ior": 1.0,
+    "density": 0,
     "category": ["Organic"],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/List_of_refractive_indices"],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_refractive_indices",
+      "https://math.ucr.edu/home/baez/vacuum.html"
+    ],
     "tags": [""]
   },
   {
@@ -354,23 +522,12 @@
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
+    "density": 6100,
     "category": ["Metals"],
     "description": "",
-    "sources": ["https://www.chaosgroup.com/blog/understanding-metalness"],
-    "tags": [""]
-  },
-  {
-    "name": "Vegetable Oil",
-    "albedo": [0.737911, 0.687, 0.091],
-    "metalness": 0,
-    "specular": 0.453,
-    "ior": 1.47,
-    "category": ["Liquids"],
-    "description": "",
     "sources": [
-      "https://hypertextbook.com/facts/2006/TingTingLuo.shtml",
-      "https://en.wikipedia.org/wiki/List_of_refractive_indices",
-      "https://www.color-name.com/olive-oil.color"
+      "https://www.chaosgroup.com/blog/understanding-metalness",
+      "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""]
   },
@@ -380,11 +537,15 @@
     "metalness": 0,
     "specular": 0.255,
     "ior": 1.3325,
+    "density": 1000,
+    "densityRange": [958, 1000],
     "category": ["Liquids"],
     "description": "Liquid water (H2O) at 25 °C",
     "sources": [
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
-      "https://refractiveindex.info/?shelf=3d&book=liquids&page=water"
+      "https://refractiveindex.info/?shelf=3d&book=liquids&page=water",
+      "https://en.wikipedia.org/wiki/Density",
+      "https://en.wikipedia.org/wiki/Properties_of_water#Density_of_water_and_ice"
     ],
     "tags": [""]
   },
@@ -394,9 +555,13 @@
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
+    "density": 7000,
     "category": ["Metals"],
     "description": "",
-    "sources": ["https://www.chaosgroup.com/blog/understanding-metalness"],
+    "sources": [
+      "https://www.chaosgroup.com/blog/understanding-metalness",
+      "https://en.wikipedia.org/wiki/Density"
+    ],
     "tags": [""]
   }
 ]
