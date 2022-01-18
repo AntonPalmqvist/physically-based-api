@@ -33,7 +33,7 @@
   },
   {
     "name": "Blood",
-    "albedo": [0.332452, 0.18, 0.22],
+    "albedo": [0.64448, 0.003, 0.005],
     "metalness": 0,
     "specular": 0.214,
     "ior": 1.301,
@@ -44,7 +44,8 @@
       "http://scienceline.ucsb.edu/getkey.php?key=2927",
       "https://en.wikipedia.org/wiki/Blood",
       "https://refractiveindex.info/?shelf=other&book=blood&page=Rowe",
-      "https://hypertextbook.com/facts/2004/MichaelShmukler.shtml"
+      "https://hypertextbook.com/facts/2004/MichaelShmukler.shtml",
+      "https://www.researchgate.net/figure/Color-chart-for-the-measurement-of-methemoglobin-The-color-chart-was-prepared-according_fig2_26884296"
     ],
     "tags": [""]
   },
@@ -347,7 +348,7 @@
     "tags": [""]
   },
   {
-    "name": "Polycarbonate",
+    "name": "Polycarbonate (PC)",
     "albedo": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
@@ -363,7 +364,7 @@
     "tags": ["plastic"]
   },
   {
-    "name": "Polyethylene Terephthalate",
+    "name": "Polyethylene Terephthalate (PET)",
     "albedo": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
@@ -378,7 +379,7 @@
     "tags": ["plastic", "PET"]
   },
   {
-    "name": "Polypropylene",
+    "name": "Polypropylene (PP)",
     "albedo": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
@@ -394,7 +395,7 @@
     "tags": ["plastic"]
   },
   {
-    "name": "Polyvinyl Chloride",
+    "name": "Polyvinyl Chloride (PVC)",
     "albedo": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
