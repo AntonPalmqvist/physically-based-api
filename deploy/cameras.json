@@ -23,7 +23,7 @@
     "category": ["Movie"],
     "description": "",
     "sources": ["https://www.arri.com/en/camera-systems/cameras/alexa-lf"],
-    "tags": ["super 35"]
+    "tags": ["super 35", "imax"]
   },
   {
     "name": "Arri Alexa Mini",
@@ -39,7 +39,7 @@
     "category": ["Movie"],
     "description": "",
     "sources": ["https://www.arri.com/en/camera-systems/cameras/alexa-mini-lf"],
-    "tags": ["super 35"]
+    "tags": ["super 35", "imax"]
   },
   {
     "name": "Arri Alexa SXT W",
@@ -112,11 +112,14 @@
     "tags": ["drone"]
   },
   {
-    "name": "GoPro HERO3",
+    "name": "GoPro HERO Series",
     "sensorSize": [6.17, 4.55],
     "category": ["Mobile"],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Image_sensor_format",
+      "https://en.wikipedia.org/wiki/GoPro"
+    ],
     "tags": [""]
   },
   {
@@ -144,7 +147,7 @@
     "category": ["Movie"],
     "description": "",
     "sources": ["https://dxl.panavision.com/"],
-    "tags": [""]
+    "tags": ["imax"]
   },
   {
     "name": "RED Ranger Monstro",
@@ -152,7 +155,7 @@
     "category": ["Movie"],
     "description": "",
     "sources": ["https://www.red.com/red-ranger-monstro"],
-    "tags": [""]
+    "tags": ["imax"]
   },
   {
     "name": "Samsung Galaxy S20 Ultra",
@@ -171,6 +174,6 @@
       "https://pro.sony/ue_US/products/digital-cinema-cameras/venice",
       "https://en.wikipedia.org/wiki/List_of_Sony_E-mount_cameras"
     ],
-    "tags": [""]
+    "tags": ["imax"]
   }
 ]

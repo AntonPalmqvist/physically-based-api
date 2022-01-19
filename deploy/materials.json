@@ -67,6 +67,40 @@
     "tags": ["skeleton"]
   },
   {
+    "name": "Brick",
+    "albedo": [0.381326, 0.13, 0.089],
+    "metalness": 0,
+    "specular": 0.5,
+    "ior": 1.5,
+    "density": 2000,
+    "densityRange": [500, 2400],
+    "category": ["Manmade"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brick",
+      "https://www.engineeringtoolbox.com/bricks-density-d_1777.html",
+      "https://www.beldenbrick.com/brick/brick-colors/color/texture/mm/size/finish/belcrest_100"
+    ],
+    "tags": ["skeleton"]
+  },
+  {
+    "name": "Carbon Fiber",
+    "albedo": [0.1, 0.1, 0.1],
+    "metalness": 0,
+    "specular": 0.5,
+    "ior": 1.5,
+    "density": 1550,
+    "densityRange": [1500, 2000],
+    "category": ["Manmade"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Carbon-fiber-reinforced_polymers",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0008622315302001",
+      "http://www.dexcraft.com/articles/carbon-fiber-composites/aluminium-vs-carbon-fiber-comparison-of-materials/"
+    ],
+    "tags": ["skeleton"]
+  },
+  {
     "name": "Charcoal",
     "albedo": [0.04, 0.04, 0.04],
     "metalness": 0,
@@ -137,7 +171,7 @@
     "specular": 0.5,
     "ior": 1.5,
     "density": 2400,
-    "category": ["Organic"],
+    "category": ["Manmade"],
     "description": "",
     "sources": [
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
@@ -376,7 +410,22 @@
       "https://en.wikipedia.org/wiki/Polyethylene_terephthalate",
       "https://polymerdatabase.com/polymer%20physics/Ref%20Index%20Table2%20.html"
     ],
-    "tags": ["plastic", "PET"]
+    "tags": ["plastic"]
+  },
+  {
+    "name": "Poly(methyl methacrylate) (Acrylic)",
+    "albedo": [1, 1, 1],
+    "metalness": 0,
+    "specular": 0.5,
+    "ior": 1.476,
+    "density": 1180,
+    "category": ["Plastics"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)",
+      "https://polymerdatabase.com/polymer%20physics/Ref%20Index%20Table2%20.html"
+    ],
+    "tags": ["plastic", "PMMA", "plexi"]
   },
   {
     "name": "Polypropylene (PP)",
@@ -408,7 +457,7 @@
       "https://en.wikipedia.org/wiki/Polyvinyl_chloride",
       "https://polymerdatabase.com/polymer%20physics/Ref%20Index%20Table2%20.html"
     ],
-    "tags": ["plastic", "PVC"]
+    "tags": ["plastic"]
   },
   {
     "name": "Platinum",

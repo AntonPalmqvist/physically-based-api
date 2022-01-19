@@ -59,7 +59,8 @@
             "Human",
             "Calibration",
             "Plastics",
-            "Gas"
+            "Gas",
+            "Manmade"
           ]
         },
         "minItems": 1,
