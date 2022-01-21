@@ -68,7 +68,7 @@
       },
       "description": {
         "type": "string",
-        "maxLength": 400
+        "maxLength": 500
       },
       "sources": {
         "type": "array",
