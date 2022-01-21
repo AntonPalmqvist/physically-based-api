@@ -33,6 +33,21 @@
         "type": "number",
         "default": 1.5
       },
+      "density": {
+        "description": "Density measured in kg/m3.",
+        "type": "number",
+        "default": 1000
+      },
+      "densityRange": {
+        "description": "The typical range of density.",
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "default": [1000, 1000],
+        "minItems": 2,
+        "maxItems": 2
+      },
       "category": {
         "type": "array",
         "items": {
@@ -43,7 +58,9 @@
             "Organic",
             "Human",
             "Calibration",
-            "Plastics"
+            "Plastics",
+            "Gas",
+            "Manmade"
           ]
         },
         "minItems": 1,
@@ -77,6 +94,7 @@
       "metalness",
       "specular",
       "ior",
+      "density",
       "category",
       "description",
       "sources"
