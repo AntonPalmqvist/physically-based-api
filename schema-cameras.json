@@ -30,7 +30,8 @@
         "maxItems": 1
       },
       "description": {
-        "type": "string"
+        "type": "string",
+        "maxLength": 400
       },
       "sources": {
         "type": "array",
