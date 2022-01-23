@@ -281,7 +281,7 @@
     "ior": 1.5,
     "density": 0,
     "category": ["Calibration"],
-    "description": "",
+    "description": "18% gray has a perceptual lightness of 50%.",
     "sources": ["https://en.wikipedia.org/wiki/Middle_gray"],
     "tags": [""]
   },
