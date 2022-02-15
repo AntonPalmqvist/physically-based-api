@@ -13,6 +13,50 @@
       name="google-site-verification"
       content="U2EED-cL3HjaIzPZpQPxEpBMokNh9eNig9VtsDKLoms"
     />
+    <style>
+      html {
+        color: #323232;
+        background: #dcdbd4;
+        font-family: monospace, "Segoe UI", Verdana, Arial, sans-serif;
+      }
+      body {
+        margin: 0 10px;
+      }
+      a:link {
+        color: #323232;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:visited {
+        color: #323232;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      a:active {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      ::selection {
+        background: #323232;
+        color: #dcdbd4;
+      }
+      h1 {
+        margin-bottom: 0px;
+      }
+      h2 {
+        text-align: left;
+        margin-bottom: 15px;
+        font-weight: 400;
+      }
+      hr {
+        background-color: #bbbab5;
+        height: 1px;
+        border: 0;
+      }
+    </style>
     <script
       defer
       data-domain="api.physicallybased.info"
@@ -20,8 +64,9 @@
     ></script>
   </head>
 
-  <body style="font-family: sans-serif">
+  <body>
     <h1>The PBR Database API</h1>
+    <hr />
     <p>
       This is an API where you can look up physically based values for your CG
       materials.
@@ -30,14 +75,6 @@
       It is meant to be consumed by DCC applications in the form of plug-ins, or
       any other form that makes sense.
     </p>
-    <p>Here's a list of current implementations:</p>
-    <ul>
-      <li>
-        Web
-        <a href="https://physicallybased.info">https://physicallybased.info</a>
-      </li>
-    </ul>
-
     <p>
       For additions or changes, please make a Pull Request on Github
       <a
@@ -52,24 +89,35 @@
         target="_blank"
         rel="noreferrer"
       >
-        this form</a
+        this form.</a
       >
     </p>
-    <h3>Endpoints</h3>
-    <p>
-      <a href="https://api.physicallybased.info/materials"
-        >https://api.physicallybased.info/materials</a
-      >
-    </p>
-    <p>
-      <a href="https://api.physicallybased.info/lightsources"
-        >https://api.physicallybased.info/lightsources</a
-      >
-    </p>
-    <p>
-      <a href="https://api.physicallybased.info/cameras"
-        >https://api.physicallybased.info/cameras</a
-      >
-    </p>
+    <h2>Implementations</h2>
+    <ul>
+      <li>
+        Web
+        <a href="https://physicallybased.info">https://physicallybased.info</a>
+      </li>
+    </ul>
+    <h2>Endpoints</h2>
+    <ul>
+      <li>
+        <a href="https://api.physicallybased.info/materials"
+          >https://api.physicallybased.info/materials</a
+        >
+      </li>
+
+      <li>
+        <a href="https://api.physicallybased.info/lightsources"
+          >https://api.physicallybased.info/lightsources</a
+        >
+      </li>
+
+      <li>
+        <a href="https://api.physicallybased.info/cameras"
+          >https://api.physicallybased.info/cameras</a
+        >
+      </li>
+    </ul>
   </body>
 </html>
