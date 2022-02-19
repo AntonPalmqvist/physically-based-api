@@ -102,7 +102,7 @@
   },
   {
     "name": "Charcoal",
-    "color": [0.04, 0.04, 0.04],
+    "color": [0.02, 0.02, 0.02],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.5,
@@ -111,6 +111,7 @@
     "category": ["Organic"],
     "description": "",
     "sources": [
+      "https://chrisbrejon.com/articles/albedo-and-pointers-gamut/",
       "https://seblagarde.wordpress.com/2011/08/17/feeding-a-physical-based-lighting-mode/",
       "http://ukrfuel.com/news-physical-properties-of-charcoal-22.html",
       "https://en.wikipedia.org/wiki/Activated_carbon"
@@ -542,6 +543,7 @@
     "color": [0.616, 0.582, 0.544],
     "metalness": 1,
     "specular": 0.5,
+    "specularTint": [0.689, 0.683, 0.689],
     "ior": 1.5,
     "density": 4540,
     "category": ["Metals"],
@@ -564,21 +566,6 @@
     "sources": [
       "https://www.chaosgroup.com/blog/understanding-metalness",
       "https://en.wikipedia.org/wiki/Density"
-    ],
-    "tags": [""]
-  },
-  {
-    "name": "Vacuum",
-    "color": [0, 0, 0],
-    "metalness": 0,
-    "specular": 0,
-    "ior": 1.0,
-    "density": 0,
-    "category": ["Organic"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/List_of_refractive_indices",
-      "https://math.ucr.edu/home/baez/vacuum.html"
     ],
     "tags": [""]
   },
