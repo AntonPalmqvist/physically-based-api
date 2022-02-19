@@ -11,8 +11,8 @@
         "type": "string",
         "default": "Name"
       },
-      "albedo": {
-        "description": "Albedo RGB in decimal format in sRGB primaries.",
+      "color": {
+        "description": "Albedo, or metal color, RGB triplet (vec3) in linear decimal format in rec709 primaries.",
         "type": "array",
         "items": {
           "type": "number"
@@ -28,6 +28,16 @@
       "specular": {
         "type": "number",
         "default": 0.5
+      },
+      "specularTint": {
+        "description": "Specular tint for metals (edge tint), calculated from n and k values.",
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "default": [1, 1, 1],
+        "minItems": 3,
+        "maxItems": 3
       },
       "ior": {
         "type": "number",
@@ -90,7 +100,7 @@
     },
     "required": [
       "name",
-      "albedo",
+      "color",
       "metalness",
       "specular",
       "ior",

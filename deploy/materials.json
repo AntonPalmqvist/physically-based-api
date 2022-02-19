@@ -1,39 +1,24 @@
 [
   {
-    "name": "Air",
-    "albedo": [1, 1, 1],
-    "metalness": 0,
-    "specular": 0,
-    "ior": 1.000273,
-    "density": 1.2,
-    "densityRange": [1.146, 1.423],
-    "category": ["Gas"],
-    "description": "Measured at standard temperature and pressure (STP).",
-    "sources": [
-      "https://en.wikipedia.org/wiki/List_of_refractive_indices",
-      "https://refractiveindex.info/?shelf=other&book=air&page=Ciddor",
-      "https://en.wikipedia.org/wiki/Density"
-    ],
-    "tags": [""]
-  },
-  {
     "name": "Aluminum",
-    "albedo": [0.913, 0.921, 0.925],
+    "color": [0.912, 0.914, 0.92],
     "metalness": 1,
     "specular": 0.5,
+    "specularTint": [0.97, 0.979, 0.988],
     "ior": 1.5,
     "density": 2700,
     "category": ["Metals"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://refractiveindex.info/?shelf=3d&book=metals&page=aluminium",
+      "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": ["aluminium"]
   },
   {
     "name": "Blood",
-    "albedo": [0.64448, 0.003, 0.005],
+    "color": [0.64448, 0.003, 0.005],
     "metalness": 0,
     "specular": 0.214,
     "ior": 1.301,
@@ -51,7 +36,7 @@
   },
   {
     "name": "Bone",
-    "albedo": [1, 1, 0.871367],
+    "color": [1, 1, 0.871367],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.5,
@@ -67,8 +52,23 @@
     "tags": ["skeleton"]
   },
   {
+    "name": "Brass",
+    "color": [0.887, 0.789, 0.434],
+    "metalness": 1,
+    "specular": 0.5,
+    "ior": 1.5,
+    "density": 8600,
+    "category": ["Metals"],
+    "description": "",
+    "sources": [
+      "https://refractiveindex.info/?shelf=3d&book=metals&page=brass",
+      "https://en.wikipedia.org/wiki/Density"
+    ],
+    "tags": ["aluminium"]
+  },
+  {
     "name": "Brick",
-    "albedo": [0.381326, 0.13, 0.089],
+    "color": [0.381326, 0.13, 0.089],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.5,
@@ -85,7 +85,7 @@
   },
   {
     "name": "Carbon Fiber",
-    "albedo": [0.1, 0.1, 0.1],
+    "color": [0.1, 0.1, 0.1],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.5,
@@ -102,7 +102,7 @@
   },
   {
     "name": "Charcoal",
-    "albedo": [0.04, 0.04, 0.04],
+    "color": [0.04, 0.04, 0.04],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.5,
@@ -119,7 +119,7 @@
   },
   {
     "name": "Chocolate",
-    "albedo": [0.198, 0.05, 0.0],
+    "color": [0.198, 0.05, 0.0],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.5,
@@ -135,7 +135,7 @@
   },
   {
     "name": "Chromium",
-    "albedo": [0.55, 0.556, 0.554],
+    "color": [0.55, 0.556, 0.554],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -151,7 +151,7 @@
   },
   {
     "name": "Cobalt",
-    "albedo": [0.662, 0.655, 0.634],
+    "color": [0.662, 0.655, 0.634],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -166,7 +166,7 @@
   },
   {
     "name": "Concrete",
-    "albedo": [0.51, 0.51, 0.51],
+    "color": [0.51, 0.51, 0.51],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.5,
@@ -181,7 +181,7 @@
   },
   {
     "name": "Cooking Oil",
-    "albedo": [0.737911, 0.687, 0.091],
+    "color": [0.737911, 0.687, 0.091],
     "metalness": 0,
     "specular": 0.453,
     "ior": 1.47,
@@ -198,22 +198,24 @@
   },
   {
     "name": "Copper",
-    "albedo": [0.955, 0.637, 0.538],
+    "color": [0.926, 0.721, 0.504],
     "metalness": 1,
     "specular": 0.5,
+    "specularTint": [0.996, 0.957, 0.823],
     "ior": 1.5,
     "density": 8940,
     "category": ["Metals"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://refractiveindex.info/?shelf=3d&book=metals&page=copper",
+      "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""]
   },
   {
     "name": "Cornea",
-    "albedo": [1, 1, 1],
+    "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.313,
     "ior": 1.376,
@@ -228,7 +230,7 @@
   },
   {
     "name": "Diamond",
-    "albedo": [1, 1, 1],
+    "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
     "ior": 2.4168,
@@ -244,7 +246,7 @@
   },
   {
     "name": "Glass",
-    "albedo": [1, 1, 1],
+    "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.52,
@@ -260,22 +262,24 @@
   },
   {
     "name": "Gold",
-    "albedo": [1.0, 0.766, 0.336],
+    "color": [0.944, 0.776, 0.373],
     "metalness": 1,
     "specular": 0.5,
+    "specularTint": [0.998, 0.981, 0.751],
     "ior": 1.5,
     "density": 19320,
     "category": ["Metals"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://refractiveindex.info/?shelf=3d&book=metals&page=gold",
+      "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""]
   },
   {
     "name": "Gray Card (18%)",
-    "albedo": [0.18, 0.18, 0.18],
+    "color": [0.18, 0.18, 0.18],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.5,
@@ -287,7 +291,7 @@
   },
   {
     "name": "Honey",
-    "albedo": [0.83077, 0.397, 0.038],
+    "color": [0.83077, 0.397, 0.038],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.504,
@@ -306,52 +310,58 @@
   },
   {
     "name": "Iron",
-    "albedo": [0.56, 0.57, 0.58],
+    "color": [0.531, 0.512, 0.496],
     "metalness": 1,
     "specular": 0.5,
+    "specularTint": [0.571, 0.54, 0.586],
     "ior": 1.5,
     "density": 7870,
     "category": ["Metals"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://refractiveindex.info/?shelf=3d&book=metals&page=iron",
+      "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""]
   },
   {
     "name": "Lead",
-    "albedo": [0.6549, 0.65882, 0.6902],
+    "color": [0.632, 0.626, 0.641],
     "metalness": 1,
     "specular": 0.5,
+    "specularTint": [0.803, 0.808, 0.862],
     "ior": 1.5,
     "density": 11340,
     "category": ["Metals"],
     "description": "",
     "sources": [
-      "https://www.chaosgroup.com/blog/understanding-metalness",
+      "https://refractiveindex.info/?shelf=3d&book=metals&page=lead",
+      "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""]
   },
   {
     "name": "Mercury",
-    "albedo": [0.78039, 0.77647, 0.77647],
+    "color": [0.781, 0.779, 0.779],
     "metalness": 1,
     "specular": 0.5,
+    "specularTint": [0.879, 0.91, 0.941],
     "ior": 1.5,
     "density": 13546,
     "category": ["Metals"],
     "description": "",
     "sources": [
-      "https://www.chaosgroup.com/blog/understanding-metalness",
+      "https://refractiveindex.info/?shelf=3d&book=metals&page=mercury",
+      "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""]
   },
   {
     "name": "Milk",
-    "albedo": [0.603827, 0.584, 0.497],
+    "color": [0.603827, 0.584, 0.497],
     "metalness": 0,
     "specular": 0.277,
     "ior": 1.348,
@@ -369,22 +379,23 @@
   },
   {
     "name": "Nickel",
-    "albedo": [0.66, 0.609, 0.526],
+    "color": [0.649, 0.61, 0.541],
     "metalness": 1,
     "specular": 0.5,
+    "specularTint": [0.797, 0.801, 0.789],
     "ior": 1.5,
     "density": 8900,
     "category": ["Metals"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""]
   },
   {
     "name": "Polycarbonate (PC)",
-    "albedo": [1, 1, 1],
+    "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.5848,
@@ -400,7 +411,7 @@
   },
   {
     "name": "Polyethylene Terephthalate (PET)",
-    "albedo": [1, 1, 1],
+    "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.575,
@@ -415,7 +426,7 @@
   },
   {
     "name": "Poly(methyl methacrylate) (Acrylic)",
-    "albedo": [1, 1, 1],
+    "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.476,
@@ -430,7 +441,7 @@
   },
   {
     "name": "Polypropylene (PP)",
-    "albedo": [1, 1, 1],
+    "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.492,
@@ -446,7 +457,7 @@
   },
   {
     "name": "Polyvinyl Chloride (PVC)",
-    "albedo": [1, 1, 1],
+    "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.531,
@@ -462,22 +473,24 @@
   },
   {
     "name": "Platinum",
-    "albedo": [0.672, 0.637, 0.585],
+    "color": [0.679, 0.642, 0.588],
     "metalness": 1,
     "specular": 0.5,
+    "specularTint": [0.785, 0.789, 0.784],
     "ior": 1.5,
     "density": 21450,
     "category": ["Metals"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://refractiveindex.info/?shelf=3d&book=metals&page=platinum",
+      "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""]
   },
   {
     "name": "Salt",
-    "albedo": [0.8, 0.8, 0.8],
+    "color": [0.8, 0.8, 0.8],
     "metalness": 0,
     "specular": 0.544,
     "ior": 1.5275,
@@ -492,22 +505,24 @@
   },
   {
     "name": "Silver",
-    "albedo": [0.972, 0.96, 0.915],
+    "color": [0.962, 0.949, 0.922],
     "metalness": 1,
     "specular": 0.5,
+    "specularTint": [0.999, 0.998, 0.998],
     "ior": 1.5,
     "density": 10500,
     "category": ["Metals"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://refractiveindex.info/?shelf=3d&book=metals&page=silver",
+      "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""]
   },
   {
     "name": "Snow",
-    "albedo": [0.81, 0.81, 0.81],
+    "color": [0.81, 0.81, 0.81],
     "metalness": 0,
     "specular": 0.224,
     "ior": 1.3098,
@@ -524,7 +539,7 @@
   },
   {
     "name": "Titanium",
-    "albedo": [0.542, 0.497, 0.449],
+    "color": [0.616, 0.582, 0.544],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -532,14 +547,14 @@
     "category": ["Metals"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://refractiveindex.info/?shelf=3d&book=metals&page=titanium",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""]
   },
   {
     "name": "Tungsten",
-    "albedo": [0.92549, 0.83529, 0.75686],
+    "color": [0.92549, 0.83529, 0.75686],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -554,7 +569,7 @@
   },
   {
     "name": "Vacuum",
-    "albedo": [0, 0, 0],
+    "color": [0, 0, 0],
     "metalness": 0,
     "specular": 0,
     "ior": 1.0,
@@ -569,7 +584,7 @@
   },
   {
     "name": "Vanadium",
-    "albedo": [0.9451, 0.89412, 0.78039],
+    "color": [0.9451, 0.89412, 0.78039],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
@@ -584,7 +599,7 @@
   },
   {
     "name": "Vantablack",
-    "albedo": [0.00035, 0.00035, 0.00035],
+    "color": [0.00035, 0.00035, 0.00035],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.5,
@@ -596,7 +611,7 @@
   },
   {
     "name": "Water",
-    "albedo": [1, 1, 1],
+    "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.255,
     "ior": 1.3325,
@@ -614,7 +629,7 @@
   },
   {
     "name": "Zinc",
-    "albedo": [0.87451, 0.86667, 0.8549],
+    "color": [0.87451, 0.86667, 0.8549],
     "metalness": 1,
     "specular": 0.5,
     "ior": 1.5,
