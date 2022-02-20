@@ -159,7 +159,7 @@
   },
   {
     "name": "Street Light",
-    "temperature": 4920,
+    "temperature": 4900,
     "intensity": 60000,
     "intensityRange": [2000, 140000],
     "unit": ["lm"],

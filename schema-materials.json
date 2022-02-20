@@ -43,6 +43,16 @@
         "type": "number",
         "default": 1.5
       },
+      "complexIor": {
+        "description": "Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel, in the following order: nR, kR, nG, kG, nB, kB. Calculated with a wavelength of 0.65 for red, 0.55 for green and 0.45 for blue",
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "default": [0, 0, 0, 0, 0, 0],
+        "minItems": 6,
+        "maxItems": 6
+      },
       "density": {
         "description": "Density measured in kg/m3.",
         "type": "number",

@@ -268,6 +268,7 @@
     "specular": 0.5,
     "specularTint": [0.998, 0.981, 0.751],
     "ior": 1.5,
+    "complexIor": [0.18299, 3.4242, 0.42108, 2.3459, 1.3734, 1.7704],
     "density": 19320,
     "category": ["Metals"],
     "description": "",
@@ -585,18 +586,6 @@
     "tags": [""]
   },
   {
-    "name": "Vantablack",
-    "color": [0.00035, 0.00035, 0.00035],
-    "metalness": 0,
-    "specular": 0.5,
-    "ior": 1.5,
-    "density": 0,
-    "category": ["Manmade"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Vantablack"],
-    "tags": [""]
-  },
-  {
     "name": "Water",
     "color": [1, 1, 1],
     "metalness": 0,
@@ -610,7 +599,8 @@
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
       "https://refractiveindex.info/?shelf=3d&book=liquids&page=water",
       "https://en.wikipedia.org/wiki/Density",
-      "https://en.wikipedia.org/wiki/Properties_of_water#Density_of_water_and_ice"
+      "https://en.wikipedia.org/wiki/Properties_of_water#Density_of_water_and_ice",
+      "https://en.wikipedia.org/wiki/Color_of_water"
     ],
     "tags": [""]
   },
