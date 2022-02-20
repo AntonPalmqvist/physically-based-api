@@ -407,7 +407,7 @@
     "tags": [""]
   },
   {
-    "name": "Polycarbonate (PC)",
+    "name": "Plastic (PC)",
     "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
@@ -420,10 +420,10 @@
       "https://refractiveindex.info/?shelf=3d&book=plastics&page=pc",
       "https://www.bpf.co.uk/plastipedia/polymers/polycarbonate.aspx"
     ],
-    "tags": ["plastic"]
+    "tags": ["polycarbonate"]
   },
   {
-    "name": "Polyethylene Terephthalate (PET)",
+    "name": "Plastic (PET)",
     "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
@@ -435,10 +435,10 @@
       "https://en.wikipedia.org/wiki/Polyethylene_terephthalate",
       "https://polymerdatabase.com/polymer%20physics/Ref%20Index%20Table2%20.html"
     ],
-    "tags": ["plastic"]
+    "tags": ["polyethylene terephthalate"]
   },
   {
-    "name": "Poly(methyl methacrylate) (Acrylic)",
+    "name": "Plastic (Acrylic)",
     "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
@@ -450,10 +450,10 @@
       "https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)",
       "https://polymerdatabase.com/polymer%20physics/Ref%20Index%20Table2%20.html"
     ],
-    "tags": ["plastic", "PMMA", "plexi"]
+    "tags": ["PMMA", "plexi", "polymethyl methacrylate"]
   },
   {
-    "name": "Polypropylene (PP)",
+    "name": "Plastic (PP)",
     "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
@@ -466,10 +466,10 @@
       "https://refractiveindex.info/?shelf=3d&book=plastics&page=pc",
       "https://www.osapublishing.org/ao/viewmedia.cfm?uri=ao-42-3-592"
     ],
-    "tags": ["plastic"]
+    "tags": ["polypropylene"]
   },
   {
-    "name": "Polyvinyl Chloride (PVC)",
+    "name": "Plastic (PVC)",
     "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
@@ -482,7 +482,7 @@
       "https://en.wikipedia.org/wiki/Polyvinyl_chloride",
       "https://polymerdatabase.com/polymer%20physics/Ref%20Index%20Table2%20.html"
     ],
-    "tags": ["plastic"]
+    "tags": ["polyvinyl chloride"]
   },
   {
     "name": "Platinum",
