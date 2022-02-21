@@ -123,6 +123,14 @@
     "tags": [""]
   },
   {
+    "name": "IMAX 70 mm",
+    "sensorSize": [70.41, 52.63],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/70_mm_film#IMAX_.2815.2F70.29"],
+    "tags": ["film"]
+  },
+  {
     "name": "Iphone XS",
     "sensorSize": [5.76, 4.29],
     "category": ["Mobile"],
@@ -175,5 +183,66 @@
       "https://en.wikipedia.org/wiki/List_of_Sony_E-mount_cameras"
     ],
     "tags": ["imax"]
+  },
+  {
+    "name": "Standard 16 mm",
+    "sensorSize": [10.26, 7.49],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/16_mm_film#Standard_16_mm"],
+    "tags": ["film"]
+  },
+  {
+    "name": "Standard 35 mm",
+    "sensorSize": [22, 16],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/35_mm_movie_film"],
+    "tags": ["film"]
+  },
+  {
+    "name": "Standard 65 mm",
+    "sensorSize": [52.48, 23.01],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/70_mm_film#Technical_specifications"
+    ],
+    "tags": ["film"]
+  },
+  {
+    "name": "Super 8 mm",
+    "sensorSize": [5.79, 4.01],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/Super_8_film"],
+    "tags": ["film"]
+  },
+  {
+    "name": "Super 16 mm",
+    "sensorSize": [12.52, 7.41],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/16_mm_film#Super_16_mm"],
+    "tags": ["film"]
+  },
+  {
+    "name": "Super 35 mm 3-perf",
+    "sensorSize": [24.89, 13.86],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Super_35",
+      "https://en.wikipedia.org/wiki/Image_sensor_format"
+    ],
+    "tags": ["film"]
+  },
+  {
+    "name": "Super 35 mm 4-perf",
+    "sensorSize": [24.89, 18.66],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/Super_35"],
+    "tags": ["film"]
   }
 ]

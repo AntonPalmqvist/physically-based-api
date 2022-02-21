@@ -542,13 +542,14 @@
     "transmission": 1,
     "transmissionColor": [1, 1, 1],
     "transmissionDispersion": 72.2,
-    "density": 3500,
+    "density": 3980,
     "category": ["Crystals"],
     "description": "",
     "sources": [
       "https://refractiveindex.info/?shelf=3d&book=crystals&page=sapphire",
       "https://www.gemsociety.org/article/table-refractive-index-double-refraction-gems/",
-      "https://en.wikipedia.org/wiki/Sapphire"
+      "https://en.wikipedia.org/wiki/Sapphire",
+      "http://www.roditi.com/SingleCrystal/Sapphire/Properties.html"
     ],
     "tags": ["gem", "gemstone"]
   },
