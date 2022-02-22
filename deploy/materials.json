@@ -38,7 +38,7 @@
   },
   {
     "name": "Bone",
-    "color": [1, 1, 0.871367],
+    "color": [0.793, 0.793, 0.664],
     "metalness": 0,
     "specular": 0.5,
     "ior": 1.5,
