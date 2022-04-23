@@ -15,7 +15,10 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["aluminium"]
+    "tags": ["aluminium"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/aluminum-cycles.png"
+    ]
   },
   {
     "name": "Blood",
@@ -34,7 +37,10 @@
       "https://hypertextbook.com/facts/2004/MichaelShmukler.shtml",
       "https://www.researchgate.net/figure/Color-chart-for-the-measurement-of-methemoglobin-The-color-chart-was-prepared-according_fig2_26884296"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/blood-cycles.png"
+    ]
   },
   {
     "name": "Bone",
@@ -51,7 +57,10 @@
       "https://www.tandfonline.com/doi/pdf/10.3109/02841867809127938",
       "https://en.wikipedia.org/wiki/Ivory_(color)"
     ],
-    "tags": ["skeleton"]
+    "tags": ["skeleton"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/bone-cycles.png"
+    ]
   },
   {
     "name": "Brass",
