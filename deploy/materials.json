@@ -5,6 +5,7 @@
     "metalness": 1,
     "specular": 0.5,
     "specularTint": [0.97, 0.979, 0.988],
+    "roughness": 0,
     "ior": 1.5,
     "complexIor": [1.3456, 7.4746, 0.96521, 6.3995, 0.61722, 5.3031],
     "density": 2700,
@@ -25,6 +26,7 @@
     "color": [0.64448, 0.003, 0.005],
     "metalness": 0,
     "specular": 0.214,
+    "roughness": 0,
     "ior": 1.301,
     "transmission": 1,
     "density": 1060,
@@ -47,6 +49,7 @@
     "color": [0.793, 0.793, 0.664],
     "metalness": 0,
     "specular": 0.5,
+    "roughness": 0.5,
     "ior": 1.5,
     "density": 1900,
     "densityRange": [1000, 2000],
@@ -68,6 +71,7 @@
     "metalness": 1,
     "specular": 0.5,
     "specularTint": [0.988, 0.976, 0.843],
+    "roughness": 0,
     "ior": 1.5,
     "complexIor": [0.444, 3.695, 0.527, 2.765, 1.094, 1.829],
     "density": 8600,
@@ -77,13 +81,17 @@
       "https://refractiveindex.info/?shelf=3d&book=metals&page=brass",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["aluminium"]
+    "tags": ["aluminium"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/brass-cycles.png"
+    ]
   },
   {
     "name": "Brick",
     "color": [0.381326, 0.13, 0.089],
     "metalness": 0,
     "specular": 0.5,
+    "roughness": 0.5,
     "ior": 1.5,
     "density": 2000,
     "densityRange": [500, 2400],
@@ -94,13 +102,17 @@
       "https://www.engineeringtoolbox.com/bricks-density-d_1777.html",
       "https://www.beldenbrick.com/brick/brick-colors/color/texture/mm/size/finish/belcrest_100"
     ],
-    "tags": ["skeleton"]
+    "tags": ["skeleton"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/brick-cycles.png"
+    ]
   },
   {
     "name": "Charcoal",
     "color": [0.02, 0.02, 0.02],
     "metalness": 0,
     "specular": 0.5,
+    "roughness": 0.5,
     "ior": 1.5,
     "density": 300,
     "densityRange": [200, 500],
@@ -112,13 +124,17 @@
       "http://ukrfuel.com/news-physical-properties-of-charcoal-22.html",
       "https://en.wikipedia.org/wiki/Activated_carbon"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/charcoal-cycles.png"
+    ]
   },
   {
     "name": "Chocolate",
     "color": [0.198, 0.05, 0.0],
     "metalness": 0,
     "specular": 0.5,
+    "roughness": 0.5,
     "ior": 1.5,
     "density": 1300,
     "densityRange": [1229, 1336],
@@ -128,7 +144,10 @@
       "https://en.wikipedia.org/wiki/Chocolate_(color)",
       "https://www.density.co.uk/documents/Density-of-Chocolate.pdf"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/chocolate-cycles.png"
+    ]
   },
   {
     "name": "Chromium",
@@ -136,6 +155,7 @@
     "metalness": 1,
     "specular": 0.5,
     "specularTint": [0.57, 0.558, 0.689],
+    "roughness": 0,
     "ior": 1.5,
     "complexIor": [3.1071, 3.3314, 3.1812, 3.3291, 2.323, 3.135],
     "density": 7200,
@@ -147,7 +167,10 @@
       "https://www.chaos.com/blog/understanding-metalness",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["chrome"]
+    "tags": ["chrome"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/chromium-cycles.png"
+    ]
   },
   {
     "name": "Cobalt",
@@ -155,6 +178,7 @@
     "metalness": 1,
     "specular": 0.5,
     "specularTint": [0.803, 0.803, 0.816],
+    "roughness": 0,
     "ior": 1.5,
     "complexIor": [2.2371, 4.2357, 2.0524, 3.8242, 1.7365, 3.2745],
     "density": 8900,
@@ -165,13 +189,17 @@
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/cobalt-cycles.png"
+    ]
   },
   {
     "name": "Concrete",
     "color": [0.51, 0.51, 0.51],
     "metalness": 0,
     "specular": 0.5,
+    "roughness": 0.5,
     "ior": 1.5,
     "density": 2400,
     "category": ["Manmade"],
@@ -180,13 +208,17 @@
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/concrete-cycles.png"
+    ]
   },
   {
     "name": "Cooking Oil",
     "color": [0.737911, 0.687, 0.091],
     "metalness": 0,
     "specular": 0.453,
+    "roughness": 0,
     "ior": 1.47,
     "transmission": 1,
     "density": 920,
@@ -198,7 +230,10 @@
       "https://www.color-name.com/olive-oil.color",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/cooking-oil-cycles.png"
+    ]
   },
   {
     "name": "Copper",
@@ -206,6 +241,7 @@
     "metalness": 1,
     "specular": 0.5,
     "specularTint": [0.996, 0.957, 0.823],
+    "roughness": 0,
     "ior": 1.5,
     "complexIor": [0.27105, 3.6092, 0.67693, 2.6248, 1.3164, 2.2921],
     "density": 8940,
@@ -216,13 +252,17 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/copper-cycles.png"
+    ]
   },
   {
     "name": "Cornea",
     "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.313,
+    "roughness": 0,
     "ior": 1.376,
     "transmission": 1,
     "transmissionColor": [1, 1, 1],
@@ -233,13 +273,17 @@
       "https://en.wikipedia.org/wiki/Cornea",
       "https://www.sciencedirect.com/science/article/abs/pii/S1367048418310452"
     ],
-    "tags": ["eye"]
+    "tags": ["eye"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/cornea-cycles.png"
+    ]
   },
   {
     "name": "Diamond",
     "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
+    "roughness": 0,
     "ior": 2.4168,
     "transmission": 1,
     "transmissionColor": [1, 1, 1],
@@ -251,13 +295,17 @@
       "https://www.gemsociety.org/article/table-refractive-index-double-refraction-gems/",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["gem", "gemstone"]
+    "tags": ["gem", "gemstone"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/diamond-cycles.png"
+    ]
   },
   {
     "name": "Glass",
     "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
+    "roughness": 0,
     "ior": 1.52,
     "transmission": 1,
     "transmissionColor": [1, 1, 1],
@@ -271,7 +319,10 @@
       "https://en.wikipedia.org/wiki/Density",
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/glass-cycles.png"
+    ]
   },
   {
     "name": "Gold",
@@ -279,6 +330,7 @@
     "metalness": 1,
     "specular": 0.5,
     "specularTint": [0.998, 0.981, 0.751],
+    "roughness": 0,
     "ior": 1.5,
     "complexIor": [0.18299, 3.4242, 0.42108, 2.3459, 1.3734, 1.7704],
     "density": 19320,
@@ -289,25 +341,33 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/gold-cycles.png"
+    ]
   },
   {
     "name": "Gray Card (18%)",
     "color": [0.18, 0.18, 0.18],
     "metalness": 0,
     "specular": 0.5,
+    "roughness": 0.5,
     "ior": 1.5,
     "density": 0,
     "category": ["Calibration"],
     "description": "18% gray has a perceptual lightness of 50%.",
     "sources": ["https://en.wikipedia.org/wiki/Middle_gray"],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/gray-card-cycles.png"
+    ]
   },
   {
     "name": "Honey",
     "color": [0.83077, 0.397, 0.038],
     "metalness": 0,
     "specular": 0.5,
+    "roughness": 0,
     "ior": 1.504,
     "transmission": 1,
     "density": 1400,
@@ -321,7 +381,10 @@
       "https://books.google.se/books?id=6RfVqdqxCiUC&pg=PA74&redir_esc=y#v=onepage&q&f=false",
       "https://wiki.anton-paar.com/en/flower-honey-blended/"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/honey-cycles.png"
+    ]
   },
   {
     "name": "Iron",
@@ -329,6 +392,7 @@
     "metalness": 1,
     "specular": 0.5,
     "specularTint": [0.571, 0.54, 0.586],
+    "roughness": 0,
     "ior": 1.5,
     "complexIor": [2.9114, 3.0893, 2.9497, 2.9318, 2.5845, 2.767],
     "density": 7870,
@@ -339,7 +403,10 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/iron-cycles.png"
+    ]
   },
   {
     "name": "Lead",
@@ -347,6 +414,7 @@
     "metalness": 1,
     "specular": 0.5,
     "specularTint": [0.803, 0.808, 0.862],
+    "roughness": 0,
     "ior": 1.5,
     "complexIor": [1.91, 3.51, 1.83, 3.4, 1.44, 3.18],
     "density": 11340,
@@ -357,7 +425,10 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/lead-cycles.png"
+    ]
   },
   {
     "name": "Mercury",
@@ -365,6 +436,7 @@
     "metalness": 1,
     "specular": 0.5,
     "specularTint": [0.879, 0.91, 0.941],
+    "roughness": 0,
     "ior": 1.5,
     "complexIor": [2.0733, 5.3383, 1.5523, 4.651, 1.0606, 3.8628],
     "density": 13546,
@@ -375,13 +447,17 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/mercury-cycles.png"
+    ]
   },
   {
     "name": "Milk",
     "color": [0.603827, 0.584, 0.497],
     "metalness": 0,
     "specular": 0.277,
+    "roughness": 0,
     "ior": 1.348,
     "density": 1030,
     "densityRange": [1026, 1035],
@@ -393,7 +469,10 @@
       "https://www.theengineer.co.uk/supplier-network/product/density-measurement-of-milk-and-dairy-products/",
       "https://hypertextbook.com/facts/2002/AliciaNoelleJones.shtml"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/milk-cycles.png"
+    ]
   },
   {
     "name": "Nickel",
@@ -401,6 +480,7 @@
     "metalness": 1,
     "specular": 0.5,
     "specularTint": [0.797, 0.801, 0.789],
+    "roughness": 0,
     "ior": 1.5,
     "complexIor": [1.99, 4.2086, 1.9212, 3.6158, 1.729, 2.9435],
     "density": 8900,
@@ -410,13 +490,17 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/nickel-cycles.png"
+    ]
   },
   {
     "name": "Plastic (PC)",
     "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
+    "roughness": 0,
     "ior": 1.5848,
     "density": 1200,
     "category": ["Plastics"],
@@ -426,13 +510,17 @@
       "https://refractiveindex.info/?shelf=3d&book=plastics&page=pc",
       "https://www.bpf.co.uk/plastipedia/polymers/polycarbonate.aspx"
     ],
-    "tags": ["polycarbonate"]
+    "tags": ["polycarbonate"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/plastic-pc-cycles.png"
+    ]
   },
   {
     "name": "Plastic (PET)",
     "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
+    "roughness": 0,
     "ior": 1.575,
     "density": 1380,
     "category": ["Plastics"],
@@ -441,13 +529,17 @@
       "https://en.wikipedia.org/wiki/Polyethylene_terephthalate",
       "https://polymerdatabase.com/polymer%20physics/Ref%20Index%20Table2%20.html"
     ],
-    "tags": ["polyethylene terephthalate"]
+    "tags": ["polyethylene terephthalate"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/plastic-pet-cycles.png"
+    ]
   },
   {
     "name": "Plastic (Acrylic)",
     "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
+    "roughness": 0,
     "ior": 1.476,
     "density": 1180,
     "category": ["Plastics"],
@@ -456,13 +548,17 @@
       "https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)",
       "https://polymerdatabase.com/polymer%20physics/Ref%20Index%20Table2%20.html"
     ],
-    "tags": ["PMMA", "plexi", "polymethyl methacrylate"]
+    "tags": ["PMMA", "plexi", "polymethyl methacrylate"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/plastic-acrylic-cycles.png"
+    ]
   },
   {
     "name": "Plastic (PP)",
     "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
+    "roughness": 0,
     "ior": 1.492,
     "density": 900,
     "category": ["Plastics"],
@@ -472,13 +568,17 @@
       "https://refractiveindex.info/?shelf=3d&book=plastics&page=pc",
       "https://www.osapublishing.org/ao/viewmedia.cfm?uri=ao-42-3-592"
     ],
-    "tags": ["polypropylene"]
+    "tags": ["polypropylene"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/plastic-pp-cycles.png"
+    ]
   },
   {
     "name": "Plastic (PVC)",
     "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.5,
+    "roughness": 0,
     "ior": 1.531,
     "density": 1300,
     "densityRange": [1100, 1450],
@@ -488,7 +588,10 @@
       "https://en.wikipedia.org/wiki/Polyvinyl_chloride",
       "https://polymerdatabase.com/polymer%20physics/Ref%20Index%20Table2%20.html"
     ],
-    "tags": ["polyvinyl chloride"]
+    "tags": ["polyvinyl chloride"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/plastic-pvc-cycles.png"
+    ]
   },
   {
     "name": "Platinum",
@@ -496,6 +599,7 @@
     "metalness": 1,
     "specular": 0.5,
     "specularTint": [0.785, 0.789, 0.784],
+    "roughness": 0,
     "ior": 1.5,
     "complexIor": [2.3757, 4.2655, 2.0847, 3.7153, 1.8453, 3.1365],
     "density": 21450,
@@ -506,13 +610,17 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/platinum-cycles.png"
+    ]
   },
   {
     "name": "Salt",
     "color": [0.8, 0.8, 0.8],
     "metalness": 0,
     "specular": 0.544,
+    "roughness": 0.2,
     "ior": 1.5275,
     "transmission": 1,
     "transmissionColor": [1, 1, 1],
@@ -523,13 +631,17 @@
       "https://refractiveindex.info/?shelf=3d&book=crystals&page=salt",
       "https://en.wikipedia.org/wiki/Sodium_chloride"
     ],
-    "tags": []
+    "tags": [],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/salt-cycles.png"
+    ]
   },
   {
     "name": "Sapphire",
     "color": [0.67, 0.764, 0.855],
     "metalness": 0,
     "specular": 0.963,
+    "roughness": 0,
     "ior": 1.7682,
     "transmission": 1,
     "transmissionColor": [1, 1, 1],
@@ -543,7 +655,10 @@
       "https://en.wikipedia.org/wiki/Sapphire",
       "http://www.roditi.com/SingleCrystal/Sapphire/Properties.html"
     ],
-    "tags": ["gem", "gemstone"]
+    "tags": ["gem", "gemstone"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/sapphire-cycles.png"
+    ]
   },
   {
     "name": "Silver",
@@ -551,6 +666,7 @@
     "metalness": 1,
     "specular": 0.5,
     "specularTint": [0.999, 0.998, 0.998],
+    "roughness": 0,
     "ior": 1.5,
     "complexIor": [0.15943, 3.9291, 0.14512, 3.19, 0.13547, 2.3808],
     "density": 10500,
@@ -561,13 +677,17 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/silver-cycles.png"
+    ]
   },
   {
     "name": "Skin",
     "color": [-1, -1, -1],
     "metalness": 0,
     "specular": 0.35,
+    "roughness": 0.5,
     "ior": 1.4,
     "density": 1020,
     "category": ["Human"],
@@ -576,13 +696,17 @@
       "https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-17/issue-9/090901/Optical-properties-of-human-skin/10.1117/1.JBO.17.9.090901.full?SSO=1",
       "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699319/"
     ],
-    "tags": ["epidermis"]
+    "tags": ["epidermis"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-cycles.png"
+    ]
   },
   {
     "name": "Snow",
     "color": [0.81, 0.81, 0.81],
     "metalness": 0,
     "specular": 0.224,
+    "roughness": 0.5,
     "ior": 1.3098,
     "density": 917,
     "category": ["Crystals"],
@@ -593,7 +717,10 @@
       "https://refractiveindex.info/?shelf=3d&book=crystals&page=ice",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["ice"]
+    "tags": ["ice"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/snow-cycles.png"
+    ]
   },
   {
     "name": "Titanium",
@@ -601,6 +728,7 @@
     "metalness": 1,
     "specular": 0.5,
     "specularTint": [0.689, 0.683, 0.689],
+    "roughness": 0,
     "ior": 1.5,
     "complexIor": [2.7407, 3.8143, 2.5418, 3.4345, 2.267, 3.0385],
     "density": 4540,
@@ -610,7 +738,10 @@
       "https://refractiveindex.info/?shelf=3d&book=metals&page=titanium",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/titanium-cycles.png"
+    ]
   },
   {
     "name": "Tungsten",
@@ -618,6 +749,7 @@
     "metalness": 1,
     "specular": 0.5,
     "specularTint": [0.983, 0.944, 0.854],
+    "roughness": 0,
     "ior": 1.5,
     "complexIor": [0.92074, 6.8595, 1.3437, 5.2293, 2.2323, 5.1461],
     "density": 19300,
@@ -627,7 +759,10 @@
       "https://www.chaosgroup.com/blog/understanding-metalness",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/tungsten-cycles.png"
+    ]
   },
   {
     "name": "Vanadium",
@@ -635,6 +770,7 @@
     "metalness": 1,
     "specular": 0.5,
     "specularTint": [0.5, 0.395, 0.512],
+    "roughness": 0,
     "ior": 1.5,
     "complexIor": [3.3121, 3.075, 3.9948, 3.0388, 3.5865, 3.4615],
     "density": 6100,
@@ -644,13 +780,17 @@
       "https://www.chaosgroup.com/blog/understanding-metalness",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/vanadium-cycles.png"
+    ]
   },
   {
     "name": "Water",
     "color": [1, 1, 1],
     "metalness": 0,
     "specular": 0.255,
+    "roughness": 0,
     "ior": 1.3325,
     "transmission": 1,
     "transmissionColor": [1, 1, 1],
@@ -667,7 +807,10 @@
       "https://en.wikipedia.org/wiki/Properties_of_water#Density_of_water_and_ice",
       "https://en.wikipedia.org/wiki/Color_of_water"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/water-cycles.png"
+    ]
   },
   {
     "name": "Zinc",
@@ -675,6 +818,7 @@
     "metalness": 1,
     "specular": 0.5,
     "specularTint": [0.96, 0.97, 0.977],
+    "roughness": 0,
     "ior": 1.5,
     "complexIor": [1.2338, 5.873, 0.92943, 4.9751, 0.67767, 4.0122],
     "density": 7000,
@@ -685,6 +829,9 @@
       "https://www.chaosgroup.com/blog/understanding-metalness",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/zinc-cycles.png"
+    ]
   }
 ]
