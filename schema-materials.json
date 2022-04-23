@@ -126,6 +126,14 @@
           "type": "string"
         },
         "uniqueItems": true
+      },
+      "reference": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uniqueItems": true
       }
     },
     "required": [

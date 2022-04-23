@@ -88,23 +88,6 @@
     "tags": ["skeleton"]
   },
   {
-    "name": "Carbon Fiber",
-    "color": [0.1, 0.1, 0.1],
-    "metalness": 0,
-    "specular": 0.5,
-    "ior": 1.5,
-    "density": 1550,
-    "densityRange": [1500, 2000],
-    "category": ["Manmade"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Carbon-fiber-reinforced_polymers",
-      "https://www.sciencedirect.com/science/article/abs/pii/S0008622315302001",
-      "http://www.dexcraft.com/articles/carbon-fiber-composites/aluminium-vs-carbon-fiber-comparison-of-materials/"
-    ],
-    "tags": ["skeleton"]
-  },
-  {
     "name": "Charcoal",
     "color": [0.02, 0.02, 0.02],
     "metalness": 0,
@@ -535,7 +518,7 @@
   },
   {
     "name": "Sapphire",
-    "color": [-1, -1, -1],
+    "color": [0.67, 0.764, 0.855],
     "metalness": 0,
     "specular": 0.963,
     "ior": 1.7682,
