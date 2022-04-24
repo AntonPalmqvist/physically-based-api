@@ -47,6 +47,16 @@
         "type": "number",
         "default": 1.5
       },
+      "subsurfaceRadius": {
+        "description": "The approximate distance up to which light can scatter below the surface, also known as “mean free path” (MFP).",
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "default": [1, 1, 1],
+        "minItems": 3,
+        "maxItems": 3
+      },
       "transmission": {
         "description": "",
         "type": "number",
@@ -96,15 +106,15 @@
         "type": "array",
         "items": {
           "enum": [
-            "Metals",
-            "Liquids",
-            "Crystals",
-            "Organic",
-            "Human",
             "Calibration",
-            "Plastics",
+            "Crystal",
             "Gas",
-            "Manmade"
+            "Human",
+            "Liquid",
+            "Manmade",
+            "Metal",
+            "Organic",
+            "Plastic"
           ]
         },
         "minItems": 1,

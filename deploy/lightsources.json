@@ -72,10 +72,11 @@
     "intensity": 0.0006,
     "unit": ["lm"],
     "category": ["Natural"],
-    "description": "Fireflies produce a \"cold light\", with no infrared or ultraviolet frequencies. The light may be yellow, green, or pale red, with wavelengths from 510 to 670 nanometers. Some species such as the dimly glowing \"blue ghost\" of the Eastern US may seem to emit blueish-white light from a distance and in low light conditions, but their glow is bright green when observed up close.[14] Their perceived blue tint may be due to the Purkinje effect.",
+    "description": "Fireflies produce a \"cold light\", with no infrared or ultraviolet frequencies. The light may be yellow, green, or pale red, with wavelengths from 510 to 670 nanometers. Some species such as the dimly glowing \"blue ghost\" of the Eastern US may seem to emit blueish-white light from a distance and in low light conditions, but their glow is bright green when observed up close. Their perceived blue tint may be due to the Purkinje effect.",
     "sources": [
       "https://what-if.xkcd.com/151/",
-      "https://www.nature.com/articles/s41598-021-91839-3"
+      "https://www.nature.com/articles/s41598-021-91839-3",
+      "https://en.wikipedia.org/wiki/Firefly"
     ],
     "tags": ["bioluminescence"]
   },
