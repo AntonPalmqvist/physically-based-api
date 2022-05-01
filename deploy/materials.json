@@ -347,7 +347,7 @@
     ]
   },
   {
-    "name": "Gray Card (18%)",
+    "name": "Gray Card",
     "color": [0.18, 0.18, 0.18],
     "metalness": 0,
     "specular": 0.5,
