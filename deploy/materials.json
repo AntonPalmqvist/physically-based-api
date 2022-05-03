@@ -31,7 +31,7 @@
     "transmission": 1,
     "density": 1060,
     "category": ["Human"],
-    "description": "The color of blood depends on how much oxygen is in the blood. When there is plenty of oxygen, the blood is more reddish in color. The reason that this is so is because of a protein called hemoglobin, which carries the oxygen in your blood. When hemoglobin has a full oxygen load, it gives the blood a reddish color.",
+    "description": "The color of blood depends on how much oxygen there's in the blood. When there is plenty of oxygen, the blood is more reddish in color. The reason is because of a protein called hemoglobin, which carries the oxygen in your blood. When hemoglobin has a full oxygen load, it gives the blood a reddish color.",
     "sources": [
       "http://scienceline.ucsb.edu/getkey.php?key=2927",
       "https://en.wikipedia.org/wiki/Blood",
