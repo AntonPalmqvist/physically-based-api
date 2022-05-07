@@ -311,12 +311,12 @@
     "category": ["Organic"],
     "description": "White hen egg from grocery store.",
     "sources": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/data/materials/egg-shell/measurements.json",
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/data/materials/egg-shell/",
       "https://en.wikipedia.org/wiki/Egg_as_food#Shell"
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/data/materials/egg-shell"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/data/materials/egg-shell-cycles.png"
     ]
   },
   {
@@ -546,11 +546,11 @@
     "category": ["Manmade"],
     "description": "Office paper for printing.",
     "sources": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/data/materials/office-paper/measurements.json"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/data/materials/office-paper"
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/data/materials/office-paper"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/data/materials/office-paper-cycles.png"
     ]
   },
   {
