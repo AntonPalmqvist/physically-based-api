@@ -1,0 +1,10 @@
+[
+  {
+    "device": "Nix Spectro 2",
+    "illuminant": "D50",
+    "observer": 2,
+    "rgb": [0.738, 0.768, 1],
+    "xyz": [76.2, 77.5, 80.9],
+    "cielab": [90.5, 3.08, -15]
+  }
+]
