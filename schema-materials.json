@@ -25,10 +25,6 @@
         "type": "number",
         "default": 0
       },
-      "specular": {
-        "type": "number",
-        "default": 0.5
-      },
       "specularTint": {
         "description": "Specular tint for metals (edge tint), calculated from n and k values.",
         "type": "array",
@@ -102,6 +98,16 @@
         "minItems": 2,
         "maxItems": 2
       },
+      "acousticAbsorption": {
+        "description": "Absorption coefficients at 125, 250, 500, 1000, 2000, and 4000 kHz.",
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "default": [0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
+        "minItems": 6,
+        "maxItems": 6
+      },
       "category": {
         "type": "array",
         "items": {
@@ -119,6 +125,11 @@
         },
         "minItems": 1,
         "maxItems": 1
+      },
+      "group": {
+        "description": "Can be used to group similar materials together.",
+        "type": "string",
+        "default": "Group"
       },
       "description": {
         "type": "string",
@@ -154,7 +165,6 @@
       "name",
       "color",
       "metalness",
-      "specular",
       "roughness",
       "ior",
       "density",

@@ -1,5 +1,6 @@
 [
   {
+    "author": "https://github.com/AntonPalmqvist",
     "device": "Nix Spectro 2",
     "illuminant": "D50",
     "observer": 2,
