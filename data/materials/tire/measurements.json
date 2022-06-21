@@ -1,0 +1,11 @@
+[
+  {
+    "author": "https://github.com/AntonPalmqvist",
+    "device": "Nix Spectro 2",
+    "illuminant": "D50",
+    "observer": 2,
+    "rgb": [0.023, 0.023, 0.023],
+    "xyz": [2.222, 2.296, 1.888],
+    "cielab": [16.97, 0.17, 0.07]
+  }
+]

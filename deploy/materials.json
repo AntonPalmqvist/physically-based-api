@@ -13,9 +13,10 @@
     "sources": [
       "https://refractiveindex.info/?shelf=3d&book=metals&page=aluminium",
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
+      "https://en.wikipedia.org/wiki/Aluminium",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["aluminium"],
+    "tags": ["aluminium", "conductor"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/data/materials/aluminum/aluminum-cycles.png"
     ]
@@ -29,13 +30,11 @@
     "transmission": 1,
     "density": 1060,
     "category": ["Human"],
-    "description": "The color of blood depends on how much oxygen there's in the blood. When there is plenty of oxygen, the blood is more reddish in color. The reason is because of a protein called hemoglobin, which carries the oxygen in your blood. When hemoglobin has a full oxygen load, it gives the blood a reddish color.",
+    "description": "The color of blood depends on its oxygen level. When there is plenty of oxygen, the color is a brighter red. The reason is because of a protein called hemoglobin, which carries the oxygen in your blood. When hemoglobin has a full oxygen load, it has a bright red color, and when it's deoxygenated it's a darker red. For example, arterial and capillary blood is bright, and venous blood is dark.",
     "sources": [
-      "http://scienceline.ucsb.edu/getkey.php?key=2927",
       "https://en.wikipedia.org/wiki/Blood",
       "https://refractiveindex.info/?shelf=other&book=blood&page=Rowe",
-      "https://hypertextbook.com/facts/2004/MichaelShmukler.shtml",
-      "https://www.researchgate.net/figure/Color-chart-for-the-measurement-of-methemoglobin-The-color-chart-was-prepared-according_fig2_26884296"
+      "https://hypertextbook.com/facts/2004/MichaelShmukler.shtml"
     ],
     "tags": [""],
     "reference": [
@@ -55,7 +54,7 @@
     "sources": [
       "https://hypertextbook.com/facts/2002/AnnaYarusskaya.shtml",
       "https://www.tandfonline.com/doi/pdf/10.3109/02841867809127938",
-      "https://en.wikipedia.org/wiki/Ivory_(color)"
+      "https://en.wikipedia.org/wiki/Bone"
     ],
     "tags": ["skeleton"],
     "reference": [
@@ -72,12 +71,13 @@
     "complexIor": [0.444, 3.695, 0.527, 2.765, 1.094, 1.829],
     "density": 8600,
     "category": ["Metal"],
-    "description": "",
+    "description": "Brass is an alloy of copper and zinc, with a bright and gold-like appearance. It is similar to bronze, another alloy containing copper that uses tin instead of zinc. Historically, the distinction between the two alloys has been less consistent and clear, and modern practice in museums and archaeology increasingly avoids both terms for historical objects in favor of the more general \"copper alloy\".",
     "sources": [
       "https://refractiveindex.info/?shelf=3d&book=metals&page=brass",
+      "https://en.wikipedia.org/wiki/Brass",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["aluminium"],
+    "tags": ["conductor"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/brass-cycles.png"
     ]
@@ -95,13 +95,11 @@
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Brick",
-      "https://www.engineeringtoolbox.com/bricks-density-d_1777.html",
-      "https://www.beldenbrick.com/brick/brick-colors/color/texture/mm/size/finish/belcrest_100",
       "https://www.acoustic-supplies.com/absorption-coefficient-chart/",
       "https://en.wikipedia.org/wiki/Absorption_(acoustics)",
       "https://www.acoustic.ua/st/web_absorption_data_eng.pdf"
     ],
-    "tags": ["skeleton"],
+    "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/brick-cycles.png"
     ]
@@ -163,7 +161,7 @@
       "https://www.chaos.com/blog/understanding-metalness",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["chrome"],
+    "tags": ["chrome", "conductor"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/chromium-cycles.png"
     ]
@@ -184,7 +182,7 @@
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""],
+    "tags": ["conductor"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/cobalt-cycles.png"
     ]
@@ -248,7 +246,7 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""],
+    "tags": ["conductor"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/copper-cycles.png"
     ]
@@ -354,7 +352,7 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""],
+    "tags": ["conductor"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/gold-cycles.png"
     ]
@@ -369,7 +367,7 @@
     "category": ["Calibration"],
     "description": "18% gray has a perceptual lightness of 50%.",
     "sources": ["https://en.wikipedia.org/wiki/Middle_gray"],
-    "tags": [""],
+    "tags": ["grey"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/gray-card-cycles.png"
     ]
@@ -413,7 +411,7 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""],
+    "tags": ["conductor"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/iron-cycles.png"
     ]
@@ -454,7 +452,7 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""],
+    "tags": ["conductor"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/lead-cycles.png"
     ]
@@ -475,7 +473,7 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""],
+    "tags": ["conductor"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/mercury-cycles.png"
     ]
@@ -516,7 +514,7 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""],
+    "tags": ["conductor"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/nickel-cycles.png"
     ]
@@ -657,7 +655,7 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""],
+    "tags": ["conductor"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/platinum-cycles.png"
     ]
@@ -752,7 +750,7 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""],
+    "tags": ["conductor"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/silver-cycles.png"
     ]
@@ -916,6 +914,24 @@
     ]
   },
   {
+    "name": "Tire",
+    "color": [0.023, 0.023, 0.023],
+    "metalness": 0,
+    "roughness": 0.5,
+    "ior": 1.5,
+    "density": 0,
+    "category": ["Manmade"],
+    "description": "Car tire.",
+    "sources": [
+      "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/tire/",
+      "https://en.wikipedia.org/wiki/Tire"
+    ],
+    "tags": ["tyre", "rubber"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/data/materials/tire-cycles.png"
+    ]
+  },
+  {
     "name": "Titanium",
     "color": [0.616, 0.582, 0.544],
     "metalness": 1,
@@ -930,7 +946,7 @@
       "https://refractiveindex.info/?shelf=3d&book=metals&page=titanium",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""],
+    "tags": ["conductor"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/titanium-cycles.png"
     ]
@@ -950,7 +966,7 @@
       "https://www.chaosgroup.com/blog/understanding-metalness",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""],
+    "tags": ["conductor"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/tungsten-cycles.png"
     ]
@@ -970,7 +986,7 @@
       "https://www.chaosgroup.com/blog/understanding-metalness",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""],
+    "tags": ["conductor"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/vanadium-cycles.png"
     ]
@@ -1017,7 +1033,7 @@
       "https://www.chaosgroup.com/blog/understanding-metalness",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": [""],
+    "tags": ["conductor"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/zinc-cycles.png"
     ]

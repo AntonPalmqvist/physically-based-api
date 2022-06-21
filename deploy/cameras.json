@@ -1,13 +1,22 @@
 [
   {
+    "name": "Arri Alexa 35",
+    "sensorSize": [27.99, 19.22],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://www.arri.com/en/camera-systems/cameras/alexa-35"],
+    "tags": [""]
+  },
+  {
     "name": "Arri Alexa 65",
     "sensorSize": [54.12, 25.58],
     "category": ["Movie"],
     "description": "",
     "sources": [
-      "https://www.arrirental.com/en/cameras/exclusive-cameras/alexa-65"
+      "https://www.arrirental.com/en/cameras/exclusive-cameras/alexa-65",
+      "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
     ],
-    "tags": [""]
+    "tags": ["imax"]
   },
   {
     "name": "Arri Alexa Amira",
@@ -22,7 +31,10 @@
     "sensorSize": [36.7, 25.54],
     "category": ["Movie"],
     "description": "",
-    "sources": ["https://www.arri.com/en/camera-systems/cameras/alexa-lf"],
+    "sources": [
+      "https://www.arri.com/en/camera-systems/cameras/alexa-lf",
+      "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
+    ],
     "tags": ["super 35", "imax"]
   },
   {
@@ -38,7 +50,10 @@
     "sensorSize": [36.7, 25.54],
     "category": ["Movie"],
     "description": "",
-    "sources": ["https://www.arri.com/en/camera-systems/cameras/alexa-mini-lf"],
+    "sources": [
+      "https://www.arri.com/en/camera-systems/cameras/alexa-mini-lf",
+      "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
+    ],
     "tags": ["super 35", "imax"]
   },
   {
@@ -60,7 +75,17 @@
     "tags": ["four thirds"]
   },
   {
-    "name": "Blackmagic Studio Camera",
+    "name": "Blackmagic Pocket Cinema Camera 6K",
+    "sensorSize": [23.1, 12.99],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.blackmagicdesign.com/products/blackmagicpocketcinemacamera/techspecs/W-CIN-15"
+    ],
+    "tags": ["super 35"]
+  },
+  {
+    "name": "Blackmagic Studio Camera 4K",
     "sensorSize": [17.78, 10],
     "category": ["Movie"],
     "description": "",
@@ -70,12 +95,35 @@
     "tags": ["four thirds"]
   },
   {
+    "name": "Blackmagic URSA Broadcast G2",
+    "sensorSize": [23.1, 12.99],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.blackmagicdesign.com/products/blackmagicursabroadcast/techspecs/W-URSA-38",
+      "https://en.wikipedia.org/wiki/Blackmagic_URSA"
+    ],
+    "tags": [""]
+  },
+  {
+    "name": "Blackmagic URSA Mini Pro 4.6K G2",
+    "sensorSize": [25.34, 14.25],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs/W-URSA-34",
+      "https://en.wikipedia.org/wiki/Blackmagic_URSA"
+    ],
+    "tags": ["super 35"]
+  },
+  {
     "name": "Blackmagic URSA Mini Pro 12K",
     "sensorSize": [27.03, 14.25],
     "category": ["Movie"],
     "description": "",
     "sources": [
-      "https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs/W-URSA-36"
+      "https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs/W-URSA-36",
+      "https://en.wikipedia.org/wiki/Blackmagic_URSA"
     ],
     "tags": ["super 35"]
   },
@@ -154,16 +202,113 @@
     "sensorSize": [40.96, 21.6],
     "category": ["Movie"],
     "description": "",
-    "sources": ["https://dxl.panavision.com/"],
+    "sources": [
+      "https://dxl.panavision.com/",
+      "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
+    ],
     "tags": ["imax"]
   },
   {
-    "name": "RED Ranger Monstro",
+    "name": "RED Dragon 5K",
+    "sensorSize": [25.6, 13.5],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras"
+    ],
+    "tags": ["super 35"]
+  },
+  {
+    "name": "RED Dragon 6K S35",
+    "sensorSize": [30.72, 15.3],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras"
+    ],
+    "tags": ["super 35"]
+  },
+  {
+    "name": "RED Dragon-X 6K S35",
+    "sensorSize": [30.7, 15.8],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
+      "https://www.red.com/dsmc2"
+    ],
+    "tags": ["super 35"]
+  },
+  {
+    "name": "RED Dragon 8K VV",
     "sensorSize": [40.96, 21.6],
     "category": ["Movie"],
     "description": "",
-    "sources": ["https://www.red.com/red-ranger-monstro"],
-    "tags": ["imax"]
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras"
+    ],
+    "tags": ["imax", "full frame"]
+  },
+  {
+    "name": "RED Gemini 5K S35",
+    "sensorSize": [30.72, 18],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
+      "https://www.red.com/arsenal",
+      "https://www.red.com/dsmc2"
+    ],
+    "tags": ["super 35"]
+  },
+  {
+    "name": "RED Helium 8K S35",
+    "sensorSize": [29.9, 15.77],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
+      "https://www.red.com/arsenal",
+      "https://www.red.com/dsmc2"
+    ],
+    "tags": ["super 35"]
+  },
+  {
+    "name": "RED Komodo 6K S35",
+    "sensorSize": [27.03, 14.26],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
+      "https://www.red.com/komodo-brain-parent",
+      "https://www.red.com/arsenal"
+    ],
+    "tags": ["super 35"]
+  },
+  {
+    "name": "RED Monstro 8K VK",
+    "sensorSize": [40.96, 21.6],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
+      "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
+      "https://www.red.com/arsenal",
+      "https://www.red.com/dsmc2"
+    ],
+    "tags": ["imax", "full frame"]
+  },
+  {
+    "name": "RED V-Raptor 8K VV",
+    "sensorSize": [40.96, 21.6],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
+      "https://www.red.com/v-raptor-black",
+      "https://www.red.com/arsenal"
+    ],
+    "tags": ["imax", "full frame"]
   },
   {
     "name": "Samsung Galaxy S20 Ultra",
@@ -180,7 +325,8 @@
     "description": "",
     "sources": [
       "https://pro.sony/ue_US/products/digital-cinema-cameras/venice",
-      "https://en.wikipedia.org/wiki/List_of_Sony_E-mount_cameras"
+      "https://en.wikipedia.org/wiki/List_of_Sony_E-mount_cameras",
+      "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
     ],
     "tags": ["imax"]
   },
