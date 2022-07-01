@@ -194,7 +194,7 @@
     "roughness": 0.5,
     "ior": 1.5,
     "density": 2400,
-    "acousticAbsorption": [0.1, 0.05, 0.06, 0.07, 0.09, 0.08],
+    "acousticAbsorption": [0.01, 0.01, 0.02, 0.02, 0.02, 0.02],
     "category": ["Manmade"],
     "description": "",
     "sources": [
@@ -393,6 +393,27 @@
     "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/honey-cycles.png"
+    ]
+  },
+  {
+    "name": "Ice",
+    "color": [1, 1, 1],
+    "metalness": 0,
+    "roughness": 0.5,
+    "ior": 1.3098,
+    "transmission": 1,
+    "transmissionColor": [1, 1, 1],
+    "density": 917,
+    "category": ["Crystal"],
+    "description": "",
+    "sources": [
+      "https://refractiveindex.info/?shelf=3d&book=crystals&page=ice",
+      "https://en.wikipedia.org/wiki/Density",
+      "https://en.wikipedia.org/wiki/Optical_properties_of_water_and_ice"
+    ],
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/ice-cycles.png"
     ]
   },
   {
@@ -899,14 +920,14 @@
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.3098,
-    "density": 917,
+    "density": 0,
+    "acousticAbsorption": [0.45, 0.75, 0.9, 0.95, 0.95, 0.95],
     "category": ["Crystal"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
       "https://seblagarde.wordpress.com/2011/08/17/feeding-a-physical-based-lighting-mode/",
       "https://refractiveindex.info/?shelf=3d&book=crystals&page=ice",
-      "https://en.wikipedia.org/wiki/Density"
+      "http://mapleintegration.com/sound_ab.php"
     ],
     "tags": ["ice"],
     "reference": [
@@ -1002,15 +1023,18 @@
     "transmissionDispersion": 55.78,
     "density": 1000,
     "densityRange": [958, 1000],
+    "acousticAbsorption": [0.008, 0.008, 0.013, 0.015, 0.02, 0.025],
     "category": ["Liquid"],
-    "description": "Liquid water (H2O) at 25 °C",
+    "description": "While relatively small quantities of water appear to be colorless, pure water has a slight blue color that becomes deeper as the thickness of the observed sample increases. The hue of water is an intrinsic property and is caused by selective absorption and scattering of white light. Dissolved elements or suspended impurities may give water a different color.",
     "sources": [
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
       "https://refractiveindex.info/?shelf=3d&book=liquids&page=water",
       "https://refractiveindex.info/?shelf=main&book=H2O&page=Daimon-21.5C",
       "https://en.wikipedia.org/wiki/Density",
       "https://en.wikipedia.org/wiki/Properties_of_water#Density_of_water_and_ice",
-      "https://en.wikipedia.org/wiki/Color_of_water"
+      "https://en.wikipedia.org/wiki/Color_of_water",
+      "https://www.acoustic-supplies.com/absorption-coefficient-chart/",
+      "https://www.cdc.gov/niosh/docs/80-116/pdfs/80-116.pdf?id=10.26616/NIOSHPUB80116"
     ],
     "tags": [""],
     "reference": [

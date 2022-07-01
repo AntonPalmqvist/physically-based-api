@@ -128,6 +128,19 @@
     "tags": ["super 35"]
   },
   {
+    "name": "Canon EOS-1D X",
+    "sensorSize": [36, 24],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Canon_EOS-1D_X",
+      "https://en.wikipedia.org/wiki/Canon_EOS-1D_X_Mark_II",
+      "https://en.wikipedia.org/wiki/Canon_EOS-1D_X_Mark_III",
+      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/eos-dslr-and-mirrorless-cameras/dslr/eos-1d-x-mark-iii"
+    ],
+    "tags": ["full frame"]
+  },
+  {
     "name": "Canon EOS 5D",
     "sensorSize": [36, 24],
     "category": ["Still"],
@@ -142,6 +155,18 @@
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/Canon_EOS_90D"],
     "tags": ["aps-c"]
+  },
+  {
+    "name": "Canon EOS C300",
+    "sensorSize": [24.6, 13.8],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Canon_EOS_C300",
+      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/eos-c300",
+      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/eos-c300-mark-iii-digital-cinema-camera"
+    ],
+    "tags": ["super 35"]
   },
   {
     "name": "DJI Mavic Air 2",
@@ -319,14 +344,35 @@
     "tags": ["phone"]
   },
   {
+    "name": "Sony α7",
+    "sensorSize": [35.8, 23.9],
+    "category": ["Still"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/Sony_α7"],
+    "tags": ["full frame", "a7"]
+  },
+  {
+    "name": "Sony FX6",
+    "sensorSize": [35.6, 23.8],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://electronics.sony.com/imaging/cinema-line-cameras/all-cinema-line-cameras/p/ilmefx6v",
+      "https://en.wikipedia.org/wiki/List_of_Sony_E-mount_cameras"
+    ],
+    "tags": ["full frame"]
+  },
+  {
     "name": "Sony VENICE",
     "sensorSize": [36.2, 24.1],
     "category": ["Movie"],
     "description": "",
     "sources": [
       "https://pro.sony/ue_US/products/digital-cinema-cameras/venice",
+      "https://pro.sony/ue_US/products/digital-cinema-cameras/venice2",
       "https://en.wikipedia.org/wiki/List_of_Sony_E-mount_cameras",
-      "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
+      "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
+      "https://en.wikipedia.org/wiki/CineAlta"
     ],
     "tags": ["imax"]
   },
