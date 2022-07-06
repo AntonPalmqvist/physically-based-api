@@ -33,8 +33,10 @@
     "description": "The color of blood depends on its oxygen level. When there is plenty of oxygen, the color is a brighter red. The reason is because of a protein called hemoglobin, which carries the oxygen in your blood. When hemoglobin has a full oxygen load, it has a bright red color, and when it's deoxygenated it's a darker red. For example, arterial and capillary blood is bright, and venous blood is dark.",
     "sources": [
       "https://en.wikipedia.org/wiki/Blood",
+      "https://en.wikipedia.org/wiki/Blood_red",
       "https://refractiveindex.info/?shelf=other&book=blood&page=Rowe",
-      "https://hypertextbook.com/facts/2004/MichaelShmukler.shtml"
+      "https://hypertextbook.com/facts/2004/MichaelShmukler.shtml",
+      "https://www.researchgate.net/figure/Color-chart-for-the-measurement-of-methemoglobin-The-color-chart-was-prepared-according_fig2_26884296"
     ],
     "tags": [""],
     "reference": [
@@ -252,26 +254,6 @@
     ]
   },
   {
-    "name": "Cornea",
-    "color": [1, 1, 1],
-    "metalness": 0,
-    "roughness": 0,
-    "ior": 1.376,
-    "transmission": 1,
-    "transmissionColor": [1, 1, 1],
-    "density": 0,
-    "category": ["Human"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Cornea",
-      "https://www.sciencedirect.com/science/article/abs/pii/S1367048418310452"
-    ],
-    "tags": ["eye"],
-    "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/cornea-cycles.png"
-    ]
-  },
-  {
     "name": "Diamond",
     "color": [1, 1, 1],
     "metalness": 0,
@@ -309,6 +291,61 @@
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/data/materials/egg-shell-cycles.png"
     ]
+  },
+  {
+    "name": "Eye (cornea)",
+    "color": [1, 1, 1],
+    "metalness": 0,
+    "roughness": 0,
+    "ior": 1.376,
+    "transmission": 1,
+    "transmissionColor": [1, 1, 1],
+    "density": 0,
+    "category": ["Human"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cornea",
+      "https://www.sciencedirect.com/science/article/abs/pii/S1367048418310452"
+    ],
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/eye-cornea-cycles.png"
+    ]
+  },
+  {
+    "name": "Eye (lens)",
+    "color": [1, 1, 1],
+    "metalness": 0,
+    "roughness": 0,
+    "ior": 1.386,
+    "transmission": 1,
+    "transmissionColor": [1, 1, 1],
+    "density": 0,
+    "category": ["Human"],
+    "description": "The refractive index of human lens varies from approximately 1.406 in the central layers down to 1.386 in less dense layers of the lens. This index gradient enhances the optical power of the lens.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lens_(anatomy)#Accommodation",
+      "https://pubmed.ncbi.nlm.nih.gov/8134087/"
+    ],
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/eye-lens-cycles.png"
+    ]
+  },
+  {
+    "name": "Eye (sclera)",
+    "color": [0.68, 0.49, 0.37],
+    "metalness": 0,
+    "roughness": 0.5,
+    "ior": 1.4,
+    "density": 0,
+    "category": ["Human"],
+    "description": "",
+    "sources": [
+      "https://www.researchgate.net/publication/225767258_Optical_properties_of_human_sclera_in_spectral_range_370-2500_nm",
+      "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx"
+    ],
+    "tags": [""]
   },
   {
     "name": "Glass",
@@ -739,21 +776,6 @@
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/sapphire-cycles.png"
     ]
-  },
-  {
-    "name": "Sclera",
-    "color": [0.68, 0.49, 0.37],
-    "metalness": 0,
-    "roughness": 0.5,
-    "ior": 1.4,
-    "density": 0,
-    "category": ["Human"],
-    "description": "",
-    "sources": [
-      "https://www.researchgate.net/publication/225767258_Optical_properties_of_human_sclera_in_spectral_range_370-2500_nm",
-      "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx"
-    ],
-    "tags": ["eye"]
   },
   {
     "name": "Silver",
