@@ -55,7 +55,7 @@
   {
     "name": "Direct Sunlight",
     "temperature": 5778,
-    "intensity": 100000,
+    "intensity": 120000,
     "intensityRange": [32000, 129000],
     "unit": ["lx"],
     "category": ["Natural"],

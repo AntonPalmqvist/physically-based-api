@@ -169,6 +169,38 @@
     "tags": ["super 35"]
   },
   {
+    "name": "Canon EOS C500",
+    "sensorSize": [26.2, 13.8],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Canon_EOS_C500",
+      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/cinema-eos-c500-mark-ii"
+    ],
+    "tags": ["super 35"]
+  },
+  {
+    "name": "Canon EOS C70",
+    "sensorSize": [26.2, 13.8],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/eos-c70"
+    ],
+    "tags": ["super 35"]
+  },
+  {
+    "name": "Canon EOS C700 FF",
+    "sensorSize": [38.1, 20.1],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/eos-c700-ff",
+      "https://downloads.canon.com/nw/camera/downloads/brochures/cinema/cinema-eos/eos-c700-ff-series-product-brochure.pdf"
+    ],
+    "tags": ["full frame"]
+  },
+  {
     "name": "DJI Mavic Air 2",
     "sensorSize": [6.4, 4.8],
     "category": ["Mobile"],
@@ -221,6 +253,80 @@
       "https://leica-camera.com/en-SG/photography/cameras/s/s3-black/details"
     ],
     "tags": ["medium format"]
+  },
+  {
+    "name": "Panasonic EVA1",
+    "sensorSize": [24.6, 12.97],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/eva1/index.html",
+      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/au-eva1.pdf"
+    ],
+    "tags": ["super 35"]
+  },
+  {
+    "name": "Panasonic LUMIX BGH1",
+    "sensorSize": [17.3, 13.0],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/bgh1/spec/index.html"
+    ],
+    "tags": ["micro four thirds"]
+  },
+  {
+    "name": "Panasonic LUMIX BS1H",
+    "sensorSize": [35.6, 23.8],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/bs1h/index.html"
+    ],
+    "tags": ["full frame"]
+  },
+  {
+    "name": "Panasonic LUMIX S1H",
+    "sensorSize": [35.6, 23.8],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/s1h/index.html"
+    ],
+    "tags": ["full frame"]
+  },
+  {
+    "name": "Panasonic VariCam 35",
+    "sensorSize": [26.69, 14.18],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Varicam",
+      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf"
+    ],
+    "tags": ["super 35"]
+  },
+  {
+    "name": "Panasonic VariCam LT",
+    "sensorSize": [26.69, 14.18],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Varicam",
+      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf"
+    ],
+    "tags": ["super 35"]
+  },
+  {
+    "name": "Panasonic VariCam Pure",
+    "sensorSize": [26.69, 14.18],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Varicam",
+      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf"
+    ],
+    "tags": ["super 35"]
   },
   {
     "name": "Panavision DXL2",
@@ -352,14 +458,74 @@
     "tags": ["full frame", "a7"]
   },
   {
+    "name": "Sony F5",
+    "sensorSize": [24, 12.7],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://pro.sony/ue_US/products/digital-cinema-cameras/pmw-f5",
+      "https://www.fdtimes.com/2012/10/30/sony-f55-and-f5/"
+    ],
+    "tags": ["super 35"]
+  },
+  {
+    "name": "Sony F55",
+    "sensorSize": [24, 12.7],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.panavision.com/camera-and-optics/cameras/product-detail/f55-f55"
+    ],
+    "tags": ["super 35"]
+  },
+  {
+    "name": "Sony F65",
+    "sensorSize": [24.7, 13.1],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.eoshd.com/news/sony-f65-sensor-using-consumer-camcorder-technology/"
+    ],
+    "tags": ["super 35"]
+  },
+  {
+    "name": "Sony FS7",
+    "sensorSize": [25.5, 15.6],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://pro.sony/ue_US/products/handheld-camcorders/pxw-fs7",
+      "https://www.arkvideo.co.jp/_sys/wp-content/uploads/SonyPXW-FS7.pdf"
+    ],
+    "tags": ["super 35"]
+  },
+  {
+    "name": "Sony FS7 II",
+    "sensorSize": [25.5, 15.6],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://pro.sony/ue_US/products/handheld-camcorders/pxw-fs7m2",
+      "https://www.arkvideo.co.jp/_sys/wp-content/uploads/SonyPXW-FS7M2.pdf"
+    ],
+    "tags": ["super 35"]
+  },
+  {
     "name": "Sony FX6",
     "sensorSize": [35.6, 23.8],
     "category": ["Movie"],
     "description": "",
     "sources": [
-      "https://electronics.sony.com/imaging/cinema-line-cameras/all-cinema-line-cameras/p/ilmefx6v",
-      "https://en.wikipedia.org/wiki/List_of_Sony_E-mount_cameras"
+      "https://electronics.sony.com/imaging/cinema-line-cameras/all-cinema-line-cameras/p/ilmefx6v"
     ],
+    "tags": ["full frame"]
+  },
+  {
+    "name": "Sony FX9",
+    "sensorSize": [35.7, 18.8],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://pro.sony/ue_US/products/handheld-camcorders/pxw-fx9"],
     "tags": ["full frame"]
   },
   {
@@ -369,6 +535,18 @@
     "description": "",
     "sources": [
       "https://pro.sony/ue_US/products/digital-cinema-cameras/venice",
+      "https://en.wikipedia.org/wiki/List_of_Sony_E-mount_cameras",
+      "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
+      "https://en.wikipedia.org/wiki/CineAlta"
+    ],
+    "tags": ["imax"]
+  },
+  {
+    "name": "Sony VENICE 2",
+    "sensorSize": [36.2, 24.1],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
       "https://pro.sony/ue_US/products/digital-cinema-cameras/venice2",
       "https://en.wikipedia.org/wiki/List_of_Sony_E-mount_cameras",
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
