@@ -1,12 +1,12 @@
 [
   {
-    "subject": "Office Paper",
+    "subject": "Chocolate",
     "author": "https://github.com/AntonPalmqvist",
     "device": "Nix Spectro 2",
     "illuminant": "D50",
     "observer": 2,
-    "rgb": [0.738, 0.768, 1],
-    "xyz": [76.2, 77.5, 80.9],
-    "cielab": [90.5, 3.08, -15]
+    "rgb": [0.162, 0.091, 0.06],
+    "xyz": [11.72, 10.618, 5.382],
+    "cielab": [38.93, 10.91, 14.2]
   }
 ]

@@ -25,7 +25,7 @@
         "type": "number",
         "default": 0
       },
-      "specularTint": {
+      "specularColor": {
         "description": "Specular tint for metals (edge tint), calculated from n and k values.",
         "type": "array",
         "items": {
