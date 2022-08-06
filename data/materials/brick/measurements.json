@@ -1,12 +1,12 @@
 [
   {
-    "subject": "Office Paper",
+    "subject": "Brick",
     "author": "https://github.com/AntonPalmqvist",
     "device": "Nix Spectro 2",
     "illuminant": "D50",
     "observer": 2,
-    "rgb": [0.738, 0.768, 1],
-    "xyz": [76.2, 77.5, 80.9],
-    "cielab": [90.5, 3.08, -15]
+    "rgb": [0.262, 0.095, 0.061],
+    "xyz": [15.985, 13.038, 5.63],
+    "cielab": [42.82, 21.14, 19.69]
   }
 ]
