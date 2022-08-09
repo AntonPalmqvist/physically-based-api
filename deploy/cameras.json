@@ -217,6 +217,18 @@
     "tags": ["drone"]
   },
   {
+    "name": "Fujifilm X-T3",
+    "sensorSize": [23.5, 15.6],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://fujifilm-x.com/global/products/cameras/x-t3/specifications/",
+      "https://en.wikipedia.org/wiki/Fujifilm_X-T3",
+      "https://www.digicamdb.com/specs/fujifilm_x-t3/"
+    ],
+    "tags": ["aps-c"]
+  },
+  {
     "name": "GoPro HERO Series",
     "sensorSize": [6.17, 4.55],
     "category": ["Mobile"],
