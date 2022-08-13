@@ -12,14 +12,31 @@
         "default": "Name"
       },
       "sensorSize": {
-        "description": "Sensor size in millimeters (WxH).",
+        "description": "Array of sensor sizes. First item specifies the size of a fully open gate. If needed, additional sizes can be added for cameras that crop the sensor.",
         "type": "array",
+        "minItems": 1,
         "items": {
-          "type": "number"
-        },
-        "default": [36, 24],
-        "minItems": 2,
-        "maxItems": 2
+          "additionalProperties": false,
+          "type": "object",
+          "properties": {
+            "format": {
+              "description": "Specifies the sensor format.",
+              "type": "string",
+              "default": "Open Gate"
+            },
+            "size": {
+              "description": "Sensor size in millimeters (WxH).",
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "default": [36, 24],
+              "minItems": 2,
+              "maxItems": 2
+            }
+          },
+          "required": ["format", "size"]
+        }
       },
       "category": {
         "type": "array",

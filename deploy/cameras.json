@@ -1,7 +1,44 @@
 [
   {
     "name": "Arri Alexa 35",
-    "sensorSize": [27.99, 19.22],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [27.99, 19.22]
+      },
+      {
+        "format": "4.6K 3:2 Open Gate",
+        "size": [28, 19.2]
+      },
+      {
+        "format": "4.6K 16:9",
+        "size": [28, 15.7]
+      },
+      {
+        "format": "4K 16:9",
+        "size": [24.9, 14]
+      },
+      {
+        "format": "4K 2:1",
+        "size": [24.9, 12.4]
+      },
+      {
+        "format": "3.3K 6:5",
+        "size": [20.22, 16.95]
+      },
+      {
+        "format": "3K 1:1",
+        "size": [18.7, 18.7]
+      },
+      {
+        "format": "2.7K 8:9",
+        "size": [16.7, 18.7]
+      },
+      {
+        "format": "2K 16:9 S16",
+        "size": [12.4, 7]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": ["https://www.arri.com/en/camera-systems/cameras/alexa-35"],
@@ -9,7 +46,12 @@
   },
   {
     "name": "Arri Alexa 65",
-    "sensorSize": [54.12, 25.58],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [25.6, 25.6]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -20,7 +62,12 @@
   },
   {
     "name": "Arri Alexa Amira",
-    "sensorSize": [26.4, 14.85],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [26.4, 14.85]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": ["https://www.arri.com/en/camera-systems/cameras/amira"],
@@ -28,7 +75,12 @@
   },
   {
     "name": "Arri Alexa LF",
-    "sensorSize": [36.7, 25.54],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [36.7, 25.54]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -39,7 +91,12 @@
   },
   {
     "name": "Arri Alexa Mini",
-    "sensorSize": [28.25, 18.17],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [28.25, 18.17]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": ["https://www.arri.com/en/camera-systems/cameras/alexa-mini"],
@@ -47,7 +104,12 @@
   },
   {
     "name": "Arri Alexa Mini LF",
-    "sensorSize": [36.7, 25.54],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [36.7, 25.54]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -58,7 +120,12 @@
   },
   {
     "name": "Arri Alexa SXT W",
-    "sensorSize": [28.25, 18.17],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [28.25, 18.17]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": ["https://www.arri.com/en/camera-systems/cameras/alexa-sxt-w"],
@@ -66,7 +133,12 @@
   },
   {
     "name": "Blackmagic Pocket Cinema Camera 4K",
-    "sensorSize": [18.96, 10],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [18.96, 10]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -76,7 +148,12 @@
   },
   {
     "name": "Blackmagic Pocket Cinema Camera 6K",
-    "sensorSize": [23.1, 12.99],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [23.1, 12.99]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -86,7 +163,12 @@
   },
   {
     "name": "Blackmagic Studio Camera 4K",
-    "sensorSize": [17.78, 10],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [17.78, 10]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -96,7 +178,12 @@
   },
   {
     "name": "Blackmagic URSA Broadcast G2",
-    "sensorSize": [23.1, 12.99],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [23.1, 12.99]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -107,7 +194,12 @@
   },
   {
     "name": "Blackmagic URSA Mini Pro 4.6K G2",
-    "sensorSize": [25.34, 14.25],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [25.34, 14.25]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -118,7 +210,12 @@
   },
   {
     "name": "Blackmagic URSA Mini Pro 12K",
-    "sensorSize": [27.03, 14.25],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [27.03, 14.25]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -129,7 +226,12 @@
   },
   {
     "name": "Canon EOS-1D X",
-    "sensorSize": [36, 24],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [36, 24]
+      }
+    ],
     "category": ["Still"],
     "description": "",
     "sources": [
@@ -142,7 +244,12 @@
   },
   {
     "name": "Canon EOS 5D",
-    "sensorSize": [36, 24],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [36, 24]
+      }
+    ],
     "category": ["Still"],
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/Canon_EOS_5D_Mark_IV"],
@@ -150,7 +257,12 @@
   },
   {
     "name": "Canon EOS 90D",
-    "sensorSize": [22.3, 14.9],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [22.3, 14.9]
+      }
+    ],
     "category": ["Still"],
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/Canon_EOS_90D"],
@@ -158,7 +270,12 @@
   },
   {
     "name": "Canon EOS C300",
-    "sensorSize": [24.6, 13.8],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [24.6, 13.8]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -170,7 +287,12 @@
   },
   {
     "name": "Canon EOS C500",
-    "sensorSize": [26.2, 13.8],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [26.2, 13.8]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -181,7 +303,12 @@
   },
   {
     "name": "Canon EOS C70",
-    "sensorSize": [26.2, 13.8],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [26.2, 13.8]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -191,7 +318,12 @@
   },
   {
     "name": "Canon EOS C700 FF",
-    "sensorSize": [38.1, 20.1],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [38.1, 20.1]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -202,7 +334,12 @@
   },
   {
     "name": "DJI Mavic Air 2",
-    "sensorSize": [6.4, 4.8],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [6.4, 4.8]
+      }
+    ],
     "category": ["Mobile"],
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
@@ -210,7 +347,12 @@
   },
   {
     "name": "DJI Phantom 3",
-    "sensorSize": [6.17, 4.55],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [6.17, 4.55]
+      }
+    ],
     "category": ["Mobile"],
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
@@ -218,7 +360,12 @@
   },
   {
     "name": "Fujifilm X-T3",
-    "sensorSize": [23.5, 15.6],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [23.5, 15.6]
+      }
+    ],
     "category": ["Still"],
     "description": "",
     "sources": [
@@ -230,7 +377,12 @@
   },
   {
     "name": "GoPro HERO Series",
-    "sensorSize": [6.17, 4.55],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [6.17, 4.55]
+      }
+    ],
     "category": ["Mobile"],
     "description": "",
     "sources": [
@@ -241,7 +393,12 @@
   },
   {
     "name": "IMAX 70 mm",
-    "sensorSize": [70.41, 52.63],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [70.41, 52.63]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/70_mm_film#IMAX_.2815.2F70.29"],
@@ -249,7 +406,12 @@
   },
   {
     "name": "Iphone XS",
-    "sensorSize": [5.76, 4.29],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [5.76, 4.29]
+      }
+    ],
     "category": ["Mobile"],
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
@@ -257,7 +419,12 @@
   },
   {
     "name": "Leica S",
-    "sensorSize": [45, 30],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [45, 30]
+      }
+    ],
     "category": ["Still"],
     "description": "",
     "sources": [
@@ -268,7 +435,12 @@
   },
   {
     "name": "Panasonic EVA1",
-    "sensorSize": [24.6, 12.97],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [24.6, 12.97]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -279,7 +451,12 @@
   },
   {
     "name": "Panasonic LUMIX BGH1",
-    "sensorSize": [17.3, 13.0],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [17.3, 13.0]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -289,7 +466,12 @@
   },
   {
     "name": "Panasonic LUMIX BS1H",
-    "sensorSize": [35.6, 23.8],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.6, 23.8]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -299,7 +481,12 @@
   },
   {
     "name": "Panasonic LUMIX S1H",
-    "sensorSize": [35.6, 23.8],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.6, 23.8]
+      }
+    ],
     "category": ["Still"],
     "description": "",
     "sources": [
@@ -309,7 +496,12 @@
   },
   {
     "name": "Panasonic VariCam 35",
-    "sensorSize": [26.69, 14.18],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [26.69, 14.18]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -320,7 +512,12 @@
   },
   {
     "name": "Panasonic VariCam LT",
-    "sensorSize": [26.69, 14.18],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [26.69, 14.18]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -331,7 +528,12 @@
   },
   {
     "name": "Panasonic VariCam Pure",
-    "sensorSize": [26.69, 14.18],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [26.69, 14.18]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -342,7 +544,12 @@
   },
   {
     "name": "Panavision DXL2",
-    "sensorSize": [40.96, 21.6],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [40.96, 21.6]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -353,7 +560,12 @@
   },
   {
     "name": "RED Dragon 5K",
-    "sensorSize": [25.6, 13.5],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [25.6, 13.5]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -363,7 +575,12 @@
   },
   {
     "name": "RED Dragon 6K S35",
-    "sensorSize": [30.72, 15.3],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [30.72, 15.3]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -373,7 +590,12 @@
   },
   {
     "name": "RED Dragon-X 6K S35",
-    "sensorSize": [30.7, 15.8],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [30.7, 15.8]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -384,7 +606,12 @@
   },
   {
     "name": "RED Dragon 8K VV",
-    "sensorSize": [40.96, 21.6],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [40.96, 21.6]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -394,7 +621,12 @@
   },
   {
     "name": "RED Gemini 5K S35",
-    "sensorSize": [30.72, 18],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [30.72, 18]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -406,7 +638,12 @@
   },
   {
     "name": "RED Helium 8K S35",
-    "sensorSize": [29.9, 15.77],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [29.9, 15.77]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -418,7 +655,12 @@
   },
   {
     "name": "RED Komodo 6K S35",
-    "sensorSize": [27.03, 14.26],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [27.03, 14.26]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -430,7 +672,12 @@
   },
   {
     "name": "RED Monstro 8K VK",
-    "sensorSize": [40.96, 21.6],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [40.96, 21.6]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -443,7 +690,12 @@
   },
   {
     "name": "RED V-Raptor 8K VV",
-    "sensorSize": [40.96, 21.6],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [40.96, 21.6]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -455,7 +707,12 @@
   },
   {
     "name": "Samsung Galaxy S20 Ultra",
-    "sensorSize": [9.6, 7.2],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [9.6, 7.2]
+      }
+    ],
     "category": ["Mobile"],
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
@@ -463,7 +720,12 @@
   },
   {
     "name": "Sony α7",
-    "sensorSize": [35.8, 23.9],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.8, 23.9]
+      }
+    ],
     "category": ["Still"],
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/Sony_α7"],
@@ -471,7 +733,12 @@
   },
   {
     "name": "Sony F5",
-    "sensorSize": [24, 12.7],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [24, 12.7]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -482,7 +749,12 @@
   },
   {
     "name": "Sony F55",
-    "sensorSize": [24, 12.7],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [24, 12.7]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -492,7 +764,12 @@
   },
   {
     "name": "Sony F65",
-    "sensorSize": [24.7, 13.1],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [24.7, 13.1]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -502,7 +779,12 @@
   },
   {
     "name": "Sony FS7",
-    "sensorSize": [25.5, 15.6],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [25.5, 15.6]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -513,7 +795,12 @@
   },
   {
     "name": "Sony FS7 II",
-    "sensorSize": [25.5, 15.6],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [25.5, 15.6]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -524,7 +811,12 @@
   },
   {
     "name": "Sony FX6",
-    "sensorSize": [35.6, 23.8],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.6, 23.8]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -534,7 +826,12 @@
   },
   {
     "name": "Sony FX9",
-    "sensorSize": [35.7, 18.8],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.7, 18.8]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": ["https://pro.sony/ue_US/products/handheld-camcorders/pxw-fx9"],
@@ -542,7 +839,12 @@
   },
   {
     "name": "Sony VENICE",
-    "sensorSize": [36.2, 24.1],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [36.2, 24.1]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -555,7 +857,12 @@
   },
   {
     "name": "Sony VENICE 2",
-    "sensorSize": [36.2, 24.1],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [36.2, 24.1]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -568,7 +875,12 @@
   },
   {
     "name": "Standard 16 mm",
-    "sensorSize": [10.26, 7.49],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [10.26, 7.49]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/16_mm_film#Standard_16_mm"],
@@ -576,7 +888,12 @@
   },
   {
     "name": "Standard 35 mm",
-    "sensorSize": [22, 16],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [22, 16]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/35_mm_movie_film"],
@@ -584,7 +901,12 @@
   },
   {
     "name": "Standard 65 mm",
-    "sensorSize": [52.48, 23.01],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [52.48, 23.01]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -594,7 +916,12 @@
   },
   {
     "name": "Super 8 mm",
-    "sensorSize": [5.79, 4.01],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [5.79, 4.01]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/Super_8_film"],
@@ -602,7 +929,12 @@
   },
   {
     "name": "Super 16 mm",
-    "sensorSize": [12.52, 7.41],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [12.52, 7.41]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/16_mm_film#Super_16_mm"],
@@ -610,7 +942,12 @@
   },
   {
     "name": "Super 35 mm 3-perf",
-    "sensorSize": [24.89, 13.86],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [24.89, 13.86]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": [
@@ -621,7 +958,12 @@
   },
   {
     "name": "Super 35 mm 4-perf",
-    "sensorSize": [24.89, 18.66],
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [24.89, 18.66]
+      }
+    ],
     "category": ["Movie"],
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/Super_35"],
