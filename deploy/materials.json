@@ -587,9 +587,10 @@
     "ior": 1.5,
     "density": 0,
     "category": ["Manmade"],
-    "description": "Office paper for printing.",
+    "description": "Office paper contains optical brightening additives that absorb light in the ultraviolet and violet region (usually 340-370 nm), and re-emit light in the blue region (typically 420-470 nm) by fluorescence.",
     "sources": [
-      "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/office-paper"
+      "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/office-paper",
+      "https://en.wikipedia.org/wiki/Optical_brightener"
     ],
     "tags": [""],
     "reference": [
