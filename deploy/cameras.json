@@ -1181,7 +1181,7 @@
     "tags": ["super 35"]
   },
   {
-    "name": "RED Gemini 5K",
+    "name": "RED Gemini",
     "sensorSize": [
       {
         "format": "5K Full Height 1.7:1",
@@ -1915,7 +1915,7 @@
     "tags": ["super 35"]
   },
   {
-    "name": "RED Komodo 6K",
+    "name": "RED Komodo",
     "sensorSize": [
       {
         "format": "6K 17:9",
@@ -2853,14 +2853,63 @@
     "name": "Sony VENICE",
     "sensorSize": [
       {
-        "format": "Open Gate",
-        "size": [36.2, 24.1]
+        "format": "6K 3:2",
+        "size": [35.9, 24.0]
+      },
+      {
+        "format": "6K 1.85:1",
+        "size": [36.0, 19.4]
+      },
+      {
+        "format": "6K 17:9",
+        "size": [36.0, 19.0]
+      },
+      {
+        "format": "6K 2.39:1",
+        "size": [35.9, 15.0]
+      },
+      {
+        "format": "5.7K 16:9",
+        "size": [33.7, 18.9]
+      },
+      {
+        "format": "4K 6:5",
+        "size": [24.3, 20.4]
+      },
+      {
+        "format": "4K 4:3 Surround View",
+        "size": [27.0, 20.0]
+      },
+      {
+        "format": "4K 4:3",
+        "size": [24.3, 18.0]
+      },
+      {
+        "format": "4K 17:9 Surround View",
+        "size": [27.0, 14.3]
+      },
+      {
+        "format": "4K 17:9",
+        "size": [24.3, 12.8]
+      },
+      {
+        "format": "4K 2.39:1",
+        "size": [24.3, 10.3]
+      },
+      {
+        "format": "3.8K 16:9 Surround View",
+        "size": [25.4, 14.3]
+      },
+      {
+        "format": "3.8K 16:9",
+        "size": [22.8, 12.8]
       }
     ],
     "category": ["Movie"],
     "description": "",
     "sources": [
       "https://pro.sony/ue_US/products/digital-cinema-cameras/venice",
+      "https://pro.sony/support/res/manuals/4735/d4d06ba1e126398ae780667a4317c8c9/47351091M.pdf",
       "https://en.wikipedia.org/wiki/List_of_Sony_E-mount_cameras",
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
       "https://en.wikipedia.org/wiki/CineAlta"
@@ -2871,14 +2920,87 @@
     "name": "Sony VENICE 2",
     "sensorSize": [
       {
-        "format": "Open Gate",
-        "size": [36.2, 24.1]
+        "format": "MPC-3628 8.6K 3:2",
+        "size": [35.9, 24.0]
+      },
+      {
+        "format": "MPC-3628 8.2K 17:9",
+        "size": [34.1, 18.0]
+      },
+      {
+        "format": "MPC-3628 7.6K 16:9",
+        "size": [32.0, 18.0]
+      },
+      {
+        "format": "MPC-3628 5.8K 6:5",
+        "size": [24.1, 20.2]
+      },
+      {
+        "format": "MPC-3628 5.8K 17:9",
+        "size": [24.1, 12.7]
+      },
+      {
+        "format": "MPC-3628 5.4K 16:9",
+        "size": [22.6, 12.7]
+      },
+      {
+        "format": "MPC-3626 6K 3:2",
+        "size": [35.9, 24.0]
+      },
+      {
+        "format": "MPC-3626 6K 1.85:1",
+        "size": [36.0, 19.4]
+      },
+      {
+        "format": "MPC-3626 6K 17:9",
+        "size": [36.0, 19.0]
+      },
+      {
+        "format": "MPC-3626 6K 2.39:1",
+        "size": [35.9, 15.0]
+      },
+      {
+        "format": "MPC-3626 5.7K 16:9",
+        "size": [33.7, 18.9]
+      },
+      {
+        "format": "MPC-3626 4K 6:5",
+        "size": [24.3, 20.4]
+      },
+      {
+        "format": "MPC-3626 4K 4:3",
+        "size": [24.3, 18.0]
+      },
+      {
+        "format": "MPC-3626 4K 4:3 Surround View",
+        "size": [27.0, 20.0]
+      },
+      {
+        "format": "MPC-3626 4K 17:9",
+        "size": [24.3, 12.8]
+      },
+      {
+        "format": "MPC-3626 4K 17:9 Surround View",
+        "size": [27.0, 14.3]
+      },
+      {
+        "format": "MPC-3626 4K 2.39:1",
+        "size": [24.3, 10.3]
+      },
+      {
+        "format": "MPC-3626 3.8K 16:9",
+        "size": [22.8, 12.8]
+      },
+      {
+        "format": "MPC-3626 3.8K 16:9 Surround View",
+        "size": [25.4, 14.3]
       }
     ],
     "category": ["Movie"],
-    "description": "",
+    "description": "Sony VENICE 2 has two sensor options, an 8K (MPC-3628) and a 6K (MPC-3626).",
     "sources": [
       "https://pro.sony/ue_US/products/digital-cinema-cameras/venice2",
+      "https://pro.sony/support/res/manuals/5037/380521b096766b82849287ab158a9c02/50372171M.pdf",
       "https://en.wikipedia.org/wiki/List_of_Sony_E-mount_cameras",
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
       "https://en.wikipedia.org/wiki/CineAlta"
