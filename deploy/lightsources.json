@@ -12,6 +12,19 @@
     ]
   },
   {
+    "name": "Car Headlight (Halogen)",
+    "temperature": 3500,
+    "intensity": 1500,
+    "intensityRange": [700, 2000],
+    "unit": ["lm"],
+    "category": ["Artificial"],
+    "description": "Tungsten-halogen bulbs, commonly just called halogen, are the most widely used bulbs in car headlights. High beam is approximately double the intensity of a low beam.",
+    "sources": [
+      "https://www.bulbfacts.com/halogen-bulbs/chart/",
+      "https://en.wikipedia.org/wiki/Headlamp#Light_sources"
+    ]
+  },
+  {
     "name": "Clear Sky",
     "temperature": 15000,
     "intensity": 20000,
@@ -107,8 +120,9 @@
     ]
   },
   {
-    "name": "Light Bulb",
+    "name": "Household Light Bulb",
     "temperature": 2700,
+    "temperatureRange": [2400, 6000],
     "intensity": 800,
     "intensityRange": [400, 1000],
     "unit": ["lm"],

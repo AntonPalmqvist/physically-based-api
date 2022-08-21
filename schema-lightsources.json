@@ -16,6 +16,16 @@
         "type": "number",
         "default": 6500
       },
+      "temperatureRange": {
+        "description": "The typical range of color temperature for this specific light source.",
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "default": [6500, 7000],
+        "minItems": 2,
+        "maxItems": 2
+      },
       "intensity": {
         "type": "number",
         "default": 0
