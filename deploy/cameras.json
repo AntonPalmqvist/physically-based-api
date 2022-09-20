@@ -531,6 +531,22 @@
     "tags": ["drone"]
   },
   {
+    "name": "Fujifilm GFX100",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [43.8, 32.9]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://fujifilm-x.com/global/products/cameras/gfx100/specifications/",
+      "https://en.wikipedia.org/wiki/Fujifilm_GFX100"
+    ],
+    "tags": ["medium format"]
+  },
+  {
     "name": "Fujifilm X-T3",
     "sensorSize": [
       {
@@ -564,6 +580,32 @@
     "tags": [""]
   },
   {
+    "name": "Hasselblad X1D II 50C",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [43.8, 32.9]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": ["https://www.hasselblad.com/x-system/x1d/"],
+    "tags": ["medium format"]
+  },
+  {
+    "name": "Hasselblad X2D 100C",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [43.8, 32.9]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": ["https://www.hasselblad.com/x-system/x2d-100c/"],
+    "tags": ["medium format"]
+  },
+  {
     "name": "IMAX 70 mm",
     "sensorSize": [
       {
@@ -575,6 +617,30 @@
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/70_mm_film#IMAX_.2815.2F70.29"],
     "tags": ["film"]
+  },
+  {
+    "name": "Iphone 14 Pro",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2]
+      },
+      {
+        "format": "77 mm Telephoto",
+        "size": [4, 3]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "",
+    "sources": [
+      "https://www.dpreview.com/articles/6110937480",
+      "https://www.apple.com/iphone-14-pro/specs/"
+    ],
+    "tags": ["phone"]
   },
   {
     "name": "Iphone XS",
