@@ -1,6 +1,14 @@
-# The PBR Database API
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://physicallybased.info/metatag-dark.jpg">
+    <img alt="Screenshot of the web implementation" src="https://physicallybased.info/metatag.jpg">
+  </picture>
+  A database of physically based values for CG artists
+</p>
 
-A database of physically based values for CG artists.
+
+
+## API
 
 Access the API here: [https://api.physicallybased.info](https://api.physicallybased.info)
 
