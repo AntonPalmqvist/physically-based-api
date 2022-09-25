@@ -98,6 +98,11 @@
         "minItems": 2,
         "maxItems": 2
       },
+      "viscosity": {
+        "description": "Dynamic viscosity measured in millipascal-seconds (mPa⋅s) at a temperature of 20°C. 1 mPa⋅s (millipascal-second) = 1 cP (centipoise).",
+        "type": "number",
+        "default": 1
+      },
       "acousticAbsorption": {
         "description": "Absorption coefficients at 125, 250, 500, 1000, 2000, and 4000 kHz.",
         "type": "array",

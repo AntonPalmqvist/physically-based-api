@@ -29,6 +29,7 @@
     "ior": 1.301,
     "transmission": 1,
     "density": 1060,
+    "viscosity": 3,
     "category": ["Human"],
     "description": "The color of blood depends on its oxygen level. When there is plenty of oxygen, the color is a brighter red. The reason is because of a protein called hemoglobin, which carries the oxygen in your blood. When hemoglobin has a full oxygen load, it has a bright red color, and when it's deoxygenated it's a darker red. For example, arterial and capillary blood is bright, and venous blood is dark.",
     "sources": [
@@ -36,7 +37,11 @@
       "https://en.wikipedia.org/wiki/Blood_red",
       "https://refractiveindex.info/?shelf=other&book=blood&page=Rowe",
       "https://hypertextbook.com/facts/2004/MichaelShmukler.shtml",
-      "https://www.researchgate.net/figure/Color-chart-for-the-measurement-of-methemoglobin-The-color-chart-was-prepared-according_fig2_26884296"
+      "https://www.researchgate.net/figure/Color-chart-for-the-measurement-of-methemoglobin-The-color-chart-was-prepared-according_fig2_26884296",
+      "https://www.engineeringtoolbox.com/absolute-viscosity-liquids-d_1259.html",
+      "https://en.wikipedia.org/wiki/Hemorheology",
+      "https://www.frontiersin.org/articles/10.3389/fphys.2019.01329/full",
+      "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table"
     ],
     "tags": [""],
     "reference": [
@@ -221,13 +226,17 @@
     "ior": 1.47,
     "transmission": 1,
     "density": 920,
+    "viscosity": 60,
     "category": ["Liquid"],
     "description": "",
     "sources": [
       "https://hypertextbook.com/facts/2006/TingTingLuo.shtml",
       "https://en.wikipedia.org/wiki/List_of_refractive_indices",
       "https://www.color-name.com/olive-oil.color",
-      "https://en.wikipedia.org/wiki/Density"
+      "https://en.wikipedia.org/wiki/Density",
+      "https://en.wikipedia.org/wiki/List_of_viscosities",
+      "https://downloads.hindawi.com/archive/2014/234583.pdf",
+      "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table"
     ],
     "tags": [""],
     "reference": [
@@ -416,6 +425,7 @@
     "transmission": 1,
     "density": 1400,
     "densityRange": [1380, 1450],
+    "viscosity": 10000,
     "category": ["Liquid"],
     "description": "Variations in its water content alter its refractive index. Typically, the refractive index for honey ranges from 1.504 at 13% water content to 1.474 at 25%.",
     "sources": [
@@ -423,7 +433,10 @@
       "https://en.wikipedia.org/wiki/Honey",
       "https://carolinahoneybees.com/the-color-of-honey/",
       "https://books.google.se/books?id=6RfVqdqxCiUC&pg=PA74&redir_esc=y#v=onepage&q&f=false",
-      "https://wiki.anton-paar.com/en/flower-honey-blended/"
+      "https://wiki.anton-paar.com/en/flower-honey-blended/",
+      "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table",
+      "https://en.wikipedia.org/wiki/List_of_viscosities",
+      "https://www.engineeringtoolbox.com/dynamic-absolute-kinematic-viscosity-d_412.html"
     ],
     "tags": [""],
     "reference": [
@@ -479,12 +492,15 @@
     "ior": 1.4,
     "subsurfaceRadius": [1, 0, 0],
     "density": 0,
+    "viscosity": 50000,
     "category": ["Organic"],
     "description": "",
     "sources": [
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Subsurface",
       "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html",
-      "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf"
+      "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
+      "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table",
+      "https://en.wikipedia.org/wiki/List_of_viscosities"
     ],
     "tags": [""],
     "reference": [
@@ -521,12 +537,15 @@
     "ior": 1.5,
     "complexIor": [2.0733, 5.3383, 1.5523, 4.651, 1.0606, 3.8628],
     "density": 13546,
+    "viscosity": 1.552,
     "category": ["Metal"],
     "description": "",
     "sources": [
       "https://refractiveindex.info/?shelf=3d&book=metals&page=mercury",
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
-      "https://en.wikipedia.org/wiki/Density"
+      "https://en.wikipedia.org/wiki/Density",
+      "https://en.wikipedia.org/wiki/List_of_viscosities",
+      "https://www.engineeringtoolbox.com/absolute-viscosity-liquids-d_1259.html"
     ],
     "tags": ["conductor"],
     "reference": [
@@ -541,13 +560,17 @@
     "ior": 1.348,
     "density": 1030,
     "densityRange": [1026, 1035],
+    "viscosity": 2,
     "category": ["Liquid"],
     "description": "Cow's milk",
     "sources": [
       "https://www.researchgate.net/publication/346758555_What_Is_the_Color_of_Milk_and_Dairy_Products_and_How_Is_It_Measured",
       "http://dairy-technology.blogspot.com/2014/11/refractive-index.html",
       "https://www.theengineer.co.uk/supplier-network/product/density-measurement-of-milk-and-dairy-products/",
-      "https://hypertextbook.com/facts/2002/AliciaNoelleJones.shtml"
+      "https://hypertextbook.com/facts/2002/AliciaNoelleJones.shtml",
+      "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table",
+      "https://en.wikipedia.org/wiki/List_of_viscosities",
+      "https://www.engineeringtoolbox.com/absolute-viscosity-liquids-d_1259.html"
     ],
     "tags": [""],
     "reference": [
@@ -1035,6 +1058,7 @@
     "transmissionDispersion": 55.78,
     "density": 1000,
     "densityRange": [958, 1000],
+    "viscosity": 1.002,
     "acousticAbsorption": [0.008, 0.008, 0.013, 0.015, 0.02, 0.025],
     "category": ["Liquid"],
     "description": "While relatively small quantities of water appear to be colorless, pure water has a slight blue color that becomes deeper as the thickness of the observed sample increases. The hue of water is an intrinsic property and is caused by selective absorption and scattering of white light. Dissolved elements or suspended impurities may give water a different color.",
@@ -1046,7 +1070,10 @@
       "https://en.wikipedia.org/wiki/Properties_of_water#Density_of_water_and_ice",
       "https://en.wikipedia.org/wiki/Color_of_water",
       "https://www.acoustic-supplies.com/absorption-coefficient-chart/",
-      "https://www.cdc.gov/niosh/docs/80-116/pdfs/80-116.pdf?id=10.26616/NIOSHPUB80116"
+      "https://www.cdc.gov/niosh/docs/80-116/pdfs/80-116.pdf?id=10.26616/NIOSHPUB80116",
+      "https://www.engineeringtoolbox.com/water-dynamic-kinematic-viscosity-d_596.html",
+      "https://en.wikipedia.org/wiki/List_of_viscosities",
+      "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table"
     ],
     "tags": [""],
     "reference": [
