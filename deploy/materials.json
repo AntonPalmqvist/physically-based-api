@@ -43,7 +43,7 @@
       "https://www.frontiersin.org/articles/10.3389/fphys.2019.01329/full",
       "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table"
     ],
-    "tags": [""],
+    "tags": ["liquid"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/blood-cycles.png"
     ]
@@ -491,7 +491,7 @@
     "roughness": 0.1,
     "ior": 1.4,
     "subsurfaceRadius": [1, 0, 0],
-    "density": 0,
+    "density": 1150,
     "viscosity": 50000,
     "category": ["Organic"],
     "description": "",
@@ -500,9 +500,10 @@
       "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html",
       "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
       "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table",
-      "https://en.wikipedia.org/wiki/List_of_viscosities"
+      "https://en.wikipedia.org/wiki/List_of_viscosities",
+      "https://www.aqua-calc.com/page/density-table/substance/heinz-blank-tomato-blank-ketchup-coma-and-blank-upc-column--blank-00013000004664"
     ],
-    "tags": [""],
+    "tags": ["liquid"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/ketchup-cycles.png"
     ]
@@ -539,7 +540,7 @@
     "density": 13546,
     "viscosity": 1.552,
     "category": ["Metal"],
-    "description": "",
+    "description": "Mercury is the only metallic element that is known to be liquid at standard conditions.",
     "sources": [
       "https://refractiveindex.info/?shelf=3d&book=metals&page=mercury",
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
@@ -547,7 +548,7 @@
       "https://en.wikipedia.org/wiki/List_of_viscosities",
       "https://www.engineeringtoolbox.com/absolute-viscosity-liquids-d_1259.html"
     ],
-    "tags": ["conductor"],
+    "tags": ["conductor", "liquid"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/mercury-cycles.png"
     ]
