@@ -175,7 +175,8 @@
       "density",
       "category",
       "description",
-      "sources"
+      "sources",
+      "reference"
     ]
   }
 }
