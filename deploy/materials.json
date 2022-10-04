@@ -14,11 +14,12 @@
       "https://refractiveindex.info/?shelf=3d&book=metals&page=aluminium",
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Aluminium",
-      "https://en.wikipedia.org/wiki/Density"
+      "https://en.wikipedia.org/wiki/Density",
+      "https://en.wikipedia.org/wiki/Mirror"
     ],
-    "tags": ["aluminium", "conductor"],
+    "tags": ["aluminium", "mirror"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/data/materials/aluminum/aluminum-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/aluminum-cycles.png"
     ]
   },
   {
@@ -84,7 +85,7 @@
       "https://en.wikipedia.org/wiki/Brass",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["conductor"],
+    "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/brass-cycles.png"
     ]
@@ -170,7 +171,7 @@
       "https://www.chaos.com/blog/understanding-metalness",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["chrome", "conductor"],
+    "tags": ["chrome"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/chromium-cycles.png"
     ]
@@ -191,7 +192,7 @@
       "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["conductor"],
+    "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/cobalt-cycles.png"
     ]
@@ -259,7 +260,7 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["conductor"],
+    "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/copper-cycles.png"
     ]
@@ -299,7 +300,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/data/materials/egg-shell-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/egg-shell-cycles.png"
     ]
   },
   {
@@ -353,7 +354,10 @@
       "https://www.researchgate.net/publication/225767258_Optical_properties_of_human_sclera_in_spectral_range_370-2500_nm",
       "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx"
     ],
-    "tags": [""]
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/eye-sclera-cycles.png"
+    ]
   },
   {
     "name": "Glass",
@@ -396,7 +400,7 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["conductor"],
+    "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/gold-cycles.png"
     ]
@@ -479,7 +483,7 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["conductor"],
+    "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/iron-cycles.png"
     ]
@@ -524,7 +528,7 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["conductor"],
+    "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/lead-cycles.png"
     ]
@@ -548,7 +552,7 @@
       "https://en.wikipedia.org/wiki/List_of_viscosities",
       "https://www.engineeringtoolbox.com/absolute-viscosity-liquids-d_1259.html"
     ],
-    "tags": ["conductor", "liquid"],
+    "tags": ["liquid"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/mercury-cycles.png"
     ]
@@ -593,7 +597,7 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["conductor"],
+    "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/nickel-cycles.png"
     ]
@@ -613,7 +617,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/data/materials/office-paper-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/office-paper-cycles.png"
     ]
   },
   {
@@ -730,7 +734,7 @@
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["conductor"],
+    "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/platinum-cycles.png"
     ]
@@ -768,7 +772,10 @@
       "https://seblagarde.wordpress.com/2014/04/14/dontnod-physically-based-rendering-chart-for-unreal-engine-4/",
       "https://en.wikipedia.org/wiki/Sand"
     ],
-    "tags": []
+    "tags": [],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/sand-cycles.png"
+    ]
   },
   {
     "name": "Sapphire",
@@ -793,6 +800,26 @@
     ]
   },
   {
+    "name": "Silicon",
+    "color": [0.344, 0.367, 0.419],
+    "metalness": 1,
+    "roughness": 0,
+    "ior": 1.5,
+    "complexIor": [3.835, 0.014, 4.073, 0.028, 4.673, 0.095],
+    "density": 2330,
+    "category": ["Metal"],
+    "description": "",
+    "sources": [
+      "https://refractiveindex.info/?shelf=main&book=Si&page=Schinke",
+      "https://en.wikipedia.org/wiki/Density",
+      "https://en.wikipedia.org/wiki/Silicon"
+    ],
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/silicon-cycles.png"
+    ]
+  },
+  {
     "name": "Silver",
     "color": [0.962, 0.949, 0.922],
     "metalness": 1,
@@ -806,9 +833,10 @@
     "sources": [
       "https://refractiveindex.info/?shelf=3d&book=metals&page=silver",
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
-      "https://en.wikipedia.org/wiki/Density"
+      "https://en.wikipedia.org/wiki/Density",
+      "https://en.wikipedia.org/wiki/Mirror"
     ],
-    "tags": ["conductor"],
+    "tags": ["mirror"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/silver-cycles.png"
     ]
@@ -986,7 +1014,7 @@
     ],
     "tags": ["tyre", "rubber"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/data/materials/tire-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/tire-cycles.png"
     ]
   },
   {
@@ -1004,7 +1032,7 @@
       "https://refractiveindex.info/?shelf=3d&book=metals&page=titanium",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["conductor"],
+    "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/titanium-cycles.png"
     ]
@@ -1024,7 +1052,7 @@
       "https://www.chaosgroup.com/blog/understanding-metalness",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["conductor"],
+    "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/tungsten-cycles.png"
     ]
@@ -1044,7 +1072,7 @@
       "https://www.chaosgroup.com/blog/understanding-metalness",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["conductor"],
+    "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/vanadium-cycles.png"
     ]
@@ -1097,7 +1125,7 @@
       "https://www.chaosgroup.com/blog/understanding-metalness",
       "https://en.wikipedia.org/wiki/Density"
     ],
-    "tags": ["conductor"],
+    "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/zinc-cycles.png"
     ]
