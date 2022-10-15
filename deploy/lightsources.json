@@ -4,6 +4,7 @@
     "temperature": 1850,
     "intensity": 13,
     "unit": ["lm"],
+    "type": ["point"],
     "category": ["Natural"],
     "description": "",
     "sources": [
@@ -17,6 +18,7 @@
     "intensity": 1500,
     "intensityRange": [700, 2000],
     "unit": ["lm"],
+    "type": ["spot"],
     "category": ["Artificial"],
     "description": "Tungsten-halogen bulbs, commonly just called halogen, are the most widely used bulbs in car headlights. High beam is approximately double the intensity of a low beam.",
     "sources": [
@@ -29,6 +31,7 @@
     "temperature": 15000,
     "intensity": 20000,
     "unit": ["lx"],
+    "type": ["dome"],
     "category": ["Natural"],
     "description": "Shade illuminated by entire clear blue sky at midday",
     "sources": [
@@ -42,6 +45,7 @@
     "intensity": 2000,
     "intensityRange": [100, 2000],
     "unit": ["lx"],
+    "type": ["dome"],
     "category": ["Natural"],
     "description": "",
     "sources": [
@@ -56,6 +60,7 @@
     "intensity": 200,
     "intensityRange": [100, 2000],
     "unit": ["cd/m2"],
+    "type": ["surface"],
     "category": ["Artificial"],
     "description": "Displays like computer monitors, TVs, signage, etc. Typically they have a temperature of 6500K but it can vary. The sRGB spec for monitors targets 80 cd/m2. Typically, monitors calibrated for broadcast or studio color grading should have a brightness of 100 cd/m2 in Japan and in the United States, or 120 cd/m2 in the European Union. This is however considered quite dark for normal use, so consumer monitors tend to be brighter.",
     "sources": [
@@ -71,6 +76,7 @@
     "intensity": 120000,
     "intensityRange": [32000, 129000],
     "unit": ["lx"],
+    "type": ["directional"],
     "category": ["Natural"],
     "description": "",
     "sources": [
@@ -84,6 +90,7 @@
     "temperature": 0,
     "intensity": 0.0006,
     "unit": ["lm"],
+    "type": ["point"],
     "category": ["Natural"],
     "description": "Fireflies produce a \"cold light\", with no infrared or ultraviolet frequencies. The light may be yellow, green, or pale red, with wavelengths from 510 to 670 nanometers. Some species such as the dimly glowing \"blue ghost\" of the Eastern US may seem to emit blueish-white light from a distance and in low light conditions, but their glow is bright green when observed up close. Their perceived blue tint may be due to the Purkinje effect.",
     "sources": [
@@ -99,6 +106,7 @@
     "intensity": 1000,
     "intensityRange": [500, 5000],
     "unit": ["lm"],
+    "type": ["cylinder"],
     "category": ["Artificial"],
     "description": "",
     "sources": [
@@ -112,6 +120,7 @@
     "intensity": 50,
     "intensityRange": [8, 100],
     "unit": ["lm"],
+    "type": ["point"],
     "category": ["Natural"],
     "description": "",
     "sources": [
@@ -126,6 +135,7 @@
     "intensity": 800,
     "intensityRange": [400, 1000],
     "unit": ["lm"],
+    "type": ["point"],
     "category": ["Artificial"],
     "description": "Today's household lightbulbs has a LED light source whereas older light bulbs were using a glowing tungsten filament. LED:s are much much more energy efficient and makes the use of wattage, as a measure of intensity, not very useful. This is why lumen is preferred.",
     "sources": [
@@ -139,6 +149,7 @@
     "temperature": 0,
     "intensity": 0.002,
     "unit": ["lx"],
+    "type": ["dome"],
     "category": ["Natural"],
     "description": "Even a moonless sky casts some light on earth. A phenomenon called airglow, and also starlight contributes to this. The color of airglow varies",
     "sources": [
@@ -155,6 +166,7 @@
     "intensity": 0.1,
     "intensityRange": [0.05, 0.32],
     "unit": ["lx"],
+    "type": ["directional"],
     "category": ["Natural"],
     "description": "Technically not a light source, since the light from the moon is simply reflected sunlight.",
     "sources": [
@@ -167,6 +179,7 @@
     "temperature": 5500,
     "intensity": 20000,
     "unit": ["lm"],
+    "type": ["spot"],
     "category": ["Artificial"],
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/Flash_(photography)"],
@@ -178,6 +191,7 @@
     "intensity": 60000,
     "intensityRange": [2000, 140000],
     "unit": ["lm"],
+    "type": ["spot"],
     "category": ["Artificial"],
     "description": "The type of yellow light typically used in street lighting is usually a sodium-vapor light. To simulate a sodium-vapor light faithfully you would need a spectral renderer where you can specify the very narrow wavelength range of 589.0 - 589.6 nm in order to get its bespoke monochromatic look.",
     "sources": [
