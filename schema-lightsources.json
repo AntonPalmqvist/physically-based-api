@@ -48,6 +48,22 @@
         "minItems": 1,
         "maxItems": 1
       },
+      "type": {
+        "description": "The type of light, for DCC applications.",
+        "type": "array",
+        "items": {
+          "enum": [
+            "directional",
+            "surface",
+            "spot",
+            "point",
+            "cylinder",
+            "dome"
+          ]
+        },
+        "minItems": 1,
+        "maxItems": 1
+      },
       "category": {
         "type": "array",
         "items": {
