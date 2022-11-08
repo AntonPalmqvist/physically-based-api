@@ -27,34 +27,6 @@
     ]
   },
   {
-    "name": "Clear Sky",
-    "temperature": 15000,
-    "intensity": 20000,
-    "unit": ["lx"],
-    "type": ["dome"],
-    "category": ["Natural"],
-    "description": "Shade illuminated by entire clear blue sky at midday",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Color_temperature",
-      "https://en.wikipedia.org/wiki/Daylight"
-    ]
-  },
-  {
-    "name": "Daylight Overcast",
-    "temperature": 6500,
-    "intensity": 2000,
-    "intensityRange": [100, 2000],
-    "unit": ["lx"],
-    "type": ["dome"],
-    "category": ["Natural"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Color_temperature",
-      "https://en.wikipedia.org/wiki/Daylight",
-      "https://en.wikipedia.org/wiki/Lux"
-    ]
-  },
-  {
     "name": "Digital Display",
     "temperature": 6500,
     "intensity": 200,
@@ -69,21 +41,6 @@
       "https://en.wikipedia.org/wiki/Candela_per_square_metre"
     ],
     "tags": ["computer", "monitor", "lcd", "oled", "screen"]
-  },
-  {
-    "name": "Direct Sunlight",
-    "temperature": 5778,
-    "intensity": 120000,
-    "intensityRange": [32000, 129000],
-    "unit": ["lx"],
-    "type": ["directional"],
-    "category": ["Natural"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Color_temperature#The_Sun",
-      "https://en.wikipedia.org/wiki/Sunlight#Measurement",
-      "http://stjarnhimlen.se/comp/radfaq.html#10"
-    ]
   },
   {
     "name": "Firefly",
@@ -145,23 +102,7 @@
     "tags": ["incandescent", "tungsten"]
   },
   {
-    "name": "Moonless Clear Night Sky",
-    "temperature": 0,
-    "intensity": 0.002,
-    "unit": ["lx"],
-    "type": ["dome"],
-    "category": ["Natural"],
-    "description": "Even a moonless sky casts some light on earth. A phenomenon called airglow, and also starlight contributes to this. The color of airglow varies",
-    "sources": [
-      "http://stjarnhimlen.se/comp/radfaq.html#10",
-      "https://en.wikipedia.org/wiki/Airglow",
-      "https://en.wikipedia.org/wiki/Starlight",
-      "https://sciencenotes.org/what-is-airglow/"
-    ],
-    "tags": ["airglow"]
-  },
-  {
-    "name": "Moonlight",
+    "name": "Moon",
     "temperature": 4000,
     "intensity": 0.1,
     "intensityRange": [0.05, 0.32],
@@ -186,6 +127,50 @@
     "tags": ["camera"]
   },
   {
+    "name": "Sky (Clear)",
+    "temperature": 15000,
+    "intensity": 20000,
+    "unit": ["lx"],
+    "type": ["dome"],
+    "category": ["Natural"],
+    "description": "Shade illuminated by entire clear blue sky at midday",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Color_temperature",
+      "https://en.wikipedia.org/wiki/Daylight"
+    ]
+  },
+  {
+    "name": "Sky (Moonless Clear Night)",
+    "temperature": 0,
+    "intensity": 0.002,
+    "unit": ["lx"],
+    "type": ["dome"],
+    "category": ["Natural"],
+    "description": "Even a moonless sky casts some light on earth. A phenomenon called airglow, and also starlight, contributes to this. The color of airglow varies",
+    "sources": [
+      "http://stjarnhimlen.se/comp/radfaq.html#10",
+      "https://en.wikipedia.org/wiki/Airglow",
+      "https://en.wikipedia.org/wiki/Starlight",
+      "https://sciencenotes.org/what-is-airglow/"
+    ],
+    "tags": ["airglow"]
+  },
+  {
+    "name": "Sky (Overcast Day)",
+    "temperature": 6500,
+    "intensity": 2000,
+    "intensityRange": [100, 2000],
+    "unit": ["lx"],
+    "type": ["dome"],
+    "category": ["Natural"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Color_temperature",
+      "https://en.wikipedia.org/wiki/Daylight",
+      "https://en.wikipedia.org/wiki/Lux"
+    ]
+  },
+  {
     "name": "Street Light",
     "temperature": 0,
     "intensity": 60000,
@@ -199,5 +184,22 @@
       "https://www.1000bulbs.com/fil/categories/high-pressure-sodium-lamps"
     ],
     "tags": ["sodium", "vapor"]
+  },
+  {
+    "name": "Sun",
+    "temperature": 5778,
+    "intensity": 100000,
+    "intensityRange": [400, 100000],
+    "unit": ["lx"],
+    "type": ["directional"],
+    "category": ["Natural"],
+    "description": "The changing color of the Sun over the course of the day is mainly a result of the scattering of sunlight and is not due to changes in black-body radiation. The solar illuminance constant is equal to 128 000 lux, but atmospheric extinction brings the number of lux down to around 100 000 lux.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Color_temperature#The_Sun",
+      "https://en.wikipedia.org/wiki/Sunlight#Measurement",
+      "https://en.wikipedia.org/wiki/Daylight",
+      "http://stjarnhimlen.se/comp/radfaq.html#10",
+      "https://web.archive.org/web/20131208053849/http://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html"
+    ]
   }
 ]

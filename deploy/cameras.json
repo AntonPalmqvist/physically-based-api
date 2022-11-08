@@ -2782,17 +2782,52 @@
     "tags": ["phone"]
   },
   {
-    "name": "Sony a7",
+    "name": "Sony Alpha 7 IV",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.8, 23.9]
+        "size": [35.9, 23.9]
       }
     ],
     "category": ["Still"],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Sony_α7"],
-    "tags": ["full frame", "α7"]
+    "sources": [
+      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7m4-b",
+      "https://en.wikipedia.org/wiki/Sony_α7"
+    ],
+    "tags": ["full frame", "a7"]
+  },
+  {
+    "name": "Sony Alpha 7R IV",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.7, 23.8]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7rm4a-b",
+      "https://en.wikipedia.org/wiki/Sony_α7"
+    ],
+    "tags": ["full frame", "a7r"]
+  },
+  {
+    "name": "Sony Alpha 7R V",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.7, 23.8]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce7rm5-b",
+      "https://en.wikipedia.org/wiki/Sony_α7"
+    ],
+    "tags": ["full frame", "a7r"]
   },
   {
     "name": "Sony F5",
