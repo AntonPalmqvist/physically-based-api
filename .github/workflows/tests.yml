@@ -13,10 +13,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v4
-        with:
-          python-version: ${{ matrix.python-version }}
-      - name: Test with pytest
+      - name: Test Cameras
         run: |
           python -m unittest tests/test_cameras.py
