@@ -203,7 +203,7 @@
     "sensorSize": [
       {
         "format": "4.5K LF 3:2 Open Gate",
-        "size": [36.7, 25.54]
+        "size": [36.7, 25.54, 10]
       },
       {
         "format": "4.5K LF 2.39:1",
