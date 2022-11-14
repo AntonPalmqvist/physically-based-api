@@ -7,12 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    # strategy:
-    #   matrix:
-    #     python-version: ["3.7", "3.8", "3.9", "3.10"]
-
     steps:
       - uses: actions/checkout@v3
       - name: Test Cameras
-        run: |
-          python -m unittest tests/test_cameras.py
+        run: python -m unittest tests/test_cameras.py
