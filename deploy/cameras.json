@@ -2781,6 +2781,22 @@
     "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
     "tags": ["phone"]
   },
+    {
+    "name": "Sony Alpha 7S III",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.8, 23.9]
+      }
+    ],
+    "category": ["Still"],
+    "description": "Full-frame Interchangeable Lens Camera 12.1MP, 10FPS, 4K/120p High Sensitivity",
+    "sources": [
+      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7sm3-b",
+      "https://en.wikipedia.org/wiki/Sony_α7"
+    ],
+    "tags": ["full frame", "a7"]
+  },
   {
     "name": "Sony Alpha 7 IV",
     "sensorSize": [
