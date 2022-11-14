@@ -13,10 +13,12 @@ class TestCameras(unittest.TestCase):
         # cls.names = [x["name"] for x in cls.data]
         cls.sensorSizes = [x["sensorSize"] for x in cls.data]
 
-    def test_Names(self):
+    def test_names(self):
         """Checks for duplicate camera names."""
         names = [x["name"] for x in self.data]
         self.assertEqual(len(names), len(set(names)))
+        # Uncomment the line below to check for data to be sorted.
+        # self.assertEqual(names, sorted(names))
 
     def test_sensorFormats(self):
         """Checks if the sensor format value is a string."""
