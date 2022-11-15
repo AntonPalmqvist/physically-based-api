@@ -2924,6 +2924,21 @@
     "tags": ["super 35"]
   },
   {
+    "name": "Sony FX3",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.6, 23.8]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://electronics.sony.com/imaging/cinema-line-cameras/all-cinema-line-cameras/p/ilmefx3"
+    ],
+    "tags": ["full frame"]
+  },
+  {
     "name": "Sony FX6",
     "sensorSize": [
       {
