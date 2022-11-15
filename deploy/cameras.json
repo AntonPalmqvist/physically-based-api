@@ -4,407 +4,797 @@
     "sensorSize": [
       {
         "format": "4K 3:2 Open Gate",
-        "size": [27.99, 19.22]
+        "size": [
+          27.99,
+          19.22
+        ]
       },
       {
         "format": "4.6K 16:9",
-        "size": [28, 15.7]
+        "size": [
+          28,
+          15.7
+        ]
       },
       {
         "format": "4K 16:9",
-        "size": [24.9, 14]
+        "size": [
+          24.9,
+          14
+        ]
       },
       {
         "format": "4K 2:1",
-        "size": [24.9, 12.4]
+        "size": [
+          24.9,
+          12.4
+        ]
       },
       {
         "format": "3.3K 6:5",
-        "size": [20.22, 16.95]
+        "size": [
+          20.22,
+          16.95
+        ]
       },
       {
         "format": "3K 1:1",
-        "size": [18.7, 18.7]
+        "size": [
+          18.7,
+          18.7
+        ]
       },
       {
         "format": "2.7K 8:9",
-        "size": [16.7, 18.7]
+        "size": [
+          16.7,
+          18.7
+        ]
       },
       {
         "format": "2K 16:9 S16",
-        "size": [12.4, 7]
+        "size": [
+          12.4,
+          7
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
-    "sources": ["https://www.arri.com/en/camera-systems/cameras/alexa-35"],
-    "tags": [""]
+    "sources": [
+      "https://www.arri.com/en/camera-systems/cameras/alexa-35"
+    ],
+    "tags": [
+      ""
+    ]
   },
   {
     "name": "Arri Alexa 65",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [54.12, 25.58]
+        "size": [
+          54.12,
+          25.58
+        ]
       },
       {
         "format": "5.1K 16:9",
-        "size": [42.24, 23.76]
+        "size": [
+          42.24,
+          23.76
+        ]
       },
       {
         "format": "LF Open Gate",
-        "size": [36.7, 25.54]
+        "size": [
+          36.7,
+          25.54
+        ]
       },
       {
         "format": "4.3K 3:2",
-        "size": [35.64, 23.76]
+        "size": [
+          35.64,
+          23.76
+        ]
       },
       {
         "format": "4K UHD",
-        "size": [31.68, 17.82]
+        "size": [
+          31.68,
+          17.82
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://www.arrirental.com/en/cameras/exclusive-cameras/alexa-65",
       "https://www.arri.com/resource/blob/31908/14147b455c90a9a35018c0d091350ff3/2021-10-arri-formatsandresolutionsoverview-3-4-data.pdf",
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
     ],
-    "tags": ["imax"]
-  },
-  {
-    "name": "Arri Amira",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [26.4, 14.85]
-      },
-      {
-        "format": "4K UHD",
-        "size": [26.4, 14.85]
-      },
-      {
-        "format": "3.2K",
-        "size": [26.4, 14.85]
-      },
-      {
-        "format": "2.8K",
-        "size": [23.76, 17.82]
-      },
-      {
-        "format": "2.8K 16:9",
-        "size": [23.76, 13.37]
-      },
-      {
-        "format": "2K",
-        "size": [23.66, 13.3]
-      },
-      {
-        "format": "HD",
-        "size": [23.76, 13.37]
-      },
-      {
-        "format": "S16 HD",
-        "size": [13.2, 7.43]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.arri.com/en/camera-systems/cameras/amira",
-      "https://www.arri.com/resource/blob/31908/14147b455c90a9a35018c0d091350ff3/2021-10-arri-formatsandresolutionsoverview-3-4-data.pdf"
-    ],
-    "tags": ["super 35"]
+    "tags": [
+      "imax"
+    ]
   },
   {
     "name": "Arri Alexa LF",
     "sensorSize": [
       {
         "format": "LF Open Gate 4.5K",
-        "size": [36.7, 25.54]
+        "size": [
+          36.7,
+          25.54
+        ]
       },
       {
         "format": "LF 2.39:1 4.5K",
-        "size": [36.7, 15.31]
+        "size": [
+          36.7,
+          15.31
+        ]
       },
       {
         "format": "LF 16:9 UHD",
-        "size": [31.68, 17.82]
+        "size": [
+          31.68,
+          17.82
+        ]
       },
       {
         "format": "LF 2K 16:9",
-        "size": [31.68, 17.82]
+        "size": [
+          31.68,
+          17.82
+        ]
       },
       {
         "format": "LF HD 16:9",
-        "size": [31.68, 17.82]
+        "size": [
+          31.68,
+          17.82
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://www.arri.com/en/camera-systems/cameras/alexa-lf",
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
     ],
-    "tags": ["super 35", "imax"]
+    "tags": [
+      "super 35",
+      "imax"
+    ]
   },
   {
     "name": "Arri Alexa Mini",
     "sensorSize": [
       {
         "format": "3.4K Open Gate",
-        "size": [28.25, 18.17]
+        "size": [
+          28.25,
+          18.17
+        ]
       },
       {
         "format": "4K UHD",
-        "size": [26.4, 14.85]
+        "size": [
+          26.4,
+          14.85
+        ]
       },
       {
         "format": "3.2K",
-        "size": [26.4, 14.85]
+        "size": [
+          26.4,
+          14.85
+        ]
       },
       {
         "format": "2.8K 4:3",
-        "size": [23.76, 17.82]
+        "size": [
+          23.76,
+          17.82
+        ]
       },
       {
         "format": "2.8K 16:9",
-        "size": [23.76, 13.37]
+        "size": [
+          23.76,
+          13.37
+        ]
       },
       {
         "format": "2K",
-        "size": [23.66, 13.3]
+        "size": [
+          23.66,
+          13.3
+        ]
       },
       {
         "format": "2K 2.39:1 Anamorphic",
-        "size": [21.12, 17.7]
+        "size": [
+          21.12,
+          17.7
+        ]
       },
       {
         "format": "HD",
-        "size": [23.76, 13.37]
+        "size": [
+          23.76,
+          13.37
+        ]
       },
       {
         "format": "HD Anamorphic",
-        "size": [15.84, 17.82]
+        "size": [
+          15.84,
+          17.82
+        ]
       },
       {
         "format": "S16 HD",
-        "size": [13.2, 7.43]
+        "size": [
+          13.2,
+          7.43
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
-    "sources": ["https://www.arri.com/en/camera-systems/cameras/alexa-mini"],
-    "tags": ["super 35"]
+    "sources": [
+      "https://www.arri.com/en/camera-systems/cameras/alexa-mini"
+    ],
+    "tags": [
+      "super 35"
+    ]
   },
   {
     "name": "Arri Alexa Mini LF",
     "sensorSize": [
       {
         "format": "4.5K LF 3:2 Open Gate",
-        "size": [36.7, 25.54]
+        "size": [
+          36.7,
+          25.54
+        ]
       },
       {
         "format": "4.5K LF 2.39:1",
-        "size": [36.7, 15.31]
+        "size": [
+          36.7,
+          15.31
+        ]
       },
       {
         "format": "4.3K LF 16:9",
-        "size": [35.64, 20.05]
+        "size": [
+          35.64,
+          20.05
+        ]
       },
       {
         "format": "3.8K LF 16:9",
-        "size": [31.68, 17.82]
+        "size": [
+          31.68,
+          17.82
+        ]
       },
       {
         "format": "2.8K LF 1:1",
-        "size": [23.76, 23.76]
+        "size": [
+          23.76,
+          23.76
+        ]
       },
       {
         "format": "3.4K S35 3:2",
-        "size": [28.25, 18.17]
+        "size": [
+          28.25,
+          18.17
+        ]
       },
       {
         "format": "3.2K S35 16:9",
-        "size": [26.4, 14.85]
+        "size": [
+          26.4,
+          14.85
+        ]
       },
       {
         "format": "2.8K S35 4:3",
-        "size": [23.76, 17.82]
+        "size": [
+          23.76,
+          17.82
+        ]
       },
       {
         "format": "2.8K S35 16:9",
-        "size": [23.76, 13.37]
+        "size": [
+          23.76,
+          13.37
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://www.arri.com/en/camera-systems/cameras/alexa-mini-lf",
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
     ],
-    "tags": ["super 35", "imax"]
+    "tags": [
+      "super 35",
+      "imax"
+    ]
   },
   {
     "name": "Arri Alexa SXT W",
     "sensorSize": [
       {
         "format": "3.4K Open Gate",
-        "size": [28.25, 18.17]
+        "size": [
+          28.25,
+          18.17
+        ]
       },
       {
         "format": "4K Cine Open Gate",
-        "size": [28.17, 18.13]
+        "size": [
+          28.17,
+          18.13
+        ]
       },
       {
         "format": "2.8K 4:3",
-        "size": [23.76, 17.82]
+        "size": [
+          23.76,
+          17.82
+        ]
       },
       {
         "format": "4K 16:9",
-        "size": [26.4, 14.85]
+        "size": [
+          26.4,
+          14.85
+        ]
       },
       {
         "format": "3.2K 16:9 ProRes",
-        "size": [26.4, 14.85]
+        "size": [
+          26.4,
+          14.85
+        ]
       },
       {
         "format": "3.2K 16:9 ARRIRAW",
-        "size": [26.14, 14.7]
+        "size": [
+          26.14,
+          14.7
+        ]
       },
       {
         "format": "2.8K 16:9",
-        "size": [23.76, 13.37]
+        "size": [
+          23.76,
+          13.37
+        ]
       },
       {
         "format": "2K 16:9",
-        "size": [23.76, 13.37]
+        "size": [
+          23.76,
+          13.37
+        ]
       },
       {
         "format": "HD 16:9",
-        "size": [23.76, 13.37]
+        "size": [
+          23.76,
+          13.37
+        ]
       },
       {
         "format": "2.6K 6:5",
-        "size": [21.38, 17.82]
+        "size": [
+          21.38,
+          17.82
+        ]
       },
       {
         "format": "4K Cine 6:5 Anamorphic",
-        "size": [21.12, 17.7]
+        "size": [
+          21.12,
+          17.7
+        ]
       },
       {
         "format": "2K 6:5 Anamorphic",
-        "size": [21.12, 17.7]
+        "size": [
+          21.12,
+          17.7
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
-    "sources": ["https://www.arri.com/en/camera-systems/cameras/alexa-sxt-w"],
-    "tags": ["super 35"]
+    "sources": [
+      "https://www.arri.com/en/camera-systems/cameras/alexa-sxt-w"
+    ],
+    "tags": [
+      "super 35"
+    ]
+  },
+  {
+    "name": "Arri Amira",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [
+          26.4,
+          14.85
+        ]
+      },
+      {
+        "format": "4K UHD",
+        "size": [
+          26.4,
+          14.85
+        ]
+      },
+      {
+        "format": "3.2K",
+        "size": [
+          26.4,
+          14.85
+        ]
+      },
+      {
+        "format": "2.8K",
+        "size": [
+          23.76,
+          17.82
+        ]
+      },
+      {
+        "format": "2.8K 16:9",
+        "size": [
+          23.76,
+          13.37
+        ]
+      },
+      {
+        "format": "2K",
+        "size": [
+          23.66,
+          13.3
+        ]
+      },
+      {
+        "format": "HD",
+        "size": [
+          23.76,
+          13.37
+        ]
+      },
+      {
+        "format": "S16 HD",
+        "size": [
+          13.2,
+          7.43
+        ]
+      }
+    ],
+    "category": [
+      "Movie"
+    ],
+    "description": "",
+    "sources": [
+      "https://www.arri.com/en/camera-systems/cameras/amira",
+      "https://www.arri.com/resource/blob/31908/14147b455c90a9a35018c0d091350ff3/2021-10-arri-formatsandresolutionsoverview-3-4-data.pdf"
+    ],
+    "tags": [
+      "super 35"
+    ]
   },
   {
     "name": "Blackmagic Pocket Cinema Camera 4K",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [18.96, 10]
+        "size": [
+          18.96,
+          10
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://www.blackmagicdesign.com/products/blackmagicpocketcinemacamera/techspecs/W-CIN-12"
     ],
-    "tags": ["four thirds"]
+    "tags": [
+      "four thirds"
+    ]
   },
   {
     "name": "Blackmagic Pocket Cinema Camera 6K",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [23.1, 12.99]
+        "size": [
+          23.1,
+          12.99
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://www.blackmagicdesign.com/products/blackmagicpocketcinemacamera/techspecs/W-CIN-15"
     ],
-    "tags": ["super 35"]
+    "tags": [
+      "super 35"
+    ]
   },
   {
     "name": "Blackmagic Studio Camera 4K",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [17.78, 10]
+        "size": [
+          17.78,
+          10
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://www.blackmagicdesign.com/products/blackmagicstudiocamera/techspecs/W-CST-05"
     ],
-    "tags": ["four thirds"]
+    "tags": [
+      "four thirds"
+    ]
   },
   {
     "name": "Blackmagic URSA Broadcast G2",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [23.1, 12.99]
+        "size": [
+          23.1,
+          12.99
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://www.blackmagicdesign.com/products/blackmagicursabroadcast/techspecs/W-URSA-38",
       "https://en.wikipedia.org/wiki/Blackmagic_URSA"
     ],
-    "tags": [""]
-  },
-  {
-    "name": "Blackmagic URSA Mini Pro 4.6K G2",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [25.34, 14.25]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs/W-URSA-34",
-      "https://en.wikipedia.org/wiki/Blackmagic_URSA"
-    ],
-    "tags": ["super 35"]
+    "tags": [
+      ""
+    ]
   },
   {
     "name": "Blackmagic URSA Mini Pro 12K",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [27.03, 14.25]
+        "size": [
+          27.03,
+          14.25
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs/W-URSA-36",
       "https://en.wikipedia.org/wiki/Blackmagic_URSA"
     ],
-    "tags": ["super 35"]
+    "tags": [
+      "super 35"
+    ]
+  },
+  {
+    "name": "Blackmagic URSA Mini Pro 4.6K G2",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [
+          25.34,
+          14.25
+        ]
+      }
+    ],
+    "category": [
+      "Movie"
+    ],
+    "description": "",
+    "sources": [
+      "https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs/W-URSA-34",
+      "https://en.wikipedia.org/wiki/Blackmagic_URSA"
+    ],
+    "tags": [
+      "super 35"
+    ]
+  },
+  {
+    "name": "Canon EOS 5D",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [
+          36,
+          24
+        ]
+      }
+    ],
+    "category": [
+      "Still"
+    ],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Canon_EOS_5D_Mark_IV"
+    ],
+    "tags": [
+      "full frame"
+    ]
+  },
+  {
+    "name": "Canon EOS 90D",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [
+          22.3,
+          14.9
+        ]
+      }
+    ],
+    "category": [
+      "Still"
+    ],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Canon_EOS_90D"
+    ],
+    "tags": [
+      "aps-c"
+    ]
+  },
+  {
+    "name": "Canon EOS C300",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [
+          24.6,
+          13.8
+        ]
+      }
+    ],
+    "category": [
+      "Movie"
+    ],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Canon_EOS_C300",
+      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/eos-c300",
+      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/eos-c300-mark-iii-digital-cinema-camera"
+    ],
+    "tags": [
+      "super 35"
+    ]
+  },
+  {
+    "name": "Canon EOS C500",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [
+          26.2,
+          13.8
+        ]
+      }
+    ],
+    "category": [
+      "Movie"
+    ],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Canon_EOS_C500",
+      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/cinema-eos-c500-mark-ii"
+    ],
+    "tags": [
+      "super 35"
+    ]
+  },
+  {
+    "name": "Canon EOS C70",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [
+          26.2,
+          13.8
+        ]
+      }
+    ],
+    "category": [
+      "Movie"
+    ],
+    "description": "",
+    "sources": [
+      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/eos-c70"
+    ],
+    "tags": [
+      "super 35"
+    ]
+  },
+  {
+    "name": "Canon EOS C700 FF",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [
+          38.1,
+          20.1
+        ]
+      }
+    ],
+    "category": [
+      "Movie"
+    ],
+    "description": "",
+    "sources": [
+      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/eos-c700-ff",
+      "https://downloads.canon.com/nw/camera/downloads/brochures/cinema/cinema-eos/eos-c700-ff-series-product-brochure.pdf"
+    ],
+    "tags": [
+      "full frame"
+    ]
   },
   {
     "name": "Canon EOS-1D X",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [36, 24]
+        "size": [
+          36,
+          24
+        ]
       }
     ],
-    "category": ["Still"],
+    "category": [
+      "Still"
+    ],
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Canon_EOS-1D_X",
@@ -412,828 +802,1217 @@
       "https://en.wikipedia.org/wiki/Canon_EOS-1D_X_Mark_III",
       "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/eos-dslr-and-mirrorless-cameras/dslr/eos-1d-x-mark-iii"
     ],
-    "tags": ["full frame"]
-  },
-  {
-    "name": "Canon EOS 5D",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [36, 24]
-      }
-    ],
-    "category": ["Still"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Canon_EOS_5D_Mark_IV"],
-    "tags": ["full frame"]
-  },
-  {
-    "name": "Canon EOS 90D",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [22.3, 14.9]
-      }
-    ],
-    "category": ["Still"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Canon_EOS_90D"],
-    "tags": ["aps-c"]
-  },
-  {
-    "name": "Canon EOS C300",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [24.6, 13.8]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Canon_EOS_C300",
-      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/eos-c300",
-      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/eos-c300-mark-iii-digital-cinema-camera"
-    ],
-    "tags": ["super 35"]
-  },
-  {
-    "name": "Canon EOS C500",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [26.2, 13.8]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Canon_EOS_C500",
-      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/cinema-eos-c500-mark-ii"
-    ],
-    "tags": ["super 35"]
-  },
-  {
-    "name": "Canon EOS C70",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [26.2, 13.8]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/eos-c70"
-    ],
-    "tags": ["super 35"]
-  },
-  {
-    "name": "Canon EOS C700 FF",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [38.1, 20.1]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/eos-c700-ff",
-      "https://downloads.canon.com/nw/camera/downloads/brochures/cinema/cinema-eos/eos-c700-ff-series-product-brochure.pdf"
-    ],
-    "tags": ["full frame"]
+    "tags": [
+      "full frame"
+    ]
   },
   {
     "name": "DJI Mavic Air 2",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [6.4, 4.8]
+        "size": [
+          6.4,
+          4.8
+        ]
       }
     ],
-    "category": ["Mobile"],
+    "category": [
+      "Mobile"
+    ],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
-    "tags": ["drone"]
+    "sources": [
+      "https://en.wikipedia.org/wiki/Image_sensor_format"
+    ],
+    "tags": [
+      "drone"
+    ]
   },
   {
     "name": "DJI Phantom 3",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [6.17, 4.55]
+        "size": [
+          6.17,
+          4.55
+        ]
       }
     ],
-    "category": ["Mobile"],
+    "category": [
+      "Mobile"
+    ],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
-    "tags": ["drone"]
+    "sources": [
+      "https://en.wikipedia.org/wiki/Image_sensor_format"
+    ],
+    "tags": [
+      "drone"
+    ]
   },
   {
     "name": "Fujifilm GFX100",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [43.8, 32.9]
+        "size": [
+          43.8,
+          32.9
+        ]
       }
     ],
-    "category": ["Still"],
+    "category": [
+      "Still"
+    ],
     "description": "",
     "sources": [
       "https://fujifilm-x.com/global/products/cameras/gfx100/specifications/",
       "https://en.wikipedia.org/wiki/Fujifilm_GFX100"
     ],
-    "tags": ["medium format"]
+    "tags": [
+      "medium format"
+    ]
   },
   {
     "name": "Fujifilm X-T3",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [23.5, 15.6]
+        "size": [
+          23.5,
+          15.6
+        ]
       }
     ],
-    "category": ["Still"],
+    "category": [
+      "Still"
+    ],
     "description": "",
     "sources": [
       "https://fujifilm-x.com/global/products/cameras/x-t3/specifications/",
       "https://en.wikipedia.org/wiki/Fujifilm_X-T3",
       "https://www.digicamdb.com/specs/fujifilm_x-t3/"
     ],
-    "tags": ["aps-c"]
+    "tags": [
+      "aps-c"
+    ]
   },
   {
     "name": "GoPro HERO Series",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [6.17, 4.55]
+        "size": [
+          6.17,
+          4.55
+        ]
       }
     ],
-    "category": ["Mobile"],
+    "category": [
+      "Mobile"
+    ],
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Image_sensor_format",
       "https://en.wikipedia.org/wiki/GoPro"
     ],
-    "tags": [""]
+    "tags": [
+      ""
+    ]
   },
   {
     "name": "Hasselblad X1D II 50C",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [43.8, 32.9]
+        "size": [
+          43.8,
+          32.9
+        ]
       }
     ],
-    "category": ["Still"],
+    "category": [
+      "Still"
+    ],
     "description": "",
-    "sources": ["https://www.hasselblad.com/x-system/x1d/"],
-    "tags": ["medium format"]
+    "sources": [
+      "https://www.hasselblad.com/x-system/x1d/"
+    ],
+    "tags": [
+      "medium format"
+    ]
   },
   {
     "name": "Hasselblad X2D 100C",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [43.8, 32.9]
+        "size": [
+          43.8,
+          32.9
+        ]
       }
     ],
-    "category": ["Still"],
+    "category": [
+      "Still"
+    ],
     "description": "",
-    "sources": ["https://www.hasselblad.com/x-system/x2d-100c/"],
-    "tags": ["medium format"]
+    "sources": [
+      "https://www.hasselblad.com/x-system/x2d-100c/"
+    ],
+    "tags": [
+      "medium format"
+    ]
   },
   {
     "name": "IMAX 70 mm",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [70.41, 52.63]
+        "size": [
+          70.41,
+          52.63
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/70_mm_film#IMAX_.2815.2F70.29"],
-    "tags": ["film"]
+    "sources": [
+      "https://en.wikipedia.org/wiki/70_mm_film#IMAX_.2815.2F70.29"
+    ],
+    "tags": [
+      "film"
+    ]
   },
   {
     "name": "Iphone 14 Pro",
     "sensorSize": [
       {
         "format": "24 mm Main",
-        "size": [9.8, 7.3]
+        "size": [
+          9.8,
+          7.3
+        ]
       },
       {
         "format": "13 mm Ultra Wide",
-        "size": [5.6, 4.2]
+        "size": [
+          5.6,
+          4.2
+        ]
       },
       {
         "format": "77 mm Telephoto",
-        "size": [4, 3]
+        "size": [
+          4,
+          3
+        ]
       }
     ],
-    "category": ["Mobile"],
+    "category": [
+      "Mobile"
+    ],
     "description": "",
     "sources": [
       "https://www.dpreview.com/articles/6110937480",
       "https://www.apple.com/iphone-14-pro/specs/"
     ],
-    "tags": ["phone"]
+    "tags": [
+      "phone"
+    ]
   },
   {
     "name": "Iphone XS",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [5.76, 4.29]
+        "size": [
+          5.76,
+          4.29
+        ]
       }
     ],
-    "category": ["Mobile"],
+    "category": [
+      "Mobile"
+    ],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
-    "tags": ["phone"]
+    "sources": [
+      "https://en.wikipedia.org/wiki/Image_sensor_format"
+    ],
+    "tags": [
+      "phone"
+    ]
   },
   {
     "name": "Leica S",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [45, 30]
+        "size": [
+          45,
+          30
+        ]
       }
     ],
-    "category": ["Still"],
+    "category": [
+      "Still"
+    ],
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Leica_S-System",
       "https://leica-camera.com/en-SG/photography/cameras/s/s3-black/details"
     ],
-    "tags": ["medium format"]
+    "tags": [
+      "medium format"
+    ]
   },
   {
     "name": "Panasonic EVA1",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [24.6, 12.97]
+        "size": [
+          24.6,
+          12.97
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/eva1/index.html",
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/au-eva1.pdf"
     ],
-    "tags": ["super 35"]
+    "tags": [
+      "super 35"
+    ]
   },
   {
     "name": "Panasonic LUMIX BGH1",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [17.3, 13.0]
+        "size": [
+          17.3,
+          13.0
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/bgh1/spec/index.html"
     ],
-    "tags": ["micro four thirds"]
+    "tags": [
+      "micro four thirds"
+    ]
   },
   {
     "name": "Panasonic LUMIX BS1H",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.6, 23.8]
+        "size": [
+          35.6,
+          23.8
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/bs1h/index.html"
     ],
-    "tags": ["full frame"]
+    "tags": [
+      "full frame"
+    ]
   },
   {
     "name": "Panasonic LUMIX S1H",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.6, 23.8]
+        "size": [
+          35.6,
+          23.8
+        ]
       }
     ],
-    "category": ["Still"],
+    "category": [
+      "Still"
+    ],
     "description": "",
     "sources": [
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/s1h/index.html"
     ],
-    "tags": ["full frame"]
+    "tags": [
+      "full frame"
+    ]
   },
   {
     "name": "Panasonic VariCam 35",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [26.69, 14.18]
+        "size": [
+          26.69,
+          14.18
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Varicam",
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf"
     ],
-    "tags": ["super 35"]
+    "tags": [
+      "super 35"
+    ]
   },
   {
     "name": "Panasonic VariCam LT",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [26.69, 14.18]
+        "size": [
+          26.69,
+          14.18
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Varicam",
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf"
     ],
-    "tags": ["super 35"]
+    "tags": [
+      "super 35"
+    ]
   },
   {
     "name": "Panasonic VariCam Pure",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [26.69, 14.18]
+        "size": [
+          26.69,
+          14.18
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Varicam",
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf"
     ],
-    "tags": ["super 35"]
+    "tags": [
+      "super 35"
+    ]
   },
   {
     "name": "Panavision DXL2",
     "sensorSize": [
       {
         "format": "8K Full Format",
-        "size": [40.96, 21.6]
+        "size": [
+          40.96,
+          21.6
+        ]
       },
       {
         "format": "8K 2:1",
-        "size": [40.96, 20.48]
+        "size": [
+          40.96,
+          20.48
+        ]
       },
       {
         "format": "8K 2.4:1 (WS)",
-        "size": [40.96, 17.28]
+        "size": [
+          40.96,
+          17.28
+        ]
       },
       {
         "format": "8K 16:9 (HD)",
-        "size": [38.4, 21.6]
+        "size": [
+          38.4,
+          21.6
+        ]
       },
       {
         "format": "7.5K Full Format",
-        "size": [38.4, 20.4]
+        "size": [
+          38.4,
+          20.4
+        ]
       },
       {
         "format": "7.5K 2:1",
-        "size": [38.4, 19.2]
+        "size": [
+          38.4,
+          19.2
+        ]
       },
       {
         "format": "7.5K 2.4:1 (WS)",
-        "size": [38.4, 16.2]
+        "size": [
+          38.4,
+          16.2
+        ]
       },
       {
         "format": "7.5K 16:9 (HD)",
-        "size": [36.48, 20.52]
+        "size": [
+          36.48,
+          20.52
+        ]
       },
       {
         "format": "7K Full Format",
-        "size": [35.84, 18.9]
+        "size": [
+          35.84,
+          18.9
+        ]
       },
       {
         "format": "7K 2:1",
-        "size": [35.84, 17.92]
+        "size": [
+          35.84,
+          17.92
+        ]
       },
       {
         "format": "7K 2.4:1 (WS)",
-        "size": [35.84, 15.12]
+        "size": [
+          35.84,
+          15.12
+        ]
       },
       {
         "format": "7K 16:9 (HD)",
-        "size": [33.6, 18.9]
+        "size": [
+          33.6,
+          18.9
+        ]
       },
       {
         "format": "6.5K Full Format",
-        "size": [33.28, 17.68]
+        "size": [
+          33.28,
+          17.68
+        ]
       },
       {
         "format": "6.5K 2:1",
-        "size": [33.28, 16.64]
+        "size": [
+          33.28,
+          16.64
+        ]
       },
       {
         "format": "6.5K 2.4:1 (WS)",
-        "size": [33.28, 14.04]
+        "size": [
+          33.28,
+          14.04
+        ]
       },
       {
         "format": "6.5K 16:9 (HD)",
-        "size": [30.72, 17.28]
+        "size": [
+          30.72,
+          17.28
+        ]
       },
       {
         "format": "6K Full Format",
-        "size": [30.72, 16.2]
+        "size": [
+          30.72,
+          16.2
+        ]
       },
       {
         "format": "6K 2:1",
-        "size": [30.72, 15.36]
+        "size": [
+          30.72,
+          15.36
+        ]
       },
       {
         "format": "6K 2.4:1 (WS)",
-        "size": [30.72, 12.96]
+        "size": [
+          30.72,
+          12.96
+        ]
       },
       {
         "format": "6K 16:9 (HD)",
-        "size": [28.8, 16.2]
+        "size": [
+          28.8,
+          16.2
+        ]
       },
       {
         "format": "5K Full Format",
-        "size": [25.6, 13.5]
+        "size": [
+          25.6,
+          13.5
+        ]
       },
       {
         "format": "5K 2:1",
-        "size": [25.6, 12.8]
+        "size": [
+          25.6,
+          12.8
+        ]
       },
       {
         "format": "5K 2.4:1 (WS)",
-        "size": [25.6, 10.8]
+        "size": [
+          25.6,
+          10.8
+        ]
       },
       {
         "format": "5K 16:9 (HD)",
-        "size": [24.0, 13.5]
+        "size": [
+          24.0,
+          13.5
+        ]
       },
       {
         "format": "4K Full Format",
-        "size": [20.48, 10.8]
+        "size": [
+          20.48,
+          10.8
+        ]
       },
       {
         "format": "4K 2:1",
-        "size": [20.48, 10.24]
+        "size": [
+          20.48,
+          10.24
+        ]
       },
       {
         "format": "4K 2.4:1 (WS)",
-        "size": [20.48, 8.64]
+        "size": [
+          20.48,
+          8.64
+        ]
       },
       {
         "format": "4K 16:9 (HD)",
-        "size": [19.2, 10.8]
+        "size": [
+          19.2,
+          10.8
+        ]
       },
       {
         "format": "3K Full Format",
-        "size": [15.36, 8.1]
+        "size": [
+          15.36,
+          8.1
+        ]
       },
       {
         "format": "3K 2.4:1 (WS)",
-        "size": [15.36, 6.48]
+        "size": [
+          15.36,
+          6.48
+        ]
       },
       {
         "format": "3K 16:9 (HD)",
-        "size": [14.4, 8.1]
+        "size": [
+          14.4,
+          8.1
+        ]
       },
       {
         "format": "2K Full Format",
-        "size": [10.24, 5.4]
+        "size": [
+          10.24,
+          5.4
+        ]
       },
       {
         "format": "2K 2.4:1 (WS)",
-        "size": [10.24, 4.32]
+        "size": [
+          10.24,
+          4.32
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "This camera uses the RED Monstro 8K sensor.",
     "sources": [
       "https://dxl.panavision.com/",
       "https://www.panavision.com/docs/default-source/downloads/panavision_dxl2_manual_v1_0.pdf#%5B%7B%22num%22%3A125%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C42.75%2C673.5%2C0%5D",
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
     ],
-    "tags": ["imax"]
+    "tags": [
+      "imax"
+    ]
   },
   {
     "name": "RED Dragon",
     "sensorSize": [
       {
         "format": "6K FF",
-        "size": [30.72, 15.8]
+        "size": [
+          30.72,
+          15.8
+        ]
       },
       {
         "format": "6K 2:1",
-        "size": [30.72, 15.36]
+        "size": [
+          30.72,
+          15.36
+        ]
       },
       {
         "format": "6K 2.4:1 (WS)",
-        "size": [30.72, 12.96]
+        "size": [
+          30.72,
+          12.96
+        ]
       },
       {
         "format": "6K 16:9 (HD)",
-        "size": [27.84, 15.66]
+        "size": [
+          27.84,
+          15.66
+        ]
       },
       {
         "format": "6K 3:2",
-        "size": [23.76, 15.8]
+        "size": [
+          23.76,
+          15.8
+        ]
       },
       {
         "format": "6K 6:5",
-        "size": [18.96, 15.8]
+        "size": [
+          18.96,
+          15.8
+        ]
       },
       {
         "format": "6K 4:1",
-        "size": [30.72, 7.68]
+        "size": [
+          30.72,
+          7.68
+        ]
       },
       {
         "format": "6K 8:1",
-        "size": [30.72, 3.84]
+        "size": [
+          30.72,
+          3.84
+        ]
       },
       {
         "format": "5.5K FF",
-        "size": [28.16, 14.74]
+        "size": [
+          28.16,
+          14.74
+        ]
       },
       {
         "format": "5.5K 2:1",
-        "size": [28.16, 14.08]
+        "size": [
+          28.16,
+          14.08
+        ]
       },
       {
         "format": "5.5K 2.4:1 (WS)",
-        "size": [28.16, 11.88]
+        "size": [
+          28.16,
+          11.88
+        ]
       },
       {
         "format": "5.5K 16:9 (HD)",
-        "size": [26.88, 15.12]
+        "size": [
+          26.88,
+          15.12
+        ]
       },
       {
         "format": "5.5K 4:1",
-        "size": [28.16, 7.04]
+        "size": [
+          28.16,
+          7.04
+        ]
       },
       {
         "format": "5.5K 8:1",
-        "size": [28.16, 3.52]
+        "size": [
+          28.16,
+          3.52
+        ]
       },
       {
         "format": "5K FF",
-        "size": [25.6, 13.5]
+        "size": [
+          25.6,
+          13.5
+        ]
       },
       {
         "format": "5K 2:1",
-        "size": [25.6, 12.8]
+        "size": [
+          25.6,
+          12.8
+        ]
       },
       {
         "format": "5K 2.4:1 (WS)",
-        "size": [25.6, 10.8]
+        "size": [
+          25.6,
+          10.8
+        ]
       },
       {
         "format": "5K 16:9 (HD)",
-        "size": [24.0, 13.5]
+        "size": [
+          24.0,
+          13.5
+        ]
       },
       {
         "format": "5K 6:5",
-        "size": [16.2, 13.5]
+        "size": [
+          16.2,
+          13.5
+        ]
       },
       {
         "format": "5K 4:1",
-        "size": [25.6, 6.4]
+        "size": [
+          25.6,
+          6.4
+        ]
       },
       {
         "format": "5K 8:1",
-        "size": [25.6, 3.2]
+        "size": [
+          25.6,
+          3.2
+        ]
       },
       {
         "format": "4.5K FF",
-        "size": [23.04, 12.06]
+        "size": [
+          23.04,
+          12.06
+        ]
       },
       {
         "format": "4.5K 2:1",
-        "size": [23.04, 11.52]
+        "size": [
+          23.04,
+          11.52
+        ]
       },
       {
         "format": "4.5K 2.4:1 (WS)",
-        "size": [23.04, 9.72]
+        "size": [
+          23.04,
+          9.72
+        ]
       },
       {
         "format": "4.5K 16:9 (HD)",
-        "size": [21.12, 11.88]
+        "size": [
+          21.12,
+          11.88
+        ]
       },
       {
         "format": "4.5K 3:2",
-        "size": [21.6, 14.4]
+        "size": [
+          21.6,
+          14.4
+        ]
       },
       {
         "format": "4.5K 4:1",
-        "size": [23.04, 5.76]
+        "size": [
+          23.04,
+          5.76
+        ]
       },
       {
         "format": "4.5K 8:1",
-        "size": [23.04, 2.88]
+        "size": [
+          23.04,
+          2.88
+        ]
       },
       {
         "format": "4K FF",
-        "size": [20.48, 10.8]
+        "size": [
+          20.48,
+          10.8
+        ]
       },
       {
         "format": "4K 2:1",
-        "size": [20.48, 10.24]
+        "size": [
+          20.48,
+          10.24
+        ]
       },
       {
         "format": "4K 2.4:1 (WS)",
-        "size": [20.48, 8.64]
+        "size": [
+          20.48,
+          8.64
+        ]
       },
       {
         "format": "4K 16:9 (HD)",
-        "size": [19.2, 10.8]
+        "size": [
+          19.2,
+          10.8
+        ]
       },
       {
         "format": "4K 6:5",
-        "size": [12.96, 10.8]
+        "size": [
+          12.96,
+          10.8
+        ]
       },
       {
         "format": "4K 3:2",
-        "size": [19.2, 12.8]
+        "size": [
+          19.2,
+          12.8
+        ]
       },
       {
         "format": "4K 4:3",
-        "size": [19.2, 14.4]
+        "size": [
+          19.2,
+          14.4
+        ]
       },
       {
         "format": "4K 5:4",
-        "size": [19.2, 15.36]
+        "size": [
+          19.2,
+          15.36
+        ]
       },
       {
         "format": "4K 4:1",
-        "size": [20.48, 5.12]
+        "size": [
+          20.48,
+          5.12
+        ]
       },
       {
         "format": "4K 8:1",
-        "size": [20.48, 2.56]
+        "size": [
+          20.48,
+          2.56
+        ]
       },
       {
         "format": "3.5K FF",
-        "size": [17.92, 9.38]
+        "size": [
+          17.92,
+          9.38
+        ]
       },
       {
         "format": "3.5K 2:1",
-        "size": [17.92, 8.96]
+        "size": [
+          17.92,
+          8.96
+        ]
       },
       {
         "format": "3.5K 2.4:1 (WS)",
-        "size": [17.92, 7.56]
+        "size": [
+          17.92,
+          7.56
+        ]
       },
       {
         "format": "3.5K 16:9 (HD)",
-        "size": [17.28, 9.72]
+        "size": [
+          17.28,
+          9.72
+        ]
       },
       {
         "format": "3.5K 3:2",
-        "size": [16.8, 11.2]
+        "size": [
+          16.8,
+          11.2
+        ]
       },
       {
         "format": "3.5K 4:3",
-        "size": [16.8, 12.6]
+        "size": [
+          16.8,
+          12.6
+        ]
       },
       {
         "format": "3.5K 5:4",
-        "size": [16.8, 13.44]
+        "size": [
+          16.8,
+          13.44
+        ]
       },
       {
         "format": "3.5K 4:1",
-        "size": [17.92, 4.48]
+        "size": [
+          17.92,
+          4.48
+        ]
       },
       {
         "format": "3.5K 8:1",
-        "size": [17.92, 2.24]
+        "size": [
+          17.92,
+          2.24
+        ]
       },
       {
         "format": "3K FF",
-        "size": [15.36, 8.1]
+        "size": [
+          15.36,
+          8.1
+        ]
       },
       {
         "format": "3K 2:1",
-        "size": [15.36, 7.68]
+        "size": [
+          15.36,
+          7.68
+        ]
       },
       {
         "format": "3K 2.4:1 (WS)",
-        "size": [15.36, 6.48]
+        "size": [
+          15.36,
+          6.48
+        ]
       },
       {
         "format": "3K 16:9 (HD)",
-        "size": [14.4, 8.1]
+        "size": [
+          14.4,
+          8.1
+        ]
       },
       {
         "format": "3K 6:5",
-        "size": [9.72, 8.1]
+        "size": [
+          9.72,
+          8.1
+        ]
       },
       {
         "format": "3K 3:2",
-        "size": [14.4, 9.6]
+        "size": [
+          14.4,
+          9.6
+        ]
       },
       {
         "format": "3K 4:3",
-        "size": [14.4, 10.8]
+        "size": [
+          14.4,
+          10.8
+        ]
       },
       {
         "format": "3K 5:4",
-        "size": [14.4, 11.52]
+        "size": [
+          14.4,
+          11.52
+        ]
       },
       {
         "format": "3K 4:1",
-        "size": [15.36, 3.84]
+        "size": [
+          15.36,
+          3.84
+        ]
       },
       {
         "format": "3K 8:1",
-        "size": [15.36, 1.92]
+        "size": [
+          15.36,
+          1.92
+        ]
       },
       {
         "format": "2.5K FF",
-        "size": [12.8, 6.7]
+        "size": [
+          12.8,
+          6.7
+        ]
       },
       {
         "format": "2.5K 2:1",
-        "size": [12.8, 6.4]
+        "size": [
+          12.8,
+          6.4
+        ]
       },
       {
         "format": "2.5K 2.4:1 (WS)",
-        "size": [12.8, 5.4]
+        "size": [
+          12.8,
+          5.4
+        ]
       },
       {
         "format": "2.5K 16:9 (HD)",
-        "size": [11.52, 6.48]
+        "size": [
+          11.52,
+          6.48
+        ]
       },
       {
         "format": "2.5K 3:2",
-        "size": [12.0, 8.0]
+        "size": [
+          12.0,
+          8.0
+        ]
       },
       {
         "format": "2.5K 4:3",
-        "size": [12.0, 9.0]
+        "size": [
+          12.0,
+          9.0
+        ]
       },
       {
         "format": "2.5K 5:4",
-        "size": [12.0, 9.6]
+        "size": [
+          12.0,
+          9.6
+        ]
       },
       {
         "format": "2.5K 4:1",
-        "size": [12.8, 3.2]
+        "size": [
+          12.8,
+          3.2
+        ]
       },
       {
         "format": "2.5K 8:1",
-        "size": [12.8, 1.6]
+        "size": [
+          12.8,
+          1.6
+        ]
       },
       {
         "format": "2K FF",
-        "size": [10.24, 5.4]
+        "size": [
+          10.24,
+          5.4
+        ]
       },
       {
         "format": "2K 2:1",
-        "size": [10.24, 5.12]
+        "size": [
+          10.24,
+          5.12
+        ]
       },
       {
         "format": "2K 2.4:1 (WS)",
-        "size": [10.24, 4.32]
+        "size": [
+          10.24,
+          4.32
+        ]
       },
       {
         "format": "2K 16:9 (HD)",
-        "size": [9.6, 5.4]
+        "size": [
+          9.6,
+          5.4
+        ]
       },
       {
         "format": "2K 3:2",
-        "size": [9.6, 6.4]
+        "size": [
+          9.6,
+          6.4
+        ]
       },
       {
         "format": "2K 4:3",
-        "size": [9.6, 7.2]
+        "size": [
+          9.6,
+          7.2
+        ]
       },
       {
         "format": "2K 5:4",
-        "size": [9.6, 7.68]
+        "size": [
+          9.6,
+          7.68
+        ]
       },
       {
         "format": "2K 6:5",
-        "size": [6.48, 5.4]
+        "size": [
+          6.48,
+          5.4
+        ]
       },
       {
         "format": "2K 4:1",
-        "size": [10.24, 2.56]
+        "size": [
+          10.24,
+          2.56
+        ]
       },
       {
         "format": "2K 8:1",
-        "size": [10.24, 1.28]
+        "size": [
+          10.24,
+          1.28
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "The sensor sizes are the same for all Dragon sensors, regardless of Dragon-X, MG, CF, S35, 5K, or 6K designations.",
     "sources": [
       "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
@@ -1244,261 +2023,451 @@
       "http://docs.red.com/955-0156/EPICSCARLETOperationGuide/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatEpicDragon.htm",
       "https://www.red.com/dsmc2"
     ],
-    "tags": ["super 35"]
+    "tags": [
+      "super 35"
+    ]
   },
   {
     "name": "RED Gemini",
     "sensorSize": [
       {
         "format": "5K Full Height 1.7:1",
-        "size": [30.72, 18.0]
+        "size": [
+          30.72,
+          18.0
+        ]
       },
       {
         "format": "5K Full Height 6:5",
-        "size": [21.6, 18.0]
+        "size": [
+          21.6,
+          18.0
+        ]
       },
       {
         "format": "5K FF",
-        "size": [30.72, 16.2]
+        "size": [
+          30.72,
+          16.2
+        ]
       },
       {
         "format": "5K 2:1",
-        "size": [30.72, 15.36]
+        "size": [
+          30.72,
+          15.36
+        ]
       },
       {
         "format": "5K 2.4:1 (WS)",
-        "size": [30.72, 12.96]
+        "size": [
+          30.72,
+          12.96
+        ]
       },
       {
         "format": "5K 16:9 (HD)",
-        "size": [28.8, 16.2]
+        "size": [
+          28.8,
+          16.2
+        ]
       },
       {
         "format": "5K 4:1",
-        "size": [30.72, 7.68]
+        "size": [
+          30.72,
+          7.68
+        ]
       },
       {
         "format": "5K 8:1",
-        "size": [30.72, 3.84]
+        "size": [
+          30.72,
+          3.84
+        ]
       },
       {
         "format": "4.5K FF",
-        "size": [27.65, 14.47]
+        "size": [
+          27.65,
+          14.47
+        ]
       },
       {
         "format": "4.5K 2:1",
-        "size": [27.65, 13.82]
+        "size": [
+          27.65,
+          13.82
+        ]
       },
       {
         "format": "4.5K 2.4:1 (WS)",
-        "size": [27.65, 11.66]
+        "size": [
+          27.65,
+          11.66
+        ]
       },
       {
         "format": "4.5K 16:9 (HD)",
-        "size": [25.34, 14.26]
+        "size": [
+          25.34,
+          14.26
+        ]
       },
       {
         "format": "4.5K 3:2",
-        "size": [25.92, 17.28]
+        "size": [
+          25.92,
+          17.28
+        ]
       },
       {
         "format": "4.5K 4:1",
-        "size": [27.65, 6.91]
+        "size": [
+          27.65,
+          6.91
+        ]
       },
       {
         "format": "4.5K 8:1",
-        "size": [27.65, 3.46]
+        "size": [
+          27.65,
+          3.46
+        ]
       },
       {
         "format": "4K FF",
-        "size": [24.58, 12.96]
+        "size": [
+          24.58,
+          12.96
+        ]
       },
       {
         "format": "4K 2:1",
-        "size": [24.58, 12.29]
+        "size": [
+          24.58,
+          12.29
+        ]
       },
       {
         "format": "4K 2.4:1 (WS)",
-        "size": [24.58, 10.37]
+        "size": [
+          24.58,
+          10.37
+        ]
       },
       {
         "format": "4K 16:9 (HD)",
-        "size": [23.04, 12.96]
+        "size": [
+          23.04,
+          12.96
+        ]
       },
       {
         "format": "4K 3:2",
-        "size": [23.04, 15.36]
+        "size": [
+          23.04,
+          15.36
+        ]
       },
       {
         "format": "4K 4:3",
-        "size": [23.04, 17.28]
+        "size": [
+          23.04,
+          17.28
+        ]
       },
       {
         "format": "4K 6:5",
-        "size": [15.55, 12.96]
+        "size": [
+          15.55,
+          12.96
+        ]
       },
       {
         "format": "4K 4:1",
-        "size": [24.58, 6.14]
+        "size": [
+          24.58,
+          6.14
+        ]
       },
       {
         "format": "4K 8:1",
-        "size": [24.58, 3.07]
+        "size": [
+          24.58,
+          3.07
+        ]
       },
       {
         "format": "3.5K FF",
-        "size": [21.5, 11.26]
+        "size": [
+          21.5,
+          11.26
+        ]
       },
       {
         "format": "3.5K 2:1",
-        "size": [21.5, 10.75]
+        "size": [
+          21.5,
+          10.75
+        ]
       },
       {
         "format": "3.5K 2.4:1 (WS)",
-        "size": [21.5, 9.07]
+        "size": [
+          21.5,
+          9.07
+        ]
       },
       {
         "format": "3.5K 16:9 (HD)",
-        "size": [20.74, 11.66]
+        "size": [
+          20.74,
+          11.66
+        ]
       },
       {
         "format": "3.5K 3:2",
-        "size": [20.16, 13.44]
+        "size": [
+          20.16,
+          13.44
+        ]
       },
       {
         "format": "3.5K 4:3",
-        "size": [20.16, 15.12]
+        "size": [
+          20.16,
+          15.12
+        ]
       },
       {
         "format": "3.5K 5:4",
-        "size": [20.16, 16.13]
+        "size": [
+          20.16,
+          16.13
+        ]
       },
       {
         "format": "3.5K 4:1",
-        "size": [21.5, 5.38]
+        "size": [
+          21.5,
+          5.38
+        ]
       },
       {
         "format": "3.5K 8:1",
-        "size": [21.5, 2.69]
+        "size": [
+          21.5,
+          2.69
+        ]
       },
       {
         "format": "3K FF",
-        "size": [18.43, 9.72]
+        "size": [
+          18.43,
+          9.72
+        ]
       },
       {
         "format": "3K 2:1",
-        "size": [18.43, 9.22]
+        "size": [
+          18.43,
+          9.22
+        ]
       },
       {
         "format": "3K 2.4:1 (WS)",
-        "size": [18.43, 7.78]
+        "size": [
+          18.43,
+          7.78
+        ]
       },
       {
         "format": "3K 16:9 (HD)",
-        "size": [17.28, 9.72]
+        "size": [
+          17.28,
+          9.72
+        ]
       },
       {
         "format": "3K 3:2",
-        "size": [17.28, 11.52]
+        "size": [
+          17.28,
+          11.52
+        ]
       },
       {
         "format": "3K 4:3",
-        "size": [17.28, 12.96]
+        "size": [
+          17.28,
+          12.96
+        ]
       },
       {
         "format": "3K 5:4",
-        "size": [17.28, 13.82]
+        "size": [
+          17.28,
+          13.82
+        ]
       },
       {
         "format": "3K 6:5",
-        "size": [11.66, 9.72]
+        "size": [
+          11.66,
+          9.72
+        ]
       },
       {
         "format": "3K 4:1",
-        "size": [18.43, 4.61]
+        "size": [
+          18.43,
+          4.61
+        ]
       },
       {
         "format": "3K 8:1",
-        "size": [18.43, 2.3]
+        "size": [
+          18.43,
+          2.3
+        ]
       },
       {
         "format": "2.5K FF",
-        "size": [15.36, 8.04]
+        "size": [
+          15.36,
+          8.04
+        ]
       },
       {
         "format": "2.5K 2:1",
-        "size": [15.36, 7.68]
+        "size": [
+          15.36,
+          7.68
+        ]
       },
       {
         "format": "2.5K 2.4:1 (WS)",
-        "size": [15.36, 6.48]
+        "size": [
+          15.36,
+          6.48
+        ]
       },
       {
         "format": "2.5K 16:9 (HD)",
-        "size": [13.82, 7.78]
+        "size": [
+          13.82,
+          7.78
+        ]
       },
       {
         "format": "2.5K 3:2",
-        "size": [14.4, 9.6]
+        "size": [
+          14.4,
+          9.6
+        ]
       },
       {
         "format": "2.5K 4:3",
-        "size": [14.4, 10.8]
+        "size": [
+          14.4,
+          10.8
+        ]
       },
       {
         "format": "2.5K 5:4",
-        "size": [14.4, 11.52]
+        "size": [
+          14.4,
+          11.52
+        ]
       },
       {
         "format": "2.5K 4:1",
-        "size": [15.36, 3.84]
+        "size": [
+          15.36,
+          3.84
+        ]
       },
       {
         "format": "2.5K 8:1",
-        "size": [15.36, 1.92]
+        "size": [
+          15.36,
+          1.92
+        ]
       },
       {
         "format": "2K FF",
-        "size": [12.29, 6.48]
+        "size": [
+          12.29,
+          6.48
+        ]
       },
       {
         "format": "2K 2:1",
-        "size": [12.29, 6.14]
+        "size": [
+          12.29,
+          6.14
+        ]
       },
       {
         "format": "2K 2.4:1 (WS)",
-        "size": [12.29, 5.18]
+        "size": [
+          12.29,
+          5.18
+        ]
       },
       {
         "format": "2K 16:9 (HD)",
-        "size": [11.52, 6.48]
+        "size": [
+          11.52,
+          6.48
+        ]
       },
       {
         "format": "2K 3:2",
-        "size": [11.52, 7.68]
+        "size": [
+          11.52,
+          7.68
+        ]
       },
       {
         "format": "2K 4:3",
-        "size": [11.52, 8.64]
+        "size": [
+          11.52,
+          8.64
+        ]
       },
       {
         "format": "2K 5:4",
-        "size": [11.52, 9.22]
+        "size": [
+          11.52,
+          9.22
+        ]
       },
       {
         "format": "2K 6:5",
-        "size": [7.78, 6.48]
+        "size": [
+          7.78,
+          6.48
+        ]
       },
       {
         "format": "2K 4:1",
-        "size": [12.29, 3.07]
+        "size": [
+          12.29,
+          3.07
+        ]
       },
       {
         "format": "2K 8:1",
-        "size": [12.29, 1.54]
+        "size": [
+          12.29,
+          1.54
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "The sensor sizes are the same for all Gemini sensors, regardless of S35, or 5K designations.",
     "sources": [
       "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
@@ -1507,469 +2476,815 @@
       "https://www.red.com/arsenal",
       "https://www.red.com/dsmc2"
     ],
-    "tags": ["super 35"]
+    "tags": [
+      "super 35"
+    ]
   },
   {
     "name": "RED Helium",
     "sensorSize": [
       {
         "format": "8K FF",
-        "size": [29.9, 15.77]
+        "size": [
+          29.9,
+          15.77
+        ]
       },
       {
         "format": "8K 2:1",
-        "size": [29.9, 14.95]
+        "size": [
+          29.9,
+          14.95
+        ]
       },
       {
         "format": "8K 2.4:1 (WS)",
-        "size": [29.9, 12.61]
+        "size": [
+          29.9,
+          12.61
+        ]
       },
       {
         "format": "8K 16:9 (HD)",
-        "size": [28.03, 15.77]
+        "size": [
+          28.03,
+          15.77
+        ]
       },
       {
         "format": "8K 8:9",
-        "size": [14.02, 15.77]
+        "size": [
+          14.02,
+          15.77
+        ]
       },
       {
         "format": "8K 14:9",
-        "size": [24.53, 15.77]
+        "size": [
+          24.53,
+          15.77
+        ]
       },
       {
         "format": "8K 3:2",
-        "size": [23.65, 15.77]
+        "size": [
+          23.65,
+          15.77
+        ]
       },
       {
         "format": "8K 6:5",
-        "size": [18.92, 15.77]
+        "size": [
+          18.92,
+          15.77
+        ]
       },
       {
         "format": "8K 4:1",
-        "size": [29.9, 7.48]
+        "size": [
+          29.9,
+          7.48
+        ]
       },
       {
         "format": "8K 8:1",
-        "size": [29.9, 3.74]
+        "size": [
+          29.9,
+          3.74
+        ]
       },
       {
         "format": "7.5K FF",
-        "size": [28.03, 14.89]
+        "size": [
+          28.03,
+          14.89
+        ]
       },
       {
         "format": "7.5K 2:1",
-        "size": [28.03, 14.02]
+        "size": [
+          28.03,
+          14.02
+        ]
       },
       {
         "format": "7.5K 2.4:1 (WS)",
-        "size": [28.03, 11.83]
+        "size": [
+          28.03,
+          11.83
+        ]
       },
       {
         "format": "7.5K 16:9 (HD)",
-        "size": [26.63, 14.98]
+        "size": [
+          26.63,
+          14.98
+        ]
       },
       {
         "format": "7.5K 4:1",
-        "size": [28.03, 7.01]
+        "size": [
+          28.03,
+          7.01
+        ]
       },
       {
         "format": "7.5K 8:1",
-        "size": [28.03, 3.5]
+        "size": [
+          28.03,
+          3.5
+        ]
       },
       {
         "format": "7K FF",
-        "size": [26.16, 13.8]
+        "size": [
+          26.16,
+          13.8
+        ]
       },
       {
         "format": "7K 2:1",
-        "size": [26.16, 13.08]
+        "size": [
+          26.16,
+          13.08
+        ]
       },
       {
         "format": "7K 2.4:1 (WS)",
-        "size": [26.16, 11.04]
+        "size": [
+          26.16,
+          11.04
+        ]
       },
       {
         "format": "7K 16:9 (HD)",
-        "size": [24.53, 13.8]
+        "size": [
+          24.53,
+          13.8
+        ]
       },
       {
         "format": "7K 8:9",
-        "size": [12.26, 13.8]
+        "size": [
+          12.26,
+          13.8
+        ]
       },
       {
         "format": "7K 6:5",
-        "size": [16.56, 13.8]
+        "size": [
+          16.56,
+          13.8
+        ]
       },
       {
         "format": "7K 4:1",
-        "size": [26.16, 6.54]
+        "size": [
+          26.16,
+          6.54
+        ]
       },
       {
         "format": "7K 8:1",
-        "size": [26.16, 3.27]
+        "size": [
+          26.16,
+          3.27
+        ]
       },
       {
         "format": "6.5K FF",
-        "size": [24.29, 12.91]
+        "size": [
+          24.29,
+          12.91
+        ]
       },
       {
         "format": "6.5K 2:1",
-        "size": [24.29, 12.15]
+        "size": [
+          24.29,
+          12.15
+        ]
       },
       {
         "format": "6.5K 2.4:1 (WS)",
-        "size": [24.29, 10.25]
+        "size": [
+          24.29,
+          10.25
+        ]
       },
       {
         "format": "6.5K 16:9 (HD)",
-        "size": [22.43, 12.61]
+        "size": [
+          22.43,
+          12.61
+        ]
       },
       {
         "format": "6.5K 4:1",
-        "size": [24.29, 6.07]
+        "size": [
+          24.29,
+          6.07
+        ]
       },
       {
         "format": "6.5K 8:1",
-        "size": [24.29, 3.04]
+        "size": [
+          24.29,
+          3.04
+        ]
       },
       {
         "format": "6K FF",
-        "size": [22.43, 11.83]
+        "size": [
+          22.43,
+          11.83
+        ]
       },
       {
         "format": "6K 2:1",
-        "size": [22.43, 11.21]
+        "size": [
+          22.43,
+          11.21
+        ]
       },
       {
         "format": "6K 2.4:1 (WS)",
-        "size": [22.43, 9.46]
+        "size": [
+          22.43,
+          9.46
+        ]
       },
       {
         "format": "6K 16:9 (HD)",
-        "size": [21.02, 11.83]
+        "size": [
+          21.02,
+          11.83
+        ]
       },
       {
         "format": "6K 8:9",
-        "size": [10.51, 11.83]
+        "size": [
+          10.51,
+          11.83
+        ]
       },
       {
         "format": "6K 3:2",
-        "size": [21.02, 14.02]
+        "size": [
+          21.02,
+          14.02
+        ]
       },
       {
         "format": "6K 4:3",
-        "size": [21.02, 15.77]
+        "size": [
+          21.02,
+          15.77
+        ]
       },
       {
         "format": "6K 6:5",
-        "size": [14.19, 11.83]
+        "size": [
+          14.19,
+          11.83
+        ]
       },
       {
         "format": "6K 4:1",
-        "size": [22.43, 5.61]
+        "size": [
+          22.43,
+          5.61
+        ]
       },
       {
         "format": "6K 8:1",
-        "size": [22.43, 2.8]
+        "size": [
+          22.43,
+          2.8
+        ]
       },
       {
         "format": "5.5K FF",
-        "size": [20.56, 10.76]
+        "size": [
+          20.56,
+          10.76
+        ]
       },
       {
         "format": "5.5K 2:1",
-        "size": [20.56, 10.28]
+        "size": [
+          20.56,
+          10.28
+        ]
       },
       {
         "format": "5.5K 2.4:1 (WS)",
-        "size": [20.56, 8.67]
+        "size": [
+          20.56,
+          8.67
+        ]
       },
       {
         "format": "5.5K 16:9 (HD)",
-        "size": [19.62, 11.04]
+        "size": [
+          19.62,
+          11.04
+        ]
       },
       {
         "format": "5.5K 4:1",
-        "size": [20.56, 5.14]
+        "size": [
+          20.56,
+          5.14
+        ]
       },
       {
         "format": "5.5K 8:1",
-        "size": [20.56, 2.57]
+        "size": [
+          20.56,
+          2.57
+        ]
       },
       {
         "format": "5K FF",
-        "size": [18.69, 9.86]
+        "size": [
+          18.69,
+          9.86
+        ]
       },
       {
         "format": "5K 2:1",
-        "size": [18.69, 9.34]
+        "size": [
+          18.69,
+          9.34
+        ]
       },
       {
         "format": "5K 2.4:1 (WS)",
-        "size": [18.69, 7.88]
+        "size": [
+          18.69,
+          7.88
+        ]
       },
       {
         "format": "5K 16:9 (HD)",
-        "size": [17.52, 9.86]
+        "size": [
+          17.52,
+          9.86
+        ]
       },
       {
         "format": "5K 4:3",
-        "size": [18.69, 14.02]
+        "size": [
+          18.69,
+          14.02
+        ]
       },
       {
         "format": "5K 8:9",
-        "size": [8.76, 9.86]
+        "size": [
+          8.76,
+          9.86
+        ]
       },
       {
         "format": "5K 6:5",
-        "size": [11.83, 9.86]
+        "size": [
+          11.83,
+          9.86
+        ]
       },
       {
         "format": "5K 4:1",
-        "size": [18.69, 4.67]
+        "size": [
+          18.69,
+          4.67
+        ]
       },
       {
         "format": "5K 8:1",
-        "size": [18.69, 2.34]
+        "size": [
+          18.69,
+          2.34
+        ]
       },
       {
         "format": "4.5K FF",
-        "size": [16.82, 8.8]
+        "size": [
+          16.82,
+          8.8
+        ]
       },
       {
         "format": "4.5K 2:1",
-        "size": [16.82, 8.41]
+        "size": [
+          16.82,
+          8.41
+        ]
       },
       {
         "format": "4.5K 2.4:1 (WS)",
-        "size": [16.82, 7.1]
+        "size": [
+          16.82,
+          7.1
+        ]
       },
       {
         "format": "4.5K 16:9 (HD)",
-        "size": [15.42, 8.67]
+        "size": [
+          15.42,
+          8.67
+        ]
       },
       {
         "format": "4.5K 3:2",
-        "size": [15.77, 10.51]
+        "size": [
+          15.77,
+          10.51
+        ]
       },
       {
         "format": "4.5K 4:3",
-        "size": [15.77, 11.83]
+        "size": [
+          15.77,
+          11.83
+        ]
       },
       {
         "format": "4.5K 5:4",
-        "size": [15.77, 12.61]
+        "size": [
+          15.77,
+          12.61
+        ]
       },
       {
         "format": "4.5K 4:1",
-        "size": [16.82, 4.2]
+        "size": [
+          16.82,
+          4.2
+        ]
       },
       {
         "format": "4.5K 8:1",
-        "size": [16.82, 2.1]
+        "size": [
+          16.82,
+          2.1
+        ]
       },
       {
         "format": "4K FF",
-        "size": [14.95, 7.88]
+        "size": [
+          14.95,
+          7.88
+        ]
       },
       {
         "format": "4K 2:1",
-        "size": [14.95, 7.48]
+        "size": [
+          14.95,
+          7.48
+        ]
       },
       {
         "format": "4K 2.4:1 (WS)",
-        "size": [14.95, 6.31]
+        "size": [
+          14.95,
+          6.31
+        ]
       },
       {
         "format": "4K 16:9 (HD)",
-        "size": [14.02, 7.88]
+        "size": [
+          14.02,
+          7.88
+        ]
       },
       {
         "format": "4K 8:9",
-        "size": [7.01, 7.88]
+        "size": [
+          7.01,
+          7.88
+        ]
       },
       {
         "format": "4K 3:2",
-        "size": [14.02, 9.34]
+        "size": [
+          14.02,
+          9.34
+        ]
       },
       {
         "format": "4K 4:3",
-        "size": [14.02, 10.51]
+        "size": [
+          14.02,
+          10.51
+        ]
       },
       {
         "format": "4K 5:4",
-        "size": [14.02, 11.21]
+        "size": [
+          14.02,
+          11.21
+        ]
       },
       {
         "format": "4K 6:5",
-        "size": [9.46, 7.88]
+        "size": [
+          9.46,
+          7.88
+        ]
       },
       {
         "format": "4K 4:1",
-        "size": [14.95, 3.74]
+        "size": [
+          14.95,
+          3.74
+        ]
       },
       {
         "format": "4K 8:1",
-        "size": [14.95, 1.87]
+        "size": [
+          14.95,
+          1.87
+        ]
       },
       {
         "format": "4K 1:1",
-        "size": [15.77, 15.77]
+        "size": [
+          15.77,
+          15.77
+        ]
       },
       {
         "format": "3.5K FF",
-        "size": [13.08, 6.85]
+        "size": [
+          13.08,
+          6.85
+        ]
       },
       {
         "format": "3.5K 2:1",
-        "size": [13.08, 6.54]
+        "size": [
+          13.08,
+          6.54
+        ]
       },
       {
         "format": "3.5K 2.4:1 (WS)",
-        "size": [13.08, 5.52]
+        "size": [
+          13.08,
+          5.52
+        ]
       },
       {
         "format": "3.5K 16:9 (HD)",
-        "size": [12.61, 7.1]
+        "size": [
+          12.61,
+          7.1
+        ]
       },
       {
         "format": "3.5K 3:2",
-        "size": [12.26, 8.18]
+        "size": [
+          12.26,
+          8.18
+        ]
       },
       {
         "format": "3.5K 4:3",
-        "size": [12.26, 9.2]
+        "size": [
+          12.26,
+          9.2
+        ]
       },
       {
         "format": "3.5K 5:4",
-        "size": [12.26, 9.81]
+        "size": [
+          12.26,
+          9.81
+        ]
       },
       {
         "format": "3.5K 4:1",
-        "size": [13.08, 3.27]
+        "size": [
+          13.08,
+          3.27
+        ]
       },
       {
         "format": "3.5K 8:1",
-        "size": [13.08, 1.64]
+        "size": [
+          13.08,
+          1.64
+        ]
       },
       {
         "format": "3K FF",
-        "size": [11.21, 5.91]
+        "size": [
+          11.21,
+          5.91
+        ]
       },
       {
         "format": "3K 2:1",
-        "size": [11.21, 5.61]
+        "size": [
+          11.21,
+          5.61
+        ]
       },
       {
         "format": "3K 2.4:1 (WS)",
-        "size": [11.21, 4.73]
+        "size": [
+          11.21,
+          4.73
+        ]
       },
       {
         "format": "3K 16:9 (HD)",
-        "size": [10.51, 5.91]
+        "size": [
+          10.51,
+          5.91
+        ]
       },
       {
         "format": "3K 3:2",
-        "size": [10.51, 7.01]
+        "size": [
+          10.51,
+          7.01
+        ]
       },
       {
         "format": "3K 4:3",
-        "size": [10.51, 7.88]
+        "size": [
+          10.51,
+          7.88
+        ]
       },
       {
         "format": "3K 5:4",
-        "size": [10.51, 8.41]
+        "size": [
+          10.51,
+          8.41
+        ]
       },
       {
         "format": "3K 6:5",
-        "size": [7.1, 5.91]
+        "size": [
+          7.1,
+          5.91
+        ]
       },
       {
         "format": "3K 4:1",
-        "size": [11.21, 2.8]
+        "size": [
+          11.21,
+          2.8
+        ]
       },
       {
         "format": "3K 8:1",
-        "size": [11.21, 1.4]
+        "size": [
+          11.21,
+          1.4
+        ]
       },
       {
         "format": "2.5K FF",
-        "size": [9.34, 4.89]
+        "size": [
+          9.34,
+          4.89
+        ]
       },
       {
         "format": "2.5K 2:1",
-        "size": [9.34, 4.67]
+        "size": [
+          9.34,
+          4.67
+        ]
       },
       {
         "format": "2.5K 2.4:1 (WS)",
-        "size": [9.34, 3.94]
+        "size": [
+          9.34,
+          3.94
+        ]
       },
       {
         "format": "2.5K 16:9 (HD)",
-        "size": [8.41, 4.73]
+        "size": [
+          8.41,
+          4.73
+        ]
       },
       {
         "format": "2.5K 3:2",
-        "size": [8.76, 5.84]
+        "size": [
+          8.76,
+          5.84
+        ]
       },
       {
         "format": "2.5K 4:3",
-        "size": [8.76, 6.57]
+        "size": [
+          8.76,
+          6.57
+        ]
       },
       {
         "format": "2.5K 5:4",
-        "size": [8.76, 7.01]
+        "size": [
+          8.76,
+          7.01
+        ]
       },
       {
         "format": "2.5K 4:1",
-        "size": [9.34, 2.34]
+        "size": [
+          9.34,
+          2.34
+        ]
       },
       {
         "format": "2.5K 8:1",
-        "size": [9.34, 1.17]
+        "size": [
+          9.34,
+          1.17
+        ]
       },
       {
         "format": "2K FF",
-        "size": [7.48, 3.94]
+        "size": [
+          7.48,
+          3.94
+        ]
       },
       {
         "format": "2K 2:1",
-        "size": [7.48, 3.74]
+        "size": [
+          7.48,
+          3.74
+        ]
       },
       {
         "format": "2K 2.4:1 (WS)",
-        "size": [7.48, 3.15]
+        "size": [
+          7.48,
+          3.15
+        ]
       },
       {
         "format": "2K 16:9 (HD)",
-        "size": [7.01, 3.94]
+        "size": [
+          7.01,
+          3.94
+        ]
       },
       {
         "format": "2K 3:2",
-        "size": [7.01, 4.67]
+        "size": [
+          7.01,
+          4.67
+        ]
       },
       {
         "format": "2K 4:3",
-        "size": [7.01, 5.26]
+        "size": [
+          7.01,
+          5.26
+        ]
       },
       {
         "format": "2K 5:4",
-        "size": [7.01, 5.61]
+        "size": [
+          7.01,
+          5.61
+        ]
       },
       {
         "format": "2K 6:5",
-        "size": [4.73, 3.94]
+        "size": [
+          4.73,
+          3.94
+        ]
       },
       {
         "format": "2K 4:1",
-        "size": [7.48, 1.87]
+        "size": [
+          7.48,
+          1.87
+        ]
       },
       {
         "format": "2K 8:1",
-        "size": [7.48, 0.93]
+        "size": [
+          7.48,
+          0.93
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
@@ -1978,77 +3293,129 @@
       "https://www.red.com/arsenal",
       "https://www.red.com/dsmc2"
     ],
-    "tags": ["super 35"]
+    "tags": [
+      "super 35"
+    ]
   },
   {
     "name": "RED Komodo",
     "sensorSize": [
       {
         "format": "6K 17:9",
-        "size": [27.03, 14.26]
+        "size": [
+          27.03,
+          14.26
+        ]
       },
       {
         "format": "6K 2:1",
-        "size": [27.03, 13.52]
+        "size": [
+          27.03,
+          13.52
+        ]
       },
       {
         "format": "6K 2.4:1",
-        "size": [27.03, 11.32]
+        "size": [
+          27.03,
+          11.32
+        ]
       },
       {
         "format": "6K 16:9",
-        "size": [25.34, 14.26]
+        "size": [
+          25.34,
+          14.26
+        ]
       },
       {
         "format": "6K 4:3 2x",
-        "size": [18.61, 14.26]
+        "size": [
+          18.61,
+          14.26
+        ]
       },
       {
         "format": "6K 6:5 2x",
-        "size": [17.11, 14.26]
+        "size": [
+          17.11,
+          14.26
+        ]
       },
       {
         "format": "6K 3:2 1.8x",
-        "size": [21.38, 14.26]
+        "size": [
+          21.38,
+          14.26
+        ]
       },
       {
         "format": "6K 4:3 1.8x",
-        "size": [19.01, 14.26]
+        "size": [
+          19.01,
+          14.26
+        ]
       },
       {
         "format": "6K 3:2 1.6x",
-        "size": [21.38, 14.26]
+        "size": [
+          21.38,
+          14.26
+        ]
       },
       {
         "format": "6K 16:9 1.5x",
-        "size": [25.34, 14.26]
+        "size": [
+          25.34,
+          14.26
+        ]
       },
       {
         "format": "6K 17:9 1.3x",
-        "size": [27.03, 14.26]
+        "size": [
+          27.03,
+          14.26
+        ]
       },
       {
         "format": "6K 17:9 1.25x",
-        "size": [27.03, 14.26]
+        "size": [
+          27.03,
+          14.26
+        ]
       },
       {
         "format": "5K 17:9",
-        "size": [22.53, 11.88]
+        "size": [
+          22.53,
+          11.88
+        ]
       },
       {
         "format": "4K 17:9",
-        "size": [18.02, 9.5]
+        "size": [
+          18.02,
+          9.5
+        ]
       },
       {
         "format": "4K 16:9",
-        "size": [16.9, 9.5]
+        "size": [
+          16.9,
+          9.5
+        ]
       },
       {
         "format": "2K 17:9",
-        "size": [9.01, 4.75]
+        "size": [
+          9.01,
+          4.75
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
@@ -2056,469 +3423,815 @@
       "https://www.red.com/komodo-brain-parent",
       "https://www.red.com/arsenal"
     ],
-    "tags": ["super 35"]
+    "tags": [
+      "super 35"
+    ]
   },
   {
     "name": "RED Monstro",
     "sensorSize": [
       {
         "format": "8K FF",
-        "size": [40.96, 21.6]
+        "size": [
+          40.96,
+          21.6
+        ]
       },
       {
         "format": "8K 2:1",
-        "size": [40.96, 20.48]
+        "size": [
+          40.96,
+          20.48
+        ]
       },
       {
         "format": "8K 2.4:1 (WS)",
-        "size": [40.96, 17.28]
+        "size": [
+          40.96,
+          17.28
+        ]
       },
       {
         "format": "8K 16:9 (HD)",
-        "size": [38.4, 21.6]
+        "size": [
+          38.4,
+          21.6
+        ]
       },
       {
         "format": "8K 14:9",
-        "size": [33.6, 21.6]
+        "size": [
+          33.6,
+          21.6
+        ]
       },
       {
         "format": "8K 3:2",
-        "size": [32.4, 21.6]
+        "size": [
+          32.4,
+          21.6
+        ]
       },
       {
         "format": "8K 6:5",
-        "size": [25.9, 21.6]
+        "size": [
+          25.9,
+          21.6
+        ]
       },
       {
         "format": "8K 8:9",
-        "size": [19.2, 21.6]
+        "size": [
+          19.2,
+          21.6
+        ]
       },
       {
         "format": "8K 4:1",
-        "size": [40.96, 10.2]
+        "size": [
+          40.96,
+          10.2
+        ]
       },
       {
         "format": "8K 8:1",
-        "size": [40.96, 5.1]
+        "size": [
+          40.96,
+          5.1
+        ]
       },
       {
         "format": "7.5K FF",
-        "size": [38.4, 20.4]
+        "size": [
+          38.4,
+          20.4
+        ]
       },
       {
         "format": "7.5K 2:1",
-        "size": [38.4, 19.2]
+        "size": [
+          38.4,
+          19.2
+        ]
       },
       {
         "format": "7.5K 2.4:1 (WS)",
-        "size": [38.4, 16.2]
+        "size": [
+          38.4,
+          16.2
+        ]
       },
       {
         "format": "7.5K 16:9 (HD)",
-        "size": [36.48, 20.52]
+        "size": [
+          36.48,
+          20.52
+        ]
       },
       {
         "format": "7.5K 4:1",
-        "size": [38.4, 9.6]
+        "size": [
+          38.4,
+          9.6
+        ]
       },
       {
         "format": "7.5K 8:1",
-        "size": [38.4, 4.8]
+        "size": [
+          38.4,
+          4.8
+        ]
       },
       {
         "format": "7K FF",
-        "size": [35.84, 18.9]
+        "size": [
+          35.84,
+          18.9
+        ]
       },
       {
         "format": "7K 2:1",
-        "size": [35.84, 17.92]
+        "size": [
+          35.84,
+          17.92
+        ]
       },
       {
         "format": "7K 2.4:1 (WS)",
-        "size": [35.84, 15.12]
+        "size": [
+          35.84,
+          15.12
+        ]
       },
       {
         "format": "7K 16:9 (HD)",
-        "size": [33.6, 18.9]
+        "size": [
+          33.6,
+          18.9
+        ]
       },
       {
         "format": "7K 8:9",
-        "size": [16.8, 18.9]
+        "size": [
+          16.8,
+          18.9
+        ]
       },
       {
         "format": "7K 6:5",
-        "size": [22.7, 18.9]
+        "size": [
+          22.7,
+          18.9
+        ]
       },
       {
         "format": "7K 4:1",
-        "size": [35.8, 9.0]
+        "size": [
+          35.8,
+          9.0
+        ]
       },
       {
         "format": "7K 8:1",
-        "size": [35.8, 4.5]
+        "size": [
+          35.8,
+          4.5
+        ]
       },
       {
         "format": "6.5K FF",
-        "size": [33.28, 17.68]
+        "size": [
+          33.28,
+          17.68
+        ]
       },
       {
         "format": "6.5K 2:1",
-        "size": [33.28, 16.64]
+        "size": [
+          33.28,
+          16.64
+        ]
       },
       {
         "format": "6.5K 2.4:1 (WS)",
-        "size": [33.28, 14.04]
+        "size": [
+          33.28,
+          14.04
+        ]
       },
       {
         "format": "6.5K 16:9 (HD)",
-        "size": [30.72, 17.28]
+        "size": [
+          30.72,
+          17.28
+        ]
       },
       {
         "format": "6.5K 4:1",
-        "size": [33.3, 8.3]
+        "size": [
+          33.3,
+          8.3
+        ]
       },
       {
         "format": "6.5K 8:1",
-        "size": [33.3, 4.2]
+        "size": [
+          33.3,
+          4.2
+        ]
       },
       {
         "format": "6K FF",
-        "size": [30.72, 16.2]
+        "size": [
+          30.72,
+          16.2
+        ]
       },
       {
         "format": "6K 2:1",
-        "size": [30.72, 15.36]
+        "size": [
+          30.72,
+          15.36
+        ]
       },
       {
         "format": "6K 2.4:1 (WS)",
-        "size": [30.72, 12.96]
+        "size": [
+          30.72,
+          12.96
+        ]
       },
       {
         "format": "6K 16:9 (HD)",
-        "size": [28.8, 16.2]
+        "size": [
+          28.8,
+          16.2
+        ]
       },
       {
         "format": "6K 3:2",
-        "size": [28.8, 19.2]
+        "size": [
+          28.8,
+          19.2
+        ]
       },
       {
         "format": "6K 4:3",
-        "size": [28.8, 21.6]
+        "size": [
+          28.8,
+          21.6
+        ]
       },
       {
         "format": "6K 8:9",
-        "size": [14.4, 16.2]
+        "size": [
+          14.4,
+          16.2
+        ]
       },
       {
         "format": "6K 6:5",
-        "size": [19.4, 16.2]
+        "size": [
+          19.4,
+          16.2
+        ]
       },
       {
         "format": "6K 4:1",
-        "size": [30.7, 7.7]
+        "size": [
+          30.7,
+          7.7
+        ]
       },
       {
         "format": "6K 8:1",
-        "size": [30.7, 3.8]
+        "size": [
+          30.7,
+          3.8
+        ]
       },
       {
         "format": "5.5K FF",
-        "size": [28.2, 14.7]
+        "size": [
+          28.2,
+          14.7
+        ]
       },
       {
         "format": "5.5K 2:1",
-        "size": [28.2, 14.1]
+        "size": [
+          28.2,
+          14.1
+        ]
       },
       {
         "format": "5.5K 2.4:1 (WS)",
-        "size": [28.2, 11.9]
+        "size": [
+          28.2,
+          11.9
+        ]
       },
       {
         "format": "5.5K 16:9 (HD)",
-        "size": [26.9, 15.1]
+        "size": [
+          26.9,
+          15.1
+        ]
       },
       {
         "format": "5.5K 4:1",
-        "size": [28.2, 7.0]
+        "size": [
+          28.2,
+          7.0
+        ]
       },
       {
         "format": "5.5K 8:1",
-        "size": [28.2, 3.5]
+        "size": [
+          28.2,
+          3.5
+        ]
       },
       {
         "format": "5K FF",
-        "size": [25.6, 13.5]
+        "size": [
+          25.6,
+          13.5
+        ]
       },
       {
         "format": "5K 2:1",
-        "size": [25.6, 12.8]
+        "size": [
+          25.6,
+          12.8
+        ]
       },
       {
         "format": "5K 2.4:1 (WS)",
-        "size": [25.6, 10.8]
+        "size": [
+          25.6,
+          10.8
+        ]
       },
       {
         "format": "5K 16:9 (HD)",
-        "size": [24.0, 13.5]
+        "size": [
+          24.0,
+          13.5
+        ]
       },
       {
         "format": "5K 4:3",
-        "size": [25.6, 19.2]
+        "size": [
+          25.6,
+          19.2
+        ]
       },
       {
         "format": "5K 8:9",
-        "size": [12.0, 13.5]
+        "size": [
+          12.0,
+          13.5
+        ]
       },
       {
         "format": "5K 6:5",
-        "size": [16.2, 13.5]
+        "size": [
+          16.2,
+          13.5
+        ]
       },
       {
         "format": "5K 4:1",
-        "size": [25.6, 6.4]
+        "size": [
+          25.6,
+          6.4
+        ]
       },
       {
         "format": "5K 8:1",
-        "size": [25.6, 3.2]
+        "size": [
+          25.6,
+          3.2
+        ]
       },
       {
         "format": "4.5K FF",
-        "size": [23.0, 12.1]
+        "size": [
+          23.0,
+          12.1
+        ]
       },
       {
         "format": "4.5K 2:1",
-        "size": [23.0, 11.5]
+        "size": [
+          23.0,
+          11.5
+        ]
       },
       {
         "format": "4.5K 2.4:1 (WS)",
-        "size": [23.0, 9.7]
+        "size": [
+          23.0,
+          9.7
+        ]
       },
       {
         "format": "4.5K 16:9 (HD)",
-        "size": [21.1, 11.9]
+        "size": [
+          21.1,
+          11.9
+        ]
       },
       {
         "format": "4.5K 3:2",
-        "size": [21.6, 14.4]
+        "size": [
+          21.6,
+          14.4
+        ]
       },
       {
         "format": "4.5K 4:3",
-        "size": [21.6, 16.2]
+        "size": [
+          21.6,
+          16.2
+        ]
       },
       {
         "format": "4.5K 5:4",
-        "size": [21.6, 17.3]
+        "size": [
+          21.6,
+          17.3
+        ]
       },
       {
         "format": "4.5K 4:1",
-        "size": [23.0, 5.8]
+        "size": [
+          23.0,
+          5.8
+        ]
       },
       {
         "format": "4.5K 8:1",
-        "size": [23.0, 2.9]
+        "size": [
+          23.0,
+          2.9
+        ]
       },
       {
         "format": "4K FF",
-        "size": [20.48, 10.8]
+        "size": [
+          20.48,
+          10.8
+        ]
       },
       {
         "format": "4K 2:1",
-        "size": [20.48, 10.24]
+        "size": [
+          20.48,
+          10.24
+        ]
       },
       {
         "format": "4K 2.4:1 (WS)",
-        "size": [20.48, 8.64]
+        "size": [
+          20.48,
+          8.64
+        ]
       },
       {
         "format": "4K 16:9 (HD)",
-        "size": [19.2, 10.8]
+        "size": [
+          19.2,
+          10.8
+        ]
       },
       {
         "format": "4K 3:2",
-        "size": [19.2, 12.8]
+        "size": [
+          19.2,
+          12.8
+        ]
       },
       {
         "format": "4K 4:3",
-        "size": [19.2, 14.4]
+        "size": [
+          19.2,
+          14.4
+        ]
       },
       {
         "format": "4K 5:4",
-        "size": [19.2, 15.4]
+        "size": [
+          19.2,
+          15.4
+        ]
       },
       {
         "format": "4K 8:9",
-        "size": [9.6, 10.8]
+        "size": [
+          9.6,
+          10.8
+        ]
       },
       {
         "format": "4K 6:5",
-        "size": [13.0, 10.8]
+        "size": [
+          13.0,
+          10.8
+        ]
       },
       {
         "format": "4K 4:1",
-        "size": [20.5, 5.1]
+        "size": [
+          20.5,
+          5.1
+        ]
       },
       {
         "format": "4K 8:1",
-        "size": [20.5, 2.6]
+        "size": [
+          20.5,
+          2.6
+        ]
       },
       {
         "format": "4K 1:1",
-        "size": [21.6, 21.6]
+        "size": [
+          21.6,
+          21.6
+        ]
       },
       {
         "format": "3.5K FF",
-        "size": [17.9, 9.4]
+        "size": [
+          17.9,
+          9.4
+        ]
       },
       {
         "format": "3.5K 2:1",
-        "size": [17.9, 9.0]
+        "size": [
+          17.9,
+          9.0
+        ]
       },
       {
         "format": "3.5K 2.4:1 (WS)",
-        "size": [17.9, 7.6]
+        "size": [
+          17.9,
+          7.6
+        ]
       },
       {
         "format": "3.5K 16:9 (HD)",
-        "size": [17.3, 9.7]
+        "size": [
+          17.3,
+          9.7
+        ]
       },
       {
         "format": "3.5K 3:2",
-        "size": [16.8, 11.2]
+        "size": [
+          16.8,
+          11.2
+        ]
       },
       {
         "format": "3.5K 4:3",
-        "size": [16.8, 12.6]
+        "size": [
+          16.8,
+          12.6
+        ]
       },
       {
         "format": "3.5K 5:4",
-        "size": [16.8, 13.4]
+        "size": [
+          16.8,
+          13.4
+        ]
       },
       {
         "format": "3.5K 4:1",
-        "size": [17.9, 4.5]
+        "size": [
+          17.9,
+          4.5
+        ]
       },
       {
         "format": "3.5K 8:1",
-        "size": [17.9, 2.2]
+        "size": [
+          17.9,
+          2.2
+        ]
       },
       {
         "format": "3K FF",
-        "size": [15.36, 8.1]
+        "size": [
+          15.36,
+          8.1
+        ]
       },
       {
         "format": "3K 2:1",
-        "size": [15.36, 7.7]
+        "size": [
+          15.36,
+          7.7
+        ]
       },
       {
         "format": "3K 2.4:1 (WS)",
-        "size": [15.36, 6.48]
+        "size": [
+          15.36,
+          6.48
+        ]
       },
       {
         "format": "3K 16:9 (HD)",
-        "size": [14.4, 8.1]
+        "size": [
+          14.4,
+          8.1
+        ]
       },
       {
         "format": "3K 3:2",
-        "size": [14.4, 9.6]
+        "size": [
+          14.4,
+          9.6
+        ]
       },
       {
         "format": "3K 4:3",
-        "size": [14.4, 10.8]
+        "size": [
+          14.4,
+          10.8
+        ]
       },
       {
         "format": "3K 5:4",
-        "size": [14.4, 11.5]
+        "size": [
+          14.4,
+          11.5
+        ]
       },
       {
         "format": "3K 6:5",
-        "size": [9.7, 8.1]
+        "size": [
+          9.7,
+          8.1
+        ]
       },
       {
         "format": "3K 4:1",
-        "size": [15.4, 3.8]
+        "size": [
+          15.4,
+          3.8
+        ]
       },
       {
         "format": "3K 8:1",
-        "size": [15.4, 1.9]
+        "size": [
+          15.4,
+          1.9
+        ]
       },
       {
         "format": "2.5K FF",
-        "size": [12.8, 6.7]
+        "size": [
+          12.8,
+          6.7
+        ]
       },
       {
         "format": "2.5K 2:1",
-        "size": [12.8, 6.4]
+        "size": [
+          12.8,
+          6.4
+        ]
       },
       {
         "format": "2.5K 2.4:1 (WS)",
-        "size": [12.8, 5.4]
+        "size": [
+          12.8,
+          5.4
+        ]
       },
       {
         "format": "2.5K 16:9 (HD)",
-        "size": [11.5, 6.5]
+        "size": [
+          11.5,
+          6.5
+        ]
       },
       {
         "format": "2.5K 3:2",
-        "size": [12.0, 8.0]
+        "size": [
+          12.0,
+          8.0
+        ]
       },
       {
         "format": "2.5K 4:3",
-        "size": [12.0, 9.0]
+        "size": [
+          12.0,
+          9.0
+        ]
       },
       {
         "format": "2.5K 5:4",
-        "size": [12.0, 9.6]
+        "size": [
+          12.0,
+          9.6
+        ]
       },
       {
         "format": "2.5K 4:1",
-        "size": [12.8, 3.2]
+        "size": [
+          12.8,
+          3.2
+        ]
       },
       {
         "format": "2.5K 8:1",
-        "size": [12.8, 1.6]
+        "size": [
+          12.8,
+          1.6
+        ]
       },
       {
         "format": "2K FF",
-        "size": [10.24, 5.4]
+        "size": [
+          10.24,
+          5.4
+        ]
       },
       {
         "format": "2K 2:1",
-        "size": [10.24, 5.1]
+        "size": [
+          10.24,
+          5.1
+        ]
       },
       {
         "format": "2K 2.4:1 (WS)",
-        "size": [10.24, 4.32]
+        "size": [
+          10.24,
+          4.32
+        ]
       },
       {
         "format": "2K 16:9 (HD)",
-        "size": [9.6, 5.4]
+        "size": [
+          9.6,
+          5.4
+        ]
       },
       {
         "format": "2K 3:2",
-        "size": [9.6, 6.4]
+        "size": [
+          9.6,
+          6.4
+        ]
       },
       {
         "format": "2K 4:3",
-        "size": [9.6, 7.2]
+        "size": [
+          9.6,
+          7.2
+        ]
       },
       {
         "format": "2K 5:4",
-        "size": [9.6, 7.7]
+        "size": [
+          9.6,
+          7.7
+        ]
       },
       {
         "format": "2K 6:5",
-        "size": [6.5, 5.4]
+        "size": [
+          6.5,
+          5.4
+        ]
       },
       {
         "format": "2K 4:1",
-        "size": [10.2, 2.6]
+        "size": [
+          10.2,
+          2.6
+        ]
       },
       {
         "format": "2K 8:1",
-        "size": [10.2, 1.3]
+        "size": [
+          10.2,
+          1.3
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "The sensor sizes are the same for all Monstro sensors, regardless of 8K, VK, or Monochrome designations.",
     "sources": [
       "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
@@ -2528,237 +4241,410 @@
       "https://www.red.com/arsenal",
       "https://www.red.com/dsmc2"
     ],
-    "tags": ["imax", "full frame"]
+    "tags": [
+      "imax",
+      "full frame"
+    ]
   },
   {
     "name": "RED V-Raptor",
     "sensorSize": [
       {
         "format": "8K 17:9",
-        "size": [40.96, 21.6]
+        "size": [
+          40.96,
+          21.6
+        ]
       },
       {
         "format": "8K 2:1",
-        "size": [40.96, 20.48]
+        "size": [
+          40.96,
+          20.48
+        ]
       },
       {
         "format": "8K 2.4:1",
-        "size": [40.96, 17.28]
+        "size": [
+          40.96,
+          17.28
+        ]
       },
       {
         "format": "8K 16:9",
-        "size": [38.4, 21.6]
+        "size": [
+          38.4,
+          21.6
+        ]
       },
       {
         "format": "8K 1:1",
-        "size": [21.6, 21.6]
+        "size": [
+          21.6,
+          21.6
+        ]
       },
       {
         "format": "8K 4:3 2x",
-        "size": [28.8, 21.6]
+        "size": [
+          28.8,
+          21.6
+        ]
       },
       {
         "format": "8K 6:5 2x",
-        "size": [25.92, 21.6]
+        "size": [
+          25.92,
+          21.6
+        ]
       },
       {
         "format": "8K 1:1 2x",
-        "size": [21.6, 21.6]
+        "size": [
+          21.6,
+          21.6
+        ]
       },
       {
         "format": "8K 3:2 1.8x",
-        "size": [32.4, 21.6]
+        "size": [
+          32.4,
+          21.6
+        ]
       },
       {
         "format": "8K 4:3 1.8x",
-        "size": [28.8, 21.6]
+        "size": [
+          28.8,
+          21.6
+        ]
       },
       {
         "format": "8K 3:2 1.6x",
-        "size": [32.4, 21.6]
+        "size": [
+          32.4,
+          21.6
+        ]
       },
       {
         "format": "8K 16:9 1.5x",
-        "size": [38.4, 21.6]
+        "size": [
+          38.4,
+          21.6
+        ]
       },
       {
         "format": "8K 17:9 1.3x",
-        "size": [40.96, 21.6]
+        "size": [
+          40.96,
+          21.6
+        ]
       },
       {
         "format": "8K 16:9 1.3x",
-        "size": [38.4, 21.6]
+        "size": [
+          38.4,
+          21.6
+        ]
       },
       {
         "format": "8K 17:9 1.25x",
-        "size": [40.96, 21.6]
+        "size": [
+          40.96,
+          21.6
+        ]
       },
       {
         "format": "7K 17:9",
-        "size": [35.84, 18.9]
+        "size": [
+          35.84,
+          18.9
+        ]
       },
       {
         "format": "7K 2:1",
-        "size": [35.84, 17.92]
+        "size": [
+          35.84,
+          17.92
+        ]
       },
       {
         "format": "7K 2.4:1",
-        "size": [35.84, 15.01]
+        "size": [
+          35.84,
+          15.01
+        ]
       },
       {
         "format": "7K 16:9",
-        "size": [33.6, 18.9]
+        "size": [
+          33.6,
+          18.9
+        ]
       },
       {
         "format": "7K 1:1",
-        "size": [18.9, 18.9]
+        "size": [
+          18.9,
+          18.9
+        ]
       },
       {
         "format": "7K 4:3 2x",
-        "size": [25.2, 18.9]
+        "size": [
+          25.2,
+          18.9
+        ]
       },
       {
         "format": "7K 6:5 2x",
-        "size": [22.68, 18.9]
+        "size": [
+          22.68,
+          18.9
+        ]
       },
       {
         "format": "7K 1:1 2x",
-        "size": [18.9, 18.9]
+        "size": [
+          18.9,
+          18.9
+        ]
       },
       {
         "format": "7K 3:2 1.8x",
-        "size": [28.35, 18.9]
+        "size": [
+          28.35,
+          18.9
+        ]
       },
       {
         "format": "7K 4:3 1.8x",
-        "size": [25.2, 18.9]
+        "size": [
+          25.2,
+          18.9
+        ]
       },
       {
         "format": "7K 3:2 1.6x",
-        "size": [28.35, 18.9]
+        "size": [
+          28.35,
+          18.9
+        ]
       },
       {
         "format": "6K 17:9",
-        "size": [30.72, 16.2]
+        "size": [
+          30.72,
+          16.2
+        ]
       },
       {
         "format": "6K 2:1",
-        "size": [30.72, 15.36]
+        "size": [
+          30.72,
+          15.36
+        ]
       },
       {
         "format": "6K 2.4:1",
-        "size": [30.72, 12.87]
+        "size": [
+          30.72,
+          12.87
+        ]
       },
       {
         "format": "6K 16:9",
-        "size": [28.8, 16.2]
+        "size": [
+          28.8,
+          16.2
+        ]
       },
       {
         "format": "6K 1:1",
-        "size": [16.2, 16.2]
+        "size": [
+          16.2,
+          16.2
+        ]
       },
       {
         "format": "6K 16:9 1.5x",
-        "size": [28.8, 16.2]
+        "size": [
+          28.8,
+          16.2
+        ]
       },
       {
         "format": "6K 17:9 1.3x",
-        "size": [30.72, 16.2]
+        "size": [
+          30.72,
+          16.2
+        ]
       },
       {
         "format": "6K 16:9 1.3x",
-        "size": [28.8, 16.2]
+        "size": [
+          28.8,
+          16.2
+        ]
       },
       {
         "format": "6K 17:9 1.25x",
-        "size": [30.72, 16.2]
+        "size": [
+          30.72,
+          16.2
+        ]
       },
       {
         "format": "5K 17:9",
-        "size": [25.6, 13.5]
+        "size": [
+          25.6,
+          13.5
+        ]
       },
       {
         "format": "5K 2:1",
-        "size": [25.6, 12.8]
+        "size": [
+          25.6,
+          12.8
+        ]
       },
       {
         "format": "5K 2.4:1",
-        "size": [25.6, 10.8]
+        "size": [
+          25.6,
+          10.8
+        ]
       },
       {
         "format": "5K 16:9",
-        "size": [24.0, 13.5]
+        "size": [
+          24.0,
+          13.5
+        ]
       },
       {
         "format": "5K 1:1",
-        "size": [13.5, 13.5]
+        "size": [
+          13.5,
+          13.5
+        ]
       },
       {
         "format": "4K 17:9",
-        "size": [20.48, 10.8]
+        "size": [
+          20.48,
+          10.8
+        ]
       },
       {
         "format": "4K 2:1",
-        "size": [20.48, 10.24]
+        "size": [
+          20.48,
+          10.24
+        ]
       },
       {
         "format": "4K 2.4:1",
-        "size": [20.48, 8.64]
+        "size": [
+          20.48,
+          8.64
+        ]
       },
       {
         "format": "4K 16:9",
-        "size": [19.2, 10.8]
+        "size": [
+          19.2,
+          10.8
+        ]
       },
       {
         "format": "4K 1:1",
-        "size": [10.8, 10.8]
+        "size": [
+          10.8,
+          10.8
+        ]
       },
       {
         "format": "4K 8:1",
-        "size": [20.48, 2.56]
+        "size": [
+          20.48,
+          2.56
+        ]
       },
       {
         "format": "3K 17:9",
-        "size": [15.36, 8.1]
+        "size": [
+          15.36,
+          8.1
+        ]
       },
       {
         "format": "3K 2:1",
-        "size": [15.36, 7.68]
+        "size": [
+          15.36,
+          7.68
+        ]
       },
       {
         "format": "3K 2.4:1",
-        "size": [15.36, 6.48]
+        "size": [
+          15.36,
+          6.48
+        ]
       },
       {
         "format": "3K 16:9",
-        "size": [14.4, 8.1]
+        "size": [
+          14.4,
+          8.1
+        ]
       },
       {
         "format": "3K 1:1",
-        "size": [8.1, 8.1]
+        "size": [
+          8.1,
+          8.1
+        ]
       },
       {
         "format": "2K 17:9",
-        "size": [10.24, 5.4]
+        "size": [
+          10.24,
+          5.4
+        ]
       },
       {
         "format": "2K 2:1",
-        "size": [10.24, 5.12]
+        "size": [
+          10.24,
+          5.12
+        ]
       },
       {
         "format": "2K 2.4:1",
-        "size": [10.24, 4.32]
+        "size": [
+          10.24,
+          4.32
+        ]
       },
       {
         "format": "2K 16:9",
-        "size": [9.6, 5.4]
+        "size": [
+          9.6,
+          5.4
+        ]
       },
       {
         "format": "2K 1:1",
-        "size": [5.4, 5.4]
+        "size": [
+          5.4,
+          5.4
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "The sensor sizes are the same for all V-Raptor sensors, regardless of 8K, or VV designations.",
     "sources": [
       "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
@@ -2766,247 +4652,404 @@
       "https://www.red.com/v-raptor-black",
       "https://www.red.com/arsenal"
     ],
-    "tags": ["imax", "full frame"]
+    "tags": [
+      "imax",
+      "full frame"
+    ]
   },
   {
     "name": "Samsung Galaxy S20 Ultra",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [9.6, 7.2]
+        "size": [
+          9.6,
+          7.2
+        ]
       }
     ],
-    "category": ["Mobile"],
+    "category": [
+      "Mobile"
+    ],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
-    "tags": ["phone"]
+    "sources": [
+      "https://en.wikipedia.org/wiki/Image_sensor_format"
+    ],
+    "tags": [
+      "phone"
+    ]
   },
   {
     "name": "Sony Alpha 7 IV",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.9, 23.9]
+        "size": [
+          35.9,
+          23.9
+        ]
       }
     ],
-    "category": ["Still"],
+    "category": [
+      "Still"
+    ],
     "description": "",
     "sources": [
       "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7m4-b",
-      "https://en.wikipedia.org/wiki/Sony_α7"
+      "https://en.wikipedia.org/wiki/Sony_\u00ce\u00b17"
     ],
-    "tags": ["full frame", "a7"]
+    "tags": [
+      "full frame",
+      "a7"
+    ]
   },
   {
     "name": "Sony Alpha 7R IV",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.7, 23.8]
+        "size": [
+          35.7,
+          23.8
+        ]
       }
     ],
-    "category": ["Still"],
+    "category": [
+      "Still"
+    ],
     "description": "",
     "sources": [
       "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7rm4a-b",
-      "https://en.wikipedia.org/wiki/Sony_α7"
+      "https://en.wikipedia.org/wiki/Sony_\u00ce\u00b17"
     ],
-    "tags": ["full frame", "a7r"]
+    "tags": [
+      "full frame",
+      "a7r"
+    ]
   },
   {
     "name": "Sony Alpha 7R V",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.7, 23.8]
+        "size": [
+          35.7,
+          23.8
+        ]
       }
     ],
-    "category": ["Still"],
+    "category": [
+      "Still"
+    ],
     "description": "",
     "sources": [
       "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce7rm5-b",
-      "https://en.wikipedia.org/wiki/Sony_α7"
+      "https://en.wikipedia.org/wiki/Sony_\u00ce\u00b17"
     ],
-    "tags": ["full frame", "a7r"]
+    "tags": [
+      "full frame",
+      "a7r"
+    ]
   },
   {
     "name": "Sony F5",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [24, 12.7]
+        "size": [
+          24,
+          12.7
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://pro.sony/ue_US/products/digital-cinema-cameras/pmw-f5",
       "https://www.fdtimes.com/2012/10/30/sony-f55-and-f5/"
     ],
-    "tags": ["super 35"]
+    "tags": [
+      "super 35"
+    ]
   },
   {
     "name": "Sony F55",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [24, 12.7]
+        "size": [
+          24,
+          12.7
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://www.panavision.com/camera-and-optics/cameras/product-detail/f55-f55"
     ],
-    "tags": ["super 35"]
+    "tags": [
+      "super 35"
+    ]
   },
   {
     "name": "Sony F65",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [24.7, 13.1]
+        "size": [
+          24.7,
+          13.1
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://www.eoshd.com/news/sony-f65-sensor-using-consumer-camcorder-technology/"
     ],
-    "tags": ["super 35"]
+    "tags": [
+      "super 35"
+    ]
   },
   {
     "name": "Sony FS7",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [25.5, 15.6]
+        "size": [
+          25.5,
+          15.6
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://pro.sony/ue_US/products/handheld-camcorders/pxw-fs7",
       "https://www.arkvideo.co.jp/_sys/wp-content/uploads/SonyPXW-FS7.pdf"
     ],
-    "tags": ["super 35"]
+    "tags": [
+      "super 35"
+    ]
   },
   {
     "name": "Sony FS7 II",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [25.5, 15.6]
+        "size": [
+          25.5,
+          15.6
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://pro.sony/ue_US/products/handheld-camcorders/pxw-fs7m2",
       "https://www.arkvideo.co.jp/_sys/wp-content/uploads/SonyPXW-FS7M2.pdf"
     ],
-    "tags": ["super 35"]
+    "tags": [
+      "super 35"
+    ]
+  },
+  {
+    "name": "Sony FX3",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [
+          35.6,
+          23.8
+        ]
+      }
+    ],
+    "category": [
+      "Movie"
+    ],
+    "description": "",
+    "sources": [
+      "https://www.bhphotovideo.com/c/product/1624226-REG/sony_ilme_fx3_fx3_cinema_camera.html/specs"
+    ],
+    "tags": [
+      "full frame"
+    ]
   },
   {
     "name": "Sony FX6",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.6, 23.8]
+        "size": [
+          35.6,
+          23.8
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://electronics.sony.com/imaging/cinema-line-cameras/all-cinema-line-cameras/p/ilmefx6v"
     ],
-    "tags": ["full frame"]
+    "tags": [
+      "full frame"
+    ]
   },
   {
     "name": "Sony FX9",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.7, 18.8]
+        "size": [
+          35.7,
+          18.8
+        ]
       },
       {
         "format": "5K",
-        "size": [29.7, 15.7]
+        "size": [
+          29.7,
+          15.7
+        ]
       },
       {
         "format": "S35 4K",
-        "size": [24.3, 12.8]
+        "size": [
+          24.3,
+          12.8
+        ]
       },
       {
         "format": "S16",
-        "size": [12.2, 6.4]
+        "size": [
+          12.2,
+          6.4
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://pro.sony/ue_US/products/handheld-camcorders/pxw-fx9",
       "https://www.cined.com/sony-fx9-sensor-scan-modes-explained/"
     ],
-    "tags": ["full frame"]
+    "tags": [
+      "full frame"
+    ]
   },
   {
     "name": "Sony VENICE",
     "sensorSize": [
       {
         "format": "6K 3:2",
-        "size": [35.9, 24.0]
+        "size": [
+          35.9,
+          24.0
+        ]
       },
       {
         "format": "6K 1.85:1",
-        "size": [36.0, 19.4]
+        "size": [
+          36.0,
+          19.4
+        ]
       },
       {
         "format": "6K 17:9",
-        "size": [36.0, 19.0]
+        "size": [
+          36.0,
+          19.0
+        ]
       },
       {
         "format": "6K 2.39:1",
-        "size": [35.9, 15.0]
+        "size": [
+          35.9,
+          15.0
+        ]
       },
       {
         "format": "5.7K 16:9",
-        "size": [33.7, 18.9]
+        "size": [
+          33.7,
+          18.9
+        ]
       },
       {
         "format": "4K 6:5",
-        "size": [24.3, 20.4]
+        "size": [
+          24.3,
+          20.4
+        ]
       },
       {
         "format": "4K 4:3 Surround View",
-        "size": [27.0, 20.0]
+        "size": [
+          27.0,
+          20.0
+        ]
       },
       {
         "format": "4K 4:3",
-        "size": [24.3, 18.0]
+        "size": [
+          24.3,
+          18.0
+        ]
       },
       {
         "format": "4K 17:9 Surround View",
-        "size": [27.0, 14.3]
+        "size": [
+          27.0,
+          14.3
+        ]
       },
       {
         "format": "4K 17:9",
-        "size": [24.3, 12.8]
+        "size": [
+          24.3,
+          12.8
+        ]
       },
       {
         "format": "4K 2.39:1",
-        "size": [24.3, 10.3]
+        "size": [
+          24.3,
+          10.3
+        ]
       },
       {
         "format": "3.8K 16:9 Surround View",
-        "size": [25.4, 14.3]
+        "size": [
+          25.4,
+          14.3
+        ]
       },
       {
         "format": "3.8K 16:9",
-        "size": [22.8, 12.8]
+        "size": [
+          22.8,
+          12.8
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://pro.sony/ue_US/products/digital-cinema-cameras/venice",
@@ -3015,89 +5058,150 @@
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
       "https://en.wikipedia.org/wiki/CineAlta"
     ],
-    "tags": ["imax"]
+    "tags": [
+      "imax"
+    ]
   },
   {
     "name": "Sony VENICE 2",
     "sensorSize": [
       {
         "format": "MPC-3628 8.6K 3:2",
-        "size": [35.9, 24.0]
+        "size": [
+          35.9,
+          24.0
+        ]
       },
       {
         "format": "MPC-3628 8.2K 17:9",
-        "size": [34.1, 18.0]
+        "size": [
+          34.1,
+          18.0
+        ]
       },
       {
         "format": "MPC-3628 7.6K 16:9",
-        "size": [32.0, 18.0]
+        "size": [
+          32.0,
+          18.0
+        ]
       },
       {
         "format": "MPC-3628 5.8K 6:5",
-        "size": [24.1, 20.2]
+        "size": [
+          24.1,
+          20.2
+        ]
       },
       {
         "format": "MPC-3628 5.8K 17:9",
-        "size": [24.1, 12.7]
+        "size": [
+          24.1,
+          12.7
+        ]
       },
       {
         "format": "MPC-3628 5.4K 16:9",
-        "size": [22.6, 12.7]
+        "size": [
+          22.6,
+          12.7
+        ]
       },
       {
         "format": "MPC-3626 6K 3:2",
-        "size": [35.9, 24.0]
+        "size": [
+          35.9,
+          24.0
+        ]
       },
       {
         "format": "MPC-3626 6K 1.85:1",
-        "size": [36.0, 19.4]
+        "size": [
+          36.0,
+          19.4
+        ]
       },
       {
         "format": "MPC-3626 6K 17:9",
-        "size": [36.0, 19.0]
+        "size": [
+          36.0,
+          19.0
+        ]
       },
       {
         "format": "MPC-3626 6K 2.39:1",
-        "size": [35.9, 15.0]
+        "size": [
+          35.9,
+          15.0
+        ]
       },
       {
         "format": "MPC-3626 5.7K 16:9",
-        "size": [33.7, 18.9]
+        "size": [
+          33.7,
+          18.9
+        ]
       },
       {
         "format": "MPC-3626 4K 6:5",
-        "size": [24.3, 20.4]
+        "size": [
+          24.3,
+          20.4
+        ]
       },
       {
         "format": "MPC-3626 4K 4:3",
-        "size": [24.3, 18.0]
+        "size": [
+          24.3,
+          18.0
+        ]
       },
       {
         "format": "MPC-3626 4K 4:3 Surround View",
-        "size": [27.0, 20.0]
+        "size": [
+          27.0,
+          20.0
+        ]
       },
       {
         "format": "MPC-3626 4K 17:9",
-        "size": [24.3, 12.8]
+        "size": [
+          24.3,
+          12.8
+        ]
       },
       {
         "format": "MPC-3626 4K 17:9 Surround View",
-        "size": [27.0, 14.3]
+        "size": [
+          27.0,
+          14.3
+        ]
       },
       {
         "format": "MPC-3626 4K 2.39:1",
-        "size": [24.3, 10.3]
+        "size": [
+          24.3,
+          10.3
+        ]
       },
       {
         "format": "MPC-3626 3.8K 16:9",
-        "size": [22.8, 12.8]
+        "size": [
+          22.8,
+          12.8
+        ]
       },
       {
         "format": "MPC-3626 3.8K 16:9 Surround View",
-        "size": [25.4, 14.3]
+        "size": [
+          25.4,
+          14.3
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "Sony VENICE 2 has two sensor options, an 8K (MPC-3628) and a 6K (MPC-3626).",
     "sources": [
       "https://pro.sony/ue_US/products/digital-cinema-cameras/venice2",
@@ -3106,102 +5210,163 @@
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
       "https://en.wikipedia.org/wiki/CineAlta"
     ],
-    "tags": ["imax"]
+    "tags": [
+      "imax"
+    ]
   },
   {
     "name": "Standard 16 mm",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [10.26, 7.49]
+        "size": [
+          10.26,
+          7.49
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/16_mm_film#Standard_16_mm"],
-    "tags": ["film"]
+    "sources": [
+      "https://en.wikipedia.org/wiki/16_mm_film#Standard_16_mm"
+    ],
+    "tags": [
+      "film"
+    ]
   },
   {
     "name": "Standard 35 mm",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [22, 16]
+        "size": [
+          22,
+          16
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/35_mm_movie_film"],
-    "tags": ["film"]
+    "sources": [
+      "https://en.wikipedia.org/wiki/35_mm_movie_film"
+    ],
+    "tags": [
+      "film"
+    ]
   },
   {
     "name": "Standard 65 mm",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [52.48, 23.01]
+        "size": [
+          52.48,
+          23.01
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/70_mm_film#Technical_specifications"
     ],
-    "tags": ["film"]
-  },
-  {
-    "name": "Super 8 mm",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [5.79, 4.01]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Super_8_film"],
-    "tags": ["film"]
+    "tags": [
+      "film"
+    ]
   },
   {
     "name": "Super 16 mm",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [12.52, 7.41]
+        "size": [
+          12.52,
+          7.41
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/16_mm_film#Super_16_mm"],
-    "tags": ["film"]
+    "sources": [
+      "https://en.wikipedia.org/wiki/16_mm_film#Super_16_mm"
+    ],
+    "tags": [
+      "film"
+    ]
   },
   {
     "name": "Super 35 mm 3-perf",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [24.89, 13.86]
+        "size": [
+          24.89,
+          13.86
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Super_35",
       "https://en.wikipedia.org/wiki/Image_sensor_format"
     ],
-    "tags": ["film"]
+    "tags": [
+      "film"
+    ]
   },
   {
     "name": "Super 35 mm 4-perf",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [24.89, 18.66]
+        "size": [
+          24.89,
+          18.66
+        ]
       }
     ],
-    "category": ["Movie"],
+    "category": [
+      "Movie"
+    ],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Super_35"],
-    "tags": ["film"]
+    "sources": [
+      "https://en.wikipedia.org/wiki/Super_35"
+    ],
+    "tags": [
+      "film"
+    ]
+  },
+  {
+    "name": "Super 8 mm",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [
+          5.79,
+          4.01
+        ]
+      }
+    ],
+    "category": [
+      "Movie"
+    ],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Super_8_film"
+    ],
+    "tags": [
+      "film"
+    ]
   }
 ]
