@@ -2787,6 +2787,10 @@
       {
         "format": "Open Gate",
         "size": [35.6, 23.8]
+      },
+      {
+        "format": "4K UHD",
+        "size": [35.6, 20.0]
       }
     ],
     "category": ["Still"],
