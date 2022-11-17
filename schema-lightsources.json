@@ -73,10 +73,12 @@
         "maxItems": 1
       },
       "description": {
+        "description": "This field should be used for disclaimers and other useful info for CG artists that may affect the way they use the values. It's totally fine to leave this empty.",
         "type": "string",
         "maxLength": 500
       },
       "sources": {
+        "description": "Provide at least one source for the values.",
         "type": "array",
         "items": {
           "type": "string",

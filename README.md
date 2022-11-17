@@ -6,16 +6,13 @@
   A database of physically based values for CG artists
 </p>
 
-
-
 ## API
 
 Access the API here: [https://api.physicallybased.info](https://api.physicallybased.info)
 
+Read about how to contribute here: [CONTRIBUTING.md](https://github.com/AntonPalmqvist/physically-based-api/blob/main/CONTRIBUTING.md)
+
 ## Implementations
 
-- Web [https://physicallybased.info](https://physicallybased.info)
-
-## Accuracy
-
-These reference values are based on the most accurate data available at the time, and are continually updated whenever new measurements are available. Depending on the material and the property you're after, there is more or less variability to take into account. Use these values as a starting point, or as validation for your existing materials, and then tweak further using your artistic freedom.
+- Web [https://physicallybased.info](https://physicallybased.info) by [AntonPalmqvist](https://github.com/AntonPalmqvist)
+- Web [https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [@gkjohnson](https://github.com/gkjohnson)

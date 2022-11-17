@@ -58,23 +58,13 @@
         "type": "number",
         "default": 0
       },
-      "transmissionColor": {
-        "description": "",
-        "type": "array",
-        "items": {
-          "type": "number"
-        },
-        "default": [1, 1, 1],
-        "minItems": 3,
-        "maxItems": 3
-      },
       "transmissionDispersion": {
         "description": "Abbe number, describing how much the index of refraction varies across wavelengths. For glass and diamonds, this is typically in the range of 10 to 70, with lower numbers giving more dispersion.",
         "type": "number",
         "default": 0
       },
       "complexIor": {
-        "description": "Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel, in the following order: nR, kR, nG, kG, nB, kB. Calculated with a wavelength of 0.65 for red, 0.55 for green and 0.45 for blue.",
+        "description": "Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel, in the following order: nR, kR, nG, kG, nB, kB. Calculated from spectral IOR data files.",
         "type": "array",
         "items": {
           "type": "number"
@@ -99,7 +89,7 @@
         "maxItems": 2
       },
       "viscosity": {
-        "description": "Dynamic viscosity measured in millipascal-seconds (mPa⋅s) at a temperature of 20°C. 1 mPa⋅s (millipascal-second) = 1 cP (centipoise).",
+        "description": "Dynamic viscosity measured in millipascal-seconds (mPa⋅s) at a temperature of 20°C. 1 mPa⋅s (millipascal-second) = 1 cP (centipoise). Used for fluid simulations.",
         "type": "number",
         "default": 1
       },
@@ -132,15 +122,17 @@
         "maxItems": 1
       },
       "group": {
-        "description": "Can be used to group similar materials together.",
+        "description": "Can be used to group similar materials together. For example, Skin I, Skin II, and Skin III would be part of the same group: Skin.",
         "type": "string",
         "default": "Group"
       },
       "description": {
+        "description": "This field should be used for disclaimers and other useful info for CG artists that may affect the way they use the values. It's totally fine to leave this empty.",
         "type": "string",
         "maxLength": 500
       },
       "sources": {
+        "description": "Provide at least one source for the values.",
         "type": "array",
         "items": {
           "type": "string",
@@ -150,7 +142,7 @@
         "uniqueItems": true
       },
       "tags": {
-        "description": "Tags",
+        "description": "Tags for when there are alternative names or spellings of the same material.",
         "type": "array",
         "items": {
           "type": "string"
@@ -158,6 +150,7 @@
         "uniqueItems": true
       },
       "reference": {
+        "description": "Links to reference images.",
         "type": "array",
         "items": {
           "type": "string",
