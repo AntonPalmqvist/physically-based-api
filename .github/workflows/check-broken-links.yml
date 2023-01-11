@@ -16,6 +16,6 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v1
         with:
-          args: --verbose --no-progress '/deploy/*.json'
+          args: --verbose --no-progress '../../deploy/*.json'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
