@@ -635,10 +635,11 @@
       }
     ],
     "category": ["Mobile"],
-    "description": "",
+    "description": "Apple uses Sony sensors for their Iphones.",
     "sources": [
       "https://www.dpreview.com/articles/6110937480",
-      "https://www.apple.com/iphone-14-pro/specs/"
+      "https://www.apple.com/iphone-14-pro/specs/",
+      "https://twitter.com/tim_cook/status/1602516736145858561"
     ],
     "tags": ["phone"]
   },
@@ -651,8 +652,11 @@
       }
     ],
     "category": ["Mobile"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Image_sensor_format",
+      "https://twitter.com/tim_cook/status/1602516736145858561"
+    ],
     "tags": ["phone"]
   },
   {
