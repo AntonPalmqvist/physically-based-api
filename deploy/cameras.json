@@ -68,7 +68,7 @@
     "description": "",
     "sources": [
       "https://www.arrirental.com/en/cameras/exclusive-cameras/alexa-65",
-      "https://www.arri.com/resource/blob/31908/14147b455c90a9a35018c0d091350ff3/2021-10-arri-formatsandresolutionsoverview-3-4-data.pdf",
+      "https://www.arri.com/resource/blob/277386/3d47cc0f22a5ebe30a48f68cc7bf94a1/2022-05-arri-formatsandresolutionsoverview-4-1-data.pdf",
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
     ],
     "tags": ["imax"]
@@ -113,7 +113,7 @@
     "description": "",
     "sources": [
       "https://www.arri.com/en/camera-systems/cameras/amira",
-      "https://www.arri.com/resource/blob/31908/14147b455c90a9a35018c0d091350ff3/2021-10-arri-formatsandresolutionsoverview-3-4-data.pdf"
+      "https://www.arri.com/resource/blob/277386/3d47cc0f22a5ebe30a48f68cc7bf94a1/2022-05-arri-formatsandresolutionsoverview-4-1-data.pdf"
     ],
     "tags": ["super 35"]
   },
@@ -499,7 +499,7 @@
     "category": ["Movie"],
     "description": "",
     "sources": [
-      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/eos-c700-ff",
+      "https://www.usa.canon.com/support/p/eos-c700-ff",
       "https://downloads.canon.com/nw/camera/downloads/brochures/cinema/cinema-eos/eos-c700-ff-series-product-brochure.pdf"
     ],
     "tags": ["full frame"]
