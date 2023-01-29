@@ -10,7 +10,7 @@
 
 Access the API here: [https://api.physicallybased.info](https://api.physicallybased.info)
 
-Read about how to contribute here: [CONTRIBUTING.md](https://github.com/AntonPalmqvist/physically-based-api/blob/main/CONTRIBUTING.md)
+Read about how to contribute here: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Implementations
 

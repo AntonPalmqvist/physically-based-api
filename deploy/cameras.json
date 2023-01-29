@@ -676,6 +676,22 @@
     "tags": ["medium format"]
   },
   {
+    "name": "Nikon Z9",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.9, 23.9]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nikon_Z_9",
+      "https://www.nikonusa.com/en/nikon-products/product/mirrorless-cameras/z-9.html#tab-ProductDetail-ProductTabs-TechSpecs"
+    ],
+    "tags": ["full frame"]
+  },
+  {
     "name": "Panasonic EVA1",
     "sensorSize": [
       {
@@ -733,6 +749,22 @@
     "description": "",
     "sources": [
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/s1h/index.html"
+    ],
+    "tags": ["full frame"]
+  },
+  {
+    "name": "Panasonic LUMIX S5II",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.6, 23.8]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://shop.panasonic.com/cameras-and-camcorders/cameras/full-frame-cameras/dc-s5m2body",
+      "https://www.panasonic.com/uk/consumer/cameras-camcorders/lumix-mirrorless-cameras/lumix-s-full-frame-cameras/dc-s5m2.html#specs"
     ],
     "tags": ["full frame"]
   },
