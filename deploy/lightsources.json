@@ -103,16 +103,20 @@
   },
   {
     "name": "Moon",
-    "temperature": 4000,
+    "temperature": 4100,
     "intensity": 0.1,
     "intensityRange": [0.05, 0.32],
     "unit": ["lx"],
     "type": ["directional"],
     "category": ["Natural"],
-    "description": "Technically not a light source, since the light from the moon is simply reflected sunlight.",
+    "description": "Technically not a light source, since the light from the moon is simply reflected sunlight. Moonlight is warmer than sunlight due to the surface material of the moon shifting it towards a redder color. Just as sunlight, moonlight is also subject to atmospheric scattering known as Rayleigh scattering, where it goes more towards red during moonrise and moonset. Moonlight is often mistaken to be bluish due to the Purkinje effect.",
     "sources": [
       "https://en.wikipedia.org/wiki/Moonlight",
-      "https://chrisbrejon.com/cg-cinematography/chapter-4-light-categories/#moon"
+      "https://en.wikipedia.org/wiki/Moon",
+      "https://en.wikipedia.org/wiki/Purkinje_effect",
+      "https://chrisbrejon.com/cg-cinematography/chapter-4-light-categories/#moon",
+      "https://iopscience.iop.org/article/10.1088/0031-9120/48/3/360",
+      "https://web.archive.org/web/20151005215129/http://www.cast-lighting.com/search/1/display-document/71"
     ]
   },
   {
