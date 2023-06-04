@@ -195,7 +195,9 @@
     ],
     "category": ["Movie"],
     "description": "",
-    "sources": ["https://www.arri.com/en/camera-systems/cameras/alexa-mini"],
+    "sources": [
+      "https://www.arri.com/en/camera-systems/cameras/discontinued-camera-systems/alexa-mini"
+    ],
     "tags": ["super 35"]
   },
   {
@@ -300,7 +302,9 @@
     ],
     "category": ["Movie"],
     "description": "",
-    "sources": ["https://www.arri.com/en/camera-systems/cameras/alexa-sxt-w"],
+    "sources": [
+      "https://www.arri.com/en/camera-systems/cameras/discontinued-camera-systems/alexa-sxt-w"
+    ],
     "tags": ["super 35"]
   },
   {
