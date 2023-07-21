@@ -1,0 +1,13 @@
+name: API Deploy
+on:
+  push:
+    branches:
+      - "dev"
+
+jobs:
+  build:
+    name: Netlify Webhook
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl request
+        run: curl -X POST -d {} ${{ secrets.NETLIFY_WEBHOOK_DEV }}
