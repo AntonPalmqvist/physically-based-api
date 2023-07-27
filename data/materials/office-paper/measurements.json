@@ -3,10 +3,11 @@
     "subject": "Office Paper",
     "author": "https://github.com/AntonPalmqvist",
     "device": "Nix Spectro 2",
-    "illuminant": "D50",
-    "observer": 2,
-    "rgb": [0.738, 0.768, 1],
-    "xyz": [76.2, 77.5, 80.9],
-    "cielab": [90.5, 3.08, -15]
+    "illuminant": "D65",
+    "observer": 10,
+    "measuringMode": "M2",
+    "srgb-linear": [0.794, 0.834, 0.884],
+    "ciexyz-d65": [0.785, 0.829, 0.955],
+    "cielab-d65": [92.97, -0.56, -3.53]
   }
 ]
