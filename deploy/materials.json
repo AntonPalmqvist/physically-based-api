@@ -604,7 +604,7 @@
   },
   {
     "name": "Office Paper",
-    "color": [0.738, 0.768, 1],
+    "color": [0.794, 0.834, 0.884],
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.5,

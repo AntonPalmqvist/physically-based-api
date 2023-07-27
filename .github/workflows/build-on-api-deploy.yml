@@ -1,0 +1,24 @@
+name: API Deploy
+on:
+  push:
+    branches:
+      - "dev"
+      - "main"
+    paths:
+      - "deploy/*.json"
+
+jobs:
+  build_dev:
+    if: github.ref == 'refs/heads/dev'
+    name: Netlify Webhook - Dev
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl request
+        run: curl -X POST -d {} ${{ secrets.NETLIFY_WEBHOOK_DEV }}
+  build_production:
+    if: github.ref == 'refs/heads/main'
+    name: Netlify Webhook - Production
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl request
+        run: curl -X POST -d {} ${{ secrets.NETLIFY_WEBHOOK_PRODUCTION }}
