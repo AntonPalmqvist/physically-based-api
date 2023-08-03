@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>The PBR Database API</title>
+    <title>API | Physically Based</title>
     <meta name="title" content="The PBR Database API" />
     <meta
       name="description"
@@ -13,136 +13,22 @@
       name="google-site-verification"
       content="U2EED-cL3HjaIzPZpQPxEpBMokNh9eNig9VtsDKLoms"
     />
-    <style>
-      html {
-        color: #323232;
-        background: #dcdbd4;
-        font-family: monospace, "Segoe UI", Verdana, Arial, sans-serif;
-      }
-      body {
-        margin: 0 10px;
-      }
-      a:link {
-        color: #323232;
-        text-decoration: none;
-        font-weight: bold;
-      }
-      a:visited {
-        color: #323232;
-        text-decoration: none;
-      }
-      a:hover {
-        color: #ffffff;
-        text-decoration: none;
-      }
-      a:active {
-        color: #ffffff;
-        text-decoration: none;
-      }
-      ::selection {
-        background: #323232;
-        color: #dcdbd4;
-      }
-      h1 {
-        margin-bottom: 0px;
-      }
-      h2 {
-        text-align: left;
-        margin-bottom: 15px;
-        font-weight: 400;
-      }
-      hr {
-        background-color: #bbbab5;
-        height: 1px;
-        border: 0;
-      }
-      @media (prefers-color-scheme: dark) {
-        html {
-          color: #dcdbd4;
-          background: #373734;
-        }
-        a:link {
-          color: #dcdbd4;
-        }
-        a:visited {
-          color: #dcdbd4;
-        }
-        a:hover {
-          color: #ffffff;
-        }
-        a:active {
-          color: #ffffff;
-        }
-        ::selection {
-          background: #dcdbd4;
-          color: #373734;
-        }
-        hr {
-          background-color: #63635e;
-        }
-      }
-    </style>
+    <!-- Configuration options: https://docs.stoplight.io/docs/elements/b074dc47b2826-elements-configuration-options -->
     <script
       defer
       data-domain="api.physicallybased.info"
-      src="https://plausible.io/js/plausible.js"
+      src="/js/script.js"
     ></script>
+    <script src="assets/js/web-components.min.js"></script>
+    <link rel="stylesheet" href="assets/css/styles.min.css" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
   </head>
-
   <body>
-    <h1>The PBR Database API</h1>
-    <hr />
-    <p>
-      This is an API where you can look up physically based values for your CG
-      materials.
-    </p>
-    <p>
-      It is meant to be consumed by DCC applications in the form of plug-ins, or
-      any other form that makes sense.
-    </p>
-    <p>
-      For additions or changes, please make a Pull Request on Github
-      <a
-        href="https://github.com/AntonPalmqvist/physically-based-api"
-        target="_blank"
-        rel="noreferrer"
-        >https://github.com/AntonPalmqvist/physically-based-api</a
-      >
-      or send me a message through
-      <a
-        href="https://physicallybased.info/about"
-        target="_blank"
-        rel="noreferrer"
-      >
-        this form.</a
-      >
-    </p>
-    <h2>Implementations</h2>
-    <ul>
-      <li>
-        Web
-        <a href="https://physicallybased.info">https://physicallybased.info</a>
-      </li>
-    </ul>
-    <h2>Endpoints</h2>
-    <ul>
-      <li>
-        <a href="https://api.physicallybased.info/materials"
-          >https://api.physicallybased.info/materials</a
-        >
-      </li>
-
-      <li>
-        <a href="https://api.physicallybased.info/lightsources"
-          >https://api.physicallybased.info/lightsources</a
-        >
-      </li>
-
-      <li>
-        <a href="https://api.physicallybased.info/cameras"
-          >https://api.physicallybased.info/cameras</a
-        >
-      </li>
-    </ul>
+    <elements-api
+      apiDescriptionUrl="openapi-schema.yaml"
+      router="hash"
+      hideSchemas="true"
+      hideExport="true"
+    />
   </body>
 </html>
