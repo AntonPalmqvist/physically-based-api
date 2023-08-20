@@ -12,7 +12,7 @@
     "description": "",
     "sources": [
       "https://refractiveindex.info/?shelf=3d&book=metals&page=aluminium",
-      "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
+      "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_base_html#metalness",
       "https://en.wikipedia.org/wiki/Aluminium",
       "https://en.wikipedia.org/wiki/Density",
       "https://en.wikipedia.org/wiki/Mirror"
@@ -156,19 +156,17 @@
   },
   {
     "name": "Chromium",
-    "color": [0.55, 0.556, 0.554],
+    "color": [0.638, 0.651, 0.663],
     "metalness": 1,
-    "specularColor": [0.57, 0.558, 0.689],
+    "specularColor": [0.632, 0.718, 0.809],
     "roughness": 0,
     "ior": 1.5,
-    "complexIor": [3.1071, 3.3314, 3.1812, 3.3291, 2.323, 3.135],
+    "complexIor": [3.4256, 4.273, 2.7891, 4.1976, 2.0246, 3.8586],
     "density": 7200,
     "category": ["Metal"],
     "description": "",
     "sources": [
-      "https://refractiveindex.info/?shelf=main&book=Cr&page=Johnson",
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
-      "https://www.chaos.com/blog/understanding-metalness",
+      "https://refractiveindex.info/?shelf=main&book=Cr&page=Rakic-BB",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": ["chrome"],
@@ -178,18 +176,18 @@
   },
   {
     "name": "Cobalt",
-    "color": [0.662, 0.655, 0.634],
+    "color": [0.692, 0.703, 0.673],
     "metalness": 1,
-    "specularColor": [0.803, 0.803, 0.816],
+    "specularColor": [0.684, 0.771, 0.817],
     "roughness": 0,
     "ior": 1.5,
-    "complexIor": [2.2371, 4.2357, 2.0524, 3.8242, 1.7365, 3.2745],
+    "complexIor": [3.5681, 5.0469, 2.7408, 4.7897, 2.0192, 3.9523],
     "density": 8900,
     "category": ["Metal"],
     "description": "",
     "sources": [
-      "https://refractiveindex.info/?shelf=main&book=Co&page=Johnson",
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://refractiveindex.info/?shelf=main&book=Co&page=Werner-DFT",
+      "https://seblagarde.wordpress.com/2011/08/17/feeding-a-physical-based-lighting-mode/",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""],
@@ -208,7 +206,7 @@
     "category": ["Manmade"],
     "description": "",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://seblagarde.wordpress.com/2011/08/17/feeding-a-physical-based-lighting-mode/",
       "https://en.wikipedia.org/wiki/Density",
       "https://en.wikipedia.org/wiki/Absorption_(acoustics)",
       "https://www.acoustic-supplies.com/absorption-coefficient-chart/",
@@ -257,7 +255,7 @@
     "description": "",
     "sources": [
       "https://refractiveindex.info/?shelf=3d&book=metals&page=copper",
-      "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
+      "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_base_html#metalness",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""],
@@ -397,7 +395,7 @@
     "description": "",
     "sources": [
       "https://refractiveindex.info/?shelf=3d&book=metals&page=gold",
-      "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
+      "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_base_html#metalness",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""],
@@ -480,7 +478,7 @@
     "description": "",
     "sources": [
       "https://refractiveindex.info/?shelf=3d&book=metals&page=iron",
-      "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
+      "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_base_html#metalness",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""],
@@ -494,15 +492,16 @@
     "metalness": 0,
     "roughness": 0.1,
     "ior": 1.4,
-    "subsurfaceRadius": [1, 0, 0],
+    "subsurfaceRadius": [0.476, 0.058, 0.039],
     "density": 1150,
     "viscosity": 50000,
     "category": ["Organic"],
     "description": "",
     "sources": [
       "https://docs.arnoldrenderer.com/display/A5AFMUG/Subsurface",
-      "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html",
+      "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_subsurface_html",
       "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
+      "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html",
       "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table",
       "https://en.wikipedia.org/wiki/List_of_viscosities",
       "https://www.aqua-calc.com/page/density-table/substance/heinz-blank-tomato-blank-ketchup-coma-and-blank-upc-column--blank-00013000004664"
@@ -525,7 +524,7 @@
     "description": "",
     "sources": [
       "https://refractiveindex.info/?shelf=3d&book=metals&page=lead",
-      "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
+      "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_base_html#metalness",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""],
@@ -547,7 +546,7 @@
     "description": "Mercury is the only metallic element that is known to be liquid at standard conditions.",
     "sources": [
       "https://refractiveindex.info/?shelf=3d&book=metals&page=mercury",
-      "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
+      "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_base_html#metalness",
       "https://en.wikipedia.org/wiki/Density",
       "https://en.wikipedia.org/wiki/List_of_viscosities",
       "https://www.engineeringtoolbox.com/absolute-viscosity-liquids-d_1259.html"
@@ -559,16 +558,18 @@
   },
   {
     "name": "Milk",
-    "color": [0.603827, 0.584, 0.497],
+    "color": [0.815, 0.813, 0.682],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.348,
+    "subsurfaceRadius": [1.842, 1.044, 0.35],
     "density": 1030,
     "densityRange": [1026, 1035],
     "viscosity": 2,
     "category": ["Liquid"],
     "description": "Cow's milk",
     "sources": [
+      "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html",
       "https://www.researchgate.net/publication/346758555_What_Is_the_Color_of_Milk_and_Dairy_Products_and_How_Is_It_Measured",
       "http://dairy-technology.blogspot.com/2014/11/refractive-index.html",
       "https://www.theengineer.co.uk/content/product/density-measurement-of-milk-and-dairy-products/",
@@ -589,12 +590,13 @@
     "specularColor": [0.797, 0.801, 0.789],
     "roughness": 0,
     "ior": 1.5,
-    "complexIor": [1.99, 4.2086, 1.9212, 3.6158, 1.729, 2.9435],
+    "complexIor": [2.0592, 3.7574, 1.8179, 3.2741, 1.621, 2.6933],
     "density": 8900,
     "category": ["Metal"],
     "description": "",
     "sources": [
-      "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
+      "https://refractiveindex.info/?shelf=main&book=Ni&page=Rakic-BB",
+      "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_base_html#metalness",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""],
@@ -731,7 +733,7 @@
     "description": "",
     "sources": [
       "https://refractiveindex.info/?shelf=3d&book=metals&page=platinum",
-      "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
+      "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_base_html#metalness",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""],
@@ -832,7 +834,7 @@
     "description": "",
     "sources": [
       "https://refractiveindex.info/?shelf=3d&book=metals&page=silver",
-      "https://docs.arnoldrenderer.com/display/A5AFMUG/Base",
+      "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_base_html#metalness",
       "https://en.wikipedia.org/wiki/Density",
       "https://en.wikipedia.org/wiki/Mirror"
     ],
@@ -847,7 +849,7 @@
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.4,
-    "subsurfaceRadius": [1, 0.35, 0.2],
+    "subsurfaceRadius": [0.482, 0.169, 0.109],
     "density": 1020,
     "category": ["Human"],
     "group": "Skin",
@@ -857,7 +859,8 @@
       "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699319/",
       "http://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
       "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
-      "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf"
+      "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
+      "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html"
     ],
     "tags": ["epidermis"],
     "reference": [
@@ -870,7 +873,7 @@
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.4,
-    "subsurfaceRadius": [1, 0.35, 0.2],
+    "subsurfaceRadius": [0.482, 0.169, 0.109],
     "density": 1020,
     "category": ["Human"],
     "group": "Skin",
@@ -880,7 +883,8 @@
       "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699319/",
       "http://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
       "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
-      "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf"
+      "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
+      "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html"
     ],
     "tags": ["epidermis"],
     "reference": [
@@ -889,11 +893,11 @@
   },
   {
     "name": "Skin III",
-    "color": [0.6, 0.31, 0.22],
+    "color": [0.623, 0.433, 0.343],
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.4,
-    "subsurfaceRadius": [1, 0.35, 0.2],
+    "subsurfaceRadius": [0.482, 0.169, 0.109],
     "density": 1020,
     "category": ["Human"],
     "group": "Skin",
@@ -903,7 +907,8 @@
       "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699319/",
       "http://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
       "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
-      "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf"
+      "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
+      "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html"
     ],
     "tags": ["epidermis"],
     "reference": [
@@ -912,11 +917,11 @@
   },
   {
     "name": "Skin IV",
-    "color": [0.43, 0.2, 0.13],
+    "color": [0.436, 0.227, 0.131],
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.4,
-    "subsurfaceRadius": [1, 0.35, 0.2],
+    "subsurfaceRadius": [0.367, 0.137, 0.068],
     "density": 1020,
     "category": ["Human"],
     "group": "Skin",
@@ -926,7 +931,8 @@
       "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699319/",
       "http://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
       "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
-      "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf"
+      "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
+      "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html"
     ],
     "tags": ["epidermis"],
     "reference": [
@@ -939,7 +945,7 @@
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.4,
-    "subsurfaceRadius": [1, 0.35, 0.2],
+    "subsurfaceRadius": [0.367, 0.137, 0.068],
     "density": 1020,
     "category": ["Human"],
     "group": "Skin",
@@ -949,7 +955,8 @@
       "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699319/",
       "http://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
       "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
-      "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf"
+      "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
+      "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html"
     ],
     "tags": ["epidermis"],
     "reference": [
@@ -962,7 +969,7 @@
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.4,
-    "subsurfaceRadius": [1, 0.35, 0.2],
+    "subsurfaceRadius": [0.367, 0.137, 0.068],
     "density": 1020,
     "category": ["Human"],
     "group": "Skin",
@@ -972,7 +979,8 @@
       "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699319/",
       "http://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
       "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
-      "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf"
+      "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
+      "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html"
     ],
     "tags": ["epidermis"],
     "reference": [
@@ -981,7 +989,7 @@
   },
   {
     "name": "Snow",
-    "color": [0.81, 0.81, 0.81],
+    "color": [0.85, 0.85, 0.85],
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.3098,
@@ -1039,17 +1047,17 @@
   },
   {
     "name": "Tungsten",
-    "color": [0.92549, 0.83529, 0.75686],
+    "color": [0.504, 0.498, 0.478],
     "metalness": 1,
-    "specularColor": [0.983, 0.944, 0.854],
+    "specularColor": [0.403, 0.418, 0.423],
     "roughness": 0,
     "ior": 1.5,
-    "complexIor": [0.92074, 6.8595, 1.3437, 5.2293, 2.2323, 5.1461],
+    "complexIor": [3.6518, 2.7955, 3.5064, 2.7585, 3.313, 2.6051],
     "density": 19300,
     "category": ["Metal"],
     "description": "",
     "sources": [
-      "https://www.chaosgroup.com/blog/understanding-metalness",
+      "https://refractiveindex.info/?shelf=main&book=W&page=Rakic-BB",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""],
@@ -1059,17 +1067,17 @@
   },
   {
     "name": "Vanadium",
-    "color": [0.9451, 0.89412, 0.78039],
+    "color": [0.52, 0.532, 0.541],
     "metalness": 1,
-    "specularColor": [0.5, 0.395, 0.512],
+    "specularColor": [0.402, 0.447, 0.395],
     "roughness": 0,
     "ior": 1.5,
-    "complexIor": [3.3121, 3.075, 3.9948, 3.0388, 3.5865, 3.4615],
+    "complexIor": [3.8114, 2.931, 3.6721, 3.0917, 4.0878, 3.1196],
     "density": 6100,
     "category": ["Metal"],
     "description": "",
     "sources": [
-      "https://www.chaosgroup.com/blog/understanding-metalness",
+      "https://refractiveindex.info/?shelf=main&book=V&page=Werner-DFT",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""],
@@ -1092,7 +1100,7 @@
     "category": ["Liquid"],
     "description": "While relatively small quantities of water appear to be colorless, pure water has a slight blue color that becomes deeper as the thickness of the observed sample increases. The hue of water is an intrinsic property and is caused by selective absorption and scattering of white light. Dissolved elements or suspended impurities may give water a different color.",
     "sources": [
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
+      "https://seblagarde.wordpress.com/2011/08/17/feeding-a-physical-based-lighting-mode/",
       "https://refractiveindex.info/?shelf=3d&book=liquids&page=water",
       "https://refractiveindex.info/?shelf=main&book=H2O&page=Daimon-21.5C",
       "https://en.wikipedia.org/wiki/Density",
@@ -1111,18 +1119,17 @@
   },
   {
     "name": "Zinc",
-    "color": [0.87451, 0.86667, 0.8549],
+    "color": [0.802, 0.844, 0.863],
     "metalness": 1,
-    "specularColor": [0.96, 0.97, 0.977],
+    "specularColor": [0.817, 0.922, 0.964],
     "roughness": 0,
     "ior": 1.5,
-    "complexIor": [1.2338, 5.873, 0.92943, 4.9751, 0.67767, 4.0122],
+    "complexIor": [3.4161, 7.0325, 1.9286, 6.3963, 1.0424, 5.125],
     "density": 7000,
     "category": ["Metal"],
     "description": "",
     "sources": [
-      "https://refractiveindex.info/?shelf=main&book=Zn&page=Werner",
-      "https://www.chaosgroup.com/blog/understanding-metalness",
+      "https://refractiveindex.info/?shelf=main&book=Zn&page=Werner-DFT",
       "https://en.wikipedia.org/wiki/Density"
     ],
     "tags": [""],

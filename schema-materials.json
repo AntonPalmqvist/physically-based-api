@@ -44,7 +44,7 @@
         "default": 1.5
       },
       "subsurfaceRadius": {
-        "description": "The approximate distance up to which light can scatter below the surface, also known as “mean free path” (MFP).",
+        "description": "The approximate distance up to which light can scatter below the surface, also known as “mean free path” (MFP). Specified in centimeters.",
         "type": "array",
         "items": {
           "type": "number"
