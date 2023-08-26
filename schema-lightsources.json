@@ -11,8 +11,18 @@
         "type": "string",
         "default": "Name"
       },
+      "color": {
+        "description": "Color of the light source.",
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "default": [1, 1, 1],
+        "minItems": 3,
+        "maxItems": 3
+      },
       "temperature": {
-        "description": "Color temperature in Kelvin.",
+        "description": "Color temperature in Kelvin, if color lies on the Planckian curve.",
         "type": "number",
         "default": 6500
       },
@@ -98,7 +108,7 @@
     },
     "required": [
       "name",
-      "temperature",
+      "color",
       "intensity",
       "unit",
       "category",

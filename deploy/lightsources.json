@@ -1,6 +1,7 @@
 [
   {
     "name": "Candle Flame",
+    "color": [1, 1, 1],
     "temperature": 1850,
     "intensity": 13,
     "unit": ["lm"],
@@ -14,6 +15,7 @@
   },
   {
     "name": "Car Headlight (Halogen)",
+    "color": [1, 1, 1],
     "temperature": 3500,
     "intensity": 1500,
     "intensityRange": [700, 2000],
@@ -28,6 +30,7 @@
   },
   {
     "name": "Digital Display",
+    "color": [1, 1, 1],
     "temperature": 6500,
     "intensity": 200,
     "intensityRange": [100, 2000],
@@ -44,6 +47,7 @@
   },
   {
     "name": "Firefly",
+    "color": [1, 1, 1],
     "temperature": 0,
     "intensity": 0.0006,
     "unit": ["lm"],
@@ -59,6 +63,7 @@
   },
   {
     "name": "Fluorescent Tube Light",
+    "color": [1, 1, 1],
     "temperature": 5000,
     "intensity": 1000,
     "intensityRange": [500, 5000],
@@ -73,6 +78,7 @@
   },
   {
     "name": "Kerosene Lamp",
+    "color": [1, 1, 1],
     "temperature": 1850,
     "intensity": 50,
     "intensityRange": [8, 100],
@@ -87,6 +93,7 @@
   },
   {
     "name": "Household Light Bulb",
+    "color": [1, 1, 1],
     "temperature": 2700,
     "temperatureRange": [2400, 6000],
     "intensity": 800,
@@ -103,6 +110,7 @@
   },
   {
     "name": "Moon",
+    "color": [1, 1, 1],
     "temperature": 4100,
     "intensity": 0.1,
     "intensityRange": [0.05, 0.32],
@@ -121,6 +129,7 @@
   },
   {
     "name": "Photo Flash",
+    "color": [1, 1, 1],
     "temperature": 5500,
     "intensity": 20000,
     "unit": ["lm"],
@@ -132,6 +141,7 @@
   },
   {
     "name": "Sky (Clear)",
+    "color": [1, 1, 1],
     "temperature": 15000,
     "intensity": 20000,
     "unit": ["lx"],
@@ -145,6 +155,7 @@
   },
   {
     "name": "Sky (Moonless Clear Night)",
+    "color": [1, 1, 1],
     "temperature": 0,
     "intensity": 0.002,
     "unit": ["lx"],
@@ -161,6 +172,7 @@
   },
   {
     "name": "Sky (Overcast Day)",
+    "color": [1, 1, 1],
     "temperature": 6500,
     "intensity": 2000,
     "intensityRange": [100, 2000],
@@ -176,6 +188,7 @@
   },
   {
     "name": "Street Light",
+    "color": [1, 1, 1],
     "temperature": 0,
     "intensity": 60000,
     "intensityRange": [2000, 140000],
@@ -191,6 +204,7 @@
   },
   {
     "name": "Sun",
+    "color": [1, 1, 1],
     "temperature": 5778,
     "intensity": 100000,
     "intensityRange": [400, 100000],
