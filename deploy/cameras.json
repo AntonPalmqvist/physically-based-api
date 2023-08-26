@@ -419,7 +419,7 @@
     "tags": ["full frame"]
   },
   {
-    "name": "Canon EOS 5D",
+    "name": "Canon EOS 5D Mark IV",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -428,7 +428,10 @@
     ],
     "category": ["Still"],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Canon_EOS_5D_Mark_IV"],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Canon_EOS_5D_Mark_IV",
+      "https://github.com/wetadigital/physlight/blob/main/data/canon_eos-5d-mkiv_380_720_10.json"
+    ],
     "tags": ["full frame"]
   },
   {
@@ -520,6 +523,23 @@
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
     "tags": ["drone"]
+  },
+  {
+    "name": "DJI Mavic 2 Pro",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [13.2, 8.8]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "",
+    "sources": [
+      "https://www.hasselblad.com/collaborations/dji-mavic-2-pro/",
+      "https://forum.dji.com/forum.php?mod=redirect&goto=findpost&ptid=167017&pid=1576410",
+      "https://github.com/wetadigital/physlight/blob/main/data/hasselblad_l1d-20c_380_720_10.json"
+    ],
+    "tags": ["drone", "Hasselblad L1D-20c"]
   },
   {
     "name": "DJI Phantom 3",
@@ -678,6 +698,23 @@
       "https://leica-camera.com/en-SG/photography/cameras/s/s3-black/details"
     ],
     "tags": ["medium format"]
+  },
+  {
+    "name": "Nikon D850",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.9, 23.9]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nikon_D850",
+      "https://www.nikonusa.com/en/nikon-products/product/dslr-cameras/d850.html#tab-ProductDetail-ProductTabs-TechSpecs",
+      "https://github.com/wetadigital/physlight/blob/main/data/nikon_d850_380_720_10.json"
+    ],
+    "tags": ["full frame"]
   },
   {
     "name": "Nikon Z9",
@@ -2821,7 +2858,23 @@
     "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
     "tags": ["phone"]
   },
-    {
+  {
+    "name": "Sony Alpha 6400",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [23.5, 15.6]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/aps-c/p/ilce6400-b",
+      "https://en.wikipedia.org/wiki/Sony_%CE%B16400"
+    ],
+    "tags": ["a6400", "aps-c", "ilce-6400"]
+  },
+  {
     "name": "Sony Alpha 7S III",
     "sensorSize": [
       {
@@ -2835,7 +2888,7 @@
       "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7sm3-b",
       "https://en.wikipedia.org/wiki/Sony_α7"
     ],
-    "tags": ["full frame", "a7"]
+    "tags": ["full frame", "a7", "ilce-7sm3"]
   },
   {
     "name": "Sony Alpha 7 IV",
@@ -2851,7 +2904,7 @@
       "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7m4-b",
       "https://en.wikipedia.org/wiki/Sony_α7"
     ],
-    "tags": ["full frame", "a7"]
+    "tags": ["full frame", "a7", "ilce-7m4"]
   },
   {
     "name": "Sony Alpha 7R IV",
@@ -2867,7 +2920,7 @@
       "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7rm4a-b",
       "https://en.wikipedia.org/wiki/Sony_α7"
     ],
-    "tags": ["full frame", "a7r"]
+    "tags": ["full frame", "a7r", "ilce-7rm4a"]
   },
   {
     "name": "Sony Alpha 7R V",
@@ -2883,7 +2936,24 @@
       "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce7rm5-b",
       "https://en.wikipedia.org/wiki/Sony_α7"
     ],
-    "tags": ["full frame", "a7r"]
+    "tags": ["full frame", "a7r", "ilce-7rm5"]
+  },
+  {
+    "name": "Sony Alpha 9",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.6, 23.8]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce9-b",
+      "https://en.wikipedia.org/wiki/Sony_α9",
+      "https://github.com/wetadigital/physlight/blob/main/data/sony_ilce-9_380_720_10.json"
+    ],
+    "tags": ["full frame", "a9", "ilce-9"]
   },
   {
     "name": "Sony F5",
