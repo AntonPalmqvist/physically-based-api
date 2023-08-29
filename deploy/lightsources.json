@@ -143,12 +143,13 @@
     "name": "Sky (Clear)",
     "color": [1, 1, 1],
     "temperature": 15000,
-    "intensity": 20000,
+    "intensity": 6000,
     "unit": ["lx"],
     "type": ["dome"],
     "category": ["Natural"],
     "description": "Shade illuminated by entire clear blue sky at midday",
     "sources": [
+      "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/lightsources/sky-clear/",
       "https://en.wikipedia.org/wiki/Color_temperature",
       "https://en.wikipedia.org/wiki/Daylight"
     ]
@@ -213,6 +214,7 @@
     "category": ["Natural"],
     "description": "The changing color of the Sun over the course of the day is mainly a result of the scattering of sunlight and is not due to changes in black-body radiation. The solar illuminance constant is equal to 128 000 lux, but atmospheric extinction brings the number of lux down to around 100 000 lux.",
     "sources": [
+      "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/lightsources/sun/",
       "https://en.wikipedia.org/wiki/Color_temperature#The_Sun",
       "https://en.wikipedia.org/wiki/Sunlight#Measurement",
       "https://en.wikipedia.org/wiki/Daylight",
