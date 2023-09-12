@@ -1,21 +1,23 @@
 openapi: 3.1.0
 info:
-  version: '1.0'
+  version: '1.1'
   title: Physically Based API
   description: |-
     This is a database of physically based values for CG artists.
 
-    It's meant to be consumed by DCC applications in the form of plug-ins, or any other form that makes sense. It's available to browse on the web at https://physicallybased.info
+    It's made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes. 
 
-    For additions or changes, please make a Pull Request on Github https://github.com/AntonPalmqvist/physically-based-api or send me a message through this form: https://physicallybased.info/about/
+    Ideally, the data is to be consumed by DCC applications in the form of plug-ins, or any other form that makes sense. It's also available to browse on the web at https://physicallybased.info
+
+    For additions or changes, feel free to make a Pull Request on Github at https://github.com/AntonPalmqvist/physically-based-api or send me a message through the [contact form.](https://physicallybased.info/about/)
 
     Schema: https://github.com/AntonPalmqvist/physically-based-api/blob/main/deploy/openapi-schema.yaml
   contact:
     url: 'https://physicallybased.info/about'
     name: Form
   license:
-    url: 'https://creativecommons.org/licenses/by-sa/4.0/legalcode'
-    name: CC-BY-SA-4.0
+    url: 'https://creativecommons.org/publicdomain/zero/1.0/legalcode'
+    name: CC0 1.0
 servers:
   - url: 'https://api.physicallybased.info'
 paths:
@@ -105,7 +107,7 @@ components:
           default: 1.5
         subsurfaceRadius:
           $ref: '#/components/schemas/color'
-          description: 'The approximate distance up to which light can scatter below the surface, also known as “mean free path” (MFP).'
+          description: 'The approximate distance up to which light can scatter below the surface, also known as “mean free path” (MFP). Specified in centimeters.'
         transmission:
           type: number
         transmissionDispersion:
@@ -160,10 +162,8 @@ components:
           $ref: '#/components/schemas/description'
         sources:
           $ref: '#/components/schemas/sources'
-          description: Provide at least one source for the values.
         tags:
           $ref: '#/components/schemas/tags'
-          description: Tags for when there are alternative names or spellings of the same material.
         reference:
           type: array
           description: Links to reference images.
@@ -226,6 +226,7 @@ components:
     sources:
       type: array
       title: sources
+      description: Provide at least one source for the values.
       minItems: 1
       uniqueItems: true
       items:
@@ -234,6 +235,7 @@ components:
     tags:
       type: array
       title: tags
+      description: Tags for alternative names or spellings.
       uniqueItems: true
       items:
         type: string
@@ -249,9 +251,10 @@ components:
           default: Name
         color:
           $ref: '#/components/schemas/color'
+          description: Color of the light source.
         temperature:
           type: number
-          description: Color temperature in Kelvin.
+          description: 'Color temperature in Kelvin, if color lies on the Planckian curve.'
           default: 6500
         temperatureRange:
           type: array
@@ -303,7 +306,6 @@ components:
           $ref: '#/components/schemas/description'
         sources:
           $ref: '#/components/schemas/sources'
-          description: Provide at least one source for the values.
         tags:
           $ref: '#/components/schemas/tags'
       required:
@@ -383,6 +385,7 @@ components:
           $ref: '#/components/schemas/description'
         sources:
           $ref: '#/components/schemas/sources'
+          description: Provide at least one source for the values. Source link to official manufacturer website is preferred.
         tags:
           $ref: '#/components/schemas/tags'
       required:

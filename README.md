@@ -16,3 +16,9 @@ Read about how to contribute here: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 - Web [https://physicallybased.info](https://physicallybased.info) by [AntonPalmqvist](https://github.com/AntonPalmqvist)
 - Web [https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [@gkjohnson](https://github.com/gkjohnson)
+
+## License Information
+
+The database is made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes.
+
+Shader ball used for renders is from [ASWF USD WG](https://github.com/usd-wg/assets/tree/main/full_assets/StandardShaderBall) licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
