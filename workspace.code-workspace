@@ -17,6 +17,10 @@
       {
         "fileMatch": ["/deploy/cameras.json"],
         "url": "/schema-cameras.json"
+      },
+      {
+        "fileMatch": ["/deploy/lenses.json"],
+        "url": "/schema-lenses.json"
       }
     ]
   }

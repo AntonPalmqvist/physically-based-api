@@ -308,6 +308,36 @@
     "tags": ["super 35"]
   },
   {
+    "name": "Blackmagic Cinema Camera 6K",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [36, 24]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.blackmagicdesign.com/products/blackmagiccinemacamera/techspecs/W-CIN-20"
+    ],
+    "tags": [""]
+  },
+  {
+    "name": "Blackmagic Micro Studio Camera 4K G2",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [17.78, 10]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.blackmagicdesign.com/products/blackmagicmicrostudiocamera/techspecs/W-CST-14"
+    ],
+    "tags": ["four thirds"]
+  },
+  {
     "name": "Blackmagic Pocket Cinema Camera 4K",
     "sensorSize": [
       {
@@ -351,6 +381,51 @@
       "https://www.blackmagicdesign.com/products/blackmagicstudiocamera/techspecs/W-CST-05"
     ],
     "tags": ["four thirds"]
+  },
+  {
+    "name": "Blackmagic Studio Camera 4K Plus G2",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [17.78, 10]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.blackmagicdesign.com/products/blackmagicstudiocamera/techspecs/W-CST-13"
+    ],
+    "tags": ["four thirds"]
+  },
+  {
+    "name": "Blackmagic Studio Camera 4K Pro G2",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [17.78, 10]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.blackmagicdesign.com/products/blackmagicstudiocamera/techspecs/W-CST-12"
+    ],
+    "tags": ["four thirds"]
+  },
+  {
+    "name": "Blackmagic Studio Camera 6K Pro",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [23.1, 12.99]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.blackmagicdesign.com/products/blackmagicstudiocamera/techspecs/W-CST-11"
+    ],
+    "tags": ["super 35"]
   },
   {
     "name": "Blackmagic URSA Broadcast G2",
@@ -419,7 +494,7 @@
     "tags": ["full frame"]
   },
   {
-    "name": "Canon EOS 5D",
+    "name": "Canon EOS 5D Mark IV",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -428,7 +503,10 @@
     ],
     "category": ["Still"],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Canon_EOS_5D_Mark_IV"],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Canon_EOS_5D_Mark_IV",
+      "https://github.com/wetadigital/physlight/blob/main/data/canon_eos-5d-mkiv_380_720_10.json"
+    ],
     "tags": ["full frame"]
   },
   {
@@ -509,6 +587,22 @@
     "tags": ["full frame"]
   },
   {
+    "name": "Canon EOS R5",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [36, 24]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Canon_EOS_R5",
+      "https://www.usa.canon.com/shop/p/eos-r5"
+    ],
+    "tags": ["full frame"]
+  },
+  {
     "name": "DJI Mavic Air 2",
     "sensorSize": [
       {
@@ -520,6 +614,23 @@
     "description": "",
     "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
     "tags": ["drone"]
+  },
+  {
+    "name": "DJI Mavic 2 Pro",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [13.2, 8.8]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "",
+    "sources": [
+      "https://www.hasselblad.com/collaborations/dji-mavic-2-pro/",
+      "https://forum.dji.com/forum.php?mod=redirect&goto=findpost&ptid=167017&pid=1576410",
+      "https://github.com/wetadigital/physlight/blob/main/data/hasselblad_l1d-20c_380_720_10.json"
+    ],
+    "tags": ["drone", "Hasselblad L1D-20c"]
   },
   {
     "name": "DJI Phantom 3",
@@ -546,6 +657,22 @@
     "description": "",
     "sources": [
       "https://fujifilm-x.com/global/products/cameras/gfx100/specifications/",
+      "https://en.wikipedia.org/wiki/Fujifilm_GFX100"
+    ],
+    "tags": ["medium format"]
+  },
+  {
+    "name": "Fujifilm GFX100 II",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [43.8, 32.9]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://fujifilm-x.com/global/products/cameras/gfx100-ii/specifications/",
       "https://en.wikipedia.org/wiki/Fujifilm_GFX100"
     ],
     "tags": ["medium format"]
@@ -678,6 +805,23 @@
       "https://leica-camera.com/en-SG/photography/cameras/s/s3-black/details"
     ],
     "tags": ["medium format"]
+  },
+  {
+    "name": "Nikon D850",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.9, 23.9]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nikon_D850",
+      "https://www.nikonusa.com/en/nikon-products/product/dslr-cameras/d850.html#tab-ProductDetail-ProductTabs-TechSpecs",
+      "https://github.com/wetadigital/physlight/blob/main/data/nikon_d850_380_720_10.json"
+    ],
+    "tags": ["full frame"]
   },
   {
     "name": "Nikon Z9",
@@ -2821,21 +2965,21 @@
     "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
     "tags": ["phone"]
   },
-    {
-    "name": "Sony Alpha 7S III",
+  {
+    "name": "Sony Alpha 6400",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.6, 23.8]
+        "size": [23.5, 15.6]
       }
     ],
     "category": ["Still"],
     "description": "",
     "sources": [
-      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7sm3-b",
-      "https://en.wikipedia.org/wiki/Sony_α7"
+      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/aps-c/p/ilce6400-b",
+      "https://en.wikipedia.org/wiki/Sony_%CE%B16400"
     ],
-    "tags": ["full frame", "a7"]
+    "tags": ["a6400", "aps-c", "ilce-6400"]
   },
   {
     "name": "Sony Alpha 7 IV",
@@ -2851,7 +2995,39 @@
       "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7m4-b",
       "https://en.wikipedia.org/wiki/Sony_α7"
     ],
-    "tags": ["full frame", "a7"]
+    "tags": ["full frame", "a7", "ilce-7m4"]
+  },
+  {
+    "name": "Sony Alpha 7C II",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.9, 23.9]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce7cm2-b",
+      "https://en.wikipedia.org/wiki/Sony_α7"
+    ],
+    "tags": ["full frame", "a7c", "ilce-7cm2"]
+  },
+  {
+    "name": "Sony Alpha 7CR",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.7, 23.8]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7cr-b",
+      "https://en.wikipedia.org/wiki/Sony_α7"
+    ],
+    "tags": ["full frame", "a7cr", "ilce-7cr"]
   },
   {
     "name": "Sony Alpha 7R IV",
@@ -2867,7 +3043,7 @@
       "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7rm4a-b",
       "https://en.wikipedia.org/wiki/Sony_α7"
     ],
-    "tags": ["full frame", "a7r"]
+    "tags": ["full frame", "a7r", "ilce-7rm4a"]
   },
   {
     "name": "Sony Alpha 7R V",
@@ -2883,7 +3059,40 @@
       "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce7rm5-b",
       "https://en.wikipedia.org/wiki/Sony_α7"
     ],
-    "tags": ["full frame", "a7r"]
+    "tags": ["full frame", "a7r", "ilce-7rm5"]
+  },
+  {
+    "name": "Sony Alpha 7S III",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.6, 23.8]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7sm3-b",
+      "https://en.wikipedia.org/wiki/Sony_α7"
+    ],
+    "tags": ["full frame", "a7", "ilce-7sm3"]
+  },
+  {
+    "name": "Sony Alpha 9",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.6, 23.8]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce9-b",
+      "https://en.wikipedia.org/wiki/Sony_α9",
+      "https://github.com/wetadigital/physlight/blob/main/data/sony_ilce-9_380_720_10.json"
+    ],
+    "tags": ["full frame", "a9", "ilce-9"]
   },
   {
     "name": "Sony F5",
@@ -3019,6 +3228,19 @@
       "https://pro.sony/ue_US/products/handheld-camcorders/pxw-fx9",
       "https://www.cined.com/sony-fx9-sensor-scan-modes-explained/"
     ],
+    "tags": ["full frame"]
+  },
+  {
+    "name": "Sony ILX-LR1",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.81, 23.88]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": ["https://pro.sony/ue_US/products/installable-cameras/ilx-lr1"],
     "tags": ["full frame"]
   },
   {

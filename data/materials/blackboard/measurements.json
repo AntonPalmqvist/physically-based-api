@@ -1,0 +1,13 @@
+[
+  {
+    "subject": "Blackboard",
+    "author": "https://github.com/AntonPalmqvist",
+    "device": "Nix Spectro 2",
+    "illuminant": "D65",
+    "observer": 10,
+    "measuringMode": "M2",
+    "srgb-linear": [0.04, 0.041, 0.041],
+    "ciexyz-d65": [0.038, 0.04, 0.044],
+    "cielab-d65": [23.81, -0.24, -0.17]
+  }
+]
