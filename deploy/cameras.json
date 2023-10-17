@@ -678,6 +678,21 @@
     "tags": ["medium format"]
   },
   {
+    "name": "Fujifilm X-H2",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [23.5, 15.6]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://fujifilm-x.com/global/products/cameras/x-h2/specifications/"
+    ],
+    "tags": ["aps-c"]
+  },
+  {
     "name": "Fujifilm X-T3",
     "sensorSize": [
       {
@@ -689,23 +704,22 @@
     "description": "",
     "sources": [
       "https://fujifilm-x.com/global/products/cameras/x-t3/specifications/",
-      "https://en.wikipedia.org/wiki/Fujifilm_X-T3",
-      "https://www.digicamdb.com/specs/fujifilm_x-t3/"
+      "https://en.wikipedia.org/wiki/Fujifilm_X-T3"
     ],
     "tags": ["aps-c"]
   },
   {
-    "name": "GoPro HERO Series",
+    "name": "GoPro Hero12 Black",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [6.17, 4.55]
+        "size": [6.3, 5.5]
       }
     ],
     "category": ["Mobile"],
     "description": "",
     "sources": [
-      "https://en.wikipedia.org/wiki/Image_sensor_format",
+      "https://www.dpreview.com/reviews/gopro-hero12-black-review-this-tiny-action-provides-a-plethora-of-creative-features",
       "https://en.wikipedia.org/wiki/GoPro"
     ],
     "tags": [""]
@@ -769,7 +783,6 @@
     "description": "Apple uses Sony sensors for their Iphones.",
     "sources": [
       "https://www.dpreview.com/articles/6110937480",
-      "https://www.apple.com/iphone-14-pro/specs/",
       "https://twitter.com/tim_cook/status/1602516736145858561"
     ],
     "tags": ["phone"]
@@ -3093,6 +3106,51 @@
       "https://github.com/wetadigital/physlight/blob/main/data/sony_ilce-9_380_720_10.json"
     ],
     "tags": ["full frame", "a9", "ilce-9"]
+  },
+  {
+    "name": "Sony BURANO",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.9, 24]
+      },
+      {
+        "format": "FF 8.6K 16:9",
+        "size": [35.9, 20.2]
+      },
+      {
+        "format": "FF 8.6K 17:9",
+        "size": [35.9, 18.9]
+      },
+      {
+        "format": "FFc 6K 16:9",
+        "size": [33.6, 18.9]
+      },
+      {
+        "format": "FFc 6K 17:9",
+        "size": [33.6, 17.7]
+      },
+      {
+        "format": "S35 5.8K 16:9",
+        "size": [24.0, 13.5]
+      },
+      {
+        "format": "S35 5.8K 17:9",
+        "size": [24.0, 12.6]
+      },
+      {
+        "format": "S35c 4K 17:9",
+        "size": [17.0, 9.0]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://pro.sony/ue_US/products/digital-cinema-cameras/burano",
+      "https://en.wikipedia.org/wiki/List_of_Sony_E-mount_cameras",
+      "https://en.wikipedia.org/wiki/CineAlta"
+    ],
+    "tags": ["super 35"]
   },
   {
     "name": "Sony F5",
