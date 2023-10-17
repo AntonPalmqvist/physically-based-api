@@ -1,5 +1,19 @@
 [
   {
+    "name": "Arri SkyPanel X",
+    "color": [1.0, 0.859, 0.778],
+    "temperature": 5600,
+    "temperatureRange": [1500, 20000],
+    "intensity": 51809,
+    "unit": ["lm"],
+    "type": ["surface"],
+    "category": ["Artificial"],
+    "description": "",
+    "sources": [
+      "https://www.arri.com/en/lighting/led/skypanel/x-series/tech-data"
+    ]
+  },
+  {
     "name": "Candle Flame",
     "color": [1.0, 0.22, 0.0],
     "temperature": 1850,
