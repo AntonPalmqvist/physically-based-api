@@ -318,11 +318,13 @@
     "roughness": 0,
     "ior": 2.4168,
     "transmission": 1,
+    "transmissionDispersion": 55.3,
     "density": 3500,
     "category": ["Crystal"],
     "description": "",
     "sources": [
       "https://refractiveindex.info/?shelf=3d&book=crystals&page=diamond",
+      "https://refractiveindex.info/?shelf=main&book=C&page=Peter",
       "https://www.gemsociety.org/article/table-refractive-index-double-refraction-gems/",
       "https://en.wikipedia.org/wiki/Density"
     ],
@@ -500,11 +502,13 @@
     "roughness": 0.5,
     "ior": 1.3098,
     "transmission": 1,
+    "transmissionDispersion": 64.87,
     "density": 917,
     "category": ["Crystal"],
     "description": "",
     "sources": [
       "https://refractiveindex.info/?shelf=3d&book=crystals&page=ice",
+      "https://refractiveindex.info/?shelf=main&book=H2O&page=Kofman-150K",
       "https://en.wikipedia.org/wiki/Density",
       "https://en.wikipedia.org/wiki/Optical_properties_of_water_and_ice"
     ],
