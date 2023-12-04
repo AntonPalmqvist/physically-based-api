@@ -1,6 +1,6 @@
 openapi: 3.1.0
 info:
-  version: '1.1'
+  version: '1.2'
   title: Physically Based API
   description: |-
     This is a database of physically based values for CG artists.
@@ -120,6 +120,13 @@ components:
           maxItems: 6
           items:
             type: number
+        thin_film_thickness:
+          type: number
+          description: The thickness of the thin film layer on the base (in nanometers).
+        thin_film_ior:
+          type: number
+          description: The index of refraction of the thin-film.
+          default: 1.5
         density:
           type: number
           description: Density measured in kg/m3.

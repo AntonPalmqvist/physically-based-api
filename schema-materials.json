@@ -73,6 +73,16 @@
         "minItems": 6,
         "maxItems": 6
       },
+      "thinFilmThickness": {
+        "description": "The thickness of the thin film layer on the base (in nanometers).",
+        "type": "number",
+        "default": 0
+      },
+      "thinFilmIor": {
+        "description": "The index of refraction of the thin-film.",
+        "type": "number",
+        "default": 1.5
+      },
       "density": {
         "description": "Density measured in kg/m3.",
         "type": "number",
