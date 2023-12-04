@@ -751,7 +751,7 @@
     ],
     "tags": ["nacre"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/pearl-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/pearl-arnold.png"
     ]
   },
   {
@@ -1208,7 +1208,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/soap-bubble-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/soap-bubble-arnold.png"
     ]
   },
   {
