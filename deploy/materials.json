@@ -244,6 +244,25 @@
     ]
   },
   {
+    "name": "Coffee",
+    "color": [0.027, 0.019, 0.018],
+    "metalness": 0,
+    "roughness": 0,
+    "ior": 1.33,
+    "subsurfaceRadius": [10, 5, 1],
+    "density": 1000,
+    "viscosity": 1.002,
+    "category": ["Liquid"],
+    "description": "",
+    "sources": [
+      "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/coffee/"
+    ],
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/coffee-cycles.png"
+    ]
+  },
+  {
     "name": "Concrete",
     "color": [0.51, 0.51, 0.51],
     "metalness": 0,
@@ -408,6 +427,28 @@
     ]
   },
   {
+    "name": "Gasoline",
+    "color": [1, 0.97, 0.617],
+    "metalness": 0,
+    "roughness": 0,
+    "ior": 1.427,
+    "transmission": 1,
+    "density": 770,
+    "viscosity": 0.6,
+    "category": ["Liquid"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gasoline",
+      "https://www.researchgate.net/figure/Refractive-index-of-fuels-33-34_tbl1_277419833",
+      "https://www.engineeringtoolbox.com/fuels-densities-specific-volumes-d_166.html",
+      "http://hyperphysics.phy-astr.gsu.edu/hbase/Tables/viscosity.html"
+    ],
+    "tags": ["petrol", "fuel"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/gasoline-cycles.png"
+    ]
+  },
+  {
     "name": "Glass",
     "color": [1, 1, 1],
     "metalness": 0,
@@ -543,14 +584,13 @@
     "color": [0.164, 0.006, 0.002],
     "metalness": 0,
     "roughness": 0.1,
-    "ior": 1.4,
+    "ior": 1.3,
     "subsurfaceRadius": [0.476, 0.058, 0.039],
     "density": 1150,
     "viscosity": 50000,
     "category": ["Organic"],
     "description": "",
     "sources": [
-      "https://docs.arnoldrenderer.com/display/A5AFMUG/Subsurface",
       "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_subsurface_html",
       "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
       "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html",
@@ -690,6 +730,55 @@
     ]
   },
   {
+    "name": "Pearl",
+    "color": [0.8, 0.75, 0.7],
+    "metalness": 0,
+    "roughness": 0.35,
+    "ior": 1.68,
+    "subsurfaceRadius": [0.3, 0.5, 0.3],
+    "thinFilmThickness": 420,
+    "thinFilmIor": 2,
+    "density": 0,
+    "category": ["Organic"],
+    "description": "The akoya pearl is a saltwater cultured pearl from the akoya oyster. Akoya are considered to be the classic pearl used for necklaces and other pearl jewelry. Nacre is the material of which pearls are composed and consists of aragonite crystal layers separated by conchiolin, a protein secreted by mollusk shells. The thickness of these layers determines the color of reflection from the nacre. The transmission interference color is complementary to the reflection interference color.",
+    "sources": [
+      "https://www.nature.com/articles/s41598-021-94737-w",
+      "https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Guillen2020Pearlescent.pdf",
+      "https://www.gemstones-guide.com/Pearl.html",
+      "https://www.gemsociety.org/article/pearl-jewelry-and-gemstone-information/",
+      "https://refractiveindex.info/?shelf=main&book=CaCO3&page=Ghosh-o",
+      "https://en.wikipedia.org/wiki/Nacre"
+    ],
+    "tags": ["nacre"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/pearl-arnold.png"
+    ]
+  },
+  {
+    "name": "Petroleum",
+    "color": [0.03, 0.027, 0.024],
+    "metalness": 0,
+    "roughness": 0,
+    "ior": 1.5,
+    "subsurfaceRadius": [3, 1, 0.25],
+    "density": 920,
+    "densityRange": [870, 1000],
+    "viscosity": 100,
+    "category": ["Liquid"],
+    "description": "The viscosity of crude oil is sensitive to temperature.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Petroleum",
+      "https://en.wikipedia.org/wiki/API_gravity",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9922782/",
+      "https://www.sciencedirect.com/science/article/abs/pii/S1350449520305636",
+      "https://www.sciencedirect.com/science/article/pii/S003442572200133X"
+    ],
+    "tags": ["oil", "crude oil"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/petroleum-cycles.png"
+    ]
+  },
+  {
     "name": "Plastic (PC)",
     "color": [1, 1, 1],
     "metalness": 0,
@@ -806,6 +895,27 @@
     "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/platinum-cycles.png"
+    ]
+  },
+  {
+    "name": "Polyurethane",
+    "color": [1, 1, 1],
+    "metalness": 0,
+    "roughness": 0,
+    "ior": 1.6,
+    "transmission": 1,
+    "density": 0,
+    "category": ["Plastic"],
+    "description": "Modern car paints are nearly always an acrylic polyurethane \"enamel\" with a pigmented basecoat and a clear topcoat. It may be described as \"acrylic\", \"acrylic enamel\", \"urethane\", etc. and the clearcoat in particular may be described as a lacquer.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Automotive_paint",
+      "https://en.wikipedia.org/wiki/Lacquer#Acrylic_lacquers",
+      "https://hal.science/hal-04030017/document",
+      "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2011163461"
+    ],
+    "tags": ["acrylic", "coat", "car paint", "lacquer"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/polyurethane-cycles.png"
     ]
   },
   {
@@ -1072,11 +1182,33 @@
     "sources": [
       "https://seblagarde.wordpress.com/2011/08/17/feeding-a-physical-based-lighting-mode/",
       "https://refractiveindex.info/?shelf=3d&book=crystals&page=ice",
-      "http://mapleintegration.com/sound_ab.php"
+      "https://web.archive.org/web/20230605174450/http://mapleintegration.com/sound_ab.php"
     ],
     "tags": ["ice"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/snow-cycles.png"
+    ]
+  },
+  {
+    "name": "Soap Bubble",
+    "color": [1, 1, 1],
+    "metalness": 0,
+    "roughness": 0,
+    "ior": 1,
+    "transmission": 1,
+    "thinFilmThickness": 500,
+    "thinFilmIor": 1.4,
+    "density": 0,
+    "category": ["Organic"],
+    "description": "The colors of a soap bubble are the result of an interaction between the light reflected from the front and back surfaces of the soap film, a phenomenon known as thin-film interference. The thickness of a soap bubble can range between 10 nm and 1000 nm. It's thinner at the top due to gravity.",
+    "sources": [
+      "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_thinfilm_html",
+      "https://soapbubble.fandom.com/wiki/Color_and_Film_Thickness",
+      "https://en.wikipedia.org/wiki/Thin-film_interference#Soap_bubble"
+    ],
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/soap-bubble-arnold.png"
     ]
   },
   {
