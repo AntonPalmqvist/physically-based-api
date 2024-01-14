@@ -196,7 +196,7 @@
     "category": ["Movie"],
     "description": "",
     "sources": [
-      "https://www.arri.com/en/camera-systems/cameras/discontinued-camera-systems/alexa-mini"
+      "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-mini"
     ],
     "tags": ["super 35"]
   },
@@ -303,7 +303,7 @@
     "category": ["Movie"],
     "description": "",
     "sources": [
-      "https://www.arri.com/en/camera-systems/cameras/discontinued-camera-systems/alexa-sxt-w"
+      "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-sxt-w"
     ],
     "tags": ["super 35"]
   },
@@ -646,6 +646,47 @@
     "tags": ["drone"]
   },
   {
+    "name": "DJI Ronin 4D",
+    "sensorSize": [
+      {
+        "format": "8K Full Frame 17:9",
+        "size": [36, 19]
+      },
+      {
+        "format": "8K Super 35 17:9",
+        "size": [24.5, 13]
+      },
+      {
+        "format": "8K Full Frame 2.39:1",
+        "size": [36, 15.1]
+      },
+      {
+        "format": "6K Full Frame 17:9",
+        "size": [35.7, 18.8]
+      },
+      {
+        "format": "6K Super 35 17:9",
+        "size": [24.3, 12.8]
+      },
+      {
+        "format": "6K Full Frame 2.39:1",
+        "size": [35.7, 18.8]
+      },
+      {
+        "format": "6K Super 35 2.39:1",
+        "size": [24.3, 12.8]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/DJI_Ronin#Ronin_4D_(6K_and_8K)",
+      "https://www.dji.com/se/ronin-4d/specs",
+      "https://dl.djicdn.com/downloads/DJI_Ronin_4D/20220216/DJI_Ronin_4D_User_Manual_v1.2_enII.pdf"
+    ],
+    "tags": ["super 35"]
+  },
+  {
     "name": "Fujifilm GFX100",
     "sensorSize": [
       {
@@ -764,6 +805,32 @@
     "tags": ["film"]
   },
   {
+    "name": "Iphone 13 Pro",
+    "sensorSize": [
+      {
+        "format": "26 mm Main",
+        "size": [7.6, 5.7]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [4, 3]
+      },
+      {
+        "format": "77 mm Telephoto",
+        "size": [4, 3]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/IPhone_13_Pro",
+      "https://www.dpreview.com/articles/6780391159/all-apple-iphone-13-and-13-pro-camera-upgrades-explained",
+      "https://www.dpreview.com/articles/6110937480",
+      "https://twitter.com/tim_cook/status/1602516736145858561"
+    ],
+    "tags": ["phone"]
+  },
+  {
     "name": "Iphone 14 Pro",
     "sensorSize": [
       {
@@ -782,7 +849,58 @@
     "category": ["Mobile"],
     "description": "Apple uses Sony sensors for their Iphones.",
     "sources": [
+      "https://en.wikipedia.org/wiki/IPhone_14_Pro",
       "https://www.dpreview.com/articles/6110937480",
+      "https://twitter.com/tim_cook/status/1602516736145858561"
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "name": "Iphone 15 Pro",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2]
+      },
+      {
+        "format": "77 mm Telephoto",
+        "size": [4, 3]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/IPhone_15_Pro",
+      "https://www.dpreview.com/articles/2668153890/apple-s-iphone-15-and-15-pro-imaging-tech-examined",
+      "https://twitter.com/tim_cook/status/1602516736145858561"
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "name": "Iphone 15 Pro Max",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2]
+      },
+      {
+        "format": "120 mm Telephoto",
+        "size": [4.5, 3.4]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/IPhone_15_Pro",
+      "https://www.dpreview.com/articles/2668153890/apple-s-iphone-15-and-15-pro-imaging-tech-examined",
       "https://twitter.com/tim_cook/status/1602516736145858561"
     ],
     "tags": ["phone"]
@@ -798,6 +916,7 @@
     "category": ["Mobile"],
     "description": "Apple uses Sony sensors for their Iphones.",
     "sources": [
+      "https://en.wikipedia.org/wiki/IPhone_XS",
       "https://en.wikipedia.org/wiki/Image_sensor_format",
       "https://twitter.com/tim_cook/status/1602516736145858561"
     ],
@@ -3106,6 +3225,22 @@
       "https://github.com/wetadigital/physlight/blob/main/data/sony_ilce-9_380_720_10.json"
     ],
     "tags": ["full frame", "a9", "ilce-9"]
+  },
+  {
+    "name": "Sony Alpha 9 III",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.6, 23.8]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce9m3b",
+      "https://en.wikipedia.org/wiki/Sony_α9_III"
+    ],
+    "tags": ["full frame", "a9", "ilce-9m3"]
   },
   {
     "name": "Sony BURANO",

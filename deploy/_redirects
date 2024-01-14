@@ -1,4 +1,5 @@
 /materials /materials.json 200
+/v2/materials /v2/materials.json 200
 /lightsources /lightsources.json 200
 /cameras /cameras.json 200
 /lenses /lenses.json 200

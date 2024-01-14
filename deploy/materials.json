@@ -717,11 +717,12 @@
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.5,
-    "density": 0,
+    "density": 800,
     "category": ["Manmade"],
     "description": "Office paper contains optical brightening additives that absorb light in the ultraviolet and violet region (usually 340-370 nm), and re-emit light in the blue region (typically 420-470 nm) by fluorescence.",
     "sources": [
       "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/office-paper",
+      "https://en.wikipedia.org/wiki/Paper#Types,_thickness_and_weight",
       "https://en.wikipedia.org/wiki/Optical_brightener"
     ],
     "tags": [""],
@@ -738,7 +739,7 @@
     "subsurfaceRadius": [0.3, 0.5, 0.3],
     "thinFilmThickness": 420,
     "thinFilmIor": 2,
-    "density": 0,
+    "density": 2700,
     "category": ["Organic"],
     "description": "The akoya pearl is a saltwater cultured pearl from the akoya oyster. Akoya are considered to be the classic pearl used for necklaces and other pearl jewelry. Nacre is the material of which pearls are composed and consists of aragonite crystal layers separated by conchiolin, a protein secreted by mollusk shells. The thickness of these layers determines the color of reflection from the nacre. The transmission interference color is complementary to the reflection interference color.",
     "sources": [
