@@ -1235,7 +1235,7 @@
     "category": ["Movie"],
     "description": "This camera uses the RED Monstro 8K sensor.",
     "sources": [
-      "https://dxl.panavision.com/",
+      "https://www.panavision.com/camera-and-optics/dxl2",
       "https://www.panavision.com/docs/default-source/downloads/panavision_dxl2_manual_v1_0.pdf#%5B%7B%22num%22%3A125%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C42.75%2C673.5%2C0%5D",
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
     ],
@@ -3079,7 +3079,7 @@
     "sources": [
       "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
       "https://docs.red.com/955-0199/955-0199_V1.2_Rev_A_RED_PS_V-RAPTOR_Operation_Guide/Content/4_Menus/b_ProjSet/Format/All_Formats.htm",
-      "https://www.red.com/v-raptor-black",
+      "https://www.red.com/v-raptor",
       "https://www.red.com/arsenal"
     ],
     "tags": ["imax", "full frame"]
