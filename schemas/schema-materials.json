@@ -113,6 +113,51 @@
         "minItems": 6,
         "maxItems": 6
       },
+      "variants": {
+        "description": "If the material comes in different variations, they can be described here.",
+        "type": "array",
+        "items": {
+          "additionalProperties": false,
+          "type": "object",
+          "properties": {
+            "name": {
+              "description": "Name of the material.",
+              "type": "string",
+              "default": "Name"
+            },
+            "color": {
+              "description": "Albedo, or metal color, RGB triplet (vec3) in linear decimal format in rec709 primaries.",
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "default": [0.5, 0.5, 0.5],
+              "minItems": 3,
+              "maxItems": 3
+            },
+            "subsurfaceRadius": {
+              "description": "The approximate distance up to which light can scatter below the surface, also known as “mean free path” (MFP). Specified in centimeters.",
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "default": [1, 1, 1],
+              "minItems": 3,
+              "maxItems": 3
+            },
+            "reference": {
+              "description": "Links to reference images.",
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true
+            }
+          },
+          "required": ["name"]
+        }
+      },
       "category": {
         "type": "array",
         "items": {

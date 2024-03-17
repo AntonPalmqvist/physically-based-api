@@ -1022,61 +1022,63 @@
     ]
   },
   {
-    "name": "Skin I",
-    "color": [0.847, 0.638, 0.552],
+    "name": "Skin",
+    "color": [0.436, 0.227, 0.131],
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.4,
-    "subsurfaceRadius": [0.482, 0.169, 0.109],
+    "subsurfaceRadius": [0.367, 0.137, 0.068],
     "density": 1020,
-    "category": ["Human"],
-    "group": "Skin",
-    "description": "",
-    "sources": [
-      "https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-17/issue-9/090901/Optical-properties-of-human-skin/10.1117/1.JBO.17.9.090901.full?SSO=1",
-      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699319/",
-      "http://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
-      "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
-      "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
-      "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html"
+    "variants": [
+      {
+        "name": "Skin I",
+        "color": [0.847, 0.638, 0.552],
+        "subsurfaceRadius": [0.482, 0.169, 0.109],
+        "reference": [
+          "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-i-cycles.png"
+        ]
+      },
+      {
+        "name": "Skin II",
+        "color": [0.799, 0.485, 0.347],
+        "subsurfaceRadius": [0.482, 0.169, 0.109],
+        "reference": [
+          "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-ii-cycles.png"
+        ]
+      },
+      {
+        "name": "Skin III",
+        "color": [0.623, 0.433, 0.343],
+        "subsurfaceRadius": [0.482, 0.169, 0.109],
+        "reference": [
+          "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-iii-cycles.png"
+        ]
+      },
+      {
+        "name": "Skin IV",
+        "color": [0.436, 0.227, 0.131],
+        "subsurfaceRadius": [0.367, 0.137, 0.068],
+        "reference": [
+          "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-iv-cycles.png"
+        ]
+      },
+      {
+        "name": "Skin V",
+        "color": [0.283, 0.148, 0.079],
+        "subsurfaceRadius": [0.367, 0.137, 0.068],
+        "reference": [
+          "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-v-cycles.png"
+        ]
+      },
+      {
+        "name": "Skin VI",
+        "color": [0.09, 0.05, 0.02],
+        "subsurfaceRadius": [0.367, 0.137, 0.068],
+        "reference": [
+          "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-vi-cycles.png"
+        ]
+      }
     ],
-    "tags": ["epidermis"],
-    "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-i-cycles.png"
-    ]
-  },
-  {
-    "name": "Skin II",
-    "color": [0.799, 0.485, 0.347],
-    "metalness": 0,
-    "roughness": 0.5,
-    "ior": 1.4,
-    "subsurfaceRadius": [0.482, 0.169, 0.109],
-    "density": 1020,
-    "category": ["Human"],
-    "group": "Skin",
-    "description": "",
-    "sources": [
-      "https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-17/issue-9/090901/Optical-properties-of-human-skin/10.1117/1.JBO.17.9.090901.full?SSO=1",
-      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699319/",
-      "http://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
-      "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
-      "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
-      "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html"
-    ],
-    "tags": ["epidermis"],
-    "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-ii-cycles.png"
-    ]
-  },
-  {
-    "name": "Skin III",
-    "color": [0.623, 0.433, 0.343],
-    "metalness": 0,
-    "roughness": 0.5,
-    "ior": 1.4,
-    "subsurfaceRadius": [0.482, 0.169, 0.109],
-    "density": 1020,
     "category": ["Human"],
     "group": "Skin",
     "description": "",
@@ -1088,86 +1090,14 @@
       "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
       "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html",
       "https://spectraldb.com/measurements/00490/",
-      "https://spectraldb.com/measurements/00403/"
-    ],
-    "tags": ["epidermis"],
-    "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-iii-cycles.png"
-    ]
-  },
-  {
-    "name": "Skin IV",
-    "color": [0.436, 0.227, 0.131],
-    "metalness": 0,
-    "roughness": 0.5,
-    "ior": 1.4,
-    "subsurfaceRadius": [0.367, 0.137, 0.068],
-    "density": 1020,
-    "category": ["Human"],
-    "group": "Skin",
-    "description": "",
-    "sources": [
-      "https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-17/issue-9/090901/Optical-properties-of-human-skin/10.1117/1.JBO.17.9.090901.full?SSO=1",
-      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699319/",
-      "http://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
-      "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
-      "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
-      "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html",
-      "https://spectraldb.com/measurements/00408/"
-    ],
-    "tags": ["epidermis"],
-    "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-iv-cycles.png"
-    ]
-  },
-  {
-    "name": "Skin V",
-    "color": [0.283, 0.148, 0.079],
-    "metalness": 0,
-    "roughness": 0.5,
-    "ior": 1.4,
-    "subsurfaceRadius": [0.367, 0.137, 0.068],
-    "density": 1020,
-    "category": ["Human"],
-    "group": "Skin",
-    "description": "",
-    "sources": [
-      "https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-17/issue-9/090901/Optical-properties-of-human-skin/10.1117/1.JBO.17.9.090901.full?SSO=1",
-      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699319/",
-      "http://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
-      "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
-      "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
-      "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html",
-      "https://spectraldb.com/measurements/00396/"
-    ],
-    "tags": ["epidermis"],
-    "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-v-cycles.png"
-    ]
-  },
-  {
-    "name": "Skin VI",
-    "color": [0.09, 0.05, 0.02],
-    "metalness": 0,
-    "roughness": 0.5,
-    "ior": 1.4,
-    "subsurfaceRadius": [0.367, 0.137, 0.068],
-    "density": 1020,
-    "category": ["Human"],
-    "group": "Skin",
-    "description": "",
-    "sources": [
-      "https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-17/issue-9/090901/Optical-properties-of-human-skin/10.1117/1.JBO.17.9.090901.full?SSO=1",
-      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699319/",
-      "http://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
-      "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
-      "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
-      "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html",
+      "https://spectraldb.com/measurements/00403/",
+      "https://spectraldb.com/measurements/00408/",
+      "https://spectraldb.com/measurements/00396/",
       "https://spectraldb.com/measurements/00414/"
     ],
     "tags": ["epidermis"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-vi-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-iv-cycles.png"
     ]
   },
   {
