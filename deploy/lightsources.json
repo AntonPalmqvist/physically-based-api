@@ -17,7 +17,7 @@
   },
   {
     "name": "Aputure amaran P60c",
-    "color": [1.0, 0.859, 0.778],
+    "color": [0.828, 0.841, 1.0],
     "temperature": 7500,
     "temperatureRange": [2500, 7500],
     "intensity": 3000,
@@ -34,16 +34,45 @@
   },
   {
     "name": "Arri SkyPanel X",
-    "color": [1.0, 0.859, 0.778],
-    "temperature": 5600,
     "temperatureRange": [1500, 20000],
-    "intensity": 51809,
+    "variants": [
+      {
+        "format": "Open-Face",
+        "color": [1.0, 0.859, 0.778],
+        "temperature": 5600,
+        "angle": 121,
+        "intensity": 48000
+      },
+      {
+        "format": "Dome",
+        "color": [1.0, 0.859, 0.778],
+        "temperature": 5600,
+        "angle": 107,
+        "intensity": 42700
+      },
+      {
+        "format": "S60 Adapter",
+        "color": [1.0, 0.859, 0.778],
+        "temperature": 5600,
+        "angle": 101,
+        "intensity": 35400
+      },
+      {
+        "format": "HyPer Optic",
+        "color": [1.0, 0.859, 0.778],
+        "temperature": 5600,
+        "angle": 11,
+        "intensity": 22000
+      }
+    ],
+    "sourceSize": [64.8, 30.3],
     "unit": ["lm"],
     "type": ["surface"],
     "category": ["Artificial"],
     "description": "",
     "sources": [
-      "https://www.arri.com/en/lighting/led/skypanel/x-series/tech-data"
+      "https://www.arri.com/en/lighting/led/skypanel/x-series/tech-data",
+      "https://www.arri.com/resource/blob/341262/e55242c6535912778f7f39d38f490c90/arri-skypanel-x-data-sheet-en-data.pdf"
     ]
   },
   {

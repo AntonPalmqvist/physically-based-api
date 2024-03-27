@@ -41,6 +41,38 @@
         "minItems": 2,
         "maxItems": 2
       },
+      "intensityRange": {
+        "description": "The typical range of intensity for this specific light source.",
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "default": [0, 1],
+        "minItems": 2,
+        "maxItems": 2
+      },
+      "unit": {
+        "type": "array",
+        "items": {
+          "enum": ["lm", "lx", "cd/m2"]
+        },
+        "minItems": 1,
+        "maxItems": 1
+      },
+      "angle": {
+        "description": "The maximum beam angle in degrees. For a directional light, this specifies angular diameter instead.",
+        "type": "number",
+        "default": 90
+      },
+      "sourceSize": {
+        "description": "The size of the light source in centimeters. [Radius] if point or spot. [Width, Height] if surface. [Length, Radius] if cylinder.",
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "minItems": 1,
+        "maxItems": 2
+      },
       "variants": {
         "description": "If the light source comes in different variations, they can be described here.",
         "type": "object",
@@ -77,38 +109,6 @@
           },
           "required": ["format", "intensity", "angle", "temperature"]
         }
-      },
-      "intensityRange": {
-        "description": "The typical range of intensity for this specific light source.",
-        "type": "array",
-        "items": {
-          "type": "number"
-        },
-        "default": [0, 1],
-        "minItems": 2,
-        "maxItems": 2
-      },
-      "unit": {
-        "type": "array",
-        "items": {
-          "enum": ["lm", "lx", "cd/m2"]
-        },
-        "minItems": 1,
-        "maxItems": 1
-      },
-      "angle": {
-        "description": "The maximum beam angle in degrees. For a directional light, this specifies angular diameter instead.",
-        "type": "number",
-        "default": 90
-      },
-      "sourceSize": {
-        "description": "The size of the light source in centimeters. [Radius] if point or spot. [Width, Height] if surface. [Length, Radius] if cylinder.",
-        "type": "array",
-        "items": {
-          "type": "number"
-        },
-        "minItems": 1,
-        "maxItems": 2
       },
       "type": {
         "description": "The type of light, for DCC applications.",

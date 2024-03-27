@@ -88,6 +88,57 @@
         "minItems": 1,
         "maxItems": 1
       },
+      "variants": {
+        "description": "If the light source comes in different variations, they can be described here.",
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "additionalProperties": false,
+          "type": "object",
+          "properties": {
+            "format": {
+              "description": "Specifies the format.",
+              "type": "string",
+              "default": "Default"
+            },
+            "color": {
+              "description": "Color of the light source.",
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "default": [1, 1, 1],
+              "minItems": 3,
+              "maxItems": 3
+            },
+            "temperature": {
+              "description": "Color temperature in Kelvin, if color lies on the Planckian curve.",
+              "type": "number",
+              "default": 6500
+            },
+            "intensity": {
+              "description": "Intensity of the light emitted from the light source.",
+              "type": "number",
+              "default": 0
+            },
+            "angle": {
+              "description": "The maximum beam angle in degrees. For a directional light, this specifies angular diameter instead.",
+              "type": "number",
+              "default": 90
+            },
+            "sourceSize": {
+              "description": "The size of the light source in centimeters. [Radius] if point or spot. [Width, Height] if surface. [Length, Radius] if cylinder.",
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 1,
+              "maxItems": 2
+            }
+          }
+        },
+        "required": ["format", "color", "temperature", "intensity"]
+      },
       "category": {
         "type": "array",
         "items": {
@@ -120,14 +171,14 @@
         "uniqueItems": true
       }
     },
-    "required": [
-      "name",
-      "color",
-      "intensity",
-      "unit",
-      "category",
-      "description",
-      "sources"
-    ]
+    "anyOf": [
+      {
+        "required": ["color", "intensity"]
+      },
+      {
+        "required": ["variants"]
+      }
+    ],
+    "required": ["name", "unit", "category", "description", "sources"]
   }
 }
