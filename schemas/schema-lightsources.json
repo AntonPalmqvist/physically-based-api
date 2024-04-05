@@ -137,7 +137,7 @@
             }
           }
         },
-        "required": ["format", "color", "temperature", "intensity"]
+        "required": ["format", "color", "intensity"]
       },
       "category": {
         "type": "array",
@@ -179,6 +179,14 @@
         "required": ["variants"]
       }
     ],
-    "required": ["name", "unit", "category", "description", "sources"]
+    "required": [
+      "name",
+      "color",
+      "intensity",
+      "unit",
+      "category",
+      "description",
+      "sources"
+    ]
   }
 }

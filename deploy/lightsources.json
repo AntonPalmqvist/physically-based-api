@@ -34,7 +34,10 @@
   },
   {
     "name": "Arri SkyPanel X",
+    "color": [1.0, 0.859, 0.778],
+    "temperature": 5600,
     "temperatureRange": [1500, 20000],
+    "intensity": 3000,
     "variants": [
       {
         "format": "Open-Face",
