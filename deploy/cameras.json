@@ -368,6 +368,21 @@
     "tags": ["super 35"]
   },
   {
+    "name": "Blackmagic PYXIS 6K",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [36, 24]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.blackmagicdesign.com/products/blackmagicpyxis/techspecs/W-BOX-01"
+    ],
+    "tags": ["full frame"]
+  },
+  {
     "name": "Blackmagic Studio Camera 4K",
     "sensorSize": [
       {
@@ -439,9 +454,63 @@
     "description": "",
     "sources": [
       "https://www.blackmagicdesign.com/products/blackmagicursabroadcast/techspecs/W-URSA-38",
-      "https://en.wikipedia.org/wiki/Blackmagic_URSA"
+      "https://en.wikipedia.org/wiki/Blackmagic_URSA#URSA_Broadcast_G2"
     ],
     "tags": [""]
+  },
+  {
+    "name": "Blackmagic URSA Cine 12K",
+    "sensorSize": [
+      {
+        "format": "3:2 Open Gate",
+        "size": [35.6352, 23.316]
+      },
+      {
+        "format": "16:9",
+        "size": [35.6352, 20.04]
+      },
+      {
+        "format": "17:9",
+        "size": [35.6352, 18.79]
+      },
+      {
+        "format": "2.4:1",
+        "size": [35.6352, 14.82]
+      },
+      {
+        "format": "6:5",
+        "size": [27.98, 23.316]
+      },
+      {
+        "format": "Super 35 3:2",
+        "size": [27.28, 18.16]
+      },
+      {
+        "format": "Super 35 16:9",
+        "size": [25.2, 14.2]
+      },
+      {
+        "format": "Super 35 17:9",
+        "size": [27.0, 14.2]
+      },
+      {
+        "format": "Super 35 2.4:1",
+        "size": [27.0, 11.21]
+      },
+      {
+        "format": "Super 35 6:5",
+        "size": [22.27, 18.58]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.blackmagicdesign.com/products/blackmagicursacine/techspecs/W-URSA-60",
+      "https://en.wikipedia.org/wiki/Blackmagic_URSA#URSA_CINE_12K",
+      "https://www.youtube.com/live/iI7ZEm-ZbPw?si=FFLiwC3aS4dJ_IL8&t=7485",
+      "https://www.cined.com/blackmagic-design-ursa-cine-12k-lf-announced-12k-full-frame-sensor-open-gate-32-new-8tb-dedicated-recording-module-and-more/"
+    ],
+    "tags": ["full frame"]
   },
   {
     "name": "Blackmagic URSA Mini Pro 4.6K G2",
@@ -455,7 +524,7 @@
     "description": "",
     "sources": [
       "https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs/W-URSA-34",
-      "https://en.wikipedia.org/wiki/Blackmagic_URSA"
+      "https://en.wikipedia.org/wiki/Blackmagic_URSA#URSA_Mini_Pro_4.6K_G2"
     ],
     "tags": ["super 35"]
   },
@@ -471,7 +540,7 @@
     "description": "",
     "sources": [
       "https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs/W-URSA-36",
-      "https://en.wikipedia.org/wiki/Blackmagic_URSA"
+      "https://en.wikipedia.org/wiki/Blackmagic_URSA#URSA_Mini_Pro_12K"
     ],
     "tags": ["super 35"]
   },
