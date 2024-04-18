@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Blood",
+    "color": [0.64448, 0.003, 0.005],
+    "metalness": 0,
+    "roughness": 0,
+    "ior": 1.301,
+    "transmission": 1,
+    "density": 1060,
+    "viscosity": 3,
+    "category": ["Human"],
+    "description": "The color of blood depends on its oxygen level. When there is plenty of oxygen, the color is a brighter red. The reason is because of a protein called hemoglobin, which carries the oxygen in your blood. When hemoglobin has a full oxygen load, it has a bright red color, and when it's deoxygenated it's a darker red. For example, arterial and capillary blood is bright, and venous blood is dark.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Blood",
+      "https://en.wikipedia.org/wiki/Blood_red",
+      "https://refractiveindex.info/?shelf=other&book=blood&page=Rowe",
+      "https://hypertextbook.com/facts/2004/MichaelShmukler.shtml",
+      "https://www.researchgate.net/figure/Color-chart-for-the-measurement-of-methemoglobin-The-color-chart-was-prepared-according_fig2_26884296",
+      "https://www.engineeringtoolbox.com/absolute-viscosity-liquids-d_1259.html",
+      "https://en.wikipedia.org/wiki/Hemorheology",
+      "https://www.frontiersin.org/articles/10.3389/fphys.2019.01329/full",
+      "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table"
+    ],
+    "tags": ["liquid"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/blood-cycles.png"
+    ]
+  }
+]

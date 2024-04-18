@@ -257,7 +257,7 @@
     "sources": [
       "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/coffee/"
     ],
-    "tags": [""],
+    "tags": ["sss"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/coffee-cycles.png"
     ]
@@ -598,7 +598,7 @@
       "https://en.wikipedia.org/wiki/List_of_viscosities",
       "https://www.aqua-calc.com/page/density-table/substance/heinz-blank-tomato-blank-ketchup-coma-and-blank-upc-column--blank-00013000004664"
     ],
-    "tags": ["liquid"],
+    "tags": ["liquid", "sss"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/ketchup-cycles.png"
     ]
@@ -637,6 +637,28 @@
     "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/lemon-cycles.png"
+    ]
+  },
+  {
+    "name": "Marble",
+    "color": [0.83, 0.791, 0.753],
+    "metalness": 0,
+    "roughness": 0.5,
+    "ior": 1.5,
+    "subsurfaceRadius": [0.851, 0.557, 0.395],
+    "density": 2700,
+    "category": ["Crystal"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Marble",
+      "https://www.aqua-calc.com/page/density-table/substance/marble",
+      "https://www.sciencedirect.com/science/article/pii/S2090447919300826",
+      "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
+      "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html"
+    ],
+    "tags": ["sss"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/marble-cycles.png"
     ]
   },
   {
@@ -685,7 +707,7 @@
       "https://en.wikipedia.org/wiki/List_of_viscosities",
       "https://www.engineeringtoolbox.com/absolute-viscosity-liquids-d_1259.html"
     ],
-    "tags": [""],
+    "tags": ["sss"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/milk-cycles.png"
     ]
@@ -717,11 +739,12 @@
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.5,
-    "density": 0,
+    "density": 800,
     "category": ["Manmade"],
     "description": "Office paper contains optical brightening additives that absorb light in the ultraviolet and violet region (usually 340-370 nm), and re-emit light in the blue region (typically 420-470 nm) by fluorescence.",
     "sources": [
       "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/office-paper",
+      "https://en.wikipedia.org/wiki/Paper#Types,_thickness_and_weight",
       "https://en.wikipedia.org/wiki/Optical_brightener"
     ],
     "tags": [""],
@@ -738,7 +761,7 @@
     "subsurfaceRadius": [0.3, 0.5, 0.3],
     "thinFilmThickness": 420,
     "thinFilmIor": 2,
-    "density": 0,
+    "density": 2700,
     "category": ["Organic"],
     "description": "The akoya pearl is a saltwater cultured pearl from the akoya oyster. Akoya are considered to be the classic pearl used for necklaces and other pearl jewelry. Nacre is the material of which pearls are composed and consists of aragonite crystal layers separated by conchiolin, a protein secreted by mollusk shells. The thickness of these layers determines the color of reflection from the nacre. The transmission interference color is complementary to the reflection interference color.",
     "sources": [
@@ -749,7 +772,7 @@
       "https://refractiveindex.info/?shelf=main&book=CaCO3&page=Ghosh-o",
       "https://en.wikipedia.org/wiki/Nacre"
     ],
-    "tags": ["nacre"],
+    "tags": ["nacre", "sss"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/pearl-arnold.png"
     ]
@@ -773,7 +796,7 @@
       "https://www.sciencedirect.com/science/article/abs/pii/S1350449520305636",
       "https://www.sciencedirect.com/science/article/pii/S003442572200133X"
     ],
-    "tags": ["oil", "crude oil"],
+    "tags": ["oil", "crude oil", "sss"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/petroleum-cycles.png"
     ]
@@ -1039,7 +1062,7 @@
       "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
       "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html"
     ],
-    "tags": ["epidermis"],
+    "tags": ["epidermis", "sss"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-i-cycles.png"
     ]
@@ -1063,7 +1086,7 @@
       "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
       "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html"
     ],
-    "tags": ["epidermis"],
+    "tags": ["epidermis", "sss"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-ii-cycles.png"
     ]
@@ -1089,7 +1112,7 @@
       "https://spectraldb.com/measurements/00490/",
       "https://spectraldb.com/measurements/00403/"
     ],
-    "tags": ["epidermis"],
+    "tags": ["epidermis", "sss"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-iii-cycles.png"
     ]
@@ -1114,7 +1137,7 @@
       "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html",
       "https://spectraldb.com/measurements/00408/"
     ],
-    "tags": ["epidermis"],
+    "tags": ["epidermis", "sss"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-iv-cycles.png"
     ]
@@ -1139,7 +1162,7 @@
       "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html",
       "https://spectraldb.com/measurements/00396/"
     ],
-    "tags": ["epidermis"],
+    "tags": ["epidermis", "sss"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-v-cycles.png"
     ]
@@ -1164,7 +1187,7 @@
       "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html",
       "https://spectraldb.com/measurements/00414/"
     ],
-    "tags": ["epidermis"],
+    "tags": ["epidermis", "sss"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-vi-cycles.png"
     ]

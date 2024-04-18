@@ -196,7 +196,7 @@
     "category": ["Movie"],
     "description": "",
     "sources": [
-      "https://www.arri.com/en/camera-systems/cameras/discontinued-camera-systems/alexa-mini"
+      "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-mini"
     ],
     "tags": ["super 35"]
   },
@@ -303,7 +303,7 @@
     "category": ["Movie"],
     "description": "",
     "sources": [
-      "https://www.arri.com/en/camera-systems/cameras/discontinued-camera-systems/alexa-sxt-w"
+      "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-sxt-w"
     ],
     "tags": ["super 35"]
   },
@@ -366,6 +366,21 @@
       "https://www.blackmagicdesign.com/products/blackmagicpocketcinemacamera/techspecs/W-CIN-15"
     ],
     "tags": ["super 35"]
+  },
+  {
+    "name": "Blackmagic PYXIS 6K",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [36, 24]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.blackmagicdesign.com/products/blackmagicpyxis/techspecs/W-BOX-01"
+    ],
+    "tags": ["full frame"]
   },
   {
     "name": "Blackmagic Studio Camera 4K",
@@ -439,9 +454,63 @@
     "description": "",
     "sources": [
       "https://www.blackmagicdesign.com/products/blackmagicursabroadcast/techspecs/W-URSA-38",
-      "https://en.wikipedia.org/wiki/Blackmagic_URSA"
+      "https://en.wikipedia.org/wiki/Blackmagic_URSA#URSA_Broadcast_G2"
     ],
     "tags": [""]
+  },
+  {
+    "name": "Blackmagic URSA Cine 12K",
+    "sensorSize": [
+      {
+        "format": "3:2 Open Gate",
+        "size": [35.6352, 23.316]
+      },
+      {
+        "format": "16:9",
+        "size": [35.6352, 20.04]
+      },
+      {
+        "format": "17:9",
+        "size": [35.6352, 18.79]
+      },
+      {
+        "format": "2.4:1",
+        "size": [35.6352, 14.82]
+      },
+      {
+        "format": "6:5",
+        "size": [27.98, 23.316]
+      },
+      {
+        "format": "Super 35 3:2",
+        "size": [27.28, 18.16]
+      },
+      {
+        "format": "Super 35 16:9",
+        "size": [25.2, 14.2]
+      },
+      {
+        "format": "Super 35 17:9",
+        "size": [27.0, 14.2]
+      },
+      {
+        "format": "Super 35 2.4:1",
+        "size": [27.0, 11.21]
+      },
+      {
+        "format": "Super 35 6:5",
+        "size": [22.27, 18.58]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.blackmagicdesign.com/products/blackmagicursacine/techspecs/W-URSA-60",
+      "https://en.wikipedia.org/wiki/Blackmagic_URSA#URSA_CINE_12K",
+      "https://www.youtube.com/live/iI7ZEm-ZbPw?si=FFLiwC3aS4dJ_IL8&t=7485",
+      "https://www.cined.com/blackmagic-design-ursa-cine-12k-lf-announced-12k-full-frame-sensor-open-gate-32-new-8tb-dedicated-recording-module-and-more/"
+    ],
+    "tags": ["full frame"]
   },
   {
     "name": "Blackmagic URSA Mini Pro 4.6K G2",
@@ -455,7 +524,7 @@
     "description": "",
     "sources": [
       "https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs/W-URSA-34",
-      "https://en.wikipedia.org/wiki/Blackmagic_URSA"
+      "https://en.wikipedia.org/wiki/Blackmagic_URSA#URSA_Mini_Pro_4.6K_G2"
     ],
     "tags": ["super 35"]
   },
@@ -471,7 +540,7 @@
     "description": "",
     "sources": [
       "https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs/W-URSA-36",
-      "https://en.wikipedia.org/wiki/Blackmagic_URSA"
+      "https://en.wikipedia.org/wiki/Blackmagic_URSA#URSA_Mini_Pro_12K"
     ],
     "tags": ["super 35"]
   },
@@ -646,6 +715,47 @@
     "tags": ["drone"]
   },
   {
+    "name": "DJI Ronin 4D",
+    "sensorSize": [
+      {
+        "format": "8K Full Frame 17:9",
+        "size": [36, 19]
+      },
+      {
+        "format": "8K Super 35 17:9",
+        "size": [24.5, 13]
+      },
+      {
+        "format": "8K Full Frame 2.39:1",
+        "size": [36, 15.1]
+      },
+      {
+        "format": "6K Full Frame 17:9",
+        "size": [35.7, 18.8]
+      },
+      {
+        "format": "6K Super 35 17:9",
+        "size": [24.3, 12.8]
+      },
+      {
+        "format": "6K Full Frame 2.39:1",
+        "size": [35.7, 18.8]
+      },
+      {
+        "format": "6K Super 35 2.39:1",
+        "size": [24.3, 12.8]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/DJI_Ronin#Ronin_4D_(6K_and_8K)",
+      "https://www.dji.com/se/ronin-4d/specs",
+      "https://dl.djicdn.com/downloads/DJI_Ronin_4D/20220216/DJI_Ronin_4D_User_Manual_v1.2_enII.pdf"
+    ],
+    "tags": ["super 35"]
+  },
+  {
     "name": "Fujifilm GFX100",
     "sensorSize": [
       {
@@ -764,6 +874,32 @@
     "tags": ["film"]
   },
   {
+    "name": "Iphone 13 Pro",
+    "sensorSize": [
+      {
+        "format": "26 mm Main",
+        "size": [7.6, 5.7]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [4, 3]
+      },
+      {
+        "format": "77 mm Telephoto",
+        "size": [4, 3]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/IPhone_13_Pro",
+      "https://www.dpreview.com/articles/6780391159/all-apple-iphone-13-and-13-pro-camera-upgrades-explained",
+      "https://www.dpreview.com/articles/6110937480",
+      "https://twitter.com/tim_cook/status/1602516736145858561"
+    ],
+    "tags": ["phone"]
+  },
+  {
     "name": "Iphone 14 Pro",
     "sensorSize": [
       {
@@ -782,7 +918,58 @@
     "category": ["Mobile"],
     "description": "Apple uses Sony sensors for their Iphones.",
     "sources": [
+      "https://en.wikipedia.org/wiki/IPhone_14_Pro",
       "https://www.dpreview.com/articles/6110937480",
+      "https://twitter.com/tim_cook/status/1602516736145858561"
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "name": "Iphone 15 Pro",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2]
+      },
+      {
+        "format": "77 mm Telephoto",
+        "size": [4, 3]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/IPhone_15_Pro",
+      "https://www.dpreview.com/articles/2668153890/apple-s-iphone-15-and-15-pro-imaging-tech-examined",
+      "https://twitter.com/tim_cook/status/1602516736145858561"
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "name": "Iphone 15 Pro Max",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2]
+      },
+      {
+        "format": "120 mm Telephoto",
+        "size": [4.5, 3.4]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/IPhone_15_Pro",
+      "https://www.dpreview.com/articles/2668153890/apple-s-iphone-15-and-15-pro-imaging-tech-examined",
       "https://twitter.com/tim_cook/status/1602516736145858561"
     ],
     "tags": ["phone"]
@@ -798,6 +985,7 @@
     "category": ["Mobile"],
     "description": "Apple uses Sony sensors for their Iphones.",
     "sources": [
+      "https://en.wikipedia.org/wiki/IPhone_XS",
       "https://en.wikipedia.org/wiki/Image_sensor_format",
       "https://twitter.com/tim_cook/status/1602516736145858561"
     ],
@@ -1116,7 +1304,7 @@
     "category": ["Movie"],
     "description": "This camera uses the RED Monstro 8K sensor.",
     "sources": [
-      "https://dxl.panavision.com/",
+      "https://www.panavision.com/camera-and-optics/dxl2",
       "https://www.panavision.com/docs/default-source/downloads/panavision_dxl2_manual_v1_0.pdf#%5B%7B%22num%22%3A125%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C42.75%2C673.5%2C0%5D",
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
     ],
@@ -2960,7 +3148,7 @@
     "sources": [
       "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
       "https://docs.red.com/955-0199/955-0199_V1.2_Rev_A_RED_PS_V-RAPTOR_Operation_Guide/Content/4_Menus/b_ProjSet/Format/All_Formats.htm",
-      "https://www.red.com/v-raptor-black",
+      "https://www.red.com/v-raptor",
       "https://www.red.com/arsenal"
     ],
     "tags": ["imax", "full frame"]
@@ -3106,6 +3294,22 @@
       "https://github.com/wetadigital/physlight/blob/main/data/sony_ilce-9_380_720_10.json"
     ],
     "tags": ["full frame", "a9", "ilce-9"]
+  },
+  {
+    "name": "Sony Alpha 9 III",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.6, 23.8]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce9m3b",
+      "https://en.wikipedia.org/wiki/Sony_α9_III"
+    ],
+    "tags": ["full frame", "a9", "ilce-9m3"]
   },
   {
     "name": "Sony BURANO",

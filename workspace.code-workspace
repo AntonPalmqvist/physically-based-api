@@ -8,19 +8,23 @@
     "json.schemas": [
       {
         "fileMatch": ["/deploy/materials.json"],
-        "url": "/schema-materials.json"
+        "url": "/schemas/schema-materials.json"
       },
       {
         "fileMatch": ["/deploy/lightsources.json"],
-        "url": "/schema-lightsources.json"
+        "url": "/schemas/schema-lightsources.json"
+      },
+      {
+        "fileMatch": ["/deploy/v2/lightsources.json"],
+        "url": "/schemas/schema-lightsources-v2.json"
       },
       {
         "fileMatch": ["/deploy/cameras.json"],
-        "url": "/schema-cameras.json"
+        "url": "/schemas/schema-cameras.json"
       },
       {
-        "fileMatch": ["/deploy/lenses.json"],
-        "url": "/schema-lenses.json"
+        "fileMatch": ["/deploy/v2/lenses.json"],
+        "url": "/schemas/schema-lenses-v2.json"
       }
     ]
   }
