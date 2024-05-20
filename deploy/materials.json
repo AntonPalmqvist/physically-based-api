@@ -19,7 +19,7 @@
     ],
     "tags": ["aluminium", "mirror"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/aluminum-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum.jpeg"
     ]
   },
   {
@@ -34,7 +34,7 @@
     "sources": ["https://spectraldb.com/measurements/00379/"],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/banana-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/banana.jpeg"
     ]
   },
   {
@@ -52,7 +52,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/blackboard-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/blackboard.jpeg"
     ]
   },
   {
@@ -79,7 +79,7 @@
     ],
     "tags": ["liquid"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/blood-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/blood.jpeg"
     ]
   },
   {
@@ -99,7 +99,7 @@
     ],
     "tags": ["skeleton"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/bone-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/bone.jpeg"
     ]
   },
   {
@@ -120,7 +120,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/brass-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/brass.jpeg"
     ]
   },
   {
@@ -143,7 +143,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/brick-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/brick.jpeg"
     ]
   },
   {
@@ -158,7 +158,7 @@
     "sources": ["https://spectraldb.com/measurements/00456/"],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/carrot-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/carrot.jpeg"
     ]
   },
   {
@@ -179,7 +179,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/charcoal-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/charcoal.jpeg"
     ]
   },
   {
@@ -199,7 +199,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/chocolate-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/chocolate.jpeg"
     ]
   },
   {
@@ -219,7 +219,7 @@
     ],
     "tags": ["chrome"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/chromium-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/chromium.jpeg"
     ]
   },
   {
@@ -240,7 +240,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/cobalt-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/cobalt.jpeg"
     ]
   },
   {
@@ -259,7 +259,7 @@
     ],
     "tags": ["sss"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/coffee-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/coffee.jpeg"
     ]
   },
   {
@@ -281,7 +281,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/concrete-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/concrete.jpeg"
     ]
   },
   {
@@ -306,7 +306,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/cooking-oil-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/cooking-oil.jpeg"
     ]
   },
   {
@@ -327,7 +327,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/copper-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/copper.jpeg"
     ]
   },
   {
@@ -349,7 +349,7 @@
     ],
     "tags": ["gem", "gemstone"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/diamond-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/diamond.jpeg"
     ]
   },
   {
@@ -367,7 +367,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/egg-shell-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/egg-shell.jpeg"
     ]
   },
   {
@@ -386,7 +386,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/eye-cornea-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/eye-cornea.jpeg"
     ]
   },
   {
@@ -405,7 +405,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/eye-lens-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/eye-lens.jpeg"
     ]
   },
   {
@@ -423,7 +423,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/eye-sclera-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/eye-sclera.jpeg"
     ]
   },
   {
@@ -445,7 +445,7 @@
     ],
     "tags": ["petrol", "fuel"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/gasoline-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/gasoline.jpeg"
     ]
   },
   {
@@ -470,7 +470,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/glass-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/glass.jpeg"
     ]
   },
   {
@@ -491,7 +491,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/gold-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/gold.jpeg"
     ]
   },
   {
@@ -506,7 +506,7 @@
     "sources": ["https://en.wikipedia.org/wiki/Middle_gray"],
     "tags": ["grey"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/gray-card-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/gray-card.jpeg"
     ]
   },
   {
@@ -533,7 +533,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/honey-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/honey.jpeg"
     ]
   },
   {
@@ -555,7 +555,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/ice-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/ice.jpeg"
     ]
   },
   {
@@ -576,7 +576,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/iron-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/iron.jpeg"
     ]
   },
   {
@@ -600,7 +600,7 @@
     ],
     "tags": ["liquid", "sss"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/ketchup-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/ketchup.jpeg"
     ]
   },
   {
@@ -621,7 +621,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/lead-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/lead.jpeg"
     ]
   },
   {
@@ -636,7 +636,7 @@
     "sources": ["https://spectraldb.com/measurements/00453/"],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/lemon-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/lemon.jpeg"
     ]
   },
   {
@@ -658,7 +658,7 @@
     ],
     "tags": ["sss"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/marble-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/marble.jpeg"
     ]
   },
   {
@@ -682,7 +682,7 @@
     ],
     "tags": ["liquid"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/mercury-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/mercury.jpeg"
     ]
   },
   {
@@ -709,7 +709,7 @@
     ],
     "tags": ["sss"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/milk-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/milk.jpeg"
     ]
   },
   {
@@ -730,7 +730,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/nickel-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/nickel.jpeg"
     ]
   },
   {
@@ -749,7 +749,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/office-paper-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/office-paper.jpeg"
     ]
   },
   {
@@ -774,7 +774,7 @@
     ],
     "tags": ["nacre", "sss"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/pearl-arnold.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/pearl.jpeg"
     ]
   },
   {
@@ -798,7 +798,7 @@
     ],
     "tags": ["oil", "crude oil", "sss"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/petroleum-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/petroleum.jpeg"
     ]
   },
   {
@@ -818,7 +818,7 @@
     ],
     "tags": ["polycarbonate"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/plastic-pc-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-pc.jpeg"
     ]
   },
   {
@@ -837,7 +837,7 @@
     ],
     "tags": ["polyethylene terephthalate"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/plastic-pet-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-pet.jpeg"
     ]
   },
   {
@@ -856,7 +856,7 @@
     ],
     "tags": ["PMMA", "plexi", "polymethyl methacrylate"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/plastic-acrylic-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-acrylic.jpeg"
     ]
   },
   {
@@ -876,7 +876,7 @@
     ],
     "tags": ["polypropylene"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/plastic-pp-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-pp.jpeg"
     ]
   },
   {
@@ -896,7 +896,7 @@
     ],
     "tags": ["polyvinyl chloride"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/plastic-pvc-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-pvc.jpeg"
     ]
   },
   {
@@ -917,7 +917,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/platinum-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/platinum.jpeg"
     ]
   },
   {
@@ -938,7 +938,7 @@
     ],
     "tags": ["acrylic", "coat", "car paint", "lacquer"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/polyurethane-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/polyurethane.jpeg"
     ]
   },
   {
@@ -957,7 +957,7 @@
     ],
     "tags": [],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/salt-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/salt.jpeg"
     ]
   },
   {
@@ -976,7 +976,7 @@
     ],
     "tags": [],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/sand-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/sand.jpeg"
     ]
   },
   {
@@ -998,7 +998,7 @@
     ],
     "tags": ["gem", "gemstone"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/sapphire-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/sapphire.jpeg"
     ]
   },
   {
@@ -1018,7 +1018,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/silicon-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/silicon.jpeg"
     ]
   },
   {
@@ -1040,7 +1040,7 @@
     ],
     "tags": ["mirror"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/silver-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/silver.jpeg"
     ]
   },
   {
@@ -1064,7 +1064,7 @@
     ],
     "tags": ["epidermis", "sss"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-i-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/skin-i.jpeg"
     ]
   },
   {
@@ -1088,7 +1088,7 @@
     ],
     "tags": ["epidermis", "sss"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-ii-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/skin-ii.jpeg"
     ]
   },
   {
@@ -1114,7 +1114,7 @@
     ],
     "tags": ["epidermis", "sss"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-iii-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/skin-iii.jpeg"
     ]
   },
   {
@@ -1139,7 +1139,7 @@
     ],
     "tags": ["epidermis", "sss"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-iv-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/skin-iv.jpeg"
     ]
   },
   {
@@ -1164,7 +1164,7 @@
     ],
     "tags": ["epidermis", "sss"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-v-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/skin-v.jpeg"
     ]
   },
   {
@@ -1189,7 +1189,7 @@
     ],
     "tags": ["epidermis", "sss"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/skin-vi-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/skin-vi.jpeg"
     ]
   },
   {
@@ -1209,7 +1209,7 @@
     ],
     "tags": ["ice"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/snow-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/snow.jpeg"
     ]
   },
   {
@@ -1231,7 +1231,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/soap-bubble-arnold.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/soap-bubble.jpeg"
     ]
   },
   {
@@ -1249,7 +1249,7 @@
     ],
     "tags": ["tyre", "rubber"],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/tire-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/tire.jpeg"
     ]
   },
   {
@@ -1269,7 +1269,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/titanium-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/titanium.jpeg"
     ]
   },
   {
@@ -1289,7 +1289,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/tungsten-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/tungsten.jpeg"
     ]
   },
   {
@@ -1309,7 +1309,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/vanadium-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/vanadium.jpeg"
     ]
   },
   {
@@ -1341,7 +1341,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/water-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/water.jpeg"
     ]
   },
   {
@@ -1356,7 +1356,7 @@
     "sources": ["https://spectraldb.com/measurements/00074/"],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/whiteboard-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/whiteboard.jpeg"
     ]
   },
   {
@@ -1376,7 +1376,7 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/zinc-cycles.png"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/zinc.jpeg"
     ]
   }
 ]
