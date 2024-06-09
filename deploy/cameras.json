@@ -609,6 +609,31 @@
     "tags": ["super 35"]
   },
   {
+    "name": "Canon EOS C400",
+    "sensorSize": [
+      {
+        "format": "Full Frame",
+        "size": [36, 19]
+      },
+      {
+        "format": "Super 35",
+        "size": [26.2, 13.8]
+      },
+      {
+        "format": "Super 16",
+        "size": [13.1, 6.9]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Canon_Cinema_EOS",
+      "https://www.usa.canon.com/shop/p/eos-c400#tech-spec-data",
+      "https://s7d1.scene7.com/is/content/canon/EOSC400_full_specificationspdf"
+    ],
+    "tags": ["super 35"]
+  },
+  {
     "name": "Canon EOS C500",
     "sensorSize": [
       {
@@ -992,7 +1017,7 @@
     "tags": ["phone"]
   },
   {
-    "name": "Leica S",
+    "name": "Leica S3",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -1003,7 +1028,7 @@
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Leica_S-System",
-      "https://leica-camera.com/en-SG/photography/cameras/s/s3-black/details"
+      "https://leica-camera.com/en-SG/photography/cameras/s/s3-black/"
     ],
     "tags": ["medium format"]
   },
@@ -3144,7 +3169,7 @@
       }
     ],
     "category": ["Movie"],
-    "description": "The sensor sizes are the same for all V-Raptor sensors, regardless of 8K, or VV designations.",
+    "description": "The sensor sizes are the same for all V-Raptor sensors, regardless of X, XL, 8K, or VV designations.",
     "sources": [
       "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
       "https://docs.red.com/955-0199/955-0199_V1.2_Rev_A_RED_PS_V-RAPTOR_Operation_Guide/Content/4_Menus/b_ProjSet/Format/All_Formats.htm",
