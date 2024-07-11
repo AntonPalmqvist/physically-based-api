@@ -643,7 +643,7 @@
     "name": "Marble",
     "color": [0.83, 0.791, 0.753],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0,
     "ior": 1.5,
     "subsurfaceRadius": [0.851, 0.557, 0.395],
     "density": 2700,
@@ -802,6 +802,25 @@
     ]
   },
   {
+    "name": "Plastic (Acrylic)",
+    "color": [1, 1, 1],
+    "metalness": 0,
+    "roughness": 0,
+    "ior": 1.476,
+    "transmission": 1,
+    "density": 1180,
+    "category": ["Plastic"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)",
+      "https://polymerdatabase.com/polymer%20physics/Ref%20Index%20Table2%20.html"
+    ],
+    "tags": ["PMMA", "plexi", "polymethyl methacrylate"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-acrylic.jpeg"
+    ]
+  },
+  {
     "name": "Plastic (PC)",
     "color": [1, 1, 1],
     "metalness": 0,
@@ -838,25 +857,6 @@
     "tags": ["polyethylene terephthalate"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-pet.jpeg"
-    ]
-  },
-  {
-    "name": "Plastic (Acrylic)",
-    "color": [1, 1, 1],
-    "metalness": 0,
-    "roughness": 0,
-    "ior": 1.476,
-    "transmission": 1,
-    "density": 1180,
-    "category": ["Plastic"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)",
-      "https://polymerdatabase.com/polymer%20physics/Ref%20Index%20Table2%20.html"
-    ],
-    "tags": ["PMMA", "plexi", "polymethyl methacrylate"],
-    "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-acrylic.jpeg"
     ]
   },
   {
@@ -943,7 +943,7 @@
   },
   {
     "name": "Salt",
-    "color": [0.8, 0.8, 0.8],
+    "color": [1, 1, 1],
     "metalness": 0,
     "roughness": 0.2,
     "ior": 1.5275,
