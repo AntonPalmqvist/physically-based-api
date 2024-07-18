@@ -33,11 +33,43 @@
     ]
   },
   {
+    "name": "Arri M-Series M8",
+    "color": [1.0, 0.899, 0.875],
+    "temperature": 6000,
+    "intensity": 41300,
+    "variants": [
+      {
+        "format": "Flood",
+        "angle": 60,
+        "intensity": 41300
+      },
+      {
+        "format": "Medium",
+        "angle": 40,
+        "intensity": 76100
+      },
+      {
+        "format": "Spot",
+        "angle": 15,
+        "intensity": 405000
+      }
+    ],
+    "sourceSize": [100],
+    "unit": ["lx"],
+    "type": ["spot"],
+    "category": ["Artificial"],
+    "description": "",
+    "sources": [
+      "https://www.arri.com/en/lighting/daylight/m-series/m8",
+      "https://www.arri.com/resource/blob/31482/8764688fa9ce88b33bf3f4f48e2fb52a/arri-m-series-m8-data-sheet-en-sep2018-data.pdf"
+    ]
+  },
+  {
     "name": "Arri SkyPanel X",
     "color": [1.0, 0.859, 0.778],
     "temperature": 5600,
     "temperatureRange": [1500, 20000],
-    "intensity": 3000,
+    "intensity": 48000,
     "variants": [
       {
         "format": "Open-Face",
@@ -115,6 +147,7 @@
     "intensity": 200,
     "intensityRange": [100, 2000],
     "unit": ["cd/m2"],
+    "sourceSize": [61, 38],
     "type": ["surface"],
     "category": ["Artificial"],
     "description": "Displays like computer monitors, TVs, signage, etc. Typically they have a temperature of 6500K but it can vary. The sRGB spec for monitors targets 80 cd/m2. Typically, monitors calibrated for broadcast or studio color grading should have a brightness of 100 cd/m2 in Japan and in the United States, or 120 cd/m2 in the European Union. This is however considered quite dark for normal use, so consumer monitors tend to be brighter.",
@@ -174,6 +207,19 @@
     ]
   },
   {
+    "name": "Kino Flo MIMIK 120",
+    "color": [1.0, 0.943, 0.992],
+    "temperature": 6500,
+    "temperatureRange": [2700, 6500],
+    "intensity": 10000,
+    "sourceSize": [120, 60],
+    "unit": ["cd/m2"],
+    "type": ["surface"],
+    "category": ["Artificial"],
+    "description": "",
+    "sources": ["https://kinoflo.com/mimik-120/#productspecs"]
+  },
+  {
     "name": "Household Light Bulb",
     "color": [1.0, 0.415, 0.099],
     "temperature": 2700,
@@ -198,7 +244,7 @@
     "intensity": 0.1,
     "intensityRange": [0.05, 0.32],
     "unit": ["lx"],
-    "angle": 0.53,
+    "angle": 0.5286,
     "type": ["directional"],
     "category": ["Natural"],
     "description": "Technically not a light source, since the light from the moon is simply reflected sunlight. Moonlight is warmer than sunlight due to the surface material of the moon shifting it towards a redder color. Just as sunlight, moonlight is also subject to atmospheric scattering known as Rayleigh scattering, where it goes more towards red during moonrise and moonset. Moonlight is often mistaken to be bluish due to the Purkinje effect.",
@@ -296,7 +342,7 @@
     "intensity": 100000,
     "intensityRange": [400, 100000],
     "unit": ["lx"],
-    "angle": 0.53,
+    "angle": 0.5332,
     "type": ["directional"],
     "category": ["Natural"],
     "description": "The changing color of the Sun over the course of the day is mainly a result of the scattering of sunlight and is not due to changes in black-body radiation. The solar illuminance constant is equal to 128 000 lux, but atmospheric extinction brings the number of lux down to around 100 000 lux.",
@@ -306,7 +352,8 @@
       "https://en.wikipedia.org/wiki/Sunlight#Measurement",
       "https://en.wikipedia.org/wiki/Daylight",
       "http://stjarnhimlen.se/comp/radfaq.html#10",
-      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html"
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+      "https://www.physics.unlv.edu/~jeffery/astro/moon/sun_moon_angular.html"
     ]
   }
 ]
