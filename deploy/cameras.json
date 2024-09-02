@@ -3,41 +3,128 @@
     "name": "Arri Alexa 35",
     "sensorSize": [
       {
-        "format": "4K 3:2 Open Gate",
-        "size": [27.99, 19.22]
+        "format": "4.6K 3:2 Open Gate",
+        "size": [27.99, 19.22],
+        "resolution": [
+          {
+            "format": "4.6K",
+            "size": [4608, 3164]
+          }
+        ]
       },
       {
         "format": "4.6K 16:9",
-        "size": [28, 15.7]
+        "size": [27.99, 15.75],
+        "resolution": [
+          {
+            "format": "4.6K",
+            "size": [4608, 2592]
+          },
+          {
+            "format": "4K",
+            "size": [4096, 2304]
+          }
+        ]
       },
       {
         "format": "4K 16:9",
-        "size": [24.9, 14]
+        "size": [24.88, 14],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [4096, 2304]
+          },
+          {
+            "format": "UHD",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "2K",
+            "size": [2048, 1152]
+          },
+          {
+            "format": "HD",
+            "size": [1920, 1080]
+          }
+        ]
       },
       {
         "format": "4K 2:1",
-        "size": [24.9, 12.4]
+        "size": [24.88, 12.44],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [4096, 2048]
+          }
+        ]
+      },
+      {
+        "format": "3.8K 16:9",
+        "size": [23.33, 13.12],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          }
+        ]
       },
       {
         "format": "3.3K 6:5",
-        "size": [20.22, 16.95]
+        "size": [20.22, 16.95],
+        "resolution": [
+          {
+            "format": "3.3K",
+            "size": [3328, 2790]
+          },
+          {
+            "format": "4K 2.39:1 Ana 2x",
+            "size": [4096, 1716]
+          }
+        ]
       },
       {
         "format": "3K 1:1",
-        "size": [18.7, 18.7]
+        "size": [18.66, 18.66],
+        "resolution": [
+          {
+            "format": "3K",
+            "size": [3072, 3072]
+          },
+          {
+            "format": "3.8K 2:1 Ana 2x",
+            "size": [3840, 2160]
+          }
+        ]
       },
       {
         "format": "2.7K 8:9",
-        "size": [16.7, 18.7]
+        "size": [16.66, 18.75],
+        "resolution": [
+          {
+            "format": "UHD 16:9 Ana 2x",
+            "size": [3840, 2160]
+          }
+        ]
       },
       {
         "format": "2K 16:9 S16",
-        "size": [12.4, 7]
+        "size": [12.44, 7],
+        "resolution": [
+          {
+            "format": "2K",
+            "size": [2048, 1152]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
     "description": "",
-    "sources": ["https://www.arri.com/en/camera-systems/cameras/alexa-35"],
+    "sources": [
+      "https://www.arri.com/en/camera-systems/cameras/alexa-35",
+      "https://www.arri.com/en/camera-systems/cameras/alexa-35/alexa-35-recording-formats",
+      "https://www.arri.com/resource/blob/296424/88454a5a3dee9fe1d3fd68e75aa3411e/alexa-35-recording-format-poster-data.pdf",
+      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
+    ],
     "tags": [""]
   },
   {
@@ -45,30 +132,60 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [54.12, 25.58]
+        "size": [54.12, 25.58],
+        "resolution": [
+          {
+            "format": "Open Gate",
+            "size": [6560, 3100]
+          }
+        ]
       },
       {
         "format": "5.1K 16:9",
-        "size": [42.24, 23.76]
+        "size": [42.24, 23.76],
+        "resolution": [
+          {
+            "format": "5.1K 16:9",
+            "size": [5120, 2880]
+          }
+        ]
       },
       {
         "format": "LF Open Gate",
-        "size": [36.7, 25.54]
+        "size": [36.7, 25.54],
+        "resolution": [
+          {
+            "format": "LF Open Gate",
+            "size": [4448, 3096]
+          }
+        ]
       },
       {
         "format": "4.3K 3:2",
-        "size": [35.64, 23.76]
+        "size": [35.64, 23.76],
+        "resolution": [
+          {
+            "format": "4.3K 3:2",
+            "size": [4320, 2880]
+          }
+        ]
       },
       {
         "format": "4K UHD",
-        "size": [31.68, 17.82]
+        "size": [31.68, 17.82],
+        "resolution": [
+          {
+            "format": "4K UHD",
+            "size": [3840, 2160]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
     "description": "",
     "sources": [
       "https://www.arrirental.com/en/cameras/exclusive-cameras/alexa-65",
-      "https://www.arri.com/resource/blob/277386/3d47cc0f22a5ebe30a48f68cc7bf94a1/2022-05-arri-formatsandresolutionsoverview-4-1-data.pdf",
+      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf",
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
     ],
     "tags": ["imax"]
@@ -77,43 +194,71 @@
     "name": "Arri Amira",
     "sensorSize": [
       {
-        "format": "Open Gate",
-        "size": [26.4, 14.85]
-      },
-      {
         "format": "4K UHD",
-        "size": [26.4, 14.85]
+        "size": [26.4, 14.85],
+        "resolution": [
+          {
+            "format": "4K UHD",
+            "size": [3840, 2160]
+          }
+        ]
       },
       {
         "format": "3.2K",
-        "size": [26.4, 14.85]
+        "size": [26.4, 14.85],
+        "resolution": [
+          {
+            "format": "3.2K",
+            "size": [3200, 1800]
+          }
+        ]
       },
       {
         "format": "2.8K",
-        "size": [23.76, 17.82]
-      },
-      {
-        "format": "2.8K 16:9",
-        "size": [23.76, 13.37]
+        "size": [23.76, 13.37],
+        "resolution": [
+          {
+            "format": "2.8K",
+            "size": [2880, 1620]
+          }
+        ]
       },
       {
         "format": "2K",
-        "size": [23.66, 13.3]
+        "size": [23.66, 13.3],
+        "resolution": [
+          {
+            "format": "2K",
+            "size": [2048, 1152]
+          }
+        ]
       },
       {
         "format": "HD",
-        "size": [23.76, 13.37]
+        "size": [23.76, 13.37],
+        "resolution": [
+          {
+            "format": "HD",
+            "size": [1920, 1080]
+          }
+        ]
       },
       {
         "format": "S16 HD",
-        "size": [13.2, 7.43]
+        "size": [13.2, 7.425],
+        "resolution": [
+          {
+            "format": "S16 HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
     "description": "",
     "sources": [
       "https://www.arri.com/en/camera-systems/cameras/amira",
-      "https://www.arri.com/resource/blob/277386/3d47cc0f22a5ebe30a48f68cc7bf94a1/2022-05-arri-formatsandresolutionsoverview-4-1-data.pdf"
+      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
     ],
     "tags": ["super 35"]
   },
@@ -122,30 +267,61 @@
     "sensorSize": [
       {
         "format": "LF Open Gate 4.5K",
-        "size": [36.7, 25.54]
+        "size": [36.7, 25.54],
+        "resolution": [
+          {
+            "format": "LF Open Gate 4.5K",
+            "size": [4448, 3096]
+          }
+        ]
       },
       {
         "format": "LF 2.39:1 4.5K",
-        "size": [36.7, 15.31]
+        "size": [36.7, 15.31],
+        "resolution": [
+          {
+            "format": "LF 2.39:1 4.5K",
+            "size": [4448, 1856]
+          }
+        ]
       },
       {
         "format": "LF 16:9 UHD",
-        "size": [31.68, 17.82]
+        "size": [31.68, 17.82],
+        "resolution": [
+          {
+            "format": "LF 16:9 UHD",
+            "size": [3840, 2160]
+          }
+        ]
       },
       {
-        "format": "LF 2K 16:9",
-        "size": [31.68, 17.82]
+        "format": "LF 16:9 2K",
+        "size": [31.68, 17.82],
+        "resolution": [
+          {
+            "format": "LF 16:9 2K",
+            "size": [2048, 1152]
+          }
+        ]
       },
       {
-        "format": "LF HD 16:9",
-        "size": [31.68, 17.82]
+        "format": "LF 16:9 HD",
+        "size": [31.68, 17.82],
+        "resolution": [
+          {
+            "format": "LF 16:9 HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
     "description": "",
     "sources": [
       "https://www.arri.com/en/camera-systems/cameras/alexa-lf",
-      "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
+      "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
+      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
     ],
     "tags": ["super 35", "imax"]
   },
@@ -153,50 +329,111 @@
     "name": "Arri Alexa Mini",
     "sensorSize": [
       {
-        "format": "3.4K Open Gate",
-        "size": [28.25, 18.17]
+        "format": "Open Gate 3.4K",
+        "size": [28.25, 18.17],
+        "resolution": [
+          {
+            "format": "Open Gate 3.4K",
+            "size": [3424, 2202]
+          }
+        ]
       },
       {
         "format": "4K UHD",
-        "size": [26.4, 14.85]
+        "size": [26.4, 14.85],
+        "resolution": [
+          {
+            "format": "4K UHD",
+            "size": [3840, 2160]
+          }
+        ]
       },
       {
         "format": "3.2K",
-        "size": [26.4, 14.85]
+        "size": [26.4, 14.85],
+        "resolution": [
+          {
+            "format": "3.2K",
+            "size": [3200, 1800]
+          }
+        ]
       },
       {
-        "format": "2.8K 4:3",
-        "size": [23.76, 17.82]
+        "format": "4:3 2.8K",
+        "size": [23.76, 17.82],
+        "resolution": [
+          {
+            "format": "4:3 2.8K",
+            "size": [2880, 2160]
+          }
+        ]
       },
       {
-        "format": "2.8K 16:9",
-        "size": [23.76, 13.37]
+        "format": "2.8K",
+        "size": [23.76, 13.37],
+        "resolution": [
+          {
+            "format": "2.8K",
+            "size": [2880, 1620]
+          }
+        ]
       },
       {
         "format": "2K",
-        "size": [23.66, 13.3]
+        "size": [23.66, 13.3],
+        "resolution": [
+          {
+            "format": "2K",
+            "size": [2048, 1152]
+          }
+        ]
       },
       {
-        "format": "2K 2.39:1 Anamorphic",
-        "size": [21.12, 17.7]
+        "format": "2.39:1 2K Anamorphic",
+        "size": [21.12, 17.7],
+        "resolution": [
+          {
+            "format": "2.39:1 2K Anamorphic",
+            "size": [2048, 858]
+          }
+        ]
       },
       {
         "format": "HD",
-        "size": [23.76, 13.37]
+        "size": [23.76, 13.37],
+        "resolution": [
+          {
+            "format": "HD",
+            "size": [1920, 1080]
+          }
+        ]
       },
       {
         "format": "HD Anamorphic",
-        "size": [15.84, 17.82]
+        "size": [15.84, 17.82],
+        "resolution": [
+          {
+            "format": "HD Anamorphic",
+            "size": [1920, 1080]
+          }
+        ]
       },
       {
         "format": "S16 HD",
-        "size": [13.2, 7.43]
+        "size": [13.2, 7.425],
+        "resolution": [
+          {
+            "format": "S16 HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
     "description": "",
     "sources": [
-      "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-mini"
+      "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-mini",
+      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
     ],
     "tags": ["super 35"]
   },
@@ -205,46 +442,113 @@
     "sensorSize": [
       {
         "format": "4.5K LF 3:2 Open Gate",
-        "size": [36.7, 25.54]
+        "size": [36.7, 25.54],
+        "resolution": [
+          {
+            "format": "4.5K LF 3:2 Open Gate 4.5K",
+            "size": [4448, 3096]
+          }
+        ]
       },
       {
         "format": "4.5K LF 2.39:1",
-        "size": [36.7, 15.31]
+        "size": [36.7, 15.31],
+        "resolution": [
+          {
+            "format": "4.5K LF 2.39:1 4.5K",
+            "size": [4448, 1856]
+          }
+        ]
       },
       {
         "format": "4.3K LF 16:9",
-        "size": [35.64, 20.05]
+        "size": [35.64, 20.05],
+        "resolution": [
+          {
+            "format": "4.3K LF 16:9 UHD",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "4.3K LF 16:9 HD",
+            "size": [1920, 1080]
+          }
+        ]
       },
       {
         "format": "3.8K LF 16:9",
-        "size": [31.68, 17.82]
+        "size": [31.68, 17.82],
+        "resolution": [
+          {
+            "format": "3.8K LF 16:9 UHD",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "3.8K LF 16:9 2K",
+            "size": [2048, 1152]
+          },
+          {
+            "format": "3.8K LF 16:9 HD",
+            "size": [1920, 1080]
+          }
+        ]
       },
       {
         "format": "2.8K LF 1:1",
-        "size": [23.76, 23.76]
+        "size": [23.76, 23.76],
+        "resolution": [
+          {
+            "format": "2.8K LF 1:1 2.8K",
+            "size": [2880, 2880]
+          }
+        ]
       },
       {
         "format": "3.4K S35 3:2",
-        "size": [28.25, 18.17]
+        "size": [28.25, 18.17],
+        "resolution": [
+          {
+            "format": "3.4K S35 3:2 3.4K",
+            "size": [3424, 2202]
+          }
+        ]
       },
       {
         "format": "3.2K S35 16:9",
-        "size": [26.4, 14.85]
+        "size": [26.4, 14.85],
+        "resolution": [
+          {
+            "format": "3.2K S35 16:9 3.2K",
+            "size": [3200, 1800]
+          }
+        ]
       },
       {
         "format": "2.8K S35 4:3",
-        "size": [23.76, 17.82]
+        "size": [23.76, 17.82],
+        "resolution": [
+          {
+            "format": "2.8K S35 4:3 2.8K",
+            "size": [2880, 2160]
+          }
+        ]
       },
       {
         "format": "2.8K S35 16:9",
-        "size": [23.76, 13.37]
+        "size": [23.76, 13.37],
+        "resolution": [
+          {
+            "format": "2.8K S35 16:9 HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
     "description": "",
     "sources": [
       "https://www.arri.com/en/camera-systems/cameras/alexa-mini-lf",
-      "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
+      "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
+      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
     ],
     "tags": ["super 35", "imax"]
   },
@@ -253,57 +557,130 @@
     "sensorSize": [
       {
         "format": "3.4K Open Gate",
-        "size": [28.25, 18.17]
+        "size": [28.25, 18.17],
+        "resolution": [
+          {
+            "format": "3.4K Open Gate",
+            "size": [3424, 2202]
+          }
+        ]
       },
       {
         "format": "4K Cine Open Gate",
-        "size": [28.17, 18.13]
+        "size": [28.17, 18.13],
+        "resolution": [
+          {
+            "format": "4K Cine Open Gate",
+            "size": [4096, 2636]
+          }
+        ]
       },
       {
         "format": "2.8K 4:3",
-        "size": [23.76, 17.82]
+        "size": [23.76, 17.82],
+        "resolution": [
+          {
+            "format": "2.8K 4:3",
+            "size": [2880, 2160]
+          }
+        ]
       },
       {
         "format": "4K 16:9",
-        "size": [26.4, 14.85]
+        "size": [26.4, 14.85],
+        "resolution": [
+          {
+            "format": "4K 16:9 UHD",
+            "size": [3840, 2160]
+          }
+        ]
       },
       {
         "format": "3.2K 16:9 ProRes",
-        "size": [26.4, 14.85]
+        "size": [26.4, 14.85],
+        "resolution": [
+          {
+            "format": "3.2K 16:9 ProRes",
+            "size": [3200, 1800]
+          }
+        ]
       },
       {
         "format": "3.2K 16:9 ARRIRAW",
-        "size": [26.14, 14.7]
+        "size": [26.14, 14.7],
+        "resolution": [
+          {
+            "format": "3.2K 16:9 ARRIRAW",
+            "size": [3168, 1782]
+          }
+        ]
       },
       {
         "format": "2.8K 16:9",
-        "size": [23.76, 13.37]
+        "size": [23.76, 13.37],
+        "resolution": [
+          {
+            "format": "2.8K 16:9",
+            "size": [2880, 1620]
+          }
+        ]
       },
       {
         "format": "2K 16:9",
-        "size": [23.76, 13.37]
+        "size": [23.76, 13.37],
+        "resolution": [
+          {
+            "format": "2K 16:9",
+            "size": [2048, 1152]
+          }
+        ]
       },
       {
         "format": "HD 16:9",
-        "size": [23.76, 13.37]
+        "size": [23.76, 13.37],
+        "resolution": [
+          {
+            "format": "HD 16:9",
+            "size": [1920, 1080]
+          }
+        ]
       },
       {
         "format": "2.6K 6:5",
-        "size": [21.38, 17.82]
+        "size": [21.38, 17.82],
+        "resolution": [
+          {
+            "format": "2.6K 6:5",
+            "size": [2578, 2160]
+          }
+        ]
       },
       {
         "format": "4K Cine 6:5 Anamorphic",
-        "size": [21.12, 17.7]
+        "size": [21.12, 17.7],
+        "resolution": [
+          {
+            "format": "4K Cine 6:5 Anamorphic",
+            "size": [4096, 1716]
+          }
+        ]
       },
       {
         "format": "2K 6:5 Anamorphic",
-        "size": [21.12, 17.7]
+        "size": [21.12, 17.7],
+        "resolution": [
+          {
+            "format": "2K 6:5 Anamorphic",
+            "size": [2048, 858]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
     "description": "",
     "sources": [
-      "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-sxt-w"
+      "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-sxt-w",
+      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
     ],
     "tags": ["super 35"]
   },
@@ -567,14 +944,29 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [36, 24]
+        "size": [36, 24],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "FHD",
+            "size": [1920, 1080]
+          },
+          {
+            "format": "HD",
+            "size": [1280, 720]
+          }
+        ]
       }
     ],
     "category": ["Still"],
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Canon_EOS_5D_Mark_IV",
-      "https://github.com/wetadigital/physlight/blob/main/data/canon_eos-5d-mkiv_380_720_10.json"
+      "https://github.com/wetadigital/physlight/blob/main/data/canon_eos-5d-mkiv_380_720_10.json",
+      "https://gdlp01.c-wss.com/gds/0/0300024970/07/eos5d-mk4-im8-en.pdf"
     ],
     "tags": ["full frame"]
   },
@@ -595,8 +987,24 @@
     "name": "Canon EOS C300",
     "sensorSize": [
       {
-        "format": "Open Gate",
-        "size": [24.6, 13.8]
+        "format": "Super 35",
+        "size": [26.2, 13.8],
+        "resolution": [
+          {
+            "format": "4096x2160",
+            "size": [4096, 2160]
+          }
+        ]
+      },
+      {
+        "format": "Super 16",
+        "size": [24.6, 13.8],
+        "resolution": [
+          {
+            "format": "2048x1080",
+            "size": [2048, 1080]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -604,7 +1012,9 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Canon_EOS_C300",
       "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/eos-c300",
-      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/eos-c300-mark-iii-digital-cinema-camera"
+      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/eos-c300-mark-iii-digital-cinema-camera",
+      "https://gdlp01.c-wss.com/gds/5/0300042345/08/eosc300mk3-500mk2-im13-en.pdf",
+      "https://www.canon-europe.com/video-cameras/eos-c300-mark-iii/specifications/"
     ],
     "tags": ["super 35"]
   },
