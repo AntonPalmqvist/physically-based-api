@@ -147,6 +147,28 @@
     ]
   },
   {
+    "name": "Car Paint",
+    "color": [0.5, 0.5, 0.5],
+    "metalness": 0,
+    "roughness": 0,
+    "ior": 1.6,
+    "density": 0,
+    "category": ["Manmade"],
+    "description": "Modern car paints are nearly always an acrylic polyurethane \"enamel\" with a pigmented basecoat and a clear topcoat. It may be described as \"acrylic\", \"acrylic enamel\", \"urethane\", etc. and the clearcoat in particular may be described as a lacquer. The size of the metal flakes in metallic paints is typically between 100 to 400 microns in diameter. Modern automobile paint is applied in several layers, with a total thickness of around 100 μm (0.1mm).",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Automotive_paint",
+      "https://en.wikipedia.org/wiki/Lacquer#Acrylic_lacquers",
+      "https://hal.science/hal-04030017/document",
+      "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2011163461",
+      "https://thecandeshop.com/metal-flake-for-cars/",
+      "https://www.theultimatefinish.co.uk/car-care-blog/featured/paintwork/"
+    ],
+    "tags": ["acrylic", "coat", "car paint", "lacquer", "metallic"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/car-paint.jpeg"
+    ]
+  },
+  {
     "name": "Carrot",
     "color": [0.713, 0.17, 0.026],
     "metalness": 0,
@@ -464,7 +486,6 @@
       "https://refractiveindex.info/?shelf=3d&book=glass&page=soda-lime-clear",
       "https://en.wikipedia.org/wiki/Soda%E2%80%93lime_glass",
       "https://en.wikipedia.org/wiki/Density",
-      "https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/PhysicallyBased/",
       "https://www.acoustic-supplies.com/absorption-coefficient-chart/",
       "https://www.acoustic.ua/st/web_absorption_data_eng.pdf"
     ],

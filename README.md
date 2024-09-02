@@ -15,7 +15,8 @@ Read about how to contribute here: [CONTRIBUTING.md](CONTRIBUTING.md)
 ## Implementations
 
 - Web [https://physicallybased.info](https://physicallybased.info) by [AntonPalmqvist](https://github.com/AntonPalmqvist)
-- Web [https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [@gkjohnson](https://github.com/gkjohnson)
+- Web [https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [gkjohnson](https://github.com/gkjohnson)
+- Web [https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html](https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html) by [kwokcb](https://github.com/kwokcb)
 
 ## License Information
 
