@@ -1,6 +1,6 @@
 openapi: 3.1.0
 info:
-  version: '1.3'
+  version: '1.4'
   title: Physically Based API
   description: |-
     This is a database of physically based values for CG artists.
@@ -120,10 +120,10 @@ components:
           maxItems: 6
           items:
             type: number
-        thin_film_thickness:
+        thinFilmThickness:
           type: number
           description: The thickness of the thin film layer on the base (in nanometers).
-        thin_film_ior:
+        thinFilmIor:
           type: number
           description: The index of refraction of the thin-film.
           default: 1.5
@@ -427,6 +427,20 @@ components:
                 maxItems: 2
                 items:
                   type: number
+              resolution:
+                type: array
+                description: 'Recording resolution measured in pixels [Width, Height]. One sensor size can have multiple recording resolutions.'
+                items:
+                  type: object
+                  properties:
+                    format:
+                      type: string
+                      description: Specifies the recording resolution format.
+                    size:
+                      type: array
+                      description: 'Recording resolution measured in pixels [Width, Height].'
+                      items:
+                        type: integer
             required:
               - format
               - size

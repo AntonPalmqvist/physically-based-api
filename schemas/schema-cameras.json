@@ -33,6 +33,30 @@
               "default": [36, 24],
               "minItems": 2,
               "maxItems": 2
+            },
+            "resolution": {
+              "description": "Recording resolution measured in pixels [Width, Height]. One sensor size can have multiple recording resolutions.",
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "properties": {
+                  "format": {
+                    "description": "Specifies the recording resolution format.",
+                    "type": "string"
+                  },
+                  "size": {
+                    "description": "Recording resolution measured in pixels [Width, Height].",
+                    "type": "array",
+                    "items": {
+                      "type": "integer"
+                    },
+                    "default": [3000, 2000],
+                    "minItems": 2,
+                    "maxItems": 2
+                  }
+                }
+              }
             }
           },
           "required": ["format", "size"]
