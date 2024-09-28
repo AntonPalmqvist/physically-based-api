@@ -836,58 +836,103 @@
     "tags": [""]
   },
   {
-    "name": "Blackmagic URSA Cine 12K",
+    "name": "Blackmagic URSA Cine 12K LF",
     "sensorSize": [
       {
         "format": "3:2 Open Gate",
-        "size": [35.6352, 23.316]
+        "size": [35.6352, 23.316],
+        "resolution": [
+          { "format": "12K", "size": [12288, 8040] },
+          { "format": "8K", "size": [8192, 5360] },
+          { "format": "4K", "size": [4096, 2680] }
+        ]
       },
       {
         "format": "16:9",
-        "size": [35.6352, 20.04]
+        "size": [35.6352, 20.04],
+        "resolution": [
+          { "format": "12K", "size": [12288, 6912] },
+          { "format": "8K", "size": [8192, 4608] },
+          { "format": "4K", "size": [4096, 2304] }
+        ]
       },
       {
         "format": "17:9",
-        "size": [35.6352, 18.79]
+        "size": [35.6352, 18.79],
+        "resolution": [
+          { "format": "12K", "size": [12288, 6480] },
+          { "format": "8K", "size": [8192, 4320] },
+          { "format": "4K", "size": [4096, 2160] }
+        ]
       },
       {
         "format": "2.4:1",
-        "size": [35.6352, 14.82]
+        "size": [35.6352, 14.82],
+        "resolution": [
+          { "format": "12K", "size": [12288, 5112] },
+          { "format": "8K", "size": [8192, 3408] },
+          { "format": "4K", "size": [4096, 1704] }
+        ]
       },
       {
         "format": "6:5",
-        "size": [27.98, 23.316]
+        "size": [27.98, 23.316],
+        "resolution": [
+          { "format": "12K", "size": [9648, 8040] },
+          { "format": "8K", "size": [6432, 5360] },
+          { "format": "4K", "size": [3216, 2680] }
+        ]
       },
       {
         "format": "Super 35 3:2",
-        "size": [27.28, 18.16]
+        "size": [27.28, 18.16],
+        "resolution": [{ "format": "9K", "size": [9408, 6264] }]
       },
       {
         "format": "Super 35 16:9",
-        "size": [25.2, 14.2]
+        "size": [25.2, 14.2],
+        "resolution": [{ "format": "9K", "size": [8688, 4896] }]
       },
       {
         "format": "Super 35 17:9",
-        "size": [27.0, 14.2]
+        "size": [27.0, 14.2],
+        "resolution": [{ "format": "9K", "size": [9312, 4896] }]
       },
       {
         "format": "Super 35 2.4:1",
-        "size": [27.0, 11.21]
+        "size": [27.0, 11.21],
+        "resolution": [{ "format": "9K", "size": [9312, 3864] }]
       },
       {
         "format": "Super 35 6:5",
-        "size": [22.27, 18.58]
+        "size": [22.27, 18.58],
+        "resolution": [{ "format": "9K", "size": [7680, 6408] }]
       }
     ],
     "category": ["Movie"],
     "description": "",
     "sources": [
       "https://www.blackmagicdesign.com/products/blackmagicursacine/techspecs/W-URSA-60",
+      "https://documents.blackmagicdesign.com/UserManuals/BlackmagicURSACineManual.pdf?_v=1725260410000",
       "https://en.wikipedia.org/wiki/Blackmagic_URSA#URSA_CINE_12K",
       "https://www.youtube.com/live/iI7ZEm-ZbPw?si=FFLiwC3aS4dJ_IL8&t=7485",
       "https://www.cined.com/blackmagic-design-ursa-cine-12k-lf-announced-12k-full-frame-sensor-open-gate-32-new-8tb-dedicated-recording-module-and-more/"
     ],
     "tags": ["full frame"]
+  },
+  {
+    "name": "Blackmagic URSA Cine 17K 65",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [50.808, 23.316],
+        "resolution": [{ "format": "17K", "size": [17520, 8040] }]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://www.blackmagicdesign.com/media/release/20240912-03"],
+    "tags": ["imax"]
   },
   {
     "name": "Blackmagic URSA Mini Pro 4.6K G2",
@@ -1063,16 +1108,109 @@
     "name": "Canon EOS C70",
     "sensorSize": [
       {
-        "format": "Open Gate",
-        "size": [26.2, 13.8]
+        "format": "Super 35",
+        "size": [26.2, 13.8],
+        "resolution": [
+          {
+            "format": "4096x2160",
+            "size": [4096, 2160]
+          }
+        ]
+      },
+      {
+        "format": "Super 16",
+        "size": [24.6, 13.8],
+        "resolution": [
+          {
+            "format": "2048x1080",
+            "size": [2048, 1080]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
     "description": "",
     "sources": [
-      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/eos-c70"
+      "https://www.usa.canon.com/shop/p/eos-c70",
+      "https://gdlp01.c-wss.com/gds/4/0300040134/09/eosc70-im10-en.pdf"
     ],
     "tags": ["super 35"]
+  },
+  {
+    "name": "Canon EOS C80",
+    "sensorSize": [
+      {
+        "format": "Full Frame",
+        "size": [36, 19],
+        "resolution": [
+          {
+            "format": "Full Frame 6000x3164",
+            "size": [6000, 3164]
+          },
+          {
+            "format": "Full Frame 4096x2160",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "Full Frame 2048x1080",
+            "size": [2048, 1080]
+          }
+        ]
+      },
+      {
+        "format": "Full Frame 16:9",
+        "size": [33.8, 19],
+        "resolution": [
+          {
+            "format": "Full Frame 16:9 3840x2160",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Full Frame 16:9 1920x1080",
+            "size": [1920, 1080]
+          }
+        ]
+      },
+      {
+        "format": "Super 35",
+        "size": [26.2, 13.8],
+        "resolution": [
+          {
+            "format": "Super 35 4368x2304",
+            "size": [4368, 2304]
+          },
+          {
+            "format": "Super 35 4096x2160",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "Super 35 2048x1080",
+            "size": [2048, 1080]
+          }
+        ]
+      },
+      {
+        "format": "Super 35 16:9",
+        "size": [24.6, 13.8],
+        "resolution": [
+          {
+            "format": "Super 35 16:9 3840x2160",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Super 35 16:9 1920x1080",
+            "size": [1920, 1080]
+          }
+        ]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.usa.canon.com/shop/p/eos-c80",
+      "https://s7d1.scene7.com/is/content/canon/EOSC80_full_specificationspdf"
+    ],
+    "tags": ["full frame"]
   },
   {
     "name": "Canon EOS C700 FF",
@@ -1364,15 +1502,30 @@
     "sensorSize": [
       {
         "format": "24 mm Main",
-        "size": [9.8, 7.3]
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
       },
       {
         "format": "13 mm Ultra Wide",
-        "size": [5.6, 4.2]
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
       },
       {
         "format": "77 mm Telephoto",
-        "size": [4, 3]
+        "size": [4, 3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
       }
     ],
     "category": ["Mobile"],
@@ -1389,15 +1542,30 @@
     "sensorSize": [
       {
         "format": "24 mm Main",
-        "size": [9.8, 7.3]
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
       },
       {
         "format": "13 mm Ultra Wide",
-        "size": [5.6, 4.2]
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
       },
       {
         "format": "120 mm Telephoto",
-        "size": [4.5, 3.4]
+        "size": [4.5, 3.4],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
       }
     ],
     "category": ["Mobile"],
@@ -1405,6 +1573,86 @@
     "sources": [
       "https://en.wikipedia.org/wiki/IPhone_15_Pro",
       "https://www.dpreview.com/articles/2668153890/apple-s-iphone-15-and-15-pro-imaging-tech-examined",
+      "https://twitter.com/tim_cook/status/1602516736145858561"
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "name": "Iphone 16 Pro",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "120 mm Telephoto",
+        "size": [4.5, 3.4],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/IPhone_16_Pro",
+      "https://www.dpreview.com/news/8163093616/iphone-16-pro-worth-upgrading-13-14-15-apple-cameras",
+      "https://twitter.com/tim_cook/status/1602516736145858561"
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "name": "Iphone 16 Pro Max",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "120 mm Telephoto",
+        "size": [4.5, 3.4],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/IPhone_16_Pro",
+      "https://www.dpreview.com/news/8163093616/iphone-16-pro-worth-upgrading-13-14-15-apple-cameras",
       "https://twitter.com/tim_cook/status/1602516736145858561"
     ],
     "tags": ["phone"]
