@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://physicallybased.info/metatag-dark.jpg">
-    <img alt="Screenshot of the web implementation" src="https://physicallybased.info/metatag.jpg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://physicallybased.info/images/meta/database-dark.jpg">
+    <img alt="Screenshot of the web implementation" src="https://physicallybased.info/images/meta/database.jpg">
   </picture>
   A database of physically based values for CG artists
 </p>
