@@ -28,8 +28,54 @@
     "category": ["Artificial"],
     "description": "",
     "sources": [
-      "https://www.aputure.com/products/amaran-p60c/#specifications",
-      "https://docs.aputure.com/hubfs/Knowledge%20Base/amaran/p60x%20and%20p60c/All%20files/amaran-P60c-Product-Manual-EN_211211-.pdf"
+      "https://help.aputure.com/en/amaran-p60c-p60x/overview-of-p60c-p60x",
+      "https://docs.aputure.com/hubfs/Knowledge%20Base/amaran/p60x%20and%20p60c/All%20files/amaran-P60c-Product-Manual-EN_211211-.pdf",
+      "https://help.aputure.com/en/amaran-p60c-p60x/photometrics-and-technical-specifications"
+    ]
+  },
+  {
+    "name": "Aputure STORM 1200x",
+    "color": [1.0, 0.859, 0.778],
+    "temperature": 5600,
+    "temperatureRange": [2500, 10000],
+    "intensity": 202500,
+    "variants": [
+      {
+        "format": "No Reflector",
+        "color": [1.0, 0.859, 0.778],
+        "temperature": 5600,
+        "angle": 70,
+        "intensity": 76400
+      },
+      {
+        "format": "15º Reflector",
+        "color": [1.0, 0.859, 0.778],
+        "temperature": 5600,
+        "angle": 15,
+        "intensity": 864900
+      },
+      {
+        "format": "30º Reflector",
+        "color": [1.0, 0.859, 0.778],
+        "temperature": 5600,
+        "angle": 30,
+        "intensity": 376200
+      },
+      {
+        "format": "45º Reflector",
+        "color": [1.0, 0.859, 0.778],
+        "temperature": 5600,
+        "angle": 45,
+        "intensity": 202500
+      }
+    ],
+    "unit": ["lx"],
+    "type": ["spot"],
+    "category": ["Artificial"],
+    "description": "",
+    "sources": [
+      "https://aputure.com/EN-US/products/storm-1200x",
+      "https://24055135.fs1.hubspotusercontent-na1.net/hubfs/24055135/Aputure_Storm_1200x_One_Sheet_2024-09-09a.pdf"
     ]
   },
   {
@@ -62,6 +108,23 @@
     "sources": [
       "https://www.arri.com/en/lighting/daylight/m-series/m8",
       "https://www.arri.com/resource/blob/31482/8764688fa9ce88b33bf3f4f48e2fb52a/arri-m-series-m8-data-sheet-en-sep2018-data.pdf"
+    ]
+  },
+  {
+    "name": "Arri SkyPanel S60 Pro",
+    "color": [1.0, 0.859, 0.778],
+    "temperature": 5600,
+    "temperatureRange": [2800, 10000],
+    "intensity": 41100,
+    "sourceSize": [64.5, 30.0],
+    "angle": 103,
+    "unit": ["lm"],
+    "type": ["surface"],
+    "category": ["Artificial"],
+    "description": "",
+    "sources": [
+      "https://www.arri.com/en/lighting/led-panel-lights/skypanel-pro/tech-data",
+      "https://www.arri.com/resource/blob/384436/68055e513496ca273128f1741cc04f92/arri-s60-pro-data-sheet-en-data.pdf"
     ]
   },
   {
@@ -285,6 +348,38 @@
       "https://en.wikipedia.org/wiki/Daylight",
       "http://web.archive.org/web/20120807211236/http://www.npl.co.uk/upload/pdf/npl_summary_report_best_blue_sky_2006.pdf"
     ]
+  },
+  {
+    "name": "ROE Carbon Carbon CB5 MKII RGBCA",
+    "color": [1.0, 0.943, 0.992],
+    "temperature": 6500,
+    "intensity": 4400,
+    "sourceSize": [60, 120],
+    "unit": ["cd/m2"],
+    "type": ["surface"],
+    "category": ["Artificial"],
+    "description": "",
+    "sources": [
+      "https://www.roevisual.com/en/products/carbon-full-spectrum-led-panels",
+      "https://www.roevisual.com/assets/components/roevisual/connector.php?action=api/web/download/136"
+    ],
+    "tags": ["CB5MKII"]
+  },
+  {
+    "name": "ROE Carbon Carbon CB5 MKII RGBW",
+    "color": [1.0, 0.943, 0.992],
+    "temperature": 6500,
+    "intensity": 3200,
+    "sourceSize": [60, 120],
+    "unit": ["cd/m2"],
+    "type": ["surface"],
+    "category": ["Artificial"],
+    "description": "",
+    "sources": [
+      "https://www.roevisual.com/en/products/carbon-full-spectrum-led-panels",
+      "https://www.roevisual.com/assets/components/roevisual/connector.php?action=api/web/download/136"
+    ],
+    "tags": ["CB5MKII"]
   },
   {
     "name": "Sky (Moonless Clear Night)",

@@ -980,7 +980,8 @@
       "https://en.wikipedia.org/wiki/Canon_EOS-1D_X",
       "https://en.wikipedia.org/wiki/Canon_EOS-1D_X_Mark_II",
       "https://en.wikipedia.org/wiki/Canon_EOS-1D_X_Mark_III",
-      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/eos-dslr-and-mirrorless-cameras/dslr/eos-1d-x-mark-iii"
+      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/eos-dslr-and-mirrorless-cameras/dslr/eos-1d-x-mark-iii",
+      "https://github.com/wetadigital/physlight/blob/main/data/Canon_EOS_1DX_Mark_II_380_780_5.json"
     ],
     "tags": ["full frame"]
   },
@@ -1010,7 +1011,7 @@
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Canon_EOS_5D_Mark_IV",
-      "https://github.com/wetadigital/physlight/blob/main/data/canon_eos-5d-mkiv_380_720_10.json",
+      "https://github.com/wetadigital/physlight/blob/main/data/Canon_EOS_5D_Mark_IV_380_780_5.json",
       "https://gdlp01.c-wss.com/gds/0/0300024970/07/eos5d-mk4-im8-en.pdf"
     ],
     "tags": ["full frame"]
@@ -1056,7 +1057,6 @@
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Canon_EOS_C300",
-      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/eos-c300",
       "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/eos-c300-mark-iii-digital-cinema-camera",
       "https://gdlp01.c-wss.com/gds/5/0300042345/08/eosc300mk3-500mk2-im13-en.pdf",
       "https://www.canon-europe.com/video-cameras/eos-c300-mark-iii/specifications/"
@@ -1240,7 +1240,8 @@
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Canon_EOS_R5",
-      "https://www.usa.canon.com/shop/p/eos-r5"
+      "https://www.usa.canon.com/shop/p/eos-r5",
+      "https://github.com/wetadigital/physlight/blob/main/data/Canon_EOS_R5_380_780_5.json"
     ],
     "tags": ["full frame"]
   },
@@ -1270,7 +1271,7 @@
     "sources": [
       "https://www.hasselblad.com/collaborations/dji-mavic-2-pro/",
       "https://forum.dji.com/forum.php?mod=redirect&goto=findpost&ptid=167017&pid=1576410",
-      "https://github.com/wetadigital/physlight/blob/main/data/hasselblad_l1d-20c_380_720_10.json"
+      "https://github.com/wetadigital/physlight/blob/main/data/Hasselblad_L1D-20c_380_780_5.json"
     ],
     "tags": ["drone", "Hasselblad L1D-20c"]
   },
@@ -1703,7 +1704,7 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Nikon_D850",
       "https://www.nikonusa.com/en/nikon-products/product/dslr-cameras/d850.html#tab-ProductDetail-ProductTabs-TechSpecs",
-      "https://github.com/wetadigital/physlight/blob/main/data/nikon_d850_380_720_10.json"
+      "https://github.com/wetadigital/physlight/blob/main/data/Nikon_D850_380_780_5.json"
     ],
     "tags": ["full frame"]
   },
@@ -1720,6 +1721,22 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Nikon_Z_9",
       "https://www.nikonusa.com/en/nikon-products/product/mirrorless-cameras/z-9.html#tab-ProductDetail-ProductTabs-TechSpecs"
+    ],
+    "tags": ["full frame"]
+  },
+  {
+    "name": "Panasonic AW-UB50",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.6, 23.8]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://connect.na.panasonic.com/av/video/multi-purpose-camera/aw-ub50-ub10",
+      "https://43645300.fs1.hubspotusercontent-na1.net/hubfs/43645300/PCONA%20-%20United%20States/PIVS/Professional%20Video%20-%20Product%20Images/Multi-purpose%20Box%20Camera/AW-UB10_UB50_Flyer_E_240822.pdf"
     ],
     "tags": ["full frame"]
   },
@@ -3974,7 +3991,7 @@
     "sources": [
       "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce9-b",
       "https://en.wikipedia.org/wiki/Sony_α9",
-      "https://github.com/wetadigital/physlight/blob/main/data/sony_ilce-9_380_720_10.json"
+      "https://github.com/wetadigital/physlight/blob/main/data/Sony_ILCE-9_380_780_5.json"
     ],
     "tags": ["full frame", "a9", "ilce-9"]
   },
