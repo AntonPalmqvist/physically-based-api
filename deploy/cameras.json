@@ -1362,6 +1362,22 @@
     "tags": ["medium format"]
   },
   {
+    "name": "Fujifilm GFX Eterna",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [43.8, 32.9]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.fujifilm.com/us/en/news/digital-cameras/fujifilm-first-digital-filmmaking-camera-gfx-eterna",
+      "https://www.dpreview.com/news/9178470454/fujifilm-gfx-eterna-cinema-camera-medium-format-sensor"
+    ],
+    "tags": ["full frame"]
+  },
+  {
     "name": "Fujifilm X-H2",
     "sensorSize": [
       {

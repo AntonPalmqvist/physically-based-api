@@ -13,6 +13,31 @@
       name="google-site-verification"
       content="U2EED-cL3HjaIzPZpQPxEpBMokNh9eNig9VtsDKLoms"
     />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://api.physicallybased.info/" />
+    <meta property="og:title" content="The PBR Database API" />
+    <meta
+      property="og:description"
+      content="A database of physically based values for CG artists."
+    />
+    <meta
+      property="og:image"
+      content="https://api.physicallybased.info/assets/img/metatag.jpg"
+    />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://api.physicallybased.info/" />
+    <meta property="twitter:title" content="The PBR Database API" />
+    <meta
+      property="twitter:description"
+      content="A database of physically based values for CG artists."
+    />
+    <meta
+      property="twitter:image"
+      content="https://api.physicallybased.info/assets/img/metatag.jpg"
+    />
+
     <!-- Configuration options: https://docs.stoplight.io/docs/elements/b074dc47b2826-elements-configuration-options -->
     <script
       defer
@@ -24,8 +49,9 @@
     <link rel="icon" type="image/png" href="assets/img/favicon.png" />
   </head>
   <body>
+    <!-- apiDescriptionUrl must point to a web resource, and not to a static file, so it doesn't give an error when going back and forth on the site -->
     <elements-api
-      apiDescriptionUrl="openapi-schema.yaml"
+      apiDescriptionUrl="https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/refs/heads/main/deploy/openapi-schema.yaml"
       hideSchemas="true"
       hideExport="true"
       layout="responsive"

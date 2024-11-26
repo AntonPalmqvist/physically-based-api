@@ -34,6 +34,48 @@
     ]
   },
   {
+    "name": "Aputure STORM 1000c",
+    "color": [1.0, 0.859, 0.778],
+    "temperature": 5600,
+    "temperatureRange": [1800, 20000],
+    "intensity": 600000,
+    "variants": [
+      {
+        "format": "No Reflector",
+        "color": [1.0, 0.859, 0.778],
+        "temperature": 5600,
+        "angle": 65,
+        "intensity": 61250
+      },
+      {
+        "format": "15º Reflector",
+        "color": [1.0, 0.859, 0.778],
+        "temperature": 5600,
+        "angle": 15,
+        "intensity": 600000
+      },
+      {
+        "format": "30º Reflector",
+        "color": [1.0, 0.859, 0.778],
+        "temperature": 5600,
+        "angle": 30,
+        "intensity": 250000
+      },
+      {
+        "format": "45º Reflector",
+        "color": [1.0, 0.859, 0.778],
+        "temperature": 5600,
+        "angle": 45,
+        "intensity": 125000
+      }
+    ],
+    "unit": ["lx"],
+    "type": ["spot"],
+    "category": ["Artificial"],
+    "description": "",
+    "sources": ["https://aputure.com/products/storm-1000c"]
+  },
+  {
     "name": "Aputure STORM 1200x",
     "color": [1.0, 0.859, 0.778],
     "temperature": 5600,
