@@ -1,0 +1,14 @@
+[
+  {
+    "subject": "Toner (black)",
+    "author": "https://github.com/AntonPalmqvist",
+    "notes": "Black toner printed on office paper with linear sRGB values of 0, 0, 0.",
+    "device": "Nix Spectro 2",
+    "illuminant": "D65",
+    "observer": 10,
+    "measuringMode": "M2",
+    "srgb-linear": [0.05, 0.05, 0.05],
+    "ciexyz-d65": [0.0472, 0.0501, 0.0528],
+    "cielab-d65": [26.7632, -0.4838, 0.8023]
+  }
+]

@@ -734,6 +734,39 @@
     ]
   },
   {
+    "name": "MIT Black",
+    "color": [0.00005, 0.00005, 0.00005],
+    "metalness": 0,
+    "roughness": 0.99,
+    "ior": 1.5,
+    "density": 0,
+    "category": ["Manmade"],
+    "description": "",
+    "sources": ["https://news.mit.edu/2019/blackest-black-material-cnt-0913"],
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/mit-black.jpeg"
+    ]
+  },
+  {
+    "name": "Musou Black",
+    "color": [0.006, 0.006, 0.006],
+    "metalness": 0,
+    "roughness": 0.9,
+    "ior": 1.5,
+    "density": 0,
+    "category": ["Manmade"],
+    "description": "Musou Black is one of the darkest paints available. Darker materials can be achieved by using technology such as carbon nanotubes, like the MIT Black material.",
+    "sources": [
+      "https://www.musoublack.com/pages/product-specifications",
+      "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/musou-black/"
+    ],
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/musou-black.jpeg"
+    ]
+  },
+  {
     "name": "Nickel",
     "color": [0.649, 0.61, 0.541],
     "metalness": 1,
@@ -1291,6 +1324,24 @@
     "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/titanium.jpeg"
+    ]
+  },
+  {
+    "name": "Toner (black)",
+    "color": [0.05, 0.05, 0.05],
+    "metalness": 0,
+    "roughness": 0.5,
+    "ior": 1.5,
+    "density": 0,
+    "category": ["Manmade"],
+    "description": "Black toner printed on office paper with linear sRGB values of 0, 0, 0.",
+    "sources": [
+      "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/toner-black/",
+      "https://en.wikipedia.org/wiki/Toner_(printing)"
+    ],
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/toner-black.jpeg"
     ]
   },
   {
