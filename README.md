@@ -18,6 +18,30 @@ Read about how to contribute here: [CONTRIBUTING.md](CONTRIBUTING.md)
 - Web [https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [gkjohnson](https://github.com/gkjohnson)
 - Web [https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html](https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html) by [kwokcb](https://github.com/kwokcb)
 
+<!-- ## Shader Ball
+
+The shaderball scene used to render the images is available to download below.
+
+<table>
+<tr>
+<td align="center">
+<a href="#">
+<img alt="Shader ball with gold material applied." src="https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/refs/heads/main/images/renders/cycles/300/gold.webp" /></a>
+<p><a href="#">Blender</a></p>
+</td>
+<td align="center">
+<a href="#">
+<img alt="Shader ball with gold material applied." src="https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/refs/heads/main/images/renders/cycles/300/gold.webp" /></a>
+<p><a href="#">Maya</a></p>
+</td>
+<td align="center">
+<a href="#">
+<img alt="Shader ball with gold material applied." src="https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/refs/heads/main/images/renders/cycles/300/gold.webp" /></a>
+<p><a href="#">Unreal Engine</a></p>
+</td>
+</tr>
+</table> -->
+
 ## License Information
 
 The database is made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes.
