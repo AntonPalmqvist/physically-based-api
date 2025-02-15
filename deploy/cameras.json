@@ -924,14 +924,21 @@
     "name": "Blackmagic URSA Cine 17K 65",
     "sensorSize": [
       {
-        "format": "Open Gate",
+        "format": "2.2:1 open gate",
         "size": [50.808, 23.316],
-        "resolution": [{ "format": "17K", "size": [17520, 8040] }]
+        "resolution": [
+          { "format": "17K", "size": [17520, 8040] },
+          { "format": "8K", "size": [11680, 5360] },
+          { "format": "4K", "size": [5840, 2680] }
+        ]
       }
     ],
     "category": ["Movie"],
     "description": "",
-    "sources": ["https://www.blackmagicdesign.com/media/release/20240912-03"],
+    "sources": [
+      "https://www.blackmagicdesign.com/products/blackmagicursacine/techspecs/W-URSA-63",
+      "https://en.wikipedia.org/wiki/Blackmagic_URSA#URSA_CINE_17K"
+    ],
     "tags": ["imax"]
   },
   {
