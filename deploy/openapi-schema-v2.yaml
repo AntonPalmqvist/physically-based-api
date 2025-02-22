@@ -1,6 +1,6 @@
 openapi: 3.1.0
 info:
-  version: '1.4'
+  version: '2.0'
   title: Physically Based API
   description: |-
     This is a database of physically based values for CG artists.
@@ -19,7 +19,7 @@ info:
     url: 'https://creativecommons.org/publicdomain/zero/1.0/legalcode'
     name: CC0 1.0
 servers:
-  - url: 'https://api.physicallybased.info'
+  - url: 'https://api.physicallybased.info/v2'
 paths:
   /materials:
     get:
@@ -39,7 +39,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/Material'
       servers:
-        - url: 'https://api.physicallybased.info'
+        - url: 'https://api.physicallybased.info/v2'
   /lightsources:
     get:
       tags:
@@ -57,7 +57,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/Lightsource'
       servers:
-        - url: 'https://api.physicallybased.info'
+        - url: 'https://api.physicallybased.info/v2'
   /cameras:
     get:
       tags:
@@ -75,17 +75,34 @@ paths:
               schema:
                 $ref: '#/components/schemas/Camera'
       servers:
-        - url: 'https://api.physicallybased.info'
+        - url: 'https://api.physicallybased.info/v2'
+  /lenses:
+    get:
+      tags:
+        - Lenses
+      summary: Get lenses
+      description: Gets an array of all lenses.
+      operationId: get-lenses
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Lens'
+      servers:
+        - url: 'https://api.physicallybased.info/v2'
 tags:
-  - name: Materials
-  - name: Light Sources
   - name: Cameras
+  - name: Light Sources
+  - name: Materials
+  - name: Lenses
 components:
   schemas:
     Material:
       type: object
       title: Material
-      description: 'PBR material using the Autodesk Standard Surface naming conventions: https://autodesk.github.io/standard-surface/'
+      description: PBR material.
       additionalProperties: false
       properties:
         name:
@@ -94,7 +111,7 @@ components:
           default: Name
         color:
           $ref: '#/components/schemas/color'
-          description: 'The albedo of non-metals, or reflection color of metals, RGB triplet in linear decimal format with rec709 primaries.'
+          description: 'Specifies the diffuse or metallic reflectance color, or in the case of a transparent material, transmission color. RGB triplet in decimal format in linear sRGB color space.'
         metalness:
           type: number
           description: Specifies how metallic the material appears (dials the shading model from pure dielectric to pure metal).
@@ -130,20 +147,18 @@ components:
         thinFilmIor:
           type: number
           description: The index of refraction of the thin-film.
-          default: 1.5
         density:
-          type: number
-          description: Density measured in kg/m3.
-        densityRange:
           type: array
-          description: The typical range of density.
+          description: 'Density measured in kg/m3. If there''s no variation, then set both values to the same.'
           minItems: 2
           maxItems: 2
           items:
             type: number
         viscosity:
-          type: number
-          description: Dynamic viscosity measured in millipascal-seconds (mPa⋅s) at a temperature of 20°C. 1 mPa⋅s (millipascal-second) = 1 cP (centipoise). Used for fluid simulations.
+          type: array
+          description: 'Dynamic viscosity measured in millipascal-seconds (mPa⋅s) at a temperature of 20°C. 1 mPa⋅s (millipascal-second) = 1 cP (centipoise). Used for fluid simulations. If there''s no variation, then set both values to the same.'
+          items:
+            type: number
         acousticAbsorption:
           type: array
           description: 'Absorption coefficients at 125, 250, 500, 1000, 2000, and 4000 kHz.'
@@ -167,29 +182,48 @@ components:
               - Metal
               - Organic
               - Plastic
-        group:
-          type: string
-          description: 'Can be used to group similar materials together. For example, Skin I, Skin II, and Skin III would be part of the same group: Skin.'
+        images:
+          type: array
+          description: Image of the material rendered on a shader ball provided in different sizes and file formats.
+          minItems: 1
+          items:
+            type: object
+            additionalProperties: false
+            properties:
+              '300':
+                type: string
+                description: A URL to the image at 300x300 pixels.
+              '600':
+                type: string
+                description: A URL to the image at 600x600 pixels.
+              format:
+                type: string
+                description: Specifies the image format.
+                default: jpeg
+            required:
+              - '300'
+              - '600'
+              - format
         description:
           $ref: '#/components/schemas/description'
-        sources:
-          $ref: '#/components/schemas/sources'
+          description: This field should be used for disclaimers and other useful info for CG artists that may affect the way they use the values.
         tags:
           $ref: '#/components/schemas/tags'
-        reference:
+        references:
           type: array
-          description: Links to reference images.
+          description: List of references. At least one reference needed.
+          minItems: 1
           uniqueItems: true
           items:
-            type: string
-            format: uri
+            $ref: '#/components/schemas/reference'
       required:
         - name
         - color
         - metalness
         - roughness
         - category
-        - sources
+        - images
+        - references
       examples:
         - name: Aluminum
           color:
@@ -235,15 +269,6 @@ components:
       title: description
       description: This field should be used for disclaimers and other useful info for CG artists that may affect the way they use the values. It's totally fine to leave this empty.
       maxLength: 500
-    sources:
-      type: array
-      title: sources
-      description: Provide at least one source for the values.
-      minItems: 1
-      uniqueItems: true
-      items:
-        type: string
-        format: uri
     tags:
       type: array
       title: tags
@@ -251,6 +276,44 @@ components:
       uniqueItems: true
       items:
         type: string
+    reference:
+      type: object
+      title: reference
+      properties:
+        title:
+          type: string
+          description: 'Title of book, journal article, or website.'
+        author:
+          type: string
+          description: 'Name(s) of the authors of a book or journal article, or in the case of a webpage, the person or company that created the webpage.'
+        url:
+          type: string
+          description: 'Link to website, or other web resource where the information was found. If the link is to a DOI, then use the "doi" field instead.'
+        publisher:
+          type: string
+          description: Name of publisher or journal where published.
+        volume:
+          type: string
+          description: 'Volume number. In relation to periodicals, volume refers to all the issues of a specific journal or magazine for a limited time period, usually one year. For books, volume indicates the order of a book in a series or set.'
+        issue:
+          type: string
+          description: Issue number. The issue number refers to the number of individual publications during the year.
+        pages:
+          type: string
+          description: Page in book or journal article.
+        year:
+          type: string
+          description: 'Year of publication. For webpages, use "accessed" instead.'
+        accessed:
+          type: string
+          description: Date the webpage was accessed.
+          format: date
+        doi:
+          type: string
+          description: Link to Digital Object Identifier (DOI).
+      required:
+        - title
+        - url
     Lightsource:
       type: object
       title: Lightsource
@@ -263,24 +326,18 @@ components:
           default: Name
         color:
           $ref: '#/components/schemas/color'
-          description: Color of the light source.
+          description: 'Color of the light source, if not on the Planckian curve.'
         temperature:
-          type: number
-          description: 'Color temperature in Kelvin, if color lies on the Planckian curve.'
-          default: 6500
-        temperatureRange:
           type: array
-          description: The typical range of color temperature for this specific light source.
-          minItems: 2
+          description: 'The typical range of color temperature in Kelvin, if color lies on the Planckian curve. If there''s no variation, only set one value.'
+          minItems: 1
           maxItems: 2
           items:
             type: number
         intensity:
-          type: number
-        intensityRange:
           type: array
-          description: The typical range of intensity for this specific light source.
-          minItems: 2
+          description: 'The typical range of intensity for this specific light source. If there''s no variation, only set one value.'
+          minItems: 1
           maxItems: 2
           items:
             type: number
@@ -304,43 +361,6 @@ components:
           maxItems: 2
           items:
             type: number
-        variants:
-          type: array
-          description: 'If the light source comes in different variations, they can be described here.'
-          minItems: 1
-          uniqueItems: true
-          items:
-            type: object
-            additionalProperties: false
-            properties:
-              format:
-                type: string
-                description: Specifies the format.
-              color:
-                $ref: '#/components/schemas/color'
-                description: Color of the light source.
-              temperature:
-                type: number
-                description: 'Color temperature in Kelvin, if color lies on the Planckian curve.'
-                default: 6500
-              intensity:
-                type: number
-                description: Intensity of the light emitted from the light source.
-              angle:
-                type: number
-                description: 'The maximum beam angle in degrees. For a directional light, this specifies angular diameter instead.'
-                default: 90
-              sourceSize:
-                type: array
-                description: 'The size of the light source in centimeters. [Radius] if point or spot. [Width, Height] if surface. [Length, Radius] if cylinder.'
-                minItems: 1
-                maxItems: 2
-                items:
-                  type: number
-            required:
-              - format
-              - color
-              - intensity
         type:
           type: array
           description: 'The type of light, for DCC applications.'
@@ -372,7 +392,6 @@ components:
           $ref: '#/components/schemas/tags'
       required:
         - name
-        - color
         - intensity
         - unit
         - category
@@ -404,6 +423,15 @@ components:
           tags:
             - incandescent
             - tungsten
+    sources:
+      type: array
+      title: sources
+      description: Provide at least one source for the values.
+      minItems: 1
+      uniqueItems: true
+      items:
+        type: string
+        format: uri
     Camera:
       type: object
       title: Camera
@@ -588,3 +616,43 @@ components:
             - 'https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf'
           tags:
             - ''
+    Lens:
+      type: object
+      title: Lens
+      description: 'Any type of lens that is being used, or simulated, in any way in CG productions (including games).'
+      properties:
+        name:
+          type: string
+        focalLength:
+          type: array
+          description: 'Min and max focal length in millimeters. If it''s a prime lens, set the same value twice.'
+          minItems: 2
+          maxItems: 2
+          items:
+            type: number
+        aperture:
+          type: array
+          description: Max and min aperture size.
+          minItems: 2
+          maxItems: 2
+          items:
+            type: number
+        blades:
+          type: integer
+          description: Number of diaphragm blades.
+        closeFocus:
+          type: number
+          description: Shortest distance from the sensor to the subject that the lens can achieve focus. Specified in centimeters.
+        description:
+          $ref: '#/components/schemas/description'
+        sources:
+          $ref: '#/components/schemas/sources'
+          description: Provide at least one source for the values. Source link to official manufacturer website is preferred.
+        tags:
+          $ref: '#/components/schemas/tags'
+      required:
+        - name
+        - focalLength
+        - aperture
+        - blades
+        - sources
