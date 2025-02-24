@@ -27,6 +27,10 @@
         "url": "/schemas/schema-cameras.json"
       },
       {
+        "fileMatch": ["/deploy/v2/cameras.json"],
+        "url": "/schemas/schema-cameras-v2.json"
+      },
+      {
         "fileMatch": ["/deploy/v2/lenses.json"],
         "url": "/schemas/schema-lenses-v2.json"
       }

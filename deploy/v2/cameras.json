@@ -118,14 +118,26 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.arri.com/en/camera-systems/cameras/alexa-35",
-      "https://www.arri.com/en/camera-systems/cameras/alexa-35/alexa-35-recording-formats",
-      "https://www.arri.com/resource/blob/296424/88454a5a3dee9fe1d3fd68e75aa3411e/alexa-35-recording-format-poster-data.pdf",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
-    ],
-    "tags": [""]
+    "references": [
+      {
+        "title": "ALEXA 35 | Camera Systems | ARRI",
+        "publisher": "ARRI GmbH",
+        "url": "https://www.arri.com/en/camera-systems/cameras/alexa-35/alexa-35-recording-formats",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "ALEXA 35 Recording Formats",
+        "publisher": "ARRI GmbH",
+        "url": "https://www.arri.com/resource/blob/296424/88454a5a3dee9fe1d3fd68e75aa3411e/alexa-35-recording-format-poster-data.pdf",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
+        "publisher": "ARRI GmbH",
+        "url": "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf",
+        "accessed": "2025-02-22"
+      }
+    ]
   },
   {
     "name": "Arri Alexa 65",
@@ -182,11 +194,26 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.arrirental.com/en/cameras/exclusive-cameras/alexa-65",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf",
-      "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
+    "references": [
+      {
+        "title": "ARRI Rental | ALEXA 65",
+        "publisher": "ARRI GmbH",
+        "url": "https://www.arrirental.com/en/cameras/exclusive-cameras/alexa-65",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
+        "publisher": "ARRI GmbH",
+        "url": "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "IMAX",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IMAX&oldid=1275572464#Film_cameras",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["imax"]
   },
@@ -255,10 +282,19 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.arri.com/en/camera-systems/cameras/amira",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
+    "references": [
+      {
+        "title": "AMIRA | Camera Systems | ARRI",
+        "publisher": "ARRI GmbH",
+        "url": "https://www.arri.com/en/camera-systems/cameras/amira",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
+        "publisher": "ARRI GmbH",
+        "url": "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -317,11 +353,26 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.arri.com/en/camera-systems/cameras/alexa-lf",
-      "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
+    "references": [
+      {
+        "title": "ALEXA LF | Camera Systems | ARRI",
+        "publisher": "ARRI GmbH",
+        "url": "https://www.arri.com/en/camera-systems/cameras/alexa-lf",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "IMAX",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IMAX&oldid=1275572464#Film_cameras",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
+        "publisher": "ARRI GmbH",
+        "url": "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35", "imax"]
   },
@@ -430,10 +481,19 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-mini",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
+    "references": [
+      {
+        "title": "ALEXA Mini | Camera Systems | ARRI",
+        "publisher": "ARRI GmbH",
+        "url": "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-mini",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
+        "publisher": "ARRI GmbH",
+        "url": "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -544,11 +604,26 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.arri.com/en/camera-systems/cameras/alexa-mini-lf",
-      "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
+    "references": [
+      {
+        "title": "ALEXA Mini LF | Camera Systems | ARRI",
+        "publisher": "ARRI GmbH",
+        "url": "https://www.arri.com/en/camera-systems/cameras/alexa-mini-lf",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "IMAX",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IMAX&oldid=1275572464#Film_cameras",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
+        "publisher": "ARRI GmbH",
+        "url": "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35", "imax"]
   },
@@ -677,10 +752,19 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-sxt-w",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
+    "references": [
+      {
+        "title": "ALEXA SXT W | Camera Systems | ARRI",
+        "publisher": "ARRI GmbH",
+        "url": "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-sxt-w",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
+        "publisher": "ARRI GmbH",
+        "url": "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -699,11 +783,14 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.blackmagicdesign.com/products/blackmagiccinemacamera/techspecs/W-CIN-20"
-    ],
-    "tags": [""]
+    "references": [
+      {
+        "title": "Blackmagic Cinema Camera 6K Technical Specifications",
+        "publisher": "Blackmagic Design Pty. Ltd.",
+        "url": "https://www.blackmagicdesign.com/products/blackmagiccinemacamera/techspecs/W-CIN-20",
+        "accessed": "2025-02-22"
+      }
+    ]
   },
   {
     "name": "Blackmagic Micro Studio Camera 4K G2",
@@ -720,9 +807,13 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.blackmagicdesign.com/products/blackmagicmicrostudiocamera/techspecs/W-CST-14"
+    "references": [
+      {
+        "title": "Blackmagic Micro Studio Camera 4K G2 Technical Specifications",
+        "publisher": "Blackmagic Design Pty. Ltd.",
+        "url": "https://www.blackmagicdesign.com/products/blackmagicmicrostudiocamera/techspecs/W-CST-14",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["four thirds"]
   },
@@ -741,9 +832,13 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.blackmagicdesign.com/products/blackmagicpocketcinemacamera/techspecs/W-CIN-12"
+    "references": [
+      {
+        "title": "Blackmagic Pocket Cinema Camera 4K Technical Specifications",
+        "publisher": "Blackmagic Design Pty. Ltd.",
+        "url": "https://www.blackmagicdesign.com/products/blackmagicpocketcinemacamera/techspecs/W-CIN-12",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["four thirds"]
   },
@@ -762,9 +857,13 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.blackmagicdesign.com/products/blackmagicpocketcinemacamera/techspecs/W-CIN-15"
+    "references": [
+      {
+        "title": "Blackmagic Pocket Cinema Camera 6K Pro Technical Specifications",
+        "publisher": "Blackmagic Design Pty. Ltd.",
+        "url": "https://www.blackmagicdesign.com/products/blackmagicpocketcinemacamera/techspecs/W-CIN-15",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -783,9 +882,13 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.blackmagicdesign.com/products/blackmagicpyxis/techspecs/W-BOX-01"
+    "references": [
+      {
+        "title": "Blackmagic PYXIS 6K Technical Specifications",
+        "publisher": "Blackmagic Design Pty. Ltd.",
+        "url": "https://www.blackmagicdesign.com/products/blackmagicpyxis/techspecs/W-BOX-01",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame"]
   },
@@ -804,9 +907,13 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.blackmagicdesign.com/products/blackmagicstudiocamera/techspecs/W-CST-13"
+    "references": [
+      {
+        "title": "Blackmagic Studio Camera 4K Plus G2 Technical Specifications",
+        "publisher": "Blackmagic Design Pty. Ltd.",
+        "url": "https://www.blackmagicdesign.com/products/blackmagicstudiocamera/techspecs/W-CST-13",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["four thirds"]
   },
@@ -825,9 +932,13 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.blackmagicdesign.com/products/blackmagicstudiocamera/techspecs/W-CST-12"
+    "references": [
+      {
+        "title": "Blackmagic Studio Camera 4K Pro G2 Technical Specifications",
+        "publisher": "Blackmagic Design Pty. Ltd.",
+        "url": "https://www.blackmagicdesign.com/products/blackmagicstudiocamera/techspecs/W-CST-12",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["four thirds"]
   },
@@ -846,9 +957,13 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.blackmagicdesign.com/products/blackmagicstudiocamera/techspecs/W-CST-11"
+    "references": [
+      {
+        "title": "Blackmagic Studio Camera 6K Pro Technical Specifications",
+        "publisher": "Blackmagic Design Pty. Ltd.",
+        "url": "https://www.blackmagicdesign.com/products/blackmagicstudiocamera/techspecs/W-CST-11",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -867,12 +982,21 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.blackmagicdesign.com/products/blackmagicursabroadcast/techspecs/W-URSA-38",
-      "https://en.wikipedia.org/wiki/Blackmagic_URSA#URSA_Broadcast_G2"
-    ],
-    "tags": [""]
+    "references": [
+      {
+        "title": "Blackmagic URSA Broadcast G2 Technical Specifications",
+        "publisher": "Blackmagic Design Pty. Ltd.",
+        "url": "https://www.blackmagicdesign.com/products/blackmagicursabroadcast/techspecs/W-URSA-38",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Blackmagic URSA",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Blackmagic_URSA&oldid=1276978178#URSA_Broadcast_G2",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
+    ]
   },
   {
     "name": "Blackmagic URSA Cine 12K LF",
@@ -949,13 +1073,33 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.blackmagicdesign.com/products/blackmagicursacine/techspecs/W-URSA-60",
-      "https://documents.blackmagicdesign.com/UserManuals/BlackmagicURSACineManual.pdf?_v=1725260410000",
-      "https://en.wikipedia.org/wiki/Blackmagic_URSA#URSA_CINE_12K",
-      "https://www.youtube.com/live/iI7ZEm-ZbPw?si=FFLiwC3aS4dJ_IL8&t=7485",
-      "https://www.cined.com/blackmagic-design-ursa-cine-12k-lf-announced-12k-full-frame-sensor-open-gate-32-new-8tb-dedicated-recording-module-and-more/"
+    "references": [
+      {
+        "title": "Blackmagic URSA Cine 12K LF Technical Specifications",
+        "publisher": "Blackmagic Design Pty. Ltd.",
+        "url": "https://www.blackmagicdesign.com/products/blackmagicursacine/techspecs/W-URSA-60",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Blackmagic URSA Cine Manual",
+        "publisher": "Blackmagic Design Pty. Ltd.",
+        "url": "https://documents.blackmagicdesign.com/UserManuals/BlackmagicURSACineManual.pdf?_v=1725260410000",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Blackmagic URSA",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Blackmagic_URSA&oldid=1276978178#URSA_CINE_12K",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Blackmagic URSA Cine 12K LF Announced - 12K Full-Frame Sensor, Open-Gate 3:2, New 8TB Dedicated Recording Module",
+        "author": "Hohenthaner, A.",
+        "url": "https://www.cined.com/blackmagic-design-ursa-cine-12k-lf-announced-12k-full-frame-sensor-open-gate-32-new-8tb-dedicated-recording-module-and-more/",
+        "publisher": "CineD",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame"]
   },
@@ -973,10 +1117,20 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.blackmagicdesign.com/products/blackmagicursacine/techspecs/W-URSA-63",
-      "https://en.wikipedia.org/wiki/Blackmagic_URSA#URSA_CINE_17K"
+    "references": [
+      {
+        "title": "Blackmagic URSA Cine 17K 65 Technical Specifications",
+        "publisher": "Blackmagic Design Pty. Ltd.",
+        "url": "https://www.blackmagicdesign.com/products/blackmagicursacine/techspecs/W-URSA-63",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Blackmagic URSA",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Blackmagic_URSA&oldid=1276978178#URSA_CINE_17K",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["imax"]
   },
@@ -988,17 +1142,27 @@
         "size": [25.34, 14.25],
         "resolution": [
           {
-            "format": "Open Gate 6K",
+            "format": "4.6K",
             "size": [4608, 2592]
           }
         ]
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs/W-URSA-34",
-      "https://en.wikipedia.org/wiki/Blackmagic_URSA#URSA_Mini_Pro_4.6K_G2"
+    "references": [
+      {
+        "title": "Blackmagic URSA Mini Pro 4.6K G2 Technical Specifications",
+        "publisher": "Blackmagic Design Pty. Ltd.",
+        "url": "https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs/W-URSA-34",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Blackmagic URSA",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Blackmagic_URSA&oldid=1276978178#URSA_Mini_Pro_4.6K_G2",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -1025,10 +1189,20 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs/W-URSA-36",
-      "https://en.wikipedia.org/wiki/Blackmagic_URSA#URSA_Mini_Pro_12K"
+    "references": [
+      {
+        "title": "Blackmagic URSA Mini Pro 12K Technical Specifications",
+        "publisher": "Blackmagic Design Pty. Ltd.",
+        "url": "https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs/W-URSA-36",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Blackmagic URSA",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Blackmagic_URSA&oldid=1276978178#URSA_Mini_Pro_12K",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -1059,13 +1233,41 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Canon_EOS-1D_X",
-      "https://en.wikipedia.org/wiki/Canon_EOS-1D_X_Mark_II",
-      "https://en.wikipedia.org/wiki/Canon_EOS-1D_X_Mark_III",
-      "https://www.canon-europe.com/for_home/product_finder/cameras/digital_slr/eos_1dx/specifications/",
-      "https://github.com/wetadigital/physlight/blob/main/data/Canon_EOS_1DX_Mark_II_380_780_5.json"
+    "references": [
+      {
+        "title": "Canon EOS-1D X Specifications",
+        "publisher": "Canon Europe Ltd",
+        "url": "https://www.canon-europe.com/for_home/product_finder/cameras/digital_slr/eos_1dx/specifications/",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Canon EOS-1D X",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Canon_EOS-1D_X&oldid=1267325046",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Canon EOS-1D X Mark II",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Canon_EOS-1D_X_Mark_II&oldid=1267325048",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Canon EOS-1D X Mark III",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Canon_EOS-1D_X_Mark_III&oldid=1261000754",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Canon EOS-1D X Mark II Camera Spectral Sensitivity Data",
+        "author": "Contributors to the PhysLight Project",
+        "url": "https://github.com/wetadigital/physlight/blob/main/data/Canon_EOS_1DX_Mark_II_380_780_5.json",
+        "publisher": "Wētā FX",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame"]
   },
@@ -1092,11 +1294,33 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Canon_EOS_5D_Mark_IV",
-      "https://github.com/wetadigital/physlight/blob/main/data/Canon_EOS_5D_Mark_IV_380_780_5.json",
-      "https://gdlp01.c-wss.com/gds/0/0300024970/07/eos5d-mk4-im8-en.pdf"
+    "references": [
+      {
+        "title": "Canon EOS 5D Mark IV Specifications",
+        "publisher": "Canon Europe Ltd",
+        "url": "https://www.canon-europe.com/cameras/eos-5d-mark-iv/specifications/",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Canon EOS 5D Mark IV Instruction Manual",
+        "publisher": "Canon Inc.",
+        "url": "https://gdlp01.c-wss.com/gds/0/0300024970/07/eos5d-mk4-im8-en.pdf",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Canon EOS 5D Mark IV",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Canon_EOS_5D_Mark_IV&oldid=1267325037",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Canon EOS 5D Mark IV Camera Spectral Sensitivity Data",
+        "author": "Contributors to the PhysLight Project",
+        "url": "https://github.com/wetadigital/physlight/blob/main/data/Canon_EOS_5D_Mark_IV_380_780_5.json",
+        "publisher": "Wētā FX",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame"]
   },
@@ -1123,10 +1347,20 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Canon_EOS_90D",
-      "https://canoncanada.custhelp.com/app/answers/answer_view/a_id/1031111/~/specifications-%28eos-90d%29"
+    "references": [
+      {
+        "title": "Canon EOS 90D Specifications",
+        "publisher": "Canon Europe Ltd",
+        "url": "https://www.canon-europe.com/cameras/eos-90d/specifications/",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Canon EOS 90D",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Canon_EOS_90D&oldid=1267312207",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["aps-c"]
   },
@@ -1155,12 +1389,26 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Canon_EOS_C300",
-      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/eos-c300-mark-iii-digital-cinema-camera",
-      "https://gdlp01.c-wss.com/gds/5/0300042345/08/eosc300mk3-500mk2-im13-en.pdf",
-      "https://www.canon-europe.com/video-cameras/eos-c300-mark-iii/specifications/"
+    "references": [
+      {
+        "title": "Canon EOS C300 Mark III Specifications",
+        "publisher": "Canon Europe Ltd",
+        "url": "https://www.canon-europe.com/video-cameras/eos-c300-mark-iii/specifications/",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Canon EOS C300",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Canon_EOS_C300&oldid=1262015142",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "EOS C300 Mark III Instruction Manual",
+        "publisher": "Canon Inc.",
+        "url": "https://gdlp01.c-wss.com/gds/5/0300042345/08/eosc300mk3-500mk2-im13-en.pdf",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -1219,11 +1467,26 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Canon_Cinema_EOS",
-      "https://www.usa.canon.com/shop/p/eos-c400#tech-spec-data",
-      "https://s7d1.scene7.com/is/content/canon/EOSC400_full_specificationspdf"
+    "references": [
+      {
+        "title": "EOS C400 Specifications",
+        "publisher": "Canon U.S.A., Inc.",
+        "url": "https://www.usa.canon.com/shop/p/eos-c400#tech-spec-data",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Canon Cinema EOS",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Canon_Cinema_EOS&oldid=1267135875",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "EOS C400 Full Specifications",
+        "publisher": "Canon Inc.",
+        "url": "https://s7d1.scene7.com/is/content/canon/EOSC400_full_specificationspdf",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -1242,10 +1505,20 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Canon_EOS_C500",
-      "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/cinema-eos-c500-mark-ii"
+    "references": [
+      {
+        "title": "EOS C500 Mark II",
+        "publisher": "Canon U.S.A., Inc.",
+        "url": "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/cinema-eos-c500-mark-ii",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Canon EOS C500",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Canon_EOS_C500&oldid=1167506586",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -1274,10 +1547,19 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.usa.canon.com/shop/p/eos-c70",
-      "https://gdlp01.c-wss.com/gds/4/0300040134/09/eosc70-im10-en.pdf"
+    "references": [
+      {
+        "title": "EOS C70",
+        "publisher": "Canon U.S.A., Inc.",
+        "url": "https://www.usa.canon.com/shop/p/eos-c70",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "EOS C70 Instruction Manual",
+        "publisher": "Canon Inc.",
+        "url": "https://gdlp01.c-wss.com/gds/4/0300040134/09/eosc70-im10-en.pdf",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -1350,10 +1632,19 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.usa.canon.com/shop/p/eos-c80",
-      "https://s7d1.scene7.com/is/content/canon/EOSC80_full_specificationspdf"
+    "references": [
+      {
+        "title": "EOS C80",
+        "publisher": "Canon U.S.A., Inc.",
+        "url": "https://www.usa.canon.com/shop/p/eos-c80",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "EOS C80 Full Specifications",
+        "publisher": "Canon Inc.",
+        "url": "https://s7d1.scene7.com/is/content/canon/EOSC80_full_specificationspdf",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame"]
   },
@@ -1380,10 +1671,19 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.usa.canon.com/support/p/eos-c700-ff",
-      "https://downloads.canon.com/nw/camera/downloads/brochures/cinema/cinema-eos/eos-c700-ff-series-product-brochure.pdf"
+    "references": [
+      {
+        "title": "EOS C700 FF",
+        "publisher": "Canon U.S.A., Inc.",
+        "url": "https://www.usa.canon.com/support/p/eos-c700-ff",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "EOS C700 FF Product Brochure",
+        "publisher": "Canon U.S.A., Inc.",
+        "url": "https://downloads.canon.com/nw/camera/downloads/brochures/cinema/cinema-eos/eos-c700-ff-series-product-brochure.pdf",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame"]
   },
@@ -1406,11 +1706,27 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Canon_EOS_R5",
-      "https://www.usa.canon.com/shop/p/eos-r5",
-      "https://github.com/wetadigital/physlight/blob/main/data/Canon_EOS_R5_380_780_5.json"
+    "references": [
+      {
+        "title": "Canon EOS R5",
+        "publisher": "Canon U.S.A., Inc.",
+        "url": "https://www.usa.canon.com/shop/p/eos-r5",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Canon EOS R5",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Canon_EOS_R5&oldid=1272832837",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Canon EOS R5 Camera Spectral Sensitivity Data",
+        "author": "Contributors to the PhysLight Project",
+        "url": "https://github.com/wetadigital/physlight/blob/main/data/Canon_EOS_R5_380_780_5.json",
+        "publisher": "Wētā FX",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame"]
   },
@@ -1437,10 +1753,20 @@
       }
     ],
     "category": ["Mobile"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Image_sensor_format",
-      "https://www.dji.com/support/product/mavic-air-2"
+    "references": [
+      {
+        "title": "Support for Mavic Air 2",
+        "publisher": "DJI",
+        "url": "https://www.dji.com/support/product/mavic-air-2",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Image sensor format",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Image_sensor_format&oldid=1275872254#Table_of_sensor_formats_and_sizes",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["drone"]
   },
@@ -1467,12 +1793,32 @@
       }
     ],
     "category": ["Mobile"],
-    "description": "",
-    "sources": [
-      "https://www.hasselblad.com/collaborations/dji-mavic-2-pro/",
-      "https://forum.dji.com/forum.php?mod=redirect&goto=findpost&ptid=167017&pid=1576410",
-      "https://dl.djicdn.com/downloads/Mavic_2/Mavic_2_Pro_Zoom_User_Manual_v2.2_en.pdf",
-      "https://github.com/wetadigital/physlight/blob/main/data/Hasselblad_L1D-20c_380_780_5.json"
+    "references": [
+      {
+        "title": "DJI MAVIC 2 PRO",
+        "publisher": "Hasselblad",
+        "url": "https://www.hasselblad.com/collaborations/dji-mavic-2-pro/",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Mavic 2 PRO camera sensor physical dimensions",
+        "author": "DJI forum contributors",
+        "url": "https://forum.dji.com/forum.php?mod=viewthread&tid=167017&page=1#pid1576410",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "MAVIC 2 PRO/ZOOM User Manual",
+        "publisher": "DJI",
+        "url": "https://dl.djicdn.com/downloads/Mavic_2/Mavic_2_Pro_Zoom_User_Manual_v2.2_en.pdf",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Hasselblad L1D-20c Camera Spectral Sensitivity Data",
+        "author": "Contributors to the PhysLight Project",
+        "url": "https://github.com/wetadigital/physlight/blob/main/data/Hasselblad_L1D-20c_380_780_5.json",
+        "publisher": "Wētā FX",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["drone", "Hasselblad L1D-20c"]
   },
@@ -1499,10 +1845,20 @@
       }
     ],
     "category": ["Mobile"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Image_sensor_format",
-      "https://dl.djicdn.com/downloads/phantom_3/User%20Manual/Phantom_3_Standard_User_Manual_v1.4_en.pdf"
+    "references": [
+      {
+        "title": "Phantom 3 User Manual",
+        "publisher": "DJI",
+        "url": "https://dl.djicdn.com/downloads/phantom_3/User%20Manual/Phantom_3_Standard_User_Manual_v1.4_en.pdf",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Image sensor format",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Image_sensor_format&oldid=1275872254#Table_of_sensor_formats_and_sizes",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["drone"]
   },
@@ -1557,11 +1913,26 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/DJI_Ronin#Ronin_4D_(6K_and_8K)",
-      "https://www.dji.com/se/ronin-4d/specs",
-      "https://dl.djicdn.com/downloads/DJI_Ronin_4D/20220216/DJI_Ronin_4D_User_Manual_v1.2_enII.pdf"
+    "references": [
+      {
+        "title": "DJI Ronin 4D Specs",
+        "publisher": "DJI",
+        "url": "https://www.dji.com/se/ronin-4d/specs",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "DJI Ronin",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=DJI_Ronin&oldid=1273662374#Ronin_4D_(6K_and_8K)",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "DJI Ronin 4D User Manual",
+        "publisher": "DJI",
+        "url": "https://dl.djicdn.com/downloads/DJI_Ronin_4D/20220216/DJI_Ronin_4D_User_Manual_v1.2_enII.pdf",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -1592,10 +1963,20 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://fujifilm-x.com/global/products/cameras/gfx100/specifications/",
-      "https://en.wikipedia.org/wiki/Fujifilm_GFX100"
+    "references": [
+      {
+        "title": "Fujifilm GFX100 Specifications",
+        "publisher": "FUJIFILM Corporation.",
+        "url": "https://fujifilm-x.com/global/products/cameras/gfx100/specifications/",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Fujifilm GFX100",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Fujifilm_GFX100&oldid=1266453326",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["medium format"]
   },
@@ -1658,10 +2039,20 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://fujifilm-x.com/global/products/cameras/gfx100-ii/specifications/",
-      "https://en.wikipedia.org/wiki/Fujifilm_GFX100"
+    "references": [
+      {
+        "title": "Fujifilm GFX100 II Specifications",
+        "publisher": "FUJIFILM Corporation.",
+        "url": "https://fujifilm-x.com/global/products/cameras/gfx100-ii/specifications/",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Fujifilm GFX100 II",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Fujifilm_GFX100_II&oldid=1274421933",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["medium format"]
   },
@@ -1674,10 +2065,20 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.fujifilm.com/us/en/news/digital-cameras/fujifilm-first-digital-filmmaking-camera-gfx-eterna",
-      "https://www.dpreview.com/news/9178470454/fujifilm-gfx-eterna-cinema-camera-medium-format-sensor"
+    "references": [
+      {
+        "title": "Fujifilm Unveils the Development of its First Digital Filmmaking Camera - FUJIFILM GFX ETERNA",
+        "publisher": "FUJIFILM Holdings America Corporation",
+        "url": "https://www.fujifilm.com/us/en/news/digital-cameras/fujifilm-first-digital-filmmaking-camera-gfx-eterna",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Fujifilm's putting the GFX100 II's massive sensor into its first cinema camera",
+        "author": "Clark, M.",
+        "url": "https://www.dpreview.com/news/9178470454/fujifilm-gfx-eterna-cinema-camera-medium-format-sensor",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame"]
   },
@@ -1716,9 +2117,13 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://fujifilm-x.com/global/products/cameras/x-h2/specifications/"
+    "references": [
+      {
+        "title": "Fujifilm X-H2 Specifications",
+        "publisher": "FUJIFILM Corporation.",
+        "url": "https://fujifilm-x.com/global/products/cameras/x-h2/specifications/",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["aps-c"]
   },
@@ -1753,10 +2158,20 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://fujifilm-x.com/global/products/cameras/x-t5/specifications/",
-      "https://en.wikipedia.org/wiki/Fujifilm_X-T5"
+    "references": [
+      {
+        "title": "Fujifilm X-T5 Specifications",
+        "publisher": "FUJIFILM Corporation.",
+        "url": "https://fujifilm-x.com/global/products/cameras/x-t5/specifications/",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Fujifilm X-T5",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Fujifilm_X-T5&oldid=1258818977",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["aps-c"]
   },
@@ -1807,13 +2222,28 @@
       }
     ],
     "category": ["Mobile"],
-    "description": "",
-    "sources": [
-      "https://www.dpreview.com/reviews/gopro-hero12-black-review-this-tiny-action-provides-a-plethora-of-creative-features",
-      "https://en.wikipedia.org/wiki/GoPro",
-      "https://gopro.my.salesforce.com/sfc/p/#o0000000HJuF/a/8a000000Ahpd/Jat_P5q9uAtmsapajO6peeDTXVYwtGt2dFYnICuhOO4"
-    ],
-    "tags": [""]
+    "references": [
+      {
+        "title": "GoPro Hero12 Black Review: This tiny action camera provides a plethora of creative features",
+        "author": "Brawley, W.",
+        "url": "https://www.dpreview.com/reviews/gopro-hero12-black-review-this-tiny-action-provides-a-plethora-of-creative-features",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "GoPro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=GoPro&oldid=1273394353#HERO12",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "GoPro Hero12 Black User Manual",
+        "publisher": "GoPro, Inc.",
+        "url": "https://gopro.my.salesforce.com/sfc/p/#o0000000HJuF/a/8a000000Ahpd/Jat_P5q9uAtmsapajO6peeDTXVYwtGt2dFYnICuhOO4",
+        "accessed": "2025-02-22"
+      }
+    ]
   },
   {
     "name": "Hasselblad X1D II 50C",
@@ -1834,10 +2264,19 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://www.hasselblad.com/x-system/x1d/",
-      "https://cdn.hasselblad.com/manuals/X1D-II-50C-User-Manual/1.0.0.0/X1D-II-50C-User-Guide-en.pdf"
+    "references": [
+      {
+        "title": "X1D II 50C",
+        "publisher": "Hasselblad",
+        "url": "https://www.hasselblad.com/x-system/x1d/",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "X1D II 50C User Guide",
+        "publisher": "Hasselblad",
+        "url": "https://cdn.hasselblad.com/manuals/X1D-II-50C-User-Manual/1.0.0.0/X1D-II-50C-User-Guide-en.pdf",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["medium format"]
   },
@@ -1850,8 +2289,15 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/70_mm_film#IMAX_.2815.2F70.29"],
+    "references": [
+      {
+        "title": "70 mm film",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=70_mm_film&oldid=1273823265#IMAX_.2815.2F70.29",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
+    ],
     "tags": ["film"]
   },
   {
@@ -1887,10 +2333,28 @@
     ],
     "category": ["Mobile"],
     "description": "Apple uses Sony sensors for their Iphones.",
-    "sources": [
-      "https://en.wikipedia.org/wiki/IPhone_13_Pro",
-      "https://www.dpreview.com/articles/6780391159/all-apple-iphone-13-and-13-pro-camera-upgrades-explained",
-      "https://www.dpreview.com/articles/6110937480"
+    "references": [
+      {
+        "title": "IPhone 13 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_13_Pro&oldid=1275111046",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "All Apple iPhone 13 and 13 Pro camera upgrades: Explained",
+        "author": "Sanyal, R.",
+        "url": "https://www.dpreview.com/articles/6780391159/all-apple-iphone-13-and-13-pro-camera-upgrades-explained",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["phone"]
   },
@@ -1927,9 +2391,28 @@
     ],
     "category": ["Mobile"],
     "description": "Apple uses Sony sensors for their Iphones.",
-    "sources": [
-      "https://en.wikipedia.org/wiki/IPhone_14_Pro",
-      "https://www.dpreview.com/articles/6110937480"
+    "references": [
+      {
+        "title": "IPhone 14 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_14_Pro&oldid=1273097110",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's iPhone 14 and 14 Pro: Imaging tech examined",
+        "author": "Butler, R.",
+        "url": "https://www.dpreview.com/articles/6110937480",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["phone"]
   },
@@ -1966,9 +2449,28 @@
     ],
     "category": ["Mobile"],
     "description": "Apple uses Sony sensors for their Iphones.",
-    "sources": [
-      "https://en.wikipedia.org/wiki/IPhone_15_Pro",
-      "https://www.dpreview.com/articles/2668153890/apple-s-iphone-15-and-15-pro-imaging-tech-examined"
+    "references": [
+      {
+        "title": "IPhone 15 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_15_Pro&oldid=1275996442",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's iPhone 15 and 15 Pro: Imaging tech examined",
+        "author": "Carlson, J. L.",
+        "url": "https://www.dpreview.com/articles/6110937480",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["phone"]
   },
@@ -2005,9 +2507,28 @@
     ],
     "category": ["Mobile"],
     "description": "Apple uses Sony sensors for their Iphones.",
-    "sources": [
-      "https://en.wikipedia.org/wiki/IPhone_15_Pro",
-      "https://www.dpreview.com/articles/2668153890/apple-s-iphone-15-and-15-pro-imaging-tech-examined"
+    "references": [
+      {
+        "title": "IPhone 15 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_15_Pro&oldid=1275996442",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's iPhone 15 and 15 Pro: Imaging tech examined",
+        "author": "Carlson, J. L.",
+        "url": "https://www.dpreview.com/articles/6110937480",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["phone"]
   },
@@ -2044,9 +2565,28 @@
     ],
     "category": ["Mobile"],
     "description": "Apple uses Sony sensors for their Iphones.",
-    "sources": [
-      "https://en.wikipedia.org/wiki/IPhone_16_Pro",
-      "https://www.dpreview.com/news/8163093616/iphone-16-pro-worth-upgrading-13-14-15-apple-cameras"
+    "references": [
+      {
+        "title": "IPhone 16 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_16_Pro&oldid=1277250899",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Is it worth upgrading to the iPhone 16 Pro from a 13, 14, or 15 Pro?",
+        "author": "Clark, M.",
+        "url": "https://www.dpreview.com/news/8163093616/iphone-16-pro-worth-upgrading-13-14-15-apple-cameras",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["phone"]
   },
@@ -2083,9 +2623,28 @@
     ],
     "category": ["Mobile"],
     "description": "Apple uses Sony sensors for their Iphones.",
-    "sources": [
-      "https://en.wikipedia.org/wiki/IPhone_16_Pro",
-      "https://www.dpreview.com/news/8163093616/iphone-16-pro-worth-upgrading-13-14-15-apple-cameras"
+    "references": [
+      {
+        "title": "IPhone 16 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_16_Pro&oldid=1277250899",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Is it worth upgrading to the iPhone 16 Pro from a 13, 14, or 15 Pro?",
+        "author": "Clark, M.",
+        "url": "https://www.dpreview.com/news/8163093616/iphone-16-pro-worth-upgrading-13-14-15-apple-cameras",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["phone"]
   },
@@ -2108,10 +2667,20 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Leica_S-System",
-      "https://leica-camera.com/en-SG/photography/cameras/s/s3-black/"
+    "references": [
+      {
+        "title": "Leica S-System",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Leica_S-System&oldid=1090807963",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Leica S3",
+        "url": "https://leica-camera.com/en-SG/photography/cameras/s/s3-black/",
+        "publisher": "Leica Camera AG",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["medium format"]
   },
@@ -2138,11 +2707,27 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Nikon_D850",
-      "https://www.nikonusa.com/en/nikon-products/product/dslr-cameras/d850.html#tab-ProductDetail-ProductTabs-TechSpecs",
-      "https://github.com/wetadigital/physlight/blob/main/data/Nikon_D850_380_780_5.json"
+    "references": [
+      {
+        "title": "Nikon D850",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Nikon_D850&oldid=1223025777",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Nikon D850 Tech Specs",
+        "url": "https://www.nikonusa.com/p/d850/1585/overview#tech-specs",
+        "publisher": "Nikon Inc.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Nikon D850 Camera Spectral Sensitivity Data",
+        "author": "Contributors to the PhysLight Project",
+        "url": "https://github.com/wetadigital/physlight/blob/main/data/Nikon_D850_380_780_5.json",
+        "publisher": "Wētā FX",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame"]
   },
@@ -2169,10 +2754,20 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Nikon_Z_9",
-      "https://www.nikonusa.com/en/nikon-products/product/mirrorless-cameras/z-9.html#tab-ProductDetail-ProductTabs-TechSpecs"
+    "references": [
+      {
+        "title": "Nikon Z9",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Nikon_Z9&oldid=1270852687",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Nikon Z9 Tech Specs",
+        "url": "https://www.nikonusa.com/p/z-9/1669/overview#tech-specs",
+        "publisher": "Nikon Inc.",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame"]
   },
@@ -2185,10 +2780,19 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://connect.na.panasonic.com/av/video/multi-purpose-camera/aw-ub50-ub10",
-      "https://43645300.fs1.hubspotusercontent-na1.net/hubfs/43645300/PCONA%20-%20United%20States/PIVS/Professional%20Video%20-%20Product%20Images/Multi-purpose%20Box%20Camera/AW-UB10_UB50_Flyer_E_240822.pdf"
+    "references": [
+      {
+        "title": "4K Multi Purpose Camera",
+        "url": "https://connect.na.panasonic.com/av/video/multi-purpose-camera/aw-ub50-ub10",
+        "publisher": "Panasonic Corporation of North America.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "AW-UB50/UB10 Flyer",
+        "url": "https://43645300.fs1.hubspotusercontent-na1.net/hubfs/43645300/PCONA%20-%20United%20States/PIVS/Professional%20Video%20-%20Product%20Images/Multi-purpose%20Box%20Camera/AW-UB10_UB50_Flyer_E_240822.pdf",
+        "publisher": "Panasonic Corporation of North America.",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame"]
   },
@@ -2229,10 +2833,25 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/eva1/index.html",
-      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/au-eva1.pdf"
+    "references": [
+      {
+        "title": "EVA 1 Product Page",
+        "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/eva1/index.html",
+        "publisher": "Panasonic Corporation of North America.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "EVA 1 Brochure",
+        "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/au-eva1.pdf",
+        "publisher": "Panasonic Corporation of North America.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "The EVA 1 Book",
+        "url": "https://eww.pass.panasonic.co.jp/pro-av/support/content/guide/EN/aueva1_handbook_e.pdf",
+        "publisher": "Panasonic Corporation",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -2263,9 +2882,13 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/bgh1/spec/index.html"
+    "references": [
+      {
+        "title": "LUMIX BGH1 Specifications",
+        "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/bgh1/spec/index.html",
+        "publisher": "Panasonic Corporation",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["micro four thirds"]
   },
@@ -2308,9 +2931,13 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/bs1h/index.html"
+    "references": [
+      {
+        "title": "LUMIX BS1H Specifications",
+        "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/bs1h/index.html",
+        "publisher": "Panasonic Corporation",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame"]
   },
@@ -2353,9 +2980,13 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/s1h/index.html"
+    "references": [
+      {
+        "title": "LUMIX S1H Specifications",
+        "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/s1h/index.html",
+        "publisher": "Panasonic Corporation",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame"]
   },
@@ -2398,11 +3029,19 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://shop.panasonic.com/cameras-and-camcorders/cameras/full-frame-cameras/dc-s5m2body",
-      "https://help.na.panasonic.com/wp-content/uploads/2023/02/DCS5M2_DVQP2839ZA_ENG.pdf",
-      "https://www.panasonic.com/uk/consumer/cameras-camcorders/lumix-mirrorless-cameras/lumix-s-full-frame-cameras/dc-s5m2.html#specs"
+    "references": [
+      {
+        "title": "S5II Full Frame Mirrorless Camera",
+        "url": "https://shop.panasonic.com/cameras-and-camcorders/cameras/full-frame-cameras/dc-s5m2body",
+        "publisher": "Panasonic Corporation",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "LUMIX S5II Operating Instructions",
+        "url": "https://help.na.panasonic.com/wp-content/uploads/2023/02/DCS5M2_DVQP2839ZA_ENG.pdf",
+        "publisher": "Panasonic Corporation",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame"]
   },
@@ -2433,12 +3072,32 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Varicam",
-      "https://pro-av.panasonic.net/manual/html/VARICAM_35(VQT5K88A-11(E))/VARICAM_35(VQT5K88A-11(E)).pdf",
-      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/varicam_35/spec/index.html",
-      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf"
+    "references": [
+      {
+        "title": "Varicam",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Varicam&oldid=1249656676",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "VariCam 35 Operating Guide",
+        "url": "https://pro-av.panasonic.net/manual/html/VARICAM_35(VQT5K88A-11(E))/VARICAM_35(VQT5K88A-11(E)).pdf",
+        "publisher": "Panasonic Corporation",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "VariCam 35 Specifications",
+        "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/varicam_35/spec/index.html",
+        "publisher": "Panasonic Corporation",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Newly Developed Super 35mm MOS Sensor Reference Manual",
+        "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf",
+        "publisher": "Panasonic Corporation",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -2469,12 +3128,32 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Varicam",
-      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/varicam_lt/spec/index.html",
-      "https://pro-av.panasonic.net/manual/html/VARICAM_LT(VQT5M58A-11(E))/VARICAM_LT(VQT5M58A-11(E)).pdf",
-      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf"
+    "references": [
+      {
+        "title": "Varicam",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Varicam&oldid=1249656676",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "VariCam LT Operating Guide",
+        "url": "https://pro-av.panasonic.net/manual/html/VARICAM_LT(VQT5M58A-11(E))/VARICAM_LT(VQT5M58A-11(E)).pdf",
+        "publisher": "Panasonic Corporation",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "VariCam LT Specifications",
+        "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/varicam_lt/spec/index.html",
+        "publisher": "Panasonic Corporation",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Newly Developed Super 35mm MOS Sensor Reference Manual",
+        "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf",
+        "publisher": "Panasonic Corporation",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -2497,11 +3176,26 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Varicam",
-      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/varicam_pure/spec/index.html",
-      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf"
+    "references": [
+      {
+        "title": "Varicam",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Varicam&oldid=1249656676",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "VariCam Pure Specifications",
+        "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/varicam_pure/spec/index.html",
+        "publisher": "Panasonic Corporation",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Newly Developed Super 35mm MOS Sensor Reference Manual",
+        "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf",
+        "publisher": "Panasonic Corporation",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -2841,10 +3535,26 @@
     ],
     "category": ["Movie"],
     "description": "This camera uses the RED Monstro 8K sensor.",
-    "sources": [
-      "https://www.panavision.com/camera-and-optics/dxl2",
-      "https://www.panavision.com/docs/default-source/downloads/panavision_dxl2_manual_v1_0.pdf#%5B%7B%22num%22%3A125%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C42.75%2C673.5%2C0%5D",
-      "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
+    "references": [
+      {
+        "title": "Millenium DXL2 8K Digital Camera",
+        "url": "https://www.panavision.com/camera-and-optics/dxl2",
+        "publisher": "Panavision",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Millenium DXL2 Operation Guide",
+        "url": "https://www.panavision.com/docs/default-source/downloads/panavision_dxl2_manual_v1_0.pdf#%5B%7B%22num%22%3A125%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C42.75%2C673.5%2C0%5D",
+        "publisher": "Panasonic Corporation",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "IMAX",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IMAX&oldid=1275572464#Film_cameras",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["imax"]
   },
@@ -3614,14 +4324,44 @@
     ],
     "category": ["Movie"],
     "description": "The sensor sizes are the same for all Dragon sensors, regardless of Dragon-X, MG, CF, S35, 5K, or 6K designations.",
-    "sources": [
-      "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
-      "https://docs.red.com/955-0177_v7.4/DSMC2_DRAGON_7_4/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatWeaponDragon.htm",
-      "https://docs.red.com/955-0181_v7.4/DSMC2_DRAGONX_7_4/Content/5_Advanced_Menus/1_Settings/Project/FormatScarletWDragon.htm",
-      "https://docs.red.com/955-0116_v7.4/SCARLET_DRAGON_7_4/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatScarletWDragon.htm",
-      "http://docs.red.com/955-0156/EPICSCARLETOperationGuide/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatScarletDragon.htm",
-      "http://docs.red.com/955-0156/EPICSCARLETOperationGuide/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatEpicDragon.htm",
-      "https://www.red.com/dsmc2"
+    "references": [
+      {
+        "title": "List of Red Digital Cinema cameras",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_Red_Digital_Cinema_cameras&oldid=1275855760#DSMC2",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "DSMC2 DRAGON Formats",
+        "url": "https://docs.red.com/955-0177_v7.4/DSMC2_DRAGON_7_4/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatWeaponDragon.htm",
+        "publisher": "RED.COM, LLC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "DSMC2 DRAGON-X 6K Formats",
+        "url": "https://docs.red.com/955-0181_v7.4/DSMC2_DRAGONX_7_4/Content/5_Advanced_Menus/1_Settings/Project/FormatScarletWDragon.htm",
+        "publisher": "RED.COM, LLC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "SCARLET-W Formats",
+        "url": "https://docs.red.com/955-0116_v7.4/SCARLET_DRAGON_7_4/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatScarletWDragon.htm",
+        "publisher": "RED.COM, LLC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "SCARLET DRAGON Formats",
+        "url": "http://docs.red.com/955-0156/EPICSCARLETOperationGuide/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatScarletDragon.htm",
+        "publisher": "RED.COM, LLC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "EPIC DRAGON Formats",
+        "url": "http://docs.red.com/955-0156/EPICSCARLETOperationGuide/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatEpicDragon.htm",
+        "publisher": "RED.COM, LLC.",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -4251,12 +4991,26 @@
     ],
     "category": ["Movie"],
     "description": "The sensor sizes are the same for all Gemini sensors, regardless of S35, or 5K designations.",
-    "sources": [
-      "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
-      "https://docs.red.com/955-0169_v7.4/DSMC2_GEMINI_7_4/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatGEMINI.htm",
-      "https://docs.red.com/955-0192_v7.4/RANGER_GEMINI_7_4/Content/5_Advanced_Menus/1_Settings/Project/FormatGEMINI.htm",
-      "https://www.red.com/arsenal",
-      "https://www.red.com/dsmc2"
+    "references": [
+      {
+        "title": "List of Red Digital Cinema cameras",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_Red_Digital_Cinema_cameras&oldid=1275855760#DSMC2",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "DSMC2 GEMINI Formats",
+        "url": "https://docs.red.com/955-0169_v7.4/DSMC2_GEMINI_7_4/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatGEMINI.htm",
+        "publisher": "RED.COM, LLC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "RED RANGER GEMINI Formats",
+        "url": "https://docs.red.com/955-0192_v7.4/RANGER_GEMINI_7_4/Content/5_Advanced_Menus/1_Settings/Project/FormatGEMINI.htm",
+        "publisher": "RED.COM, LLC.",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -5405,13 +6159,26 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
-      "https://docs.red.com/955-0168_v7.4/DSMC2_HELIUM_7_4/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatHELIUM.htm",
-      "https://docs.red.com/955-0191_v7.4/RANGER_HELIUM_7_4/Content/5_Advanced_Menus/1_Settings/Project/FormatHELIUM.htm",
-      "https://www.red.com/arsenal",
-      "https://www.red.com/dsmc2"
+    "references": [
+      {
+        "title": "List of Red Digital Cinema cameras",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_Red_Digital_Cinema_cameras&oldid=1275855760#DSMC2",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "DSMC2 HELIUM Formats",
+        "url": "https://docs.red.com/955-0168_v7.4/DSMC2_HELIUM_7_4/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatHELIUM.htm",
+        "publisher": "RED.COM, LLC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "RED RANGER HELIUM Formats",
+        "url": "https://docs.red.com/955-0191_v7.4/RANGER_HELIUM_7_4/Content/5_Advanced_Menus/1_Settings/Project/FormatHELIUM.htm",
+        "publisher": "RED.COM, LLC.",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -5580,12 +6347,26 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
-      "https://docs.red.com/955-0196_v1.6/Content/4_Menus/ProjSet/Format/All_Formats.htm",
-      "https://www.red.com/komodo-brain-parent",
-      "https://www.red.com/arsenal"
+    "references": [
+      {
+        "title": "List of Red Digital Cinema cameras",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_Red_Digital_Cinema_cameras&oldid=1275855760#DSMC2",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "RED Komodo Formats",
+        "url": "https://docs.red.com/955-0196_v1.6/Content/4_Menus/ProjSet/Format/All_Formats.htm",
+        "publisher": "RED.COM, LLC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Komodo 6K Product Page",
+        "url": "https://www.red.com/komodo-brain-parent",
+        "publisher": "RED.COM, LLC.",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -6735,13 +7516,33 @@
     ],
     "category": ["Movie"],
     "description": "The sensor sizes are the same for all Monstro sensors, regardless of 8K, VK, or Monochrome designations.",
-    "sources": [
-      "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
-      "https://docs.red.com/955-0167_v7.4/DSMC2_MONSTRO_7_4/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatMONSTRO.htm",
-      "https://docs.red.com/955-0185_v7.4/RANGER_MONSTRO_7_4/Content/5_Advanced_Menus/1_Settings/Project/FormatMONSTRO.htm",
-      "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
-      "https://www.red.com/arsenal",
-      "https://www.red.com/dsmc2"
+    "references": [
+      {
+        "title": "List of Red Digital Cinema cameras",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_Red_Digital_Cinema_cameras&oldid=1275855760#DSMC2",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "DSMC2 MONSTRO Formats",
+        "url": "https://docs.red.com/955-0167_v7.4/DSMC2_MONSTRO_7_4/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatMONSTRO.htm",
+        "publisher": "RED.COM, LLC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "RED RANGER MONSTRO Formats",
+        "url": "https://docs.red.com/955-0185_v7.4/RANGER_MONSTRO_7_4/Content/5_Advanced_Menus/1_Settings/Project/FormatMONSTRO.htm",
+        "publisher": "RED.COM, LLC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "IMAX",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IMAX&oldid=1275572464#Film_cameras",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["imax", "full frame"]
   },
@@ -7311,11 +8112,26 @@
     ],
     "category": ["Movie"],
     "description": "The sensor sizes are the same for all V-Raptor sensors, regardless of X, XL, 8K, or VV designations.",
-    "sources": [
-      "https://en.wikipedia.org/wiki/List_of_Red_Digital_Cinema_cameras",
-      "https://docs.red.com/955-0199/955-0199_V1.2_Rev_A_RED_PS_V-RAPTOR_Operation_Guide/Content/4_Menus/b_ProjSet/Format/All_Formats.htm",
-      "https://www.red.com/v-raptor",
-      "https://www.red.com/arsenal"
+    "references": [
+      {
+        "title": "List of Red Digital Cinema cameras",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_Red_Digital_Cinema_cameras&oldid=1275855760#DSMC2",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "V-RAPTOR 8K VV Operation Guide - All Formats",
+        "url": "https://docs.red.com/955-0199/955-0199_V1.2_Rev_A_RED_PS_V-RAPTOR_Operation_Guide/Content/4_Menus/b_ProjSet/Format/All_Formats.htm",
+        "publisher": "RED.COM, LLC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "V-RAPTOR Product Page",
+        "url": "https://www.red.com/v-raptor",
+        "publisher": "RED.COM, LLC.",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["imax", "full frame"]
   },
@@ -7338,10 +8154,20 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/aps-c/p/ilce6400-b",
-      "https://en.wikipedia.org/wiki/Sony_%CE%B16400"
+    "references": [
+      {
+        "title": "Alpha 6400 - APS-C Interchangeable Lens Camera 24.2MP, 11FPS, 4K/30p",
+        "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/aps-c/p/ilce6400-b",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Sony α6400",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Sony_%CE%B16400&oldid=1274197275",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["a6400", "aps-c", "ilce-6400"]
   },
@@ -7364,10 +8190,20 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7m4-b",
-      "https://en.wikipedia.org/wiki/Sony_α7"
+    "references": [
+      {
+        "title": "Alpha 7 IV - Full-frame Interchangeable Lens Camera 33MP, 10FPS, 4K/60p",
+        "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7m4-b",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Sony α7",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Sony_%CE%B17&oldid=1267254025",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame", "a7", "ilce-7m4"]
   },
@@ -7390,10 +8226,20 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce7cm2-b",
-      "https://en.wikipedia.org/wiki/Sony_α7"
+    "references": [
+      {
+        "title": "Alpha 7C II - Full-frame Interchangeable Lens Hybrid Camera",
+        "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce7cm2-b",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Sony α7",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Sony_%CE%B17&oldid=1267254025",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame", "a7c", "ilce-7cm2"]
   },
@@ -7416,10 +8262,20 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7cr-b",
-      "https://en.wikipedia.org/wiki/Sony_α7"
+    "references": [
+      {
+        "title": "Alpha 7CR - Full-frame Interchangeable Lens Hybrid Camera",
+        "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7cr-b",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Sony α7",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Sony_%CE%B17&oldid=1267254025",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame", "a7cr", "ilce-7cr"]
   },
@@ -7442,10 +8298,20 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7rm4a-b",
-      "https://en.wikipedia.org/wiki/Sony_α7"
+    "references": [
+      {
+        "title": "Alpha 7R IV - Full-frame Interchangeable Lens Camera 61MP, 10FPS, 4K/30p",
+        "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7rm4a-b",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Sony α7",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Sony_%CE%B17&oldid=1267254025",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame", "a7r", "ilce-7rm4a"]
   },
@@ -7468,10 +8334,20 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce7rm5-b",
-      "https://en.wikipedia.org/wiki/Sony_α7"
+    "references": [
+      {
+        "title": "Alpha 7R V Full-frame Mirrorless Interchangeable Lens Camera",
+        "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce7rm5-b",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Sony α7",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Sony_%CE%B17&oldid=1267254025",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame", "a7r", "ilce-7rm5"]
   },
@@ -7494,10 +8370,20 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7sm3-b",
-      "https://en.wikipedia.org/wiki/Sony_α7"
+    "references": [
+      {
+        "title": "Alpha 7S III - Full-frame Interchangeable Lens Camera 12.1MP, 10FPS, 4K/120p High Sensitivity",
+        "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7sm3-b",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Sony α7",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Sony_%CE%B17&oldid=1267254025",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame", "a7", "ilce-7sm3"]
   },
@@ -7520,11 +8406,27 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce9-b",
-      "https://en.wikipedia.org/wiki/Sony_α9",
-      "https://github.com/wetadigital/physlight/blob/main/data/Sony_ILCE-9_380_780_5.json"
+    "references": [
+      {
+        "title": "Alpha 9 - Full-frame Interchangeable Lens Camera 24.2MP, 20FPS, 4K/30p",
+        "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce9-b",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Sony α9",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Sony_%CE%B19&oldid=1265066991",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Sony ILCE-9 Camera Spectral Sensitivity Data",
+        "author": "Contributors to the PhysLight Project",
+        "url": "https://github.com/wetadigital/physlight/blob/main/data/Sony_ILCE-9_380_780_5.json",
+        "publisher": "Wētā FX",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame", "a9", "ilce-9"]
   },
@@ -7547,10 +8449,20 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": [
-      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce9m3b",
-      "https://en.wikipedia.org/wiki/Sony_α9_III"
+    "references": [
+      {
+        "title": "Alpha 9 III - Full-frame Mirrorless Interchangeable Lens Camera",
+        "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce9m3b",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Sony α9 III",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Sony_%CE%B19_III&oldid=1257893433",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame", "a9", "ilce-9m3"]
   },
@@ -7649,12 +8561,33 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://pro.sony/ue_US/products/digital-cinema-cameras/burano",
-      "https://pro.sony/s3/2024/02/12094713/FL85-BURANO-Recording-Poster_A1_V13.pdf",
-      "https://en.wikipedia.org/wiki/List_of_Sony_E-mount_cameras",
-      "https://en.wikipedia.org/wiki/CineAlta"
+    "references": [
+      {
+        "title": "BURANO Digital Cinema Camera With 8K Sensor",
+        "url": "https://pro.sony/ue_US/products/digital-cinema-cameras/burano",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Recording Formats BURANO",
+        "url": "https://pro.sony/s3/2024/02/12094713/FL85-BURANO-Recording-Poster_A1_V13.pdf",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "List of Sony E-mount cameras",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_Sony_E-mount_cameras&oldid=1258593720",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "CineAlta",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=CineAlta&oldid=1267053892",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -7693,10 +8626,20 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://pro.sony/ue_US/products/digital-cinema-cameras/pmw-f5",
-      "https://www.fdtimes.com/2012/10/30/sony-f55-and-f5/"
+    "references": [
+      {
+        "title": "PMW-F5",
+        "url": "https://pro.sony/ue_US/products/digital-cinema-cameras/pmw-f5",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Sony F55 and F5",
+        "author": "Fauer, J.",
+        "url": "https://www.fdtimes.com/2012/10/30/sony-f55-and-f5/",
+        "publisher": "Film and Digital Times Inc.",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -7715,9 +8658,13 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.panavision.com/camera-and-optics/cameras/product-detail/f55-f55"
+    "references": [
+      {
+        "title": "Sony F55 Camera",
+        "url": "https://www.panavision.com/camera-and-optics/cameras/product-detail/f55-f55",
+        "publisher": "Panavision",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -7744,10 +8691,20 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://pro.sony/ue_US/products/digital-cinema-cameras/f65",
-      "https://www.eoshd.com/news/sony-f65-sensor-using-consumer-camcorder-technology/"
+    "references": [
+      {
+        "title": "F65 Digital Cinema Camera",
+        "url": "https://pro.sony/ue_US/products/digital-cinema-cameras/f65",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Sony F65 sensor using ‘consumer camcorder’ technology",
+        "author": "Reid, A.",
+        "url": "https://www.eoshd.com/news/sony-f65-sensor-using-consumer-camcorder-technology/",
+        "publisher": "EOSHD",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -7778,10 +8735,19 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://pro.sony/ue_US/products/handheld-camcorders/pxw-fs7",
-      "https://www.arkvideo.co.jp/_sys/wp-content/uploads/SonyPXW-FS7.pdf"
+    "references": [
+      {
+        "title": "FS7 Handheld Camcorder",
+        "url": "https://pro.sony/ue_US/products/handheld-camcorders/pxw-fs7",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Sony PXW-FS7 Recording Formats",
+        "url": "https://www.arkvideo.co.jp/_sys/wp-content/uploads/SonyPXW-FS7.pdf",
+        "publisher": "ARKVIDEO Inc.",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -7812,10 +8778,19 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://pro.sony/ue_US/products/handheld-camcorders/pxw-fs7m2",
-      "https://www.arkvideo.co.jp/_sys/wp-content/uploads/SonyPXW-FS7M2.pdf"
+    "references": [
+      {
+        "title": "FS7 II Handheld Camcorder",
+        "url": "https://pro.sony/ue_US/products/handheld-camcorders/pxw-fs7m2",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Sony PXW-FS7 Recording Formats",
+        "url": "https://www.arkvideo.co.jp/_sys/wp-content/uploads/SonyPXW-FS7M2.pdf",
+        "publisher": "ARKVIDEO Inc.",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["super 35"]
   },
@@ -7842,9 +8817,13 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://electronics.sony.com/imaging/cinema-line-cameras/all-cinema-line-cameras/p/ilmefx3"
+    "references": [
+      {
+        "title": "Alpha FX3 Cinema Line Full-frame Camera",
+        "url": "https://electronics.sony.com/imaging/cinema-line-cameras/all-cinema-line-cameras/p/ilmefx3",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame"]
   },
@@ -7875,9 +8854,13 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://electronics.sony.com/imaging/cinema-line-cameras/all-cinema-line-cameras/p/ilmefx6v"
+    "references": [
+      {
+        "title": "Cinema Line FX6 Camera",
+        "url": "https://electronics.sony.com/imaging/cinema-line-cameras/all-cinema-line-cameras/p/ilmefx6v",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame"]
   },
@@ -7926,10 +8909,20 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://pro.sony/ue_US/products/handheld-camcorders/pxw-fx9",
-      "https://www.cined.com/sony-fx9-sensor-scan-modes-explained/"
+    "references": [
+      {
+        "title": "PXW-FX9 Full Frame Camcorder",
+        "url": "https://pro.sony/ue_US/products/handheld-camcorders/pxw-fx9",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Sony FX9 Sensor Scan Modes Explained",
+        "author": "Milz, F.",
+        "url": "https://www.cined.com/sony-fx9-sensor-scan-modes-explained/",
+        "publisher": "CineD",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["full frame"]
   },
@@ -7952,8 +8945,14 @@
       }
     ],
     "category": ["Still"],
-    "description": "",
-    "sources": ["https://pro.sony/ue_US/products/installable-cameras/ilx-lr1"],
+    "references": [
+      {
+        "title": "ILX-LR1",
+        "url": "https://pro.sony/ue_US/products/installable-cameras/ilx-lr1",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      }
+    ],
     "tags": ["full frame"]
   },
   {
@@ -8091,13 +9090,40 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://pro.sony/ue_US/products/digital-cinema-cameras/venice",
-      "https://pro.sony/support/res/manuals/4735/d4d06ba1e126398ae780667a4317c8c9/47351091M.pdf",
-      "https://en.wikipedia.org/wiki/List_of_Sony_E-mount_cameras",
-      "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
-      "https://en.wikipedia.org/wiki/CineAlta"
+    "references": [
+      {
+        "title": "VENICE Digital Cinema Camera",
+        "url": "https://pro.sony/ue_US/products/digital-cinema-cameras/venice",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "VENICE Operating Instructions MPC-3610",
+        "url": "https://pro.sony/support/res/manuals/4735/d4d06ba1e126398ae780667a4317c8c9/47351091M.pdf",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "List of Sony E-mount cameras",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_Sony_E-mount_cameras&oldid=1258593720",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "CineAlta",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=CineAlta&oldid=1267053892",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "IMAX",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IMAX&oldid=1275572464#Film_cameras",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["imax"]
   },
@@ -8347,12 +9373,40 @@
     ],
     "category": ["Movie"],
     "description": "Sony VENICE 2 has two sensor options, an 8K (MPC-3628) and a 6K (MPC-3626).",
-    "sources": [
-      "https://pro.sony/ue_US/products/digital-cinema-cameras/venice2",
-      "https://pro.sony/support/res/manuals/5037/380521b096766b82849287ab158a9c02/50372171M.pdf",
-      "https://en.wikipedia.org/wiki/List_of_Sony_E-mount_cameras",
-      "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
-      "https://en.wikipedia.org/wiki/CineAlta"
+    "references": [
+      {
+        "title": "VENICE 2 Digital Cinema Camera With 8K or 6K Sensor",
+        "url": "https://pro.sony/ue_US/products/digital-cinema-cameras/venice2",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "VENICE 2 Operating Instructions MPC-3628/MPC-3626",
+        "url": "https://pro.sony/support/res/manuals/5037/380521b096766b82849287ab158a9c02/50372171M.pdf",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "List of Sony E-mount cameras",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_Sony_E-mount_cameras&oldid=1258593720",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "CineAlta",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=CineAlta&oldid=1267053892",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "IMAX",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IMAX&oldid=1275572464#Film_cameras",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["imax"]
   },
@@ -8365,8 +9419,15 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/16_mm_film#Standard_16_mm"],
+    "references": [
+      {
+        "title": "16 mm film",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=16_mm_film&oldid=1273079668",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
+    ],
     "tags": ["film"]
   },
   {
@@ -8378,8 +9439,15 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/35_mm_movie_film"],
+    "references": [
+      {
+        "title": "35 mm movie film",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=35_mm_movie_film&oldid=1276508353",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
+    ],
     "tags": ["film"]
   },
   {
@@ -8391,9 +9459,14 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/70_mm_film#Technical_specifications"
+    "references": [
+      {
+        "title": "70 mm film",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=70_mm_film&oldid=1273823265#Technical_specifications",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["film"]
   },
@@ -8406,8 +9479,15 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Super_8_film"],
+    "references": [
+      {
+        "title": "Super 8 film",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Super_8_film&oldid=1275523261",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
+    ],
     "tags": ["film"]
   },
   {
@@ -8419,8 +9499,15 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/16_mm_film#Super_16_mm"],
+    "references": [
+      {
+        "title": "16 mm film",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=16_mm_film&oldid=1273079668#Super_16_mm",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
+    ],
     "tags": ["film"]
   },
   {
@@ -8432,10 +9519,21 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Super_35",
-      "https://en.wikipedia.org/wiki/Image_sensor_format"
+    "references": [
+      {
+        "title": "Super 35",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Super_35&oldid=1266903653",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Image sensor format",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Image_sensor_format&oldid=1275872254",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
     ],
     "tags": ["film"]
   },
@@ -8448,8 +9546,15 @@
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Super_35"],
+    "references": [
+      {
+        "title": "Super 35",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Super_35&oldid=1266903653",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
+    ],
     "tags": ["film"]
   }
 ]

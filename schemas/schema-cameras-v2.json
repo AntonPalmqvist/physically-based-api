@@ -75,16 +75,6 @@
         "type": "string",
         "maxLength": 500
       },
-      "sources": {
-        "description": "Provide at least one source for the values. Source link to official manufacturer website is preferred.",
-        "type": "array",
-        "items": {
-          "type": "string",
-          "minLength": 1
-        },
-        "minItems": 1,
-        "uniqueItems": true
-      },
       "tags": {
         "description": "Tags",
         "type": "array",
@@ -92,8 +82,63 @@
           "type": "string"
         },
         "uniqueItems": true
+      },
+      "references": {
+        "description": "List of references. At least one reference needed.",
+        "type": "array",
+        "items": {
+          "additionalProperties": false,
+          "type": "object",
+          "properties": {
+            "title": {
+              "description": "Title of book, journal article, or website.",
+              "type": "string"
+            },
+            "author": {
+              "description": "Name(s) of the authors of a book or journal article, or in the case of a webpage, the person or company that created the webpage. For editors, add \"(Ed.)\"",
+              "type": "string"
+            },
+            "url": {
+              "description": "Link to website, or other web resource where the information was found. For books and journals, this URL should be the one that the DOI is linking to.",
+              "type": "string"
+            },
+            "publisher": {
+              "description": "Name of publisher or journal where published.",
+              "type": "string"
+            },
+            "volume": {
+              "description": "Volume number. In relation to periodicals, volume refers to all the issues of a specific journal or magazine for a limited time period, usually one year. For books, volume indicates the order of a book in a series or set.",
+              "type": "string"
+            },
+            "issue": {
+              "description": "Issue number. The issue number refers to the number of individual publications during the year.",
+              "type": "string"
+            },
+            "pages": {
+              "description": "Pages in book or journal article, separated by double-hyphens. Can also be article number.",
+              "type": "string"
+            },
+            "year": {
+              "description": "Year of publication. For webpages, use \"accessed\" instead.",
+              "type": "string"
+            },
+            "doi": {
+              "description": "Link to Digital Object Identifier (DOI).",
+              "type": "string"
+            },
+            "accessed": {
+              "description": "Date the webpage was accessed.",
+              "type": "string",
+              "format": "date",
+              "example": "2025-01-31"
+            }
+          },
+          "required": ["url", "title"]
+        },
+        "minItems": 1,
+        "uniqueItems": true
       }
     },
-    "required": ["name", "sensorSize", "category", "sources"]
+    "required": ["name", "sensorSize", "category", "references"]
   }
 }
