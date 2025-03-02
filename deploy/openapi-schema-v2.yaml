@@ -93,9 +93,9 @@ paths:
       servers:
         - url: 'https://api.physicallybased.info/v2'
 tags:
-  - name: Cameras
-  - name: Light Sources
   - name: Materials
+  - name: Light Sources
+  - name: Cameras
   - name: Lenses
 components:
   schemas:
@@ -211,7 +211,7 @@ components:
           $ref: '#/components/schemas/tags'
         references:
           type: array
-          description: List of references. At least one reference needed.
+          description: List of references. At least one reference required.
           minItems: 1
           uniqueItems: true
           items:
@@ -361,6 +361,43 @@ components:
           maxItems: 2
           items:
             type: number
+        variants:
+          type: array
+          description: 'If the light source comes in different variations, they can be described here.'
+          minItems: 1
+          uniqueItems: true
+          items:
+            type: object
+            additionalProperties: false
+            properties:
+              format:
+                type: string
+                description: Specifies the format.
+              color:
+                $ref: '#/components/schemas/color'
+                description: Color of the light source.
+              temperature:
+                type: number
+                description: 'Color temperature in Kelvin, if color lies on the Planckian curve.'
+                default: 6500
+              intensity:
+                type: number
+                description: Intensity of the light emitted from the light source.
+              angle:
+                type: number
+                description: 'The maximum beam angle in degrees. For a directional light, this specifies angular diameter instead.'
+                default: 90
+              sourceSize:
+                type: array
+                description: 'The size of the light source in centimeters. [Radius] if point or spot. [Width, Height] if surface. [Length, Radius] if cylinder.'
+                minItems: 1
+                maxItems: 2
+                items:
+                  type: number
+            required:
+              - format
+              - color
+              - intensity
         type:
           type: array
           description: 'The type of light, for DCC applications.'
@@ -386,16 +423,21 @@ components:
               - Natural
         description:
           $ref: '#/components/schemas/description'
-        sources:
-          $ref: '#/components/schemas/sources'
         tags:
           $ref: '#/components/schemas/tags'
+        references:
+          type: array
+          description: List of references. At least one reference required.
+          minItems: 1
+          uniqueItems: true
+          items:
+            $ref: '#/components/schemas/reference'
       required:
         - name
         - intensity
         - unit
         - category
-        - sources
+        - references
       examples:
         - name: Household Light Bulb
           color:
@@ -423,15 +465,6 @@ components:
           tags:
             - incandescent
             - tungsten
-    sources:
-      type: array
-      title: sources
-      description: Provide at least one source for the values.
-      minItems: 1
-      uniqueItems: true
-      items:
-        type: string
-        format: uri
     Camera:
       type: object
       title: Camera
@@ -488,16 +521,20 @@ components:
               - Mobile
         description:
           $ref: '#/components/schemas/description'
-        sources:
-          $ref: '#/components/schemas/sources'
-          description: Provide at least one source for the values. Source link to official manufacturer website is preferred.
         tags:
           $ref: '#/components/schemas/tags'
+        references:
+          type: array
+          description: List of references. At least one reference required.
+          minItems: 1
+          uniqueItems: true
+          items:
+            $ref: '#/components/schemas/reference'
       required:
         - name
         - sensorSize
         - category
-        - sources
+        - references
       examples:
         - name: Arri Alexa 35
           sensorSize:
@@ -645,14 +682,18 @@ components:
           description: Shortest distance from the sensor to the subject that the lens can achieve focus. Specified in centimeters.
         description:
           $ref: '#/components/schemas/description'
-        sources:
-          $ref: '#/components/schemas/sources'
-          description: Provide at least one source for the values. Source link to official manufacturer website is preferred.
         tags:
           $ref: '#/components/schemas/tags'
+        references:
+          type: array
+          description: List of references. At least one reference required.
+          minItems: 1
+          uniqueItems: true
+          items:
+            $ref: '#/components/schemas/reference'
       required:
         - name
         - focalLength
         - aperture
         - blades
-        - sources
+        - references
