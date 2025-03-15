@@ -1,17 +1,8 @@
 openapi: 3.1.0
 info:
-  version: '2.0'
+  version: 2.0-alpha
   title: Physically Based API
-  description: |-
-    This is a database of physically based values for CG artists.
-
-    It's made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes. 
-
-    Ideally, the data is to be consumed by DCC applications in the form of plug-ins, or any other form that makes sense. It's also available to browse on the web at https://physicallybased.info
-
-    For additions or changes, feel free to make a Pull Request on Github at https://github.com/AntonPalmqvist/physically-based-api or send me a message through the [contact form.](https://physicallybased.info/about/)
-
-    Schema: https://github.com/AntonPalmqvist/physically-based-api/blob/main/deploy/openapi-schema.yaml
+  description: "\U0001F6A7 V2.0 IS UNDER DEVELOPMENT. USE ONLY FOR TESTING. \U0001F6A7\n\nThis is a database of physically based values for CG artists.\n\nIt's made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes. \n\nIdeally, the data is to be consumed by DCC applications in the form of plug-ins, or any other form that makes sense. It's also available to browse on the web at https://physicallybased.info\n\nFor additions or changes, feel free to make a Pull Request on Github at https://github.com/AntonPalmqvist/physically-based-api or send me a message through the [contact form.](https://physicallybased.info/about/)\n\nSchema: https://github.com/AntonPalmqvist/physically-based-api/blob/main/deploy/openapi-schema.yaml"
   contact:
     url: 'https://physicallybased.info/about'
     name: Form
@@ -102,7 +93,7 @@ components:
     Material:
       type: object
       title: Material
-      description: PBR material.
+      description: 'Material parameters for shading, physics simulation, and fluid simulation.'
       additionalProperties: false
       properties:
         name:
@@ -142,21 +133,27 @@ components:
           items:
             type: number
         thinFilmThickness:
-          type: number
-          description: The thickness of the thin film layer on the base (in nanometers).
+          type: array
+          description: 'The thickness of the thin film layer on the base (in nanometers). If there''s no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common thickness.'
+          minItems: 1
+          maxItems: 3
+          items:
+            type: number
         thinFilmIor:
           type: number
           description: The index of refraction of the thin-film.
         density:
           type: array
-          description: 'Density measured in kg/m3. If there''s no variation, then set both values to the same.'
-          minItems: 2
-          maxItems: 2
+          description: 'Density measured in kg/m3. If there''s no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common density.'
+          minItems: 1
+          maxItems: 3
           items:
             type: number
         viscosity:
           type: array
-          description: 'Dynamic viscosity measured in millipascal-seconds (mPa⋅s) at a temperature of 20°C. 1 mPa⋅s (millipascal-second) = 1 cP (centipoise). Used for fluid simulations. If there''s no variation, then set both values to the same.'
+          description: 'Dynamic viscosity measured in millipascal-seconds (mPa⋅s) at a temperature of 20°C. 1 mPa⋅s (millipascal-second) = 1 cP (centipoise). If there''s no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common viscosity.'
+          minItems: 1
+          maxItems: 3
           items:
             type: number
         acousticAbsorption:

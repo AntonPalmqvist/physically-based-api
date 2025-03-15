@@ -85,7 +85,7 @@ components:
     Material:
       type: object
       title: Material
-      description: 'PBR material using the Autodesk Standard Surface naming conventions: https://autodesk.github.io/standard-surface/'
+      description: 'Material parameters for shading, physics simulation, and fluid simulation.'
       additionalProperties: false
       properties:
         name:

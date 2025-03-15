@@ -6,7 +6,7 @@
     "specularColor": [0.981, 0.979, 0.961],
     "roughness": 0,
     "complexIor": [1.16234, 7.90265, 0.958053, 6.29309, 1.04947, 5.01364],
-    "density": [2700, 2700],
+    "density": [2700],
     "category": ["Metal"],
     "tags": ["aluminium", "mirror"],
     "references": [
@@ -128,8 +128,8 @@
     "roughness": 0,
     "ior": 1.301,
     "transmission": 1,
-    "density": [1060, 1060],
-    "viscosity": [2.7, 4],
+    "density": [1060],
+    "viscosity": [2.35, 4, 2.78],
     "category": ["Human"],
     "description": "The color of blood depends on its oxygen level. When there is plenty of oxygen, the color is a brighter red. The reason is because of a protein called hemoglobin, which carries the oxygen in your blood. When hemoglobin has a full oxygen load, it has a bright red color, and when it's deoxygenated it's a darker red. For example, arterial and capillary blood is bright, and venous blood is dark.",
     "tags": ["liquid"],
@@ -228,12 +228,12 @@
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.5,
-    "density": [1000, 2000],
+    "density": [1000, 2000, 1500],
     "category": ["Organic"],
     "tags": ["skeleton"],
     "references": [
       {
-        "title": "Density of Blood",
+        "title": "Density of Bone",
         "author": "Yarusskaya, A., Donina, K., Elert, G. (Ed.)",
         "url": "https://hypertextbook.com/facts/2002/AnnaYarusskaya.shtml",
         "publisher": "The Physics Factbook",
@@ -278,7 +278,7 @@
     "specularColor": [0.995, 0.974, 0.747],
     "roughness": 0,
     "complexIor": [0.341048, 4.14088, 0.53349, 2.67993, 1.42749, 1.87543],
-    "density": [8600, 8600],
+    "density": [8600],
     "category": ["Metal"],
     "description": "Brass is an alloy of copper and zinc, with a bright and gold-like appearance. It is similar to bronze, another alloy containing copper that uses tin instead of zinc. Historically, the distinction between the two alloys has been less consistent and clear, and modern practice in museums and archaeology increasingly avoids both terms for historical objects in favor of the more general \"copper alloy\".",
     "references": [
@@ -322,7 +322,7 @@
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.5,
-    "density": [500, 2400],
+    "density": [500, 2400, 2000],
     "acousticAbsorption": [0.03, 0.03, 0.03, 0.04, 0.05, 0.07],
     "category": ["Manmade"],
     "references": [
@@ -475,7 +475,7 @@
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.5,
-    "density": [200, 500],
+    "density": [200, 500, 200],
     "category": ["Organic"],
     "references": [
       {
@@ -523,7 +523,7 @@
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.5,
-    "density": [1229, 1336],
+    "density": [1229, 1336, 1300],
     "category": ["Organic"],
     "references": [
       {
@@ -568,7 +568,7 @@
     "specularColor": [0.675, 0.72, 0.711],
     "roughness": 0,
     "complexIor": [3.20617, 4.38724, 2.76851, 4.18069, 2.56326, 3.75018],
-    "density": [7200, 7200],
+    "density": [7200],
     "category": ["Metal"],
     "tags": ["chrome"],
     "references": [
@@ -606,7 +606,7 @@
     "specularColor": [0.731, 0.775, 0.715],
     "roughness": 0,
     "complexIor": [3.33754, 5.27723, 2.6841, 4.73548, 2.57555, 3.81892],
-    "density": [8900, 8900],
+    "density": [8900],
     "category": ["Metal"],
     "references": [
       {
@@ -649,8 +649,8 @@
     "roughness": 0,
     "ior": 1.33,
     "subsurfaceRadius": [10, 5, 1],
-    "density": [1000, 1000],
-    "viscosity": [1.002, 1.002],
+    "density": [1000],
+    "viscosity": [1.002],
     "category": ["Liquid"],
     "tags": ["sss"],
     "references": [
@@ -695,7 +695,7 @@
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.5,
-    "density": [2400, 2400],
+    "density": [2400],
     "acousticAbsorption": [0.01, 0.01, 0.02, 0.02, 0.02, 0.02],
     "category": ["Manmade"],
     "references": [
@@ -752,8 +752,8 @@
     "roughness": 0,
     "ior": 1.47,
     "transmission": 1,
-    "density": [920, 920],
-    "viscosity": [46, 46],
+    "density": [920],
+    "viscosity": [46],
     "category": ["Liquid"],
     "references": [
       {
@@ -823,7 +823,7 @@
     "specularColor": [0.999, 0.946, 0.705],
     "roughness": 0,
     "complexIor": [0.137212, 5.48257, 0.750114, 2.56138, 1.75582, 2.26828],
-    "density": [8940, 8940],
+    "density": [8940],
     "category": ["Metal"],
     "references": [
       {
@@ -868,7 +868,7 @@
     "ior": 2.4168,
     "transmission": 1,
     "transmissionDispersion": 55.3,
-    "density": [3500, 3500],
+    "density": [3500],
     "category": ["Crystal"],
     "tags": ["gem", "gemstone"],
     "references": [
@@ -1071,8 +1071,8 @@
     "roughness": 0,
     "ior": 1.427,
     "transmission": 1,
-    "density": [770, 770],
-    "viscosity": [0.6, 0.6],
+    "density": [770],
+    "viscosity": [0.6],
     "category": ["Liquid"],
     "tags": ["petrol", "fuel"],
     "references": [
@@ -1129,7 +1129,7 @@
     "ior": 1.52,
     "transmission": 1,
     "transmissionDispersion": 64,
-    "density": [2500, 2500],
+    "density": [2500],
     "acousticAbsorption": [0.04, 0.04, 0.03, 0.03, 0.02, 0.02],
     "category": ["Crystal"],
     "references": [
@@ -1186,7 +1186,7 @@
     "specularColor": [1.0, 0.973, 0.597],
     "roughness": 0,
     "complexIor": [0, 6.3108, 0.487424, 2.18391, 1.74577, 1.63493],
-    "density": [19320, 19320],
+    "density": [19320],
     "category": ["Metal"],
     "references": [
       {
@@ -1261,8 +1261,8 @@
     "roughness": 0,
     "ior": 1.504,
     "transmission": 1,
-    "density": [1380, 1450],
-    "viscosity": [10000, 10000],
+    "density": [1380, 1450, 1400],
+    "viscosity": [2000, 15000, 10000],
     "category": ["Liquid"],
     "description": "Variations in its water content alter its refractive index. Typically, the refractive index for honey ranges from 1.504 at 13% water content to 1.474 at 25%.",
     "references": [
@@ -1336,7 +1336,7 @@
     "ior": 1.3098,
     "transmission": 1,
     "transmissionDispersion": 64.87,
-    "density": [917, 917],
+    "density": [917],
     "category": ["Crystal"],
     "references": [
       {
@@ -1386,7 +1386,7 @@
     "specularColor": [0.612, 0.541, 0.422],
     "roughness": 0,
     "complexIor": [2.73466, 3.14869, 2.94186, 2.92718, 3.15654, 2.46012],
-    "density": [7870, 7870],
+    "density": [7870],
     "category": ["Metal"],
     "references": [
       {
@@ -1430,8 +1430,8 @@
     "roughness": 0.1,
     "ior": 1.3,
     "subsurfaceRadius": [0.476, 0.058, 0.039],
-    "density": [1055, 1165],
-    "viscosity": [10000, 20000],
+    "density": [1055, 1165, 1100],
+    "viscosity": [10000, 20000, 15000],
     "category": ["Organic"],
     "tags": ["liquid", "sss"],
     "references": [
@@ -1490,7 +1490,7 @@
     "specularColor": [0.819, 0.804, 0.769],
     "roughness": 0,
     "complexIor": [1.81659, 3.50606, 1.84441, 3.37971, 1.96022, 3.23189],
-    "density": [11340, 11340],
+    "density": [11340],
     "category": ["Metal"],
     "references": [
       {
@@ -1562,7 +1562,7 @@
     "roughness": 0,
     "ior": 1.5,
     "subsurfaceRadius": [0.851, 0.557, 0.395],
-    "density": [2700, 2700],
+    "density": [2700],
     "category": ["Crystal"],
     "tags": ["sss"],
     "references": [
@@ -1620,8 +1620,8 @@
     "specularColor": [0.901, 0.91, 0.89],
     "roughness": 0,
     "complexIor": [1.86932, 5.36989, 1.53811, 4.60484, 1.4963, 3.92685],
-    "density": [13546, 13546],
-    "viscosity": [1.552, 1.552],
+    "density": [13546],
+    "viscosity": [1.552],
     "category": ["Metal"],
     "description": "Mercury is the only metallic element that is known to be liquid at standard conditions.",
     "tags": ["liquid"],
@@ -1680,8 +1680,8 @@
     "roughness": 0,
     "ior": 1.348,
     "subsurfaceRadius": [1.842, 1.044, 0.35],
-    "density": [1026, 1035],
-    "viscosity": [2, 2],
+    "density": [1026, 1035, 1030],
+    "viscosity": [2],
     "category": ["Liquid"],
     "description": "Cow's milk",
     "tags": ["sss"],
@@ -1830,7 +1830,7 @@
     "specularColor": [0.824, 0.798, 0.68],
     "roughness": 0,
     "complexIor": [1.88896, 3.7543, 1.81884, 3.2447, 2.0708, 2.64853],
-    "density": [8900, 8900],
+    "density": [8900],
     "category": ["Metal"],
     "references": [
       {
@@ -1873,7 +1873,7 @@
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.5,
-    "density": [800, 800],
+    "density": [800],
     "category": ["Manmade"],
     "description": "Office paper contains optical brightening additives that absorb light in the ultraviolet and violet region (usually 340-370 nm), and re-emit light in the blue region (typically 420-470 nm) by fluorescence.",
     "references": [
@@ -1919,9 +1919,9 @@
     "roughness": 0.35,
     "ior": 1.68,
     "subsurfaceRadius": [0.3, 0.5, 0.3],
-    "thinFilmThickness": 420,
+    "thinFilmThickness": [200, 700, 400],
     "thinFilmIor": 2,
-    "density": [2700, 2700],
+    "density": [2700],
     "category": ["Organic"],
     "description": "The akoya pearl is a saltwater cultured pearl from the akoya oyster. Akoya are considered to be the classic pearl used for necklaces and other pearl jewelry. Nacre is the material of which pearls are composed and consists of aragonite crystal layers separated by conchiolin, a protein secreted by mollusk shells. The thickness of these layers determines the color of reflection from the nacre. The transmission interference color is complementary to the reflection interference color.",
     "tags": ["nacre", "sss"],
@@ -1934,7 +1934,7 @@
         "volume": "11",
         "issue": "1",
         "year": "2021",
-        "doi": "https://doi.org/10.3390/foods9111629"
+        "doi": "https://doi.org/10.1038/s41598-021-94737-w"
       },
       {
         "title": "A general framework for pearlescent materials",
@@ -1988,8 +1988,8 @@
     "roughness": 0,
     "ior": 1.5,
     "subsurfaceRadius": [3, 1, 0.25],
-    "density": [870, 1000],
-    "viscosity": [100, 1000],
+    "density": [870, 1000, 1000],
+    "viscosity": [100, 1000, 500],
     "category": ["Liquid"],
     "description": "The viscosity of crude oil is sensitive to temperature.",
     "tags": ["oil", "crude oil", "sss"],
@@ -2066,7 +2066,7 @@
     "ior": 1.4905,
     "transmission": 1,
     "transmissionDispersion": 53.18,
-    "density": [1180, 1180],
+    "density": [1180],
     "category": ["Plastic"],
     "tags": ["PMMA", "plexi", "polymethyl methacrylate"],
     "references": [
@@ -2105,7 +2105,7 @@
     "ior": 1.5848,
     "transmission": 1,
     "transmissionDispersion": 27.86,
-    "density": [1200, 1220],
+    "density": [1200],
     "category": ["Plastic"],
     "tags": ["polycarbonate"],
     "references": [
@@ -2143,7 +2143,7 @@
     "roughness": 0,
     "ior": 1.575,
     "transmission": 1,
-    "density": [1380, 1380],
+    "density": [1380],
     "category": ["Plastic"],
     "tags": ["polyethylene terephthalate"],
     "references": [
@@ -2181,7 +2181,7 @@
     "roughness": 0,
     "ior": 1.492,
     "transmission": 1,
-    "density": [855, 946],
+    "density": [855, 946, 900],
     "category": ["Plastic"],
     "tags": ["polypropylene"],
     "references": [
@@ -2224,7 +2224,7 @@
     "roughness": 0,
     "ior": 1.542,
     "transmission": 1,
-    "density": [1100, 1450],
+    "density": [1100, 1450, 1300],
     "category": ["Plastic"],
     "tags": ["polyvinyl chloride"],
     "references": [
@@ -2262,7 +2262,7 @@
     "specularColor": [0.816, 0.786, 0.671],
     "roughness": 0,
     "complexIor": [2.1755, 4.28265, 2.0879, 3.67782, 2.35677, 3.05144],
-    "density": [21450, 21450],
+    "density": [21450],
     "category": ["Metal"],
     "references": [
       {
@@ -2363,7 +2363,7 @@
     "ior": 1.54,
     "transmission": 1,
     "transmissionDispersion": 67.82,
-    "density": [2600, 2600],
+    "density": [2600],
     "category": ["Crystal"],
     "references": [
       {
@@ -2408,7 +2408,7 @@
     "ior": 1.5441,
     "transmission": 1,
     "transmissionDispersion": 42.89,
-    "density": [2170, 2170],
+    "density": [2170],
     "category": ["Crystal"],
     "tags": [],
     "references": [
@@ -2445,7 +2445,7 @@
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.5,
-    "density": [1440, 1680],
+    "density": [1440, 1680, 1500],
     "category": ["Crystal"],
     "tags": [],
     "references": [
@@ -2490,7 +2490,7 @@
     "ior": 1.7682,
     "transmission": 1,
     "transmissionDispersion": 72.2,
-    "density": [3980, 3980],
+    "density": [3980],
     "category": ["Crystal"],
     "tags": ["gem", "gemstone"],
     "references": [
@@ -2540,7 +2540,7 @@
     "specularColor": [0.081, 0, 0.004],
     "roughness": 0,
     "complexIor": [3.63351, 0.966245, 4.06958, 0, 4.36103, 0],
-    "density": [2330, 2330],
+    "density": [2330],
     "category": ["Metal"],
     "references": [
       {
@@ -2584,7 +2584,7 @@
     "specularColor": [0.999, 0.998, 0.986],
     "roughness": 0,
     "complexIor": [0.0636949, 3.69295, 0.155409, 3.20559, 0.426839, 3.12206],
-    "density": [10500, 10500],
+    "density": [10500],
     "category": ["Metal"],
     "tags": ["mirror"],
     "references": [
@@ -2636,7 +2636,7 @@
     "roughness": 0.5,
     "ior": 1.4,
     "subsurfaceRadius": [0.482, 0.169, 0.109],
-    "density": [1020, 1020],
+    "density": [1020],
     "category": ["Human"],
     "group": "Skin",
     "tags": ["epidermis", "sss"],
@@ -2707,7 +2707,7 @@
     "roughness": 0.5,
     "ior": 1.4,
     "subsurfaceRadius": [0.482, 0.169, 0.109],
-    "density": [1020, 1020],
+    "density": [1020],
     "category": ["Human"],
     "group": "Skin",
     "tags": ["epidermis", "sss"],
@@ -2778,7 +2778,7 @@
     "roughness": 0.5,
     "ior": 1.4,
     "subsurfaceRadius": [0.482, 0.169, 0.109],
-    "density": [1020, 1020],
+    "density": [1020],
     "category": ["Human"],
     "group": "Skin",
     "tags": ["epidermis", "sss"],
@@ -2861,7 +2861,7 @@
     "roughness": 0.5,
     "ior": 1.4,
     "subsurfaceRadius": [0.367, 0.137, 0.068],
-    "density": [1020, 1020],
+    "density": [1020],
     "category": ["Human"],
     "group": "Skin",
     "tags": ["epidermis", "sss"],
@@ -2938,7 +2938,7 @@
     "roughness": 0.5,
     "ior": 1.4,
     "subsurfaceRadius": [0.367, 0.137, 0.068],
-    "density": [1020, 1020],
+    "density": [1020],
     "category": ["Human"],
     "group": "Skin",
     "tags": ["epidermis", "sss"],
@@ -3015,7 +3015,7 @@
     "roughness": 0.5,
     "ior": 1.4,
     "subsurfaceRadius": [0.367, 0.137, 0.068],
-    "density": [1020, 1020],
+    "density": [1020],
     "category": ["Human"],
     "group": "Skin",
     "tags": ["epidermis", "sss"],
@@ -3091,7 +3091,7 @@
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.3098,
-    "density": [90, 450],
+    "density": [90, 450, 300],
     "acousticAbsorption": [0.45, 0.75, 0.9, 0.95, 0.95, 0.95],
     "category": ["Crystal"],
     "tags": ["ice"],
@@ -3157,7 +3157,7 @@
     "roughness": 0,
     "ior": 1,
     "transmission": 1,
-    "thinFilmThickness": 500,
+    "thinFilmThickness": [10, 1000, 500],
     "thinFilmIor": 1.4,
     "category": ["Organic"],
     "description": "The colors of a soap bubble are the result of an interaction between the light reflected from the front and back surfaces of the soap film, a phenomenon known as thin-film interference. The thickness of a soap bubble can range between 10 nm and 1000 nm. It's thinner at the top due to gravity.",
@@ -3204,7 +3204,7 @@
     "specularColor": [0.804, 0.791, 0.714],
     "roughness": 0,
     "complexIor": [2.22981, 4.21948, 2.04109, 3.64081, 2.15682, 3.07445],
-    "density": [7500, 8000],
+    "density": [7500, 8000, 8000],
     "category": ["Metal"],
     "references": [
       {
@@ -3279,7 +3279,7 @@
     "specularColor": [0.728, 0.68, 0.55],
     "roughness": 0,
     "complexIor": [2.55584, 3.89385, 2.52916, 3.39243, 2.8235, 2.85229],
-    "density": [4540, 4540],
+    "density": [4540],
     "category": ["Metal"],
     "references": [
       {
@@ -3353,7 +3353,7 @@
     "specularColor": [0.461, 0.413, 0.206],
     "roughness": 0,
     "complexIor": [3.45096, 2.96613, 3.51714, 2.7338, 4.02045, 1.90549],
-    "density": [19300, 19300],
+    "density": [19300],
     "category": ["Metal"],
     "references": [
       {
@@ -3390,7 +3390,7 @@
     "specularColor": [0.474, 0.426, 0.175],
     "roughness": 0,
     "complexIor": [3.6507, 3.25065, 3.72723, 3.00712, 4.94609, 2.17896],
-    "density": [6100, 6100],
+    "density": [6100],
     "category": ["Metal"],
     "references": [
       {
@@ -3428,8 +3428,8 @@
     "ior": 1.3325,
     "transmission": 1,
     "transmissionDispersion": 55.78,
-    "density": [958, 1000],
-    "viscosity": [1.002, 1.002],
+    "density": [958, 1000, 1000],
+    "viscosity": [1.002],
     "acousticAbsorption": [0.008, 0.008, 0.013, 0.015, 0.02, 0.025],
     "category": ["Liquid"],
     "description": "While relatively small quantities of water appear to be colorless, pure water has a slight blue color that becomes deeper as the thickness of the observed sample increases. The hue of water is an intrinsic property and is caused by selective absorption and scattering of white light. Dissolved elements or suspended impurities may give water a different color.",
@@ -3564,7 +3564,7 @@
     "specularColor": [0.854, 0.922, 0.923],
     "roughness": 0,
     "complexIor": [3.15207, 7.39342, 1.89133, 6.28678, 1.48736, 4.92701],
-    "density": [7000, 7000],
+    "density": [7000],
     "category": ["Metal"],
     "references": [
       {

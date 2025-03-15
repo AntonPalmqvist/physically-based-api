@@ -77,9 +77,14 @@
         "maxItems": 6
       },
       "thinFilmThickness": {
-        "description": "The thickness of the thin film layer on the base (in nanometers).",
-        "type": "number",
-        "default": 0
+        "description": "The thickness of the thin film layer on the base (in nanometers). If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common thickness.",
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "default": [10, 1000],
+        "minItems": 1,
+        "maxItems": 3
       },
       "thinFilmIor": {
         "description": "The index of refraction of the thin-film.",
@@ -87,24 +92,24 @@
         "default": 1.5
       },
       "density": {
-        "description": "Density measured in kg/m3. If there's no variation, then set both values to the same.",
+        "description": "Density measured in kg/m3. If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common density.",
         "type": "array",
         "items": {
           "type": "number"
         },
-        "default": [1000, 1000],
-        "minItems": 2,
-        "maxItems": 2
+        "default": [900, 1000],
+        "minItems": 1,
+        "maxItems": 3
       },
       "viscosity": {
-        "description": "Dynamic viscosity measured in millipascal-seconds (mPa⋅s) at a temperature of 20°C. 1 mPa⋅s (millipascal-second) = 1 cP (centipoise). Used for fluid simulations. If there's no variation, then set both values to the same.",
+        "description": "Dynamic viscosity measured in millipascal-seconds (mPa⋅s) at a temperature of 20°C. 1 mPa⋅s (millipascal-second) = 1 cP (centipoise). If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common viscosity.",
         "type": "array",
         "items": {
           "type": "number"
         },
-        "default": [1, 1],
-        "minItems": 2,
-        "maxItems": 2
+        "default": [1, 2],
+        "minItems": 1,
+        "maxItems": 3
       },
       "acousticAbsorption": {
         "description": "Absorption coefficients at 125, 250, 500, 1000, 2000, and 4000 kHz.",
