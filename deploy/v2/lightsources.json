@@ -2,20 +2,21 @@
   {
     "name": "Aputure amaran 300c",
     "temperature": [2500, 7500],
+    "intensity": [19389],
     "variants": [
-      {
-        "format": "Bare Bulb",
-        "color": [1.0, 0.859, 0.778],
-        "temperature": 5600,
-        "angle": 90,
-        "intensity": 17244
-      },
       {
         "format": "Hyper Reflector",
         "color": [1.0, 0.859, 0.778],
         "temperature": 5600,
         "angle": 65,
         "intensity": 26155
+      },
+      {
+        "format": "Bare Bulb",
+        "color": [1.0, 0.859, 0.778],
+        "temperature": 5600,
+        "angle": 90,
+        "intensity": 17244
       }
     ],
     "unit": ["lm"],
@@ -38,9 +39,8 @@
   },
   {
     "name": "Aputure amaran P60c",
-    "color": [0.828, 0.841, 1.0],
     "temperature": [2500, 7500],
-    "intensity": [3000, 3000],
+    "intensity": [3000],
     "unit": ["lm"],
     "angle": 45,
     "sourceSize": [27, 21],
@@ -63,16 +63,8 @@
   },
   {
     "name": "Aputure STORM 1000c",
-    "color": [1.0, 0.859, 0.778],
     "temperature": [1800, 20000],
     "variants": [
-      {
-        "format": "No Reflector",
-        "color": [1.0, 0.859, 0.778],
-        "temperature": 5600,
-        "angle": 65,
-        "intensity": 61250
-      },
       {
         "format": "15º Reflector",
         "color": [1.0, 0.859, 0.778],
@@ -93,6 +85,13 @@
         "temperature": 5600,
         "angle": 45,
         "intensity": 125000
+      },
+      {
+        "format": "No Reflector",
+        "color": [1.0, 0.859, 0.778],
+        "temperature": 5600,
+        "angle": 65,
+        "intensity": 61250
       }
     ],
     "unit": ["lx"],
@@ -119,13 +118,6 @@
     "temperature": [2500, 10000],
     "variants": [
       {
-        "format": "No Reflector",
-        "color": [1.0, 0.859, 0.778],
-        "temperature": 5600,
-        "angle": 70,
-        "intensity": 76400
-      },
-      {
         "format": "15º Reflector",
         "color": [1.0, 0.859, 0.778],
         "temperature": 5600,
@@ -145,6 +137,13 @@
         "temperature": 5600,
         "angle": 45,
         "intensity": 202500
+      },
+      {
+        "format": "No Reflector",
+        "color": [1.0, 0.859, 0.778],
+        "temperature": 5600,
+        "angle": 70,
+        "intensity": 76400
       }
     ],
     "unit": ["lx"],
@@ -168,12 +167,12 @@
   {
     "name": "Arri M-Series M8",
     "color": [1.0, 0.899, 0.875],
-    "temperature": [6000, 6000],
+    "temperature": [6000],
     "variants": [
       {
-        "format": "Flood",
-        "angle": 60,
-        "intensity": 41300
+        "format": "Spot",
+        "angle": 15,
+        "intensity": 405000
       },
       {
         "format": "Medium",
@@ -181,9 +180,9 @@
         "intensity": 76100
       },
       {
-        "format": "Spot",
-        "angle": 15,
-        "intensity": 405000
+        "format": "Flood",
+        "angle": 60,
+        "intensity": 41300
       }
     ],
     "sourceSize": [100],
@@ -207,9 +206,8 @@
   },
   {
     "name": "Arri SkyPanel S60 Pro",
-    "color": [1.0, 0.859, 0.778],
     "temperature": [2800, 10000],
-    "intensity": [41100, 41100],
+    "intensity": [41100],
     "sourceSize": [64.5, 30.0],
     "angle": 103,
     "unit": ["lm"],
@@ -233,6 +231,7 @@
   {
     "name": "Arri SkyPanel X",
     "temperature": [1500, 20000],
+    "intensity": [48000],
     "variants": [
       {
         "format": "Open-Face",
@@ -285,8 +284,8 @@
   {
     "name": "Candle Flame",
     "color": [1.0, 0.22, 0.0],
-    "temperature": [1850, 1850],
-    "intensity": [13, 13],
+    "temperature": [1850],
+    "intensity": [13],
     "unit": ["lm"],
     "sourceSize": [1],
     "type": ["point"],
@@ -310,9 +309,8 @@
   },
   {
     "name": "Car Headlight (Halogen)",
-    "color": [1.0, 0.571, 0.259],
     "temperature": [3400, 4000],
-    "intensity": [1000, 2000],
+    "intensity": [1000, 2000, 1500],
     "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],
@@ -335,9 +333,8 @@
   },
   {
     "name": "Car Headlight (LED)",
-    "color": [1.0, 0.571, 0.259],
     "temperature": [5000, 6000],
-    "intensity": [2000, 5000],
+    "intensity": [2000, 5000, 3000],
     "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],
@@ -360,13 +357,13 @@
   {
     "name": "Digital Display",
     "color": [1.0, 0.943, 0.992],
-    "temperature": [6500, 6500],
-    "intensity": [100, 2500],
+    "temperature": [5000, 7500, 6500],
+    "intensity": [100, 2500, 200],
     "unit": ["cd/m2"],
     "sourceSize": [61, 38],
     "type": ["surface"],
     "category": ["Artificial"],
-    "description": "Displays like computer monitors, TVs, signage, etc. Typically they have a temperature of 6500K but it can vary. The sRGB spec for monitors targets 80 cd/m2. Typically, monitors calibrated for broadcast or studio color grading should have a brightness of 100 cd/m2 in Japan and in the United States, or 120 cd/m2 in the European Union. This is however considered quite dark for normal use, so consumer monitors tend to be brighter.",
+    "description": "Displays like computer monitors, TVs, signage, etc. typically have a temperature of 6500K but it can vary. The sRGB spec for monitors targets 80 cd/m2 at 6500K. Typically, monitors calibrated for broadcast or studio color grading should have a brightness of 100 cd/m2 in Japan and in the United States, or 120 cd/m2 in the European Union. This is however considered quite dark for normal use, so consumer monitors tend to be brighter, and HDR displays even brighter.",
     "references": [
       {
         "title": "LCD Panels - Backlights & Brightness",
@@ -393,7 +390,7 @@
   },
   {
     "name": "Firefly",
-    "intensity": [0.0006, 0.0006],
+    "intensity": [0.0006],
     "variants": [
       {
         "format": "Green",
@@ -493,8 +490,8 @@
   {
     "name": "Kerosene Lamp",
     "color": [1.0, 0.22, 0.0],
-    "temperature": [1850, 1850],
-    "intensity": [8, 100],
+    "temperature": [1850],
+    "intensity": [8, 100, 50],
     "unit": ["lm"],
     "type": ["point"],
     "category": ["Natural"],
@@ -518,7 +515,7 @@
   {
     "name": "Kino Flo MIMIK 120",
     "temperature": [2700, 6500],
-    "intensity": [10000, 10000],
+    "intensity": [10000],
     "sourceSize": [120, 60],
     "unit": ["cd/m2"],
     "type": ["surface"],
@@ -540,9 +537,8 @@
   },
   {
     "name": "Household Light Bulb",
-    "color": [1.0, 0.415, 0.099],
-    "temperature": [2400, 6000],
-    "intensity": [400, 1000],
+    "temperature": [2400, 6000, 3000],
+    "intensity": [400, 1000, 800],
     "unit": ["lm"],
     "sourceSize": [3],
     "type": ["point"],
@@ -569,7 +565,7 @@
   {
     "name": "Moon",
     "color": [1.0, 0.669, 0.402],
-    "temperature": [4100, 4100],
+    "temperature": [4100],
     "intensity": [0.05, 0.32],
     "unit": ["lx"],
     "angle": 0.5286,
@@ -626,8 +622,8 @@
   {
     "name": "Photo Flash",
     "color": [1.0, 0.849, 0.754],
-    "temperature": [5500, 5500],
-    "intensity": [20000, 20000],
+    "temperature": [5500],
+    "intensity": [10000, 20000],
     "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],
@@ -644,8 +640,8 @@
   {
     "name": "Sky (Clear)",
     "color": [0.609, 0.695, 1.0],
-    "temperature": [10000, 10000],
-    "intensity": [6000, 6000],
+    "temperature": [10000],
+    "intensity": [6000],
     "unit": ["lx"],
     "type": ["dome"],
     "category": ["Natural"],
@@ -684,7 +680,7 @@
   {
     "name": "ROE Carbon Carbon CB5 MKII RGBCA",
     "temperature": [3200, 6500],
-    "intensity": [4400, 4400],
+    "intensity": [4400],
     "sourceSize": [60, 120],
     "unit": ["cd/m2"],
     "type": ["surface"],
@@ -708,7 +704,7 @@
   {
     "name": "ROE Carbon Carbon CB5 MKII RGBW",
     "temperature": [2700, 6500],
-    "intensity": [3200, 3200],
+    "intensity": [3200],
     "sourceSize": [60, 120],
     "unit": ["cd/m2"],
     "type": ["surface"],
@@ -732,8 +728,8 @@
   {
     "name": "Sky (Moonless Clear Night)",
     "color": [1.0, 0.943, 0.992],
-    "temperature": [6500, 6500],
-    "intensity": [0.002, 0.002],
+    "temperature": [6500],
+    "intensity": [0.002],
     "unit": ["lx"],
     "type": ["dome"],
     "category": ["Natural"],
@@ -772,8 +768,8 @@
   {
     "name": "Sky (Overcast Day)",
     "color": [1.0, 0.943, 0.992],
-    "temperature": [6500, 6500],
-    "intensity": [100, 2000],
+    "temperature": [6500],
+    "intensity": [100, 2000, 2000],
     "unit": ["lx"],
     "type": ["dome"],
     "category": ["Natural"],
@@ -829,8 +825,8 @@
   {
     "name": "Sun",
     "color": [1.0, 0.877, 0.822],
-    "temperature": [5778, 5778],
-    "intensity": [400, 100000],
+    "temperature": [5778],
+    "intensity": [400, 100000, 100000],
     "unit": ["lx"],
     "angle": 0.5332,
     "type": ["directional"],

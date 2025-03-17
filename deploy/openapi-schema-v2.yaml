@@ -2,7 +2,7 @@ openapi: 3.1.0
 info:
   version: 2.0-alpha
   title: Physically Based API
-  description: "\U0001F6A7 V2.0 IS UNDER DEVELOPMENT. USE ONLY FOR TESTING. \U0001F6A7\n\nThis is a database of physically based values for CG artists.\n\nIt's made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes. \n\nIdeally, the data is to be consumed by DCC applications in the form of plug-ins, or any other form that makes sense. It's also available to browse on the web at https://physicallybased.info\n\nFor additions or changes, feel free to make a Pull Request on Github at https://github.com/AntonPalmqvist/physically-based-api or send me a message through the [contact form.](https://physicallybased.info/about/)\n\nSchema: https://github.com/AntonPalmqvist/physically-based-api/blob/main/deploy/openapi-schema.yaml"
+  description: "\U0001F6A7 V2.0 IS UNDER DEVELOPMENT. FOR TESTING USE ONLY. \U0001F6A7\n\nThis is a database of physically based values for CG artists.\n\nIt's made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes. \n\nIdeally, the data is to be consumed by DCC applications in the form of plug-ins, or any other form that makes sense. It's also available to browse on the web at https://physicallybased.info\n\nFor additions or changes, feel free to make a Pull Request on Github at https://github.com/AntonPalmqvist/physically-based-api or send me a message through the [contact form.](https://physicallybased.info/about/)\n\nSchema: https://github.com/AntonPalmqvist/physically-based-api/blob/main/deploy/openapi-schema.yaml"
   contact:
     url: 'https://physicallybased.info/about'
     name: Form
@@ -326,16 +326,16 @@ components:
           description: 'Color of the light source, if not on the Planckian curve.'
         temperature:
           type: array
-          description: 'The typical range of color temperature in Kelvin, if color lies on the Planckian curve. If there''s no variation, only set one value.'
+          description: 'The typical range of color temperature in Kelvin, if color lies on the Planckian curve. If there''s no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common temperature.'
           minItems: 1
-          maxItems: 2
+          maxItems: 3
           items:
             type: number
         intensity:
           type: array
-          description: 'The typical range of intensity for this specific light source. If there''s no variation, only set one value.'
+          description: 'The typical range of intensity for this specific light source. If there''s no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common intensity.'
           minItems: 1
-          maxItems: 2
+          maxItems: 3
           items:
             type: number
         unit:
@@ -360,7 +360,7 @@ components:
             type: number
         variants:
           type: array
-          description: 'If the light source comes in different variations, they can be described here.'
+          description: 'If the light source comes in different variations, they can be described here, in order of intensity from most bright to least bright.'
           minItems: 1
           uniqueItems: true
           items:

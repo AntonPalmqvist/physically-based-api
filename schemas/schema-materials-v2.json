@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/schema",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Material",
   "description": "PBR material using the Autodesk Standard Surface naming conventions: https://autodesk.github.io/standard-surface/",
   "type": "array",

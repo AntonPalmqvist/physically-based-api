@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/schema",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Light",
   "description": "A light source.",
   "type": "array",
@@ -22,24 +22,24 @@
         "maxItems": 3
       },
       "temperature": {
-        "description": "The typical range of color temperature in Kelvin, if color lies on the Planckian curve. If there's no variation, set both values to the same.",
+        "description": "The typical range of color temperature in Kelvin, if color lies on the Planckian curve. If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common temperature.",
         "type": "array",
         "items": {
           "type": "number"
         },
-        "default": [6500, 6500],
-        "minItems": 2,
-        "maxItems": 2
+        "default": [2700, 6500],
+        "minItems": 1,
+        "maxItems": 3
       },
       "intensity": {
-        "description": "Intensity of the light emitted from the light source.",
+        "description": "Intensity of the light emitted from the light source. If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common intensity.",
         "type": "array",
         "items": {
           "type": "number"
         },
-        "default": [0, 0],
-        "minItems": 2,
-        "maxItems": 2
+        "default": [10, 100],
+        "minItems": 1,
+        "maxItems": 3
       },
       "unit": {
         "description": "The unit of measurement of the intensity of the light.",
@@ -81,7 +81,7 @@
         "maxItems": 1
       },
       "variants": {
-        "description": "If the light source comes in different variations, they can be described here.",
+        "description": "If the light source comes in different variations, they can be described here, in order of intensity from most bright to least bright.",
         "type": "array",
         "minItems": 1,
         "items": {
@@ -210,7 +210,7 @@
     },
     "anyOf": [
       {
-        "required": ["color", "intensity"]
+        "required": ["intensity"]
       },
       {
         "required": ["variants"]
