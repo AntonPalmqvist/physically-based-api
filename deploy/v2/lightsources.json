@@ -1,8 +1,7 @@
 [
   {
     "name": "Aputure amaran 300c",
-    "temperature": [2500, 7500],
-    "intensity": [19389],
+    "temperature": [2500, 7500, 5600],
     "variants": [
       {
         "format": "Hyper Reflector",
@@ -39,7 +38,8 @@
   },
   {
     "name": "Aputure amaran P60c",
-    "temperature": [2500, 7500],
+    "color": [1.0, 0.859, 0.778],
+    "temperature": [2500, 7500, 5600],
     "intensity": [3000],
     "unit": ["lm"],
     "angle": 45,
@@ -63,7 +63,8 @@
   },
   {
     "name": "Aputure STORM 1000c",
-    "temperature": [1800, 20000],
+    "color": [1.0, 0.859, 0.778],
+    "temperature": [1800, 20000, 5600],
     "variants": [
       {
         "format": "15º Reflector",
@@ -115,7 +116,7 @@
   {
     "name": "Aputure STORM 1200x",
     "color": [1.0, 0.859, 0.778],
-    "temperature": [2500, 10000],
+    "temperature": [2500, 10000, 5600],
     "variants": [
       {
         "format": "15º Reflector",
@@ -206,7 +207,8 @@
   },
   {
     "name": "Arri SkyPanel S60 Pro",
-    "temperature": [2800, 10000],
+    "color": [1.0, 0.859, 0.778],
+    "temperature": [2800, 10000, 5600],
     "intensity": [41100],
     "sourceSize": [64.5, 30.0],
     "angle": 103,
@@ -230,7 +232,7 @@
   },
   {
     "name": "Arri SkyPanel X",
-    "temperature": [1500, 20000],
+    "temperature": [1500, 20000, 5600],
     "intensity": [48000],
     "variants": [
       {
@@ -309,6 +311,7 @@
   },
   {
     "name": "Car Headlight (Halogen)",
+    "color": [1.0, 0.553, 0.237],
     "temperature": [3400, 4000],
     "intensity": [1000, 2000, 1500],
     "unit": ["lm"],
@@ -333,6 +336,7 @@
   },
   {
     "name": "Car Headlight (LED)",
+    "color": [1.0, 0.792, 0.628],
     "temperature": [5000, 6000],
     "intensity": [2000, 5000, 3000],
     "unit": ["lm"],
@@ -448,7 +452,8 @@
   },
   {
     "name": "Fluorescent Tube Light",
-    "temperature": [2700, 6500],
+    "color": [1.0, 0.654, 0.377],
+    "temperature": [2700, 6500, 4000],
     "intensity": [500, 5000],
     "variants": [
       {
@@ -514,7 +519,8 @@
   },
   {
     "name": "Kino Flo MIMIK 120",
-    "temperature": [2700, 6500],
+    "color": [1.0, 0.859, 0.778],
+    "temperature": [2700, 6500, 5600],
     "intensity": [10000],
     "sourceSize": [120, 60],
     "unit": ["cd/m2"],
@@ -537,7 +543,8 @@
   },
   {
     "name": "Household Light Bulb",
-    "temperature": [2400, 6000, 3000],
+    "color": [1.0, 0.415, 0.099],
+    "temperature": [2400, 6000, 2700],
     "intensity": [400, 1000, 800],
     "unit": ["lm"],
     "sourceSize": [3],
@@ -679,7 +686,8 @@
   },
   {
     "name": "ROE Carbon Carbon CB5 MKII RGBCA",
-    "temperature": [3200, 6500],
+    "color": [1.0, 0.859, 0.778],
+    "temperature": [3200, 6500, 5600],
     "intensity": [4400],
     "sourceSize": [60, 120],
     "unit": ["cd/m2"],
@@ -703,7 +711,8 @@
   },
   {
     "name": "ROE Carbon Carbon CB5 MKII RGBW",
-    "temperature": [2700, 6500],
+    "color": [1.0, 0.859, 0.778],
+    "temperature": [2700, 6500, 5600],
     "intensity": [3200],
     "sourceSize": [60, 120],
     "unit": ["cd/m2"],

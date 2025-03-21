@@ -27,7 +27,7 @@
         "default": 0
       },
       "specularColor": {
-        "description": "Color of the specular reflection (controls the physical edge-tint for metals), calculated from spectral data using script from https://github.com/natyh/material-params",
+        "description": "Color of the specular reflection for metals, specified in the \"Gulbrandsen edge tint\" format. Calculated from spectral data using script from https://github.com/natyh/material-params",
         "type": "array",
         "items": {
           "type": "number"

@@ -100,7 +100,7 @@ components:
           description: Specifies how metallic the material appears (dials the shading model from pure dielectric to pure metal).
         specularColor:
           $ref: '#/components/schemas/color'
-          description: 'Color of the specular reflection (controls the physical edge-tint for metals), calculated from Complex IOR n and k values.'
+          description: 'Color of the specular reflection for metals, specified in the "Gulbrandsen edge tint" format. Calculated from spectral data using script from https://github.com/natyh/material-params'
         roughness:
           type: number
           description: 'The roughness of the specular reflection. Lower numbers produce sharper reflections, higher numbers produce blurrier reflections.'
@@ -277,6 +277,7 @@ components:
             type: number
         intensity:
           type: number
+          description: Intensity of the light emitted from the light source.
         intensityRange:
           type: array
           description: The typical range of intensity for this specific light source.
@@ -286,6 +287,7 @@ components:
             type: number
         unit:
           type: array
+          description: 'The unit of measurement of the intensity of the light. In the case of lux, it is specified as lux at 1 meter distance from the light source, unless it''s a directional light such as the sun or the moon.'
           minItems: 1
           maxItems: 1
           items:

@@ -37,6 +37,7 @@
         "maxItems": 2
       },
       "intensity": {
+        "description": "Intensity of the light emitted from the light source.",
         "type": "number",
         "default": 0
       },
@@ -51,6 +52,7 @@
         "maxItems": 2
       },
       "unit": {
+        "description": "The unit of measurement of the intensity of the light. In the case of lux, it is specified as lux at 1 meter distance from the light source, unless it's a directional light such as the sun or the moon.",
         "type": "array",
         "items": {
           "enum": ["lm", "lx", "cd/m2"]
