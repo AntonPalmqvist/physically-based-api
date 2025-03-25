@@ -172,16 +172,22 @@
     "variants": [
       {
         "format": "Spot",
+        "color": [1.0, 0.899, 0.875],
+        "temperature": 6000,
         "angle": 15,
         "intensity": 405000
       },
       {
         "format": "Medium",
+        "color": [1.0, 0.899, 0.875],
+        "temperature": 6000,
         "angle": 40,
         "intensity": 76100
       },
       {
         "format": "Flood",
+        "color": [1.0, 0.899, 0.875],
+        "temperature": 6000,
         "angle": 60,
         "intensity": 41300
       }
@@ -233,7 +239,6 @@
   {
     "name": "Arri SkyPanel X",
     "temperature": [1500, 20000, 5600],
-    "intensity": [48000],
     "variants": [
       {
         "format": "Open-Face",
@@ -454,7 +459,7 @@
     "name": "Fluorescent Tube Light",
     "color": [1.0, 0.654, 0.377],
     "temperature": [2700, 6500, 4000],
-    "intensity": [500, 5000],
+    "intensity": [500, 5000, 3000],
     "variants": [
       {
         "format": "2700 K",
