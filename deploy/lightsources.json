@@ -5,6 +5,22 @@
     "temperature": 5600,
     "temperatureRange": [2500, 7500],
     "intensity": 19389,
+    "variants": [
+      {
+        "format": "Bare Bulb",
+        "color": [1.0, 0.859, 0.778],
+        "temperature": 5600,
+        "angle": 90,
+        "intensity": 17244
+      },
+      {
+        "format": "Hyper Reflector",
+        "color": [1.0, 0.859, 0.778],
+        "temperature": 5600,
+        "angle": 65,
+        "intensity": 26155
+      }
+    ],
     "unit": ["lm"],
     "angle": 90,
     "type": ["spot"],
@@ -235,7 +251,7 @@
     "color": [1.0, 0.571, 0.259],
     "temperature": 3500,
     "intensity": 1500,
-    "intensityRange": [700, 2000],
+    "intensityRange": [1000, 2000],
     "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],
@@ -250,7 +266,7 @@
     "color": [1.0, 0.943, 0.992],
     "temperature": 6500,
     "intensity": 200,
-    "intensityRange": [100, 2000],
+    "intensityRange": [100, 2500],
     "unit": ["cd/m2"],
     "sourceSize": [61, 38],
     "type": ["surface"],
@@ -268,13 +284,29 @@
     "color": [1, 1, 1],
     "temperature": 0,
     "intensity": 0.0006,
+    "variants": [
+      {
+        "format": "Green",
+        "color": [0, 1, 0],
+        "intensity": 0.0006
+      },
+      {
+        "format": "Yellow",
+        "color": [1.0, 0.5, 0],
+        "intensity": 0.0006
+      },
+      {
+        "format": "Red",
+        "color": [1.0, 0, 0],
+        "intensity": 0.0006
+      }
+    ],
     "unit": ["lm"],
     "sourceSize": [0.25],
     "type": ["point"],
     "category": ["Natural"],
     "description": "Fireflies produce a \"cold light\", with no infrared or ultraviolet frequencies. The light may be yellow, green, or pale red, with wavelengths from 510 to 670 nanometers. Some species such as the dimly glowing \"blue ghost\" of the Eastern US may seem to emit blueish-white light from a distance and in low light conditions, but their glow is bright green when observed up close. Their perceived blue tint may be due to the Purkinje effect.",
     "sources": [
-      "https://what-if.xkcd.com/151/",
       "https://www.nature.com/articles/s41598-021-91839-3",
       "https://en.wikipedia.org/wiki/Firefly"
     ],
@@ -286,6 +318,23 @@
     "temperature": 5000,
     "intensity": 1000,
     "intensityRange": [500, 5000],
+    "variants": [
+      {
+        "format": "2700 K",
+        "color": [1.0, 0.415, 0.099],
+        "temperature": 2700
+      },
+      {
+        "format": "4000 K",
+        "color": [1.0, 0.654, 0.377],
+        "temperature": 4000
+      },
+      {
+        "format": "6500 K",
+        "color": [1.0, 0.943, 0.992],
+        "temperature": 2700
+      }
+    ],
     "unit": ["lm"],
     "sourceSize": [60, 1.5],
     "type": ["cylinder"],
@@ -359,7 +408,6 @@
       "https://en.wikipedia.org/wiki/Purkinje_effect",
       "https://chrisbrejon.com/cg-cinematography/chapter-4-light-categories/#moon",
       "https://iopscience.iop.org/article/10.1088/0031-9120/48/3/360",
-      "https://web.archive.org/web/20151005215129/http://www.cast-lighting.com/search/1/display-document/71",
       "https://www.physics.unlv.edu/~jeffery/astro/moon/sun_moon_angular.html"
     ]
   },
@@ -372,8 +420,7 @@
     "type": ["spot"],
     "category": ["Artificial"],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Flash_(photography)"],
-    "tags": ["camera"]
+    "sources": ["https://en.wikipedia.org/wiki/Flash_(photography)"]
   },
   {
     "name": "Sky (Clear)",
@@ -388,7 +435,7 @@
       "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/lightsources/sky-clear/",
       "https://en.wikipedia.org/wiki/Color_temperature",
       "https://en.wikipedia.org/wiki/Daylight",
-      "http://web.archive.org/web/20120807211236/http://www.npl.co.uk/upload/pdf/npl_summary_report_best_blue_sky_2006.pdf"
+      "http://eprintspublications.npl.co.uk/3518/"
     ]
   },
   {
@@ -425,8 +472,8 @@
   },
   {
     "name": "Sky (Moonless Clear Night)",
-    "color": [1, 1, 1],
-    "temperature": 0,
+    "color": [1.0, 0.943, 0.992],
+    "temperature": 6500,
     "intensity": 0.002,
     "unit": ["lx"],
     "type": ["dome"],

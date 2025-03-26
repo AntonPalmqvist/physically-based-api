@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/schema",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Lens",
   "description": "Any type of lens that is being used, or simulated, in any way in CG productions (including games).",
   "type": "array",

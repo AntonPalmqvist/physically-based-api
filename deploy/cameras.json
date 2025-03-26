@@ -688,8 +688,14 @@
     "name": "Blackmagic Cinema Camera 6K",
     "sensorSize": [
       {
-        "format": "Open Gate",
-        "size": [36, 24]
+        "format": "Open Gate 3:2",
+        "size": [36, 24],
+        "resolution": [
+          {
+            "format": "Open Gate 3:2",
+            "size": [6048, 4032]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -704,7 +710,13 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [17.78, 10]
+        "size": [17.78, 10],
+        "resolution": [
+          {
+            "format": "Open Gate",
+            "size": [3840, 2160]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -719,7 +731,13 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [18.96, 10]
+        "size": [18.96, 10],
+        "resolution": [
+          {
+            "format": "4K DCI",
+            "size": [4096, 2160]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -734,7 +752,13 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [23.1, 12.99]
+        "size": [23.1, 12.99],
+        "resolution": [
+          {
+            "format": "6K",
+            "size": [6144, 3456]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -748,8 +772,14 @@
     "name": "Blackmagic PYXIS 6K",
     "sensorSize": [
       {
-        "format": "Open Gate",
-        "size": [36, 24]
+        "format": "Open Gate 3:2",
+        "size": [36, 24],
+        "resolution": [
+          {
+            "format": "Open Gate 3:2",
+            "size": [6048, 4032]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -760,26 +790,17 @@
     "tags": ["full frame"]
   },
   {
-    "name": "Blackmagic Studio Camera 4K",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [17.78, 10]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://www.blackmagicdesign.com/products/blackmagicstudiocamera/techspecs/W-CST-05"
-    ],
-    "tags": ["four thirds"]
-  },
-  {
     "name": "Blackmagic Studio Camera 4K Plus G2",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [17.78, 10]
+        "size": [17.78, 10],
+        "resolution": [
+          {
+            "format": "Open Gate",
+            "size": [3840, 2160]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -794,7 +815,13 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [17.78, 10]
+        "size": [17.78, 10],
+        "resolution": [
+          {
+            "format": "Open Gate",
+            "size": [3840, 2160]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -809,7 +836,13 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [23.1, 12.99]
+        "size": [23.1, 12.99],
+        "resolution": [
+          {
+            "format": "Open Gate 6K",
+            "size": [6144, 3456]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -824,7 +857,13 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [23.1, 12.99]
+        "size": [23.1, 12.99],
+        "resolution": [
+          {
+            "format": "Open Gate 6K",
+            "size": [6144, 3456]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -924,14 +963,21 @@
     "name": "Blackmagic URSA Cine 17K 65",
     "sensorSize": [
       {
-        "format": "Open Gate",
+        "format": "2.2:1 open gate",
         "size": [50.808, 23.316],
-        "resolution": [{ "format": "17K", "size": [17520, 8040] }]
+        "resolution": [
+          { "format": "17K", "size": [17520, 8040] },
+          { "format": "8K", "size": [11680, 5360] },
+          { "format": "4K", "size": [5840, 2680] }
+        ]
       }
     ],
     "category": ["Movie"],
     "description": "",
-    "sources": ["https://www.blackmagicdesign.com/media/release/20240912-03"],
+    "sources": [
+      "https://www.blackmagicdesign.com/products/blackmagicursacine/techspecs/W-URSA-63",
+      "https://en.wikipedia.org/wiki/Blackmagic_URSA#URSA_CINE_17K"
+    ],
     "tags": ["imax"]
   },
   {
@@ -939,7 +985,13 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [25.34, 14.25]
+        "size": [25.34, 14.25],
+        "resolution": [
+          {
+            "format": "Open Gate 6K",
+            "size": [4608, 2592]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -955,7 +1007,21 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [27.03, 14.25]
+        "size": [27.03, 14.25],
+        "resolution": [
+          {
+            "format": "12K DCI 17:9",
+            "size": [12288, 6480]
+          },
+          {
+            "format": "8K DCI 17:9",
+            "size": [8192, 4320]
+          },
+          {
+            "format": "4K DCI",
+            "size": [4096, 2160]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -971,7 +1037,25 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [36, 24]
+        "size": [36, 24],
+        "resolution": [
+          {
+            "format": "RAW 17:9",
+            "size": [5472, 2886]
+          },
+          {
+            "format": "4K DCI 17:9",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "4K UHD 16:9",
+            "size": [5472, 2886]
+          },
+          {
+            "format": "Full HD 16:9",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -1021,12 +1105,29 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [22.3, 14.9]
+        "size": [22.3, 14.9],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "FHD",
+            "size": [1920, 1080]
+          },
+          {
+            "format": "HD",
+            "size": [1280, 720]
+          }
+        ]
       }
     ],
     "category": ["Still"],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Canon_EOS_90D"],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Canon_EOS_90D",
+      "https://canoncanada.custhelp.com/app/answers/answer_view/a_id/1031111/~/specifications-%28eos-90d%29"
+    ],
     "tags": ["aps-c"]
   },
   {
@@ -1068,15 +1169,53 @@
     "sensorSize": [
       {
         "format": "Full Frame",
-        "size": [36, 19]
+        "size": [36, 19],
+        "resolution": [
+          {
+            "format": "Full Frame 6000x3164",
+            "size": [6000, 3164]
+          },
+          {
+            "format": "Full Frame 4096x2160",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "Full Frame 2048x1080",
+            "size": [2048, 1080]
+          }
+        ]
       },
       {
         "format": "Super 35",
-        "size": [26.2, 13.8]
+        "size": [26.2, 13.8],
+        "resolution": [
+          {
+            "format": "Super 35 4368x2304",
+            "size": [4368, 2304]
+          },
+          {
+            "format": "Super 35 4096x2160",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "Super 35 2048x1080",
+            "size": [2048, 1080]
+          }
+        ]
       },
       {
         "format": "Super 16",
-        "size": [13.1, 6.9]
+        "size": [13.1, 6.9],
+        "resolution": [
+          {
+            "format": "Super 16 2184x1152",
+            "size": [2184, 1152]
+          },
+          {
+            "format": "Super 16 2048x1080",
+            "size": [2048, 1080]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -1092,8 +1231,14 @@
     "name": "Canon EOS C500",
     "sensorSize": [
       {
-        "format": "Open Gate",
-        "size": [26.2, 13.8]
+        "format": "Full Frame",
+        "size": [26.2, 13.8],
+        "resolution": [
+          {
+            "format": "Full Frame",
+            "size": [5952, 3140]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -1216,8 +1361,22 @@
     "name": "Canon EOS C700 FF",
     "sensorSize": [
       {
-        "format": "Open Gate",
-        "size": [38.1, 20.1]
+        "format": "Full Frame",
+        "size": [38.1, 20.1],
+        "resolution": [
+          {
+            "format": "5.9K Full Frame",
+            "size": [5952, 3140]
+          },
+          {
+            "format": "4K Full Frame",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "2K Full Frame",
+            "size": [2048, 1080]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -1232,8 +1391,18 @@
     "name": "Canon EOS R5",
     "sensorSize": [
       {
-        "format": "Open Gate",
-        "size": [36, 24]
+        "format": "Full Frame",
+        "size": [36, 24],
+        "resolution": [
+          {
+            "format": "8K Full Frame",
+            "size": [8192, 4320]
+          },
+          {
+            "format": "4K Full Frame",
+            "size": [4096, 2160]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -1250,12 +1419,29 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [6.4, 4.8]
+        "size": [6.4, 4.8],
+        "resolution": [
+          {
+            "format": "4K Ultra HD",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "2.7K",
+            "size": [2688, 1512]
+          },
+          {
+            "format": "FHD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Mobile"],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Image_sensor_format",
+      "https://www.dji.com/support/product/mavic-air-2"
+    ],
     "tags": ["drone"]
   },
   {
@@ -1263,7 +1449,21 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [13.2, 8.8]
+        "size": [13.2, 8.8],
+        "resolution": [
+          {
+            "format": "4K Ultra HD",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "2.7K",
+            "size": [2688, 1512]
+          },
+          {
+            "format": "FHD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Mobile"],
@@ -1271,6 +1471,7 @@
     "sources": [
       "https://www.hasselblad.com/collaborations/dji-mavic-2-pro/",
       "https://forum.dji.com/forum.php?mod=redirect&goto=findpost&ptid=167017&pid=1576410",
+      "https://dl.djicdn.com/downloads/Mavic_2/Mavic_2_Pro_Zoom_User_Manual_v2.2_en.pdf",
       "https://github.com/wetadigital/physlight/blob/main/data/Hasselblad_L1D-20c_380_780_5.json"
     ],
     "tags": ["drone", "Hasselblad L1D-20c"]
@@ -1280,44 +1481,79 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [6.17, 4.55]
+        "size": [6.17, 4.55],
+        "resolution": [
+          {
+            "format": "2.7K",
+            "size": [2704, 1520]
+          },
+          {
+            "format": "FHD",
+            "size": [1920, 1080]
+          },
+          {
+            "format": "HD",
+            "size": [1280, 720]
+          }
+        ]
       }
     ],
     "category": ["Mobile"],
     "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Image_sensor_format",
+      "https://dl.djicdn.com/downloads/phantom_3/User%20Manual/Phantom_3_Standard_User_Manual_v1.4_en.pdf"
+    ],
     "tags": ["drone"]
   },
   {
     "name": "DJI Ronin 4D",
     "sensorSize": [
       {
-        "format": "8K Full Frame 17:9",
-        "size": [36, 19]
+        "format": "Full Frame 17:9",
+        "size": [35.68, 18.82],
+        "resolution": [
+          {
+            "format": "Full Frame 8K 17:9",
+            "size": [8192, 4320]
+          },
+          {
+            "format": "Full Frame 6K 17:9",
+            "size": [6008, 3168]
+          },
+          {
+            "format": "Full Frame 4K 17:9",
+            "size": [4096, 2160]
+          }
+        ]
       },
       {
-        "format": "8K Super 35 17:9",
-        "size": [24.5, 13]
+        "format": "Full Frame 2.39:1",
+        "size": [36, 15.06],
+        "resolution": [
+          {
+            "format": "Full Frame 8K 2.39:1",
+            "size": [8192, 3424]
+          },
+          {
+            "format": "Full Frame 6K 2.39:1",
+            "size": [6008, 2512]
+          }
+        ]
       },
       {
-        "format": "8K Full Frame 2.39:1",
-        "size": [36, 15.1]
-      },
-      {
-        "format": "6K Full Frame 17:9",
-        "size": [35.7, 18.8]
-      },
-      {
-        "format": "6K Super 35 17:9",
-        "size": [24.3, 12.8]
-      },
-      {
-        "format": "6K Full Frame 2.39:1",
-        "size": [35.7, 18.8]
-      },
-      {
-        "format": "6K Super 35 2.39:1",
-        "size": [24.3, 12.8]
+        "format": "Super 35 17:9",
+        "size": [24.5, 12.98],
+        "resolution": [
+          {
+            "format": "Super 35 5.5K 17:9",
+            "size": [5576, 2952]
+          },
+          {
+            "format": "Super 35 4K 17:9",
+            "size": [4096, 2160]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -1334,7 +1570,25 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [43.8, 32.9]
+        "size": [43.8, 32.9],
+        "resolution": [
+          {
+            "format": "DCI 4K 17:9",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "4K 16:9",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Full HD 17:9",
+            "size": [2048, 1080]
+          },
+          {
+            "format": "Full HD 16:9",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -1350,7 +1604,57 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [43.8, 32.9]
+        "size": [43.8, 32.9],
+        "resolution": [
+          {
+            "format": "8K 17:9",
+            "size": [8192, 4320]
+          },
+          {
+            "format": "8K 16:9",
+            "size": [7680, 4320]
+          },
+          {
+            "format": "8K 2.76:1",
+            "size": [8192, 2968]
+          },
+          {
+            "format": "5.8K 2.35:1",
+            "size": [5824, 2476]
+          },
+          {
+            "format": "5.4K 17:9",
+            "size": [5440, 2868]
+          },
+          {
+            "format": "4.8K 3:2",
+            "size": [4776, 3184]
+          },
+          {
+            "format": "4.8K 16:9",
+            "size": [4776, 2688]
+          },
+          {
+            "format": "4.6K 1.38:1",
+            "size": [4664, 3380]
+          },
+          {
+            "format": "DCI 4K 17:9",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "4K 16:9",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Full HD 17:9",
+            "size": [2048, 1080]
+          },
+          {
+            "format": "Full HD 16:9",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -1382,7 +1686,33 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [23.5, 15.6]
+        "size": [23.5, 15.7],
+        "resolution": [
+          {
+            "format": "8K 16:9",
+            "size": [7680, 4320]
+          },
+          {
+            "format": "6.2K 16:9",
+            "size": [6240, 3150]
+          },
+          {
+            "format": "DCI 4K 17:9",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "4K 16:9",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Full HD 17:9",
+            "size": [2048, 1080]
+          },
+          {
+            "format": "Full HD 16:9",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -1393,18 +1723,40 @@
     "tags": ["aps-c"]
   },
   {
-    "name": "Fujifilm X-T3",
+    "name": "Fujifilm X-T5",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [23.5, 15.6]
+        "size": [23.5, 15.7],
+        "resolution": [
+          {
+            "format": "6.2K 16:9",
+            "size": [6240, 3150]
+          },
+          {
+            "format": "DCI 4K 17:9",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "4K 16:9",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Full HD 17:9",
+            "size": [2048, 1080]
+          },
+          {
+            "format": "Full HD 16:9",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Still"],
     "description": "",
     "sources": [
-      "https://fujifilm-x.com/global/products/cameras/x-t3/specifications/",
-      "https://en.wikipedia.org/wiki/Fujifilm_X-T3"
+      "https://fujifilm-x.com/global/products/cameras/x-t5/specifications/",
+      "https://en.wikipedia.org/wiki/Fujifilm_X-T5"
     ],
     "tags": ["aps-c"]
   },
@@ -1413,14 +1765,53 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [6.3, 5.5]
+        "size": [6.3, 5.5],
+        "resolution": [
+          {
+            "format": "5.3K 8:7",
+            "size": [5312, 4648]
+          },
+          {
+            "format": "5.3K 16:9",
+            "size": [5312, 2988]
+          },
+          {
+            "format": "4K 8:7",
+            "size": [5312, 4648]
+          },
+          {
+            "format": "4K 16:9",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "4K 9:16",
+            "size": [2160, 3840]
+          },
+          {
+            "format": "2.7K 4:3",
+            "size": [2704, 2028]
+          },
+          {
+            "format": "2.7K 16:9",
+            "size": [2704, 1520]
+          },
+          {
+            "format": "1080p 16:9",
+            "size": [1920, 1080]
+          },
+          {
+            "format": "1080p 9:16",
+            "size": [1080, 1920]
+          }
+        ]
       }
     ],
     "category": ["Mobile"],
     "description": "",
     "sources": [
       "https://www.dpreview.com/reviews/gopro-hero12-black-review-this-tiny-action-provides-a-plethora-of-creative-features",
-      "https://en.wikipedia.org/wiki/GoPro"
+      "https://en.wikipedia.org/wiki/GoPro",
+      "https://gopro.my.salesforce.com/sfc/p/#o0000000HJuF/a/8a000000Ahpd/Jat_P5q9uAtmsapajO6peeDTXVYwtGt2dFYnICuhOO4"
     ],
     "tags": [""]
   },
@@ -1429,25 +1820,25 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [43.8, 32.9]
+        "size": [43.8, 32.9],
+        "resolution": [
+          {
+            "format": "2.7K",
+            "size": [2720, 1530]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Still"],
     "description": "",
-    "sources": ["https://www.hasselblad.com/x-system/x1d/"],
-    "tags": ["medium format"]
-  },
-  {
-    "name": "Hasselblad X2D 100C",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [43.8, 32.9]
-      }
+    "sources": [
+      "https://www.hasselblad.com/x-system/x1d/",
+      "https://cdn.hasselblad.com/manuals/X1D-II-50C-User-Manual/1.0.0.0/X1D-II-50C-User-Guide-en.pdf"
     ],
-    "category": ["Still"],
-    "description": "",
-    "sources": ["https://www.hasselblad.com/x-system/x2d-100c/"],
     "tags": ["medium format"]
   },
   {
@@ -1468,15 +1859,30 @@
     "sensorSize": [
       {
         "format": "26 mm Main",
-        "size": [7.6, 5.7]
+        "size": [7.6, 5.7],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
       },
       {
         "format": "13 mm Ultra Wide",
-        "size": [4, 3]
+        "size": [4, 3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
       },
       {
         "format": "77 mm Telephoto",
-        "size": [4, 3]
+        "size": [4, 3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
       }
     ],
     "category": ["Mobile"],
@@ -1484,8 +1890,7 @@
     "sources": [
       "https://en.wikipedia.org/wiki/IPhone_13_Pro",
       "https://www.dpreview.com/articles/6780391159/all-apple-iphone-13-and-13-pro-camera-upgrades-explained",
-      "https://www.dpreview.com/articles/6110937480",
-      "https://twitter.com/tim_cook/status/1602516736145858561"
+      "https://www.dpreview.com/articles/6110937480"
     ],
     "tags": ["phone"]
   },
@@ -1494,23 +1899,37 @@
     "sensorSize": [
       {
         "format": "24 mm Main",
-        "size": [9.8, 7.3]
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
       },
       {
         "format": "13 mm Ultra Wide",
-        "size": [5.6, 4.2]
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
       },
       {
         "format": "77 mm Telephoto",
-        "size": [4, 3]
+        "size": [4, 3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
       }
     ],
     "category": ["Mobile"],
     "description": "Apple uses Sony sensors for their Iphones.",
     "sources": [
       "https://en.wikipedia.org/wiki/IPhone_14_Pro",
-      "https://www.dpreview.com/articles/6110937480",
-      "https://twitter.com/tim_cook/status/1602516736145858561"
+      "https://www.dpreview.com/articles/6110937480"
     ],
     "tags": ["phone"]
   },
@@ -1549,8 +1968,7 @@
     "description": "Apple uses Sony sensors for their Iphones.",
     "sources": [
       "https://en.wikipedia.org/wiki/IPhone_15_Pro",
-      "https://www.dpreview.com/articles/2668153890/apple-s-iphone-15-and-15-pro-imaging-tech-examined",
-      "https://twitter.com/tim_cook/status/1602516736145858561"
+      "https://www.dpreview.com/articles/2668153890/apple-s-iphone-15-and-15-pro-imaging-tech-examined"
     ],
     "tags": ["phone"]
   },
@@ -1589,8 +2007,7 @@
     "description": "Apple uses Sony sensors for their Iphones.",
     "sources": [
       "https://en.wikipedia.org/wiki/IPhone_15_Pro",
-      "https://www.dpreview.com/articles/2668153890/apple-s-iphone-15-and-15-pro-imaging-tech-examined",
-      "https://twitter.com/tim_cook/status/1602516736145858561"
+      "https://www.dpreview.com/articles/2668153890/apple-s-iphone-15-and-15-pro-imaging-tech-examined"
     ],
     "tags": ["phone"]
   },
@@ -1629,8 +2046,7 @@
     "description": "Apple uses Sony sensors for their Iphones.",
     "sources": [
       "https://en.wikipedia.org/wiki/IPhone_16_Pro",
-      "https://www.dpreview.com/news/8163093616/iphone-16-pro-worth-upgrading-13-14-15-apple-cameras",
-      "https://twitter.com/tim_cook/status/1602516736145858561"
+      "https://www.dpreview.com/news/8163093616/iphone-16-pro-worth-upgrading-13-14-15-apple-cameras"
     ],
     "tags": ["phone"]
   },
@@ -1669,25 +2085,7 @@
     "description": "Apple uses Sony sensors for their Iphones.",
     "sources": [
       "https://en.wikipedia.org/wiki/IPhone_16_Pro",
-      "https://www.dpreview.com/news/8163093616/iphone-16-pro-worth-upgrading-13-14-15-apple-cameras",
-      "https://twitter.com/tim_cook/status/1602516736145858561"
-    ],
-    "tags": ["phone"]
-  },
-  {
-    "name": "Iphone XS",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [5.76, 4.29]
-      }
-    ],
-    "category": ["Mobile"],
-    "description": "Apple uses Sony sensors for their Iphones.",
-    "sources": [
-      "https://en.wikipedia.org/wiki/IPhone_XS",
-      "https://en.wikipedia.org/wiki/Image_sensor_format",
-      "https://twitter.com/tim_cook/status/1602516736145858561"
+      "https://www.dpreview.com/news/8163093616/iphone-16-pro-worth-upgrading-13-14-15-apple-cameras"
     ],
     "tags": ["phone"]
   },
@@ -1696,7 +2094,17 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [45, 30]
+        "size": [45, 30],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -1712,7 +2120,21 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.9, 23.9]
+        "size": [35.9, 23.9],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          },
+          {
+            "format": "HD",
+            "size": [1280, 720]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -1729,7 +2151,21 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.9, 23.9]
+        "size": [35.9, 23.9],
+        "resolution": [
+          {
+            "format": "8K",
+            "size": [7680, 4320]
+          },
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -1760,8 +2196,36 @@
     "name": "Panasonic EVA1",
     "sensorSize": [
       {
-        "format": "Open Gate",
-        "size": [24.6, 12.97]
+        "format": "Open Gate S35",
+        "size": [24.596, 12.969],
+        "resolution": [
+          {
+            "format": "SDI RAW S35 5.7K",
+            "size": [5760, 3072]
+          },
+          {
+            "format": "S35 5.7K",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "S35 Mix 2.8K",
+            "size": [2048, 1080]
+          }
+        ]
+      },
+      {
+        "format": "4/3-type",
+        "size": [19.436, 10.251],
+        "resolution": [
+          {
+            "format": "SDI RAW Crop 4K",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "4/3 Crop & Mix 2.2K",
+            "size": [2048, 1080]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -1777,7 +2241,25 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [17.3, 13.0]
+        "size": [17.3, 13.0],
+        "resolution": [
+          {
+            "format": "C4K",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Anamorphic 4K",
+            "size": [3328, 2496]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -1792,7 +2274,37 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.6, 23.8]
+        "size": [35.6, 23.8],
+        "resolution": [
+          {
+            "format": "6K 3:2",
+            "size": [5952, 3968]
+          },
+          {
+            "format": "5.4K 3:2",
+            "size": [5376, 3584]
+          },
+          {
+            "format": "5.9K 16:9",
+            "size": [5888, 3312]
+          },
+          {
+            "format": "C4K",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Anamorphic 4K",
+            "size": [3328, 2496]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -1807,7 +2319,37 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.6, 23.8]
+        "size": [35.6, 23.8],
+        "resolution": [
+          {
+            "format": "6K 3:2",
+            "size": [5952, 3968]
+          },
+          {
+            "format": "5.4K 3:2",
+            "size": [5376, 3584]
+          },
+          {
+            "format": "5.9K 16:9",
+            "size": [5888, 3312]
+          },
+          {
+            "format": "C4K",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Anamorphic 4K",
+            "size": [3328, 2496]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -1822,13 +2364,44 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.6, 23.8]
+        "size": [35.6, 23.8],
+        "resolution": [
+          {
+            "format": "6K 3:2",
+            "size": [5952, 3968]
+          },
+          {
+            "format": "6K 17:9",
+            "size": [5952, 3136]
+          },
+          {
+            "format": "5.9K 16:9",
+            "size": [5888, 3312]
+          },
+          {
+            "format": "C4K",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Anamorphic 4K",
+            "size": [3328, 2496]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Still"],
     "description": "",
     "sources": [
       "https://shop.panasonic.com/cameras-and-camcorders/cameras/full-frame-cameras/dc-s5m2body",
+      "https://help.na.panasonic.com/wp-content/uploads/2023/02/DCS5M2_DVQP2839ZA_ENG.pdf",
       "https://www.panasonic.com/uk/consumer/cameras-camcorders/lumix-mirrorless-cameras/lumix-s-full-frame-cameras/dc-s5m2.html#specs"
     ],
     "tags": ["full frame"]
@@ -1838,13 +2411,33 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [26.69, 14.18]
+        "size": [26.688, 14.184],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "UHD",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "2K",
+            "size": [2048, 1080]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Varicam",
+      "https://pro-av.panasonic.net/manual/html/VARICAM_35(VQT5K88A-11(E))/VARICAM_35(VQT5K88A-11(E)).pdf",
+      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/varicam_35/spec/index.html",
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf"
     ],
     "tags": ["super 35"]
@@ -1854,13 +2447,33 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [26.69, 14.18]
+        "size": [26.688, 14.184],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "UHD",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "2K",
+            "size": [2048, 1080]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Varicam",
+      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/varicam_lt/spec/index.html",
+      "https://pro-av.panasonic.net/manual/html/VARICAM_LT(VQT5M58A-11(E))/VARICAM_LT(VQT5M58A-11(E)).pdf",
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf"
     ],
     "tags": ["super 35"]
@@ -1870,151 +2483,360 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [26.69, 14.18]
+        "size": [26.688, 14.184],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "UHD",
+            "size": [3840, 2160]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Varicam",
+      "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/varicam_pure/spec/index.html",
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf"
     ],
     "tags": ["super 35"]
   },
   {
-    "name": "Panavision DXL2",
+    "name": "Panavision Millenium DXL2",
     "sensorSize": [
       {
         "format": "8K Full Format",
-        "size": [40.96, 21.6]
+        "size": [40.96, 21.6],
+        "resolution": [
+          {
+            "format": "8K Full Format",
+            "size": [8192, 4320]
+          }
+        ]
       },
       {
         "format": "8K 2:1",
-        "size": [40.96, 20.48]
+        "size": [40.96, 20.48],
+        "resolution": [
+          {
+            "format": "8K 2:1",
+            "size": [8192, 4096]
+          }
+        ]
       },
       {
         "format": "8K 2.4:1 (WS)",
-        "size": [40.96, 17.28]
+        "size": [40.96, 17.28],
+        "resolution": [
+          {
+            "format": "8K 2.4:1 (WS)",
+            "size": [8192, 3456]
+          }
+        ]
       },
       {
         "format": "8K 16:9 (HD)",
-        "size": [38.4, 21.6]
+        "size": [38.4, 21.6],
+        "resolution": [
+          {
+            "format": "8K 16:9 (HD)",
+            "size": [7680, 4320]
+          }
+        ]
       },
       {
         "format": "7.5K Full Format",
-        "size": [38.4, 20.4]
+        "size": [38.4, 20.4],
+        "resolution": [
+          {
+            "format": "7.5K Full Format",
+            "size": [7680, 4080]
+          }
+        ]
       },
       {
         "format": "7.5K 2:1",
-        "size": [38.4, 19.2]
+        "size": [38.4, 19.2],
+        "resolution": [
+          {
+            "format": "7.5K 2:1",
+            "size": [7680, 3840]
+          }
+        ]
       },
       {
         "format": "7.5K 2.4:1 (WS)",
-        "size": [38.4, 16.2]
+        "size": [38.4, 16.2],
+        "resolution": [
+          {
+            "format": "7.5K 2.4:1 (WS)",
+            "size": [7680, 3240]
+          }
+        ]
       },
       {
         "format": "7.5K 16:9 (HD)",
-        "size": [36.48, 20.52]
+        "size": [36.48, 20.52],
+        "resolution": [
+          {
+            "format": "7.5K 16:9 (HD)",
+            "size": [7296, 4104]
+          }
+        ]
       },
       {
         "format": "7K Full Format",
-        "size": [35.84, 18.9]
+        "size": [35.84, 18.9],
+        "resolution": [
+          {
+            "format": "7K Full Format",
+            "size": [7168, 3780]
+          }
+        ]
       },
       {
         "format": "7K 2:1",
-        "size": [35.84, 17.92]
+        "size": [35.84, 17.92],
+        "resolution": [
+          {
+            "format": "7K 2:1",
+            "size": [7168, 3584]
+          }
+        ]
       },
       {
         "format": "7K 2.4:1 (WS)",
-        "size": [35.84, 15.12]
+        "size": [35.84, 15.12],
+        "resolution": [
+          {
+            "format": "7K 2.4:1 (WS)",
+            "size": [7168, 3024]
+          }
+        ]
       },
       {
         "format": "7K 16:9 (HD)",
-        "size": [33.6, 18.9]
+        "size": [33.6, 18.9],
+        "resolution": [
+          {
+            "format": "7K 16:9 (HD)",
+            "size": [6720, 3780]
+          }
+        ]
       },
       {
         "format": "6.5K Full Format",
-        "size": [33.28, 17.68]
+        "size": [33.28, 17.68],
+        "resolution": [
+          {
+            "format": "6.5K Full Format",
+            "size": [6656, 3536]
+          }
+        ]
       },
       {
         "format": "6.5K 2:1",
-        "size": [33.28, 16.64]
+        "size": [33.28, 16.64],
+        "resolution": [
+          {
+            "format": "6.5K 2:1",
+            "size": [6656, 3328]
+          }
+        ]
       },
       {
         "format": "6.5K 2.4:1 (WS)",
-        "size": [33.28, 14.04]
+        "size": [33.28, 14.04],
+        "resolution": [
+          {
+            "format": "6.5K 2.4:1 (WS)",
+            "size": [6656, 2808]
+          }
+        ]
       },
       {
         "format": "6.5K 16:9 (HD)",
-        "size": [30.72, 17.28]
+        "size": [30.72, 17.28],
+        "resolution": [
+          {
+            "format": "6.5K 16:9 (HD)",
+            "size": [6144, 3456]
+          }
+        ]
       },
       {
         "format": "6K Full Format",
-        "size": [30.72, 16.2]
+        "size": [30.72, 16.2],
+        "resolution": [
+          {
+            "format": "6K Full Format",
+            "size": [6144, 3240]
+          }
+        ]
       },
       {
         "format": "6K 2:1",
-        "size": [30.72, 15.36]
+        "size": [30.72, 15.36],
+        "resolution": [
+          {
+            "format": "6K 2:1",
+            "size": [6144, 3072]
+          }
+        ]
       },
       {
         "format": "6K 2.4:1 (WS)",
-        "size": [30.72, 12.96]
+        "size": [30.72, 12.96],
+        "resolution": [
+          {
+            "format": "6K 2.4:1 (WS)",
+            "size": [6144, 2592]
+          }
+        ]
       },
       {
         "format": "6K 16:9 (HD)",
-        "size": [28.8, 16.2]
+        "size": [28.8, 16.2],
+        "resolution": [
+          {
+            "format": "6K 16:9 (HD)",
+            "size": [5760, 3240]
+          }
+        ]
       },
       {
         "format": "5K Full Format",
-        "size": [25.6, 13.5]
+        "size": [25.6, 13.5],
+        "resolution": [
+          {
+            "format": "5K Full Format",
+            "size": [5120, 2700]
+          }
+        ]
       },
       {
         "format": "5K 2:1",
-        "size": [25.6, 12.8]
+        "size": [25.6, 12.8],
+        "resolution": [
+          {
+            "format": "5K 2:1",
+            "size": [5120, 2560]
+          }
+        ]
       },
       {
         "format": "5K 2.4:1 (WS)",
-        "size": [25.6, 10.8]
+        "size": [25.6, 10.8],
+        "resolution": [
+          {
+            "format": "5K 2.4:1 (WS)",
+            "size": [5120, 2160]
+          }
+        ]
       },
       {
         "format": "5K 16:9 (HD)",
-        "size": [24.0, 13.5]
+        "size": [24.0, 13.5],
+        "resolution": [
+          {
+            "format": "5K 16:9 (HD)",
+            "size": [4800, 2700]
+          }
+        ]
       },
       {
         "format": "4K Full Format",
-        "size": [20.48, 10.8]
+        "size": [20.48, 10.8],
+        "resolution": [
+          {
+            "format": "4K Full Format",
+            "size": [4096, 2160]
+          }
+        ]
       },
       {
         "format": "4K 2:1",
-        "size": [20.48, 10.24]
+        "size": [20.48, 10.24],
+        "resolution": [
+          {
+            "format": "4K 2:1",
+            "size": [4096, 2048]
+          }
+        ]
       },
       {
         "format": "4K 2.4:1 (WS)",
-        "size": [20.48, 8.64]
+        "size": [20.48, 8.64],
+        "resolution": [
+          {
+            "format": "4K 2.4:1 (WS)",
+            "size": [4096, 1728]
+          }
+        ]
       },
       {
         "format": "4K 16:9 (HD)",
-        "size": [19.2, 10.8]
+        "size": [19.2, 10.8],
+        "resolution": [
+          {
+            "format": "4K 16:9 (HD)",
+            "size": [3840, 2160]
+          }
+        ]
       },
       {
         "format": "3K Full Format",
-        "size": [15.36, 8.1]
+        "size": [15.36, 8.1],
+        "resolution": [
+          {
+            "format": "3K Full Format",
+            "size": [3072, 1620]
+          }
+        ]
       },
       {
         "format": "3K 2.4:1 (WS)",
-        "size": [15.36, 6.48]
+        "size": [15.36, 6.48],
+        "resolution": [
+          {
+            "format": "3K 2.4:1 (WS)",
+            "size": [3072, 1296]
+          }
+        ]
       },
       {
         "format": "3K 16:9 (HD)",
-        "size": [14.4, 8.1]
+        "size": [14.4, 8.1],
+        "resolution": [
+          {
+            "format": "3K 16:9 (HD)",
+            "size": [2880, 1620]
+          }
+        ]
       },
       {
         "format": "2K Full Format",
-        "size": [10.24, 5.4]
+        "size": [10.24, 5.4],
+        "resolution": [
+          {
+            "format": "2K Full Format",
+            "size": [2048, 1080]
+          }
+        ]
       },
       {
         "format": "2K 2.4:1 (WS)",
-        "size": [10.24, 4.32]
+        "size": [10.24, 4.32],
+        "resolution": [
+          {
+            "format": "2K 2.4:1 (WS)",
+            "size": [2048, 864]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -2031,307 +2853,763 @@
     "sensorSize": [
       {
         "format": "6K FF",
-        "size": [30.72, 15.8]
+        "size": [30.72, 15.8],
+        "resolution": [
+          {
+            "format": "6K FF",
+            "size": [6144, 3160]
+          }
+        ]
       },
       {
         "format": "6K 2:1",
-        "size": [30.72, 15.36]
+        "size": [30.72, 15.36],
+        "resolution": [
+          {
+            "format": "6K 2:1",
+            "size": [6144, 3072]
+          }
+        ]
       },
       {
         "format": "6K 2.4:1 (WS)",
-        "size": [30.72, 12.96]
+        "size": [30.72, 12.96],
+        "resolution": [
+          {
+            "format": "6K 2.4:1 (WS)",
+            "size": [6144, 2592]
+          }
+        ]
       },
       {
         "format": "6K 16:9 (HD)",
-        "size": [27.84, 15.66]
+        "size": [27.84, 15.66],
+        "resolution": [
+          {
+            "format": "6K 16:9 (HD)",
+            "size": [5568, 3132]
+          }
+        ]
       },
       {
         "format": "6K 3:2",
-        "size": [23.76, 15.8]
+        "size": [23.76, 15.8],
+        "resolution": [
+          {
+            "format": "6K 3:2",
+            "size": [4752, 3160]
+          }
+        ]
       },
       {
         "format": "6K 6:5",
-        "size": [18.96, 15.8]
+        "size": [18.96, 15.8],
+        "resolution": [
+          {
+            "format": "6K 6:5",
+            "size": [3792, 3160]
+          }
+        ]
       },
       {
         "format": "6K 4:1",
-        "size": [30.72, 7.68]
+        "size": [30.72, 7.68],
+        "resolution": [
+          {
+            "format": "6K 4:1",
+            "size": [6144, 1536]
+          }
+        ]
       },
       {
         "format": "6K 8:1",
-        "size": [30.72, 3.84]
+        "size": [30.72, 3.84],
+        "resolution": [
+          {
+            "format": "6K 8:1",
+            "size": [6144, 768]
+          }
+        ]
       },
       {
         "format": "5.5K FF",
-        "size": [28.16, 14.74]
+        "size": [28.16, 14.74],
+        "resolution": [
+          {
+            "format": "5.5K FF",
+            "size": [5632, 2948]
+          }
+        ]
       },
       {
         "format": "5.5K 2:1",
-        "size": [28.16, 14.08]
+        "size": [28.16, 14.08],
+        "resolution": [
+          {
+            "format": "5.5K 2:1",
+            "size": [5632, 2816]
+          }
+        ]
       },
       {
         "format": "5.5K 2.4:1 (WS)",
-        "size": [28.16, 11.88]
+        "size": [28.16, 11.88],
+        "resolution": [
+          {
+            "format": "5.5K 2.4:1 (WS)",
+            "size": [5632, 2376]
+          }
+        ]
       },
       {
         "format": "5.5K 16:9 (HD)",
-        "size": [26.88, 15.12]
+        "size": [26.88, 15.12],
+        "resolution": [
+          {
+            "format": "5.5K 16:9 (HD)",
+            "size": [5376, 3024]
+          }
+        ]
       },
       {
         "format": "5.5K 4:1",
-        "size": [28.16, 7.04]
+        "size": [28.16, 7.04],
+        "resolution": [
+          {
+            "format": "5.5K 4:1",
+            "size": [5632, 1408]
+          }
+        ]
       },
       {
         "format": "5.5K 8:1",
-        "size": [28.16, 3.52]
+        "size": [28.16, 3.52],
+        "resolution": [
+          {
+            "format": "5.5K 8:1",
+            "size": [5632, 704]
+          }
+        ]
       },
       {
         "format": "5K FF",
-        "size": [25.6, 13.5]
+        "size": [25.6, 13.5],
+        "resolution": [
+          {
+            "format": "5K FF",
+            "size": [5120, 2700]
+          }
+        ]
       },
       {
         "format": "5K 2:1",
-        "size": [25.6, 12.8]
+        "size": [25.6, 12.8],
+        "resolution": [
+          {
+            "format": "5K 2:1",
+            "size": [5120, 2560]
+          }
+        ]
       },
       {
         "format": "5K 2.4:1 (WS)",
-        "size": [25.6, 10.8]
+        "size": [25.6, 10.8],
+        "resolution": [
+          {
+            "format": "5K 2.4:1 (WS)",
+            "size": [5120, 2160]
+          }
+        ]
       },
       {
         "format": "5K 16:9 (HD)",
-        "size": [24.0, 13.5]
+        "size": [24.0, 13.5],
+        "resolution": [
+          {
+            "format": "5K 16:9 (HD)",
+            "size": [4800, 2700]
+          }
+        ]
       },
       {
         "format": "5K 6:5",
-        "size": [16.2, 13.5]
+        "size": [16.2, 13.5],
+        "resolution": [
+          {
+            "format": "5K 6:5",
+            "size": [3240, 2700]
+          }
+        ]
       },
       {
         "format": "5K 4:1",
-        "size": [25.6, 6.4]
+        "size": [25.6, 6.4],
+        "resolution": [
+          {
+            "format": "5K 4:1",
+            "size": [5120, 1280]
+          }
+        ]
       },
       {
         "format": "5K 8:1",
-        "size": [25.6, 3.2]
+        "size": [25.6, 3.2],
+        "resolution": [
+          {
+            "format": "5K 8:1",
+            "size": [5120, 640]
+          }
+        ]
       },
       {
         "format": "4.5K FF",
-        "size": [23.04, 12.06]
+        "size": [23.04, 12.06],
+        "resolution": [
+          {
+            "format": "4.5K FF",
+            "size": [4608, 2412]
+          }
+        ]
       },
       {
         "format": "4.5K 2:1",
-        "size": [23.04, 11.52]
+        "size": [23.04, 11.52],
+        "resolution": [
+          {
+            "format": "4.5K 2:1",
+            "size": [4608, 2304]
+          }
+        ]
       },
       {
         "format": "4.5K 2.4:1 (WS)",
-        "size": [23.04, 9.72]
+        "size": [23.04, 9.72],
+        "resolution": [
+          {
+            "format": "4.5K 2.4:1 (WS)",
+            "size": [4608, 1944]
+          }
+        ]
       },
       {
         "format": "4.5K 16:9 (HD)",
-        "size": [21.12, 11.88]
+        "size": [21.12, 11.88],
+        "resolution": [
+          {
+            "format": "4.5K 16:9 (HD)",
+            "size": [4224, 2376]
+          }
+        ]
       },
       {
         "format": "4.5K 3:2",
-        "size": [21.6, 14.4]
+        "size": [21.6, 14.4],
+        "resolution": [
+          {
+            "format": "4.5K 3:2",
+            "size": [4320, 2880]
+          }
+        ]
       },
       {
         "format": "4.5K 4:1",
-        "size": [23.04, 5.76]
+        "size": [23.04, 5.76],
+        "resolution": [
+          {
+            "format": "4.5K 4:1",
+            "size": [4608, 1152]
+          }
+        ]
       },
       {
         "format": "4.5K 8:1",
-        "size": [23.04, 2.88]
+        "size": [23.04, 2.88],
+        "resolution": [
+          {
+            "format": "4.5K 8:1",
+            "size": [4608, 576]
+          }
+        ]
       },
       {
         "format": "4K FF",
-        "size": [20.48, 10.8]
+        "size": [20.48, 10.8],
+        "resolution": [
+          {
+            "format": "4K FF",
+            "size": [4096, 2160]
+          }
+        ]
       },
       {
         "format": "4K 2:1",
-        "size": [20.48, 10.24]
+        "size": [20.48, 10.24],
+        "resolution": [
+          {
+            "format": "4K 2:1",
+            "size": [4096, 2048]
+          }
+        ]
       },
       {
         "format": "4K 2.4:1 (WS)",
-        "size": [20.48, 8.64]
+        "size": [20.48, 8.64],
+        "resolution": [
+          {
+            "format": "4K 2.4:1 (WS)",
+            "size": [4096, 1728]
+          }
+        ]
       },
       {
         "format": "4K 16:9 (HD)",
-        "size": [19.2, 10.8]
+        "size": [19.2, 10.8],
+        "resolution": [
+          {
+            "format": "4K 16:9 (HD)",
+            "size": [3840, 2160]
+          }
+        ]
       },
       {
         "format": "4K 6:5",
-        "size": [12.96, 10.8]
+        "size": [12.96, 10.8],
+        "resolution": [
+          {
+            "format": "4K 6:5",
+            "size": [2592, 2160]
+          }
+        ]
       },
       {
         "format": "4K 3:2",
-        "size": [19.2, 12.8]
+        "size": [19.2, 12.8],
+        "resolution": [
+          {
+            "format": "4K 3:2",
+            "size": [3840, 2560]
+          }
+        ]
       },
       {
         "format": "4K 4:3",
-        "size": [19.2, 14.4]
+        "size": [19.2, 14.4],
+        "resolution": [
+          {
+            "format": "4K 4:3",
+            "size": [3840, 2880]
+          }
+        ]
       },
       {
         "format": "4K 5:4",
-        "size": [19.2, 15.36]
+        "size": [19.2, 15.36],
+        "resolution": [
+          {
+            "format": "4K 5:4",
+            "size": [3840, 3072]
+          }
+        ]
       },
       {
         "format": "4K 4:1",
-        "size": [20.48, 5.12]
+        "size": [20.48, 5.12],
+        "resolution": [
+          {
+            "format": "4K 4:1",
+            "size": [4096, 1024]
+          }
+        ]
       },
       {
         "format": "4K 8:1",
-        "size": [20.48, 2.56]
+        "size": [20.48, 2.56],
+        "resolution": [
+          {
+            "format": "4K 8:1",
+            "size": [4096, 512]
+          }
+        ]
       },
       {
         "format": "3.5K FF",
-        "size": [17.92, 9.38]
+        "size": [17.92, 9.38],
+        "resolution": [
+          {
+            "format": "3.5K FF",
+            "size": [3584, 1876]
+          }
+        ]
       },
       {
         "format": "3.5K 2:1",
-        "size": [17.92, 8.96]
+        "size": [17.92, 8.96],
+        "resolution": [
+          {
+            "format": "3.5K 2:1",
+            "size": [3584, 1792]
+          }
+        ]
       },
       {
         "format": "3.5K 2.4:1 (WS)",
-        "size": [17.92, 7.56]
+        "size": [17.92, 7.56],
+        "resolution": [
+          {
+            "format": "3.5K 2.4:1 (WS)",
+            "size": [3584, 1512]
+          }
+        ]
       },
       {
         "format": "3.5K 16:9 (HD)",
-        "size": [17.28, 9.72]
+        "size": [17.28, 9.72],
+        "resolution": [
+          {
+            "format": "3.5K 16:9 (HD)",
+            "size": [3456, 1944]
+          }
+        ]
       },
       {
         "format": "3.5K 3:2",
-        "size": [16.8, 11.2]
+        "size": [16.8, 11.2],
+        "resolution": [
+          {
+            "format": "3.5K 3:2",
+            "size": [3360, 2240]
+          }
+        ]
       },
       {
         "format": "3.5K 4:3",
-        "size": [16.8, 12.6]
+        "size": [16.8, 12.6],
+        "resolution": [
+          {
+            "format": "3.5K 4:3",
+            "size": [3360, 2520]
+          }
+        ]
       },
       {
         "format": "3.5K 5:4",
-        "size": [16.8, 13.44]
+        "size": [16.8, 13.44],
+        "resolution": [
+          {
+            "format": "3.5K 5:4",
+            "size": [3360, 2688]
+          }
+        ]
       },
       {
         "format": "3.5K 4:1",
-        "size": [17.92, 4.48]
+        "size": [17.92, 4.48],
+        "resolution": [
+          {
+            "format": "3.5K 4:1",
+            "size": [3584, 896]
+          }
+        ]
       },
       {
         "format": "3.5K 8:1",
-        "size": [17.92, 2.24]
+        "size": [17.92, 2.24],
+        "resolution": [
+          {
+            "format": "3.5K 8:1",
+            "size": [3584, 448]
+          }
+        ]
       },
       {
         "format": "3K FF",
-        "size": [15.36, 8.1]
+        "size": [15.36, 8.1],
+        "resolution": [
+          {
+            "format": "3K FF",
+            "size": [3072, 1620]
+          }
+        ]
       },
       {
         "format": "3K 2:1",
-        "size": [15.36, 7.68]
+        "size": [15.36, 7.68],
+        "resolution": [
+          {
+            "format": "3K 2:1",
+            "size": [3072, 1536]
+          }
+        ]
       },
       {
         "format": "3K 2.4:1 (WS)",
-        "size": [15.36, 6.48]
+        "size": [15.36, 6.48],
+        "resolution": [
+          {
+            "format": "3K 2.4:1 (WS)",
+            "size": [3072, 1296]
+          }
+        ]
       },
       {
         "format": "3K 16:9 (HD)",
-        "size": [14.4, 8.1]
+        "size": [14.4, 8.1],
+        "resolution": [
+          {
+            "format": "3K 16:9 (HD)",
+            "size": [2880, 1620]
+          }
+        ]
       },
       {
         "format": "3K 6:5",
-        "size": [9.72, 8.1]
+        "size": [9.72, 8.1],
+        "resolution": [
+          {
+            "format": "3K 6:5",
+            "size": [1944, 1620]
+          }
+        ]
       },
       {
         "format": "3K 3:2",
-        "size": [14.4, 9.6]
+        "size": [14.4, 9.6],
+        "resolution": [
+          {
+            "format": "3K 3:2",
+            "size": [2880, 1920]
+          }
+        ]
       },
       {
         "format": "3K 4:3",
-        "size": [14.4, 10.8]
+        "size": [14.4, 10.8],
+        "resolution": [
+          {
+            "format": "3K 4:3",
+            "size": [2880, 2160]
+          }
+        ]
       },
       {
         "format": "3K 5:4",
-        "size": [14.4, 11.52]
+        "size": [14.4, 11.52],
+        "resolution": [
+          {
+            "format": "3K 5:4",
+            "size": [2880, 2304]
+          }
+        ]
       },
       {
         "format": "3K 4:1",
-        "size": [15.36, 3.84]
+        "size": [15.36, 3.84],
+        "resolution": [
+          {
+            "format": "3K 4:1",
+            "size": [3072, 768]
+          }
+        ]
       },
       {
         "format": "3K 8:1",
-        "size": [15.36, 1.92]
+        "size": [15.36, 1.92],
+        "resolution": [
+          {
+            "format": "3K 8:1",
+            "size": [3072, 384]
+          }
+        ]
       },
       {
         "format": "2.5K FF",
-        "size": [12.8, 6.7]
+        "size": [12.8, 6.7],
+        "resolution": [
+          {
+            "format": "2.5K FF",
+            "size": [2560, 1340]
+          }
+        ]
       },
       {
         "format": "2.5K 2:1",
-        "size": [12.8, 6.4]
+        "size": [12.8, 6.4],
+        "resolution": [
+          {
+            "format": "2.5K 2:1",
+            "size": [2560, 1280]
+          }
+        ]
       },
       {
         "format": "2.5K 2.4:1 (WS)",
-        "size": [12.8, 5.4]
+        "size": [12.8, 5.4],
+        "resolution": [
+          {
+            "format": "2.5K 2.4:1 (WS)",
+            "size": [2560, 1080]
+          }
+        ]
       },
       {
         "format": "2.5K 16:9 (HD)",
-        "size": [11.52, 6.48]
+        "size": [11.52, 6.48],
+        "resolution": [
+          {
+            "format": "2.5K 16:9 (HD)",
+            "size": [2304, 1296]
+          }
+        ]
       },
       {
         "format": "2.5K 3:2",
-        "size": [12.0, 8.0]
+        "size": [12.0, 8.0],
+        "resolution": [
+          {
+            "format": "2.5K 3:2",
+            "size": [2400, 1600]
+          }
+        ]
       },
       {
         "format": "2.5K 4:3",
-        "size": [12.0, 9.0]
+        "size": [12.0, 9.0],
+        "resolution": [
+          {
+            "format": "2.5K 4:3",
+            "size": [2400, 1800]
+          }
+        ]
       },
       {
         "format": "2.5K 5:4",
-        "size": [12.0, 9.6]
+        "size": [12.0, 9.6],
+        "resolution": [
+          {
+            "format": "2.5K 5:4",
+            "size": [2400, 1920]
+          }
+        ]
       },
       {
         "format": "2.5K 4:1",
-        "size": [12.8, 3.2]
+        "size": [12.8, 3.2],
+        "resolution": [
+          {
+            "format": "2.5K 4:1",
+            "size": [2560, 640]
+          }
+        ]
       },
       {
         "format": "2.5K 8:1",
-        "size": [12.8, 1.6]
+        "size": [12.8, 1.6],
+        "resolution": [
+          {
+            "format": "2.5K 8:1",
+            "size": [2560, 320]
+          }
+        ]
       },
       {
         "format": "2K FF",
-        "size": [10.24, 5.4]
+        "size": [10.24, 5.4],
+        "resolution": [
+          {
+            "format": "2K FF",
+            "size": [2048, 1080]
+          }
+        ]
       },
       {
         "format": "2K 2:1",
-        "size": [10.24, 5.12]
+        "size": [10.24, 5.12],
+        "resolution": [
+          {
+            "format": "2K 2:1",
+            "size": [2048, 1024]
+          }
+        ]
       },
       {
         "format": "2K 2.4:1 (WS)",
-        "size": [10.24, 4.32]
+        "size": [10.24, 4.32],
+        "resolution": [
+          {
+            "format": "2K 2.4:1 (WS)",
+            "size": [2048, 864]
+          }
+        ]
       },
       {
         "format": "2K 16:9 (HD)",
-        "size": [9.6, 5.4]
+        "size": [9.6, 5.4],
+        "resolution": [
+          {
+            "format": "2K 16:9 (HD)",
+            "size": [1920, 1080]
+          }
+        ]
       },
       {
         "format": "2K 3:2",
-        "size": [9.6, 6.4]
+        "size": [9.6, 6.4],
+        "resolution": [
+          {
+            "format": "2K 3:2",
+            "size": [1920, 1280]
+          }
+        ]
       },
       {
         "format": "2K 4:3",
-        "size": [9.6, 7.2]
+        "size": [9.6, 7.2],
+        "resolution": [
+          {
+            "format": "2K 4:3",
+            "size": [1920, 1440]
+          }
+        ]
       },
       {
         "format": "2K 5:4",
-        "size": [9.6, 7.68]
+        "size": [9.6, 7.68],
+        "resolution": [
+          {
+            "format": "2K 5:4",
+            "size": [1920, 1536]
+          }
+        ]
       },
       {
         "format": "2K 6:5",
-        "size": [6.48, 5.4]
+        "size": [6.48, 5.4],
+        "resolution": [
+          {
+            "format": "2K 6:5",
+            "size": [1296, 1080]
+          }
+        ]
       },
       {
         "format": "2K 4:1",
-        "size": [10.24, 2.56]
+        "size": [10.24, 2.56],
+        "resolution": [
+          {
+            "format": "2K 4:1",
+            "size": [2048, 512]
+          }
+        ]
       },
       {
         "format": "2K 8:1",
-        "size": [10.24, 1.28]
+        "size": [10.24, 1.28],
+        "resolution": [
+          {
+            "format": "2K 8:1",
+            "size": [2048, 256]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -2352,251 +3630,623 @@
     "sensorSize": [
       {
         "format": "5K Full Height 1.7:1",
-        "size": [30.72, 18.0]
+        "size": [30.72, 18],
+        "resolution": [
+          {
+            "format": "5K Full Height 1.7:1",
+            "size": [5120, 3000]
+          }
+        ]
       },
       {
         "format": "5K Full Height 6:5",
-        "size": [21.6, 18.0]
+        "size": [21.6, 18],
+        "resolution": [
+          {
+            "format": "5K Full Height 6:5",
+            "size": [3600, 3000]
+          }
+        ]
       },
       {
         "format": "5K FF",
-        "size": [30.72, 16.2]
+        "size": [30.72, 16.2],
+        "resolution": [
+          {
+            "format": "5K FF",
+            "size": [5120, 2700]
+          }
+        ]
       },
       {
         "format": "5K 2:1",
-        "size": [30.72, 15.36]
+        "size": [30.72, 15.36],
+        "resolution": [
+          {
+            "format": "5K 2:1",
+            "size": [5120, 2560]
+          }
+        ]
       },
       {
         "format": "5K 2.4:1 (WS)",
-        "size": [30.72, 12.96]
+        "size": [30.72, 12.96],
+        "resolution": [
+          {
+            "format": "5K 2.4:1 (WS)",
+            "size": [5120, 2160]
+          }
+        ]
       },
       {
         "format": "5K 16:9 (HD)",
-        "size": [28.8, 16.2]
+        "size": [28, 16.2],
+        "resolution": [
+          {
+            "format": "5K 16:9 (HD)",
+            "size": [4800, 2700]
+          }
+        ]
       },
       {
         "format": "5K 4:1",
-        "size": [30.72, 7.68]
+        "size": [30.72, 7.68],
+        "resolution": [
+          {
+            "format": "5K 4:1",
+            "size": [5120, 1280]
+          }
+        ]
       },
       {
         "format": "5K 8:1",
-        "size": [30.72, 3.84]
+        "size": [30.72, 3.84],
+        "resolution": [
+          {
+            "format": "5K 8:1",
+            "size": [5120, 640]
+          }
+        ]
       },
       {
         "format": "4.5K FF",
-        "size": [27.65, 14.47]
+        "size": [27.65, 14.47],
+        "resolution": [
+          {
+            "format": "4.5K FF",
+            "size": [4608, 2412]
+          }
+        ]
       },
       {
         "format": "4.5K 2:1",
-        "size": [27.65, 13.82]
+        "size": [27.65, 13.82],
+        "resolution": [
+          {
+            "format": "4.5K 2:1",
+            "size": [4608, 2304]
+          }
+        ]
       },
       {
         "format": "4.5K 2.4:1 (WS)",
-        "size": [27.65, 11.66]
+        "size": [27.65, 11.66],
+        "resolution": [
+          {
+            "format": "4.5K 2.4:1 (WS)",
+            "size": [4608, 1944]
+          }
+        ]
       },
       {
         "format": "4.5K 16:9 (HD)",
-        "size": [25.34, 14.26]
+        "size": [25.34, 14.26],
+        "resolution": [
+          {
+            "format": "4.5K 16:9 (HD)",
+            "size": [4224, 2376]
+          }
+        ]
       },
       {
         "format": "4.5K 3:2",
-        "size": [25.92, 17.28]
+        "size": [25.92, 17.28],
+        "resolution": [
+          {
+            "format": "4.5K 3:2",
+            "size": [4320, 2880]
+          }
+        ]
       },
       {
         "format": "4.5K 4:1",
-        "size": [27.65, 6.91]
+        "size": [27.65, 6.91],
+        "resolution": [
+          {
+            "format": "4.5K 4:1",
+            "size": [4608, 1152]
+          }
+        ]
       },
       {
         "format": "4.5K 8:1",
-        "size": [27.65, 3.46]
+        "size": [27.65, 3.46],
+        "resolution": [
+          {
+            "format": "4.5K 8:1",
+            "size": [4608, 576]
+          }
+        ]
       },
       {
         "format": "4K FF",
-        "size": [24.58, 12.96]
+        "size": [24.58, 12.96],
+        "resolution": [
+          {
+            "format": "4K FF",
+            "size": [4096, 2160]
+          }
+        ]
       },
       {
         "format": "4K 2:1",
-        "size": [24.58, 12.29]
+        "size": [24.58, 12.29],
+        "resolution": [
+          {
+            "format": "4K 2:1",
+            "size": [4096, 2048]
+          }
+        ]
       },
       {
         "format": "4K 2.4:1 (WS)",
-        "size": [24.58, 10.37]
+        "size": [24.58, 10.37],
+        "resolution": [
+          {
+            "format": "4K 2.4:1 (WS)",
+            "size": [4096, 1728]
+          }
+        ]
       },
       {
         "format": "4K 16:9 (HD)",
-        "size": [23.04, 12.96]
+        "size": [23.04, 12.96],
+        "resolution": [
+          {
+            "format": "4K 16:9 (HD)",
+            "size": [3840, 2160]
+          }
+        ]
       },
       {
         "format": "4K 3:2",
-        "size": [23.04, 15.36]
+        "size": [23.04, 15.36],
+        "resolution": [
+          {
+            "format": "4K 3:2",
+            "size": [3840, 2560]
+          }
+        ]
       },
       {
         "format": "4K 4:3",
-        "size": [23.04, 17.28]
+        "size": [23.04, 17.28],
+        "resolution": [
+          {
+            "format": "4K 4:3",
+            "size": [3840, 2880]
+          }
+        ]
       },
       {
         "format": "4K 6:5",
-        "size": [15.55, 12.96]
+        "size": [15.55, 12.96],
+        "resolution": [
+          {
+            "format": "4K 6:5",
+            "size": [2592, 2160]
+          }
+        ]
       },
       {
         "format": "4K 4:1",
-        "size": [24.58, 6.14]
+        "size": [24.58, 6.14],
+        "resolution": [
+          {
+            "format": "4K 4:1",
+            "size": [4096, 1024]
+          }
+        ]
       },
       {
         "format": "4K 8:1",
-        "size": [24.58, 3.07]
+        "size": [24.58, 3.07],
+        "resolution": [
+          {
+            "format": "4K 8:1",
+            "size": [4096, 512]
+          }
+        ]
       },
       {
         "format": "3.5K FF",
-        "size": [21.5, 11.26]
+        "size": [21.5, 11.26],
+        "resolution": [
+          {
+            "format": "3.5K FF",
+            "size": [3584, 1876]
+          }
+        ]
       },
       {
         "format": "3.5K 2:1",
-        "size": [21.5, 10.75]
+        "size": [21.5, 10.75],
+        "resolution": [
+          {
+            "format": "3.5K 2:1",
+            "size": [3584, 1792]
+          }
+        ]
       },
       {
         "format": "3.5K 2.4:1 (WS)",
-        "size": [21.5, 9.07]
+        "size": [21.5, 9.07],
+        "resolution": [
+          {
+            "format": "3.5K 2.4:1 (WS)",
+            "size": [3584, 1512]
+          }
+        ]
       },
       {
         "format": "3.5K 16:9 (HD)",
-        "size": [20.74, 11.66]
+        "size": [20.74, 11.66],
+        "resolution": [
+          {
+            "format": "3.5K 16:9 (HD)",
+            "size": [3456, 1944]
+          }
+        ]
       },
       {
         "format": "3.5K 3:2",
-        "size": [20.16, 13.44]
+        "size": [20.16, 13.44],
+        "resolution": [
+          {
+            "format": "3.5K 3:2",
+            "size": [3360, 2240]
+          }
+        ]
       },
       {
         "format": "3.5K 4:3",
-        "size": [20.16, 15.12]
+        "size": [20.16, 15.12],
+        "resolution": [
+          {
+            "format": "3.5K 4:3",
+            "size": [3360, 2520]
+          }
+        ]
       },
       {
         "format": "3.5K 5:4",
-        "size": [20.16, 16.13]
+        "size": [20.16, 16.13],
+        "resolution": [
+          {
+            "format": "3.5K 5:4",
+            "size": [3360, 2688]
+          }
+        ]
       },
       {
         "format": "3.5K 4:1",
-        "size": [21.5, 5.38]
+        "size": [21.5, 5.38],
+        "resolution": [
+          {
+            "format": "3.5K 4:1",
+            "size": [3584, 896]
+          }
+        ]
       },
       {
         "format": "3.5K 8:1",
-        "size": [21.5, 2.69]
+        "size": [21.5, 2.69],
+        "resolution": [
+          {
+            "format": "3.5K 8:1",
+            "size": [3584, 448]
+          }
+        ]
       },
       {
         "format": "3K FF",
-        "size": [18.43, 9.72]
+        "size": [18.43, 9.72],
+        "resolution": [
+          {
+            "format": "3K FF",
+            "size": [3072, 1620]
+          }
+        ]
       },
       {
         "format": "3K 2:1",
-        "size": [18.43, 9.22]
+        "size": [18.43, 9.22],
+        "resolution": [
+          {
+            "format": "3K 2:1",
+            "size": [3072, 1536]
+          }
+        ]
       },
       {
         "format": "3K 2.4:1 (WS)",
-        "size": [18.43, 7.78]
+        "size": [18.43, 7.78],
+        "resolution": [
+          {
+            "format": "3K 2.4:1 (WS)",
+            "size": [3072, 1296]
+          }
+        ]
       },
       {
         "format": "3K 16:9 (HD)",
-        "size": [17.28, 9.72]
+        "size": [17.28, 9.72],
+        "resolution": [
+          {
+            "format": "3K 16:9 (HD)",
+            "size": [2880, 1620]
+          }
+        ]
       },
       {
         "format": "3K 3:2",
-        "size": [17.28, 11.52]
+        "size": [17.28, 11.52],
+        "resolution": [
+          {
+            "format": "3K 3:2",
+            "size": [2880, 1920]
+          }
+        ]
       },
       {
         "format": "3K 4:3",
-        "size": [17.28, 12.96]
+        "size": [17.28, 12.96],
+        "resolution": [
+          {
+            "format": "3K 4:3",
+            "size": [2880, 2160]
+          }
+        ]
       },
       {
         "format": "3K 5:4",
-        "size": [17.28, 13.82]
+        "size": [17.28, 13.82],
+        "resolution": [
+          {
+            "format": "3K 5:4",
+            "size": [2880, 2304]
+          }
+        ]
       },
       {
         "format": "3K 6:5",
-        "size": [11.66, 9.72]
+        "size": [11.66, 9.72],
+        "resolution": [
+          {
+            "format": "3K 6:5",
+            "size": [1944, 1620]
+          }
+        ]
       },
       {
         "format": "3K 4:1",
-        "size": [18.43, 4.61]
+        "size": [18.43, 4.61],
+        "resolution": [
+          {
+            "format": "3K 4:1",
+            "size": [3072, 768]
+          }
+        ]
       },
       {
         "format": "3K 8:1",
-        "size": [18.43, 2.3]
+        "size": [18.43, 2.3],
+        "resolution": [
+          {
+            "format": "3K 8:1",
+            "size": [3072, 384]
+          }
+        ]
       },
       {
         "format": "2.5K FF",
-        "size": [15.36, 8.04]
+        "size": [15.36, 8.04],
+        "resolution": [
+          {
+            "format": "2.5K FF",
+            "size": [2560, 1340]
+          }
+        ]
       },
       {
         "format": "2.5K 2:1",
-        "size": [15.36, 7.68]
+        "size": [15.36, 7.68],
+        "resolution": [
+          {
+            "format": "2.5K 2:1",
+            "size": [2560, 1280]
+          }
+        ]
       },
       {
         "format": "2.5K 2.4:1 (WS)",
-        "size": [15.36, 6.48]
+        "size": [15.36, 6.48],
+        "resolution": [
+          {
+            "format": "2.5K 2.4:1 (WS)",
+            "size": [2560, 1080]
+          }
+        ]
       },
       {
         "format": "2.5K 16:9 (HD)",
-        "size": [13.82, 7.78]
+        "size": [13.82, 7.78],
+        "resolution": [
+          {
+            "format": "2.5K 16:9 (HD)",
+            "size": [2304, 1296]
+          }
+        ]
       },
       {
         "format": "2.5K 3:2",
-        "size": [14.4, 9.6]
+        "size": [14.4, 9.6],
+        "resolution": [
+          {
+            "format": "2.5K 3:2",
+            "size": [2400, 1600]
+          }
+        ]
       },
       {
         "format": "2.5K 4:3",
-        "size": [14.4, 10.8]
+        "size": [14.4, 10.8],
+        "resolution": [
+          {
+            "format": "2.5K 4:3",
+            "size": [2400, 1800]
+          }
+        ]
       },
       {
         "format": "2.5K 5:4",
-        "size": [14.4, 11.52]
+        "size": [14.4, 11.52],
+        "resolution": [
+          {
+            "format": "2.5K 5:4",
+            "size": [2400, 1920]
+          }
+        ]
       },
       {
         "format": "2.5K 4:1",
-        "size": [15.36, 3.84]
+        "size": [15.36, 3.84],
+        "resolution": [
+          {
+            "format": "2.5K 4:1",
+            "size": [2560, 640]
+          }
+        ]
       },
       {
         "format": "2.5K 8:1",
-        "size": [15.36, 1.92]
+        "size": [15.36, 1.92],
+        "resolution": [
+          {
+            "format": "2.5K 8:1",
+            "size": [2560, 320]
+          }
+        ]
       },
       {
         "format": "2K FF",
-        "size": [12.29, 6.48]
+        "size": [12.29, 6.48],
+        "resolution": [
+          {
+            "format": "2K FF",
+            "size": [2048, 1080]
+          }
+        ]
       },
       {
         "format": "2K 2:1",
-        "size": [12.29, 6.14]
+        "size": [12.29, 6.14],
+        "resolution": [
+          {
+            "format": "2K 2:1",
+            "size": [2048, 1024]
+          }
+        ]
       },
       {
         "format": "2K 2.4:1 (WS)",
-        "size": [12.29, 5.18]
+        "size": [12.29, 5.18],
+        "resolution": [
+          {
+            "format": "2K 2.4:1 (WS)",
+            "size": [2048, 864]
+          }
+        ]
       },
       {
         "format": "2K 16:9 (HD)",
-        "size": [11.52, 6.48]
+        "size": [11.52, 6.48],
+        "resolution": [
+          {
+            "format": "2K 16:9 (HD)",
+            "size": [1920, 1080]
+          }
+        ]
       },
       {
         "format": "2K 3:2",
-        "size": [11.52, 7.68]
+        "size": [11.52, 7.68],
+        "resolution": [
+          {
+            "format": "2K 3:2",
+            "size": [1920, 1280]
+          }
+        ]
       },
       {
         "format": "2K 4:3",
-        "size": [11.52, 8.64]
+        "size": [11.52, 8.64],
+        "resolution": [
+          {
+            "format": "2K 4:3",
+            "size": [1920, 1440]
+          }
+        ]
       },
       {
         "format": "2K 5:4",
-        "size": [11.52, 9.22]
+        "size": [11.52, 9.22],
+        "resolution": [
+          {
+            "format": "2K 5:4",
+            "size": [1920, 1536]
+          }
+        ]
       },
       {
         "format": "2K 6:5",
-        "size": [7.78, 6.48]
+        "size": [7.78, 6.48],
+        "resolution": [
+          {
+            "format": "2K 6:5",
+            "size": [1296, 1080]
+          }
+        ]
       },
       {
         "format": "2K 4:1",
-        "size": [12.29, 3.07]
+        "size": [12.29, 3.07],
+        "resolution": [
+          {
+            "format": "2K 4:1",
+            "size": [2048, 512]
+          }
+        ]
       },
       {
         "format": "2K 8:1",
-        "size": [12.29, 1.54]
+        "size": [12.29, 1.54],
+        "resolution": [
+          {
+            "format": "2K 8:1",
+            "size": [2048, 256]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -2615,459 +4265,1143 @@
     "sensorSize": [
       {
         "format": "8K FF",
-        "size": [29.9, 15.77]
+        "size": [29.9, 15.77],
+        "resolution": [
+          {
+            "format": "8K FF",
+            "size": [8192, 4320]
+          }
+        ]
       },
       {
         "format": "8K 2:1",
-        "size": [29.9, 14.95]
+        "size": [29.9, 14.95],
+        "resolution": [
+          {
+            "format": "8K 2:1",
+            "size": [8192, 4096]
+          }
+        ]
       },
       {
         "format": "8K 2.4:1 (WS)",
-        "size": [29.9, 12.61]
+        "size": [29.9, 12.61],
+        "resolution": [
+          {
+            "format": "8K 2.4:1 (WS)",
+            "size": [8192, 3456]
+          }
+        ]
       },
       {
         "format": "8K 16:9 (HD)",
-        "size": [28.03, 15.77]
+        "size": [28.03, 15.77],
+        "resolution": [
+          {
+            "format": "8K 16:9 (HD)",
+            "size": [7680, 4320]
+          }
+        ]
       },
       {
         "format": "8K 8:9",
-        "size": [14.02, 15.77]
+        "size": [14.02, 15.77],
+        "resolution": [
+          {
+            "format": "8K 8:9",
+            "size": [3840, 4320]
+          }
+        ]
       },
       {
         "format": "8K 14:9",
-        "size": [24.53, 15.77]
+        "size": [24.53, 15.77],
+        "resolution": [
+          {
+            "format": "8K 14:9",
+            "size": [6720, 4320]
+          }
+        ]
       },
       {
         "format": "8K 3:2",
-        "size": [23.65, 15.77]
+        "size": [23.65, 15.77],
+        "resolution": [
+          {
+            "format": "8K 3:2",
+            "size": [6480, 4320]
+          }
+        ]
       },
       {
         "format": "8K 6:5",
-        "size": [18.92, 15.77]
+        "size": [18.92, 15.77],
+        "resolution": [
+          {
+            "format": "8K 6:5",
+            "size": [5184, 4320]
+          }
+        ]
       },
       {
         "format": "8K 4:1",
-        "size": [29.9, 7.48]
+        "size": [29.9, 7.48],
+        "resolution": [
+          {
+            "format": "8K 4:1",
+            "size": [8192, 2048]
+          }
+        ]
       },
       {
         "format": "8K 8:1",
-        "size": [29.9, 3.74]
+        "size": [29.9, 3.74],
+        "resolution": [
+          {
+            "format": "8K 8:1",
+            "size": [8192, 1024]
+          }
+        ]
       },
       {
         "format": "7.5K FF",
-        "size": [28.03, 14.89]
+        "size": [28.03, 14.89],
+        "resolution": [
+          {
+            "format": "7.5K FF",
+            "size": [7680, 4080]
+          }
+        ]
       },
       {
         "format": "7.5K 2:1",
-        "size": [28.03, 14.02]
+        "size": [28.03, 14.02],
+        "resolution": [
+          {
+            "format": "7.5K 2:1",
+            "size": [7680, 3840]
+          }
+        ]
       },
       {
         "format": "7.5K 2.4:1 (WS)",
-        "size": [28.03, 11.83]
+        "size": [28.03, 11.83],
+        "resolution": [
+          {
+            "format": "7.5K 2.4:1 (WS)",
+            "size": [7680, 3240]
+          }
+        ]
       },
       {
         "format": "7.5K 16:9 (HD)",
-        "size": [26.63, 14.98]
+        "size": [26.63, 14.98],
+        "resolution": [
+          {
+            "format": "7.5K 16:9 (HD)",
+            "size": [7296, 4104]
+          }
+        ]
       },
       {
         "format": "7.5K 4:1",
-        "size": [28.03, 7.01]
+        "size": [28.03, 7.01],
+        "resolution": [
+          {
+            "format": "7.5K 4:1",
+            "size": [7680, 1920]
+          }
+        ]
       },
       {
         "format": "7.5K 8:1",
-        "size": [28.03, 3.5]
+        "size": [28.03, 3.5],
+        "resolution": [
+          {
+            "format": "7.5K 8:1",
+            "size": [7680, 960]
+          }
+        ]
       },
       {
         "format": "7K FF",
-        "size": [26.16, 13.8]
+        "size": [26.16, 13.8],
+        "resolution": [
+          {
+            "format": "7K FF",
+            "size": [7168, 3780]
+          }
+        ]
       },
       {
         "format": "7K 2:1",
-        "size": [26.16, 13.08]
+        "size": [26.16, 13.08],
+        "resolution": [
+          {
+            "format": "7K 2:1",
+            "size": [7168, 3584]
+          }
+        ]
       },
       {
         "format": "7K 2.4:1 (WS)",
-        "size": [26.16, 11.04]
+        "size": [26.16, 11.04],
+        "resolution": [
+          {
+            "format": "7K 2.4:1 (WS)",
+            "size": [7168, 3024]
+          }
+        ]
       },
       {
         "format": "7K 16:9 (HD)",
-        "size": [24.53, 13.8]
+        "size": [24.53, 13.8],
+        "resolution": [
+          {
+            "format": "7K 16:9 (HD)",
+            "size": [6720, 3780]
+          }
+        ]
       },
       {
         "format": "7K 8:9",
-        "size": [12.26, 13.8]
+        "size": [12.26, 13.8],
+        "resolution": [
+          {
+            "format": "7K 8:9",
+            "size": [3360, 3780]
+          }
+        ]
       },
       {
         "format": "7K 6:5",
-        "size": [16.56, 13.8]
+        "size": [16.56, 13.8],
+        "resolution": [
+          {
+            "format": "7K 6:5",
+            "size": [4536, 3780]
+          }
+        ]
       },
       {
         "format": "7K 4:1",
-        "size": [26.16, 6.54]
+        "size": [26.16, 6.54],
+        "resolution": [
+          {
+            "format": "7K 4:1",
+            "size": [7168, 1792]
+          }
+        ]
       },
       {
         "format": "7K 8:1",
-        "size": [26.16, 3.27]
+        "size": [26.16, 3.27],
+        "resolution": [
+          {
+            "format": "7K 8:1",
+            "size": [7168, 896]
+          }
+        ]
       },
       {
         "format": "6.5K FF",
-        "size": [24.29, 12.91]
+        "size": [24.29, 12.91],
+        "resolution": [
+          {
+            "format": "6.5K FF",
+            "size": [6656, 3536]
+          }
+        ]
       },
       {
         "format": "6.5K 2:1",
-        "size": [24.29, 12.15]
+        "size": [24.29, 12.15],
+        "resolution": [
+          {
+            "format": "6.5K 2:1",
+            "size": [6656, 3328]
+          }
+        ]
       },
       {
         "format": "6.5K 2.4:1 (WS)",
-        "size": [24.29, 10.25]
+        "size": [24.29, 10.25],
+        "resolution": [
+          {
+            "format": "6.5K 2.4:1 (WS)",
+            "size": [6656, 2808]
+          }
+        ]
       },
       {
         "format": "6.5K 16:9 (HD)",
-        "size": [22.43, 12.61]
+        "size": [22.43, 12.61],
+        "resolution": [
+          {
+            "format": "6.5K 16:9 (HD)",
+            "size": [6144, 3456]
+          }
+        ]
       },
       {
         "format": "6.5K 4:1",
-        "size": [24.29, 6.07]
+        "size": [24.29, 6.07],
+        "resolution": [
+          {
+            "format": "6.5K 4:1",
+            "size": [6656, 1664]
+          }
+        ]
       },
       {
         "format": "6.5K 8:1",
-        "size": [24.29, 3.04]
+        "size": [24.29, 3.04],
+        "resolution": [
+          {
+            "format": "6.5K 8:1",
+            "size": [6656, 832]
+          }
+        ]
       },
       {
         "format": "6K FF",
-        "size": [22.43, 11.83]
+        "size": [22.43, 11.83],
+        "resolution": [
+          {
+            "format": "6K FF",
+            "size": [6144, 3240]
+          }
+        ]
       },
       {
         "format": "6K 2:1",
-        "size": [22.43, 11.21]
+        "size": [22.43, 11.21],
+        "resolution": [
+          {
+            "format": "6K 2:1",
+            "size": [6144, 3072]
+          }
+        ]
       },
       {
         "format": "6K 2.4:1 (WS)",
-        "size": [22.43, 9.46]
+        "size": [22.43, 9.46],
+        "resolution": [
+          {
+            "format": "6K 2.4:1 (WS)",
+            "size": [6144, 2592]
+          }
+        ]
       },
       {
         "format": "6K 16:9 (HD)",
-        "size": [21.02, 11.83]
+        "size": [21.02, 11.83],
+        "resolution": [
+          {
+            "format": "6K 16:9 (HD)",
+            "size": [5760, 3240]
+          }
+        ]
       },
       {
         "format": "6K 8:9",
-        "size": [10.51, 11.83]
+        "size": [10.51, 11.83],
+        "resolution": [
+          {
+            "format": "6K 8:9",
+            "size": [2880, 3240]
+          }
+        ]
       },
       {
         "format": "6K 3:2",
-        "size": [21.02, 14.02]
+        "size": [21.02, 14.02],
+        "resolution": [
+          {
+            "format": "6K 3:2",
+            "size": [5760, 3840]
+          }
+        ]
       },
       {
         "format": "6K 4:3",
-        "size": [21.02, 15.77]
+        "size": [21.02, 15.77],
+        "resolution": [
+          {
+            "format": "6K 4:3",
+            "size": [5760, 4320]
+          }
+        ]
       },
       {
         "format": "6K 6:5",
-        "size": [14.19, 11.83]
+        "size": [14.19, 11.83],
+        "resolution": [
+          {
+            "format": "6K 6:5",
+            "size": [3888, 3240]
+          }
+        ]
       },
       {
         "format": "6K 4:1",
-        "size": [22.43, 5.61]
+        "size": [22.43, 5.61],
+        "resolution": [
+          {
+            "format": "6K 4:1",
+            "size": [6144, 1536]
+          }
+        ]
       },
       {
         "format": "6K 8:1",
-        "size": [22.43, 2.8]
+        "size": [22.43, 2.8],
+        "resolution": [
+          {
+            "format": "6K 8:1",
+            "size": [6144, 768]
+          }
+        ]
       },
       {
         "format": "5.5K FF",
-        "size": [20.56, 10.76]
+        "size": [20.56, 10.76],
+        "resolution": [
+          {
+            "format": "5.5K FF",
+            "size": [5632, 2948]
+          }
+        ]
       },
       {
         "format": "5.5K 2:1",
-        "size": [20.56, 10.28]
+        "size": [20.56, 10.28],
+        "resolution": [
+          {
+            "format": "5.5K 2:1",
+            "size": [5632, 2816]
+          }
+        ]
       },
       {
         "format": "5.5K 2.4:1 (WS)",
-        "size": [20.56, 8.67]
+        "size": [20.56, 8.67],
+        "resolution": [
+          {
+            "format": "5.5K 2.4:1 (WS)",
+            "size": [5632, 2376]
+          }
+        ]
       },
       {
         "format": "5.5K 16:9 (HD)",
-        "size": [19.62, 11.04]
+        "size": [19.62, 11.04],
+        "resolution": [
+          {
+            "format": "5.5K 16:9 (HD)",
+            "size": [5376, 3024]
+          }
+        ]
       },
       {
         "format": "5.5K 4:1",
-        "size": [20.56, 5.14]
+        "size": [20.56, 5.14],
+        "resolution": [
+          {
+            "format": "5.5K 4:1",
+            "size": [5632, 1408]
+          }
+        ]
       },
       {
         "format": "5.5K 8:1",
-        "size": [20.56, 2.57]
+        "size": [20.56, 2.57],
+        "resolution": [
+          {
+            "format": "5.5K 8:1",
+            "size": [5632, 704]
+          }
+        ]
       },
       {
         "format": "5K FF",
-        "size": [18.69, 9.86]
+        "size": [18.69, 9.86],
+        "resolution": [
+          {
+            "format": "5K FF",
+            "size": [5120, 2700]
+          }
+        ]
       },
       {
         "format": "5K 2:1",
-        "size": [18.69, 9.34]
+        "size": [18.69, 9.34],
+        "resolution": [
+          {
+            "format": "5K 2:1",
+            "size": [5120, 2560]
+          }
+        ]
       },
       {
         "format": "5K 2.4:1 (WS)",
-        "size": [18.69, 7.88]
+        "size": [18.69, 7.88],
+        "resolution": [
+          {
+            "format": "5K 2.4:1 (WS)",
+            "size": [5120, 2160]
+          }
+        ]
       },
       {
         "format": "5K 16:9 (HD)",
-        "size": [17.52, 9.86]
+        "size": [17.52, 9.86],
+        "resolution": [
+          {
+            "format": "5K 16:9 (HD)",
+            "size": [4800, 2700]
+          }
+        ]
       },
       {
         "format": "5K 4:3",
-        "size": [18.69, 14.02]
+        "size": [18.69, 14.02],
+        "resolution": [
+          {
+            "format": "5K 4:3",
+            "size": [5120, 3840]
+          }
+        ]
       },
       {
         "format": "5K 8:9",
-        "size": [8.76, 9.86]
+        "size": [8.76, 9.86],
+        "resolution": [
+          {
+            "format": "5K 8:9",
+            "size": [2400, 2700]
+          }
+        ]
       },
       {
         "format": "5K 6:5",
-        "size": [11.83, 9.86]
+        "size": [11.83, 9.86],
+        "resolution": [
+          {
+            "format": "5K 6:5",
+            "size": [3240, 2700]
+          }
+        ]
       },
       {
         "format": "5K 4:1",
-        "size": [18.69, 4.67]
+        "size": [18.69, 4.67],
+        "resolution": [
+          {
+            "format": "5K 4:1",
+            "size": [5120, 1280]
+          }
+        ]
       },
       {
         "format": "5K 8:1",
-        "size": [18.69, 2.34]
+        "size": [18.69, 2.34],
+        "resolution": [
+          {
+            "format": "5K 8:1",
+            "size": [5120, 640]
+          }
+        ]
       },
       {
         "format": "4.5K FF",
-        "size": [16.82, 8.8]
+        "size": [16.82, 8.8],
+        "resolution": [
+          {
+            "format": "4.5K FF",
+            "size": [4608, 2412]
+          }
+        ]
       },
       {
         "format": "4.5K 2:1",
-        "size": [16.82, 8.41]
+        "size": [16.82, 8.41],
+        "resolution": [
+          {
+            "format": "4.5K 2:1",
+            "size": [4608, 2304]
+          }
+        ]
       },
       {
         "format": "4.5K 2.4:1 (WS)",
-        "size": [16.82, 7.1]
+        "size": [16.82, 7.1],
+        "resolution": [
+          {
+            "format": "4.5K 2.4:1 (WS)",
+            "size": [4608, 1944]
+          }
+        ]
       },
       {
         "format": "4.5K 16:9 (HD)",
-        "size": [15.42, 8.67]
+        "size": [15.42, 8.67],
+        "resolution": [
+          {
+            "format": "4.5K 16:9 (HD)",
+            "size": [4224, 2376]
+          }
+        ]
       },
       {
         "format": "4.5K 3:2",
-        "size": [15.77, 10.51]
+        "size": [15.77, 10.51],
+        "resolution": [
+          {
+            "format": "4.5K 3:2",
+            "size": [4320, 2880]
+          }
+        ]
       },
       {
         "format": "4.5K 4:3",
-        "size": [15.77, 11.83]
+        "size": [15.77, 11.83],
+        "resolution": [
+          {
+            "format": "4.5K 4:3",
+            "size": [4320, 3240]
+          }
+        ]
       },
       {
         "format": "4.5K 5:4",
-        "size": [15.77, 12.61]
+        "size": [15.77, 12.61],
+        "resolution": [
+          {
+            "format": "4.5K 5:4",
+            "size": [4320, 3456]
+          }
+        ]
       },
       {
         "format": "4.5K 4:1",
-        "size": [16.82, 4.2]
+        "size": [16.82, 4.2],
+        "resolution": [
+          {
+            "format": "4.5K 4:1",
+            "size": [4608, 1152]
+          }
+        ]
       },
       {
         "format": "4.5K 8:1",
-        "size": [16.82, 2.1]
+        "size": [16.82, 2.1],
+        "resolution": [
+          {
+            "format": "4.5K 8:1",
+            "size": [4608, 576]
+          }
+        ]
       },
       {
         "format": "4K FF",
-        "size": [14.95, 7.88]
+        "size": [14.95, 7.88],
+        "resolution": [
+          {
+            "format": "4K FF",
+            "size": [4096, 2160]
+          }
+        ]
       },
       {
         "format": "4K 2:1",
-        "size": [14.95, 7.48]
+        "size": [14.95, 7.48],
+        "resolution": [
+          {
+            "format": "4K 2:1",
+            "size": [4096, 2048]
+          }
+        ]
       },
       {
         "format": "4K 2.4:1 (WS)",
-        "size": [14.95, 6.31]
+        "size": [14.95, 6.31],
+        "resolution": [
+          {
+            "format": "4K 2.4:1 (WS)",
+            "size": [4096, 1728]
+          }
+        ]
       },
       {
         "format": "4K 16:9 (HD)",
-        "size": [14.02, 7.88]
+        "size": [14.02, 7.88],
+        "resolution": [
+          {
+            "format": "4K 16:9 (HD)",
+            "size": [3840, 2160]
+          }
+        ]
       },
       {
         "format": "4K 8:9",
-        "size": [7.01, 7.88]
+        "size": [7.01, 7.88],
+        "resolution": [
+          {
+            "format": "4K 8:9",
+            "size": [1920, 2160]
+          }
+        ]
       },
       {
         "format": "4K 3:2",
-        "size": [14.02, 9.34]
+        "size": [14.02, 9.34],
+        "resolution": [
+          {
+            "format": "4K 3:2",
+            "size": [3840, 2560]
+          }
+        ]
       },
       {
         "format": "4K 4:3",
-        "size": [14.02, 10.51]
+        "size": [14.02, 10.51],
+        "resolution": [
+          {
+            "format": "4K 4:3",
+            "size": [3840, 2880]
+          }
+        ]
       },
       {
         "format": "4K 5:4",
-        "size": [14.02, 11.21]
+        "size": [14.02, 11.21],
+        "resolution": [
+          {
+            "format": "4K 5:4",
+            "size": [3840, 3072]
+          }
+        ]
       },
       {
         "format": "4K 6:5",
-        "size": [9.46, 7.88]
+        "size": [9.46, 7.88],
+        "resolution": [
+          {
+            "format": "4K 6:5",
+            "size": [2592, 2160]
+          }
+        ]
       },
       {
         "format": "4K 4:1",
-        "size": [14.95, 3.74]
+        "size": [14.95, 3.74],
+        "resolution": [
+          {
+            "format": "4K 4:1",
+            "size": [4096, 1024]
+          }
+        ]
       },
       {
         "format": "4K 8:1",
-        "size": [14.95, 1.87]
+        "size": [14.95, 1.87],
+        "resolution": [
+          {
+            "format": "4K 8:1",
+            "size": [4096, 512]
+          }
+        ]
       },
       {
         "format": "4K 1:1",
-        "size": [15.77, 15.77]
+        "size": [15.77, 15.77],
+        "resolution": [
+          {
+            "format": "4K 1:1",
+            "size": [4320, 4320]
+          }
+        ]
       },
       {
         "format": "3.5K FF",
-        "size": [13.08, 6.85]
+        "size": [13.08, 6.85],
+        "resolution": [
+          {
+            "format": "3.5K FF",
+            "size": [3584, 1876]
+          }
+        ]
       },
       {
         "format": "3.5K 2:1",
-        "size": [13.08, 6.54]
+        "size": [13.08, 6.54],
+        "resolution": [
+          {
+            "format": "3.5K 2:1",
+            "size": [3584, 1792]
+          }
+        ]
       },
       {
         "format": "3.5K 2.4:1 (WS)",
-        "size": [13.08, 5.52]
+        "size": [13.08, 5.52],
+        "resolution": [
+          {
+            "format": "3.5K 2.4:1 (WS)",
+            "size": [3584, 1512]
+          }
+        ]
       },
       {
         "format": "3.5K 16:9 (HD)",
-        "size": [12.61, 7.1]
+        "size": [12.61, 7.1],
+        "resolution": [
+          {
+            "format": "3.5K 16:9 (HD)",
+            "size": [3456, 1944]
+          }
+        ]
       },
       {
         "format": "3.5K 3:2",
-        "size": [12.26, 8.18]
+        "size": [12.26, 8.18],
+        "resolution": [
+          {
+            "format": "3.5K 3:2",
+            "size": [3360, 2240]
+          }
+        ]
       },
       {
         "format": "3.5K 4:3",
-        "size": [12.26, 9.2]
+        "size": [12.26, 9.2],
+        "resolution": [
+          {
+            "format": "3.5K 4:3",
+            "size": [3360, 2520]
+          }
+        ]
       },
       {
         "format": "3.5K 5:4",
-        "size": [12.26, 9.81]
+        "size": [12.26, 9.81],
+        "resolution": [
+          {
+            "format": "3.5K 5:4",
+            "size": [3360, 2688]
+          }
+        ]
       },
       {
         "format": "3.5K 4:1",
-        "size": [13.08, 3.27]
+        "size": [13.08, 3.27],
+        "resolution": [
+          {
+            "format": "3.5K 4:1",
+            "size": [3584, 896]
+          }
+        ]
       },
       {
         "format": "3.5K 8:1",
-        "size": [13.08, 1.64]
+        "size": [13.08, 1.64],
+        "resolution": [
+          {
+            "format": "3.5K 8:1",
+            "size": [3584, 448]
+          }
+        ]
       },
       {
         "format": "3K FF",
-        "size": [11.21, 5.91]
+        "size": [11.21, 5.91],
+        "resolution": [
+          {
+            "format": "3K FF",
+            "size": [3072, 1620]
+          }
+        ]
       },
       {
         "format": "3K 2:1",
-        "size": [11.21, 5.61]
+        "size": [11.21, 5.61],
+        "resolution": [
+          {
+            "format": "3K 2:1",
+            "size": [3072, 1536]
+          }
+        ]
       },
       {
         "format": "3K 2.4:1 (WS)",
-        "size": [11.21, 4.73]
+        "size": [11.21, 4.73],
+        "resolution": [
+          {
+            "format": "3K 2.4:1 (WS)",
+            "size": [3072, 1296]
+          }
+        ]
       },
       {
         "format": "3K 16:9 (HD)",
-        "size": [10.51, 5.91]
+        "size": [10.51, 5.91],
+        "resolution": [
+          {
+            "format": "3K 16:9 (HD)",
+            "size": [2880, 1620]
+          }
+        ]
       },
       {
         "format": "3K 3:2",
-        "size": [10.51, 7.01]
+        "size": [10.51, 7.01],
+        "resolution": [
+          {
+            "format": "3K 3:2",
+            "size": [2880, 1920]
+          }
+        ]
       },
       {
         "format": "3K 4:3",
-        "size": [10.51, 7.88]
+        "size": [10.51, 7.88],
+        "resolution": [
+          {
+            "format": "3K 4:3",
+            "size": [2880, 2160]
+          }
+        ]
       },
       {
         "format": "3K 5:4",
-        "size": [10.51, 8.41]
+        "size": [10.51, 8.41],
+        "resolution": [
+          {
+            "format": "3K 5:4",
+            "size": [2880, 2304]
+          }
+        ]
       },
       {
         "format": "3K 6:5",
-        "size": [7.1, 5.91]
+        "size": [7.1, 5.91],
+        "resolution": [
+          {
+            "format": "3K 6:5",
+            "size": [1944, 1620]
+          }
+        ]
       },
       {
         "format": "3K 4:1",
-        "size": [11.21, 2.8]
+        "size": [11.21, 2.8],
+        "resolution": [
+          {
+            "format": "3K 4:1",
+            "size": [3072, 768]
+          }
+        ]
       },
       {
         "format": "3K 8:1",
-        "size": [11.21, 1.4]
+        "size": [11.21, 1.4],
+        "resolution": [
+          {
+            "format": "3K 8:1",
+            "size": [3072, 384]
+          }
+        ]
       },
       {
         "format": "2.5K FF",
-        "size": [9.34, 4.89]
+        "size": [9.34, 4.89],
+        "resolution": [
+          {
+            "format": "2.5K FF",
+            "size": [2560, 1340]
+          }
+        ]
       },
       {
         "format": "2.5K 2:1",
-        "size": [9.34, 4.67]
+        "size": [9.34, 4.67],
+        "resolution": [
+          {
+            "format": "2.5K 2:1",
+            "size": [2560, 1280]
+          }
+        ]
       },
       {
         "format": "2.5K 2.4:1 (WS)",
-        "size": [9.34, 3.94]
+        "size": [9.34, 3.94],
+        "resolution": [
+          {
+            "format": "2.5K 2.4:1 (WS)",
+            "size": [2560, 1080]
+          }
+        ]
       },
       {
         "format": "2.5K 16:9 (HD)",
-        "size": [8.41, 4.73]
+        "size": [8.41, 4.73],
+        "resolution": [
+          {
+            "format": "2.5K 16:9 (HD)",
+            "size": [2304, 1296]
+          }
+        ]
       },
       {
         "format": "2.5K 3:2",
-        "size": [8.76, 5.84]
+        "size": [8.76, 5.84],
+        "resolution": [
+          {
+            "format": "2.5K 3:2",
+            "size": [2400, 1600]
+          }
+        ]
       },
       {
         "format": "2.5K 4:3",
-        "size": [8.76, 6.57]
+        "size": [8.76, 6.57],
+        "resolution": [
+          {
+            "format": "2.5K 4:3",
+            "size": [2400, 1800]
+          }
+        ]
       },
       {
         "format": "2.5K 5:4",
-        "size": [8.76, 7.01]
+        "size": [8.76, 7.01],
+        "resolution": [
+          {
+            "format": "2.5K 5:4",
+            "size": [2400, 1920]
+          }
+        ]
       },
       {
         "format": "2.5K 4:1",
-        "size": [9.34, 2.34]
+        "size": [9.34, 2.34],
+        "resolution": [
+          {
+            "format": "2.5K 4:1",
+            "size": [2560, 640]
+          }
+        ]
       },
       {
         "format": "2.5K 8:1",
-        "size": [9.34, 1.17]
+        "size": [9.34, 1.17],
+        "resolution": [
+          {
+            "format": "2.5K 8:1",
+            "size": [2560, 320]
+          }
+        ]
       },
       {
         "format": "2K FF",
-        "size": [7.48, 3.94]
+        "size": [7.48, 3.94],
+        "resolution": [
+          {
+            "format": "2K FF",
+            "size": [2048, 1080]
+          }
+        ]
       },
       {
         "format": "2K 2:1",
-        "size": [7.48, 3.74]
+        "size": [7.48, 3.74],
+        "resolution": [
+          {
+            "format": "2K 2:1",
+            "size": [2048, 1024]
+          }
+        ]
       },
       {
         "format": "2K 2.4:1 (WS)",
-        "size": [7.48, 3.15]
+        "size": [7.48, 3.15],
+        "resolution": [
+          {
+            "format": "2K 2.4:1 (WS)",
+            "size": [2048, 864]
+          }
+        ]
       },
       {
         "format": "2K 16:9 (HD)",
-        "size": [7.01, 3.94]
+        "size": [7.01, 3.94],
+        "resolution": [
+          {
+            "format": "2K 16:9 (HD)",
+            "size": [1920, 1080]
+          }
+        ]
       },
       {
         "format": "2K 3:2",
-        "size": [7.01, 4.67]
+        "size": [7.01, 4.67],
+        "resolution": [
+          {
+            "format": "2K 3:2",
+            "size": [1920, 1280]
+          }
+        ]
       },
       {
         "format": "2K 4:3",
-        "size": [7.01, 5.26]
+        "size": [7.01, 5.26],
+        "resolution": [
+          {
+            "format": "2K 4:3",
+            "size": [1920, 1440]
+          }
+        ]
       },
       {
         "format": "2K 5:4",
-        "size": [7.01, 5.61]
+        "size": [7.01, 5.61],
+        "resolution": [
+          {
+            "format": "2K 5:4",
+            "size": [1920, 1536]
+          }
+        ]
       },
       {
         "format": "2K 6:5",
-        "size": [4.73, 3.94]
+        "size": [4.73, 3.94],
+        "resolution": [
+          {
+            "format": "2K 6:5",
+            "size": [1296, 1080]
+          }
+        ]
       },
       {
         "format": "2K 4:1",
-        "size": [7.48, 1.87]
+        "size": [7.48, 1.87],
+        "resolution": [
+          {
+            "format": "2K 4:1",
+            "size": [2048, 512]
+          }
+        ]
       },
       {
         "format": "2K 8:1",
-        "size": [7.48, 0.93]
+        "size": [7.48, 0.93],
+        "resolution": [
+          {
+            "format": "2K 8:1",
+            "size": [2048, 256]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -3086,67 +5420,163 @@
     "sensorSize": [
       {
         "format": "6K 17:9",
-        "size": [27.03, 14.26]
+        "size": [27.03, 14.26],
+        "resolution": [
+          {
+            "format": "6K 17:9",
+            "size": [6144, 3240]
+          }
+        ]
       },
       {
         "format": "6K 2:1",
-        "size": [27.03, 13.52]
+        "size": [27.03, 13.52],
+        "resolution": [
+          {
+            "format": "6K 2:1",
+            "size": [6144, 3072]
+          }
+        ]
       },
       {
         "format": "6K 2.4:1",
-        "size": [27.03, 11.32]
+        "size": [27.03, 11.32],
+        "resolution": [
+          {
+            "format": "6K 2.4:1",
+            "size": [6144, 2574]
+          }
+        ]
       },
       {
         "format": "6K 16:9",
-        "size": [25.34, 14.26]
+        "size": [25.34, 14.26],
+        "resolution": [
+          {
+            "format": "6K 16:9",
+            "size": [5760, 3240]
+          }
+        ]
       },
       {
         "format": "6K 4:3 2x",
-        "size": [18.61, 14.26]
+        "size": [18.61, 14.26],
+        "resolution": [
+          {
+            "format": "6K 4:3 2x",
+            "size": [4320, 3240]
+          }
+        ]
       },
       {
         "format": "6K 6:5 2x",
-        "size": [17.11, 14.26]
+        "size": [17.11, 14.26],
+        "resolution": [
+          {
+            "format": "6K 6:5 2x",
+            "size": [3888, 3240]
+          }
+        ]
       },
       {
         "format": "6K 3:2 1.8x",
-        "size": [21.38, 14.26]
+        "size": [21.38, 14.26],
+        "resolution": [
+          {
+            "format": "6K 3:2 1.8x",
+            "size": [4860, 3240]
+          }
+        ]
       },
       {
         "format": "6K 4:3 1.8x",
-        "size": [19.01, 14.26]
+        "size": [19.01, 14.26],
+        "resolution": [
+          {
+            "format": "6K 4:3 1.8x",
+            "size": [4320, 3240]
+          }
+        ]
       },
       {
         "format": "6K 3:2 1.6x",
-        "size": [21.38, 14.26]
+        "size": [21.38, 14.26],
+        "resolution": [
+          {
+            "format": "6K 3:2 1.6x",
+            "size": [4860, 3240]
+          }
+        ]
       },
       {
         "format": "6K 16:9 1.5x",
-        "size": [25.34, 14.26]
+        "size": [25.34, 14.26],
+        "resolution": [
+          {
+            "format": "6K 16:9 1.5x",
+            "size": [5760, 3240]
+          }
+        ]
       },
       {
         "format": "6K 17:9 1.3x",
-        "size": [27.03, 14.26]
+        "size": [27.03, 14.26],
+        "resolution": [
+          {
+            "format": "6K 17:9 1.3x",
+            "size": [6144, 3240]
+          }
+        ]
       },
       {
         "format": "6K 17:9 1.25x",
-        "size": [27.03, 14.26]
+        "size": [27.03, 14.26],
+        "resolution": [
+          {
+            "format": "6K 17:9 1.25x",
+            "size": [6144, 3240]
+          }
+        ]
       },
       {
         "format": "5K 17:9",
-        "size": [22.53, 11.88]
+        "size": [22.53, 11.88],
+        "resolution": [
+          {
+            "format": "5K 17:9",
+            "size": [5120, 2700]
+          }
+        ]
       },
       {
         "format": "4K 17:9",
-        "size": [18.02, 9.5]
+        "size": [18.02, 9.5],
+        "resolution": [
+          {
+            "format": "4K 17:9",
+            "size": [4096, 2160]
+          }
+        ]
       },
       {
         "format": "4K 16:9",
-        "size": [16.9, 9.5]
+        "size": [16.9, 9.5],
+        "resolution": [
+          {
+            "format": "4K 16:9",
+            "size": [3840, 2160]
+          }
+        ]
       },
       {
         "format": "2K 17:9",
-        "size": [9.01, 4.75]
+        "size": [9.01, 4.75],
+        "resolution": [
+          {
+            "format": "2K 17:9",
+            "size": [2048, 1080]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -3164,459 +5594,1143 @@
     "sensorSize": [
       {
         "format": "8K FF",
-        "size": [40.96, 21.6]
+        "size": [40.96, 21.6],
+        "resolution": [
+          {
+            "format": "8K FF",
+            "size": [8192, 4320]
+          }
+        ]
       },
       {
         "format": "8K 2:1",
-        "size": [40.96, 20.48]
+        "size": [40.96, 20.48],
+        "resolution": [
+          {
+            "format": "8K 2:1",
+            "size": [8192, 4096]
+          }
+        ]
       },
       {
         "format": "8K 2.4:1 (WS)",
-        "size": [40.96, 17.28]
+        "size": [40.96, 17.28],
+        "resolution": [
+          {
+            "format": "8K 2.4:1 (WS)",
+            "size": [8192, 3456]
+          }
+        ]
       },
       {
         "format": "8K 16:9 (HD)",
-        "size": [38.4, 21.6]
+        "size": [38.4, 21.6],
+        "resolution": [
+          {
+            "format": "8K 16:9 (HD)",
+            "size": [7680, 4320]
+          }
+        ]
       },
       {
         "format": "8K 14:9",
-        "size": [33.6, 21.6]
+        "size": [33.6, 21.6],
+        "resolution": [
+          {
+            "format": "8K 14:9",
+            "size": [6720, 4320]
+          }
+        ]
       },
       {
         "format": "8K 3:2",
-        "size": [32.4, 21.6]
+        "size": [32.4, 21.6],
+        "resolution": [
+          {
+            "format": "8K 3:2",
+            "size": [6480, 4320]
+          }
+        ]
       },
       {
         "format": "8K 6:5",
-        "size": [25.9, 21.6]
+        "size": [25.9, 21.6],
+        "resolution": [
+          {
+            "format": "8K 6:5",
+            "size": [5184, 4320]
+          }
+        ]
       },
       {
         "format": "8K 8:9",
-        "size": [19.2, 21.6]
+        "size": [19.2, 21.6],
+        "resolution": [
+          {
+            "format": "8K 8:9",
+            "size": [3840, 4320]
+          }
+        ]
       },
       {
         "format": "8K 4:1",
-        "size": [40.96, 10.2]
+        "size": [41, 10.2],
+        "resolution": [
+          {
+            "format": "8K 4:1",
+            "size": [8192, 2048]
+          }
+        ]
       },
       {
         "format": "8K 8:1",
-        "size": [40.96, 5.1]
+        "size": [41, 5.1],
+        "resolution": [
+          {
+            "format": "8K 8:1",
+            "size": [8192, 1024]
+          }
+        ]
       },
       {
         "format": "7.5K FF",
-        "size": [38.4, 20.4]
+        "size": [38.4, 20.4],
+        "resolution": [
+          {
+            "format": "7.5K FF",
+            "size": [7680, 4080]
+          }
+        ]
       },
       {
         "format": "7.5K 2:1",
-        "size": [38.4, 19.2]
+        "size": [38.4, 19.2],
+        "resolution": [
+          {
+            "format": "7.5K 2:1",
+            "size": [7680, 3840]
+          }
+        ]
       },
       {
         "format": "7.5K 2.4:1 (WS)",
-        "size": [38.4, 16.2]
+        "size": [38.4, 16.2],
+        "resolution": [
+          {
+            "format": "7.5K 2.4:1 (WS)",
+            "size": [7680, 3240]
+          }
+        ]
       },
       {
         "format": "7.5K 16:9 (HD)",
-        "size": [36.48, 20.52]
+        "size": [36.48, 20.52],
+        "resolution": [
+          {
+            "format": "7.5K 16:9 (HD)",
+            "size": [7296, 4104]
+          }
+        ]
       },
       {
         "format": "7.5K 4:1",
-        "size": [38.4, 9.6]
+        "size": [38.4, 9.6],
+        "resolution": [
+          {
+            "format": "7.5K 4:1",
+            "size": [7680, 1920]
+          }
+        ]
       },
       {
         "format": "7.5K 8:1",
-        "size": [38.4, 4.8]
+        "size": [38.4, 4.8],
+        "resolution": [
+          {
+            "format": "7.5K 8:1",
+            "size": [7680, 960]
+          }
+        ]
       },
       {
         "format": "7K FF",
-        "size": [35.84, 18.9]
+        "size": [35.84, 18.9],
+        "resolution": [
+          {
+            "format": "7K FF",
+            "size": [7168, 3780]
+          }
+        ]
       },
       {
         "format": "7K 2:1",
-        "size": [35.84, 17.92]
+        "size": [35.84, 17.92],
+        "resolution": [
+          {
+            "format": "7K 2:1",
+            "size": [7168, 3584]
+          }
+        ]
       },
       {
         "format": "7K 2.4:1 (WS)",
-        "size": [35.84, 15.12]
+        "size": [35.84, 15.12],
+        "resolution": [
+          {
+            "format": "7K 2.4:1 (WS)",
+            "size": [7168, 3024]
+          }
+        ]
       },
       {
         "format": "7K 16:9 (HD)",
-        "size": [33.6, 18.9]
+        "size": [33.6, 18.9],
+        "resolution": [
+          {
+            "format": "7K 16:9 (HD)",
+            "size": [6720, 3780]
+          }
+        ]
       },
       {
         "format": "7K 8:9",
-        "size": [16.8, 18.9]
+        "size": [16.8, 18.9],
+        "resolution": [
+          {
+            "format": "7K 8:9",
+            "size": [3360, 3780]
+          }
+        ]
       },
       {
         "format": "7K 6:5",
-        "size": [22.7, 18.9]
+        "size": [22.7, 18.9],
+        "resolution": [
+          {
+            "format": "7K 6:5",
+            "size": [4536, 3780]
+          }
+        ]
       },
       {
         "format": "7K 4:1",
-        "size": [35.8, 9.0]
+        "size": [35.8, 9.0],
+        "resolution": [
+          {
+            "format": "7K 4:1",
+            "size": [7168, 1792]
+          }
+        ]
       },
       {
         "format": "7K 8:1",
-        "size": [35.8, 4.5]
+        "size": [35.8, 4.5],
+        "resolution": [
+          {
+            "format": "7K 8:1",
+            "size": [7168, 896]
+          }
+        ]
       },
       {
         "format": "6.5K FF",
-        "size": [33.28, 17.68]
+        "size": [33.28, 17.68],
+        "resolution": [
+          {
+            "format": "6.5K FF",
+            "size": [6656, 3536]
+          }
+        ]
       },
       {
         "format": "6.5K 2:1",
-        "size": [33.28, 16.64]
+        "size": [33.28, 16.64],
+        "resolution": [
+          {
+            "format": "6.5K 2:1",
+            "size": [6656, 3328]
+          }
+        ]
       },
       {
         "format": "6.5K 2.4:1 (WS)",
-        "size": [33.28, 14.04]
+        "size": [33.28, 14.04],
+        "resolution": [
+          {
+            "format": "6.5K 2.4:1 (WS)",
+            "size": [6656, 2808]
+          }
+        ]
       },
       {
         "format": "6.5K 16:9 (HD)",
-        "size": [30.72, 17.28]
+        "size": [30.72, 17.28],
+        "resolution": [
+          {
+            "format": "6.5K 16:9 (HD)",
+            "size": [6144, 3456]
+          }
+        ]
       },
       {
         "format": "6.5K 4:1",
-        "size": [33.3, 8.3]
+        "size": [33.3, 8.3],
+        "resolution": [
+          {
+            "format": "6.5K 4:1",
+            "size": [6656, 1664]
+          }
+        ]
       },
       {
         "format": "6.5K 8:1",
-        "size": [33.3, 4.2]
+        "size": [33.3, 4.2],
+        "resolution": [
+          {
+            "format": "6.5K 8:1",
+            "size": [6656, 832]
+          }
+        ]
       },
       {
         "format": "6K FF",
-        "size": [30.72, 16.2]
+        "size": [30.72, 16.2],
+        "resolution": [
+          {
+            "format": "6K FF",
+            "size": [6144, 3240]
+          }
+        ]
       },
       {
         "format": "6K 2:1",
-        "size": [30.72, 15.36]
+        "size": [30.72, 15.36],
+        "resolution": [
+          {
+            "format": "6K 2:1",
+            "size": [6144, 3072]
+          }
+        ]
       },
       {
         "format": "6K 2.4:1 (WS)",
-        "size": [30.72, 12.96]
+        "size": [30.72, 12.96],
+        "resolution": [
+          {
+            "format": "6K 2.4:1 (WS)",
+            "size": [6144, 2592]
+          }
+        ]
       },
       {
         "format": "6K 16:9 (HD)",
-        "size": [28.8, 16.2]
+        "size": [28.8, 16.2],
+        "resolution": [
+          {
+            "format": "6K 16:9 (HD)",
+            "size": [5760, 3240]
+          }
+        ]
       },
       {
         "format": "6K 3:2",
-        "size": [28.8, 19.2]
+        "size": [28.8, 19.2],
+        "resolution": [
+          {
+            "format": "6K 3:2",
+            "size": [5760, 3840]
+          }
+        ]
       },
       {
         "format": "6K 4:3",
-        "size": [28.8, 21.6]
+        "size": [28.8, 21.6],
+        "resolution": [
+          {
+            "format": "6K 4:3",
+            "size": [5760, 4320]
+          }
+        ]
       },
       {
         "format": "6K 8:9",
-        "size": [14.4, 16.2]
+        "size": [14.4, 16.2],
+        "resolution": [
+          {
+            "format": "6K 8:9",
+            "size": [2880, 3240]
+          }
+        ]
       },
       {
         "format": "6K 6:5",
-        "size": [19.4, 16.2]
+        "size": [19.4, 16.2],
+        "resolution": [
+          {
+            "format": "6K 6:5",
+            "size": [3888, 3240]
+          }
+        ]
       },
       {
         "format": "6K 4:1",
-        "size": [30.7, 7.7]
+        "size": [30.7, 7.7],
+        "resolution": [
+          {
+            "format": "6K 4:1",
+            "size": [6144, 1536]
+          }
+        ]
       },
       {
         "format": "6K 8:1",
-        "size": [30.7, 3.8]
+        "size": [30.7, 3.8],
+        "resolution": [
+          {
+            "format": "6K 8:1",
+            "size": [6144, 768]
+          }
+        ]
       },
       {
         "format": "5.5K FF",
-        "size": [28.2, 14.7]
+        "size": [28.2, 14.7],
+        "resolution": [
+          {
+            "format": "5.5K FF",
+            "size": [5632, 2948]
+          }
+        ]
       },
       {
         "format": "5.5K 2:1",
-        "size": [28.2, 14.1]
+        "size": [28.2, 14.1],
+        "resolution": [
+          {
+            "format": "5.5K 2:1",
+            "size": [5632, 2816]
+          }
+        ]
       },
       {
         "format": "5.5K 2.4:1 (WS)",
-        "size": [28.2, 11.9]
+        "size": [28.2, 11.9],
+        "resolution": [
+          {
+            "format": "5.5K 2.4:1 (WS)",
+            "size": [5632, 2376]
+          }
+        ]
       },
       {
         "format": "5.5K 16:9 (HD)",
-        "size": [26.9, 15.1]
+        "size": [26.9, 15.1],
+        "resolution": [
+          {
+            "format": "5.5K 16:9 (HD)",
+            "size": [5376, 3024]
+          }
+        ]
       },
       {
         "format": "5.5K 4:1",
-        "size": [28.2, 7.0]
+        "size": [28.2, 7.0],
+        "resolution": [
+          {
+            "format": "5.5K 4:1",
+            "size": [5632, 1408]
+          }
+        ]
       },
       {
         "format": "5.5K 8:1",
-        "size": [28.2, 3.5]
+        "size": [28.2, 3.5],
+        "resolution": [
+          {
+            "format": "5.5K 8:1",
+            "size": [5632, 704]
+          }
+        ]
       },
       {
         "format": "5K FF",
-        "size": [25.6, 13.5]
+        "size": [25.6, 13.5],
+        "resolution": [
+          {
+            "format": "5K FF",
+            "size": [5120, 2700]
+          }
+        ]
       },
       {
         "format": "5K 2:1",
-        "size": [25.6, 12.8]
+        "size": [25.6, 12.8],
+        "resolution": [
+          {
+            "format": "5K 2:1",
+            "size": [5120, 2560]
+          }
+        ]
       },
       {
         "format": "5K 2.4:1 (WS)",
-        "size": [25.6, 10.8]
+        "size": [25.6, 10.8],
+        "resolution": [
+          {
+            "format": "5K 2.4:1 (WS)",
+            "size": [5120, 2160]
+          }
+        ]
       },
       {
         "format": "5K 16:9 (HD)",
-        "size": [24.0, 13.5]
+        "size": [24.0, 13.5],
+        "resolution": [
+          {
+            "format": "5K 16:9 (HD)",
+            "size": [4800, 2700]
+          }
+        ]
       },
       {
         "format": "5K 4:3",
-        "size": [25.6, 19.2]
+        "size": [25.6, 19.2],
+        "resolution": [
+          {
+            "format": "5K 4:3",
+            "size": [5120, 3840]
+          }
+        ]
       },
       {
         "format": "5K 8:9",
-        "size": [12.0, 13.5]
+        "size": [12.0, 13.5],
+        "resolution": [
+          {
+            "format": "5K 8:9",
+            "size": [2400, 2700]
+          }
+        ]
       },
       {
         "format": "5K 6:5",
-        "size": [16.2, 13.5]
+        "size": [16.2, 13.5],
+        "resolution": [
+          {
+            "format": "5K 6:5",
+            "size": [3240, 2700]
+          }
+        ]
       },
       {
         "format": "5K 4:1",
-        "size": [25.6, 6.4]
+        "size": [25.6, 6.4],
+        "resolution": [
+          {
+            "format": "5K 4:1",
+            "size": [5120, 1280]
+          }
+        ]
       },
       {
         "format": "5K 8:1",
-        "size": [25.6, 3.2]
+        "size": [25.6, 3.2],
+        "resolution": [
+          {
+            "format": "5K 8:1",
+            "size": [5120, 640]
+          }
+        ]
       },
       {
         "format": "4.5K FF",
-        "size": [23.0, 12.1]
+        "size": [23.0, 12.1],
+        "resolution": [
+          {
+            "format": "4.5K FF",
+            "size": [4608, 2412]
+          }
+        ]
       },
       {
         "format": "4.5K 2:1",
-        "size": [23.0, 11.5]
+        "size": [23.0, 11.5],
+        "resolution": [
+          {
+            "format": "4.5K 2:1",
+            "size": [4608, 2304]
+          }
+        ]
       },
       {
         "format": "4.5K 2.4:1 (WS)",
-        "size": [23.0, 9.7]
+        "size": [23.0, 9.7],
+        "resolution": [
+          {
+            "format": "4.5K 2.4:1 (WS)",
+            "size": [4608, 1944]
+          }
+        ]
       },
       {
         "format": "4.5K 16:9 (HD)",
-        "size": [21.1, 11.9]
+        "size": [21.1, 11.9],
+        "resolution": [
+          {
+            "format": "4.5K 16:9 (HD)",
+            "size": [4224, 2376]
+          }
+        ]
       },
       {
         "format": "4.5K 3:2",
-        "size": [21.6, 14.4]
+        "size": [21.6, 14.4],
+        "resolution": [
+          {
+            "format": "4.5K 3:2",
+            "size": [4320, 2880]
+          }
+        ]
       },
       {
         "format": "4.5K 4:3",
-        "size": [21.6, 16.2]
+        "size": [21.6, 16.2],
+        "resolution": [
+          {
+            "format": "4.5K 4:3",
+            "size": [4320, 3240]
+          }
+        ]
       },
       {
         "format": "4.5K 5:4",
-        "size": [21.6, 17.3]
+        "size": [21.6, 17.3],
+        "resolution": [
+          {
+            "format": "4.5K 5:4",
+            "size": [4320, 3456]
+          }
+        ]
       },
       {
         "format": "4.5K 4:1",
-        "size": [23.0, 5.8]
+        "size": [23.0, 5.8],
+        "resolution": [
+          {
+            "format": "4.5K 4:1",
+            "size": [4608, 1152]
+          }
+        ]
       },
       {
         "format": "4.5K 8:1",
-        "size": [23.0, 2.9]
+        "size": [23.0, 2.9],
+        "resolution": [
+          {
+            "format": "4.5K 8:1",
+            "size": [4608, 576]
+          }
+        ]
       },
       {
         "format": "4K FF",
-        "size": [20.48, 10.8]
+        "size": [20.48, 10.8],
+        "resolution": [
+          {
+            "format": "4K FF",
+            "size": [4096, 2160]
+          }
+        ]
       },
       {
         "format": "4K 2:1",
-        "size": [20.48, 10.24]
+        "size": [20.48, 10.24],
+        "resolution": [
+          {
+            "format": "4K 2:1",
+            "size": [4096, 2048]
+          }
+        ]
       },
       {
         "format": "4K 2.4:1 (WS)",
-        "size": [20.48, 8.64]
+        "size": [20.48, 8.64],
+        "resolution": [
+          {
+            "format": "4K 2.4:1 (WS)",
+            "size": [4096, 1728]
+          }
+        ]
       },
       {
         "format": "4K 16:9 (HD)",
-        "size": [19.2, 10.8]
+        "size": [19.2, 10.8],
+        "resolution": [
+          {
+            "format": "4K 16:9 (HD)",
+            "size": [3840, 2160]
+          }
+        ]
       },
       {
         "format": "4K 3:2",
-        "size": [19.2, 12.8]
+        "size": [19.2, 12.8],
+        "resolution": [
+          {
+            "format": "4K 3:2",
+            "size": [3840, 2560]
+          }
+        ]
       },
       {
         "format": "4K 4:3",
-        "size": [19.2, 14.4]
+        "size": [19.2, 14.4],
+        "resolution": [
+          {
+            "format": "4K 4:3",
+            "size": [3840, 2880]
+          }
+        ]
       },
       {
         "format": "4K 5:4",
-        "size": [19.2, 15.4]
+        "size": [19.2, 15.4],
+        "resolution": [
+          {
+            "format": "4K 5:4",
+            "size": [3840, 3072]
+          }
+        ]
       },
       {
         "format": "4K 8:9",
-        "size": [9.6, 10.8]
+        "size": [9.6, 10.8],
+        "resolution": [
+          {
+            "format": "4K 8:9",
+            "size": [1920, 2160]
+          }
+        ]
       },
       {
         "format": "4K 6:5",
-        "size": [13.0, 10.8]
+        "size": [13.0, 10.8],
+        "resolution": [
+          {
+            "format": "4K 6:5",
+            "size": [2592, 2160]
+          }
+        ]
       },
       {
         "format": "4K 4:1",
-        "size": [20.5, 5.1]
+        "size": [20.5, 5.1],
+        "resolution": [
+          {
+            "format": "4K 4:1",
+            "size": [4096, 1024]
+          }
+        ]
       },
       {
         "format": "4K 8:1",
-        "size": [20.5, 2.6]
+        "size": [20.5, 2.6],
+        "resolution": [
+          {
+            "format": "4K 8:1",
+            "size": [4096, 512]
+          }
+        ]
       },
       {
         "format": "4K 1:1",
-        "size": [21.6, 21.6]
+        "size": [21.6, 21.6],
+        "resolution": [
+          {
+            "format": "4K 1:1",
+            "size": [4320, 4320]
+          }
+        ]
       },
       {
         "format": "3.5K FF",
-        "size": [17.9, 9.4]
+        "size": [17.9, 9.4],
+        "resolution": [
+          {
+            "format": "3.5K FF",
+            "size": [3584, 1876]
+          }
+        ]
       },
       {
         "format": "3.5K 2:1",
-        "size": [17.9, 9.0]
+        "size": [17.9, 9.0],
+        "resolution": [
+          {
+            "format": "3.5K 2:1",
+            "size": [3584, 1792]
+          }
+        ]
       },
       {
         "format": "3.5K 2.4:1 (WS)",
-        "size": [17.9, 7.6]
+        "size": [17.9, 7.6],
+        "resolution": [
+          {
+            "format": "3.5K 2.4:1 (WS)",
+            "size": [3584, 1512]
+          }
+        ]
       },
       {
         "format": "3.5K 16:9 (HD)",
-        "size": [17.3, 9.7]
+        "size": [17.3, 9.7],
+        "resolution": [
+          {
+            "format": "3.5K 16:9 (HD)",
+            "size": [3456, 1944]
+          }
+        ]
       },
       {
         "format": "3.5K 3:2",
-        "size": [16.8, 11.2]
+        "size": [16.8, 11.2],
+        "resolution": [
+          {
+            "format": "3.5K 3:2",
+            "size": [3360, 2240]
+          }
+        ]
       },
       {
         "format": "3.5K 4:3",
-        "size": [16.8, 12.6]
+        "size": [16.8, 12.6],
+        "resolution": [
+          {
+            "format": "3.5K 4:3",
+            "size": [3360, 2520]
+          }
+        ]
       },
       {
         "format": "3.5K 5:4",
-        "size": [16.8, 13.4]
+        "size": [16.8, 13.4],
+        "resolution": [
+          {
+            "format": "3.5K 5:4",
+            "size": [3360, 2688]
+          }
+        ]
       },
       {
         "format": "3.5K 4:1",
-        "size": [17.9, 4.5]
+        "size": [17.9, 4.5],
+        "resolution": [
+          {
+            "format": "3.5K 4:1",
+            "size": [3584, 896]
+          }
+        ]
       },
       {
         "format": "3.5K 8:1",
-        "size": [17.9, 2.2]
+        "size": [17.9, 2.2],
+        "resolution": [
+          {
+            "format": "3.5K 8:1",
+            "size": [3584, 448]
+          }
+        ]
       },
       {
         "format": "3K FF",
-        "size": [15.36, 8.1]
+        "size": [15.36, 8.1],
+        "resolution": [
+          {
+            "format": "3K FF",
+            "size": [3072, 1620]
+          }
+        ]
       },
       {
         "format": "3K 2:1",
-        "size": [15.36, 7.7]
+        "size": [15.36, 7.7],
+        "resolution": [
+          {
+            "format": "3K 2:1",
+            "size": [3072, 1536]
+          }
+        ]
       },
       {
         "format": "3K 2.4:1 (WS)",
-        "size": [15.36, 6.48]
+        "size": [15.36, 6.48],
+        "resolution": [
+          {
+            "format": "3K 2.4:1 (WS)",
+            "size": [3072, 1296]
+          }
+        ]
       },
       {
         "format": "3K 16:9 (HD)",
-        "size": [14.4, 8.1]
+        "size": [14.4, 8.1],
+        "resolution": [
+          {
+            "format": "3K 16:9 (HD)",
+            "size": [2880, 1620]
+          }
+        ]
       },
       {
         "format": "3K 3:2",
-        "size": [14.4, 9.6]
+        "size": [14.4, 9.6],
+        "resolution": [
+          {
+            "format": "3K 3:2",
+            "size": [2880, 1920]
+          }
+        ]
       },
       {
         "format": "3K 4:3",
-        "size": [14.4, 10.8]
+        "size": [14.4, 10.8],
+        "resolution": [
+          {
+            "format": "3K 4:3",
+            "size": [2880, 2160]
+          }
+        ]
       },
       {
         "format": "3K 5:4",
-        "size": [14.4, 11.5]
+        "size": [14.4, 11.5],
+        "resolution": [
+          {
+            "format": "3K 5:4",
+            "size": [2880, 2304]
+          }
+        ]
       },
       {
         "format": "3K 6:5",
-        "size": [9.7, 8.1]
+        "size": [9.7, 8.1],
+        "resolution": [
+          {
+            "format": "3K 6:5",
+            "size": [1944, 1620]
+          }
+        ]
       },
       {
         "format": "3K 4:1",
-        "size": [15.4, 3.8]
+        "size": [15.4, 3.8],
+        "resolution": [
+          {
+            "format": "3K 4:1",
+            "size": [3072, 768]
+          }
+        ]
       },
       {
         "format": "3K 8:1",
-        "size": [15.4, 1.9]
+        "size": [15.4, 1.9],
+        "resolution": [
+          {
+            "format": "3K 8:1",
+            "size": [3072, 384]
+          }
+        ]
       },
       {
         "format": "2.5K FF",
-        "size": [12.8, 6.7]
+        "size": [12.8, 6.7],
+        "resolution": [
+          {
+            "format": "2.5K FF",
+            "size": [2560, 1340]
+          }
+        ]
       },
       {
         "format": "2.5K 2:1",
-        "size": [12.8, 6.4]
+        "size": [12.8, 6.4],
+        "resolution": [
+          {
+            "format": "2.5K 2:1",
+            "size": [2560, 1280]
+          }
+        ]
       },
       {
         "format": "2.5K 2.4:1 (WS)",
-        "size": [12.8, 5.4]
+        "size": [12.8, 5.4],
+        "resolution": [
+          {
+            "format": "2.5K 2.4:1 (WS)",
+            "size": [2560, 1080]
+          }
+        ]
       },
       {
         "format": "2.5K 16:9 (HD)",
-        "size": [11.5, 6.5]
+        "size": [11.5, 6.5],
+        "resolution": [
+          {
+            "format": "2.5K 16:9 (HD)",
+            "size": [2304, 1296]
+          }
+        ]
       },
       {
         "format": "2.5K 3:2",
-        "size": [12.0, 8.0]
+        "size": [12.0, 8.0],
+        "resolution": [
+          {
+            "format": "2.5K 3:2",
+            "size": [2400, 1600]
+          }
+        ]
       },
       {
         "format": "2.5K 4:3",
-        "size": [12.0, 9.0]
+        "size": [12.0, 9.0],
+        "resolution": [
+          {
+            "format": "2.5K 4:3",
+            "size": [2400, 1800]
+          }
+        ]
       },
       {
         "format": "2.5K 5:4",
-        "size": [12.0, 9.6]
+        "size": [12.0, 9.6],
+        "resolution": [
+          {
+            "format": "2.5K 5:4",
+            "size": [2400, 1920]
+          }
+        ]
       },
       {
         "format": "2.5K 4:1",
-        "size": [12.8, 3.2]
+        "size": [12.8, 3.2],
+        "resolution": [
+          {
+            "format": "2.5K 4:1",
+            "size": [2560, 640]
+          }
+        ]
       },
       {
         "format": "2.5K 8:1",
-        "size": [12.8, 1.6]
+        "size": [12.8, 1.6],
+        "resolution": [
+          {
+            "format": "2.5K 8:1",
+            "size": [2560, 320]
+          }
+        ]
       },
       {
         "format": "2K FF",
-        "size": [10.24, 5.4]
+        "size": [10.24, 5.4],
+        "resolution": [
+          {
+            "format": "2K FF",
+            "size": [2048, 1080]
+          }
+        ]
       },
       {
         "format": "2K 2:1",
-        "size": [10.24, 5.1]
+        "size": [10.24, 5.1],
+        "resolution": [
+          {
+            "format": "2K 2:1",
+            "size": [2048, 1024]
+          }
+        ]
       },
       {
         "format": "2K 2.4:1 (WS)",
-        "size": [10.24, 4.32]
+        "size": [10.24, 4.32],
+        "resolution": [
+          {
+            "format": "2K 2.4:1 (WS)",
+            "size": [2048, 864]
+          }
+        ]
       },
       {
         "format": "2K 16:9 (HD)",
-        "size": [9.6, 5.4]
+        "size": [9.6, 5.4],
+        "resolution": [
+          {
+            "format": "2K 16:9 (HD)",
+            "size": [1920, 1080]
+          }
+        ]
       },
       {
         "format": "2K 3:2",
-        "size": [9.6, 6.4]
+        "size": [9.6, 6.4],
+        "resolution": [
+          {
+            "format": "2K 3:2",
+            "size": [1920, 1280]
+          }
+        ]
       },
       {
         "format": "2K 4:3",
-        "size": [9.6, 7.2]
+        "size": [9.6, 7.2],
+        "resolution": [
+          {
+            "format": "2K 4:3",
+            "size": [1920, 1440]
+          }
+        ]
       },
       {
         "format": "2K 5:4",
-        "size": [9.6, 7.7]
+        "size": [9.6, 7.7],
+        "resolution": [
+          {
+            "format": "2K 5:4",
+            "size": [1920, 1536]
+          }
+        ]
       },
       {
         "format": "2K 6:5",
-        "size": [6.5, 5.4]
+        "size": [6.5, 5.4],
+        "resolution": [
+          {
+            "format": "2K 6:5",
+            "size": [1296, 1080]
+          }
+        ]
       },
       {
         "format": "2K 4:1",
-        "size": [10.2, 2.6]
+        "size": [10.2, 2.6],
+        "resolution": [
+          {
+            "format": "2K 4:1",
+            "size": [2048, 512]
+          }
+        ]
       },
       {
         "format": "2K 8:1",
-        "size": [10.2, 1.3]
+        "size": [10.2, 1.3],
+        "resolution": [
+          {
+            "format": "2K 8:1",
+            "size": [2048, 256]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -3636,227 +6750,563 @@
     "sensorSize": [
       {
         "format": "8K 17:9",
-        "size": [40.96, 21.6]
+        "size": [40.96, 21.6],
+        "resolution": [
+          {
+            "format": "8K 17:9",
+            "size": [8192, 4320]
+          }
+        ]
       },
       {
         "format": "8K 2:1",
-        "size": [40.96, 20.48]
+        "size": [40.96, 20.48],
+        "resolution": [
+          {
+            "format": "8K 2:1",
+            "size": [8192, 4096]
+          }
+        ]
       },
       {
         "format": "8K 2.4:1",
-        "size": [40.96, 17.28]
+        "size": [40.96, 17.28],
+        "resolution": [
+          {
+            "format": "8K 2.4:1",
+            "size": [8192, 3456]
+          }
+        ]
       },
       {
         "format": "8K 16:9",
-        "size": [38.4, 21.6]
+        "size": [38.4, 21.6],
+        "resolution": [
+          {
+            "format": "8K 16:9",
+            "size": [7860, 4320]
+          }
+        ]
       },
       {
         "format": "8K 1:1",
-        "size": [21.6, 21.6]
+        "size": [21.6, 21.6],
+        "resolution": [
+          {
+            "format": "8K 1:1",
+            "size": [4320, 4320]
+          }
+        ]
       },
       {
         "format": "8K 4:3 2x",
-        "size": [28.8, 21.6]
+        "size": [28.8, 21.6],
+        "resolution": [
+          {
+            "format": "8K 4:3 2x",
+            "size": [5760, 4320]
+          }
+        ]
       },
       {
         "format": "8K 6:5 2x",
-        "size": [25.92, 21.6]
+        "size": [25.92, 21.6],
+        "resolution": [
+          {
+            "format": "8K 6:5 2x",
+            "size": [5184, 4320]
+          }
+        ]
       },
       {
         "format": "8K 1:1 2x",
-        "size": [21.6, 21.6]
+        "size": [21.6, 21.6],
+        "resolution": [
+          {
+            "format": "8K 1:1 2x",
+            "size": [4320, 4320]
+          }
+        ]
       },
       {
         "format": "8K 3:2 1.8x",
-        "size": [32.4, 21.6]
+        "size": [32.4, 21.6],
+        "resolution": [
+          {
+            "format": "8K 3:2 1.8x",
+            "size": [6480, 4320]
+          }
+        ]
       },
       {
         "format": "8K 4:3 1.8x",
-        "size": [28.8, 21.6]
+        "size": [28.8, 21.6],
+        "resolution": [
+          {
+            "format": "8K 4:3 1.8x",
+            "size": [5758, 4320]
+          }
+        ]
       },
       {
         "format": "8K 3:2 1.6x",
-        "size": [32.4, 21.6]
+        "size": [32.4, 21.6],
+        "resolution": [
+          {
+            "format": "8K 3:2 1.6x",
+            "size": [6480, 4320]
+          }
+        ]
       },
       {
         "format": "8K 16:9 1.5x",
-        "size": [38.4, 21.6]
+        "size": [38.4, 21.6],
+        "resolution": [
+          {
+            "format": "8K 16:9 1.5x",
+            "size": [7680, 4320]
+          }
+        ]
       },
       {
         "format": "8K 17:9 1.3x",
-        "size": [40.96, 21.6]
+        "size": [40.96, 21.6],
+        "resolution": [
+          {
+            "format": "8K 17:9 1.3x",
+            "size": [8192, 4320]
+          }
+        ]
       },
       {
         "format": "8K 16:9 1.3x",
-        "size": [38.4, 21.6]
+        "size": [38.4, 21.6],
+        "resolution": [
+          {
+            "format": "8K 16:9 1.3x",
+            "size": [7680, 4320]
+          }
+        ]
       },
       {
         "format": "8K 17:9 1.25x",
-        "size": [40.96, 21.6]
+        "size": [40.96, 21.6],
+        "resolution": [
+          {
+            "format": "8K 17:9 1.25x",
+            "size": [8192, 4320]
+          }
+        ]
       },
       {
         "format": "7K 17:9",
-        "size": [35.84, 18.9]
+        "size": [35.84, 18.9],
+        "resolution": [
+          {
+            "format": "7K 17:9",
+            "size": [7168, 3780]
+          }
+        ]
       },
       {
         "format": "7K 2:1",
-        "size": [35.84, 17.92]
+        "size": [35.84, 17.92],
+        "resolution": [
+          {
+            "format": "7K 2:1",
+            "size": [7168, 3584]
+          }
+        ]
       },
       {
         "format": "7K 2.4:1",
-        "size": [35.84, 15.01]
+        "size": [35.84, 15.01],
+        "resolution": [
+          {
+            "format": "7K 2.4:1",
+            "size": [7168, 3002]
+          }
+        ]
       },
       {
         "format": "7K 16:9",
-        "size": [33.6, 18.9]
+        "size": [33.6, 18.9],
+        "resolution": [
+          {
+            "format": "7K 16:9",
+            "size": [6720, 3780]
+          }
+        ]
       },
       {
         "format": "7K 1:1",
-        "size": [18.9, 18.9]
+        "size": [18.9, 18.9],
+        "resolution": [
+          {
+            "format": "7K 1:1",
+            "size": [3780, 3780]
+          }
+        ]
       },
       {
         "format": "7K 4:3 2x",
-        "size": [25.2, 18.9]
+        "size": [25.2, 18.9],
+        "resolution": [
+          {
+            "format": "7K 4:3 2x",
+            "size": [5040, 3780]
+          }
+        ]
       },
       {
         "format": "7K 6:5 2x",
-        "size": [22.68, 18.9]
+        "size": [22.68, 18.9],
+        "resolution": [
+          {
+            "format": "7K 6:5 2x",
+            "size": [4536, 3780]
+          }
+        ]
       },
       {
         "format": "7K 1:1 2x",
-        "size": [18.9, 18.9]
+        "size": [18.9, 18.9],
+        "resolution": [
+          {
+            "format": "7K 1:1 2x",
+            "size": [3780, 3780]
+          }
+        ]
       },
       {
         "format": "7K 3:2 1.8x",
-        "size": [28.35, 18.9]
+        "size": [28.35, 18.9],
+        "resolution": [
+          {
+            "format": "7K 3:2 1.8x",
+            "size": [5670, 3780]
+          }
+        ]
       },
       {
         "format": "7K 4:3 1.8x",
-        "size": [25.2, 18.9]
+        "size": [25.2, 18.9],
+        "resolution": [
+          {
+            "format": "7K 4:3 1.8x",
+            "size": [5040, 3780]
+          }
+        ]
       },
       {
         "format": "7K 3:2 1.6x",
-        "size": [28.35, 18.9]
+        "size": [28.35, 18.9],
+        "resolution": [
+          {
+            "format": "7K 3:2 1.6x",
+            "size": [5670, 3780]
+          }
+        ]
       },
       {
         "format": "6K 17:9",
-        "size": [30.72, 16.2]
+        "size": [30.72, 16.2],
+        "resolution": [
+          {
+            "format": "6K 17:9",
+            "size": [6144, 3240]
+          }
+        ]
       },
       {
         "format": "6K 2:1",
-        "size": [30.72, 15.36]
+        "size": [30.72, 15.36],
+        "resolution": [
+          {
+            "format": "6K 2:1",
+            "size": [6144, 3072]
+          }
+        ]
       },
       {
         "format": "6K 2.4:1",
-        "size": [30.72, 12.87]
+        "size": [30.72, 12.87],
+        "resolution": [
+          {
+            "format": "6K 2.4:1",
+            "size": [6144, 2592]
+          }
+        ]
       },
       {
         "format": "6K 16:9",
-        "size": [28.8, 16.2]
+        "size": [28.8, 16.2],
+        "resolution": [
+          {
+            "format": "6K 16:9",
+            "size": [5760, 3240]
+          }
+        ]
       },
       {
         "format": "6K 1:1",
-        "size": [16.2, 16.2]
+        "size": [16.2, 16.2],
+        "resolution": [
+          {
+            "format": "6K 1:1",
+            "size": [3240, 3240]
+          }
+        ]
       },
       {
         "format": "6K 16:9 1.5x",
-        "size": [28.8, 16.2]
+        "size": [28.8, 16.2],
+        "resolution": [
+          {
+            "format": "6K 16:9 1.5x",
+            "size": [5760, 3240]
+          }
+        ]
       },
       {
         "format": "6K 17:9 1.3x",
-        "size": [30.72, 16.2]
+        "size": [30.72, 16.2],
+        "resolution": [
+          {
+            "format": "6K 17:9 1.3x",
+            "size": [6144, 3240]
+          }
+        ]
       },
       {
         "format": "6K 16:9 1.3x",
-        "size": [28.8, 16.2]
+        "size": [28.8, 16.2],
+        "resolution": [
+          {
+            "format": "6K 16:9 1.3x",
+            "size": [5760, 3240]
+          }
+        ]
       },
       {
         "format": "6K 17:9 1.25x",
-        "size": [30.72, 16.2]
+        "size": [30.72, 16.2],
+        "resolution": [
+          {
+            "format": "6K 17:9 1.25x",
+            "size": [6144, 3240]
+          }
+        ]
       },
       {
         "format": "5K 17:9",
-        "size": [25.6, 13.5]
+        "size": [25.6, 13.5],
+        "resolution": [
+          {
+            "format": "5K 17:9",
+            "size": [5120, 2700]
+          }
+        ]
       },
       {
         "format": "5K 2:1",
-        "size": [25.6, 12.8]
+        "size": [25.6, 12.8],
+        "resolution": [
+          {
+            "format": "5K 2:1",
+            "size": [5120, 2560]
+          }
+        ]
       },
       {
         "format": "5K 2.4:1",
-        "size": [25.6, 10.8]
+        "size": [25.6, 10.8],
+        "resolution": [
+          {
+            "format": "5K 2.4:1",
+            "size": [5120, 2160]
+          }
+        ]
       },
       {
         "format": "5K 16:9",
-        "size": [24.0, 13.5]
+        "size": [24.0, 13.5],
+        "resolution": [
+          {
+            "format": "5K 16:9",
+            "size": [4800, 2700]
+          }
+        ]
       },
       {
         "format": "5K 1:1",
-        "size": [13.5, 13.5]
+        "size": [13.5, 13.5],
+        "resolution": [
+          {
+            "format": "5K 1:1",
+            "size": [2700, 2700]
+          }
+        ]
       },
       {
         "format": "4K 17:9",
-        "size": [20.48, 10.8]
+        "size": [20.48, 10.8],
+        "resolution": [
+          {
+            "format": "4K 17:9",
+            "size": [4096, 2160]
+          }
+        ]
       },
       {
         "format": "4K 2:1",
-        "size": [20.48, 10.24]
+        "size": [20.48, 10.24],
+        "resolution": [
+          {
+            "format": "4K 2:1",
+            "size": [4096, 2048]
+          }
+        ]
       },
       {
         "format": "4K 2.4:1",
-        "size": [20.48, 8.64]
+        "size": [20.48, 8.64],
+        "resolution": [
+          {
+            "format": "4K 2.4:1",
+            "size": [4096, 1728]
+          }
+        ]
       },
       {
         "format": "4K 16:9",
-        "size": [19.2, 10.8]
+        "size": [19.2, 10.8],
+        "resolution": [
+          {
+            "format": "4K 16:9",
+            "size": [3840, 2160]
+          }
+        ]
       },
       {
         "format": "4K 1:1",
-        "size": [10.8, 10.8]
+        "size": [10.8, 10.8],
+        "resolution": [
+          {
+            "format": "4K 1:1",
+            "size": [2160, 2160]
+          }
+        ]
       },
       {
         "format": "4K 8:1",
-        "size": [20.48, 2.56]
+        "size": [20.48, 2.56],
+        "resolution": [
+          {
+            "format": "4K 8:1",
+            "size": [4096, 512]
+          }
+        ]
       },
       {
         "format": "3K 17:9",
-        "size": [15.36, 8.1]
+        "size": [15.36, 8.1],
+        "resolution": [
+          {
+            "format": "3K 17:9",
+            "size": [3072, 1620]
+          }
+        ]
       },
       {
         "format": "3K 2:1",
-        "size": [15.36, 7.68]
+        "size": [15.36, 7.68],
+        "resolution": [
+          {
+            "format": "3K 2:1",
+            "size": [3072, 1536]
+          }
+        ]
       },
       {
         "format": "3K 2.4:1",
-        "size": [15.36, 6.48]
+        "size": [15.36, 6.48],
+        "resolution": [
+          {
+            "format": "3K 2.4:1",
+            "size": [3072, 1296]
+          }
+        ]
       },
       {
         "format": "3K 16:9",
-        "size": [14.4, 8.1]
+        "size": [14.4, 8.1],
+        "resolution": [
+          {
+            "format": "3K 16:9",
+            "size": [2880, 1620]
+          }
+        ]
       },
       {
         "format": "3K 1:1",
-        "size": [8.1, 8.1]
+        "size": [8.1, 8.1],
+        "resolution": [
+          {
+            "format": "3K 1:1",
+            "size": [1620, 1620]
+          }
+        ]
       },
       {
         "format": "2K 17:9",
-        "size": [10.24, 5.4]
+        "size": [10.24, 5.4],
+        "resolution": [
+          {
+            "format": "2K 17:9",
+            "size": [2048, 1080]
+          }
+        ]
       },
       {
         "format": "2K 2:1",
-        "size": [10.24, 5.12]
+        "size": [10.24, 5.12],
+        "resolution": [
+          {
+            "format": "2K 2:1",
+            "size": [2048, 1024]
+          }
+        ]
       },
       {
         "format": "2K 2.4:1",
-        "size": [10.24, 4.32]
+        "size": [10.24, 4.32],
+        "resolution": [
+          {
+            "format": "2K 2.4:1",
+            "size": [2048, 864]
+          }
+        ]
       },
       {
         "format": "2K 16:9",
-        "size": [9.6, 5.4]
+        "size": [9.6, 5.4],
+        "resolution": [
+          {
+            "format": "2K 16:9",
+            "size": [1920, 1080]
+          }
+        ]
       },
       {
         "format": "2K 1:1",
-        "size": [5.4, 5.4]
+        "size": [5.4, 5.4],
+        "resolution": [
+          {
+            "format": "2K 1:1",
+            "size": [1080, 1080]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -3870,24 +7320,21 @@
     "tags": ["imax", "full frame"]
   },
   {
-    "name": "Samsung Galaxy S20 Ultra",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [9.6, 7.2]
-      }
-    ],
-    "category": ["Mobile"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Image_sensor_format"],
-    "tags": ["phone"]
-  },
-  {
     "name": "Sony Alpha 6400",
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [23.5, 15.6]
+        "size": [23.5, 15.6],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -3903,7 +7350,17 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.9, 23.9]
+        "size": [35.9, 23.9],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -3919,7 +7376,17 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.9, 23.9]
+        "size": [35.9, 23.9],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -3935,7 +7402,17 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.7, 23.8]
+        "size": [35.7, 23.8],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -3951,7 +7428,17 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.7, 23.8]
+        "size": [35.7, 23.8],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -3967,7 +7454,17 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.7, 23.8]
+        "size": [35.7, 23.8],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -3983,7 +7480,17 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.6, 23.8]
+        "size": [35.6, 23.8],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -3999,7 +7506,17 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.6, 23.8]
+        "size": [35.6, 23.8],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -4016,7 +7533,17 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.6, 23.8]
+        "size": [35.6, 23.8],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -4031,42 +7558,101 @@
     "name": "Sony BURANO",
     "sensorSize": [
       {
-        "format": "Open Gate",
-        "size": [35.9, 24]
-      },
-      {
         "format": "FF 8.6K 16:9",
-        "size": [35.9, 20.2]
+        "size": [35.9, 20.2],
+        "resolution": [
+          {
+            "format": "FF 8.6K 16:9",
+            "size": [8632, 4856]
+          }
+        ]
       },
       {
         "format": "FF 8.6K 17:9",
-        "size": [35.9, 18.9]
+        "size": [35.9, 18.9],
+        "resolution": [
+          {
+            "format": "FF 8.6K 17:9",
+            "size": [8632, 4552]
+          }
+        ]
       },
       {
         "format": "FFc 6K 16:9",
-        "size": [33.6, 18.9]
+        "size": [33.6, 18.9],
+        "resolution": [
+          {
+            "format": "FFc 6K 16:9",
+            "size": [6052, 3404]
+          }
+        ]
       },
       {
         "format": "FFc 6K 17:9",
-        "size": [33.6, 17.7]
+        "size": [33.6, 17.7],
+        "resolution": [
+          {
+            "format": "FFc 6K 17:9",
+            "size": [6052, 3192]
+          }
+        ]
+      },
+      {
+        "format": "FFc 3.8K 16:9",
+        "size": [32.0, 18.0],
+        "resolution": [
+          {
+            "format": "FFc 3.8K 16:9",
+            "size": [3840, 2160]
+          }
+        ]
       },
       {
         "format": "S35 5.8K 16:9",
-        "size": [24.0, 13.5]
+        "size": [24.0, 13.5],
+        "resolution": [
+          {
+            "format": "S35 5.8K 16:9",
+            "size": [5760, 3240]
+          }
+        ]
       },
       {
         "format": "S35 5.8K 17:9",
-        "size": [24.0, 12.6]
+        "size": [24.0, 12.6],
+        "resolution": [
+          {
+            "format": "S35 5.8K 17:9",
+            "size": [5760, 3036]
+          }
+        ]
+      },
+      {
+        "format": "S35 4.3K 4:3",
+        "size": [23.6, 17.7],
+        "resolution": [
+          {
+            "format": "S35 4.3K 4:3",
+            "size": [4256, 3192]
+          }
+        ]
       },
       {
         "format": "S35c 4K 17:9",
-        "size": [17.0, 9.0]
+        "size": [17.0, 9.0],
+        "resolution": [
+          {
+            "format": "S35c 4K 17:9",
+            "size": [4096, 2160]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
     "description": "",
     "sources": [
       "https://pro.sony/ue_US/products/digital-cinema-cameras/burano",
+      "https://pro.sony/s3/2024/02/12094713/FL85-BURANO-Recording-Poster_A1_V13.pdf",
       "https://en.wikipedia.org/wiki/List_of_Sony_E-mount_cameras",
       "https://en.wikipedia.org/wiki/CineAlta"
     ],
@@ -4077,7 +7663,33 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [24, 12.7]
+        "size": [24, 12.7],
+        "resolution": [
+          {
+            "format": "4096x2160",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "3840x2160",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "2048x1080",
+            "size": [2048, 1080]
+          },
+          {
+            "format": "1920x1080",
+            "size": [1920, 1080]
+          },
+          {
+            "format": "1280x720",
+            "size": [1280, 720]
+          },
+          {
+            "format": "720x480",
+            "size": [720, 480]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -4093,7 +7705,13 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [24, 12.7]
+        "size": [24, 12.7],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [4096, 2160]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -4108,12 +7726,27 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [24.7, 13.1]
+        "size": [24.7, 13.1],
+        "resolution": [
+          {
+            "format": "4096x2160",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "3840x2160",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "1920x1080",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
     "description": "",
     "sources": [
+      "https://pro.sony/ue_US/products/digital-cinema-cameras/f65",
       "https://www.eoshd.com/news/sony-f65-sensor-using-consumer-camcorder-technology/"
     ],
     "tags": ["super 35"]
@@ -4123,7 +7756,25 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [25.5, 15.6]
+        "size": [25.5, 15.6],
+        "resolution": [
+          {
+            "format": "4096x2160",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "3840x2160",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "1920x1080",
+            "size": [1920, 1080]
+          },
+          {
+            "format": "1280x720",
+            "size": [1280, 720]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -4139,7 +7790,25 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [25.5, 15.6]
+        "size": [25.5, 15.6],
+        "resolution": [
+          {
+            "format": "4096x2160",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "3840x2160",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "1920x1080",
+            "size": [1920, 1080]
+          },
+          {
+            "format": "1280x720",
+            "size": [1280, 720]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -4155,7 +7824,21 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.6, 23.8]
+        "size": [35.6, 23.8],
+        "resolution": [
+          {
+            "format": "4096x2160",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "3840x2160",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "1920x1080",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -4170,7 +7853,25 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.6, 23.8]
+        "size": [35.6, 23.8],
+        "resolution": [
+          {
+            "format": "4240x2392",
+            "size": [4240, 2392]
+          },
+          {
+            "format": "4096x2160",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "3840x2160",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "1920x1080",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -4184,20 +7885,44 @@
     "name": "Sony FX9",
     "sensorSize": [
       {
-        "format": "Open Gate",
-        "size": [35.7, 18.8]
+        "format": "FF 6K",
+        "size": [35.7, 18.8],
+        "resolution": [
+          {
+            "format": "FF 6K",
+            "size": [6008, 3168]
+          }
+        ]
       },
       {
         "format": "5K",
-        "size": [29.7, 15.7]
+        "size": [29.7, 15.7],
+        "resolution": [
+          {
+            "format": "5K",
+            "size": [5008, 2640]
+          }
+        ]
       },
       {
         "format": "S35 4K",
-        "size": [24.3, 12.8]
+        "size": [24.3, 12.8],
+        "resolution": [
+          {
+            "format": "S35 4K",
+            "size": [4096, 2160]
+          }
+        ]
       },
       {
         "format": "S16",
-        "size": [12.2, 6.4]
+        "size": [12.2, 6.4],
+        "resolution": [
+          {
+            "format": "S16",
+            "size": [2048, 1080]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -4213,7 +7938,17 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [35.81, 23.88]
+        "size": [35.7, 23.8],
+        "resolution": [
+          {
+            "format": "3840x2160",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "1920x1080",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -4226,55 +7961,133 @@
     "sensorSize": [
       {
         "format": "6K 3:2",
-        "size": [35.9, 24.0]
+        "size": [35.9, 24.0],
+        "resolution": [
+          {
+            "format": "6K 3:2",
+            "size": [6048, 4032]
+          }
+        ]
       },
       {
         "format": "6K 1.85:1",
-        "size": [36.0, 19.4]
+        "size": [36.0, 19.4],
+        "resolution": [
+          {
+            "format": "6K 1.85:1",
+            "size": [6054, 3272]
+          }
+        ]
       },
       {
         "format": "6K 17:9",
-        "size": [36.0, 19.0]
+        "size": [36.0, 19.0],
+        "resolution": [
+          {
+            "format": "6K 17:9",
+            "size": [6054, 3192]
+          }
+        ]
       },
       {
         "format": "6K 2.39:1",
-        "size": [35.9, 15.0]
+        "size": [35.9, 15.0],
+        "resolution": [
+          {
+            "format": "6K 2.39:1",
+            "size": [6048, 2534]
+          }
+        ]
       },
       {
         "format": "5.7K 16:9",
-        "size": [33.7, 18.9]
+        "size": [33.7, 18.9],
+        "resolution": [
+          {
+            "format": "5.7K 16:9",
+            "size": [5674, 3192]
+          }
+        ]
       },
       {
         "format": "4K 6:5",
-        "size": [24.3, 20.4]
+        "size": [24.3, 20.4],
+        "resolution": [
+          {
+            "format": "4K 6:5",
+            "size": [4096, 3432]
+          }
+        ]
       },
       {
         "format": "4K 4:3 Surround View",
-        "size": [27.0, 20.0]
+        "size": [27.0, 20.0],
+        "resolution": [
+          {
+            "format": "4K 4:3 Surround View",
+            "size": [4552, 3360]
+          }
+        ]
       },
       {
         "format": "4K 4:3",
-        "size": [24.3, 18.0]
+        "size": [24.3, 18.0],
+        "resolution": [
+          {
+            "format": "4K 4:3",
+            "size": [4096, 3024]
+          }
+        ]
       },
       {
         "format": "4K 17:9 Surround View",
-        "size": [27.0, 14.3]
+        "size": [27.0, 14.3],
+        "resolution": [
+          {
+            "format": "4K 17:9 Surround View",
+            "size": [4552, 2400]
+          }
+        ]
       },
       {
         "format": "4K 17:9",
-        "size": [24.3, 12.8]
+        "size": [24.3, 12.8],
+        "resolution": [
+          {
+            "format": "4K 17:9",
+            "size": [4096, 2160]
+          }
+        ]
       },
       {
         "format": "4K 2.39:1",
-        "size": [24.3, 10.3]
+        "size": [24.3, 10.3],
+        "resolution": [
+          {
+            "format": "4K 2.39:1",
+            "size": [4096, 1716]
+          }
+        ]
       },
       {
         "format": "3.8K 16:9 Surround View",
-        "size": [25.4, 14.3]
+        "size": [25.4, 14.3],
+        "resolution": [
+          {
+            "format": "3.8K 16:9 Surround View",
+            "size": [4268, 2400]
+          }
+        ]
       },
       {
         "format": "3.8K 16:9",
-        "size": [22.8, 12.8]
+        "size": [22.8, 12.8],
+        "resolution": [
+          {
+            "format": "3.8K 16:9",
+            "size": [3840, 2160]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
@@ -4293,79 +8106,243 @@
     "sensorSize": [
       {
         "format": "MPC-3628 8.6K 3:2",
-        "size": [35.9, 24.0]
+        "size": [35.9, 24.0],
+        "resolution": [
+          {
+            "format": "MPC-3628 8.6K 3:2",
+            "size": [8640, 5760]
+          }
+        ]
+      },
+      {
+        "format": "MPC-3628 8.6K 17:9",
+        "size": [35.9, 19.0],
+        "resolution": [
+          {
+            "format": "MPC-3628 8.6K 17:9",
+            "size": [8640, 4556]
+          }
+        ]
+      },
+      {
+        "format": "MPC-3628 8.2K 2.39:1",
+        "size": [34.1, 14.3],
+        "resolution": [
+          {
+            "format": "MPC-3628 8.2K 2.39:1",
+            "size": [8192, 3432]
+          }
+        ]
       },
       {
         "format": "MPC-3628 8.2K 17:9",
-        "size": [34.1, 18.0]
+        "size": [34.1, 18.0],
+        "resolution": [
+          {
+            "format": "MPC-3628 8.2K 17:9",
+            "size": [8192, 4320]
+          }
+        ]
+      },
+      {
+        "format": "MPC-3628 8.1K 16:9",
+        "size": [33.7, 19.0],
+        "resolution": [
+          {
+            "format": "MPC-3628 8.1K 16:9",
+            "size": [8100, 4556]
+          }
+        ]
       },
       {
         "format": "MPC-3628 7.6K 16:9",
-        "size": [32.0, 18.0]
+        "size": [31.9, 18.0],
+        "resolution": [
+          {
+            "format": "MPC-3628 7.6K 16:9",
+            "size": [7680, 4320]
+          }
+        ]
       },
       {
         "format": "MPC-3628 5.8K 6:5",
-        "size": [24.1, 20.2]
+        "size": [24.1, 20.2],
+        "resolution": [
+          {
+            "format": "MPC-3628 5.8K 6:5",
+            "size": [5792, 4854]
+          }
+        ]
+      },
+      {
+        "format": "MPC-3628 5.8K 4:3",
+        "size": [24.1, 17.8],
+        "resolution": [
+          {
+            "format": "MPC-3628 5.8K 4:3",
+            "size": [5792, 4276]
+          }
+        ]
       },
       {
         "format": "MPC-3628 5.8K 17:9",
-        "size": [24.1, 12.7]
+        "size": [24.1, 12.7],
+        "resolution": [
+          {
+            "format": "MPC-3628 5.8K 17:9",
+            "size": [5792, 3056]
+          }
+        ]
+      },
+      {
+        "format": "MPC-3628 5.5K 2.39:1",
+        "size": [22.8, 9.6],
+        "resolution": [
+          {
+            "format": "MPC-3628 5.5K 2.39:1",
+            "size": [5480, 2296]
+          }
+        ]
       },
       {
         "format": "MPC-3628 5.4K 16:9",
-        "size": [22.6, 12.7]
+        "size": [22.6, 12.7],
+        "resolution": [
+          {
+            "format": "MPC-3628 5.4K 16:9",
+            "size": [5434, 3056]
+          }
+        ]
       },
       {
         "format": "MPC-3626 6K 3:2",
-        "size": [35.9, 24.0]
+        "size": [35.9, 24.0],
+        "resolution": [
+          {
+            "format": "MPC-3626 6K 3:2",
+            "size": [6048, 4032]
+          }
+        ]
       },
       {
         "format": "MPC-3626 6K 1.85:1",
-        "size": [36.0, 19.4]
+        "size": [36.0, 19.4],
+        "resolution": [
+          {
+            "format": "MPC-3626 6K 1.85:1",
+            "size": [6054, 3272]
+          }
+        ]
       },
       {
         "format": "MPC-3626 6K 17:9",
-        "size": [36.0, 19.0]
+        "size": [36.0, 19.0],
+        "resolution": [
+          {
+            "format": "MPC-3626 6K 17:9",
+            "size": [6054, 3192]
+          }
+        ]
       },
       {
         "format": "MPC-3626 6K 2.39:1",
-        "size": [35.9, 15.0]
+        "size": [35.9, 15.0],
+        "resolution": [
+          {
+            "format": "MPC-3626 6K 2.39:1",
+            "size": [6048, 2536]
+          }
+        ]
       },
       {
         "format": "MPC-3626 5.7K 16:9",
-        "size": [33.7, 18.9]
+        "size": [33.7, 18.9],
+        "resolution": [
+          {
+            "format": "MPC-3626 5.7K 16:9",
+            "size": [5674, 3192]
+          }
+        ]
       },
       {
         "format": "MPC-3626 4K 6:5",
-        "size": [24.3, 20.4]
+        "size": [24.3, 20.4],
+        "resolution": [
+          {
+            "format": "MPC-3626 4K 6:5",
+            "size": [4096, 3432]
+          }
+        ]
       },
       {
         "format": "MPC-3626 4K 4:3",
-        "size": [24.3, 18.0]
+        "size": [24.3, 18.0],
+        "resolution": [
+          {
+            "format": "MPC-3626 4K 4:3",
+            "size": [4096, 3024]
+          }
+        ]
       },
       {
         "format": "MPC-3626 4K 4:3 Surround View",
-        "size": [27.0, 20.0]
+        "size": [27.0, 20.0],
+        "resolution": [
+          {
+            "format": "MPC-3626 4K 4:3 Surround View",
+            "size": [4552, 3360]
+          }
+        ]
       },
       {
         "format": "MPC-3626 4K 17:9",
-        "size": [24.3, 12.8]
+        "size": [24.3, 12.8],
+        "resolution": [
+          {
+            "format": "MPC-3626 4K 17:9",
+            "size": [4096, 2160]
+          }
+        ]
       },
       {
         "format": "MPC-3626 4K 17:9 Surround View",
-        "size": [27.0, 14.3]
+        "size": [27.0, 14.3],
+        "resolution": [
+          {
+            "format": "MPC-3626 4K 17:9 Surround View",
+            "size": [4552, 2400]
+          }
+        ]
       },
       {
         "format": "MPC-3626 4K 2.39:1",
-        "size": [24.3, 10.3]
+        "size": [24.3, 10.3],
+        "resolution": [
+          {
+            "format": "MPC-3626 4K 2.39:1",
+            "size": [4096, 1716]
+          }
+        ]
       },
       {
         "format": "MPC-3626 3.8K 16:9",
-        "size": [22.8, 12.8]
+        "size": [22.8, 12.8],
+        "resolution": [
+          {
+            "format": "MPC-3626 3.8K 16:9",
+            "size": [3840, 2160]
+          }
+        ]
       },
       {
         "format": "MPC-3626 3.8K 16:9 Surround View",
-        "size": [25.4, 14.3]
+        "size": [25.4, 14.3],
+        "resolution": [
+          {
+            "format": "MPC-3626 3.8K 16:9 Surround View",
+            "size": [4268, 2400]
+          }
+        ]
       }
     ],
     "category": ["Movie"],

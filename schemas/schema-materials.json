@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/schema",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Material",
   "description": "PBR material using the Autodesk Standard Surface naming conventions: https://autodesk.github.io/standard-surface/",
   "type": "array",
@@ -22,11 +22,12 @@
         "maxItems": 3
       },
       "metalness": {
+        "description": "Specifies how metallic the material appears (dials the shading model from pure dielectric to pure metal).",
         "type": "number",
         "default": 0
       },
       "specularColor": {
-        "description": "Specular tint for metals (edge tint), calculated from n and k values.",
+        "description": "Color of the specular reflection for metals, specified in the \"Gulbrandsen edge tint\" format. Calculated from spectral data using script from https://github.com/natyh/material-params",
         "type": "array",
         "items": {
           "type": "number"
@@ -36,10 +37,12 @@
         "maxItems": 3
       },
       "roughness": {
+        "description": "The roughness of the specular reflection. Lower numbers produce sharper reflections, higher numbers produce blurrier reflections.",
         "type": "number",
         "default": 0.5
       },
       "ior": {
+        "description": "Index of refraction of a dielectric material. Does not apply to metals (conductors).",
         "type": "number",
         "default": 1.5
       },
@@ -64,7 +67,7 @@
         "default": 0
       },
       "complexIor": {
-        "description": "Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel, in the following order: nR, kR, nG, kG, nB, kB. Calculated from spectral IOR data files.",
+        "description": "Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel, in the following order: nR, kR, nG, kG, nB, kB. Calculated from spectral data using script from https://github.com/natyh/material-params",
         "type": "array",
         "items": {
           "type": "number"

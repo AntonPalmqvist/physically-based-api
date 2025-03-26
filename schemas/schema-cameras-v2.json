@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Camera",
+  "description": "Any type of camera that is being used, or simulated, in any way in CG productions (including games).",
+  "type": "array",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "name": {
+        "description": "Name of the camera.",
+        "type": "string",
+        "default": "Name"
+      },
+      "sensorSize": {
+        "description": "Array of sensor sizes. First item specifies the size of a fully open gate. If needed, additional sizes can be added for cameras that crop the sensor.",
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "additionalProperties": false,
+          "type": "object",
+          "properties": {
+            "format": {
+              "description": "Specifies the sensor format.",
+              "type": "string",
+              "default": "Open Gate"
+            },
+            "size": {
+              "description": "Sensor size in millimeters (WxH).",
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "default": [36, 24],
+              "minItems": 2,
+              "maxItems": 2
+            },
+            "resolution": {
+              "description": "Recording resolution measured in pixels [Width, Height]. One sensor size can have multiple recording resolutions. For still cameras, only movie recording resolutions are listed.",
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "properties": {
+                  "format": {
+                    "description": "Specifies the recording resolution format.",
+                    "type": "string"
+                  },
+                  "size": {
+                    "description": "Recording resolution measured in pixels [Width, Height].",
+                    "type": "array",
+                    "items": {
+                      "type": "integer"
+                    },
+                    "default": [3000, 2000],
+                    "minItems": 2,
+                    "maxItems": 2
+                  }
+                }
+              }
+            }
+          },
+          "required": ["format", "size"]
+        }
+      },
+      "category": {
+        "type": "array",
+        "items": {
+          "enum": ["Still", "Movie", "Mobile"]
+        },
+        "minItems": 1,
+        "maxItems": 1
+      },
+      "description": {
+        "description": "This field should be used for disclaimers and other useful info for CG artists that may affect the way they use the values. It's totally fine to leave this empty.",
+        "type": "string",
+        "maxLength": 500
+      },
+      "tags": {
+        "description": "Tags",
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "uniqueItems": true
+      },
+      "references": {
+        "description": "List of references. At least one reference needed.",
+        "type": "array",
+        "items": {
+          "additionalProperties": false,
+          "type": "object",
+          "properties": {
+            "title": {
+              "description": "Title of book, journal article, or website.",
+              "type": "string"
+            },
+            "author": {
+              "description": "Name(s) of the authors of a book or journal article, or in the case of a webpage, the person or company that created the webpage. For editors, add \"(Ed.)\"",
+              "type": "string"
+            },
+            "url": {
+              "description": "Link to website, or other web resource where the information was found. For books and journals, this URL should be the one that the DOI is linking to.",
+              "type": "string"
+            },
+            "publisher": {
+              "description": "Name of publisher or journal where published.",
+              "type": "string"
+            },
+            "volume": {
+              "description": "Volume number. In relation to periodicals, volume refers to all the issues of a specific journal or magazine for a limited time period, usually one year. For books, volume indicates the order of a book in a series or set.",
+              "type": "string"
+            },
+            "issue": {
+              "description": "Issue number. The issue number refers to the number of individual publications during the year.",
+              "type": "string"
+            },
+            "pages": {
+              "description": "Pages in book or journal article, separated by double-hyphens. Can also be article number.",
+              "type": "string"
+            },
+            "year": {
+              "description": "Year of publication. For webpages, use \"accessed\" instead.",
+              "type": "string"
+            },
+            "doi": {
+              "description": "Link to Digital Object Identifier (DOI).",
+              "type": "string"
+            },
+            "accessed": {
+              "description": "Date the webpage was accessed.",
+              "type": "string",
+              "format": "date",
+              "example": "2025-01-31"
+            }
+          },
+          "required": ["url", "title"]
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      }
+    },
+    "required": ["name", "sensorSize", "category", "references"]
+  }
+}

@@ -11,6 +11,10 @@
         "url": "/schemas/schema-materials.json"
       },
       {
+        "fileMatch": ["/deploy/v2/materials.json"],
+        "url": "/schemas/schema-materials-v2.json"
+      },
+      {
         "fileMatch": ["/deploy/lightsources.json"],
         "url": "/schemas/schema-lightsources.json"
       },
@@ -21,6 +25,10 @@
       {
         "fileMatch": ["/deploy/cameras.json"],
         "url": "/schemas/schema-cameras.json"
+      },
+      {
+        "fileMatch": ["/deploy/v2/cameras.json"],
+        "url": "/schemas/schema-cameras-v2.json"
       },
       {
         "fileMatch": ["/deploy/v2/lenses.json"],

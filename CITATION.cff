@@ -1,0 +1,36 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Physically Based Database
+message: >-
+  If you use this dataset, please consider citing it using
+  the metadata from this file.
+type: dataset
+authors:
+  - given-names: Github Contributors
+  - given-names: Anton
+    family-names: Palmqvist
+    affiliation: Editor
+identifiers:
+  - type: url
+    value: 'https://github.com/AntonPalmqvist/physically-based-api'
+    description: Physically Based API Repository
+repository-code: 'https://github.com/AntonPalmqvist/physically-based-api'
+url: 'https://api.physicallybased.info/'
+abstract: 'A database of physically based values for CG artists. '
+keywords:
+  - gamedev
+  - rendering
+  - computer graphics
+  - unreal engine
+  - vfx
+  - pbr
+  - usd
+  - 3d
+  - 3d graphics
+  - physically based rendering
+  - materialx
+  - real time rendering
+  - openpbr
+license: CC0-1.0

@@ -85,7 +85,7 @@ components:
     Material:
       type: object
       title: Material
-      description: 'PBR material using the Autodesk Standard Surface naming conventions: https://autodesk.github.io/standard-surface/'
+      description: 'Material parameters for shading, physics simulation, and fluid simulation.'
       additionalProperties: false
       properties:
         name:
@@ -97,13 +97,17 @@ components:
           description: 'The albedo of non-metals, or reflection color of metals, RGB triplet in linear decimal format with rec709 primaries.'
         metalness:
           type: number
+          description: Specifies how metallic the material appears (dials the shading model from pure dielectric to pure metal).
         specularColor:
           $ref: '#/components/schemas/color'
+          description: 'Color of the specular reflection for metals, specified in the "Gulbrandsen edge tint" format. Calculated from spectral data using script from https://github.com/natyh/material-params'
         roughness:
           type: number
+          description: 'The roughness of the specular reflection. Lower numbers produce sharper reflections, higher numbers produce blurrier reflections.'
           default: 0
         ior:
           type: number
+          description: Index of refraction of a dielectric material. Does not apply to metals (conductors).
           default: 1.5
         subsurfaceRadius:
           $ref: '#/components/schemas/color'
@@ -273,6 +277,7 @@ components:
             type: number
         intensity:
           type: number
+          description: Intensity of the light emitted from the light source.
         intensityRange:
           type: array
           description: The typical range of intensity for this specific light source.
@@ -282,6 +287,7 @@ components:
             type: number
         unit:
           type: array
+          description: 'The unit of measurement of the intensity of the light. In the case of lux, it is specified as lux at 1 meter distance from the light source, unless it''s a directional light such as the sun or the moon.'
           minItems: 1
           maxItems: 1
           items:
@@ -429,7 +435,7 @@ components:
                   type: number
               resolution:
                 type: array
-                description: 'Recording resolution measured in pixels [Width, Height]. One sensor size can have multiple recording resolutions.'
+                description: 'Recording resolution measured in pixels [Width, Height]. One sensor size can have multiple recording resolutions. For still cameras, only movie recording resolutions are listed.'
                 items:
                   type: object
                   properties:
@@ -467,33 +473,120 @@ components:
         - category
         - sources
       examples:
-        - name: Arri Alexa 65
+        - name: Arri Alexa 35
           sensorSize:
-            - format: Open Gate
+            - format: '4.6K 3:2 Open Gate'
               size:
-                - 54.12
-                - 25.58
-            - format: '5.1K 16:9'
+                - 27.99
+                - 19.22
+              resolution:
+                - format: 4.6K
+                  size:
+                    - 4608
+                    - 3164
+            - format: '4.6K 16:9'
               size:
-                - 42.24
-                - 23.76
-            - format: LF Open Gate
+                - 27.99
+                - 15.75
+              resolution:
+                - format: 4.6K
+                  size:
+                    - 4608
+                    - 2592
+                - format: 4K
+                  size:
+                    - 4096
+                    - 2304
+            - format: '4K 16:9'
               size:
-                - 36.7
-                - 25.54
-            - format: '4.3K 3:2'
+                - 24.88
+                - 14
+              resolution:
+                - format: 4K
+                  size:
+                    - 4096
+                    - 2304
+                - format: UHD
+                  size:
+                    - 3840
+                    - 2160
+                - format: 2K
+                  size:
+                    - 2048
+                    - 1152
+                - format: HD
+                  size:
+                    - 1920
+                    - 1080
+            - format: '4K 2:1'
               size:
-                - 35.64
-                - 23.76
-            - format: 4K UHD
+                - 24.88
+                - 12.44
+              resolution:
+                - format: 4K
+                  size:
+                    - 4096
+                    - 2048
+            - format: '3.8K 16:9'
               size:
-                - 31.68
-                - 17.82
+                - 23.33
+                - 13.12
+              resolution:
+                - format: 4K
+                  size:
+                    - 3840
+                    - 2160
+            - format: '3.3K 6:5'
+              size:
+                - 20.22
+                - 16.95
+              resolution:
+                - format: 3.3K
+                  size:
+                    - 3328
+                    - 2790
+                - format: '4K 2.39:1 Ana 2x'
+                  size:
+                    - 4096
+                    - 1716
+            - format: '3K 1:1'
+              size:
+                - 18.66
+                - 18.66
+              resolution:
+                - format: 3K
+                  size:
+                    - 3072
+                    - 3072
+                - format: '3.8K 2:1 Ana 2x'
+                  size:
+                    - 3840
+                    - 2160
+            - format: '2.7K 8:9'
+              size:
+                - 16.66
+                - 18.75
+              resolution:
+                - format: 'UHD 16:9 Ana 2x'
+                  size:
+                    - 3840
+                    - 2160
+            - format: '2K 16:9 S16'
+              size:
+                - 12.44
+                - 7
+              resolution:
+                - format: 2K
+                  size:
+                    - 2048
+                    - 1152
           category:
             - Movie
+          description: ''
           sources:
-            - 'https://www.arrirental.com/en/cameras/exclusive-cameras/alexa-65'
-            - 'https://www.arri.com/resource/blob/277386/3d47cc0f22a5ebe30a48f68cc7bf94a1/2022-05-arri-formatsandresolutionsoverview-4-1-data.pdf'
-            - 'https://en.wikipedia.org/wiki/IMAX#Film_cameras'
+            - 'https://www.arri.com/en/camera-systems/cameras/alexa-35'
+            - 'https://www.arri.com/en/camera-systems/cameras/alexa-35/alexa-35-recording-formats'
+            - 'https://www.arri.com/resource/blob/296424/88454a5a3dee9fe1d3fd68e75aa3411e/alexa-35-recording-format-poster-data.pdf'
+            - 'https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf'
           tags:
-            - imax
+            - ''

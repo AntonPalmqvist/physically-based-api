@@ -1,0 +1,250 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Material",
+  "description": "PBR material using the Autodesk Standard Surface naming conventions: https://autodesk.github.io/standard-surface/",
+  "type": "array",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "name": {
+        "description": "Name of the material.",
+        "type": "string",
+        "default": "Name"
+      },
+      "color": {
+        "description": "Albedo, or metal color, RGB triplet (vec3) in linear decimal format in rec709 primaries.",
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "default": [0.5, 0.5, 0.5],
+        "minItems": 3,
+        "maxItems": 3
+      },
+      "metalness": {
+        "description": "Specifies how metallic the material appears (dials the shading model from pure dielectric to pure metal).",
+        "type": "number",
+        "default": 0
+      },
+      "specularColor": {
+        "description": "Color of the specular reflection for metals, specified in the \"Gulbrandsen edge tint\" format. Calculated from spectral data using script from https://github.com/natyh/material-params",
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "default": [1, 1, 1],
+        "minItems": 3,
+        "maxItems": 3
+      },
+      "roughness": {
+        "description": "The roughness of the specular reflection. Lower numbers produce sharper reflections, higher numbers produce blurrier reflections.",
+        "type": "number",
+        "default": 0.5
+      },
+      "ior": {
+        "description": "Index of refraction of a dielectric material. Does not apply to metals (conductors).",
+        "type": "number",
+        "default": 1.5
+      },
+      "subsurfaceRadius": {
+        "description": "The approximate distance up to which light can scatter below the surface, also known as “mean free path” (MFP). Specified in centimeters.",
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "default": [1, 1, 1],
+        "minItems": 3,
+        "maxItems": 3
+      },
+      "transmission": {
+        "description": "",
+        "type": "number",
+        "default": 0
+      },
+      "transmissionDispersion": {
+        "description": "Abbe number, describing how much the index of refraction varies across wavelengths. For glass and diamonds, this is typically in the range of 10 to 70, with lower numbers giving more dispersion.",
+        "type": "number",
+        "default": 0
+      },
+      "complexIor": {
+        "description": "Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel, in the following order: nR, kR, nG, kG, nB, kB. Calculated from spectral data using script from https://github.com/natyh/material-params",
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "default": [0, 0, 0, 0, 0, 0],
+        "minItems": 6,
+        "maxItems": 6
+      },
+      "thinFilmThickness": {
+        "description": "The thickness of the thin film layer on the base (in nanometers). If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common thickness.",
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "default": [10, 1000],
+        "minItems": 1,
+        "maxItems": 3
+      },
+      "thinFilmIor": {
+        "description": "The index of refraction of the thin-film.",
+        "type": "number",
+        "default": 1.5
+      },
+      "density": {
+        "description": "Density measured in kg/m3. If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common density.",
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "default": [900, 1000],
+        "minItems": 1,
+        "maxItems": 3
+      },
+      "viscosity": {
+        "description": "Dynamic viscosity measured in millipascal-seconds (mPa⋅s) at a temperature of 20°C. 1 mPa⋅s (millipascal-second) = 1 cP (centipoise). If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common viscosity.",
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "default": [1, 2],
+        "minItems": 1,
+        "maxItems": 3
+      },
+      "acousticAbsorption": {
+        "description": "Absorption coefficients at 125, 250, 500, 1000, 2000, and 4000 kHz.",
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "default": [0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
+        "minItems": 6,
+        "maxItems": 6
+      },
+      "category": {
+        "type": "array",
+        "items": {
+          "enum": [
+            "Crystal",
+            "Gas",
+            "Human",
+            "Liquid",
+            "Manmade",
+            "Metal",
+            "Organic",
+            "Plastic"
+          ]
+        },
+        "minItems": 1,
+        "maxItems": 1
+      },
+      "group": {
+        "description": "Can be used to group similar materials together. For example, Skin I, Skin II, and Skin III would be part of the same group: Skin.",
+        "type": "string",
+        "default": "Group"
+      },
+      "description": {
+        "description": "This field should be used for disclaimers and other useful info for CG artists that may affect the way they use the values. It's totally fine to leave this empty.",
+        "type": "string",
+        "maxLength": 500
+      },
+      "tags": {
+        "description": "Tags for when there are alternative names or spellings of the same material.",
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "uniqueItems": true
+      },
+      "references": {
+        "description": "List of references. At least one reference needed.",
+        "type": "array",
+        "items": {
+          "additionalProperties": false,
+          "type": "object",
+          "properties": {
+            "title": {
+              "description": "Title of book, journal article, or website.",
+              "type": "string"
+            },
+            "author": {
+              "description": "Name(s) of the authors of a book or journal article, or in the case of a webpage, the person or company that created the webpage. For editors, add \"(Ed.)\"",
+              "type": "string"
+            },
+            "url": {
+              "description": "Link to website, or other web resource where the information was found. For books and journals, this URL should be the one that the DOI is linking to.",
+              "type": "string"
+            },
+            "publisher": {
+              "description": "Name of publisher or journal where published.",
+              "type": "string"
+            },
+            "volume": {
+              "description": "Volume number. In relation to periodicals, volume refers to all the issues of a specific journal or magazine for a limited time period, usually one year. For books, volume indicates the order of a book in a series or set.",
+              "type": "string"
+            },
+            "issue": {
+              "description": "Issue number. The issue number refers to the number of individual publications during the year.",
+              "type": "string"
+            },
+            "pages": {
+              "description": "Pages in book or journal article, separated by double-hyphens. Can also be article number.",
+              "type": "string"
+            },
+            "year": {
+              "description": "Year of publication. For webpages, use \"accessed\" instead.",
+              "type": "string"
+            },
+            "doi": {
+              "description": "Link to Digital Object Identifier (DOI).",
+              "type": "string"
+            },
+            "accessed": {
+              "description": "Date the webpage was accessed.",
+              "type": "string",
+              "format": "date",
+              "example": "2025-01-31"
+            }
+          },
+          "required": ["url", "title"]
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "images": {
+        "description": "Image of the material rendered on a shader ball provided in different sizes and file formats.",
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "additionalProperties": false,
+          "type": "object",
+          "properties": {
+            "format": {
+              "description": "Specifies the image format.",
+              "type": "string",
+              "default": "jpeg"
+            },
+            "300": {
+              "description": "A URL to the image at 300x300 pixels.",
+              "type": "string"
+            },
+            "600": {
+              "description": "A URL to the image at 600x600 pixels.",
+              "type": "string"
+            }
+          },
+          "required": ["format", "300", "600"]
+        }
+      }
+    },
+    "required": [
+      "name",
+      "color",
+      "metalness",
+      "roughness",
+      "category",
+      "references",
+      "images"
+    ]
+  }
+}
