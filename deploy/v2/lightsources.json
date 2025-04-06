@@ -192,7 +192,7 @@
         "intensity": 41300
       }
     ],
-    "sourceSize": [100],
+    "sourceSize": [11.5],
     "unit": ["lx"],
     "type": ["spot"],
     "category": ["Artificial"],
@@ -478,7 +478,7 @@
       }
     ],
     "unit": ["lm"],
-    "sourceSize": [60, 1.5],
+    "sourceSize": [1.5, 60],
     "type": ["cylinder"],
     "category": ["Artificial"],
     "references": [

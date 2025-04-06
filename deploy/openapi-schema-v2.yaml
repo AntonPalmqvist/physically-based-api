@@ -379,7 +379,7 @@ components:
           description: 'The maximum beam angle in degrees. For a directional light, this specifies angular diameter instead.'
         sourceSize:
           type: array
-          description: 'The size of the light source in centimeters. [Radius] if point or spot. [Width, Height] if surface. [Length, Radius] if cylinder.'
+          description: 'The size of the light source in centimeters. [Radius] if point or spot. [Width, Height] if surface. [Radius, Length] if cylinder.'
           minItems: 1
           maxItems: 2
           items:
