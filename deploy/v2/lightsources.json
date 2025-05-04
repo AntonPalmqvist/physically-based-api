@@ -375,12 +375,6 @@
     "description": "Displays like computer monitors, TVs, signage, etc. typically have a temperature of 6500K but it can vary. The sRGB spec for monitors targets 80 cd/m2 at 6500K. Typically, monitors calibrated for broadcast or studio color grading should have a brightness of 100 cd/m2 in Japan and in the United States, or 120 cd/m2 in the European Union. This is however considered quite dark for normal use, so consumer monitors tend to be brighter, and HDR displays even brighter.",
     "references": [
       {
-        "title": "LCD Panels - Backlights & Brightness",
-        "url": "https://www.digitalview.com/blog/lcd-panels-backlights-brightness/",
-        "publisher": "Digital View ",
-        "accessed": "2025-02-27"
-      },
-      {
         "title": "Color temperature",
         "author": "Wikipedia contributors",
         "url": "https://en.wikipedia.org/w/index.php?title=Color_temperature&oldid=1272808359",

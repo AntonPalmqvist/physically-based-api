@@ -12,7 +12,7 @@
         "default": "Name"
       },
       "color": {
-        "description": "Albedo, or metal color, RGB triplet (vec3) in linear decimal format in rec709 primaries.",
+        "description": "Specifies the diffuse or metallic reflectance color, or in the case of a transparent material, transmission color. RGB triplet (vec3) in linear decimal format in rec709 primaries.",
         "type": "array",
         "items": {
           "type": "number"

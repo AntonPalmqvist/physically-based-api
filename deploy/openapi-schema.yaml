@@ -94,7 +94,7 @@ components:
           default: Name
         color:
           $ref: '#/components/schemas/color'
-          description: 'The albedo of non-metals, or reflection color of metals, RGB triplet in linear decimal format with rec709 primaries.'
+          description: 'Specifies the diffuse or metallic reflectance color, or in the case of a transparent material, transmission color. RGB triplet (vec3) in linear decimal format in rec709 primaries.'
         metalness:
           type: number
           description: Specifies how metallic the material appears (dials the shading model from pure dielectric to pure metal).

@@ -101,14 +101,21 @@ components:
           description: Name of the material.
           default: Name
         color:
-          $ref: '#/components/schemas/color'
-          description: 'Specifies the diffuse or metallic reflectance color, or in the case of a transparent material, transmission color. RGB triplet in decimal format in linear sRGB color space.'
+          type: array
+          description: 'Specifies the diffuse or metallic reflectance color, or in the case of a transparent material, transmission color.'
+          minItems: 1
+          uniqueItems: true
+          items:
+            $ref: '#/components/schemas/color'
         metalness:
           type: number
           description: Specifies how metallic the material appears (dials the shading model from pure dielectric to pure metal).
         specularColor:
-          $ref: '#/components/schemas/color'
+          type: array
           description: 'Color of the specular reflection for metals, specified in the "Gulbrandsen edge tint" format. Calculated from spectral data using script from https://github.com/natyh/material-params'
+          minItems: 1
+          items:
+            $ref: '#/components/schemas/color'
         roughness:
           type: number
           description: 'The roughness of the specular reflection. Lower numbers produce sharper reflections, higher numbers produce blurrier reflections.'
@@ -128,10 +135,22 @@ components:
         complexIor:
           type: array
           description: 'Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel, in the following order: nR, kR, nG, kG, nB, kB. Calculated from spectral IOR data files.'
-          minItems: 6
-          maxItems: 6
           items:
-            type: number
+            type: object
+            properties:
+              colorSpace:
+                type: string
+                description: The color space for which the n and k values have been calculated for.
+              nk:
+                type: array
+                description: 'N and k values for each RGB color channel in the following order: nR, kR, nG, kG, nB, kB.'
+                minItems: 6
+                maxItems: 6
+                items:
+                  type: number
+            required:
+              - colorSpace
+              - nk
         thinFilmThickness:
           type: array
           description: 'The thickness of the thin film layer on the base (in nanometers). If there''s no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common thickness.'
@@ -280,12 +299,23 @@ components:
               '600': 'https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum.avif'
               format: avif
     color:
-      type: array
+      type: object
       title: color
-      minItems: 3
-      maxItems: 3
-      items:
-        type: number
+      properties:
+        colorSpace:
+          type: string
+          description: The color space.
+          default: srgb-linear
+        color:
+          type: array
+          description: RGB triplet (vec3) in decimal format.
+          minItems: 3
+          maxItems: 3
+          items:
+            type: number
+      required:
+        - colorSpace
+        - color
     description:
       type: string
       title: description
