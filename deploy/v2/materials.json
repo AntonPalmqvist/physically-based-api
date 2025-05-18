@@ -622,6 +622,7 @@
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.5,
+    "subsurfaceRadius": [0.1, 0.05, 0.025],
     "density": [1229, 1336, 1300],
     "category": ["Organic"],
     "references": [
@@ -1496,11 +1497,29 @@
     "tags": ["grey", "middle gray"],
     "references": [
       {
-        "title": "Middle Gray",
+        "title": "Gray Card",
         "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=Middle_gray&oldid=1220784080",
+        "url": "https://en.wikipedia.org/w/index.php?title=Gray_card&oldid=1244084939",
         "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-01-26"
+        "accessed": "2025-05-17"
+      },
+      {
+        "title": "New Color Specifications for ColorChecker SG and Classic Charts",
+        "url": "https://www.xrite.com/service-support/new_color_specifications_for_colorchecker_sg_and_classic_charts",
+        "publisher": "X-Rite, Inc.",
+        "accessed": "2025-05-17"
+      },
+      {
+        "title": "The Colorchecker Pages",
+        "publisher": "The BabelColor Company",
+        "url": "https://babelcolor.com/colorchecker.htm",
+        "accessed": "2025-05-17"
+      },
+      {
+        "title": "Colour Rendition Chart",
+        "author": "Colour Developers",
+        "url": "https://github.com/colour-science/colour-nuke/tree/master/colour_nuke/resources/images/ColorChecker2014",
+        "accessed": "2025-05-17"
       }
     ],
     "images": [
@@ -3682,6 +3701,7 @@
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.3098,
+    "subsurfaceRadius": [0.2, 0.2, 1],
     "density": [90, 450, 300],
     "acousticAbsorption": [0.45, 0.75, 0.9, 0.95, 0.95, 0.95],
     "category": ["Crystal"],

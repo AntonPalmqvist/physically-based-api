@@ -211,6 +211,7 @@
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.5,
+    "subsurfaceRadius": [0.1, 0.05, 0.025],
     "density": 1300,
     "densityRange": [1229, 1336],
     "category": ["Organic"],
@@ -525,7 +526,12 @@
     "density": 0,
     "category": ["Manmade"],
     "description": "In photography and computer graphics, middle gray is a tone that is perceptually about halfway between black and white on a lightness scale. Light meters and cameras are often calibrated using an 18% gray card or a color reference card such as a ColorChecker. It is typically defined as 18% reflectance in visible light.",
-    "sources": ["https://en.wikipedia.org/wiki/Middle_gray"],
+    "sources": [
+      "https://en.wikipedia.org/w/index.php?title=Gray_card&oldid=1244084939",
+      "https://www.xrite.com/service-support/new_color_specifications_for_colorchecker_sg_and_classic_charts",
+      "https://babelcolor.com/colorchecker.htm",
+      "https://github.com/colour-science/colour-nuke/tree/master/colour_nuke/resources/images/ColorChecker2014"
+    ],
     "tags": ["grey", "middle gray"],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/gray-card.jpeg"
@@ -1278,6 +1284,7 @@
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.3098,
+    "subsurfaceRadius": [0.2, 0.2, 1],
     "density": 100,
     "densityRange": [90, 450],
     "acousticAbsorption": [0.45, 0.75, 0.9, 0.95, 0.95, 0.95],
