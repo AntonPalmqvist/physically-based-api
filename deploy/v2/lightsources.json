@@ -5,14 +5,24 @@
     "variants": [
       {
         "format": "Hyper Reflector",
-        "color": [1.0, 0.859, 0.778],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.859, 0.778]
+          }
+        ],
         "temperature": 5600,
         "angle": 65,
         "intensity": 26155
       },
       {
         "format": "Bare Bulb",
-        "color": [1.0, 0.859, 0.778],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.859, 0.778]
+          }
+        ],
         "temperature": 5600,
         "angle": 90,
         "intensity": 17244
@@ -38,7 +48,12 @@
   },
   {
     "name": "Aputure amaran P60c",
-    "color": [1.0, 0.859, 0.778],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.0, 0.859, 0.778]
+      }
+    ],
     "temperature": [2500, 7500, 5600],
     "intensity": [3000],
     "unit": ["lm"],
@@ -63,33 +78,58 @@
   },
   {
     "name": "Aputure STORM 1000c",
-    "color": [1.0, 0.859, 0.778],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.0, 0.859, 0.778]
+      }
+    ],
     "temperature": [1800, 20000, 5600],
     "variants": [
       {
         "format": "15º Reflector",
-        "color": [1.0, 0.859, 0.778],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.859, 0.778]
+          }
+        ],
         "temperature": 5600,
         "angle": 15,
         "intensity": 600000
       },
       {
         "format": "30º Reflector",
-        "color": [1.0, 0.859, 0.778],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.859, 0.778]
+          }
+        ],
         "temperature": 5600,
         "angle": 30,
         "intensity": 250000
       },
       {
         "format": "45º Reflector",
-        "color": [1.0, 0.859, 0.778],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.859, 0.778]
+          }
+        ],
         "temperature": 5600,
         "angle": 45,
         "intensity": 125000
       },
       {
         "format": "No Reflector",
-        "color": [1.0, 0.859, 0.778],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.859, 0.778]
+          }
+        ],
         "temperature": 5600,
         "angle": 65,
         "intensity": 61250
@@ -115,33 +155,58 @@
   },
   {
     "name": "Aputure STORM 1200x",
-    "color": [1.0, 0.859, 0.778],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.0, 0.859, 0.778]
+      }
+    ],
     "temperature": [2500, 10000, 5600],
     "variants": [
       {
         "format": "15º Reflector",
-        "color": [1.0, 0.859, 0.778],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.859, 0.778]
+          }
+        ],
         "temperature": 5600,
         "angle": 15,
         "intensity": 864900
       },
       {
         "format": "30º Reflector",
-        "color": [1.0, 0.859, 0.778],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.859, 0.778]
+          }
+        ],
         "temperature": 5600,
         "angle": 30,
         "intensity": 376200
       },
       {
         "format": "45º Reflector",
-        "color": [1.0, 0.859, 0.778],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.859, 0.778]
+          }
+        ],
         "temperature": 5600,
         "angle": 45,
         "intensity": 202500
       },
       {
         "format": "No Reflector",
-        "color": [1.0, 0.859, 0.778],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.859, 0.778]
+          }
+        ],
         "temperature": 5600,
         "angle": 70,
         "intensity": 76400
@@ -167,26 +232,46 @@
   },
   {
     "name": "Arri M-Series M8",
-    "color": [1.0, 0.899, 0.875],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.0, 0.899, 0.875]
+      }
+    ],
     "temperature": [6000],
     "variants": [
       {
         "format": "Spot",
-        "color": [1.0, 0.899, 0.875],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.899, 0.875]
+          }
+        ],
         "temperature": 6000,
         "angle": 15,
         "intensity": 405000
       },
       {
         "format": "Medium",
-        "color": [1.0, 0.899, 0.875],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.899, 0.875]
+          }
+        ],
         "temperature": 6000,
         "angle": 40,
         "intensity": 76100
       },
       {
         "format": "Flood",
-        "color": [1.0, 0.899, 0.875],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.899, 0.875]
+          }
+        ],
         "temperature": 6000,
         "angle": 60,
         "intensity": 41300
@@ -213,7 +298,12 @@
   },
   {
     "name": "Arri SkyPanel S60 Pro",
-    "color": [1.0, 0.859, 0.778],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.0, 0.859, 0.778]
+      }
+    ],
     "temperature": [2800, 10000, 5600],
     "intensity": [41100],
     "sourceSize": [64.5, 30.0],
@@ -242,28 +332,48 @@
     "variants": [
       {
         "format": "Open-Face",
-        "color": [1.0, 0.859, 0.778],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.859, 0.778]
+          }
+        ],
         "temperature": 5600,
         "angle": 121,
         "intensity": 48000
       },
       {
         "format": "Dome",
-        "color": [1.0, 0.859, 0.778],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.859, 0.778]
+          }
+        ],
         "temperature": 5600,
         "angle": 107,
         "intensity": 42700
       },
       {
         "format": "S60 Adapter",
-        "color": [1.0, 0.859, 0.778],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.859, 0.778]
+          }
+        ],
         "temperature": 5600,
         "angle": 101,
         "intensity": 35400
       },
       {
         "format": "HyPer Optic",
-        "color": [1.0, 0.859, 0.778],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.859, 0.778]
+          }
+        ],
         "temperature": 5600,
         "angle": 11,
         "intensity": 22000
@@ -290,7 +400,12 @@
   },
   {
     "name": "Candle Flame",
-    "color": [1.0, 0.22, 0.0],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.0, 0.22, 0.0]
+      }
+    ],
     "temperature": [1850],
     "intensity": [13],
     "unit": ["lm"],
@@ -316,7 +431,12 @@
   },
   {
     "name": "Car Headlight (Halogen)",
-    "color": [1.0, 0.553, 0.237],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.0, 0.553, 0.237]
+      }
+    ],
     "temperature": [3400, 4000],
     "intensity": [1000, 2000, 1500],
     "unit": ["lm"],
@@ -341,7 +461,12 @@
   },
   {
     "name": "Car Headlight (LED)",
-    "color": [1.0, 0.792, 0.628],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.0, 0.792, 0.628]
+      }
+    ],
     "temperature": [5000, 6000],
     "intensity": [2000, 5000, 3000],
     "unit": ["lm"],
@@ -365,7 +490,12 @@
   },
   {
     "name": "Digital Display",
-    "color": [1.0, 0.943, 0.992],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.0, 0.943, 0.992]
+      }
+    ],
     "temperature": [5000, 7500, 6500],
     "intensity": [100, 2500, 200],
     "unit": ["cd/m2"],
@@ -397,17 +527,32 @@
     "variants": [
       {
         "format": "Green",
-        "color": [0, 1, 0],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0, 1, 0]
+          }
+        ],
         "intensity": 0.0006
       },
       {
         "format": "Yellow",
-        "color": [1.0, 0.5, 0],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.5, 0]
+          }
+        ],
         "intensity": 0.0006
       },
       {
         "format": "Red",
-        "color": [1.0, 0, 0],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0, 0]
+          }
+        ],
         "intensity": 0.0006
       }
     ],
@@ -451,23 +596,43 @@
   },
   {
     "name": "Fluorescent Tube Light",
-    "color": [1.0, 0.654, 0.377],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.0, 0.654, 0.377]
+      }
+    ],
     "temperature": [2700, 6500, 4000],
     "intensity": [500, 5000, 3000],
     "variants": [
       {
         "format": "2700 K",
-        "color": [1.0, 0.415, 0.099],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.415, 0.099]
+          }
+        ],
         "temperature": 2700
       },
       {
         "format": "4000 K",
-        "color": [1.0, 0.654, 0.377],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.654, 0.377]
+          }
+        ],
         "temperature": 4000
       },
       {
         "format": "6500 K",
-        "color": [1.0, 0.943, 0.992],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.943, 0.992]
+          }
+        ],
         "temperature": 2700
       }
     ],
@@ -493,7 +658,12 @@
   },
   {
     "name": "Kerosene Lamp",
-    "color": [1.0, 0.22, 0.0],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.0, 0.22, 0.0]
+      }
+    ],
     "temperature": [1850],
     "intensity": [8, 100, 50],
     "unit": ["lm"],
@@ -518,7 +688,12 @@
   },
   {
     "name": "Kino Flo MIMIK 120",
-    "color": [1.0, 0.859, 0.778],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.0, 0.859, 0.778]
+      }
+    ],
     "temperature": [2700, 6500, 5600],
     "intensity": [10000],
     "sourceSize": [120, 60],
@@ -542,7 +717,12 @@
   },
   {
     "name": "Household Light Bulb",
-    "color": [1.0, 0.415, 0.099],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.0, 0.415, 0.099]
+      }
+    ],
     "temperature": [2400, 6000, 2700],
     "intensity": [400, 1000, 800],
     "unit": ["lm"],
@@ -570,7 +750,12 @@
   },
   {
     "name": "Moon",
-    "color": [1.0, 0.669, 0.402],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.0, 0.669, 0.402]
+      }
+    ],
     "temperature": [4100],
     "intensity": [0.05, 0.32],
     "unit": ["lx"],
@@ -627,7 +812,12 @@
   },
   {
     "name": "Photo Flash",
-    "color": [1.0, 0.849, 0.754],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.0, 0.849, 0.754]
+      }
+    ],
     "temperature": [5500],
     "intensity": [10000, 20000],
     "unit": ["lm"],
@@ -645,7 +835,12 @@
   },
   {
     "name": "Sky (Clear)",
-    "color": [0.609, 0.695, 1.0],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.609, 0.695, 1.0]
+      }
+    ],
     "temperature": [10000],
     "intensity": [6000],
     "unit": ["lx"],
@@ -685,7 +880,12 @@
   },
   {
     "name": "ROE Carbon Carbon CB5 MKII RGBCA",
-    "color": [1.0, 0.859, 0.778],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.0, 0.859, 0.778]
+      }
+    ],
     "temperature": [3200, 6500, 5600],
     "intensity": [4400],
     "sourceSize": [60, 120],
@@ -710,7 +910,12 @@
   },
   {
     "name": "ROE Carbon Carbon CB5 MKII RGBW",
-    "color": [1.0, 0.859, 0.778],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.0, 0.859, 0.778]
+      }
+    ],
     "temperature": [2700, 6500, 5600],
     "intensity": [3200],
     "sourceSize": [60, 120],
@@ -735,7 +940,12 @@
   },
   {
     "name": "Sky (Moonless Clear Night)",
-    "color": [1.0, 0.943, 0.992],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.0, 0.943, 0.992]
+      }
+    ],
     "temperature": [6500],
     "intensity": [0.002],
     "unit": ["lx"],
@@ -775,7 +985,12 @@
   },
   {
     "name": "Sky (Overcast Day)",
-    "color": [1.0, 0.943, 0.992],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.0, 0.943, 0.992]
+      }
+    ],
     "temperature": [6500],
     "intensity": [100, 2000, 2000],
     "unit": ["lx"],
@@ -807,7 +1022,12 @@
   },
   {
     "name": "Street Light",
-    "color": [1, 0.761, 0],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1, 0.761, 0]
+      }
+    ],
     "intensity": [2000, 140000],
     "unit": ["lm"],
     "type": ["spot"],
@@ -832,7 +1052,12 @@
   },
   {
     "name": "Sun",
-    "color": [1.0, 0.877, 0.822],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.0, 0.877, 0.822]
+      }
+    ],
     "temperature": [5778],
     "intensity": [400, 100000, 100000],
     "unit": ["lx"],
