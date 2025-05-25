@@ -5,7 +5,8 @@
   "scripts": {
     "http": "http-server -o deploy",
     "http-v2": "http-server -o deploy/v2",
-    "image-processor": "node scripts/image-processor.js "
+    "image-processor": "node scripts/image-processor.js ",
+    "create-materialx": "node scripts/create-materialx.js "
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://api.physicallybased.info/",
   "devDependencies": {
+    "adm-zip": "^0.5.16",
     "http-server": "^14.1.1",
     "sharp": "^0.33.5"
   }
