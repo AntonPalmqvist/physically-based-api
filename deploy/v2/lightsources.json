@@ -2,6 +2,7 @@
   {
     "name": "Aputure amaran 300c",
     "temperature": [2500, 7500, 5600],
+    "sourceSize": [4],
     "variants": [
       {
         "format": "Hyper Reflector",
@@ -12,7 +13,7 @@
           }
         ],
         "temperature": 5600,
-        "angle": 65,
+        "angle": 64.8,
         "intensity": 26155
       },
       {
@@ -24,7 +25,7 @@
           }
         ],
         "temperature": 5600,
-        "angle": 90,
+        "angle": 89.6,
         "intensity": 17244
       }
     ],
@@ -85,6 +86,7 @@
       }
     ],
     "temperature": [1800, 20000, 5600],
+    "sourceSize": [4],
     "variants": [
       {
         "format": "15º Reflector",
@@ -162,6 +164,7 @@
       }
     ],
     "temperature": [2500, 10000, 5600],
+    "sourceSize": [4],
     "variants": [
       {
         "format": "15º Reflector",
@@ -439,6 +442,8 @@
     ],
     "temperature": [3400, 4000],
     "intensity": [1000, 2000, 1500],
+    "sourceSize": [5],
+    "angle": 15,
     "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],
@@ -456,6 +461,13 @@
         "url": "https://en.wikipedia.org/w/index.php?title=Headlamp&oldid=1274156171#Light_sources",
         "publisher": "Wikipedia, The Free Encyclopedia",
         "accessed": "2025-02-27"
+      },
+      {
+        "title": "Light Source: A Quick Guide to Automotive Lighting",
+        "author": "Fuller, D.",
+        "url": "https://www.onallcylinders.com/2015/02/27/light-source-quick-guide-automotive-lighting/",
+        "publisher": "Summit Racing",
+        "accessed": "2025-06-18"
       }
     ]
   },
@@ -469,6 +481,8 @@
     ],
     "temperature": [5000, 6000],
     "intensity": [2000, 5000, 3000],
+    "sourceSize": [5],
+    "angle": 15,
     "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],
@@ -485,6 +499,13 @@
         "url": "https://en.wikipedia.org/w/index.php?title=Headlamp&oldid=1274156171#Light_sources",
         "publisher": "Wikipedia, The Free Encyclopedia",
         "accessed": "2025-02-27"
+      },
+      {
+        "title": "Light Source: A Quick Guide to Automotive Lighting",
+        "author": "Fuller, D.",
+        "url": "https://www.onallcylinders.com/2015/02/27/light-source-quick-guide-automotive-lighting/",
+        "publisher": "Summit Racing",
+        "accessed": "2025-06-18"
       }
     ]
   },
@@ -666,6 +687,7 @@
     ],
     "temperature": [1850],
     "intensity": [8, 100, 50],
+    "sourceSize": [1],
     "unit": ["lm"],
     "type": ["point"],
     "category": ["Natural"],
@@ -820,6 +842,8 @@
     ],
     "temperature": [5500],
     "intensity": [10000, 20000],
+    "sourceSize": [5],
+    "angle": 60,
     "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],
@@ -1029,6 +1053,8 @@
       }
     ],
     "intensity": [2000, 140000],
+    "sourceSize": [5],
+    "angle": 60,
     "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],

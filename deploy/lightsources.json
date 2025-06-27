@@ -5,19 +5,20 @@
     "temperature": 5600,
     "temperatureRange": [2500, 7500],
     "intensity": 19389,
+    "sourceSize": [4],
     "variants": [
       {
         "format": "Bare Bulb",
         "color": [1.0, 0.859, 0.778],
         "temperature": 5600,
-        "angle": 90,
+        "angle": 89.6,
         "intensity": 17244
       },
       {
         "format": "Hyper Reflector",
         "color": [1.0, 0.859, 0.778],
         "temperature": 5600,
-        "angle": 65,
+        "angle": 64.8,
         "intensity": 26155
       }
     ],
@@ -55,6 +56,7 @@
     "temperature": 5600,
     "temperatureRange": [1800, 20000],
     "intensity": 600000,
+    "sourceSize": [4],
     "variants": [
       {
         "format": "No Reflector",
@@ -96,6 +98,7 @@
     "color": [1.0, 0.859, 0.778],
     "temperature": 5600,
     "temperatureRange": [2500, 10000],
+    "sourceSize": [4],
     "intensity": 202500,
     "variants": [
       {
@@ -252,13 +255,35 @@
     "temperature": 3500,
     "intensity": 1500,
     "intensityRange": [1000, 2000],
+    "sourceSize": [5],
+    "angle": 15,
     "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],
     "description": "Tungsten-halogen bulbs, commonly just called halogen, are the most widely used bulbs in car headlights. High beam is approximately double the intensity of a low beam.",
     "sources": [
       "https://www.bulbfacts.com/halogen-bulbs/chart/",
-      "https://en.wikipedia.org/wiki/Headlamp#Light_sources"
+      "https://en.wikipedia.org/wiki/Headlamp#Light_sources",
+      "https://www.onallcylinders.com/2015/02/27/light-source-quick-guide-automotive-lighting/"
+    ]
+  },
+  {
+    "name": "Car Headlight (LED)",
+    "color": [1.0, 0.792, 0.628],
+    "temperature": 3500,
+    "temperatureRange": [5000, 6000],
+    "intensity": 3000,
+    "intensityRange": [2000, 5000],
+    "sourceSize": [5],
+    "angle": 15,
+    "unit": ["lm"],
+    "type": ["spot"],
+    "category": ["Artificial"],
+    "description": "",
+    "sources": [
+      "https://www.bulbfacts.com/led-kits/chart/",
+      "https://en.wikipedia.org/w/index.php?title=Headlamp&oldid=1274156171#Light_sources",
+      "https://www.onallcylinders.com/2015/02/27/light-source-quick-guide-automotive-lighting/"
     ]
   },
   {
@@ -350,6 +375,7 @@
     "temperature": 1850,
     "intensity": 50,
     "intensityRange": [8, 100],
+    "sourceSize": [1],
     "unit": ["lm"],
     "type": ["point"],
     "category": ["Natural"],
@@ -415,6 +441,8 @@
     "color": [1.0, 0.849, 0.754],
     "temperature": 5500,
     "intensity": 20000,
+    "sourceSize": [5],
+    "angle": 60,
     "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],
@@ -508,6 +536,8 @@
     "temperature": 0,
     "intensity": 60000,
     "intensityRange": [2000, 140000],
+    "sourceSize": [5],
+    "angle": 60,
     "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],

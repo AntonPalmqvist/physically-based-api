@@ -4,33 +4,51 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.933, 0.912, 0.853]
+        "color": [0.916, 0.923, 0.924]
       },
       {
         "colorSpace": "acescg",
-        "color": [0.913, 0.914, 0.919]
+        "color": [0.918, 0.922, 0.923]
       }
     ],
     "metalness": 1,
     "specularColor": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [0.981, 0.979, 0.961]
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.989, 0.989, 0.972]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.985, 0.989, 0.993]
+          }
+        ]
       },
       {
-        "colorSpace": "acescg",
-        "color": [0.975, 0.979, 0.987]
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.91, 0.936, 0.959]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.921, 0.934, 0.955]
+          }
+        ]
       }
     ],
     "roughness": 0,
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [1.16234, 7.90265, 0.958053, 6.29309, 1.04947, 5.01364]
+        "nk": [0.728978, 6.45971, 0.588215, 5.19646, 0.78354, 4.37746]
       },
       {
         "colorSpace": "acescg",
-        "nk": [1.14218, 6.93349, 0.95864, 6.38392, 0.637605, 5.37727]
+        "nk": [0.73826, 5.76125, 0.58846, 5.26448, 0.401312, 4.35851]
       }
     ],
     "density": [2700],
@@ -40,8 +58,8 @@
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=3d&book=metals&page=aluminium",
-        "accessed": "2025-01-09"
+        "url": "https://refractiveindex.info/?shelf=main&book=Al&page=Cheng",
+        "accessed": "2025-06-26"
       },
       {
         "title": "Autodesk Arnold Documentation",
@@ -115,6 +133,95 @@
         "format": "avif",
         "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/banana.avif",
         "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/banana.avif"
+      }
+    ]
+  },
+  {
+    "name": "Beryllium",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.539, 0.533, 0.534]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.537, 0.534, 0.534]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.549, 0.503, 0.364]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.504, 0.509, 0.545]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.731, 0.738, 0.755]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.734, 0.738, 0.752]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [3.21038, 3.29815, 3.32907, 3.11669, 3.77105, 2.66995]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [3.36492, 3.16402, 3.30825, 3.13463, 3.09051, 3.12791]
+      }
+    ],
+    "density": [1850],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Be&page=Rakic-BB",
+        "accessed": "2025-06-18"
+      },
+      {
+        "title": "Beryllium",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Beryllium&oldid=1295895956",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-06-18"
+      },
+      {
+        "title": "Density",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-06-18"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/beryllium.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/beryllium.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/beryllium.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/beryllium.avif"
       }
     ]
   },
@@ -323,7 +430,7 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.931, 0.776, 0.392]
+        "color": [0.91, 0.778, 0.423]
       },
       {
         "colorSpace": "acescg",
@@ -333,12 +440,30 @@
     "metalness": 1,
     "specularColor": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [0.995, 0.974, 0.747]
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.995, 0.974, 0.747]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.983, 0.975, 0.866]
+          }
+        ]
       },
       {
-        "colorSpace": "acescg",
-        "color": [0.983, 0.975, 0.866]
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.952, 0.979, 1.021]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.963, 0.977, 1.013]
+          }
+        ]
       }
     ],
     "roughness": 0,
@@ -559,6 +684,89 @@
     ]
   },
   {
+    "name": "Cesium",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.718, 0.554, 0.237]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.633, 0.561, 0.299]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.997, 1.002, 1.073]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.997, 1.002, 1.055]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.087, 1.18, 1.44]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [1.128, 1.175, 1.394]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [0.204334, 1.19256, 0.272018, 0.906033, 0.449252, 0.517209]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [0.247616, 1.06956, 0.26693, 0.91021, 0.382321, 0.519484]
+      }
+    ],
+    "density": [1886],
+    "category": ["Metal"],
+    "tags": ["caesium"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Cs&page=Monin",
+        "accessed": "2025-06-25"
+      },
+      {
+        "title": "Caesium",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Caesium&oldid=1297091310",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-06-25"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/cesium.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/cesium.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/cesium.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/cesium.avif"
+      }
+    ]
+  },
+  {
     "name": "Charcoal",
     "color": [
       {
@@ -666,33 +874,51 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.653, 0.65, 0.615]
+        "color": [0.654, 0.685, 0.701]
       },
       {
         "colorSpace": "acescg",
-        "color": [0.644, 0.651, 0.662]
+        "color": [0.666, 0.682, 0.698]
       }
     ],
     "metalness": 1,
     "specularColor": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [0.675, 0.72, 0.711]
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.591, 0.675, 0.703]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.608, 0.674, 0.797]
+          }
+        ]
       },
       {
-        "colorSpace": "acescg",
-        "color": [0.676, 0.72, 0.805]
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.688, 0.728, 0.798]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.706, 0.726, 0.788]
+          }
+        ]
       }
     ],
     "roughness": 0,
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [3.20617, 4.38724, 2.76851, 4.18069, 2.56326, 3.75018]
+        "nk": [4.19382, 4.85545, 3.53806, 4.89986, 2.91521, 4.25568]
       },
       {
         "colorSpace": "acescg",
-        "nk": [3.10954, 4.25232, 2.77561, 4.19401, 2.06784, 3.88346]
+        "nk": [3.99955, 4.78865, 3.5489, 4.90046, 2.40724, 4.50602]
       }
     ],
     "density": [7200],
@@ -702,7 +928,7 @@
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=main&book=Cr&page=Rakic-BB",
+        "url": "https://refractiveindex.info/?shelf=main&book=Cr&page=Sytchkova",
         "accessed": "2025-01-26"
       },
       {
@@ -731,7 +957,7 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.715, 0.702, 0.622]
+        "color": [0.699, 0.704, 0.671]
       },
       {
         "colorSpace": "acescg",
@@ -741,12 +967,30 @@
     "metalness": 1,
     "specularColor": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [0.731, 0.775, 0.715]
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.731, 0.775, 0.715]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.73, 0.774, 0.814]
+          }
+        ]
       },
       {
-        "colorSpace": "acescg",
-        "color": [0.73, 0.774, 0.814]
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.727, 0.772, 0.823]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.747, 0.77, 0.815]
+          }
+        ]
       }
     ],
     "roughness": 0,
@@ -990,33 +1234,51 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.988, 0.688, 0.448]
+        "color": [0.932, 0.623, 0.522]
       },
       {
         "colorSpace": "acescg",
-        "color": [0.852, 0.707, 0.516]
+        "color": [0.811, 0.643, 0.542]
       }
     ],
     "metalness": 1,
     "specularColor": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [0.999, 0.946, 0.705]
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.999, 0.9, 0.744]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.979, 0.915, 0.85]
+          }
+        ]
       },
       {
-        "colorSpace": "acescg",
-        "color": [0.986, 0.953, 0.837]
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.982, 0.947, 0.945]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.97, 0.95, 0.946]
+          }
+        ]
       }
     ],
     "roughness": 0,
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [0.137212, 5.48257, 0.750114, 2.56138, 1.75582, 2.26828]
+        "nk": [0.133762, 3.10615, 1.05661, 2.63095, 1.68637, 2.42655]
       },
       {
         "colorSpace": "acescg",
-        "nk": [0.417647, 3.04763, 0.702167, 2.58885, 1.26265, 2.30448]
+        "nk": [0.4946, 2.87217, 0.974095, 2.65208, 1.23853, 2.41041]
       }
     ],
     "density": [8940],
@@ -1025,7 +1287,7 @@
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=3d&book=metals&page=copper",
+        "url": "https://refractiveindex.info/?shelf=main&book=Cu&page=Johnson",
         "accessed": "2025-01-26"
       },
       {
@@ -1415,33 +1677,51 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [1.0, 0.72, 0.315]
+        "color": [1.059, 0.773, 0.307]
       },
       {
         "colorSpace": "acescg",
-        "color": [0.893, 0.739, 0.396]
+        "color": [0.929, 0.788, 0.374]
       }
     ],
     "metalness": 1,
     "specularColor": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.973, 0.597]
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.001, 0.985, 0.523]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.997, 0.987, 0.757]
+          }
+        ]
       },
       {
-        "colorSpace": "acescg",
-        "color": [0.994, 0.977, 0.787]
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.971, 1.018, 0.994]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.987, 1.013, 0.997]
+          }
+        ]
       }
     ],
     "roughness": 0,
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [0, 6.3108, 0.487424, 2.18391, 1.74577, 1.63493]
+        "nk": [0, 6.59401, 0.351563, 2.08143, 1.85894, 1.49631]
       },
       {
         "colorSpace": "acescg",
-        "nk": [0.265076, 2.8793, 0.45758, 2.21491, 1.27864, 1.81051]
+        "nk": [0.190506, 3.04413, 0.330771, 2.11776, 1.35292, 1.76193]
       }
     ],
     "density": [19320],
@@ -1450,8 +1730,8 @@
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=3d&book=metals&page=gold",
-        "accessed": "2025-01-26"
+        "url": "https://refractiveindex.info/?shelf=main&book=Ag&page=Babar",
+        "accessed": "2025-06-26"
       },
       {
         "title": "Autodesk Arnold Documentation",
@@ -1675,7 +1955,7 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.542, 0.512, 0.458]
+        "color": [0.53, 0.513, 0.494]
       },
       {
         "colorSpace": "acescg",
@@ -1685,12 +1965,30 @@
     "metalness": 1,
     "specularColor": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [0.612, 0.541, 0.422]
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.612, 0.541, 0.422]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.562, 0.549, 0.586]
+          }
+        ]
       },
       {
-        "colorSpace": "acescg",
-        "color": [0.562, 0.549, 0.586]
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.765, 0.767, 0.802]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.767, 0.768, 0.797]
+          }
+        ]
       }
     ],
     "roughness": 0,
@@ -1811,33 +2109,51 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.641, 0.622, 0.59]
+        "color": [0.626, 0.64, 0.693]
       },
       {
         "colorSpace": "acescg",
-        "color": [0.626, 0.624, 0.635]
+        "color": [0.633, 0.64, 0.686]
       }
     ],
     "metalness": 1,
     "specularColor": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [0.819, 0.804, 0.769]
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.717, 0.717, 0.696]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.7, 0.72, 0.796]
+          }
+        ]
       },
       {
-        "colorSpace": "acescg",
-        "color": [0.8, 0.807, 0.85]
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.758, 0.773, 0.799]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.765, 0.772, 0.795]
+          }
+        ]
       }
     ],
     "roughness": 0,
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [1.81659, 3.50606, 1.84441, 3.37971, 1.96022, 3.23189]
+        "nk": [2.71051, 4.04246, 2.68791, 4.01366, 2.9091, 4.17426]
       },
       {
         "colorSpace": "acescg",
-        "nk": [1.89803, 3.45103, 1.83046, 3.3856, 1.51787, 3.21099]
+        "nk": [2.79703, 4.01182, 2.6736, 4.02443, 2.31165, 4.29506]
       }
     ],
     "density": [11340],
@@ -1846,8 +2162,8 @@
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=3d&book=metals&page=lead",
-        "accessed": "2025-01-26"
+        "url": "https://refractiveindex.info/?shelf=main&book=Pb&page=Werner-DFT",
+        "accessed": "2025-06-26"
       },
       {
         "title": "Autodesk Arnold Documentation",
@@ -1978,7 +2294,7 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.799, 0.777, 0.721]
+        "color": [0.781, 0.78, 0.778]
       },
       {
         "colorSpace": "acescg",
@@ -1988,12 +2304,30 @@
     "metalness": 1,
     "specularColor": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [0.901, 0.91, 0.89]
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.901, 0.91, 0.89]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.896, 0.911, 0.939]
+          }
+        ]
       },
       {
-        "colorSpace": "acescg",
-        "color": [0.896, 0.911, 0.939]
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.813, 0.852, 0.902]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.83, 0.85, 0.895]
+          }
+        ]
       }
     ],
     "roughness": 0,
@@ -2230,33 +2564,51 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.664, 0.606, 0.495]
+        "color": [0.697, 0.641, 0.563]
       },
       {
         "colorSpace": "acescg",
-        "color": [0.63, 0.61, 0.545]
+        "color": [0.672, 0.643, 0.575]
       }
     ],
     "metalness": 1,
     "specularColor": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [0.824, 0.798, 0.68]
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.855, 0.805, 0.675]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.822, 0.81, 0.789]
+          }
+        ]
       },
       {
-        "colorSpace": "acescg",
-        "color": [0.798, 0.801, 0.789]
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.815, 0.834, 0.871]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.824, 0.833, 0.865]
+          }
+        ]
       }
     ],
     "roughness": 0,
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [1.88896, 3.7543, 1.81884, 3.2447, 2.0708, 2.64853]
+        "nk": [1.8644, 4.21007, 1.92207, 3.57008, 2.22915, 2.87501]
       },
       {
         "colorSpace": "acescg",
-        "nk": [1.93501, 3.51, 1.81311, 3.26567, 1.63294, 2.72571]
+        "nk": [1.96219, 3.89684, 1.90668, 3.59684, 1.74737, 2.98191]
       }
     ],
     "density": [8900],
@@ -2265,8 +2617,8 @@
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=main&book=Ni&page=Rakic-BB",
-        "accessed": "2025-01-26"
+        "url": "https://refractiveindex.info/?shelf=main&book=Ni&page=Johnson",
+        "accessed": "2025-06-26"
       },
       {
         "title": "Autodesk Arnold Documentation",
@@ -2729,33 +3081,51 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.695, 0.638, 0.541]
+        "color": [0.765, 0.73, 0.676]
       },
       {
         "colorSpace": "acescg",
-        "color": [0.662, 0.642, 0.592]
+        "color": [0.749, 0.732, 0.684]
       }
     ],
     "metalness": 1,
     "specularColor": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [0.816, 0.786, 0.671]
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.873, 0.85, 0.747]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.851, 0.853, 0.844]
+          }
+        ]
       },
       {
-        "colorSpace": "acescg",
-        "color": [0.788, 0.789, 0.784]
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.793, 0.815, 0.84]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.802, 0.814, 0.836]
+          }
+        ]
       }
     ],
     "roughness": 0,
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [2.1755, 4.28265, 2.0879, 3.67782, 2.35677, 3.05144]
+        "nk": [2.17679, 5.44798, 2.02616, 4.54881, 2.34437, 3.74446]
       },
       {
         "colorSpace": "acescg",
-        "nk": [2.2213, 3.98541, 2.08131, 3.7055, 1.85756, 3.16935]
+        "nk": [2.19707, 4.98395, 2.02224, 4.58862, 1.80496, 3.87107]
       }
     ],
     "density": [21450],
@@ -2764,8 +3134,8 @@
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=3d&book=metals&page=platinum",
-        "accessed": "2025-02-05"
+        "url": "https://refractiveindex.info/?shelf=main&book=Pt&page=Werner-DFT",
+        "accessed": "2025-06-26"
       },
       {
         "title": "Autodesk Arnold Documentation",
@@ -3059,33 +3429,51 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.351, 0.367, 0.394]
+        "color": [0.345, 0.369, 0.426]
       },
       {
         "colorSpace": "acescg",
-        "color": [0.355, 0.367, 0.417]
+        "color": [0.357, 0.368, 0.418]
       }
     ],
     "metalness": 1,
     "specularColor": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [0.081, 0, 0.004]
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.081, 0, 0.004]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.001, 0, 0.002]
+          }
+        ]
       },
       {
-        "colorSpace": "acescg",
-        "color": [0.001, 0.0, 0.002]
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.72, 0.701, 0.663]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.711, 0.702, 0.669]
+          }
+        ]
       }
     ],
     "roughness": 0,
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [3.63351, 0.966245, 4.06958, 0, 4.36103, 0]
+        "nk": [3.65156, 0.972551, 4.08561, 0, 4.36337, 0]
       },
       {
         "colorSpace": "acescg",
-        "nk": [3.9475, 0.0980336, 4.07195, 0.0273118, 4.64067, 0.176741]
+        "nk": [3.96501, 0.100296, 4.08831, 0, 4.64341, 0.202839]
       }
     ],
     "density": [2330],
@@ -3094,8 +3482,8 @@
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=main&book=Si&page=Schinke",
-        "accessed": "2025-02-05"
+        "url": "https://refractiveindex.info/?shelf=main&book=Si&page=Aspnes",
+        "accessed": "2025-06-26"
       },
       {
         "title": "Silicon",
@@ -3130,33 +3518,51 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.984, 0.946, 0.851]
+        "color": [0.991, 0.985, 0.974]
       },
       {
         "colorSpace": "acescg",
-        "color": [0.956, 0.949, 0.923]
+        "color": [0.988, 0.985, 0.975]
       }
     ],
     "metalness": 1,
     "specularColor": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [0.999, 0.998, 0.986]
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 1.0, 0.991]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [1.0, 1.0, 1.0]
+          }
+        ]
       },
       {
-        "colorSpace": "acescg",
-        "color": [0.999, 0.998, 0.998]
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.994, 0.995, 0.998]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.995, 0.995, 0.998]
+          }
+        ]
       }
     ],
     "roughness": 0,
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [0.0636949, 3.69295, 0.155409, 3.20559, 0.426839, 3.12206]
+        "nk": [0, 8.06675, 0.0626977, 3.62828, 0.382178, 3.80086]
       },
       {
         "colorSpace": "acescg",
-        "nk": [0.150392, 3.50547, 0.145063, 3.18588, 0.135372, 2.40307]
+        "nk": [0.0485451, 3.90854, 0.0511628, 3.56812, 0.0515574, 2.69761]
       }
     ],
     "density": [10500],
@@ -3166,8 +3572,8 @@
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=3d&book=metals&page=silver",
-        "accessed": "2025-02-05"
+        "url": "https://refractiveindex.info/?shelf=main&book=Ag&page=Babar",
+        "accessed": "2025-06-26"
       },
       {
         "title": "Autodesk Arnold Documentation",
@@ -3818,7 +4224,7 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.685, 0.637, 0.554]
+        "color": [0.669, 0.639, 0.598]
       },
       {
         "colorSpace": "acescg",
@@ -3828,12 +4234,30 @@
     "metalness": 1,
     "specularColor": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [0.804, 0.791, 0.714]
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.804, 0.791, 0.714]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.783, 0.793, 0.812]
+          }
+        ]
       },
       {
-        "colorSpace": "acescg",
-        "color": [0.783, 0.793, 0.812]
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.789, 0.823, 0.87]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.803, 0.821, 0.863]
+          }
+        ]
       }
     ],
     "roughness": 0,
@@ -3925,33 +4349,51 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.633, 0.578, 0.503]
+        "color": [0.441, 0.4, 0.361]
       },
       {
         "colorSpace": "acescg",
-        "color": [0.602, 0.582, 0.548]
+        "color": [0.424, 0.403, 0.367]
       }
     ],
     "metalness": 1,
     "specularColor": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [0.728, 0.68, 0.55]
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.67, 0.641, 0.52]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.637, 0.645, 0.657]
+          }
+        ]
       },
       {
-        "colorSpace": "acescg",
-        "color": [0.689, 0.685, 0.691]
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.865, 0.906, 0.946]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.882, 0.903, 0.94]
+          }
+        ]
       }
     ],
     "roughness": 0,
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [2.55584, 3.89385, 2.52916, 3.39243, 2.8235, 2.85229]
+        "nk": [1.9345, 2.33987, 1.86761, 2.05312, 2.05863, 1.74518]
       },
       {
         "colorSpace": "acescg",
-        "nk": [2.63429, 3.64373, 2.51847, 3.42085, 2.27556, 3.06889]
+        "nk": [1.9732, 2.20459, 1.86443, 2.06955, 1.70307, 1.86062]
       }
     ],
     "density": [4540],
@@ -3960,8 +4402,8 @@
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=3d&book=metals&page=titanium",
-        "accessed": "2025-01-26"
+        "url": "https://refractiveindex.info/?shelf=main&book=Ti&page=Palm",
+        "accessed": "2025-06-26"
       },
       {
         "title": "Density",
@@ -4031,33 +4473,51 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.518, 0.495, 0.442]
+        "color": [0.537, 0.536, 0.519]
       },
       {
         "colorSpace": "acescg",
-        "color": [0.502, 0.497, 0.48]
+        "color": [0.536, 0.535, 0.522]
       }
     ],
     "metalness": 1,
     "specularColor": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [0.461, 0.413, 0.206]
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.45, 0.409, 0.193]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.401, 0.414, 0.417]
+          }
+        ]
       },
       {
-        "colorSpace": "acescg",
-        "color": [0.41, 0.419, 0.423]
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.695, 0.704, 0.714]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.699, 0.703, 0.713]
+          }
+        ]
       }
     ],
     "roughness": 0,
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [3.45096, 2.96613, 3.51714, 2.7338, 4.02045, 1.90549]
+        "nk": [3.8332, 3.26472, 3.92528, 3.0739, 4.53149, 2.0965]
       },
       {
         "colorSpace": "acescg",
-        "nk": [3.59035, 2.7832, 3.50099, 2.75406, 3.32528, 2.6167]
+        "nk": [3.99552, 3.07855, 3.90702, 3.09281, 3.74628, 2.96596]
       }
     ],
     "density": [19300],
@@ -4066,8 +4526,8 @@
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=main&book=W&page=Rakic-BB",
-        "accessed": "2025-01-26"
+        "url": "https://refractiveindex.info/?shelf=main&book=W&page=Werner-DFT",
+        "accessed": "2025-06-26"
       },
       {
         "title": "Density",
@@ -4095,7 +4555,7 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.547, 0.525, 0.506]
+        "color": [0.534, 0.526, 0.546]
       },
       {
         "colorSpace": "acescg",
@@ -4105,12 +4565,30 @@
     "metalness": 1,
     "specularColor": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [0.474, 0.426, 0.175]
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.474, 0.426, 0.175]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.421, 0.432, 0.409]
+          }
+        ]
       },
       {
-        "colorSpace": "acescg",
-        "color": [0.421, 0.432, 0.409]
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.705, 0.715, 0.695]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.708, 0.714, 0.698]
+          }
+        ]
       }
     ],
     "roughness": 0,
@@ -4306,7 +4784,7 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.826, 0.842, 0.801]
+        "color": [0.808, 0.844, 0.865]
       },
       {
         "colorSpace": "acescg",
@@ -4316,12 +4794,30 @@
     "metalness": 1,
     "specularColor": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [0.854, 0.922, 0.923]
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.854, 0.922, 0.923]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.874, 0.92, 0.962]
+          }
+        ]
       },
       {
-        "colorSpace": "acescg",
-        "color": [0.874, 0.92, 0.962]
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.762, 0.833, 0.896]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.793, 0.829, 0.887]
+          }
+        ]
       }
     ],
     "roughness": 0,

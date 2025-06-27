@@ -67,7 +67,7 @@
         "default": 0
       },
       "complexIor": {
-        "description": "Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel, in the following order: nR, kR, nG, kG, nB, kB. Calculated from spectral data using script from https://github.com/natyh/material-params",
+        "description": "Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel, in the following order: nR, kR, nG, kG, nB, kB. Calculated from spectral IOR data files with script from https://github.com/natyh/material-params",
         "type": "array",
         "items": {
           "type": "number"

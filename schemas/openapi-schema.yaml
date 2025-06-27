@@ -11,7 +11,9 @@ info:
 
     For additions or changes, feel free to make a Pull Request on Github at https://github.com/AntonPalmqvist/physically-based-api or send me a message through the [contact form.](https://physicallybased.info/about/)
 
-    Schema: https://github.com/AntonPalmqvist/physically-based-api/blob/main/deploy/openapi-schema.yaml
+    Schema: https://github.com/AntonPalmqvist/physically-based-api/blob/main/schemas/openapi-schema.yaml
+
+    API v2 available for testing at: https://api.physicallybased.info/v2/
   contact:
     url: 'https://physicallybased.info/about'
     name: Form
@@ -119,7 +121,7 @@ components:
           description: 'Abbe number, describing how much the index of refraction varies across wavelengths. For glass and diamonds, this is typically in the range of 10 to 70, with lower numbers giving more dispersion.'
         complexIor:
           type: array
-          description: 'Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel, in the following order: nR, kR, nG, kG, nB, kB. Calculated from spectral IOR data files.'
+          description: 'Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel, in the following order: nR, kR, nG, kG, nB, kB. Calculated from spectral IOR data files with script from https://github.com/natyh/material-params'
           minItems: 6
           maxItems: 6
           items:

@@ -45,31 +45,51 @@
         "default": 0
       },
       "specularColor": {
-        "description": "Color of the specular reflection for metals, specified in the \"Gulbrandsen edge tint\" format. Calculated from spectral data using script from https://github.com/natyh/material-params",
+        "description": "Color of the specular reflection for metals, specified in the \"Gulbrandsen edge tint\", and \"F82\" formats. Calculated from spectral data using scripts from https://github.com/natyh/material-params and https://github.com/portsmouth/F82-tint-generator",
         "type": "array",
-        "minItems": 1,
+        "minItems": 2,
         "uniqueItems": true,
         "items": {
           "additionalProperties": false,
           "type": "object",
           "properties": {
-            "colorSpace": {
-              "description": "The color space.",
-              "type": "string",
-              "default": "srgb-linear"
-            },
-            "color": {
-              "description": "RGB triplet (vec3) in decimal format.",
+            "format": {
               "type": "array",
               "items": {
-                "type": "number"
+                "enum": ["Gulbrandsen", "F82"]
               },
-              "default": [0.5, 0.5, 0.5],
-              "minItems": 3,
-              "maxItems": 3
+              "minItems": 1,
+              "maxItems": 1
+            },
+            "color": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "additionalProperties": false,
+                "type": "object",
+                "properties": {
+                  "colorSpace": {
+                    "description": "The color space.",
+                    "type": "string",
+                    "default": "srgb-linear"
+                  },
+                  "color": {
+                    "description": "RGB triplet (vec3) in decimal format.",
+                    "type": "array",
+                    "items": {
+                      "type": "number"
+                    },
+                    "default": [0.5, 0.5, 0.5],
+                    "minItems": 3,
+                    "maxItems": 3
+                  }
+                },
+                "required": ["colorSpace", "color"]
+              }
             }
           },
-          "required": ["colorSpace", "color"]
+          "required": ["format", "color"]
         }
       },
       "roughness": {
@@ -103,7 +123,7 @@
         "default": 0
       },
       "complexIor": {
-        "description": "Complex IOR values, n (refractive index), and k (extinction coefficient). Calculated from spectral data using script from https://github.com/natyh/material-params",
+        "description": "Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel, in the following order: nR, kR, nG, kG, nB, kB. Calculated from spectral IOR data files with script from https://github.com/natyh/material-params",
         "type": "array",
         "minItems": 1,
         "uniqueItems": true,

@@ -74,7 +74,7 @@
         "default": 90
       },
       "sourceSize": {
-        "description": "The size of the light source in centimeters. [Radius] if point or spot. [Width, Height] if surface. [Length, Radius] if cylinder.",
+        "description": "The size of the light source in centimeters. [Radius] if point or spot. [Width, Height] if surface. [Radius, Length] if cylinder.",
         "type": "array",
         "items": {
           "type": "number"
