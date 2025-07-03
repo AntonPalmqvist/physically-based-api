@@ -514,6 +514,26 @@
     ]
   },
   {
+    "name": "Germanium",
+    "color": [0.5, 0.517, 0.465],
+    "metalness": 1,
+    "specularColor": [0.068, 0.179, 0.002],
+    "roughness": 0,
+    "ior": 1.5,
+    "complexIor": [5.63391, 1.44383, 5.06611, 2.25088, 4.81402, 0.279501],
+    "density": 5327,
+    "category": ["Metal"],
+    "description": "",
+    "sources": [
+      "https://refractiveindex.info/?shelf=main&book=Ge&page=Aspnes",
+      "https://en.wikipedia.org/w/index.php?title=Germanium&oldid=1294309596"
+    ],
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/germanium.jpeg"
+    ]
+  },
+  {
     "name": "Glass",
     "color": [1, 1, 1],
     "metalness": 0,
@@ -628,6 +648,26 @@
     ]
   },
   {
+    "name": "Iridium",
+    "color": [0.745, 0.734, 0.704],
+    "metalness": 1,
+    "specularColor": [0.818, 0.81, 0.727],
+    "roughness": 0,
+    "ior": 1.5,
+    "complexIor": [2.79209, 5.68877, 2.56343, 5.0549, 2.7216, 4.20215],
+    "density": 22562,
+    "category": ["Metal"],
+    "description": "",
+    "sources": [
+      "https://refractiveindex.info/?shelf=main&book=Ir&page=Schmitt-ALD",
+      "https://en.wikipedia.org/w/index.php?title=Iridium&oldid=1296793846"
+    ],
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/iridium.jpeg"
+    ]
+  },
+  {
     "name": "Iron",
     "color": [0.53, 0.513, 0.494],
     "metalness": 1,
@@ -706,6 +746,67 @@
     "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/lemon.jpeg"
+    ]
+  },
+  {
+    "name": "Lithium",
+    "color": [0.916, 0.89, 0.807],
+    "metalness": 1,
+    "specularColor": [0.998, 0.995, 0.975],
+    "roughness": 0,
+    "ior": 1.5,
+    "complexIor": [0.141612, 2.7434, 0.215656, 2.48258, 0.481854, 2.35726],
+    "density": 535,
+    "category": ["Metal"],
+    "description": "",
+    "sources": [
+      "https://refractiveindex.info/?shelf=main&book=Li&page=Rasigni",
+      "https://en.wikipedia.org/w/index.php?title=Lithium&oldid=1297355131"
+    ],
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/lithium.jpeg"
+    ]
+  },
+  {
+    "name": "Magnesium",
+    "color": [0.956, 0.953, 0.95],
+    "metalness": 1,
+    "specularColor": [0.998, 0.996, 0.983],
+    "roughness": 0,
+    "ior": 1.5,
+    "complexIor": [0.286425, 6.75553, 0.322265, 4.94909, 0.594764, 4.25174],
+    "density": 1737,
+    "category": ["Metal"],
+    "description": "",
+    "sources": [
+      "https://refractiveindex.info/?shelf=main&book=Mg&page=Hagemann",
+      "https://en.wikipedia.org/w/index.php?title=Magnesium&oldid=1297525267",
+      "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167"
+    ],
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/magnesium.jpeg"
+    ]
+  },
+  {
+    "name": "Manganese",
+    "color": [0.606, 0.592, 0.573],
+    "metalness": 1,
+    "specularColor": [0.757, 0.761, 0.715],
+    "roughness": 0,
+    "ior": 1.5,
+    "complexIor": [2.22147, 3.60175, 2.02055, 3.25337, 2.03472, 2.862],
+    "density": 7476,
+    "category": ["Metal"],
+    "description": "",
+    "sources": [
+      "https://refractiveindex.info/?shelf=main&book=Mn&page=Querry",
+      "https://en.wikipedia.org/w/index.php?title=Manganese&oldid=1296594586"
+    ],
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/manganese.jpeg"
     ]
   },
   {
@@ -797,6 +898,26 @@
     ]
   },
   {
+    "name": "Molybdenum",
+    "color": [0.589, 0.612, 0.594],
+    "metalness": 1,
+    "specularColor": [0.495, 0.505, 0.383],
+    "roughness": 0,
+    "ior": 1.5,
+    "complexIor": [4.13827, 3.90428, 4.14866, 4.00545, 4.27845, 3.21018],
+    "density": 10223,
+    "category": ["Metal"],
+    "description": "",
+    "sources": [
+      "https://refractiveindex.info/?shelf=main&book=Mo&page=Werner-DFT",
+      "https://en.wikipedia.org/w/index.php?title=Molybdenum&oldid=1288578240"
+    ],
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/molybdenum.jpeg"
+    ]
+  },
+  {
     "name": "Musou Black",
     "color": [0.006, 0.006, 0.006],
     "metalness": 0,
@@ -852,6 +973,26 @@
     "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/office-paper.jpeg"
+    ]
+  },
+  {
+    "name": "Palladium",
+    "color": [0.734, 0.7036, 0.662],
+    "metalness": 1,
+    "specularColor": [0.874, 0.854, 0.779],
+    "roughness": 0,
+    "ior": 1.5,
+    "complexIor": [1.88141, 4.66959, 1.79976, 4.03631, 2.00737, 3.43839],
+    "density": 12007,
+    "category": ["Metal"],
+    "description": "",
+    "sources": [
+      "https://refractiveindex.info/?shelf=main&book=Pd&page=Palm",
+      "https://en.wikipedia.org/w/index.php?title=Palladium&oldid=1296661941"
+    ],
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/palladium.jpeg"
     ]
   },
   {
@@ -1046,6 +1187,26 @@
     ]
   },
   {
+    "name": "Potassium",
+    "color": [0.983, 0.956, 0.906],
+    "metalness": 1,
+    "specularColor": [1.0, 1.0, 0.994],
+    "roughness": 0,
+    "ior": 1.5,
+    "complexIor": [0.0, 3.37295, 0.041228, 1.56367, 0.220328, 2.05971],
+    "density": 859,
+    "category": ["Metal"],
+    "description": "",
+    "sources": [
+      "https://refractiveindex.info/?shelf=main&book=K&page=Monin",
+      "https://en.wikipedia.org/w/index.php?title=Potassium&oldid=1291714608"
+    ],
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/potassium.jpeg"
+    ]
+  },
+  {
     "name": "Quartz",
     "color": [1, 1, 1],
     "metalness": 0,
@@ -1064,6 +1225,26 @@
     "tags": [],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/quartz.jpeg"
+    ]
+  },
+  {
+    "name": "Rubidium",
+    "color": [0.919, 0.859, 0.747],
+    "metalness": 1,
+    "specularColor": [1.0, 0.999, 0.998],
+    "roughness": 0,
+    "ior": 1.5,
+    "complexIor": [0.0391755, 1.22619, 0.101768, 1.27629, 0.205178, 1.13104],
+    "density": 1534,
+    "category": ["Metal"],
+    "description": "",
+    "sources": [
+      "https://refractiveindex.info/?shelf=main&book=Rb&page=Monin",
+      "https://en.wikipedia.org/w/index.php?title=Rubidium&oldid=1297114941"
+    ],
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/rubidium.jpeg"
     ]
   },
   {
@@ -1361,6 +1542,26 @@
     "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/soap-bubble.jpeg"
+    ]
+  },
+  {
+    "name": "Sodium",
+    "color": [0.977, 0.962, 0.936],
+    "metalness": 1,
+    "specularColor": [1.0, 1.0, 0.991],
+    "roughness": 0,
+    "ior": 1.5,
+    "complexIor": [0.0, 4.94428, 0.0669661, 2.3243, 0.325253, 2.89317],
+    "density": 969,
+    "category": ["Metal"],
+    "description": "",
+    "sources": [
+      "https://refractiveindex.info/?shelf=main&book=Na&page=Smith",
+      "https://en.wikipedia.org/w/index.php?title=Sodium&oldid=1292971623"
+    ],
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/sodium.jpeg"
     ]
   },
   {

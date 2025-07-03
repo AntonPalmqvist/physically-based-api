@@ -1610,6 +1610,88 @@
     ]
   },
   {
+    "name": "Germanium",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.5, 0.517, 0.465]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.504, 0.515, 0.472]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.068, 0.179, 0.002]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.069, 0.175, 0.252]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.62, 0.653, 0.701]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.635, 0.651, 0.694]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [5.63391, 1.44383, 5.06611, 2.25088, 4.81402, 0.279501]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [5.51092, 1.431, 5.07691, 2.22993, 4.11938, 2.23401]
+      }
+    ],
+    "density": [5327],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Ge&page=Aspnes",
+        "accessed": "2025-06-29"
+      },
+      {
+        "title": "Germanium",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Germanium&oldid=1294309596",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-06-29"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/germanium.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/germanium.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/germanium.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/germanium.avif"
+      }
+    ]
+  },
+  {
     "name": "Glass",
     "color": [
       {
@@ -1951,6 +2033,95 @@
     ]
   },
   {
+    "name": "Iridium",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.745, 0.734, 0.704]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.739, 0.734, 0.709]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.818, 0.81, 0.727]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.799, 0.812, 0.828]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.759, 0.781, 0.81]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.768, 0.78, 0.806]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [2.79209, 5.68877, 2.56343, 5.0549, 2.7216, 4.20215]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [2.78993, 5.33631, 2.56186, 5.08541, 2.14497, 4.42262]
+      }
+    ],
+    "density": [22562],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Ir&page=Schmitt-ALD",
+        "accessed": "2025-06-29"
+      },
+      {
+        "title": "Iridium",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Iridium&oldid=1296793846",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-06-29"
+      },
+      {
+        "title": "Density",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-01-26"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/iridium.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/iridium.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/iridium.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/iridium.avif"
+      }
+    ]
+  },
+  {
     "name": "Iron",
     "color": [
       {
@@ -2223,6 +2394,266 @@
         "format": "avif",
         "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/lemon.avif",
         "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/lemon.avif"
+      }
+    ]
+  },
+  {
+    "name": "Lithium",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.916, 0.89, 0.807]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.902, 0.89, 0.819]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.998, 0.995, 0.975]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.996, 0.996, 0.993]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.985, 0.998, 1.027]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.991, 0.998, 1.023]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [0.141612, 2.7434, 0.215656, 2.48258, 0.481854, 2.35726]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [0.214498, 2.70456, 0.207691, 2.46885, 0.236271, 1.92343]
+      }
+    ],
+    "density": [535],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Li&page=Rasigni",
+        "accessed": "2025-06-29"
+      },
+      {
+        "title": "Lithium",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Lithium&oldid=1297355131",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-06-29"
+      },
+      {
+        "title": "Density",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-01-26"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/lithium.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/lithium.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/lithium.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/lithium.avif"
+      }
+    ]
+  },
+  {
+    "name": "Magnesium",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.956, 0.953, 0.95]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.955, 0.953, 0.951]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.998, 0.996, 0.983]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.996, 0.997, 0.997]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.954, 0.964, 0.977]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.958, 0.963, 0.975]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [0.286425, 6.75553, 0.322265, 4.94909, 0.594764, 4.25174]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [0.365942, 5.53795, 0.31319, 5.01834, 0.224454, 4.09048]
+      }
+    ],
+    "density": [1737],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Mg&page=Hagemann",
+        "accessed": "2025-06-29"
+      },
+      {
+        "title": "Magnesium",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Magnesium&oldid=1297525267",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-06-29"
+      },
+      {
+        "title": "Density",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-01-26"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/magnesium.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/magnesium.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/magnesium.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/magnesium.avif"
+      }
+    ]
+  },
+  {
+    "name": "Manganese",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.606, 0.592, 0.573]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.6, 0.592, 0.576]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.757, 0.761, 0.715]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.743, 0.762, 0.808]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.796, 0.834, 0.889]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.813, 0.832, 0.88]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [2.22147, 3.60175, 2.02055, 3.25337, 2.03472, 2.862]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [2.21105, 3.43301, 2.01942, 3.27, 1.61898, 2.90038]
+      }
+    ],
+    "density": [7476],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Mn&page=Querry",
+        "accessed": "2025-06-29"
+      },
+      {
+        "title": "Manganese",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Manganese&oldid=1296594586",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-06-29"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/manganese.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/manganese.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/manganese.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/manganese.avif"
       }
     ]
   },
@@ -2519,6 +2950,88 @@
     ]
   },
   {
+    "name": "Molybdenum",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.589, 0.612, 0.594]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.597, 0.61, 0.596]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.495, 0.505, 0.383]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.47, 0.507, 0.561]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.683, 0.696, 0.726]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.689, 0.695, 0.721]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [4.13827, 3.90428, 4.14866, 4.00545, 4.27845, 3.21018]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [4.25384, 3.82381, 4.12785, 4.00138, 3.55369, 3.80316]
+      }
+    ],
+    "density": [10223],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Mo&page=Werner-DFT",
+        "accessed": "2025-06-29"
+      },
+      {
+        "title": "Molybdenum",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Molybdenum&oldid=1288578240",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-06-29"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/molybdenum.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/molybdenum.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/molybdenum.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/molybdenum.avif"
+      }
+    ]
+  },
+  {
     "name": "Musou Black",
     "color": [
       {
@@ -2695,6 +3208,88 @@
         "format": "avif",
         "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/office-paper.avif",
         "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/office-paper.avif"
+      }
+    ]
+  },
+  {
+    "name": "Palladium",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.734, 0.7036, 0.662]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.721, 0.705, 0.669]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.874, 0.854, 0.779]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.854, 0.857, 0.863]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.811, 0.836, 0.872]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.822, 0.835, 0.866]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [1.88141, 4.66959, 1.79976, 4.03631, 2.00737, 3.43839]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [1.92412, 4.35994, 1.79229, 4.06362, 1.53501, 3.47822]
+      }
+    ],
+    "density": [12007],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Pd&page=Palm",
+        "accessed": "2025-06-30"
+      },
+      {
+        "title": "Palladium",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Palladium&oldid=1296661941",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-06-30"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/palladium.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/palladium.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/palladium.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/palladium.avif"
       }
     ]
   },
@@ -3227,6 +3822,88 @@
     ]
   },
   {
+    "name": "Potassium",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.983, 0.956, 0.906]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.971, 0.957, 0.914]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 1.0, 0.994]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [1.0, 1.0, 1.0]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.002, 1.011, 1.032]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [1.006, 1.01, 1.029]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [0.0, 3.37295, 0.041228, 1.56367, 0.220328, 2.05971]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [0.026298, 1.59507, 0.0349856, 1.47657, 0.0473681, 1.04672]
+      }
+    ],
+    "density": [859],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=K&page=Monin",
+        "accessed": "2025-07-03"
+      },
+      {
+        "title": "Potassium",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Potassium&oldid=1291714608",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-07-03"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/potassium.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/potassium.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/potassium.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/potassium.avif"
+      }
+    ]
+  },
+  {
     "name": "Quartz",
     "color": [
       {
@@ -3273,6 +3950,88 @@
         "format": "avif",
         "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/quartz.avif",
         "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/quartz.avif"
+      }
+    ]
+  },
+  {
+    "name": "Rubidium",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.919, 0.859, 0.747]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.892, 0.862, 0.764]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.999, 0.998]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.999, 0.999, 1.002]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.016, 1.042, 1.105]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [1.028, 1.041, 1.096]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [0.0391755, 1.22619, 0.101768, 1.27629, 0.205178, 1.13104]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [0.0830927, 1.37965, 0.0956511, 1.25123, 0.111367, 0.807355]
+      }
+    ],
+    "density": [1534],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Rb&page=Monin",
+        "accessed": "2025-07-03"
+      },
+      {
+        "title": "Rubidium",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Rubidium&oldid=1297114941",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-07-03"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/rubidium.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/rubidium.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/rubidium.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/rubidium.avif"
       }
     ]
   },
@@ -4216,6 +4975,88 @@
         "format": "avif",
         "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/soap-bubble.avif",
         "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/soap-bubble.avif"
+      }
+    ]
+  },
+  {
+    "name": "Sodium",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.977, 0.962, 0.936]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.97, 0.962, 0.94]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 1.0, 0.991]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [1.0, 1.0, 0.999]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.998, 1.002, 1.011]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [1.0, 1.002, 1.01]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [0.0, 4.94428, 0.0669661, 2.3243, 0.325253, 2.89317]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [0.0525806, 2.43603, 0.058413, 2.25156, 0.0664729, 1.80989]
+      }
+    ],
+    "density": [969],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Na&page=Smith",
+        "accessed": "2025-07-03"
+      },
+      {
+        "title": "Sodium",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Sodium&oldid=1292971623",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-07-03"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/sodium.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/sodium.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/sodium.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/sodium.avif"
       }
     ]
   },
