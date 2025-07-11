@@ -739,14 +739,30 @@
   },
   {
     "name": "Household Light Bulb",
-    "color": [
+    "temperature": [2200, 6000, 2700],
+    "intensity": [400, 1600, 800],
+    "variants": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.415, 0.099]
+        "format": "2700 K",
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.415, 0.099]
+          }
+        ],
+        "temperature": 2700
+      },
+      {
+        "format": "5000 K",
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.792, 0.628]
+          }
+        ],
+        "temperature": 5000
       }
     ],
-    "temperature": [2400, 6000, 2700],
-    "intensity": [400, 1000, 800],
     "unit": ["lm"],
     "sourceSize": [3],
     "type": ["point"],
@@ -766,9 +782,15 @@
         "url": "https://en.wikipedia.org/w/index.php?title=LED_lamp&oldid=1269221959",
         "publisher": "Wikipedia, The Free Encyclopedia",
         "accessed": "2025-02-27"
+      },
+      {
+        "title": "LED light bulbs",
+        "url": "https://www.ikea.com/us/en/cat/led-bulbs-20514/",
+        "publisher": "Inter IKEA Systems B.V.",
+        "accessed": "2025-07-10"
       }
     ],
-    "tags": ["incandescent", "tungsten"]
+    "tags": ["incandescent", "tungsten", "LED"]
   },
   {
     "name": "Moon",

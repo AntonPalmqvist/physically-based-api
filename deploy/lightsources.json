@@ -402,9 +402,21 @@
     "name": "Household Light Bulb",
     "color": [1.0, 0.415, 0.099],
     "temperature": 2700,
-    "temperatureRange": [2400, 6000],
+    "temperatureRange": [2200, 6000],
     "intensity": 800,
-    "intensityRange": [400, 1000],
+    "intensityRange": [400, 1600],
+    "variants": [
+      {
+        "format": "2700 K",
+        "color": [1.0, 0.415, 0.099],
+        "temperature": 2700
+      },
+      {
+        "format": "5000 K",
+        "color": [1.0, 0.792, 0.628],
+        "temperature": 5000
+      }
+    ],
     "unit": ["lm"],
     "sourceSize": [3],
     "type": ["point"],
@@ -412,7 +424,8 @@
     "description": "Today's household lightbulbs has a LED light source whereas older light bulbs were using a glowing tungsten filament. LED:s are much much more energy efficient and makes the use of wattage, as a measure of intensity, not very useful. This is why lumen is preferred.",
     "sources": [
       "https://en.wikipedia.org/wiki/Incandescent_light_bulb",
-      "https://en.wikipedia.org/wiki/LED_lamp"
+      "https://en.wikipedia.org/wiki/LED_lamp",
+      "https://www.ikea.com/us/en/cat/led-bulbs-20514/"
     ],
     "tags": ["incandescent", "tungsten"]
   },
