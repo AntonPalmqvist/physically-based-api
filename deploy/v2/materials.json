@@ -590,7 +590,7 @@
     "ior": 1.5,
     "category": ["Manmade"],
     "description": "Modern car paints are nearly always an acrylic polyurethane \"enamel\" with a pigmented basecoat and a clear topcoat. It may be described as \"acrylic\", \"acrylic enamel\", \"urethane\", etc. and the clearcoat in particular may be described as a lacquer. The size of the metal flakes in metallic paints is typically between 100 to 400 microns in diameter. Modern automobile paint is applied in several layers, with a total thickness of around 100 μm (0.1mm).",
-    "tags": ["acrylic", "coat", "car paint", "lacquer", "metallic"],
+    "tags": ["acrylic", "coat", "car paint", "lacquer"],
     "references": [
       {
         "title": "Automotive Paint",
@@ -1508,12 +1508,13 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.68, 0.49, 0.37]
+        "color": [0.652, 0.5, 0.394]
       }
     ],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0,
     "ior": 1.4,
+    "subsurfaceRadius": [0.482, 0.169, 0.109],
     "category": ["Human"],
     "references": [
       {
@@ -1532,6 +1533,12 @@
         "author": "Jimenez, J.",
         "url": "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
         "accessed": "2025-01-26"
+      },
+      {
+        "title": "The Wikihuman Project",
+        "url": "https://vgl.ict.usc.edu/Data/DigitalEmily2/",
+        "publisher": "USC Institute for Creative Technologies",
+        "accessed": "2025-07-13"
       }
     ],
     "images": [

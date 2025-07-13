@@ -299,7 +299,8 @@
     "description": "Displays like computer monitors, TVs, signage, etc. Typically they have a temperature of 6500K but it can vary. The sRGB spec for monitors targets 80 cd/m2. Typically, monitors calibrated for broadcast or studio color grading should have a brightness of 100 cd/m2 in Japan and in the United States, or 120 cd/m2 in the European Union. This is however considered quite dark for normal use, so consumer monitors tend to be brighter.",
     "sources": [
       "https://en.wikipedia.org/wiki/Color_temperature",
-      "https://en.wikipedia.org/wiki/Candela_per_square_metre"
+      "https://en.wikipedia.org/wiki/Candela_per_square_metre",
+      "https://en.wikipedia.org/w/index.php?title=High-dynamic-range_television&oldid=1292082984#VESA_DisplayHDR"
     ],
     "tags": ["computer", "monitor", "lcd", "oled", "screen"]
   },
