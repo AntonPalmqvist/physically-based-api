@@ -234,7 +234,7 @@
       }
     ],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "category": ["Manmade"],
     "references": [
@@ -380,7 +380,7 @@
       }
     ],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "density": [1000, 2000, 1500],
     "category": ["Organic"],
@@ -524,7 +524,7 @@
       }
     ],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "density": [500, 2400, 2000],
     "acousticAbsorption": [0.03, 0.03, 0.03, 0.04, 0.05, 0.07],
@@ -775,7 +775,7 @@
       }
     ],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "density": [200, 500, 200],
     "category": ["Organic"],
@@ -1377,7 +1377,7 @@
       }
     ],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "category": ["Organic"],
     "description": "White hen egg from grocery store.",
@@ -1539,6 +1539,12 @@
         "url": "https://vgl.ict.usc.edu/Data/DigitalEmily2/",
         "publisher": "USC Institute for Creative Technologies",
         "accessed": "2025-07-13"
+      },
+      {
+        "title": "Louise - A virtual Model Digital Double",
+        "url": "https://eisko.com/louise/",
+        "publisher": "Eisko",
+        "accessed": "2025-07-14"
       }
     ],
     "images": [
@@ -1859,7 +1865,7 @@
       }
     ],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "category": ["Manmade"],
     "description": "In photography and computer graphics, middle gray is a tone that is perceptually about halfway between black and white on a lightness scale. Light meters and cameras are often calibrated using an 18% gray card or a color reference card such as a ColorChecker. It is typically defined as 18% reflectance in visible light.",
@@ -3177,7 +3183,7 @@
       }
     ],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.8,
     "ior": 1.5,
     "density": [800],
     "category": ["Manmade"],
@@ -3636,6 +3642,67 @@
     ]
   },
   {
+    "name": "Plastic (PUR)",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1, 1, 1]
+      }
+    ],
+    "metalness": 0,
+    "roughness": 0,
+    "ior": 1.6,
+    "transmission": 1,
+    "category": ["Plastic"],
+    "description": "Modern car paints are nearly always an acrylic polyurethane \"enamel\" with a pigmented basecoat and a clear topcoat. It may be described as \"acrylic\", \"acrylic enamel\", \"urethane\", etc. and the clearcoat in particular may be described as a lacquer.",
+    "tags": ["acrylic", "coat", "car paint", "lacquer", "polyurethane"],
+    "references": [
+      {
+        "title": "Automotive Paint",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Automotive_paint&oldid=1270250557",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-01-25"
+      },
+      {
+        "title": "Lacquer",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Lacquer&oldid=1269195190#Acrylic_lacquers",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-01-25"
+      },
+      {
+        "title": "Brdf and Gloss Computation of Polyurethane Coatings from Roughness Measurements: Modelling and Experimental Validation",
+        "author": "Wittmann, B., Montmitonnet, P., Burr, A., Gauthier, C., Agassant, J-F, & Casoli, A.",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0300944021001181",
+        "publisher": "Progress in Organic Coatings",
+        "volume": "156",
+        "issue": "106247",
+        "year": "2021",
+        "doi": "https://doi.org/10.1016/j.porgcoat.2021.106247"
+      },
+      {
+        "title": "High Refractive Index Aqueous Polyurethane Dispersion Coating Compositions",
+        "author": "Iwazumi, M., Schneider, A.",
+        "url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2011163461",
+        "publisher": "SDC TECHNOLOGIES, INC.",
+        "year": "2011"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/plastic-pur.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-pur.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/plastic-pur.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-pur.avif"
+      }
+    ]
+  },
+  {
     "name": "Plastic (PVC)",
     "color": [
       {
@@ -3764,67 +3831,6 @@
         "format": "avif",
         "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/platinum.avif",
         "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/platinum.avif"
-      }
-    ]
-  },
-  {
-    "name": "Polyurethane",
-    "color": [
-      {
-        "colorSpace": "srgb-linear",
-        "color": [1, 1, 1]
-      }
-    ],
-    "metalness": 0,
-    "roughness": 0,
-    "ior": 1.6,
-    "transmission": 1,
-    "category": ["Plastic"],
-    "description": "Modern car paints are nearly always an acrylic polyurethane \"enamel\" with a pigmented basecoat and a clear topcoat. It may be described as \"acrylic\", \"acrylic enamel\", \"urethane\", etc. and the clearcoat in particular may be described as a lacquer.",
-    "tags": ["acrylic", "coat", "car paint", "lacquer"],
-    "references": [
-      {
-        "title": "Automotive Paint",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=Automotive_paint&oldid=1270250557",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-01-25"
-      },
-      {
-        "title": "Lacquer",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=Lacquer&oldid=1269195190#Acrylic_lacquers",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-01-25"
-      },
-      {
-        "title": "Brdf and Gloss Computation of Polyurethane Coatings from Roughness Measurements: Modelling and Experimental Validation",
-        "author": "Wittmann, B., Montmitonnet, P., Burr, A., Gauthier, C., Agassant, J-F, & Casoli, A.",
-        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0300944021001181",
-        "publisher": "Progress in Organic Coatings",
-        "volume": "156",
-        "issue": "106247",
-        "year": "2021",
-        "doi": "https://doi.org/10.1016/j.porgcoat.2021.106247"
-      },
-      {
-        "title": "High Refractive Index Aqueous Polyurethane Dispersion Coating Compositions",
-        "author": "Iwazumi, M., Schneider, A.",
-        "url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2011163461",
-        "publisher": "SDC TECHNOLOGIES, INC.",
-        "year": "2011"
-      }
-    ],
-    "images": [
-      {
-        "format": "jpeg",
-        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/polyurethane.jpeg",
-        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/polyurethane.jpeg"
-      },
-      {
-        "format": "avif",
-        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/polyurethane.avif",
-        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/polyurethane.avif"
       }
     ]
   },
@@ -4095,7 +4101,7 @@
       }
     ],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "density": [1440, 1680, 1500],
     "category": ["Crystal"],
@@ -5158,7 +5164,7 @@
       }
     ],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.7,
     "ior": 1.5,
     "category": ["Manmade"],
     "description": "Car tire.",

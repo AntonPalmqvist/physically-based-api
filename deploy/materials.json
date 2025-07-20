@@ -62,7 +62,7 @@
     "name": "Blackboard",
     "color": [0.039, 0.039, 0.039],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "density": 0,
     "category": ["Manmade"],
@@ -108,7 +108,7 @@
     "name": "Bone",
     "color": [0.793, 0.793, 0.664],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "density": 1900,
     "densityRange": [1000, 2000],
@@ -149,7 +149,7 @@
     "name": "Brick",
     "color": [0.262, 0.095, 0.061],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "density": 2000,
     "densityRange": [500, 2400],
@@ -229,7 +229,7 @@
     "name": "Charcoal",
     "color": [0.02, 0.02, 0.02],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "density": 300,
     "densityRange": [200, 500],
@@ -421,7 +421,7 @@
     "name": "Egg Shell",
     "color": [0.61, 0.624, 0.631],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "density": 0,
     "category": ["Organic"],
@@ -486,7 +486,8 @@
     "sources": [
       "https://www.researchgate.net/publication/225767258_Optical_properties_of_human_sclera_in_spectral_range_370-2500_nm",
       "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
-      "https://vgl.ict.usc.edu/Data/DigitalEmily2/"
+      "https://vgl.ict.usc.edu/Data/DigitalEmily2/",
+      "https://eisko.com/louise/"
     ],
     "tags": [""],
     "reference": [
@@ -584,7 +585,7 @@
     "name": "Gray Card",
     "color": [0.18, 0.18, 0.18],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "density": 0,
     "category": ["Manmade"],
@@ -962,7 +963,7 @@
     "name": "Office Paper",
     "color": [0.794, 0.834, 0.884],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.8,
     "ior": 1.5,
     "density": 800,
     "category": ["Manmade"],
@@ -1127,6 +1128,27 @@
     ]
   },
   {
+    "name": "Plastic (PUR)",
+    "color": [1, 1, 1],
+    "metalness": 0,
+    "roughness": 0,
+    "ior": 1.6,
+    "transmission": 1,
+    "density": 0,
+    "category": ["Plastic"],
+    "description": "Modern car paints are nearly always an acrylic polyurethane \"enamel\" with a pigmented basecoat and a clear topcoat. It may be described as \"acrylic\", \"acrylic enamel\", \"urethane\", etc. and the clearcoat in particular may be described as a lacquer.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Automotive_paint",
+      "https://en.wikipedia.org/wiki/Lacquer#Acrylic_lacquers",
+      "https://hal.science/hal-04030017/document",
+      "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2011163461"
+    ],
+    "tags": ["acrylic", "coat", "car paint", "lacquer", "polyurethane"],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-pur.jpeg"
+    ]
+  },
+  {
     "name": "Plastic (PVC)",
     "color": [1, 1, 1],
     "metalness": 0,
@@ -1165,27 +1187,6 @@
     "tags": [""],
     "reference": [
       "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/platinum.jpeg"
-    ]
-  },
-  {
-    "name": "Polyurethane",
-    "color": [1, 1, 1],
-    "metalness": 0,
-    "roughness": 0,
-    "ior": 1.6,
-    "transmission": 1,
-    "density": 0,
-    "category": ["Plastic"],
-    "description": "Modern car paints are nearly always an acrylic polyurethane \"enamel\" with a pigmented basecoat and a clear topcoat. It may be described as \"acrylic\", \"acrylic enamel\", \"urethane\", etc. and the clearcoat in particular may be described as a lacquer.",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Automotive_paint",
-      "https://en.wikipedia.org/wiki/Lacquer#Acrylic_lacquers",
-      "https://hal.science/hal-04030017/document",
-      "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2011163461"
-    ],
-    "tags": ["acrylic", "coat", "car paint", "lacquer"],
-    "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/polyurethane.jpeg"
     ]
   },
   {
@@ -1273,7 +1274,7 @@
     "name": "Sand",
     "color": [0.44, 0.386, 0.23074],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "density": 1600,
     "category": ["Crystal"],
@@ -1591,7 +1592,7 @@
     "name": "Tire",
     "color": [0.023, 0.023, 0.023],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.7,
     "ior": 1.5,
     "density": 0,
     "category": ["Manmade"],
