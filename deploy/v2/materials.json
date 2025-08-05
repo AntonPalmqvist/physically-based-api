@@ -1,11 +1,56 @@
 [
   {
     "name": "Aluminum",
-    "color": [0.933, 0.912, 0.853],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.916, 0.923, 0.924]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.918, 0.922, 0.923]
+      }
+    ],
     "metalness": 1,
-    "specularColor": [0.981, 0.979, 0.961],
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.989, 0.989, 0.972]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.985, 0.989, 0.993]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.91, 0.936, 0.959]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.921, 0.934, 0.955]
+          }
+        ]
+      }
+    ],
     "roughness": 0,
-    "complexIor": [1.16234, 7.90265, 0.958053, 6.29309, 1.04947, 5.01364],
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [0.728978, 6.45971, 0.588215, 5.19646, 0.78354, 4.37746]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [0.73826, 5.76125, 0.58846, 5.26448, 0.401312, 4.35851]
+      }
+    ],
     "density": [2700],
     "category": ["Metal"],
     "tags": ["aluminium", "mirror"],
@@ -13,8 +58,8 @@
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=3d&book=metals&page=aluminium",
-        "accessed": "2025-01-09"
+        "url": "https://refractiveindex.info/?shelf=main&book=Al&page=Cheng",
+        "accessed": "2025-06-26"
       },
       {
         "title": "Autodesk Arnold Documentation",
@@ -60,7 +105,12 @@
   },
   {
     "name": "Banana",
-    "color": [0.634, 0.532, 0.111],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.634, 0.532, 0.111]
+      }
+    ],
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.5,
@@ -87,10 +137,104 @@
     ]
   },
   {
+    "name": "Beryllium",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.539, 0.533, 0.534]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.537, 0.534, 0.534]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.549, 0.503, 0.364]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.504, 0.509, 0.545]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.731, 0.738, 0.755]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.734, 0.738, 0.752]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [3.21038, 3.29815, 3.32907, 3.11669, 3.77105, 2.66995]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [3.36492, 3.16402, 3.30825, 3.13463, 3.09051, 3.12791]
+      }
+    ],
+    "density": [1850],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Be&page=Rakic-BB",
+        "accessed": "2025-06-18"
+      },
+      {
+        "title": "Beryllium",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Beryllium&oldid=1295895956",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-06-18"
+      },
+      {
+        "title": "Density",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-06-18"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/beryllium.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/beryllium.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/beryllium.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/beryllium.avif"
+      }
+    ]
+  },
+  {
     "name": "Blackboard",
-    "color": [0.039, 0.039, 0.039],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.039, 0.039, 0.039]
+      }
+    ],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "category": ["Manmade"],
     "references": [
@@ -123,11 +267,17 @@
   },
   {
     "name": "Blood",
-    "color": [0.64448, 0.003, 0.005],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.64448, 0.003, 0.005]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
-    "ior": 1.301,
+    "ior": 1.35,
     "transmission": 1,
+    "transmissionDispersion": 54,
     "density": [1060],
     "viscosity": [2.35, 4, 2.78],
     "category": ["Human"],
@@ -158,8 +308,8 @@
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=other&book=blood&page=Rowe",
-        "accessed": "2025-01-25"
+        "url": "https://refractiveindex.info/?shelf=other&book=blood&page=Liu",
+        "accessed": "2025-07-22"
       },
       {
         "title": "Density of Blood",
@@ -224,9 +374,14 @@
   },
   {
     "name": "Bone",
-    "color": [0.793, 0.793, 0.664],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.793, 0.793, 0.664]
+      }
+    ],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "density": [1000, 2000, 1500],
     "category": ["Organic"],
@@ -273,11 +428,56 @@
   },
   {
     "name": "Brass",
-    "color": [0.931, 0.776, 0.392],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.91, 0.778, 0.423]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.844, 0.782, 0.473]
+      }
+    ],
     "metalness": 1,
-    "specularColor": [0.995, 0.974, 0.747],
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.995, 0.974, 0.747]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.983, 0.975, 0.866]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.952, 0.979, 1.021]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.963, 0.977, 1.013]
+          }
+        ]
+      }
+    ],
     "roughness": 0,
-    "complexIor": [0.341048, 4.14088, 0.53349, 2.67993, 1.42749, 1.87543],
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [0.341048, 4.14088, 0.53349, 2.67993, 1.42749, 1.87543]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [0.473454, 3.16368, 0.521254, 2.69584, 1.0339, 1.92658]
+      }
+    ],
     "density": [8600],
     "category": ["Metal"],
     "description": "Brass is an alloy of copper and zinc, with a bright and gold-like appearance. It is similar to bronze, another alloy containing copper that uses tin instead of zinc. Historically, the distinction between the two alloys has been less consistent and clear, and modern practice in museums and archaeology increasingly avoids both terms for historical objects in favor of the more general \"copper alloy\".",
@@ -318,9 +518,14 @@
   },
   {
     "name": "Brick",
-    "color": [0.262, 0.095, 0.061],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.262, 0.095, 0.061]
+      }
+    ],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "density": [500, 2400, 2000],
     "acousticAbsorption": [0.03, 0.03, 0.03, 0.04, 0.05, 0.07],
@@ -375,13 +580,18 @@
   },
   {
     "name": "Car Paint",
-    "color": [0.1, 0.1, 0.1],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.1, 0.1, 0.1]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.5,
     "category": ["Manmade"],
     "description": "Modern car paints are nearly always an acrylic polyurethane \"enamel\" with a pigmented basecoat and a clear topcoat. It may be described as \"acrylic\", \"acrylic enamel\", \"urethane\", etc. and the clearcoat in particular may be described as a lacquer. The size of the metal flakes in metallic paints is typically between 100 to 400 microns in diameter. Modern automobile paint is applied in several layers, with a total thickness of around 100 μm (0.1mm).",
-    "tags": ["acrylic", "coat", "car paint", "lacquer", "metallic"],
+    "tags": ["acrylic", "coat", "car paint", "lacquer"],
     "references": [
       {
         "title": "Automotive Paint",
@@ -443,7 +653,12 @@
   },
   {
     "name": "Carrot",
-    "color": [0.713, 0.17, 0.026],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.713, 0.17, 0.026]
+      }
+    ],
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.5,
@@ -470,10 +685,98 @@
     ]
   },
   {
+    "name": "Cesium",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.718, 0.554, 0.237]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.633, 0.561, 0.299]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.997, 1.002, 1.073]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.997, 1.002, 1.055]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.087, 1.18, 1.44]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [1.128, 1.175, 1.394]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [0.204334, 1.19256, 0.272018, 0.906033, 0.449252, 0.517209]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [0.247616, 1.06956, 0.26693, 0.91021, 0.382321, 0.519484]
+      }
+    ],
+    "density": [1886],
+    "category": ["Metal"],
+    "tags": ["caesium"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Cs&page=Monin",
+        "accessed": "2025-06-25"
+      },
+      {
+        "title": "Caesium",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Caesium&oldid=1297091310",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-06-25"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/cesium.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/cesium.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/cesium.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/cesium.avif"
+      }
+    ]
+  },
+  {
     "name": "Charcoal",
-    "color": [0.02, 0.02, 0.02],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.02, 0.02, 0.02]
+      }
+    ],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "density": [200, 500, 200],
     "category": ["Organic"],
@@ -519,10 +822,16 @@
   },
   {
     "name": "Chocolate",
-    "color": [0.162, 0.091, 0.06],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.162, 0.091, 0.06]
+      }
+    ],
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.5,
+    "subsurfaceRadius": [0.1, 0.05, 0.025],
     "density": [1229, 1336, 1300],
     "category": ["Organic"],
     "references": [
@@ -563,11 +872,56 @@
   },
   {
     "name": "Chromium",
-    "color": [0.653, 0.65, 0.615],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.654, 0.685, 0.701]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.666, 0.682, 0.698]
+      }
+    ],
     "metalness": 1,
-    "specularColor": [0.675, 0.72, 0.711],
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.591, 0.675, 0.703]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.608, 0.674, 0.797]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.688, 0.728, 0.798]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.706, 0.726, 0.788]
+          }
+        ]
+      }
+    ],
     "roughness": 0,
-    "complexIor": [3.20617, 4.38724, 2.76851, 4.18069, 2.56326, 3.75018],
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [4.19382, 4.85545, 3.53806, 4.89986, 2.91521, 4.25568]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [3.99955, 4.78865, 3.5489, 4.90046, 2.40724, 4.50602]
+      }
+    ],
     "density": [7200],
     "category": ["Metal"],
     "tags": ["chrome"],
@@ -575,7 +929,7 @@
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=main&book=Cr&page=Rakic-BB",
+        "url": "https://refractiveindex.info/?shelf=main&book=Cr&page=Sytchkova",
         "accessed": "2025-01-26"
       },
       {
@@ -601,11 +955,56 @@
   },
   {
     "name": "Cobalt",
-    "color": [0.715, 0.702, 0.622],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.699, 0.704, 0.671]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.699, 0.703, 0.676]
+      }
+    ],
     "metalness": 1,
-    "specularColor": [0.731, 0.775, 0.715],
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.731, 0.775, 0.715]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.73, 0.774, 0.814]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.727, 0.772, 0.823]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.747, 0.77, 0.815]
+          }
+        ]
+      }
+    ],
     "roughness": 0,
-    "complexIor": [3.33754, 5.27723, 2.6841, 4.73548, 2.57555, 3.81892],
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [3.33754, 5.27723, 2.6841, 4.73548, 2.57555, 3.81892]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [3.14981, 4.96614, 2.70481, 4.76092, 2.06112, 4.00685]
+      }
+    ],
     "density": [8900],
     "category": ["Metal"],
     "references": [
@@ -644,13 +1043,18 @@
   },
   {
     "name": "Coffee",
-    "color": [0.027, 0.019, 0.018],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.027, 0.019, 0.018]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
-    "ior": 1.33,
+    "ior": 1.34,
     "subsurfaceRadius": [10, 5, 1],
-    "density": [1000],
-    "viscosity": [1.002],
+    "density": [1020],
+    "viscosity": [1.7],
     "category": ["Liquid"],
     "tags": ["sss"],
     "references": [
@@ -662,18 +1066,12 @@
         "accessed": "2025-01-26"
       },
       {
-        "title": "List of Viscosities",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=List_of_viscosities&oldid=1256671906",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-01-26"
-      },
-      {
-        "title": "Density",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-01-26"
+        "title": "Espresso Coffee: The Science of Quality",
+        "author": "Viani, R., & Illy, A.",
+        "url": "https://books.google.com/books?id=cptQBAAAQBAJ&lpg=PP1",
+        "publisher": "Elsevier",
+        "pages": "292",
+        "year": "2005"
       }
     ],
     "images": [
@@ -691,7 +1089,12 @@
   },
   {
     "name": "Concrete",
-    "color": [0.51, 0.51, 0.51],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.51, 0.51, 0.51]
+      }
+    ],
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.5,
@@ -747,7 +1150,12 @@
   },
   {
     "name": "Cooking Oil",
-    "color": [0.737911, 0.687, 0.091],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.737911, 0.687, 0.091]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.47,
@@ -818,18 +1226,63 @@
   },
   {
     "name": "Copper",
-    "color": [0.988, 0.688, 0.448],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.932, 0.623, 0.522]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.811, 0.643, 0.542]
+      }
+    ],
     "metalness": 1,
-    "specularColor": [0.999, 0.946, 0.705],
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.999, 0.9, 0.744]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.979, 0.915, 0.85]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.982, 0.947, 0.945]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.97, 0.95, 0.946]
+          }
+        ]
+      }
+    ],
     "roughness": 0,
-    "complexIor": [0.137212, 5.48257, 0.750114, 2.56138, 1.75582, 2.26828],
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [0.133762, 3.10615, 1.05661, 2.63095, 1.68637, 2.42655]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [0.4946, 2.87217, 0.974095, 2.65208, 1.23853, 2.41041]
+      }
+    ],
     "density": [8940],
     "category": ["Metal"],
     "references": [
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=3d&book=metals&page=copper",
+        "url": "https://refractiveindex.info/?shelf=main&book=Cu&page=Johnson",
         "accessed": "2025-01-26"
       },
       {
@@ -862,7 +1315,12 @@
   },
   {
     "name": "Diamond",
-    "color": [1, 1, 1],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1, 1, 1]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 2.4168,
@@ -907,9 +1365,14 @@
   },
   {
     "name": "Egg Shell",
-    "color": [0.61, 0.624, 0.631],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.61, 0.624, 0.631]
+      }
+    ],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "category": ["Organic"],
     "description": "White hen egg from grocery store.",
@@ -944,7 +1407,12 @@
   },
   {
     "name": "Eye (cornea)",
-    "color": [1, 1, 1],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1, 1, 1]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.376,
@@ -985,7 +1453,12 @@
   },
   {
     "name": "Eye (lens)",
-    "color": [1, 1, 1],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1, 1, 1]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.386,
@@ -1027,10 +1500,16 @@
   },
   {
     "name": "Eye (sclera)",
-    "color": [0.68, 0.49, 0.37],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.652, 0.5, 0.394]
+      }
+    ],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0,
     "ior": 1.4,
+    "subsurfaceRadius": [0.482, 0.169, 0.109],
     "category": ["Human"],
     "references": [
       {
@@ -1049,6 +1528,18 @@
         "author": "Jimenez, J.",
         "url": "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
         "accessed": "2025-01-26"
+      },
+      {
+        "title": "The Wikihuman Project",
+        "url": "https://vgl.ict.usc.edu/Data/DigitalEmily2/",
+        "publisher": "USC Institute for Creative Technologies",
+        "accessed": "2025-07-13"
+      },
+      {
+        "title": "Louise - A virtual Model Digital Double",
+        "url": "https://eisko.com/louise/",
+        "publisher": "Eisko",
+        "accessed": "2025-07-14"
       }
     ],
     "images": [
@@ -1066,7 +1557,12 @@
   },
   {
     "name": "Gasoline",
-    "color": [1, 0.97, 0.617],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1, 0.97, 0.617]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.427,
@@ -1122,8 +1618,95 @@
     ]
   },
   {
+    "name": "Germanium",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.5, 0.517, 0.465]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.504, 0.515, 0.472]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.068, 0.179, 0.002]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.069, 0.175, 0.252]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.62, 0.653, 0.701]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.635, 0.651, 0.694]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [5.63391, 1.44383, 5.06611, 2.25088, 4.81402, 0.279501]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [5.51092, 1.431, 5.07691, 2.22993, 4.11938, 2.23401]
+      }
+    ],
+    "density": [5327],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Ge&page=Aspnes",
+        "accessed": "2025-06-29"
+      },
+      {
+        "title": "Germanium",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Germanium&oldid=1294309596",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-06-29"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/germanium.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/germanium.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/germanium.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/germanium.avif"
+      }
+    ]
+  },
+  {
     "name": "Glass",
-    "color": [1, 1, 1],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1, 1, 1]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.52,
@@ -1181,19 +1764,64 @@
   },
   {
     "name": "Gold",
-    "color": [1.0, 0.72, 0.315],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1.059, 0.773, 0.307]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.929, 0.788, 0.374]
+      }
+    ],
     "metalness": 1,
-    "specularColor": [1.0, 0.973, 0.597],
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.001, 0.985, 0.523]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.997, 0.987, 0.757]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.971, 1.018, 0.994]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.987, 1.013, 0.997]
+          }
+        ]
+      }
+    ],
     "roughness": 0,
-    "complexIor": [0, 6.3108, 0.487424, 2.18391, 1.74577, 1.63493],
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [0, 6.59401, 0.351563, 2.08143, 1.85894, 1.49631]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [0.190506, 3.04413, 0.330771, 2.11776, 1.35292, 1.76193]
+      }
+    ],
     "density": [19320],
     "category": ["Metal"],
     "references": [
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=3d&book=metals&page=gold",
-        "accessed": "2025-01-26"
+        "url": "https://refractiveindex.info/?shelf=main&book=Ag&page=Babar",
+        "accessed": "2025-06-26"
       },
       {
         "title": "Autodesk Arnold Documentation",
@@ -1225,20 +1853,43 @@
   },
   {
     "name": "Gray Card",
-    "color": [0.18, 0.18, 0.18],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.18, 0.18, 0.18]
+      }
+    ],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "category": ["Manmade"],
     "description": "In photography and computer graphics, middle gray is a tone that is perceptually about halfway between black and white on a lightness scale. Light meters and cameras are often calibrated using an 18% gray card or a color reference card such as a ColorChecker. It is typically defined as 18% reflectance in visible light.",
     "tags": ["grey", "middle gray"],
     "references": [
       {
-        "title": "Middle Gray",
+        "title": "Gray Card",
         "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=Middle_gray&oldid=1220784080",
+        "url": "https://en.wikipedia.org/w/index.php?title=Gray_card&oldid=1244084939",
         "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-01-26"
+        "accessed": "2025-05-17"
+      },
+      {
+        "title": "New Color Specifications for ColorChecker SG and Classic Charts",
+        "url": "https://www.xrite.com/service-support/new_color_specifications_for_colorchecker_sg_and_classic_charts",
+        "publisher": "X-Rite, Inc.",
+        "accessed": "2025-05-17"
+      },
+      {
+        "title": "The Colorchecker Pages",
+        "publisher": "The BabelColor Company",
+        "url": "https://babelcolor.com/colorchecker.htm",
+        "accessed": "2025-05-17"
+      },
+      {
+        "title": "Colour Rendition Chart",
+        "author": "Colour Developers",
+        "url": "https://github.com/colour-science/colour-nuke/tree/master/colour_nuke/resources/images/ColorChecker2014",
+        "accessed": "2025-05-17"
       }
     ],
     "images": [
@@ -1256,7 +1907,12 @@
   },
   {
     "name": "Honey",
-    "color": [0.83077, 0.397, 0.038],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.83077, 0.397, 0.038]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.504,
@@ -1264,7 +1920,7 @@
     "density": [1380, 1450, 1400],
     "viscosity": [2000, 15000, 10000],
     "category": ["Liquid"],
-    "description": "Variations in its water content alter its refractive index. Typically, the refractive index for honey ranges from 1.504 at 13% water content to 1.474 at 25%.",
+    "description": "Variations in its water content alter its refractive index. Typically, the refractive index for honey ranges from 1.504 at 13% water content to 1.474 at 25%. Fresh honey is liquid and clear but with time it crystallizes and becomes thicker and less clear. The crystallization depends on temperature and the ratio of glucose and fructose.",
     "references": [
       {
         "title": "Honey",
@@ -1330,7 +1986,12 @@
   },
   {
     "name": "Ice",
-    "color": [1, 1, 1],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1, 1, 1]
+      }
+    ],
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.3098,
@@ -1380,12 +2041,146 @@
     ]
   },
   {
-    "name": "Iron",
-    "color": [0.542, 0.512, 0.458],
+    "name": "Iridium",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.745, 0.734, 0.704]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.739, 0.734, 0.709]
+      }
+    ],
     "metalness": 1,
-    "specularColor": [0.612, 0.541, 0.422],
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.818, 0.81, 0.727]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.799, 0.812, 0.828]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.759, 0.781, 0.81]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.768, 0.78, 0.806]
+          }
+        ]
+      }
+    ],
     "roughness": 0,
-    "complexIor": [2.73466, 3.14869, 2.94186, 2.92718, 3.15654, 2.46012],
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [2.79209, 5.68877, 2.56343, 5.0549, 2.7216, 4.20215]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [2.78993, 5.33631, 2.56186, 5.08541, 2.14497, 4.42262]
+      }
+    ],
+    "density": [22562],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Ir&page=Schmitt-ALD",
+        "accessed": "2025-06-29"
+      },
+      {
+        "title": "Iridium",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Iridium&oldid=1296793846",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-06-29"
+      },
+      {
+        "title": "Density",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-01-26"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/iridium.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/iridium.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/iridium.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/iridium.avif"
+      }
+    ]
+  },
+  {
+    "name": "Iron",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.53, 0.513, 0.494]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.523, 0.514, 0.497]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.612, 0.541, 0.422]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.562, 0.549, 0.586]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.765, 0.767, 0.802]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.767, 0.768, 0.797]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [2.73466, 3.14869, 2.94186, 2.92718, 3.15654, 2.46012]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [2.90278, 3.01558, 2.91315, 2.94418, 2.59243, 2.77805]
+      }
+    ],
     "density": [7870],
     "category": ["Metal"],
     "references": [
@@ -1425,7 +2220,12 @@
   },
   {
     "name": "Ketchup",
-    "color": [0.164, 0.006, 0.002],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.164, 0.006, 0.002]
+      }
+    ],
     "metalness": 0,
     "roughness": 0.1,
     "ior": 1.3,
@@ -1485,19 +2285,64 @@
   },
   {
     "name": "Lead",
-    "color": [0.641, 0.622, 0.59],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.626, 0.64, 0.693]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.633, 0.64, 0.686]
+      }
+    ],
     "metalness": 1,
-    "specularColor": [0.819, 0.804, 0.769],
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.717, 0.717, 0.696]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.7, 0.72, 0.796]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.758, 0.773, 0.799]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.765, 0.772, 0.795]
+          }
+        ]
+      }
+    ],
     "roughness": 0,
-    "complexIor": [1.81659, 3.50606, 1.84441, 3.37971, 1.96022, 3.23189],
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [2.71051, 4.04246, 2.68791, 4.01366, 2.9091, 4.17426]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [2.79703, 4.01182, 2.6736, 4.02443, 2.31165, 4.29506]
+      }
+    ],
     "density": [11340],
     "category": ["Metal"],
     "references": [
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=3d&book=metals&page=lead",
-        "accessed": "2025-01-26"
+        "url": "https://refractiveindex.info/?shelf=main&book=Pb&page=Werner-DFT",
+        "accessed": "2025-06-26"
       },
       {
         "title": "Autodesk Arnold Documentation",
@@ -1529,7 +2374,12 @@
   },
   {
     "name": "Lemon",
-    "color": [0.718, 0.483, 0],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.718, 0.483, 0]
+      }
+    ],
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.5,
@@ -1556,8 +2406,273 @@
     ]
   },
   {
+    "name": "Lithium",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.916, 0.89, 0.807]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.902, 0.89, 0.819]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.998, 0.995, 0.975]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.996, 0.996, 0.993]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.985, 0.998, 1.027]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.991, 0.998, 1.023]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [0.141612, 2.7434, 0.215656, 2.48258, 0.481854, 2.35726]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [0.214498, 2.70456, 0.207691, 2.46885, 0.236271, 1.92343]
+      }
+    ],
+    "density": [535],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Li&page=Rasigni",
+        "accessed": "2025-06-29"
+      },
+      {
+        "title": "Lithium",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Lithium&oldid=1297355131",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-06-29"
+      },
+      {
+        "title": "Density",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-01-26"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/lithium.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/lithium.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/lithium.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/lithium.avif"
+      }
+    ]
+  },
+  {
+    "name": "Magnesium",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.956, 0.953, 0.95]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.955, 0.953, 0.951]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.998, 0.996, 0.983]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.996, 0.997, 0.997]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.954, 0.964, 0.977]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.958, 0.963, 0.975]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [0.286425, 6.75553, 0.322265, 4.94909, 0.594764, 4.25174]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [0.365942, 5.53795, 0.31319, 5.01834, 0.224454, 4.09048]
+      }
+    ],
+    "density": [1737],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Mg&page=Hagemann",
+        "accessed": "2025-06-29"
+      },
+      {
+        "title": "Magnesium",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Magnesium&oldid=1297525267",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-06-29"
+      },
+      {
+        "title": "Density",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-01-26"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/magnesium.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/magnesium.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/magnesium.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/magnesium.avif"
+      }
+    ]
+  },
+  {
+    "name": "Manganese",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.606, 0.592, 0.573]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.6, 0.592, 0.576]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.757, 0.761, 0.715]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.743, 0.762, 0.808]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.796, 0.834, 0.889]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.813, 0.832, 0.88]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [2.22147, 3.60175, 2.02055, 3.25337, 2.03472, 2.862]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [2.21105, 3.43301, 2.01942, 3.27, 1.61898, 2.90038]
+      }
+    ],
+    "density": [7476],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Mn&page=Querry",
+        "accessed": "2025-06-29"
+      },
+      {
+        "title": "Manganese",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Manganese&oldid=1296594586",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-06-29"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/manganese.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/manganese.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/manganese.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/manganese.avif"
+      }
+    ]
+  },
+  {
     "name": "Marble",
-    "color": [0.83, 0.791, 0.753],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.83, 0.791, 0.753]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.5,
@@ -1615,11 +2730,56 @@
   },
   {
     "name": "Mercury",
-    "color": [0.799, 0.777, 0.721],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.781, 0.78, 0.778]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.781, 0.78, 0.779]
+      }
+    ],
     "metalness": 1,
-    "specularColor": [0.901, 0.91, 0.89],
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.901, 0.91, 0.89]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.896, 0.911, 0.939]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.813, 0.852, 0.902]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.83, 0.85, 0.895]
+          }
+        ]
+      }
+    ],
     "roughness": 0,
-    "complexIor": [1.86932, 5.36989, 1.53811, 4.60484, 1.4963, 3.92685],
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [1.86932, 5.36989, 1.53811, 4.60484, 1.4963, 3.92685]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [1.80044, 5.00001, 1.54346, 4.64158, 1.0878, 3.91158]
+      }
+    ],
     "density": [13546],
     "viscosity": [1.552],
     "category": ["Metal"],
@@ -1675,7 +2835,12 @@
   },
   {
     "name": "Milk",
-    "color": [0.815, 0.813, 0.682],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.815, 0.813, 0.682]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.348,
@@ -1761,7 +2926,12 @@
   },
   {
     "name": "MIT Black",
-    "color": [0.00005, 0.00005, 0.00005],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.00005, 0.00005, 0.00005]
+      }
+    ],
     "metalness": 0,
     "roughness": 0.99,
     "ior": 1.5,
@@ -1788,8 +2958,95 @@
     ]
   },
   {
+    "name": "Molybdenum",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.589, 0.612, 0.594]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.597, 0.61, 0.596]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.495, 0.505, 0.383]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.47, 0.507, 0.561]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.683, 0.696, 0.726]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.689, 0.695, 0.721]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [4.13827, 3.90428, 4.14866, 4.00545, 4.27845, 3.21018]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [4.25384, 3.82381, 4.12785, 4.00138, 3.55369, 3.80316]
+      }
+    ],
+    "density": [10223],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Mo&page=Werner-DFT",
+        "accessed": "2025-06-29"
+      },
+      {
+        "title": "Molybdenum",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Molybdenum&oldid=1288578240",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-06-29"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/molybdenum.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/molybdenum.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/molybdenum.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/molybdenum.avif"
+      }
+    ]
+  },
+  {
     "name": "Musou Black",
-    "color": [0.006, 0.006, 0.006],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.006, 0.006, 0.006]
+      }
+    ],
     "metalness": 0,
     "roughness": 0.9,
     "ior": 1.5,
@@ -1825,19 +3082,64 @@
   },
   {
     "name": "Nickel",
-    "color": [0.664, 0.606, 0.495],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.697, 0.641, 0.563]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.672, 0.643, 0.575]
+      }
+    ],
     "metalness": 1,
-    "specularColor": [0.824, 0.798, 0.68],
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.855, 0.805, 0.675]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.822, 0.81, 0.789]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.815, 0.834, 0.871]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.824, 0.833, 0.865]
+          }
+        ]
+      }
+    ],
     "roughness": 0,
-    "complexIor": [1.88896, 3.7543, 1.81884, 3.2447, 2.0708, 2.64853],
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [1.8644, 4.21007, 1.92207, 3.57008, 2.22915, 2.87501]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [1.96219, 3.89684, 1.90668, 3.59684, 1.74737, 2.98191]
+      }
+    ],
     "density": [8900],
     "category": ["Metal"],
     "references": [
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=main&book=Ni&page=Rakic-BB",
-        "accessed": "2025-01-26"
+        "url": "https://refractiveindex.info/?shelf=main&book=Ni&page=Johnson",
+        "accessed": "2025-06-26"
       },
       {
         "title": "Autodesk Arnold Documentation",
@@ -1869,9 +3171,14 @@
   },
   {
     "name": "Office Paper",
-    "color": [0.794, 0.834, 0.884],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.794, 0.834, 0.884]
+      }
+    ],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.8,
     "ior": 1.5,
     "density": [800],
     "category": ["Manmade"],
@@ -1913,8 +3220,95 @@
     ]
   },
   {
+    "name": "Palladium",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.734, 0.7036, 0.662]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.721, 0.705, 0.669]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.874, 0.854, 0.779]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.854, 0.857, 0.863]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.811, 0.836, 0.872]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.822, 0.835, 0.866]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [1.88141, 4.66959, 1.79976, 4.03631, 2.00737, 3.43839]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [1.92412, 4.35994, 1.79229, 4.06362, 1.53501, 3.47822]
+      }
+    ],
+    "density": [12007],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Pd&page=Palm",
+        "accessed": "2025-06-30"
+      },
+      {
+        "title": "Palladium",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Palladium&oldid=1296661941",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-06-30"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/palladium.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/palladium.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/palladium.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/palladium.avif"
+      }
+    ]
+  },
+  {
     "name": "Pearl",
-    "color": [0.8, 0.75, 0.7],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.8, 0.75, 0.7]
+      }
+    ],
     "metalness": 0,
     "roughness": 0.35,
     "ior": 1.68,
@@ -1983,7 +3377,12 @@
   },
   {
     "name": "Petroleum",
-    "color": [0.03, 0.027, 0.024],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.03, 0.027, 0.024]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.5,
@@ -2060,7 +3459,12 @@
   },
   {
     "name": "Plastic (Acrylic)",
-    "color": [1, 1, 1],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1, 1, 1]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.4905,
@@ -2099,7 +3503,12 @@
   },
   {
     "name": "Plastic (PC)",
-    "color": [1, 1, 1],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1, 1, 1]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.5848,
@@ -2138,7 +3547,12 @@
   },
   {
     "name": "Plastic (PET)",
-    "color": [1, 1, 1],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1, 1, 1]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.575,
@@ -2176,7 +3590,12 @@
   },
   {
     "name": "Plastic (PP)",
-    "color": [1, 1, 1],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1, 1, 1]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.492,
@@ -2218,8 +3637,74 @@
     ]
   },
   {
+    "name": "Plastic (PUR)",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1, 1, 1]
+      }
+    ],
+    "metalness": 0,
+    "roughness": 0,
+    "ior": 1.6,
+    "transmission": 1,
+    "category": ["Plastic"],
+    "description": "Modern car paints are nearly always an acrylic polyurethane \"enamel\" with a pigmented basecoat and a clear topcoat. It may be described as \"acrylic\", \"acrylic enamel\", \"urethane\", etc. and the clearcoat in particular may be described as a lacquer.",
+    "tags": ["acrylic", "coat", "car paint", "lacquer", "polyurethane"],
+    "references": [
+      {
+        "title": "Automotive Paint",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Automotive_paint&oldid=1270250557",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-01-25"
+      },
+      {
+        "title": "Lacquer",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Lacquer&oldid=1269195190#Acrylic_lacquers",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-01-25"
+      },
+      {
+        "title": "Brdf and Gloss Computation of Polyurethane Coatings from Roughness Measurements: Modelling and Experimental Validation",
+        "author": "Wittmann, B., Montmitonnet, P., Burr, A., Gauthier, C., Agassant, J-F, & Casoli, A.",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0300944021001181",
+        "publisher": "Progress in Organic Coatings",
+        "volume": "156",
+        "issue": "106247",
+        "year": "2021",
+        "doi": "https://doi.org/10.1016/j.porgcoat.2021.106247"
+      },
+      {
+        "title": "High Refractive Index Aqueous Polyurethane Dispersion Coating Compositions",
+        "author": "Iwazumi, M., Schneider, A.",
+        "url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2011163461",
+        "publisher": "SDC TECHNOLOGIES, INC.",
+        "year": "2011"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/plastic-pur.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-pur.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/plastic-pur.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-pur.avif"
+      }
+    ]
+  },
+  {
     "name": "Plastic (PVC)",
-    "color": [1, 1, 1],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1, 1, 1]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.542,
@@ -2257,19 +3742,64 @@
   },
   {
     "name": "Platinum",
-    "color": [0.695, 0.638, 0.541],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.765, 0.73, 0.676]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.749, 0.732, 0.684]
+      }
+    ],
     "metalness": 1,
-    "specularColor": [0.816, 0.786, 0.671],
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.873, 0.85, 0.747]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.851, 0.853, 0.844]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.793, 0.815, 0.84]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.802, 0.814, 0.836]
+          }
+        ]
+      }
+    ],
     "roughness": 0,
-    "complexIor": [2.1755, 4.28265, 2.0879, 3.67782, 2.35677, 3.05144],
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [2.17679, 5.44798, 2.02616, 4.54881, 2.34437, 3.74446]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [2.19707, 4.98395, 2.02224, 4.58862, 1.80496, 3.87107]
+      }
+    ],
     "density": [21450],
     "category": ["Metal"],
     "references": [
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=3d&book=metals&page=platinum",
-        "accessed": "2025-02-05"
+        "url": "https://refractiveindex.info/?shelf=main&book=Pt&page=Werner-DFT",
+        "accessed": "2025-06-26"
       },
       {
         "title": "Autodesk Arnold Documentation",
@@ -2300,64 +3830,95 @@
     ]
   },
   {
-    "name": "Polyurethane",
-    "color": [1, 1, 1],
-    "metalness": 0,
+    "name": "Potassium",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.983, 0.956, 0.906]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.971, 0.957, 0.914]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 1.0, 0.994]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [1.0, 1.0, 1.0]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.002, 1.011, 1.032]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [1.006, 1.01, 1.029]
+          }
+        ]
+      }
+    ],
     "roughness": 0,
-    "ior": 1.6,
-    "transmission": 1,
-    "category": ["Plastic"],
-    "description": "Modern car paints are nearly always an acrylic polyurethane \"enamel\" with a pigmented basecoat and a clear topcoat. It may be described as \"acrylic\", \"acrylic enamel\", \"urethane\", etc. and the clearcoat in particular may be described as a lacquer.",
-    "tags": ["acrylic", "coat", "car paint", "lacquer"],
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [0.0, 3.37295, 0.041228, 1.56367, 0.220328, 2.05971]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [0.026298, 1.59507, 0.0349856, 1.47657, 0.0473681, 1.04672]
+      }
+    ],
+    "density": [859],
+    "category": ["Metal"],
     "references": [
       {
-        "title": "Automotive Paint",
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=K&page=Monin",
+        "accessed": "2025-07-03"
+      },
+      {
+        "title": "Potassium",
         "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=Automotive_paint&oldid=1270250557",
+        "url": "https://en.wikipedia.org/w/index.php?title=Potassium&oldid=1291714608",
         "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-01-25"
-      },
-      {
-        "title": "Lacquer",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=Lacquer&oldid=1269195190#Acrylic_lacquers",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-01-25"
-      },
-      {
-        "title": "Brdf and Gloss Computation of Polyurethane Coatings from Roughness Measurements: Modelling and Experimental Validation",
-        "author": "Wittmann, B., Montmitonnet, P., Burr, A., Gauthier, C., Agassant, J-F, & Casoli, A.",
-        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0300944021001181",
-        "publisher": "Progress in Organic Coatings",
-        "volume": "156",
-        "issue": "106247",
-        "year": "2021",
-        "doi": "https://doi.org/10.1016/j.porgcoat.2021.106247"
-      },
-      {
-        "title": "High Refractive Index Aqueous Polyurethane Dispersion Coating Compositions",
-        "author": "Iwazumi, M., Schneider, A.",
-        "url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2011163461",
-        "publisher": "SDC TECHNOLOGIES, INC.",
-        "year": "2011"
+        "accessed": "2025-07-03"
       }
     ],
     "images": [
       {
         "format": "jpeg",
-        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/polyurethane.jpeg",
-        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/polyurethane.jpeg"
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/potassium.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/potassium.jpeg"
       },
       {
         "format": "avif",
-        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/polyurethane.avif",
-        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/polyurethane.avif"
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/potassium.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/potassium.avif"
       }
     ]
   },
   {
     "name": "Quartz",
-    "color": [1, 1, 1],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1, 1, 1]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.54,
@@ -2401,8 +3962,95 @@
     ]
   },
   {
+    "name": "Rubidium",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.919, 0.859, 0.747]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.892, 0.862, 0.764]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.999, 0.998]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.999, 0.999, 1.002]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.016, 1.042, 1.105]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [1.028, 1.041, 1.096]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [0.0391755, 1.22619, 0.101768, 1.27629, 0.205178, 1.13104]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [0.0830927, 1.37965, 0.0956511, 1.25123, 0.111367, 0.807355]
+      }
+    ],
+    "density": [1534],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Rb&page=Monin",
+        "accessed": "2025-07-03"
+      },
+      {
+        "title": "Rubidium",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Rubidium&oldid=1297114941",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-07-03"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/rubidium.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/rubidium.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/rubidium.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/rubidium.avif"
+      }
+    ]
+  },
+  {
     "name": "Salt",
-    "color": [1, 1, 1],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1, 1, 1]
+      }
+    ],
     "metalness": 0,
     "roughness": 0.2,
     "ior": 1.5441,
@@ -2441,9 +4089,14 @@
   },
   {
     "name": "Sand",
-    "color": [0.44, 0.386, 0.23074],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.44, 0.386, 0.23074]
+      }
+    ],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.9,
     "ior": 1.5,
     "density": [1440, 1680, 1500],
     "category": ["Crystal"],
@@ -2484,7 +4137,12 @@
   },
   {
     "name": "Sapphire",
-    "color": [0.67, 0.764, 0.855],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.67, 0.764, 0.855]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.7682,
@@ -2535,19 +4193,64 @@
   },
   {
     "name": "Silicon",
-    "color": [0.351, 0.367, 0.394],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.345, 0.369, 0.426]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.357, 0.368, 0.418]
+      }
+    ],
     "metalness": 1,
-    "specularColor": [0.081, 0, 0.004],
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.081, 0, 0.004]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.001, 0, 0.002]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.72, 0.701, 0.663]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.711, 0.702, 0.669]
+          }
+        ]
+      }
+    ],
     "roughness": 0,
-    "complexIor": [3.63351, 0.966245, 4.06958, 0, 4.36103, 0],
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [3.65156, 0.972551, 4.08561, 0, 4.36337, 0]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [3.96501, 0.100296, 4.08831, 0, 4.64341, 0.202839]
+      }
+    ],
     "density": [2330],
     "category": ["Metal"],
     "references": [
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=main&book=Si&page=Schinke",
-        "accessed": "2025-02-05"
+        "url": "https://refractiveindex.info/?shelf=main&book=Si&page=Aspnes",
+        "accessed": "2025-06-26"
       },
       {
         "title": "Silicon",
@@ -2579,11 +4282,56 @@
   },
   {
     "name": "Silver",
-    "color": [0.984, 0.946, 0.851],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.991, 0.985, 0.974]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.988, 0.985, 0.975]
+      }
+    ],
     "metalness": 1,
-    "specularColor": [0.999, 0.998, 0.986],
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 1.0, 0.991]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [1.0, 1.0, 1.0]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.994, 0.995, 0.998]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.995, 0.995, 0.998]
+          }
+        ]
+      }
+    ],
     "roughness": 0,
-    "complexIor": [0.0636949, 3.69295, 0.155409, 3.20559, 0.426839, 3.12206],
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [0, 8.06675, 0.0626977, 3.62828, 0.382178, 3.80086]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [0.0485451, 3.90854, 0.0511628, 3.56812, 0.0515574, 2.69761]
+      }
+    ],
     "density": [10500],
     "category": ["Metal"],
     "tags": ["mirror"],
@@ -2591,8 +4339,8 @@
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=3d&book=metals&page=silver",
-        "accessed": "2025-02-05"
+        "url": "https://refractiveindex.info/?shelf=main&book=Ag&page=Babar",
+        "accessed": "2025-06-26"
       },
       {
         "title": "Autodesk Arnold Documentation",
@@ -2631,7 +4379,12 @@
   },
   {
     "name": "Skin I",
-    "color": [0.847, 0.638, 0.552],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.847, 0.638, 0.552]
+      }
+    ],
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.4,
@@ -2702,7 +4455,12 @@
   },
   {
     "name": "Skin II",
-    "color": [0.799, 0.485, 0.347],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.799, 0.485, 0.347]
+      }
+    ],
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.4,
@@ -2773,7 +4531,12 @@
   },
   {
     "name": "Skin III",
-    "color": [0.623, 0.433, 0.343],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.623, 0.433, 0.343]
+      }
+    ],
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.4,
@@ -2856,7 +4619,12 @@
   },
   {
     "name": "Skin IV",
-    "color": [0.436, 0.227, 0.131],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.436, 0.227, 0.131]
+      }
+    ],
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.4,
@@ -2933,7 +4701,12 @@
   },
   {
     "name": "Skin V",
-    "color": [0.283, 0.148, 0.079],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.283, 0.148, 0.079]
+      }
+    ],
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.4,
@@ -3010,7 +4783,12 @@
   },
   {
     "name": "Skin VI",
-    "color": [0.09, 0.05, 0.02],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.09, 0.05, 0.02]
+      }
+    ],
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.4,
@@ -3087,10 +4865,16 @@
   },
   {
     "name": "Snow",
-    "color": [0.85, 0.85, 0.85],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.85, 0.85, 0.85]
+      }
+    ],
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.3098,
+    "subsurfaceRadius": [0.2, 0.2, 1],
     "density": [90, 450, 300],
     "acousticAbsorption": [0.45, 0.75, 0.9, 0.95, 0.95, 0.95],
     "category": ["Crystal"],
@@ -3152,7 +4936,12 @@
   },
   {
     "name": "Soap Bubble",
-    "color": [1, 1, 1],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1, 1, 1]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1,
@@ -3198,12 +4987,139 @@
     ]
   },
   {
-    "name": "Stainless Steel",
-    "color": [0.685, 0.637, 0.554],
+    "name": "Sodium",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.977, 0.962, 0.936]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.97, 0.962, 0.94]
+      }
+    ],
     "metalness": 1,
-    "specularColor": [0.804, 0.791, 0.714],
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 1.0, 0.991]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [1.0, 1.0, 0.999]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.998, 1.002, 1.011]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [1.0, 1.002, 1.01]
+          }
+        ]
+      }
+    ],
     "roughness": 0,
-    "complexIor": [2.22981, 4.21948, 2.04109, 3.64081, 2.15682, 3.07445],
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [0.0, 4.94428, 0.0669661, 2.3243, 0.325253, 2.89317]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [0.0525806, 2.43603, 0.058413, 2.25156, 0.0664729, 1.80989]
+      }
+    ],
+    "density": [969],
+    "category": ["Metal"],
+    "references": [
+      {
+        "title": "Refractive index database",
+        "author": "Polyanskiy, M. N.",
+        "url": "https://refractiveindex.info/?shelf=main&book=Na&page=Smith",
+        "accessed": "2025-07-03"
+      },
+      {
+        "title": "Sodium",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Sodium&oldid=1292971623",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-07-03"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/sodium.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/sodium.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/sodium.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/sodium.avif"
+      }
+    ]
+  },
+  {
+    "name": "Stainless Steel",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.669, 0.639, 0.598]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.656, 0.64, 0.604]
+      }
+    ],
+    "metalness": 1,
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.804, 0.791, 0.714]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.783, 0.793, 0.812]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.789, 0.823, 0.87]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.803, 0.821, 0.863]
+          }
+        ]
+      }
+    ],
+    "roughness": 0,
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [2.22981, 4.21948, 2.04109, 3.64081, 2.15682, 3.07445]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [2.22853, 3.93696, 2.0391, 3.66755, 1.69998, 3.14717]
+      }
+    ],
     "density": [7500, 8000, 8000],
     "category": ["Metal"],
     "references": [
@@ -3236,9 +5152,14 @@
   },
   {
     "name": "Tire",
-    "color": [0.023, 0.023, 0.023],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.023, 0.023, 0.023]
+      }
+    ],
     "metalness": 0,
-    "roughness": 0.5,
+    "roughness": 0.7,
     "ior": 1.5,
     "category": ["Manmade"],
     "description": "Car tire.",
@@ -3274,19 +5195,64 @@
   },
   {
     "name": "Titanium",
-    "color": [0.633, 0.578, 0.503],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.441, 0.4, 0.361]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.424, 0.403, 0.367]
+      }
+    ],
     "metalness": 1,
-    "specularColor": [0.728, 0.68, 0.55],
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.67, 0.641, 0.52]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.637, 0.645, 0.657]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.865, 0.906, 0.946]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.882, 0.903, 0.94]
+          }
+        ]
+      }
+    ],
     "roughness": 0,
-    "complexIor": [2.55584, 3.89385, 2.52916, 3.39243, 2.8235, 2.85229],
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [1.9345, 2.33987, 1.86761, 2.05312, 2.05863, 1.74518]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [1.9732, 2.20459, 1.86443, 2.06955, 1.70307, 1.86062]
+      }
+    ],
     "density": [4540],
     "category": ["Metal"],
     "references": [
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=3d&book=metals&page=titanium",
-        "accessed": "2025-01-26"
+        "url": "https://refractiveindex.info/?shelf=main&book=Ti&page=Palm",
+        "accessed": "2025-06-26"
       },
       {
         "title": "Density",
@@ -3311,7 +5277,12 @@
   },
   {
     "name": "Toner (black)",
-    "color": [0.05, 0.05, 0.05],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.05, 0.05, 0.05]
+      }
+    ],
     "metalness": 0,
     "roughness": 0.5,
     "ior": 1.5,
@@ -3348,19 +5319,64 @@
   },
   {
     "name": "Tungsten",
-    "color": [0.518, 0.495, 0.442],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.537, 0.536, 0.519]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.536, 0.535, 0.522]
+      }
+    ],
     "metalness": 1,
-    "specularColor": [0.461, 0.413, 0.206],
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.45, 0.409, 0.193]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.401, 0.414, 0.417]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.695, 0.704, 0.714]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.699, 0.703, 0.713]
+          }
+        ]
+      }
+    ],
     "roughness": 0,
-    "complexIor": [3.45096, 2.96613, 3.51714, 2.7338, 4.02045, 1.90549],
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [3.8332, 3.26472, 3.92528, 3.0739, 4.53149, 2.0965]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [3.99552, 3.07855, 3.90702, 3.09281, 3.74628, 2.96596]
+      }
+    ],
     "density": [19300],
     "category": ["Metal"],
     "references": [
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=main&book=W&page=Rakic-BB",
-        "accessed": "2025-01-26"
+        "url": "https://refractiveindex.info/?shelf=main&book=W&page=Werner-DFT",
+        "accessed": "2025-06-26"
       },
       {
         "title": "Density",
@@ -3385,11 +5401,56 @@
   },
   {
     "name": "Vanadium",
-    "color": [0.547, 0.525, 0.506],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.534, 0.526, 0.546]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.532, 0.527, 0.543]
+      }
+    ],
     "metalness": 1,
-    "specularColor": [0.474, 0.426, 0.175],
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.474, 0.426, 0.175]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.421, 0.432, 0.409]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.705, 0.715, 0.695]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.708, 0.714, 0.698]
+          }
+        ]
+      }
+    ],
     "roughness": 0,
-    "complexIor": [3.6507, 3.25065, 3.72723, 3.00712, 4.94609, 2.17896],
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [3.6507, 3.25065, 3.72723, 3.00712, 4.94609, 2.17896]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [3.82676, 3.06828, 3.7184, 3.03516, 4.02213, 3.16271]
+      }
+    ],
     "density": [6100],
     "category": ["Metal"],
     "references": [
@@ -3422,7 +5483,12 @@
   },
   {
     "name": "Water",
-    "color": [1, 1, 1],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [1, 1, 1]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.3325,
@@ -3531,7 +5597,12 @@
   },
   {
     "name": "Whiteboard",
-    "color": [0.869, 0.867, 0.771],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.869, 0.867, 0.771]
+      }
+    ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.5,
@@ -3559,11 +5630,56 @@
   },
   {
     "name": "Zinc",
-    "color": [0.826, 0.842, 0.801],
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.808, 0.844, 0.865]
+      },
+      {
+        "colorSpace": "acescg",
+        "color": [0.822, 0.842, 0.861]
+      }
+    ],
     "metalness": 1,
-    "specularColor": [0.854, 0.922, 0.923],
+    "specularColor": [
+      {
+        "format": ["Gulbrandsen"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.854, 0.922, 0.923]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.874, 0.92, 0.962]
+          }
+        ]
+      },
+      {
+        "format": ["F82"],
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.762, 0.833, 0.896]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.793, 0.829, 0.887]
+          }
+        ]
+      }
+    ],
     "roughness": 0,
-    "complexIor": [3.15207, 7.39342, 1.89133, 6.28678, 1.48736, 4.92701],
+    "complexIor": [
+      {
+        "colorSpace": "srgb-linear",
+        "nk": [3.15207, 7.39342, 1.89133, 6.28678, 1.48736, 4.92701]
+      },
+      {
+        "colorSpace": "acescg",
+        "nk": [2.67412, 6.83926, 1.94336, 6.36293, 1.0947, 5.21239]
+      }
+    ],
     "density": [7000],
     "category": ["Metal"],
     "references": [

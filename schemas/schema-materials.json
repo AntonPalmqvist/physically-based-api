@@ -12,7 +12,7 @@
         "default": "Name"
       },
       "color": {
-        "description": "Albedo, or metal color, RGB triplet (vec3) in linear decimal format in rec709 primaries.",
+        "description": "Specifies the diffuse or metallic reflectance color, or in the case of a transparent material, transmission color. RGB triplet (vec3) in linear decimal format in rec709 primaries.",
         "type": "array",
         "items": {
           "type": "number"
@@ -67,7 +67,7 @@
         "default": 0
       },
       "complexIor": {
-        "description": "Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel, in the following order: nR, kR, nG, kG, nB, kB. Calculated from spectral data using script from https://github.com/natyh/material-params",
+        "description": "Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel, in the following order: nR, kR, nG, kG, nB, kB. Calculated from spectral IOR data files with script from https://github.com/natyh/material-params",
         "type": "array",
         "items": {
           "type": "number"
