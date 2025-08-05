@@ -275,8 +275,9 @@
     ],
     "metalness": 0,
     "roughness": 0,
-    "ior": 1.301,
+    "ior": 1.35,
     "transmission": 1,
+    "transmissionDispersion": 54,
     "density": [1060],
     "viscosity": [2.35, 4, 2.78],
     "category": ["Human"],
@@ -307,8 +308,8 @@
       {
         "title": "Refractive index database",
         "author": "Polyanskiy, M. N.",
-        "url": "https://refractiveindex.info/?shelf=other&book=blood&page=Rowe",
-        "accessed": "2025-01-25"
+        "url": "https://refractiveindex.info/?shelf=other&book=blood&page=Liu",
+        "accessed": "2025-07-22"
       },
       {
         "title": "Density of Blood",
@@ -1050,10 +1051,10 @@
     ],
     "metalness": 0,
     "roughness": 0,
-    "ior": 1.33,
+    "ior": 1.34,
     "subsurfaceRadius": [10, 5, 1],
-    "density": [1000],
-    "viscosity": [1.002],
+    "density": [1020],
+    "viscosity": [1.7],
     "category": ["Liquid"],
     "tags": ["sss"],
     "references": [
@@ -1065,18 +1066,12 @@
         "accessed": "2025-01-26"
       },
       {
-        "title": "List of Viscosities",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=List_of_viscosities&oldid=1256671906",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-01-26"
-      },
-      {
-        "title": "Density",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-01-26"
+        "title": "Espresso Coffee: The Science of Quality",
+        "author": "Viani, R., & Illy, A.",
+        "url": "https://books.google.com/books?id=cptQBAAAQBAJ&lpg=PP1",
+        "publisher": "Elsevier",
+        "pages": "292",
+        "year": "2005"
       }
     ],
     "images": [
@@ -1925,7 +1920,7 @@
     "density": [1380, 1450, 1400],
     "viscosity": [2000, 15000, 10000],
     "category": ["Liquid"],
-    "description": "Variations in its water content alter its refractive index. Typically, the refractive index for honey ranges from 1.504 at 13% water content to 1.474 at 25%.",
+    "description": "Variations in its water content alter its refractive index. Typically, the refractive index for honey ranges from 1.504 at 13% water content to 1.474 at 25%. Fresh honey is liquid and clear but with time it crystallizes and becomes thicker and less clear. The crystallization depends on temperature and the ratio of glucose and fructose.",
     "references": [
       {
         "title": "Honey",

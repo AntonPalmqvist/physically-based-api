@@ -121,7 +121,6 @@
     "description": "",
     "sources": [
       "https://www.arri.com/en/camera-systems/cameras/alexa-35",
-      "https://www.arri.com/en/camera-systems/cameras/alexa-35/alexa-35-recording-formats",
       "https://www.arri.com/resource/blob/296424/88454a5a3dee9fe1d3fd68e75aa3411e/alexa-35-recording-format-poster-data.pdf",
       "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
     ],
@@ -1065,7 +1064,7 @@
       "https://en.wikipedia.org/wiki/Canon_EOS-1D_X_Mark_II",
       "https://en.wikipedia.org/wiki/Canon_EOS-1D_X_Mark_III",
       "https://www.canon-europe.com/for_home/product_finder/cameras/digital_slr/eos_1dx/specifications/",
-      "https://github.com/wetadigital/physlight/blob/main/data/Canon_EOS_1DX_Mark_II_380_780_5.json"
+      "https://github.com/wetadigital/physlight/blob/main/data/Canon_EOS-1D_X_Mark_II_380_780_5.json"
     ],
     "tags": ["full frame"]
   },
@@ -1469,7 +1468,6 @@
     "category": ["Mobile"],
     "description": "",
     "sources": [
-      "https://www.hasselblad.com/collaborations/dji-mavic-2-pro/",
       "https://forum.dji.com/forum.php?mod=redirect&goto=findpost&ptid=167017&pid=1576410",
       "https://dl.djicdn.com/downloads/Mavic_2/Mavic_2_Pro_Zoom_User_Manual_v2.2_en.pdf",
       "https://github.com/wetadigital/physlight/blob/main/data/Hasselblad_L1D-20c_380_780_5.json"
@@ -2111,7 +2109,7 @@
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Leica_S-System",
-      "https://leica-camera.com/en-SG/photography/cameras/s/s3-black/"
+      "https://leicacamerausa.com/leica-s3.html"
     ],
     "tags": ["medium format"]
   },

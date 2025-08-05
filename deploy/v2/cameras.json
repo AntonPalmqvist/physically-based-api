@@ -120,12 +120,6 @@
     "category": ["Movie"],
     "references": [
       {
-        "title": "ALEXA 35 | Camera Systems | ARRI",
-        "publisher": "ARRI GmbH",
-        "url": "https://www.arri.com/en/camera-systems/cameras/alexa-35/alexa-35-recording-formats",
-        "accessed": "2025-02-22"
-      },
-      {
         "title": "ALEXA 35 Recording Formats",
         "publisher": "ARRI GmbH",
         "url": "https://www.arri.com/resource/blob/296424/88454a5a3dee9fe1d3fd68e75aa3411e/alexa-35-recording-format-poster-data.pdf",
@@ -1264,7 +1258,7 @@
       {
         "title": "Canon EOS-1D X Mark II Camera Spectral Sensitivity Data",
         "author": "Contributors to the PhysLight Project",
-        "url": "https://github.com/wetadigital/physlight/blob/main/data/Canon_EOS_1DX_Mark_II_380_780_5.json",
+        "url": "https://github.com/wetadigital/physlight/blob/main/data/Canon_EOS-1D_X_Mark_II_380_780_5.json",
         "publisher": "Wētā FX",
         "accessed": "2025-02-22"
       }
@@ -1794,12 +1788,6 @@
     ],
     "category": ["Mobile"],
     "references": [
-      {
-        "title": "DJI MAVIC 2 PRO",
-        "publisher": "Hasselblad",
-        "url": "https://www.hasselblad.com/collaborations/dji-mavic-2-pro/",
-        "accessed": "2025-02-22"
-      },
       {
         "title": "Mavic 2 PRO camera sensor physical dimensions",
         "author": "DJI forum contributors",
@@ -2677,9 +2665,9 @@
       },
       {
         "title": "Leica S3",
-        "url": "https://leica-camera.com/en-SG/photography/cameras/s/s3-black/",
-        "publisher": "Leica Camera AG",
-        "accessed": "2025-02-22"
+        "url": "https://leicacamerausa.com/leica-s3.html",
+        "publisher": "Leica Camera Inc.",
+        "accessed": "2025-07-31"
       }
     ],
     "tags": ["medium format"]

@@ -81,8 +81,9 @@
     "color": [0.64448, 0.003, 0.005],
     "metalness": 0,
     "roughness": 0,
-    "ior": 1.301,
+    "ior": 1.35,
     "transmission": 1,
+    "transmissionDispersion": 54,
     "density": 1060,
     "viscosity": 2.8,
     "category": ["Human"],
@@ -90,7 +91,7 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Blood",
       "https://en.wikipedia.org/wiki/Blood_red",
-      "https://refractiveindex.info/?shelf=other&book=blood&page=Rowe",
+      "https://refractiveindex.info/?shelf=other&book=blood&page=Liu",
       "https://hypertextbook.com/facts/2004/MichaelShmukler.shtml",
       "https://www.researchgate.net/figure/Color-chart-for-the-measurement-of-methemoglobin-The-color-chart-was-prepared-according_fig2_26884296",
       "https://www.engineeringtoolbox.com/absolute-viscosity-liquids-d_1259.html",
@@ -313,14 +314,15 @@
     "color": [0.027, 0.019, 0.018],
     "metalness": 0,
     "roughness": 0,
-    "ior": 1.33,
+    "ior": 1.34,
     "subsurfaceRadius": [10, 5, 1],
-    "density": 1000,
-    "viscosity": 1.002,
+    "density": 1020,
+    "viscosity": 1.7,
     "category": ["Liquid"],
     "description": "",
     "sources": [
-      "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/coffee/"
+      "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/coffee/",
+      "https://books.google.com/books?id=cptQBAAAQBAJ&lpg=PP1"
     ],
     "tags": ["sss"],
     "reference": [
@@ -612,7 +614,7 @@
     "densityRange": [1380, 1450],
     "viscosity": 10000,
     "category": ["Liquid"],
-    "description": "Variations in its water content alter its refractive index. Typically, the refractive index for honey ranges from 1.504 at 13% water content to 1.474 at 25%.",
+    "description": "Variations in its water content alter its refractive index. Typically, the refractive index for honey ranges from 1.504 at 13% water content to 1.474 at 25%. Fresh honey is liquid and clear but with time it crystallizes and becomes thicker and less clear. The crystallization depends on temperature and the ratio of glucose and fructose.",
     "sources": [
       "https://www.color-name.com/honey.color",
       "https://en.wikipedia.org/wiki/Honey",
