@@ -1,6 +1,6 @@
 # Contributing to Physically Based
 
-Contributions of all kinds are welcome such as pull requests and issues!
+Contributions of all kinds are welcome, such as pull requests and issues!
 
 If you have any questions or need guidance in addition to the guidelines outlined in this document, feel free to use the contact form at: [https://physicallybased.info/about/](https://physicallybased.info/about/)
 
