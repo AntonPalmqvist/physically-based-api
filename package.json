@@ -6,7 +6,8 @@
     "http": "http-server -o deploy",
     "http-v2": "http-server -o deploy/v2",
     "image-processor": "node scripts/image-processor.js ",
-    "create-materialx": "node scripts/create-materialx.js "
+    "create-materialx": "node scripts/create-materialx.js ",
+    "create-usd": "node scripts/create-usd.js "
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,6 @@
   "devDependencies": {
     "adm-zip": "^0.5.16",
     "http-server": "^14.1.1",
-    "sharp": "^0.33.5"
+    "sharp": "^0.34.3"
   }
 }

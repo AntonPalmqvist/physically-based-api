@@ -20,7 +20,7 @@ function createFiles() {
   ) {
     const baseColor = JSON.stringify(hit.color[0].color) !== JSON.stringify([0.8, 0.8, 0.8]) && !hit.transmission && !hit.subsurfaceRadius ? '    <input name="base_color" type="color3" value="'+ hit.color[0].color[0].toFixed(3)+', '+ hit.color[0].color[1].toFixed(3)+', '+ hit.color[0].color[2].toFixed(3) +'" />\n' : "";
     const metalness = hit.metalness > 0 ? '    <input name="base_metalness" type="float" value="'+ hit.metalness.toFixed(1) +'" />\n' : "";
-    const specularColor = hit.specularColor ? '    <input name="specular_color" type="color3" value="'+ hit.specularColor[0].color[0].toFixed(3)+', '+ hit.specularColor[0].color[1].toFixed(3)+', '+ hit.specularColor[0].color[2].toFixed(3) +'" />\n' : "";
+    const specularColor = hit.specularColor ? '    <input name="specular_color" type="color3" value="'+ hit.specularColor[0].color[0].color[0]+', '+ hit.specularColor[0].color[0].color[1]+', '+ hit.specularColor[0].color[0].color[2] +'" />\n' : "";
     const roughness = hit.roughness != 0.3 ? '    <input name="specular_roughness" type="float" value="'+ hit.roughness.toFixed(1) +'" />\n' : "";
     const specularIor = hit.ior && hit.metalness < 1 && hit.ior != 1.5 ? '    <input name="specular_ior" type="float" value="'+ hit.ior.toFixed(2) +'" />\n' : "";
     const transmission = hit.transmission ? '    <input name="transmission_weight" type="float" value="'+ hit.transmission.toFixed(1) +'" />\n' : "";

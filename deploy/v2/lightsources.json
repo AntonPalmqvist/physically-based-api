@@ -98,7 +98,7 @@
         ],
         "temperature": 5600,
         "angle": 15,
-        "intensity": 600000
+        "intensity": 32671
       },
       {
         "format": "30º Reflector",
@@ -110,7 +110,7 @@
         ],
         "temperature": 5600,
         "angle": 30,
-        "intensity": 250000
+        "intensity": 56389
       },
       {
         "format": "45º Reflector",
@@ -122,7 +122,7 @@
         ],
         "temperature": 5600,
         "angle": 45,
-        "intensity": 125000
+        "intensity": 67377
       },
       {
         "format": "No Reflector",
@@ -134,10 +134,10 @@
         ],
         "temperature": 5600,
         "angle": 65,
-        "intensity": 61250
+        "intensity": 78096
       }
     ],
-    "unit": ["lx"],
+    "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],
     "references": [
@@ -176,7 +176,7 @@
         ],
         "temperature": 5600,
         "angle": 15,
-        "intensity": 864900
+        "intensity": 47095
       },
       {
         "format": "30º Reflector",
@@ -188,7 +188,7 @@
         ],
         "temperature": 5600,
         "angle": 30,
-        "intensity": 376200
+        "intensity": 84854
       },
       {
         "format": "45º Reflector",
@@ -200,7 +200,7 @@
         ],
         "temperature": 5600,
         "angle": 45,
-        "intensity": 202500
+        "intensity": 109150
       },
       {
         "format": "No Reflector",
@@ -212,10 +212,10 @@
         ],
         "temperature": 5600,
         "angle": 70,
-        "intensity": 76400
+        "intensity": 117678
       }
     ],
-    "unit": ["lx"],
+    "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],
     "references": [
@@ -253,7 +253,7 @@
         ],
         "temperature": 6000,
         "angle": 15,
-        "intensity": 405000
+        "intensity": 22053
       },
       {
         "format": "Medium",
@@ -265,7 +265,7 @@
         ],
         "temperature": 6000,
         "angle": 40,
-        "intensity": 76100
+        "intensity": 31671
       },
       {
         "format": "Flood",
@@ -277,11 +277,11 @@
         ],
         "temperature": 6000,
         "angle": 60,
-        "intensity": 41300
+        "intensity": 43249
       }
     ],
     "sourceSize": [11.5],
-    "unit": ["lx"],
+    "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],
     "references": [
@@ -1167,6 +1167,12 @@
         "author": "Jeffery, D.",
         "url": "https://www.physics.unlv.edu/~jeffery/astro/moon/sun_moon_angular.html",
         "accessed": "2025-02-27"
+      },
+      {
+        "title": "What Colour Is The Sun",
+        "author": "Hamilton, A.",
+        "url": "https://jila.colorado.edu/~ajsh/colour/Tspectrum.html",
+        "accessed": "2025-08-23"
       }
     ]
   }
