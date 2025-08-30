@@ -1,14 +1,6 @@
-# Physically Based
+# Physically Based API
 
 A database of physically based values for CG artists.
-
-- [Materials](https://api.physicallybased.info/materials)
-- [Light sources](https://api.physicallybased.info/lightsources)
-- [Cameras](https://api.physicallybased.info/cameras)
-- Lenses (coming in v2)
-
-Ideally, the data is to be consumed by DCC applications in the form of presets and plug-ins, or any other form that makes sense.
-You can browse the database at https://physicallybased.info
 
 <p align="center">
   <picture>
@@ -17,25 +9,39 @@ You can browse the database at https://physicallybased.info
   </picture>
 </p>
 
-## API
+## Features
+
+- Open Database: Access a curated collection of physically based material values
+- Lightweight: The entire dataset is optimized for quick loading and integration as presets
+  - [materials.json](deploy/v2/materials.json) `191 KB`
+  - [lightsources.json](deploy/v2/lightsources.json) `35 KB`
+  - [cameras.json](deploy/v2/cameras.json) `222 KB`
+  - [lenses.json](deploy/v2/lenses.json) (coming in v2)
+- API Access: Connect your tools to the API to get the latest updates from the database
+- Community-Driven: Contribute new materials or improve existing ones
+- Free License: All data is released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+
+## Getting Started
 
 Access the API and documentation at [https://api.physicallybased.info](https://api.physicallybased.info)
 
-## Implementations
+### Implementations
 
-- Web [https://physicallybased.info](https://physicallybased.info) by [AntonPalmqvist](https://github.com/AntonPalmqvist)
-- Web [https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [gkjohnson](https://github.com/gkjohnson)
-- Web [https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html](https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html) by [kwokcb](https://github.com/kwokcb)
+Explore the database through these implementations:
 
-## Contribute
+- Web [Physically Based](https://physicallybased.info) by [AntonPalmqvist](https://github.com/AntonPalmqvist)
+- Web [Three.js GPU Path Tracer](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [gkjohnson](https://github.com/gkjohnson)
+- Web [MaterialXLab](https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html) by [kwokcb](https://github.com/kwokcb)
 
-Read about how to contribute here: [CONTRIBUTING.md](CONTRIBUTING.md)
+### Contribute
 
-## License
+Contributions are welcome! Whether you want to add new entries, corrections, or suggestions, your help is appreciated. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+### License
 
 The database is made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes.
 
-Shader ball used for renders is from [ASWF USD WG](https://github.com/usd-wg/assets/tree/main/full_assets/StandardShaderBall) licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+Shader ball used for renders is from [ASWF USD WG](https://github.com/usd-wg/assets/tree/main/full_assets/StandardShaderBall) and is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 <!-- ## Shader Ball
 

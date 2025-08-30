@@ -63,31 +63,31 @@
         "color": [1.0, 0.859, 0.778],
         "temperature": 5600,
         "angle": 65,
-        "intensity": 61250
+        "intensity": 78096
       },
       {
         "format": "15º Reflector",
         "color": [1.0, 0.859, 0.778],
         "temperature": 5600,
         "angle": 15,
-        "intensity": 600000
+        "intensity": 32671
       },
       {
         "format": "30º Reflector",
         "color": [1.0, 0.859, 0.778],
         "temperature": 5600,
         "angle": 30,
-        "intensity": 250000
+        "intensity": 56389
       },
       {
         "format": "45º Reflector",
         "color": [1.0, 0.859, 0.778],
         "temperature": 5600,
         "angle": 45,
-        "intensity": 125000
+        "intensity": 67377
       }
     ],
-    "unit": ["lx"],
+    "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],
     "description": "",
@@ -106,31 +106,31 @@
         "color": [1.0, 0.859, 0.778],
         "temperature": 5600,
         "angle": 70,
-        "intensity": 76400
+        "intensity": 117678
       },
       {
         "format": "15º Reflector",
         "color": [1.0, 0.859, 0.778],
         "temperature": 5600,
         "angle": 15,
-        "intensity": 864900
+        "intensity": 47095
       },
       {
         "format": "30º Reflector",
         "color": [1.0, 0.859, 0.778],
         "temperature": 5600,
         "angle": 30,
-        "intensity": 376200
+        "intensity": 84854
       },
       {
         "format": "45º Reflector",
         "color": [1.0, 0.859, 0.778],
         "temperature": 5600,
         "angle": 45,
-        "intensity": 202500
+        "intensity": 109150
       }
     ],
-    "unit": ["lx"],
+    "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],
     "description": "",
@@ -148,21 +148,21 @@
       {
         "format": "Flood",
         "angle": 60,
-        "intensity": 41300
+        "intensity": 43249
       },
       {
         "format": "Medium",
         "angle": 40,
-        "intensity": 76100
+        "intensity": 31671
       },
       {
         "format": "Spot",
         "angle": 15,
-        "intensity": 405000
+        "intensity": 22053
       }
     ],
     "sourceSize": [11.5],
-    "unit": ["lx"],
+    "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],
     "description": "",
@@ -580,7 +580,8 @@
       "https://en.wikipedia.org/wiki/Daylight",
       "http://stjarnhimlen.se/comp/radfaq.html#10",
       "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
-      "https://www.physics.unlv.edu/~jeffery/astro/moon/sun_moon_angular.html"
+      "https://www.physics.unlv.edu/~jeffery/astro/moon/sun_moon_angular.html",
+      "https://jila.colorado.edu/~ajsh/colour/Tspectrum.html"
     ]
   }
 ]
