@@ -2,7 +2,8 @@ openapi: 3.1.0
 info:
   version: 2.0-alpha
   title: Physically Based API
-  description: "\U0001F6A7 2.0 IS UNDER DEVELOPMENT. FOR TESTING USE ONLY. \U0001F6A7\n\nThis is a database of physically based values for CG artists.\n\nIt's made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes. \n\nIdeally, the data is to be consumed by DCC applications in the form of plug-ins, or any other form that makes sense. It's also available to browse on the web at https://physicallybased.info\n\nFor additions or changes, feel free to make a Pull Request on Github at https://github.com/AntonPalmqvist/physically-based-api or send me a message through the [contact form.](https://physicallybased.info/about/)\n\nSchema: https://github.com/AntonPalmqvist/physically-based-api/blob/main/schemas/openapi-schema-v2.yaml"
+  summary: A database of physically based values for CG artists.
+  description: "\U0001F6A7 2.0 IS UNDER DEVELOPMENT. FOR TESTING USE ONLY. \U0001F6A7\n\n## Features\n\n- **Open Database**: Access a curated collection of physically based material values\n- **Lightweight**: The entire dataset is optimized for quick loading and integration as presets\n    - materials.json ```191 KB```\n    - lightsources.json ```35 KB```\n    - cameras.json ```222 KB```\n    - lenses.json ```1 KB```\n- **API Access**: Connect your tools to the API to get the latest updates from the database\n- **Community-Driven**: Contribute new materials or improve existing ones\n- **Free License**: All data is released under CC0 1.0\n\n## Implementations\n\nExplore the database through these implementations:\n\n- Web [Physically Based](https://physicallybased.info/) by [AntonPalmqvist](https://github.com/AntonPalmqvist)\n- Web [Three.js GPU Path Tracer](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [gkjohnson](https://github.com/gkjohnson)\n- Web [MaterialXLab](https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html) by [kwokcb](https://github.com/kwokcb)\n\n\n## Contribute\n\nContributions are welcome! Whether you want to add new entries, corrections, or suggestions, your help is appreciated. See the [Github page](https://github.com/AntonPalmqvist/physically-based-api) for more info.\n\n## License\n\nThe database is made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes.\n\nShader ball used for renders is from [ASWF USD WG](https://github.com/usd-wg/assets/tree/main/full_assets/StandardShaderBall) and is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)."
   contact:
     url: 'https://physicallybased.info/about'
     name: Form
@@ -143,6 +144,9 @@ components:
           description: 'The approximate distance up to which light can scatter below the surface, also known as “mean free path” (MFP). Specified in centimeters.'
         transmission:
           type: number
+        transmissionDepth:
+          type: number
+          description: Controls the depth into the volume at which the Transmission Color is realized.
         transmissionDispersion:
           type: number
           description: 'Abbe number, describing how much the index of refraction varies across wavelengths. For glass and diamonds, this is typically in the range of 10 to 70, with lower numbers giving more dispersion.'
@@ -189,6 +193,9 @@ components:
           maxItems: 3
           items:
             type: number
+        surfaceTension:
+          type: number
+          description: Surface tension measured in millinewton per meter (mN/m) at a temperature of 20°C. 1 mN/m = 1 dyn/cm.
         acousticAbsorption:
           type: array
           description: 'Absorption coefficients at 125, 250, 500, 1000, 2000, and 4000 kHz.'

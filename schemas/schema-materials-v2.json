@@ -117,6 +117,11 @@
         "type": "number",
         "default": 0
       },
+      "transmissionDepth": {
+        "description": "Controls the depth into the volume at which the Transmission Color is realized.",
+        "type": "number",
+        "default": 0
+      },
       "transmissionDispersion": {
         "description": "Abbe number, describing how much the index of refraction varies across wavelengths. For glass and diamonds, this is typically in the range of 10 to 70, with lower numbers giving more dispersion.",
         "type": "number",
@@ -184,6 +189,11 @@
         "default": [1, 2],
         "minItems": 1,
         "maxItems": 3
+      },
+      "surfaceTension": {
+        "description": "Surface tension measured in millinewton per meter (mN/m) at a temperature of 20°C. 1 mN/m = 1 dyn/cm.",
+        "type": "number",
+        "default": 1
       },
       "acousticAbsorption": {
         "description": "Absorption coefficients at 125, 250, 500, 1000, 2000, and 4000 kHz.",

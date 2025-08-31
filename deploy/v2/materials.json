@@ -277,9 +277,11 @@
     "roughness": 0,
     "ior": 1.35,
     "transmission": 1,
+    "transmissionDepth": 0.08,
     "transmissionDispersion": 54,
     "density": [1060],
     "viscosity": [2.35, 4, 2.78],
+    "surfaceTension": 56,
     "category": ["Human"],
     "description": "The color of blood depends on its oxygen level. When there is plenty of oxygen, the color is a brighter red. The reason is because of a protein called hemoglobin, which carries the oxygen in your blood. When hemoglobin has a full oxygen load, it has a bright red color, and when it's deoxygenated it's a darker red. For example, arterial and capillary blood is bright, and venous blood is dark.",
     "tags": ["liquid"],
@@ -304,6 +306,13 @@
         "url": "https://en.wikipedia.org/w/index.php?title=Hemorheology&oldid=1229971521",
         "publisher": "Wikipedia, The Free Encyclopedia",
         "accessed": "2025-01-25"
+      },
+      {
+        "title": "Surface tension",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Surface_tension&oldid=1304099149#Values",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-08-30"
       },
       {
         "title": "Refractive index database",
@@ -1046,13 +1055,15 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.027, 0.019, 0.018]
+        "color": [0.447, 0.133, 0.034]
       }
     ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.34,
-    "subsurfaceRadius": [10, 5, 1],
+    "transmission": 1,
+    "transmissionDepth": 0.1,
+    "transmissionDispersion": 55.78,
     "density": [1020],
     "viscosity": [1.7],
     "category": ["Liquid"],
@@ -1162,6 +1173,7 @@
     "transmission": 1,
     "density": [920],
     "viscosity": [46],
+    "surfaceTension": 31,
     "category": ["Liquid"],
     "references": [
       {
@@ -1209,6 +1221,17 @@
         "publisher": "Next Limit Technologies",
         "url": "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table",
         "accessed": "2025-01-26"
+      },
+      {
+        "title": "Density, Viscosity, And Surface Tension Of Five Vegetable Oils At Elevated Temperatures: Measurement And Modeling",
+        "author": "Sahasrabudhe, S. N., Rodriguez-Martinez, V., O’Meara, Meghan., & Farkas, B. E.",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/10942912.2017.1360905",
+        "publisher": "International Journal of Food Properties",
+        "volume": "20",
+        "issue": "sup2",
+        "pages": "1965--1981",
+        "year": "2017",
+        "doi": "https://doi.org/10.1080/10942912.2017.1360905"
       }
     ],
     "images": [
@@ -2782,6 +2805,7 @@
     ],
     "density": [13546],
     "viscosity": [1.552],
+    "surfaceTension": 487,
     "category": ["Metal"],
     "description": "Mercury is the only metallic element that is known to be liquid at standard conditions.",
     "tags": ["liquid"],
@@ -2812,6 +2836,13 @@
         "url": "https://en.wikipedia.org/w/index.php?title=List_of_viscosities&oldid=1256671906",
         "publisher": "Wikipedia, The Free Encyclopedia",
         "accessed": "2025-01-26"
+      },
+      {
+        "title": "Surface tension",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Surface_tension&oldid=1304099149#Values",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-08-30"
       },
       {
         "title": "Liquids - Dynamic Viscosities",
@@ -2847,6 +2878,7 @@
     "subsurfaceRadius": [1.842, 1.044, 0.35],
     "density": [1026, 1035, 1030],
     "viscosity": [2],
+    "surfaceTension": 48,
     "category": ["Liquid"],
     "description": "Cow's milk",
     "tags": ["sss"],
@@ -2909,6 +2941,17 @@
         "url": "https://en.wikipedia.org/w/index.php?title=List_of_viscosities&oldid=1256671906",
         "publisher": "Wikipedia, The Free Encyclopedia",
         "accessed": "2025-01-26"
+      },
+      {
+        "title": "The Surface Tension of Milk. A Review1, 2",
+        "author": "Whitnah, C.H.",
+        "url": "https://www.journalofdairyscience.org/article/S0022-0302(59)90760-X/pdf",
+        "publisher": "Journal of Dairy Science",
+        "volume": "42",
+        "issue": "9",
+        "pages": "1437--1449",
+        "year": "1959",
+        "doi": "https://doi.org/10.3168/jds.S0022-0302(59)90760-X"
       }
     ],
     "images": [
@@ -3389,6 +3432,7 @@
     "subsurfaceRadius": [3, 1, 0.25],
     "density": [870, 1000, 1000],
     "viscosity": [100, 1000, 500],
+    "surfaceTension": 21,
     "category": ["Liquid"],
     "description": "The viscosity of crude oil is sensitive to temperature.",
     "tags": ["oil", "crude oil", "sss"],
@@ -3442,6 +3486,16 @@
         "url": "https://wiki.anton-paar.com/en/crude-oil/",
         "publisher": "Anton Paar GmbH",
         "accessed": "2025-01-26"
+      },
+      {
+        "title": "Measurements of Surface Tension for Mineral and Crude Oil Systems",
+        "author": "Busahmin, B., & Maini, B.B.",
+        "url": "https://www.scientific.net/DDF.391.106",
+        "publisher": "Defect and Diffusion Forum",
+        "volume": "391",
+        "pages": "106--113",
+        "year": "2019",
+        "doi": "https://doi.org/10.4028/www.scientific.net/DDF.391.106"
       }
     ],
     "images": [
@@ -5496,6 +5550,7 @@
     "transmissionDispersion": 55.78,
     "density": [958, 1000, 1000],
     "viscosity": [1.002],
+    "surfaceTension": 72,
     "acousticAbsorption": [0.008, 0.008, 0.013, 0.015, 0.02, 0.025],
     "category": ["Liquid"],
     "description": "While relatively small quantities of water appear to be colorless, pure water has a slight blue color that becomes deeper as the thickness of the observed sample increases. The hue of water is an intrinsic property and is caused by selective absorption and scattering of white light. Dissolved elements or suspended impurities may give water a different color.",
@@ -5533,6 +5588,13 @@
         "url": "https://en.wikipedia.org/w/index.php?title=List_of_viscosities&oldid=1256671906",
         "publisher": "Wikipedia, The Free Encyclopedia",
         "accessed": "2025-01-26"
+      },
+      {
+        "title": "Surface tension",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Surface_tension&oldid=1304099149#Values",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-08-30"
       },
       {
         "title": "Hybrido Viscosity Table",
