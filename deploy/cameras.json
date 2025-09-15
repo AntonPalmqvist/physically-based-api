@@ -1664,7 +1664,7 @@
     "tags": ["medium format"]
   },
   {
-    "name": "Fujifilm GFX Eterna",
+    "name": "Fujifilm GFX Eterna 55",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -1674,6 +1674,7 @@
     "category": ["Movie"],
     "description": "",
     "sources": [
+      "https://www.fujifilm-x.com/en-us/products/cameras/gfx-eterna-55/specifications/",
       "https://www.fujifilm.com/us/en/news/digital-cameras/fujifilm-first-digital-filmmaking-camera-gfx-eterna",
       "https://www.dpreview.com/news/9178470454/fujifilm-gfx-eterna-cinema-camera-medium-format-sensor"
     ],

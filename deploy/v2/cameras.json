@@ -2045,7 +2045,7 @@
     "tags": ["medium format"]
   },
   {
-    "name": "Fujifilm GFX Eterna",
+    "name": "Fujifilm GFX Eterna 55",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -2054,6 +2054,12 @@
     ],
     "category": ["Movie"],
     "references": [
+      {
+        "title": "FUJIFILM GFX ETERNA 55 - Specifications",
+        "publisher": "FUJIFILM Holdings America Corporation",
+        "url": "https://www.fujifilm-x.com/en-us/products/cameras/gfx-eterna-55/specifications/",
+        "accessed": "2025-09-14"
+      },
       {
         "title": "Fujifilm Unveils the Development of its First Digital Filmmaking Camera - FUJIFILM GFX ETERNA",
         "publisher": "FUJIFILM Holdings America Corporation",
