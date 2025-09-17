@@ -128,7 +128,7 @@
         "default": 0
       },
       "complexIor": {
-        "description": "Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel, in the following order: nR, kR, nG, kG, nB, kB. Calculated from spectral IOR data files with script from https://github.com/natyh/material-params",
+        "description": "Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel. Calculated from spectral IOR data files with script from https://github.com/natyh/material-params",
         "type": "array",
         "minItems": 1,
         "uniqueItems": true,
@@ -141,18 +141,28 @@
               "type": "string",
               "default": "srgb-linear"
             },
-            "nk": {
-              "description": "N and k values for each RGB color channel in the following order: nR, kR, nG, kG, nB, kB.",
+            "n": {
+              "description": "N values for each RGB color channel.",
               "type": "array",
               "items": {
                 "type": "number"
               },
-              "default": [0, 0, 0, 0, 0, 0],
-              "minItems": 6,
-              "maxItems": 6
+              "default": [0, 0, 0],
+              "minItems": 3,
+              "maxItems": 3
+            },
+            "k": {
+              "description": "K values for each RGB color channel.",
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "default": [0, 0, 0],
+              "minItems": 3,
+              "maxItems": 3
             }
           },
-          "required": ["colorSpace", "nk"]
+          "required": ["colorSpace", "n", "k"]
         }
       },
       "thinFilmThickness": {
