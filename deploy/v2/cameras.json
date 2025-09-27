@@ -1,5 +1,477 @@
 [
   {
+    "make": "Apple",
+    "model": "Iphone 13 Pro",
+    "sensorSize": [
+      {
+        "format": "26 mm Main",
+        "size": [7.6, 5.7],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [4, 3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "77 mm Telephoto",
+        "size": [4, 3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "references": [
+      {
+        "title": "IPhone 13 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_13_Pro&oldid=1275111046",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "All Apple iPhone 13 and 13 Pro camera upgrades: Explained",
+        "author": "Sanyal, R.",
+        "url": "https://www.dpreview.com/articles/6780391159/all-apple-iphone-13-and-13-pro-camera-upgrades-explained",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "make": "Apple",
+    "model": "Iphone 14 Pro",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "77 mm Telephoto",
+        "size": [4, 3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "references": [
+      {
+        "title": "IPhone 14 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_14_Pro&oldid=1273097110",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's iPhone 14 and 14 Pro: Imaging tech examined",
+        "author": "Butler, R.",
+        "url": "https://www.dpreview.com/articles/6110937480",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "make": "Apple",
+    "model": "Iphone 15 Pro",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "77 mm Telephoto",
+        "size": [4, 3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "references": [
+      {
+        "title": "IPhone 15 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_15_Pro&oldid=1275996442",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's iPhone 15 and 15 Pro: Imaging tech examined",
+        "author": "Carlson, J. L.",
+        "url": "https://www.dpreview.com/articles/6110937480",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "make": "Apple",
+    "model": "Iphone 15 Pro Max",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "120 mm Telephoto",
+        "size": [4.5, 3.4],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "references": [
+      {
+        "title": "IPhone 15 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_15_Pro&oldid=1275996442",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's iPhone 15 and 15 Pro: Imaging tech examined",
+        "author": "Carlson, J. L.",
+        "url": "https://www.dpreview.com/articles/6110937480",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "make": "Apple",
+    "model": "Iphone 16 Pro",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "120 mm Telephoto",
+        "size": [4.5, 3.4],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "references": [
+      {
+        "title": "IPhone 16 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_16_Pro&oldid=1277250899",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Is it worth upgrading to the iPhone 16 Pro from a 13, 14, or 15 Pro?",
+        "author": "Clark, M.",
+        "url": "https://www.dpreview.com/news/8163093616/iphone-16-pro-worth-upgrading-13-14-15-apple-cameras",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "make": "Apple",
+    "model": "Iphone 16 Pro Max",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "120 mm Telephoto",
+        "size": [4.5, 3.4],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "references": [
+      {
+        "title": "IPhone 16 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_16_Pro&oldid=1277250899",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Is it worth upgrading to the iPhone 16 Pro from a 13, 14, or 15 Pro?",
+        "author": "Clark, M.",
+        "url": "https://www.dpreview.com/news/8163093616/iphone-16-pro-worth-upgrading-13-14-15-apple-cameras",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "make": "Apple",
+    "model": "Iphone 17 Pro",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "100 mm Telephoto",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "references": [
+      {
+        "title": "IPhone 17 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_17_Pro&oldid=1313511607",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-09-26"
+      },
+      {
+        "title": "Apple Announces The Iphone 17 And 17 Pro",
+        "author": "Clark, M., & Baskin, D.",
+        "url": "https://www.dpreview.com/news/2604105544/apple-iphone-17-pro-announcement",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-09-26"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "make": "Apple",
+    "model": "Iphone 17 Pro Max",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "100 mm Telephoto",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "references": [
+      {
+        "title": "IPhone 17 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_17_Pro&oldid=1313511607",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-09-26"
+      },
+      {
+        "title": "Apple Announces The Iphone 17 And 17 Pro",
+        "author": "Clark, M., & Baskin, D.",
+        "url": "https://www.dpreview.com/news/2604105544/apple-iphone-17-pro-announcement",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-09-26"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["phone"]
+  },
+  {
     "make": "Arri",
     "model": "Alexa 35",
     "sensorSize": [
@@ -2579,478 +3051,6 @@
       }
     ],
     "tags": ["medium format"]
-  },
-  {
-    "make": "Apple",
-    "model": "Iphone 13 Pro",
-    "sensorSize": [
-      {
-        "format": "26 mm Main",
-        "size": [7.6, 5.7],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "13 mm Ultra Wide",
-        "size": [4, 3],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "77 mm Telephoto",
-        "size": [4, 3],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      }
-    ],
-    "category": ["Mobile"],
-    "description": "Apple uses Sony sensors for their Iphones.",
-    "references": [
-      {
-        "title": "IPhone 13 Pro",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_13_Pro&oldid=1275111046",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "All Apple iPhone 13 and 13 Pro camera upgrades: Explained",
-        "author": "Sanyal, R.",
-        "url": "https://www.dpreview.com/articles/6780391159/all-apple-iphone-13-and-13-pro-camera-upgrades-explained",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
-        "author": "Burgett, G.",
-        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["phone"]
-  },
-  {
-    "make": "Apple",
-    "model": "Iphone 14 Pro",
-    "sensorSize": [
-      {
-        "format": "24 mm Main",
-        "size": [9.8, 7.3],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "13 mm Ultra Wide",
-        "size": [5.6, 4.2],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "77 mm Telephoto",
-        "size": [4, 3],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      }
-    ],
-    "category": ["Mobile"],
-    "description": "Apple uses Sony sensors for their Iphones.",
-    "references": [
-      {
-        "title": "IPhone 14 Pro",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_14_Pro&oldid=1273097110",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Apple's iPhone 14 and 14 Pro: Imaging tech examined",
-        "author": "Butler, R.",
-        "url": "https://www.dpreview.com/articles/6110937480",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
-        "author": "Burgett, G.",
-        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["phone"]
-  },
-  {
-    "make": "Apple",
-    "model": "Iphone 15 Pro",
-    "sensorSize": [
-      {
-        "format": "24 mm Main",
-        "size": [9.8, 7.3],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "13 mm Ultra Wide",
-        "size": [5.6, 4.2],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "77 mm Telephoto",
-        "size": [4, 3],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      }
-    ],
-    "category": ["Mobile"],
-    "description": "Apple uses Sony sensors for their Iphones.",
-    "references": [
-      {
-        "title": "IPhone 15 Pro",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_15_Pro&oldid=1275996442",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Apple's iPhone 15 and 15 Pro: Imaging tech examined",
-        "author": "Carlson, J. L.",
-        "url": "https://www.dpreview.com/articles/6110937480",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
-        "author": "Burgett, G.",
-        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["phone"]
-  },
-  {
-    "make": "Apple",
-    "model": "Iphone 15 Pro Max",
-    "sensorSize": [
-      {
-        "format": "24 mm Main",
-        "size": [9.8, 7.3],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "13 mm Ultra Wide",
-        "size": [5.6, 4.2],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "120 mm Telephoto",
-        "size": [4.5, 3.4],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      }
-    ],
-    "category": ["Mobile"],
-    "description": "Apple uses Sony sensors for their Iphones.",
-    "references": [
-      {
-        "title": "IPhone 15 Pro",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_15_Pro&oldid=1275996442",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Apple's iPhone 15 and 15 Pro: Imaging tech examined",
-        "author": "Carlson, J. L.",
-        "url": "https://www.dpreview.com/articles/6110937480",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
-        "author": "Burgett, G.",
-        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["phone"]
-  },
-  {
-    "make": "Apple",
-    "model": "Iphone 16 Pro",
-    "sensorSize": [
-      {
-        "format": "24 mm Main",
-        "size": [9.8, 7.3],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "13 mm Ultra Wide",
-        "size": [5.6, 4.2],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "120 mm Telephoto",
-        "size": [4.5, 3.4],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      }
-    ],
-    "category": ["Mobile"],
-    "description": "Apple uses Sony sensors for their Iphones.",
-    "references": [
-      {
-        "title": "IPhone 16 Pro",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_16_Pro&oldid=1277250899",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Is it worth upgrading to the iPhone 16 Pro from a 13, 14, or 15 Pro?",
-        "author": "Clark, M.",
-        "url": "https://www.dpreview.com/news/8163093616/iphone-16-pro-worth-upgrading-13-14-15-apple-cameras",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
-        "author": "Burgett, G.",
-        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["phone"]
-  },
-  {
-    "make": "Apple",
-    "model": "Iphone 16 Pro Max",
-    "sensorSize": [
-      {
-        "format": "24 mm Main",
-        "size": [9.8, 7.3],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "13 mm Ultra Wide",
-        "size": [5.6, 4.2],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "120 mm Telephoto",
-        "size": [4.5, 3.4],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      }
-    ],
-    "category": ["Mobile"],
-    "description": "Apple uses Sony sensors for their Iphones.",
-    "references": [
-      {
-        "title": "IPhone 16 Pro",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_16_Pro&oldid=1277250899",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Is it worth upgrading to the iPhone 16 Pro from a 13, 14, or 15 Pro?",
-        "author": "Clark, M.",
-        "url": "https://www.dpreview.com/news/8163093616/iphone-16-pro-worth-upgrading-13-14-15-apple-cameras",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
-        "author": "Burgett, G.",
-        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["phone"]
-  },
-  {
-    "make": "Apple",
-    "model": "Iphone 17 Pro",
-    "sensorSize": [
-      {
-        "format": "24 mm Main",
-        "size": [9.8, 7.3],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "13 mm Ultra Wide",
-        "size": [5.6, 4.2],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "100 mm Telephoto",
-        "size": [5.6, 4.2],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      }
-    ],
-    "category": ["Mobile"],
-    "description": "Apple uses Sony sensors for their Iphones.",
-    "references": [
-      {
-        "title": "IPhone 17 Pro",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_17_Pro&oldid=1313511607",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-09-26"
-      },
-      {
-        "title": "Apple Announces The Iphone 17 And 17 Pro",
-        "author": "Clark, M., & Baskin, D.",
-        "url": "https://www.dpreview.com/news/2604105544/apple-iphone-17-pro-announcement",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-09-26"
-      },
-      {
-        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
-        "author": "Burgett, G.",
-        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["phone"]
-  },
-  {
-    "make": "Apple",
-    "model": "Iphone 17 Pro Max",
-    "sensorSize": [
-      {
-        "format": "24 mm Main",
-        "size": [9.8, 7.3],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "13 mm Ultra Wide",
-        "size": [5.6, 4.2],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "100 mm Telephoto",
-        "size": [5.6, 4.2],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      }
-    ],
-    "category": ["Mobile"],
-    "description": "Apple uses Sony sensors for their Iphones.",
-    "references": [
-      {
-        "title": "IPhone 17 Pro",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_17_Pro&oldid=1313511607",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-09-26"
-      },
-      {
-        "title": "Apple Announces The Iphone 17 And 17 Pro",
-        "author": "Clark, M., & Baskin, D.",
-        "url": "https://www.dpreview.com/news/2604105544/apple-iphone-17-pro-announcement",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-09-26"
-      },
-      {
-        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
-        "author": "Burgett, G.",
-        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["phone"]
   },
   {
     "make": "Leica",
