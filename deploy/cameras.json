@@ -1,5 +1,142 @@
 [
   {
+    "name": "Analog 16 mm",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [10.26, 7.49]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/16_mm_film#Standard_16_mm"],
+    "tags": ["film"]
+  },
+  {
+    "name": "Analog 35 mm",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [22, 16]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/35_mm_movie_film"],
+    "tags": ["film"]
+  },
+  {
+    "name": "Analog 65 mm",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [52.48, 23.01]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/70_mm_film#Technical_specifications"
+    ],
+    "tags": ["film"]
+  },
+  {
+    "name": "Analog IMAX 70 mm",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [70.41, 52.63]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/70_mm_film#IMAX_.2815.2F70.29"],
+    "tags": ["film"]
+  },
+  {
+    "name": "Analog Super 8 mm",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [5.79, 4.01]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/Super_8_film"],
+    "tags": ["film"]
+  },
+  {
+    "name": "Analog Super 16 mm",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [12.52, 7.41]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/16_mm_film#Super_16_mm"],
+    "tags": ["film"]
+  },
+  {
+    "name": "Analog Super 35 mm 3-perf",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [24.89, 13.86]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Super_35",
+      "https://en.wikipedia.org/wiki/Image_sensor_format"
+    ],
+    "tags": ["film"]
+  },
+  {
+    "name": "Analog Super 35 mm 4-perf",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [24.89, 18.66]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": ["https://en.wikipedia.org/wiki/Super_35"],
+    "tags": ["film"]
+  },
+  {
+    "name": "APS-C",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [23.5, 15.6]
+      }
+    ],
+    "category": ["Still"],
+    "sources": [
+      "https://en.wikipedia.org/w/index.php?title=APS-C&oldid=1312922548"
+    ],
+    "tags": [""]
+  },
+  {
+    "name": "APS-C (Canon)",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [22.3, 14.9]
+      }
+    ],
+    "category": ["Still"],
+    "sources": [
+      "https://en.wikipedia.org/w/index.php?title=APS-C&oldid=1312922548"
+    ],
+    "tags": [""]
+  },
+  {
     "name": "Arri Alexa 35",
     "sensorSize": [
       {
@@ -1564,6 +1701,22 @@
     "tags": ["super 35"]
   },
   {
+    "name": "Four Thirds",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [17.3, 13]
+      }
+    ],
+    "category": ["Still"],
+    "description": "The Micro Four Thirds system uses the same sensor, but removes the mirror box from the camera design.",
+    "sources": [
+      "https://en.wikipedia.org/w/index.php?title=Four_Thirds_system&oldid=1305837716",
+      "https://en.wikipedia.org/w/index.php?title=Micro_Four_Thirds_system&oldid=1301996798"
+    ],
+    "tags": ["mft", "micro four thirds"]
+  },
+  {
     "name": "Fujifilm GFX100",
     "sensorSize": [
       {
@@ -1760,6 +1913,20 @@
     "tags": ["aps-c"]
   },
   {
+    "name": "Full Frame 35 mm",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [36, 24]
+      }
+    ],
+    "category": ["Still"],
+    "sources": [
+      "https://en.wikipedia.org/w/index.php?title=Full-frame_DSLR&oldid=1289100593"
+    ],
+    "tags": ["dslr"]
+  },
+  {
     "name": "GoPro Hero12 Black",
     "sensorSize": [
       {
@@ -1839,19 +2006,6 @@
       "https://cdn.hasselblad.com/manuals/X1D-II-50C-User-Manual/1.0.0.0/X1D-II-50C-User-Guide-en.pdf"
     ],
     "tags": ["medium format"]
-  },
-  {
-    "name": "IMAX 70 mm",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [70.41, 52.63]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/70_mm_film#IMAX_.2815.2F70.29"],
-    "tags": ["film"]
   },
   {
     "name": "Iphone 13 Pro",
@@ -2085,6 +2239,86 @@
     "sources": [
       "https://en.wikipedia.org/wiki/IPhone_16_Pro",
       "https://www.dpreview.com/news/8163093616/iphone-16-pro-worth-upgrading-13-14-15-apple-cameras"
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "name": "Iphone 17 Pro",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "100 mm Telephoto",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "sources": [
+      "https://en.wikipedia.org/w/index.php?title=IPhone_17_Pro&oldid=1313511607",
+      "https://www.dpreview.com/news/2604105544/apple-iphone-17-pro-announcement",
+      "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade"
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "name": "Iphone 17 Pro Max",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "100 mm Telephoto",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "sources": [
+      "https://en.wikipedia.org/w/index.php?title=IPhone_17_Pro&oldid=1313511607",
+      "https://www.dpreview.com/news/2604105544/apple-iphone-17-pro-announcement",
+      "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade"
     ],
     "tags": ["phone"]
   },
@@ -8354,101 +8588,5 @@
       "https://en.wikipedia.org/wiki/CineAlta"
     ],
     "tags": ["imax"]
-  },
-  {
-    "name": "Standard 16 mm",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [10.26, 7.49]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/16_mm_film#Standard_16_mm"],
-    "tags": ["film"]
-  },
-  {
-    "name": "Standard 35 mm",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [22, 16]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/35_mm_movie_film"],
-    "tags": ["film"]
-  },
-  {
-    "name": "Standard 65 mm",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [52.48, 23.01]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/70_mm_film#Technical_specifications"
-    ],
-    "tags": ["film"]
-  },
-  {
-    "name": "Super 8 mm",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [5.79, 4.01]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Super_8_film"],
-    "tags": ["film"]
-  },
-  {
-    "name": "Super 16 mm",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [12.52, 7.41]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/16_mm_film#Super_16_mm"],
-    "tags": ["film"]
-  },
-  {
-    "name": "Super 35 mm 3-perf",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [24.89, 13.86]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Super_35",
-      "https://en.wikipedia.org/wiki/Image_sensor_format"
-    ],
-    "tags": ["film"]
-  },
-  {
-    "name": "Super 35 mm 4-perf",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [24.89, 18.66]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Super_35"],
-    "tags": ["film"]
   }
 ]

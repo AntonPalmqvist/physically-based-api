@@ -572,9 +572,12 @@ components:
       description: 'Any type of camera that is being used, or simulated, in any way in CG productions (including games).'
       additionalProperties: false
       properties:
-        name:
+        make:
           type: string
-          description: Name of the camera.
+          description: Brand name.
+        model:
+          type: string
+          description: Model name.
         sensorSize:
           type: array
           description: 'Array of sensor sizes. First item specifies the size of a fully open gate. If needed, additional sizes can be added for cameras that crop the sensor.'
@@ -632,12 +635,14 @@ components:
           items:
             $ref: '#/components/schemas/reference'
       required:
-        - name
+        - make
+        - model
         - sensorSize
         - category
         - references
       examples:
-        - name: Arri Alexa 35
+        - make: Arri
+          model: Alexa 35
           sensorSize:
             - format: '4.6K 3:2 Open Gate'
               size:
@@ -747,10 +752,6 @@ components:
           category:
             - Movie
           references:
-            - title: ALEXA 35 | Camera Systems | ARRI
-              publisher: ARRI GmbH
-              url: 'https://www.arri.com/en/camera-systems/cameras/alexa-35/alexa-35-recording-formats'
-              accessed: '2025-02-22'
             - title: ALEXA 35 Recording Formats
               publisher: ARRI GmbH
               url: 'https://www.arri.com/resource/blob/296424/88454a5a3dee9fe1d3fd68e75aa3411e/alexa-35-recording-format-poster-data.pdf'
