@@ -83,9 +83,11 @@
     "roughness": 0,
     "ior": 1.35,
     "transmission": 1,
+    "transmissionDepth": 0.08,
     "transmissionDispersion": 54,
     "density": 1060,
     "viscosity": 2.8,
+    "surfaceTension": 56,
     "category": ["Human"],
     "description": "The color of blood depends on its oxygen level. When there is plenty of oxygen, the color is a brighter red. The reason is because of a protein called hemoglobin, which carries the oxygen in your blood. When hemoglobin has a full oxygen load, it has a bright red color, and when it's deoxygenated it's a darker red. For example, arterial and capillary blood is bright, and venous blood is dark.",
     "sources": [
@@ -98,7 +100,8 @@
       "https://en.wikipedia.org/wiki/Hemorheology",
       "https://www.frontiersin.org/articles/10.3389/fphys.2019.01329/full",
       "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table",
-      "https://wiki.anton-paar.com/en/whole-blood/"
+      "https://wiki.anton-paar.com/en/whole-blood/",
+      "https://en.wikipedia.org/w/index.php?title=Surface_tension&oldid=1304099149#Values"
     ],
     "tags": ["liquid"],
     "reference": [
@@ -311,11 +314,13 @@
   },
   {
     "name": "Coffee",
-    "color": [0.027, 0.019, 0.018],
+    "color": [0.447, 0.133, 0.034],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.34,
-    "subsurfaceRadius": [10, 5, 1],
+    "transmission": 1,
+    "transmissionDepth": 0.1,
+    "transmissionDispersion": 55.78,
     "density": 1020,
     "viscosity": 1.7,
     "category": ["Liquid"],
@@ -360,6 +365,7 @@
     "transmission": 1,
     "density": 920,
     "viscosity": 46,
+    "surfaceTension": 31,
     "category": ["Liquid"],
     "description": "",
     "sources": [
@@ -369,7 +375,8 @@
       "https://en.wikipedia.org/wiki/Density",
       "https://en.wikipedia.org/wiki/List_of_viscosities",
       "https://downloads.hindawi.com/archive/2014/234583.pdf",
-      "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table"
+      "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table",
+      "https://www.tandfonline.com/doi/full/10.1080/10942912.2017.1360905"
     ],
     "tags": [""],
     "reference": [
@@ -846,6 +853,7 @@
     "complexIor": [1.86932, 5.36989, 1.53811, 4.60484, 1.4963, 3.92685],
     "density": 13546,
     "viscosity": 1.552,
+    "surfaceTension": 487,
     "category": ["Metal"],
     "description": "Mercury is the only metallic element that is known to be liquid at standard conditions.",
     "sources": [
@@ -853,7 +861,8 @@
       "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_base_html#metalness",
       "https://en.wikipedia.org/wiki/Density",
       "https://en.wikipedia.org/wiki/List_of_viscosities",
-      "https://www.engineeringtoolbox.com/absolute-viscosity-liquids-d_1259.html"
+      "https://www.engineeringtoolbox.com/absolute-viscosity-liquids-d_1259.html",
+      "https://en.wikipedia.org/w/index.php?title=Surface_tension&oldid=1304099149#Values"
     ],
     "tags": ["liquid"],
     "reference": [
@@ -870,6 +879,7 @@
     "density": 1030,
     "densityRange": [1026, 1035],
     "viscosity": 2,
+    "surfaceTension": 48,
     "category": ["Liquid"],
     "description": "Cow's milk",
     "sources": [
@@ -880,7 +890,8 @@
       "https://hypertextbook.com/facts/2002/AliciaNoelleJones.shtml",
       "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table",
       "https://en.wikipedia.org/wiki/List_of_viscosities",
-      "https://www.engineeringtoolbox.com/absolute-viscosity-liquids-d_1259.html"
+      "https://www.engineeringtoolbox.com/absolute-viscosity-liquids-d_1259.html",
+      "https://www.journalofdairyscience.org/article/S0022-0302(59)90760-X/pdf"
     ],
     "tags": ["sss"],
     "reference": [
@@ -1035,6 +1046,7 @@
     "density": 920,
     "densityRange": [870, 1000],
     "viscosity": 100,
+    "surfaceTension": 21,
     "category": ["Liquid"],
     "description": "The viscosity of crude oil is sensitive to temperature.",
     "sources": [
@@ -1042,7 +1054,8 @@
       "https://en.wikipedia.org/wiki/API_gravity",
       "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9922782/",
       "https://www.sciencedirect.com/science/article/abs/pii/S1350449520305636",
-      "https://www.sciencedirect.com/science/article/pii/S003442572200133X"
+      "https://www.sciencedirect.com/science/article/pii/S003442572200133X",
+      "https://www.scientific.net/DDF.391.106"
     ],
     "tags": ["oil", "crude oil", "sss"],
     "reference": [
@@ -1697,6 +1710,7 @@
     "density": 1000,
     "densityRange": [958, 1000],
     "viscosity": 1.002,
+    "surfaceTension": 72,
     "acousticAbsorption": [0.008, 0.008, 0.013, 0.015, 0.02, 0.025],
     "category": ["Liquid"],
     "description": "While relatively small quantities of water appear to be colorless, pure water has a slight blue color that becomes deeper as the thickness of the observed sample increases. The hue of water is an intrinsic property and is caused by selective absorption and scattering of white light. Dissolved elements or suspended impurities may give water a different color.",
@@ -1712,7 +1726,8 @@
       "https://www.engineeringtoolbox.com/water-dynamic-kinematic-viscosity-d_596.html",
       "https://en.wikipedia.org/wiki/List_of_viscosities",
       "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table",
-      "https://www.researchgate.net/journal/Optics-Express-1094-4087/publication/235415649_Zoom_lens_design_using_liquid_lens_for_laparoscope/links/6609e54d10ca86798731ef50/Zoom-lens-design-using-liquid-lens-for-laparoscope.pdf"
+      "https://www.researchgate.net/journal/Optics-Express-1094-4087/publication/235415649_Zoom_lens_design_using_liquid_lens_for_laparoscope/links/6609e54d10ca86798731ef50/Zoom-lens-design-using-liquid-lens-for-laparoscope.pdf",
+      "https://en.wikipedia.org/w/index.php?title=Surface_tension&oldid=1304099149#Values"
     ],
     "tags": [""],
     "reference": [

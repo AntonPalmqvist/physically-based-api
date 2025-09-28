@@ -1,6 +1,479 @@
 [
   {
-    "name": "Arri Alexa 35",
+    "make": "Apple",
+    "model": "Iphone 13 Pro",
+    "sensorSize": [
+      {
+        "format": "26 mm Main",
+        "size": [7.6, 5.7],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [4, 3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "77 mm Telephoto",
+        "size": [4, 3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "references": [
+      {
+        "title": "IPhone 13 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_13_Pro&oldid=1275111046",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "All Apple iPhone 13 and 13 Pro camera upgrades: Explained",
+        "author": "Sanyal, R.",
+        "url": "https://www.dpreview.com/articles/6780391159/all-apple-iphone-13-and-13-pro-camera-upgrades-explained",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "make": "Apple",
+    "model": "Iphone 14 Pro",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "77 mm Telephoto",
+        "size": [4, 3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "references": [
+      {
+        "title": "IPhone 14 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_14_Pro&oldid=1273097110",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's iPhone 14 and 14 Pro: Imaging tech examined",
+        "author": "Butler, R.",
+        "url": "https://www.dpreview.com/articles/6110937480",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "make": "Apple",
+    "model": "Iphone 15 Pro",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "77 mm Telephoto",
+        "size": [4, 3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "references": [
+      {
+        "title": "IPhone 15 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_15_Pro&oldid=1275996442",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's iPhone 15 and 15 Pro: Imaging tech examined",
+        "author": "Carlson, J. L.",
+        "url": "https://www.dpreview.com/articles/6110937480",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "make": "Apple",
+    "model": "Iphone 15 Pro Max",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "120 mm Telephoto",
+        "size": [4.5, 3.4],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "references": [
+      {
+        "title": "IPhone 15 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_15_Pro&oldid=1275996442",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's iPhone 15 and 15 Pro: Imaging tech examined",
+        "author": "Carlson, J. L.",
+        "url": "https://www.dpreview.com/articles/6110937480",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "make": "Apple",
+    "model": "Iphone 16 Pro",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "120 mm Telephoto",
+        "size": [4.5, 3.4],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "references": [
+      {
+        "title": "IPhone 16 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_16_Pro&oldid=1277250899",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Is it worth upgrading to the iPhone 16 Pro from a 13, 14, or 15 Pro?",
+        "author": "Clark, M.",
+        "url": "https://www.dpreview.com/news/8163093616/iphone-16-pro-worth-upgrading-13-14-15-apple-cameras",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "make": "Apple",
+    "model": "Iphone 16 Pro Max",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "120 mm Telephoto",
+        "size": [4.5, 3.4],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "references": [
+      {
+        "title": "IPhone 16 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_16_Pro&oldid=1277250899",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Is it worth upgrading to the iPhone 16 Pro from a 13, 14, or 15 Pro?",
+        "author": "Clark, M.",
+        "url": "https://www.dpreview.com/news/8163093616/iphone-16-pro-worth-upgrading-13-14-15-apple-cameras",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "make": "Apple",
+    "model": "Iphone 17 Pro",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "100 mm Telephoto",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "references": [
+      {
+        "title": "IPhone 17 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_17_Pro&oldid=1313511607",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-09-26"
+      },
+      {
+        "title": "Apple Announces The Iphone 17 And 17 Pro",
+        "author": "Clark, M., & Baskin, D.",
+        "url": "https://www.dpreview.com/news/2604105544/apple-iphone-17-pro-announcement",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-09-26"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "make": "Apple",
+    "model": "Iphone 17 Pro Max",
+    "sensorSize": [
+      {
+        "format": "24 mm Main",
+        "size": [9.8, 7.3],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "13 mm Ultra Wide",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      },
+      {
+        "format": "100 mm Telephoto",
+        "size": [5.6, 4.2],
+        "resolution": [
+          { "format": "4K", "size": [3840, 2160] },
+          { "format": "1080p", "size": [1920, 1080] },
+          { "format": "720p", "size": [1280, 720] }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "description": "Apple uses Sony sensors for their Iphones.",
+    "references": [
+      {
+        "title": "IPhone 17 Pro",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_17_Pro&oldid=1313511607",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-09-26"
+      },
+      {
+        "title": "Apple Announces The Iphone 17 And 17 Pro",
+        "author": "Clark, M., & Baskin, D.",
+        "url": "https://www.dpreview.com/news/2604105544/apple-iphone-17-pro-announcement",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-09-26"
+      },
+      {
+        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+        "author": "Burgett, G.",
+        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+        "publisher": "Digital Photography Review",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["phone"]
+  },
+  {
+    "make": "Arri",
+    "model": "Alexa 35",
     "sensorSize": [
       {
         "format": "4.6K 3:2 Open Gate",
@@ -134,7 +607,8 @@
     ]
   },
   {
-    "name": "Arri Alexa 65",
+    "make": "Arri",
+    "model": "Alexa 65",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -212,7 +686,8 @@
     "tags": ["imax"]
   },
   {
-    "name": "Arri Amira",
+    "make": "Arri",
+    "model": "Amira",
     "sensorSize": [
       {
         "format": "4K UHD",
@@ -293,7 +768,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Arri Alexa LF",
+    "make": "Arri",
+    "model": "Alexa LF",
     "sensorSize": [
       {
         "format": "LF Open Gate 4.5K",
@@ -371,7 +847,8 @@
     "tags": ["super 35", "imax"]
   },
   {
-    "name": "Arri Alexa Mini",
+    "make": "Arri",
+    "model": "Alexa Mini",
     "sensorSize": [
       {
         "format": "Open Gate 3.4K",
@@ -492,7 +969,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Arri Alexa Mini LF",
+    "make": "Arri",
+    "model": "Alexa Mini LF",
     "sensorSize": [
       {
         "format": "4.5K LF 3:2 Open Gate",
@@ -622,7 +1100,8 @@
     "tags": ["super 35", "imax"]
   },
   {
-    "name": "Arri Alexa SXT W",
+    "make": "Arri",
+    "model": "Alexa SXT W",
     "sensorSize": [
       {
         "format": "3.4K Open Gate",
@@ -763,7 +1242,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Blackmagic Cinema Camera 6K",
+    "make": "Blackmagic",
+    "model": "Cinema Camera 6K",
     "sensorSize": [
       {
         "format": "Open Gate 3:2",
@@ -787,7 +1267,8 @@
     ]
   },
   {
-    "name": "Blackmagic Micro Studio Camera 4K G2",
+    "make": "Blackmagic",
+    "model": "Micro Studio Camera 4K G2",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -812,7 +1293,8 @@
     "tags": ["four thirds"]
   },
   {
-    "name": "Blackmagic Pocket Cinema Camera 4K",
+    "make": "Blackmagic",
+    "model": "Pocket Cinema Camera 4K",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -837,7 +1319,8 @@
     "tags": ["four thirds"]
   },
   {
-    "name": "Blackmagic Pocket Cinema Camera 6K",
+    "make": "Blackmagic",
+    "model": "Pocket Cinema Camera 6K",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -862,7 +1345,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Blackmagic PYXIS 6K",
+    "make": "Blackmagic",
+    "model": "PYXIS 6K",
     "sensorSize": [
       {
         "format": "Open Gate 3:2",
@@ -887,7 +1371,8 @@
     "tags": ["full frame"]
   },
   {
-    "name": "Blackmagic Studio Camera 4K Plus G2",
+    "make": "Blackmagic",
+    "model": "Studio Camera 4K Plus G2",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -912,7 +1397,8 @@
     "tags": ["four thirds"]
   },
   {
-    "name": "Blackmagic Studio Camera 4K Pro G2",
+    "make": "Blackmagic",
+    "model": "Studio Camera 4K Pro G2",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -937,7 +1423,8 @@
     "tags": ["four thirds"]
   },
   {
-    "name": "Blackmagic Studio Camera 6K Pro",
+    "make": "Blackmagic",
+    "model": "Studio Camera 6K Pro",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -962,7 +1449,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Blackmagic URSA Broadcast G2",
+    "make": "Blackmagic",
+    "model": "URSA Broadcast G2",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -993,7 +1481,8 @@
     ]
   },
   {
-    "name": "Blackmagic URSA Cine 12K LF",
+    "make": "Blackmagic",
+    "model": "URSA Cine 12K LF",
     "sensorSize": [
       {
         "format": "3:2 Open Gate",
@@ -1098,7 +1587,8 @@
     "tags": ["full frame"]
   },
   {
-    "name": "Blackmagic URSA Cine 17K 65",
+    "make": "Blackmagic",
+    "model": "URSA Cine 17K 65",
     "sensorSize": [
       {
         "format": "2.2:1 open gate",
@@ -1129,7 +1619,8 @@
     "tags": ["imax"]
   },
   {
-    "name": "Blackmagic URSA Mini Pro 4.6K G2",
+    "make": "Blackmagic",
+    "model": "URSA Mini Pro 4.6K G2",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -1161,7 +1652,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Blackmagic URSA Mini Pro 12K",
+    "make": "Blackmagic",
+    "model": "URSA Mini Pro 12K",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -1201,7 +1693,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Canon EOS-1D X",
+    "make": "Canon",
+    "model": "EOS-1D X",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -1266,7 +1759,8 @@
     "tags": ["full frame"]
   },
   {
-    "name": "Canon EOS 5D Mark IV",
+    "make": "Canon",
+    "model": "EOS 5D Mark IV",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -1319,7 +1813,8 @@
     "tags": ["full frame"]
   },
   {
-    "name": "Canon EOS 90D",
+    "make": "Canon",
+    "model": "EOS 90D",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -1359,7 +1854,8 @@
     "tags": ["aps-c"]
   },
   {
-    "name": "Canon EOS C300",
+    "make": "Canon",
+    "model": "EOS C300",
     "sensorSize": [
       {
         "format": "Super 35",
@@ -1407,7 +1903,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Canon EOS C400",
+    "make": "Canon",
+    "model": "EOS C400",
     "sensorSize": [
       {
         "format": "Full Frame",
@@ -1485,7 +1982,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Canon EOS C500",
+    "make": "Canon",
+    "model": "EOS C500",
     "sensorSize": [
       {
         "format": "Full Frame",
@@ -1517,7 +2015,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Canon EOS C70",
+    "make": "Canon",
+    "model": "EOS C70",
     "sensorSize": [
       {
         "format": "Super 35",
@@ -1558,7 +2057,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Canon EOS C80",
+    "make": "Canon",
+    "model": "EOS C80",
     "sensorSize": [
       {
         "format": "Full Frame",
@@ -1643,7 +2143,8 @@
     "tags": ["full frame"]
   },
   {
-    "name": "Canon EOS C700 FF",
+    "make": "Canon",
+    "model": "EOS C700 FF",
     "sensorSize": [
       {
         "format": "Full Frame",
@@ -1682,7 +2183,8 @@
     "tags": ["full frame"]
   },
   {
-    "name": "Canon EOS R5",
+    "make": "Canon",
+    "model": "EOS R5",
     "sensorSize": [
       {
         "format": "Full Frame",
@@ -1725,7 +2227,8 @@
     "tags": ["full frame"]
   },
   {
-    "name": "DJI Mavic Air 2",
+    "make": "DJI",
+    "model": "Mavic Air 2",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -1765,7 +2268,8 @@
     "tags": ["drone"]
   },
   {
-    "name": "DJI Mavic 2 Pro",
+    "make": "DJI",
+    "model": "Mavic 2 Pro",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -1811,7 +2315,8 @@
     "tags": ["drone", "Hasselblad L1D-20c"]
   },
   {
-    "name": "DJI Phantom 3",
+    "make": "DJI",
+    "model": "Phantom 3",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -1851,7 +2356,8 @@
     "tags": ["drone"]
   },
   {
-    "name": "DJI Ronin 4D",
+    "make": "DJI",
+    "model": "Ronin 4D",
     "sensorSize": [
       {
         "format": "Full Frame 17:9",
@@ -1925,7 +2431,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Fujifilm GFX100",
+    "make": "Fujifilm",
+    "model": "GFX100",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -1969,7 +2476,8 @@
     "tags": ["medium format"]
   },
   {
-    "name": "Fujifilm GFX100 II",
+    "make": "Fujifilm",
+    "model": "GFX100 II",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -2045,7 +2553,8 @@
     "tags": ["medium format"]
   },
   {
-    "name": "Fujifilm GFX Eterna",
+    "make": "Fujifilm",
+    "model": "GFX Eterna 55",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -2054,6 +2563,12 @@
     ],
     "category": ["Movie"],
     "references": [
+      {
+        "title": "FUJIFILM GFX ETERNA 55 - Specifications",
+        "publisher": "FUJIFILM Holdings America Corporation",
+        "url": "https://www.fujifilm-x.com/en-us/products/cameras/gfx-eterna-55/specifications/",
+        "accessed": "2025-09-14"
+      },
       {
         "title": "Fujifilm Unveils the Development of its First Digital Filmmaking Camera - FUJIFILM GFX ETERNA",
         "publisher": "FUJIFILM Holdings America Corporation",
@@ -2071,7 +2586,8 @@
     "tags": ["full frame"]
   },
   {
-    "name": "Fujifilm X-H2",
+    "make": "Fujifilm",
+    "model": "X-H2",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -2116,7 +2632,8 @@
     "tags": ["aps-c"]
   },
   {
-    "name": "Fujifilm X-T5",
+    "make": "Fujifilm",
+    "model": "X-T5",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -2164,7 +2681,273 @@
     "tags": ["aps-c"]
   },
   {
-    "name": "GoPro Hero12 Black",
+    "make": "Generic",
+    "model": "Analog 16 mm",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [10.26, 7.49]
+      }
+    ],
+    "category": ["Movie"],
+    "references": [
+      {
+        "title": "16 mm film",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=16_mm_film&oldid=1273079668",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["film"]
+  },
+  {
+    "make": "Generic",
+    "model": "Analog 35 mm",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [22, 16]
+      }
+    ],
+    "category": ["Movie"],
+    "references": [
+      {
+        "title": "35 mm movie film",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=35_mm_movie_film&oldid=1276508353",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["film"]
+  },
+  {
+    "make": "Generic",
+    "model": "Analog 65 mm",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [52.48, 23.01]
+      }
+    ],
+    "category": ["Movie"],
+    "references": [
+      {
+        "title": "70 mm film",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=70_mm_film&oldid=1273823265#Technical_specifications",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["film"]
+  },
+  {
+    "make": "Generic",
+    "model": "Analog IMAX 70 mm",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [70.41, 52.63]
+      }
+    ],
+    "category": ["Movie"],
+    "references": [
+      {
+        "title": "70 mm film",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=70_mm_film&oldid=1273823265#IMAX_.2815.2F70.29",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["film"]
+  },
+  {
+    "make": "Generic",
+    "model": "Analog Super 8 mm",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [5.79, 4.01]
+      }
+    ],
+    "category": ["Movie"],
+    "references": [
+      {
+        "title": "Super 8 film",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Super_8_film&oldid=1275523261",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["film"]
+  },
+  {
+    "make": "Generic",
+    "model": "Analog Super 16 mm",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [12.52, 7.41]
+      }
+    ],
+    "category": ["Movie"],
+    "references": [
+      {
+        "title": "16 mm film",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=16_mm_film&oldid=1273079668#Super_16_mm",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["film"]
+  },
+  {
+    "make": "Generic",
+    "model": "Analog Super 35 mm 3-perf",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [24.89, 13.86]
+      }
+    ],
+    "category": ["Movie"],
+    "references": [
+      {
+        "title": "Super 35",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Super_35&oldid=1266903653",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Image sensor format",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Image_sensor_format&oldid=1275872254",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["film"]
+  },
+  {
+    "make": "Generic",
+    "model": "Analog Super 35 mm 4-perf",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [24.89, 18.66]
+      }
+    ],
+    "category": ["Movie"],
+    "references": [
+      {
+        "title": "Super 35",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Super_35&oldid=1266903653",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-22"
+      }
+    ],
+    "tags": ["film"]
+  },
+  {
+    "make": "Generic",
+    "model": "APS-C",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [23.5, 15.6]
+      }
+    ],
+    "category": ["Still"],
+    "references": [
+      {
+        "title": "APS-C",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=APS-C&oldid=1312922548",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-09-27"
+      }
+    ]
+  },
+  {
+    "make": "Generic",
+    "model": "APS-C (Canon)",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [22.3, 14.9]
+      }
+    ],
+    "category": ["Still"],
+    "references": [
+      {
+        "title": "APS-C",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=APS-C&oldid=1312922548",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-09-27"
+      }
+    ]
+  },
+  {
+    "make": "Generic",
+    "model": "Four Thirds",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [17.3, 13]
+      }
+    ],
+    "category": ["Still"],
+    "description": "The Micro Four Thirds system uses the same sensor, but removes the mirror box from the camera design.",
+    "references": [
+      {
+        "title": "Four Thirds system",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Four_Thirds_system&oldid=1305837716",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-09-27"
+      },
+      {
+        "title": "Micro Four Thirds system",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Micro_Four_Thirds_system&oldid=1301996798",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-09-27"
+      }
+    ],
+    "tags": ["mft", "micro four thirds"]
+  },
+  {
+    "make": "Generic",
+    "model": "Full Frame 35 mm",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [36, 24]
+      }
+    ],
+    "category": ["Still"],
+    "references": [
+      {
+        "title": "Full-frame DSLR",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Full-frame_DSLR&oldid=1289100593",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-09-27"
+      }
+    ],
+    "tags": ["dslr"]
+  },
+  {
+    "make": "GoPro",
+    "model": "Hero12 Black",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -2234,7 +3017,8 @@
     ]
   },
   {
-    "name": "Hasselblad X1D II 50C",
+    "make": "Hasselblad",
+    "model": "X1D II 50C",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -2269,375 +3053,8 @@
     "tags": ["medium format"]
   },
   {
-    "name": "IMAX 70 mm",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [70.41, 52.63]
-      }
-    ],
-    "category": ["Movie"],
-    "references": [
-      {
-        "title": "70 mm film",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=70_mm_film&oldid=1273823265#IMAX_.2815.2F70.29",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["film"]
-  },
-  {
-    "name": "Iphone 13 Pro",
-    "sensorSize": [
-      {
-        "format": "26 mm Main",
-        "size": [7.6, 5.7],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "13 mm Ultra Wide",
-        "size": [4, 3],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "77 mm Telephoto",
-        "size": [4, 3],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      }
-    ],
-    "category": ["Mobile"],
-    "description": "Apple uses Sony sensors for their Iphones.",
-    "references": [
-      {
-        "title": "IPhone 13 Pro",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_13_Pro&oldid=1275111046",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "All Apple iPhone 13 and 13 Pro camera upgrades: Explained",
-        "author": "Sanyal, R.",
-        "url": "https://www.dpreview.com/articles/6780391159/all-apple-iphone-13-and-13-pro-camera-upgrades-explained",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
-        "author": "Burgett, G.",
-        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["phone"]
-  },
-  {
-    "name": "Iphone 14 Pro",
-    "sensorSize": [
-      {
-        "format": "24 mm Main",
-        "size": [9.8, 7.3],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "13 mm Ultra Wide",
-        "size": [5.6, 4.2],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "77 mm Telephoto",
-        "size": [4, 3],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      }
-    ],
-    "category": ["Mobile"],
-    "description": "Apple uses Sony sensors for their Iphones.",
-    "references": [
-      {
-        "title": "IPhone 14 Pro",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_14_Pro&oldid=1273097110",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Apple's iPhone 14 and 14 Pro: Imaging tech examined",
-        "author": "Butler, R.",
-        "url": "https://www.dpreview.com/articles/6110937480",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
-        "author": "Burgett, G.",
-        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["phone"]
-  },
-  {
-    "name": "Iphone 15 Pro",
-    "sensorSize": [
-      {
-        "format": "24 mm Main",
-        "size": [9.8, 7.3],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "13 mm Ultra Wide",
-        "size": [5.6, 4.2],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "77 mm Telephoto",
-        "size": [4, 3],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      }
-    ],
-    "category": ["Mobile"],
-    "description": "Apple uses Sony sensors for their Iphones.",
-    "references": [
-      {
-        "title": "IPhone 15 Pro",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_15_Pro&oldid=1275996442",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Apple's iPhone 15 and 15 Pro: Imaging tech examined",
-        "author": "Carlson, J. L.",
-        "url": "https://www.dpreview.com/articles/6110937480",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
-        "author": "Burgett, G.",
-        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["phone"]
-  },
-  {
-    "name": "Iphone 15 Pro Max",
-    "sensorSize": [
-      {
-        "format": "24 mm Main",
-        "size": [9.8, 7.3],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "13 mm Ultra Wide",
-        "size": [5.6, 4.2],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "120 mm Telephoto",
-        "size": [4.5, 3.4],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      }
-    ],
-    "category": ["Mobile"],
-    "description": "Apple uses Sony sensors for their Iphones.",
-    "references": [
-      {
-        "title": "IPhone 15 Pro",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_15_Pro&oldid=1275996442",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Apple's iPhone 15 and 15 Pro: Imaging tech examined",
-        "author": "Carlson, J. L.",
-        "url": "https://www.dpreview.com/articles/6110937480",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
-        "author": "Burgett, G.",
-        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["phone"]
-  },
-  {
-    "name": "Iphone 16 Pro",
-    "sensorSize": [
-      {
-        "format": "24 mm Main",
-        "size": [9.8, 7.3],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "13 mm Ultra Wide",
-        "size": [5.6, 4.2],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "120 mm Telephoto",
-        "size": [4.5, 3.4],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      }
-    ],
-    "category": ["Mobile"],
-    "description": "Apple uses Sony sensors for their Iphones.",
-    "references": [
-      {
-        "title": "IPhone 16 Pro",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_16_Pro&oldid=1277250899",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Is it worth upgrading to the iPhone 16 Pro from a 13, 14, or 15 Pro?",
-        "author": "Clark, M.",
-        "url": "https://www.dpreview.com/news/8163093616/iphone-16-pro-worth-upgrading-13-14-15-apple-cameras",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
-        "author": "Burgett, G.",
-        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["phone"]
-  },
-  {
-    "name": "Iphone 16 Pro Max",
-    "sensorSize": [
-      {
-        "format": "24 mm Main",
-        "size": [9.8, 7.3],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "13 mm Ultra Wide",
-        "size": [5.6, 4.2],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      },
-      {
-        "format": "120 mm Telephoto",
-        "size": [4.5, 3.4],
-        "resolution": [
-          { "format": "4K", "size": [3840, 2160] },
-          { "format": "1080p", "size": [1920, 1080] },
-          { "format": "720p", "size": [1280, 720] }
-        ]
-      }
-    ],
-    "category": ["Mobile"],
-    "description": "Apple uses Sony sensors for their Iphones.",
-    "references": [
-      {
-        "title": "IPhone 16 Pro",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=IPhone_16_Pro&oldid=1277250899",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Is it worth upgrading to the iPhone 16 Pro from a 13, 14, or 15 Pro?",
-        "author": "Clark, M.",
-        "url": "https://www.dpreview.com/news/8163093616/iphone-16-pro-worth-upgrading-13-14-15-apple-cameras",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
-        "author": "Burgett, G.",
-        "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
-        "publisher": "Digital Photography Review",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["phone"]
-  },
-  {
-    "name": "Leica S3",
+    "make": "Leica",
+    "model": "S3",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -2673,7 +3090,8 @@
     "tags": ["medium format"]
   },
   {
-    "name": "Nikon D850",
+    "make": "Nikon",
+    "model": "D850",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -2720,7 +3138,8 @@
     "tags": ["full frame"]
   },
   {
-    "name": "Nikon Z9",
+    "make": "Nikon",
+    "model": "Z9",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -2760,7 +3179,8 @@
     "tags": ["full frame"]
   },
   {
-    "name": "Panasonic AW-UB50",
+    "make": "Panasonic",
+    "model": "AW-UB50",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -2785,7 +3205,8 @@
     "tags": ["full frame"]
   },
   {
-    "name": "Panasonic EVA1",
+    "make": "Panasonic",
+    "model": "EVA1",
     "sensorSize": [
       {
         "format": "Open Gate S35",
@@ -2844,7 +3265,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Panasonic LUMIX BGH1",
+    "make": "Panasonic",
+    "model": "LUMIX BGH1",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -2881,7 +3303,8 @@
     "tags": ["micro four thirds"]
   },
   {
-    "name": "Panasonic LUMIX BS1H",
+    "make": "Panasonic",
+    "model": "LUMIX BS1H",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -2930,7 +3353,8 @@
     "tags": ["full frame"]
   },
   {
-    "name": "Panasonic LUMIX S1H",
+    "make": "Panasonic",
+    "model": "LUMIX S1H",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -2979,7 +3403,8 @@
     "tags": ["full frame"]
   },
   {
-    "name": "Panasonic LUMIX S5II",
+    "make": "Panasonic",
+    "model": "LUMIX S5II",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -3034,7 +3459,8 @@
     "tags": ["full frame"]
   },
   {
-    "name": "Panasonic VariCam 35",
+    "make": "Panasonic",
+    "model": "VariCam 35",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -3090,7 +3516,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Panasonic VariCam LT",
+    "make": "Panasonic",
+    "model": "VariCam LT",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -3146,7 +3573,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Panasonic VariCam Pure",
+    "make": "Panasonic",
+    "model": "VariCam Pure",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -3188,7 +3616,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Panavision Millenium DXL2",
+    "make": "Panavision",
+    "model": "Millenium DXL2",
     "sensorSize": [
       {
         "format": "8K Full Format",
@@ -3547,7 +3976,8 @@
     "tags": ["imax"]
   },
   {
-    "name": "RED Dragon",
+    "make": "RED",
+    "model": "Dragon",
     "sensorSize": [
       {
         "format": "6K FF",
@@ -4354,7 +4784,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "RED Gemini",
+    "make": "RED",
+    "model": "Gemini",
     "sensorSize": [
       {
         "format": "5K Full Height 1.7:1",
@@ -5003,7 +5434,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "RED Helium",
+    "make": "RED",
+    "model": "Helium",
     "sensorSize": [
       {
         "format": "8K FF",
@@ -6171,7 +6603,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "RED Komodo",
+    "make": "RED",
+    "model": "Komodo",
     "sensorSize": [
       {
         "format": "6K 17:9",
@@ -6359,7 +6792,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "RED Monstro",
+    "make": "RED",
+    "model": "Monstro",
     "sensorSize": [
       {
         "format": "8K FF",
@@ -7535,7 +7969,8 @@
     "tags": ["imax", "full frame"]
   },
   {
-    "name": "RED V-Raptor",
+    "make": "RED",
+    "model": "V-Raptor",
     "sensorSize": [
       {
         "format": "8K 17:9",
@@ -8124,7 +8559,8 @@
     "tags": ["imax", "full frame"]
   },
   {
-    "name": "Sony Alpha 6400",
+    "make": "Sony",
+    "model": "Alpha 6400",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -8160,7 +8596,8 @@
     "tags": ["a6400", "aps-c", "ilce-6400"]
   },
   {
-    "name": "Sony Alpha 7 IV",
+    "make": "Sony",
+    "model": "Alpha 7 IV",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -8196,7 +8633,8 @@
     "tags": ["full frame", "a7", "ilce-7m4"]
   },
   {
-    "name": "Sony Alpha 7C II",
+    "make": "Sony",
+    "model": "Alpha 7C II",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -8232,7 +8670,8 @@
     "tags": ["full frame", "a7c", "ilce-7cm2"]
   },
   {
-    "name": "Sony Alpha 7CR",
+    "make": "Sony",
+    "model": "Alpha 7CR",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -8268,7 +8707,8 @@
     "tags": ["full frame", "a7cr", "ilce-7cr"]
   },
   {
-    "name": "Sony Alpha 7R IV",
+    "make": "Sony",
+    "model": "Alpha 7R IV",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -8304,7 +8744,8 @@
     "tags": ["full frame", "a7r", "ilce-7rm4a"]
   },
   {
-    "name": "Sony Alpha 7R V",
+    "make": "Sony",
+    "model": "Alpha 7R V",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -8340,7 +8781,8 @@
     "tags": ["full frame", "a7r", "ilce-7rm5"]
   },
   {
-    "name": "Sony Alpha 7S III",
+    "make": "Sony",
+    "model": "Alpha 7S III",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -8376,7 +8818,8 @@
     "tags": ["full frame", "a7", "ilce-7sm3"]
   },
   {
-    "name": "Sony Alpha 9",
+    "make": "Sony",
+    "model": "Alpha 9",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -8419,7 +8862,8 @@
     "tags": ["full frame", "a9", "ilce-9"]
   },
   {
-    "name": "Sony Alpha 9 III",
+    "make": "Sony",
+    "model": "Alpha 9 III",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -8455,7 +8899,8 @@
     "tags": ["full frame", "a9", "ilce-9m3"]
   },
   {
-    "name": "Sony BURANO",
+    "make": "Sony",
+    "model": "BURANO",
     "sensorSize": [
       {
         "format": "FF 8.6K 16:9",
@@ -8580,7 +9025,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Sony F5",
+    "make": "Sony",
+    "model": "F5",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -8632,7 +9078,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Sony F55",
+    "make": "Sony",
+    "model": "F55",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -8657,7 +9104,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Sony F65",
+    "make": "Sony",
+    "model": "F65",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -8697,7 +9145,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Sony FS7",
+    "make": "Sony",
+    "model": "FS7",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -8740,7 +9189,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Sony FS7 II",
+    "make": "Sony",
+    "model": "FS7 II",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -8783,7 +9233,8 @@
     "tags": ["super 35"]
   },
   {
-    "name": "Sony FX3",
+    "make": "Sony",
+    "model": "FX3",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -8816,7 +9267,8 @@
     "tags": ["full frame"]
   },
   {
-    "name": "Sony FX6",
+    "make": "Sony",
+    "model": "FX6",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -8853,7 +9305,8 @@
     "tags": ["full frame"]
   },
   {
-    "name": "Sony FX9",
+    "make": "Sony",
+    "model": "FX9",
     "sensorSize": [
       {
         "format": "FF 6K",
@@ -8915,7 +9368,8 @@
     "tags": ["full frame"]
   },
   {
-    "name": "Sony ILX-LR1",
+    "make": "Sony",
+    "model": "ILX-LR1",
     "sensorSize": [
       {
         "format": "Open Gate",
@@ -8944,7 +9398,8 @@
     "tags": ["full frame"]
   },
   {
-    "name": "Sony VENICE",
+    "make": "Sony",
+    "model": "VENICE",
     "sensorSize": [
       {
         "format": "6K 3:2",
@@ -9116,7 +9571,8 @@
     "tags": ["imax"]
   },
   {
-    "name": "Sony VENICE 2",
+    "make": "Sony",
+    "model": "VENICE 2",
     "sensorSize": [
       {
         "format": "MPC-3628 8.6K 3:2",
@@ -9397,152 +9853,5 @@
       }
     ],
     "tags": ["imax"]
-  },
-  {
-    "name": "Standard 16 mm",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [10.26, 7.49]
-      }
-    ],
-    "category": ["Movie"],
-    "references": [
-      {
-        "title": "16 mm film",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=16_mm_film&oldid=1273079668",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["film"]
-  },
-  {
-    "name": "Standard 35 mm",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [22, 16]
-      }
-    ],
-    "category": ["Movie"],
-    "references": [
-      {
-        "title": "35 mm movie film",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=35_mm_movie_film&oldid=1276508353",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["film"]
-  },
-  {
-    "name": "Standard 65 mm",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [52.48, 23.01]
-      }
-    ],
-    "category": ["Movie"],
-    "references": [
-      {
-        "title": "70 mm film",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=70_mm_film&oldid=1273823265#Technical_specifications",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["film"]
-  },
-  {
-    "name": "Super 8 mm",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [5.79, 4.01]
-      }
-    ],
-    "category": ["Movie"],
-    "references": [
-      {
-        "title": "Super 8 film",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=Super_8_film&oldid=1275523261",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["film"]
-  },
-  {
-    "name": "Super 16 mm",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [12.52, 7.41]
-      }
-    ],
-    "category": ["Movie"],
-    "references": [
-      {
-        "title": "16 mm film",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=16_mm_film&oldid=1273079668#Super_16_mm",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["film"]
-  },
-  {
-    "name": "Super 35 mm 3-perf",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [24.89, 13.86]
-      }
-    ],
-    "category": ["Movie"],
-    "references": [
-      {
-        "title": "Super 35",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=Super_35&oldid=1266903653",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      },
-      {
-        "title": "Image sensor format",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=Image_sensor_format&oldid=1275872254",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["film"]
-  },
-  {
-    "name": "Super 35 mm 4-perf",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [24.89, 18.66]
-      }
-    ],
-    "category": ["Movie"],
-    "references": [
-      {
-        "title": "Super 35",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=Super_35&oldid=1266903653",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-22"
-      }
-    ],
-    "tags": ["film"]
   }
 ]

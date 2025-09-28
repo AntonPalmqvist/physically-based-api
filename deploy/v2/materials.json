@@ -44,11 +44,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [0.728978, 6.45971, 0.588215, 5.19646, 0.78354, 4.37746]
+        "n": [0.728978, 0.588215, 0.78354],
+        "k": [6.45971, 5.19646, 4.37746]
       },
       {
         "colorSpace": "acescg",
-        "nk": [0.73826, 5.76125, 0.58846, 5.26448, 0.401312, 4.35851]
+        "n": [0.73826, 0.58846, 0.401312],
+        "k": [5.76125, 5.26448, 4.35851]
       }
     ],
     "density": [2700],
@@ -181,11 +183,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [3.21038, 3.29815, 3.32907, 3.11669, 3.77105, 2.66995]
+        "n": [3.21038, 3.32907, 3.77105],
+        "k": [3.29815, 3.11669, 2.66995]
       },
       {
         "colorSpace": "acescg",
-        "nk": [3.36492, 3.16402, 3.30825, 3.13463, 3.09051, 3.12791]
+        "n": [3.36492, 3.30825, 3.09051],
+        "k": [3.16402, 3.13463, 3.12791]
       }
     ],
     "density": [1850],
@@ -277,9 +281,11 @@
     "roughness": 0,
     "ior": 1.35,
     "transmission": 1,
+    "transmissionDepth": 0.08,
     "transmissionDispersion": 54,
     "density": [1060],
     "viscosity": [2.35, 4, 2.78],
+    "surfaceTension": 56,
     "category": ["Human"],
     "description": "The color of blood depends on its oxygen level. When there is plenty of oxygen, the color is a brighter red. The reason is because of a protein called hemoglobin, which carries the oxygen in your blood. When hemoglobin has a full oxygen load, it has a bright red color, and when it's deoxygenated it's a darker red. For example, arterial and capillary blood is bright, and venous blood is dark.",
     "tags": ["liquid"],
@@ -304,6 +310,13 @@
         "url": "https://en.wikipedia.org/w/index.php?title=Hemorheology&oldid=1229971521",
         "publisher": "Wikipedia, The Free Encyclopedia",
         "accessed": "2025-01-25"
+      },
+      {
+        "title": "Surface tension",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Surface_tension&oldid=1304099149#Values",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-08-30"
       },
       {
         "title": "Refractive index database",
@@ -471,11 +484,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [0.341048, 4.14088, 0.53349, 2.67993, 1.42749, 1.87543]
+        "n": [0.341048, 0.53349, 1.42749],
+        "k": [4.14088, 2.67993, 1.87543]
       },
       {
         "colorSpace": "acescg",
-        "nk": [0.473454, 3.16368, 0.521254, 2.69584, 1.0339, 1.92658]
+        "n": [0.473454, 0.521254, 1.0339],
+        "k": [3.16368, 2.69584, 1.92658]
       }
     ],
     "density": [8600],
@@ -729,11 +744,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [0.204334, 1.19256, 0.272018, 0.906033, 0.449252, 0.517209]
+        "n": [0.204334, 0.272018, 0.449252],
+        "k": [1.19256, 0.906033, 0.517209]
       },
       {
         "colorSpace": "acescg",
-        "nk": [0.247616, 1.06956, 0.26693, 0.91021, 0.382321, 0.519484]
+        "n": [0.247616, 0.26693, 0.382321],
+        "k": [1.06956, 0.91021, 0.519484]
       }
     ],
     "density": [1886],
@@ -915,11 +932,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [4.19382, 4.85545, 3.53806, 4.89986, 2.91521, 4.25568]
+        "n": [4.19382, 3.53806, 2.91521],
+        "k": [4.85545, 4.89986, 4.25568]
       },
       {
         "colorSpace": "acescg",
-        "nk": [3.99955, 4.78865, 3.5489, 4.90046, 2.40724, 4.50602]
+        "n": [3.99955, 3.5489, 2.40724],
+        "k": [4.78865, 4.90046, 4.50602]
       }
     ],
     "density": [7200],
@@ -998,11 +1017,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [3.33754, 5.27723, 2.6841, 4.73548, 2.57555, 3.81892]
+        "n": [3.33754, 2.6841, 2.57555],
+        "k": [5.27723, 4.73548, 3.81892]
       },
       {
         "colorSpace": "acescg",
-        "nk": [3.14981, 4.96614, 2.70481, 4.76092, 2.06112, 4.00685]
+        "n": [3.14981, 2.70481, 2.06112],
+        "k": [4.96614, 4.76092, 4.00685]
       }
     ],
     "density": [8900],
@@ -1046,13 +1067,15 @@
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.027, 0.019, 0.018]
+        "color": [0.447, 0.133, 0.034]
       }
     ],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.34,
-    "subsurfaceRadius": [10, 5, 1],
+    "transmission": 1,
+    "transmissionDepth": 0.1,
+    "transmissionDispersion": 55.78,
     "density": [1020],
     "viscosity": [1.7],
     "category": ["Liquid"],
@@ -1162,6 +1185,7 @@
     "transmission": 1,
     "density": [920],
     "viscosity": [46],
+    "surfaceTension": 31,
     "category": ["Liquid"],
     "references": [
       {
@@ -1209,6 +1233,17 @@
         "publisher": "Next Limit Technologies",
         "url": "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table",
         "accessed": "2025-01-26"
+      },
+      {
+        "title": "Density, Viscosity, And Surface Tension Of Five Vegetable Oils At Elevated Temperatures: Measurement And Modeling",
+        "author": "Sahasrabudhe, S. N., Rodriguez-Martinez, V., O’Meara, Meghan., & Farkas, B. E.",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/10942912.2017.1360905",
+        "publisher": "International Journal of Food Properties",
+        "volume": "20",
+        "issue": "sup2",
+        "pages": "1965--1981",
+        "year": "2017",
+        "doi": "https://doi.org/10.1080/10942912.2017.1360905"
       }
     ],
     "images": [
@@ -1269,11 +1304,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [0.133762, 3.10615, 1.05661, 2.63095, 1.68637, 2.42655]
+        "n": [0.133762, 1.05661, 1.68637],
+        "k": [3.10615, 2.63095, 2.42655]
       },
       {
         "colorSpace": "acescg",
-        "nk": [0.4946, 2.87217, 0.974095, 2.65208, 1.23853, 2.41041]
+        "n": [0.4946, 0.974095, 1.23853],
+        "k": [2.87217, 2.65208, 2.41041]
       }
     ],
     "density": [8940],
@@ -1662,11 +1699,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [5.63391, 1.44383, 5.06611, 2.25088, 4.81402, 0.279501]
+        "n": [5.63391, 5.06611, 4.81402],
+        "k": [1.44383, 2.25088, 0.279501]
       },
       {
         "colorSpace": "acescg",
-        "nk": [5.51092, 1.431, 5.07691, 2.22993, 4.11938, 2.23401]
+        "n": [5.51092, 5.07691, 4.11938],
+        "k": [1.431, 2.22993, 2.23401]
       }
     ],
     "density": [5327],
@@ -1807,11 +1846,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [0, 6.59401, 0.351563, 2.08143, 1.85894, 1.49631]
+        "n": [0, 0.351563, 1.85894],
+        "k": [6.59401, 2.08143, 1.49631]
       },
       {
         "colorSpace": "acescg",
-        "nk": [0.190506, 3.04413, 0.330771, 2.11776, 1.35292, 1.76193]
+        "n": [0.190506, 0.330771, 1.35292],
+        "k": [3.04413, 2.11776, 1.76193]
       }
     ],
     "density": [19320],
@@ -2085,11 +2126,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [2.79209, 5.68877, 2.56343, 5.0549, 2.7216, 4.20215]
+        "n": [2.79209, 2.56343, 2.7216],
+        "k": [5.68877, 5.0549, 4.20215]
       },
       {
         "colorSpace": "acescg",
-        "nk": [2.78993, 5.33631, 2.56186, 5.08541, 2.14497, 4.42262]
+        "n": [2.78993, 2.56186, 2.14497],
+        "k": [5.33631, 5.08541, 4.42262]
       }
     ],
     "density": [22562],
@@ -2174,11 +2217,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [2.73466, 3.14869, 2.94186, 2.92718, 3.15654, 2.46012]
+        "n": [2.73466, 2.94186, 3.15654],
+        "k": [3.14869, 2.92718, 2.46012]
       },
       {
         "colorSpace": "acescg",
-        "nk": [2.90278, 3.01558, 2.91315, 2.94418, 2.59243, 2.77805]
+        "n": [2.90278, 2.91315, 2.59243],
+        "k": [3.01558, 2.94418, 2.77805]
       }
     ],
     "density": [7870],
@@ -2328,11 +2373,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [2.71051, 4.04246, 2.68791, 4.01366, 2.9091, 4.17426]
+        "n": [2.71051, 2.68791, 2.9091],
+        "k": [4.04246, 4.01366, 4.17426]
       },
       {
         "colorSpace": "acescg",
-        "nk": [2.79703, 4.01182, 2.6736, 4.02443, 2.31165, 4.29506]
+        "n": [2.79703, 2.6736, 2.31165],
+        "k": [4.01182, 4.02443, 4.29506]
       }
     ],
     "density": [11340],
@@ -2450,11 +2497,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [0.141612, 2.7434, 0.215656, 2.48258, 0.481854, 2.35726]
+        "n": [0.141612, 0.215656, 0.481854],
+        "k": [2.7434, 2.48258, 2.35726]
       },
       {
         "colorSpace": "acescg",
-        "nk": [0.214498, 2.70456, 0.207691, 2.46885, 0.236271, 1.92343]
+        "n": [0.214498, 0.207691, 0.236271],
+        "k": [2.70456, 2.46885, 1.92343]
       }
     ],
     "density": [535],
@@ -2539,11 +2588,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [0.286425, 6.75553, 0.322265, 4.94909, 0.594764, 4.25174]
+        "n": [0.286425, 0.322265, 0.594764],
+        "k": [6.75553, 4.94909, 4.25174]
       },
       {
         "colorSpace": "acescg",
-        "nk": [0.365942, 5.53795, 0.31319, 5.01834, 0.224454, 4.09048]
+        "n": [0.365942, 0.31319, 0.224454],
+        "k": [5.53795, 5.01834, 4.09048]
       }
     ],
     "density": [1737],
@@ -2628,11 +2679,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [2.22147, 3.60175, 2.02055, 3.25337, 2.03472, 2.862]
+        "n": [2.22147, 2.02055, 2.03472],
+        "k": [3.60175, 3.25337, 2.862]
       },
       {
         "colorSpace": "acescg",
-        "nk": [2.21105, 3.43301, 2.01942, 3.27, 1.61898, 2.90038]
+        "n": [2.21105, 2.01942, 1.61898],
+        "k": [3.43301, 3.27, 2.90038]
       }
     ],
     "density": [7476],
@@ -2773,15 +2826,18 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [1.86932, 5.36989, 1.53811, 4.60484, 1.4963, 3.92685]
+        "n": [1.86932, 1.53811, 1.4963],
+        "k": [5.36989, 4.60484, 3.92685]
       },
       {
         "colorSpace": "acescg",
-        "nk": [1.80044, 5.00001, 1.54346, 4.64158, 1.0878, 3.91158]
+        "n": [1.80044, 1.54346, 1.0878],
+        "k": [5.00001, 4.64158, 3.91158]
       }
     ],
     "density": [13546],
     "viscosity": [1.552],
+    "surfaceTension": 487,
     "category": ["Metal"],
     "description": "Mercury is the only metallic element that is known to be liquid at standard conditions.",
     "tags": ["liquid"],
@@ -2812,6 +2868,13 @@
         "url": "https://en.wikipedia.org/w/index.php?title=List_of_viscosities&oldid=1256671906",
         "publisher": "Wikipedia, The Free Encyclopedia",
         "accessed": "2025-01-26"
+      },
+      {
+        "title": "Surface tension",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Surface_tension&oldid=1304099149#Values",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-08-30"
       },
       {
         "title": "Liquids - Dynamic Viscosities",
@@ -2847,6 +2910,7 @@
     "subsurfaceRadius": [1.842, 1.044, 0.35],
     "density": [1026, 1035, 1030],
     "viscosity": [2],
+    "surfaceTension": 48,
     "category": ["Liquid"],
     "description": "Cow's milk",
     "tags": ["sss"],
@@ -2909,6 +2973,17 @@
         "url": "https://en.wikipedia.org/w/index.php?title=List_of_viscosities&oldid=1256671906",
         "publisher": "Wikipedia, The Free Encyclopedia",
         "accessed": "2025-01-26"
+      },
+      {
+        "title": "The Surface Tension of Milk. A Review1, 2",
+        "author": "Whitnah, C.H.",
+        "url": "https://www.journalofdairyscience.org/article/S0022-0302(59)90760-X/pdf",
+        "publisher": "Journal of Dairy Science",
+        "volume": "42",
+        "issue": "9",
+        "pages": "1437--1449",
+        "year": "1959",
+        "doi": "https://doi.org/10.3168/jds.S0022-0302(59)90760-X"
       }
     ],
     "images": [
@@ -3002,11 +3077,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [4.13827, 3.90428, 4.14866, 4.00545, 4.27845, 3.21018]
+        "n": [4.13827, 4.14866, 4.27845],
+        "k": [3.90428, 4.00545, 3.21018]
       },
       {
         "colorSpace": "acescg",
-        "nk": [4.25384, 3.82381, 4.12785, 4.00138, 3.55369, 3.80316]
+        "n": [4.25384, 4.12785, 3.55369],
+        "k": [3.82381, 4.00138, 3.80316]
       }
     ],
     "density": [10223],
@@ -3125,11 +3202,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [1.8644, 4.21007, 1.92207, 3.57008, 2.22915, 2.87501]
+        "n": [1.8644, 1.92207, 2.22915],
+        "k": [4.21007, 3.57008, 2.87501]
       },
       {
         "colorSpace": "acescg",
-        "nk": [1.96219, 3.89684, 1.90668, 3.59684, 1.74737, 2.98191]
+        "n": [1.96219, 1.90668, 1.74737],
+        "k": [3.89684, 3.59684, 2.98191]
       }
     ],
     "density": [8900],
@@ -3264,11 +3343,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [1.88141, 4.66959, 1.79976, 4.03631, 2.00737, 3.43839]
+        "n": [1.88141, 1.79976, 2.00737],
+        "k": [4.66959, 4.03631, 3.43839]
       },
       {
         "colorSpace": "acescg",
-        "nk": [1.92412, 4.35994, 1.79229, 4.06362, 1.53501, 3.47822]
+        "n": [1.92412, 1.79229, 1.53501],
+        "k": [4.35994, 4.06362, 3.47822]
       }
     ],
     "density": [12007],
@@ -3389,6 +3470,7 @@
     "subsurfaceRadius": [3, 1, 0.25],
     "density": [870, 1000, 1000],
     "viscosity": [100, 1000, 500],
+    "surfaceTension": 21,
     "category": ["Liquid"],
     "description": "The viscosity of crude oil is sensitive to temperature.",
     "tags": ["oil", "crude oil", "sss"],
@@ -3442,6 +3524,16 @@
         "url": "https://wiki.anton-paar.com/en/crude-oil/",
         "publisher": "Anton Paar GmbH",
         "accessed": "2025-01-26"
+      },
+      {
+        "title": "Measurements of Surface Tension for Mineral and Crude Oil Systems",
+        "author": "Busahmin, B., & Maini, B.B.",
+        "url": "https://www.scientific.net/DDF.391.106",
+        "publisher": "Defect and Diffusion Forum",
+        "volume": "391",
+        "pages": "106--113",
+        "year": "2019",
+        "doi": "https://doi.org/10.4028/www.scientific.net/DDF.391.106"
       }
     ],
     "images": [
@@ -3785,11 +3877,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [2.17679, 5.44798, 2.02616, 4.54881, 2.34437, 3.74446]
+        "n": [2.17679, 2.02616, 2.34437],
+        "k": [5.44798, 4.54881, 3.74446]
       },
       {
         "colorSpace": "acescg",
-        "nk": [2.19707, 4.98395, 2.02224, 4.58862, 1.80496, 3.87107]
+        "n": [2.19707, 2.02224, 1.80496],
+        "k": [4.98395, 4.58862, 3.87107]
       }
     ],
     "density": [21450],
@@ -3874,11 +3968,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [0.0, 3.37295, 0.041228, 1.56367, 0.220328, 2.05971]
+        "n": [0.0, 0.041228, 0.220328],
+        "k": [3.37295, 1.56367, 2.05971]
       },
       {
         "colorSpace": "acescg",
-        "nk": [0.026298, 1.59507, 0.0349856, 1.47657, 0.0473681, 1.04672]
+        "n": [0.026298, 0.0349856, 0.0473681],
+        "k": [1.59507, 1.47657, 1.04672]
       }
     ],
     "density": [859],
@@ -4006,11 +4102,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [0.0391755, 1.22619, 0.101768, 1.27629, 0.205178, 1.13104]
+        "n": [0.0391755, 0.101768, 0.205178],
+        "k": [1.22619, 1.27629, 1.13104]
       },
       {
         "colorSpace": "acescg",
-        "nk": [0.0830927, 1.37965, 0.0956511, 1.25123, 0.111367, 0.807355]
+        "n": [0.0830927, 0.0956511, 0.111367],
+        "k": [1.37965, 1.25123, 0.807355]
       }
     ],
     "density": [1534],
@@ -4236,11 +4334,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [3.65156, 0.972551, 4.08561, 0, 4.36337, 0]
+        "n": [3.65156, 4.08561, 4.36337],
+        "k": [0.972551, 0, 0]
       },
       {
         "colorSpace": "acescg",
-        "nk": [3.96501, 0.100296, 4.08831, 0, 4.64341, 0.202839]
+        "n": [3.96501, 4.08831, 4.64341],
+        "k": [0.100296, 0, 0.202839]
       }
     ],
     "density": [2330],
@@ -4325,11 +4425,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [0, 8.06675, 0.0626977, 3.62828, 0.382178, 3.80086]
+        "n": [0, 0.0626977, 0.382178],
+        "k": [8.06675, 3.62828, 3.80086]
       },
       {
         "colorSpace": "acescg",
-        "nk": [0.0485451, 3.90854, 0.0511628, 3.56812, 0.0515574, 2.69761]
+        "n": [0.0485451, 0.0511628, 0.0515574],
+        "k": [3.90854, 3.56812, 2.69761]
       }
     ],
     "density": [10500],
@@ -5031,11 +5133,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [0.0, 4.94428, 0.0669661, 2.3243, 0.325253, 2.89317]
+        "n": [0.0, 0.0669661, 0.325253],
+        "k": [4.94428, 2.3243, 2.89317]
       },
       {
         "colorSpace": "acescg",
-        "nk": [0.0525806, 2.43603, 0.058413, 2.25156, 0.0664729, 1.80989]
+        "n": [0.0525806, 0.058413, 0.0664729],
+        "k": [2.43603, 2.25156, 1.80989]
       }
     ],
     "density": [969],
@@ -5113,11 +5217,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [2.22981, 4.21948, 2.04109, 3.64081, 2.15682, 3.07445]
+        "n": [2.22981, 2.04109, 2.15682],
+        "k": [4.21948, 3.64081, 3.07445]
       },
       {
         "colorSpace": "acescg",
-        "nk": [2.22853, 3.93696, 2.0391, 3.66755, 1.69998, 3.14717]
+        "n": [2.22853, 2.0391, 1.69998],
+        "k": [3.93696, 3.66755, 3.14717]
       }
     ],
     "density": [7500, 8000, 8000],
@@ -5238,11 +5344,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [1.9345, 2.33987, 1.86761, 2.05312, 2.05863, 1.74518]
+        "n": [1.9345, 1.86761, 2.05863],
+        "k": [2.33987, 2.05312, 1.74518]
       },
       {
         "colorSpace": "acescg",
-        "nk": [1.9732, 2.20459, 1.86443, 2.06955, 1.70307, 1.86062]
+        "n": [1.9732, 1.86443, 1.70307],
+        "k": [2.20459, 2.06955, 1.86062]
       }
     ],
     "density": [4540],
@@ -5362,11 +5470,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [3.8332, 3.26472, 3.92528, 3.0739, 4.53149, 2.0965]
+        "n": [3.8332, 3.92528, 4.53149],
+        "k": [3.26472, 3.0739, 2.0965]
       },
       {
         "colorSpace": "acescg",
-        "nk": [3.99552, 3.07855, 3.90702, 3.09281, 3.74628, 2.96596]
+        "n": [3.99552, 3.90702, 3.74628],
+        "k": [3.07855, 3.09281, 2.96596]
       }
     ],
     "density": [19300],
@@ -5444,11 +5554,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [3.6507, 3.25065, 3.72723, 3.00712, 4.94609, 2.17896]
+        "n": [3.6507, 3.72723, 4.94609],
+        "k": [3.25065, 3.00712, 2.17896]
       },
       {
         "colorSpace": "acescg",
-        "nk": [3.82676, 3.06828, 3.7184, 3.03516, 4.02213, 3.16271]
+        "n": [3.82676, 3.7184, 4.02213],
+        "k": [3.06828, 3.03516, 3.16271]
       }
     ],
     "density": [6100],
@@ -5496,6 +5608,7 @@
     "transmissionDispersion": 55.78,
     "density": [958, 1000, 1000],
     "viscosity": [1.002],
+    "surfaceTension": 72,
     "acousticAbsorption": [0.008, 0.008, 0.013, 0.015, 0.02, 0.025],
     "category": ["Liquid"],
     "description": "While relatively small quantities of water appear to be colorless, pure water has a slight blue color that becomes deeper as the thickness of the observed sample increases. The hue of water is an intrinsic property and is caused by selective absorption and scattering of white light. Dissolved elements or suspended impurities may give water a different color.",
@@ -5533,6 +5646,13 @@
         "url": "https://en.wikipedia.org/w/index.php?title=List_of_viscosities&oldid=1256671906",
         "publisher": "Wikipedia, The Free Encyclopedia",
         "accessed": "2025-01-26"
+      },
+      {
+        "title": "Surface tension",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Surface_tension&oldid=1304099149#Values",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-08-30"
       },
       {
         "title": "Hybrido Viscosity Table",
@@ -5673,11 +5793,13 @@
     "complexIor": [
       {
         "colorSpace": "srgb-linear",
-        "nk": [3.15207, 7.39342, 1.89133, 6.28678, 1.48736, 4.92701]
+        "n": [3.15207, 1.89133, 1.48736],
+        "k": [7.39342, 6.28678, 4.92701]
       },
       {
         "colorSpace": "acescg",
-        "nk": [2.67412, 6.83926, 1.94336, 6.36293, 1.0947, 5.21239]
+        "n": [2.67412, 1.94336, 1.0947],
+        "k": [6.83926, 6.36293, 5.21239]
       }
     ],
     "density": [7000],

@@ -6,8 +6,13 @@
   "items": {
     "additionalProperties": false,
     "properties": {
-      "name": {
-        "description": "Name of the camera.",
+      "make": {
+        "description": "Brand name.",
+        "type": "string",
+        "default": "Name"
+      },
+      "model": {
+        "description": "Model name.",
         "type": "string",
         "default": "Name"
       },
@@ -139,6 +144,6 @@
         "uniqueItems": true
       }
     },
-    "required": ["name", "sensorSize", "category", "references"]
+    "required": ["make", "model", "sensorSize", "category", "references"]
   }
 }
