@@ -1372,6 +1372,32 @@
   },
   {
     "make": "Blackmagic",
+    "model": "PYXIS 12K",
+    "sensorSize": [
+      {
+        "format": "Open Gate 3:2",
+        "size": [35.64, 23.32],
+        "resolution": [
+          {
+            "format": "Open Gate 3:2",
+            "size": [12288, 8040]
+          }
+        ]
+      }
+    ],
+    "category": ["Movie"],
+    "references": [
+      {
+        "title": "Blackmagic PYXIS 12K Technical Specifications",
+        "publisher": "Blackmagic Design Pty. Ltd.",
+        "url": "https://www.blackmagicdesign.com/products/blackmagicpyxis/techspecs/W-BOX-07",
+        "accessed": "2025-09-28"
+      }
+    ],
+    "tags": ["full frame"]
+  },
+  {
+    "make": "Blackmagic",
     "model": "Studio Camera 4K Plus G2",
     "sensorSize": [
       {
@@ -1855,6 +1881,68 @@
   },
   {
     "make": "Canon",
+    "model": "EOS C50",
+    "sensorSize": [
+      {
+        "format": "Full Frame 3:2",
+        "size": [35.9, 23.9],
+        "resolution": [
+          {
+            "format": "Full Frame 3:2",
+            "size": [6960, 4640]
+          }
+        ]
+      },
+      {
+        "format": "Full Frame",
+        "size": [35.9, 18.9],
+        "resolution": [
+          {
+            "format": "Full Frame",
+            "size": [6960, 3672]
+          }
+        ]
+      },
+      {
+        "format": "Super 35mm (Crop)",
+        "size": [26.0, 13.7],
+        "resolution": [
+          {
+            "format": "Super 35mm (Crop)",
+            "size": [5036, 2656]
+          }
+        ]
+      },
+      {
+        "format": "Super 16mm (Crop)",
+        "size": [13.0, 6.9],
+        "resolution": [
+          {
+            "format": "Super 16mm (Crop)",
+            "size": [2524, 1332]
+          }
+        ]
+      }
+    ],
+    "category": ["Movie"],
+    "references": [
+      {
+        "title": "Canon EOS C50 Specifications",
+        "publisher": "Canon Europe Ltd",
+        "url": "https://www.canon-europe.com/video-cameras/eos-c50/specifications/",
+        "accessed": "2025-09-27"
+      },
+      {
+        "title": "Canon EOS C50 Technical Specifications",
+        "publisher": "Canon Inc.",
+        "url": "https://s7d1.scene7.com/is/content/canon/EOS-C50-Spec-Sheetpdf",
+        "accessed": "2025-09-27"
+      }
+    ],
+    "tags": ["full frame"]
+  },
+  {
+    "make": "Canon",
     "model": "EOS C300",
     "sensorSize": [
       {
@@ -2224,7 +2312,44 @@
         "accessed": "2025-02-22"
       }
     ],
-    "tags": ["full frame"]
+    "tags": ["full frame", "mirrorless"]
+  },
+  {
+    "make": "Canon",
+    "model": "EOS R5 Mark II",
+    "sensorSize": [
+      {
+        "format": "Full Frame",
+        "size": [36, 24],
+        "resolution": [
+          {
+            "format": "8K-DCI",
+            "size": [8192, 4320]
+          },
+          {
+            "format": "4K-DCI",
+            "size": [4096, 2160]
+          }
+        ]
+      }
+    ],
+    "category": ["Still"],
+    "references": [
+      {
+        "title": "EOS R5 Mark II",
+        "publisher": "Canon U.S.A., Inc.",
+        "url": "https://www.usa.canon.com/shop/p/eos-r5-mark-ii",
+        "accessed": "2025-09-28"
+      },
+      {
+        "title": "Canon EOS R5 Mark II",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Canon_EOS_R5_Mark_II&oldid=1313369650",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-09-28"
+      }
+    ],
+    "tags": ["full frame", "mirrorless"]
   },
   {
     "make": "DJI",
@@ -2313,6 +2438,66 @@
       }
     ],
     "tags": ["drone", "Hasselblad L1D-20c"]
+  },
+  {
+    "make": "DJI",
+    "model": "Mavic 4 Pro",
+    "sensorSize": [
+      {
+        "format": "28 mm Hasselblad Camera",
+        "size": [17.3, 13],
+        "resolution": [
+          {
+            "format": "6K",
+            "size": [6016, 3384]
+          },
+          {
+            "format": "4K DCI",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "4K UHD",
+            "size": [3840, 2160]
+          }
+        ]
+      },
+      {
+        "format": "70 mm Medium Tele Camera",
+        "size": [9.6, 7.2],
+        "resolution": [
+          {
+            "format": "4K UHD",
+            "size": [3840, 2160]
+          }
+        ]
+      },
+      {
+        "format": "168 mm Tele Camera",
+        "size": [8.8, 6.6],
+        "resolution": [
+          {
+            "format": "4K UHD",
+            "size": [3840, 2160]
+          }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "references": [
+      {
+        "title": "MAVIC 4 PRO User Manual",
+        "publisher": "DJI",
+        "url": "https://dl.djicdn.com/downloads/mavic-4-pro/20250513/DJI_Mavic_4_Pro_User_Manual_v1.0_en.pdf",
+        "accessed": "2025-02-22"
+      },
+      {
+        "title": "Hasselblad L3D-100C",
+        "url": "https://www.hasselblad.com/collaborations/dji-mavic-4-pro/",
+        "publisher": "Hasselblad",
+        "accessed": "2025-09-28"
+      }
+    ],
+    "tags": ["drone", "Hasselblad L3D-100C"]
   },
   {
     "make": "DJI",
@@ -3050,7 +3235,33 @@
         "accessed": "2025-02-22"
       }
     ],
-    "tags": ["medium format"]
+    "tags": ["medium format", "mirrorless"]
+  },
+  {
+    "make": "Hasselblad",
+    "model": "X2D II 100C",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [43.8, 32.9]
+      }
+    ],
+    "category": ["Still"],
+    "references": [
+      {
+        "title": "X2D II 100C",
+        "publisher": "Hasselblad",
+        "url": "https://www.hasselblad.com/x-system/x2d-ii-100c/",
+        "accessed": "2025-09-28"
+      },
+      {
+        "title": "X2D II 100C User Guide",
+        "publisher": "Hasselblad",
+        "url": "https://cdn.hasselblad.com/manuals/X2D_II_100C_User_Manual/User_Manual/X2D_II_100C_User_Manual_v1.0_en.pdf",
+        "accessed": "2025-09-28"
+      }
+    ],
+    "tags": ["medium format", "mirrorless"]
   },
   {
     "make": "Leica",
@@ -3176,7 +3387,56 @@
         "accessed": "2025-02-22"
       }
     ],
-    "tags": ["full frame"]
+    "tags": ["full frame", "mirrorless"]
+  },
+  {
+    "make": "Nikon",
+    "model": "ZR",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.9, 23.9],
+        "resolution": [
+          {
+            "format": "RAW 6K",
+            "size": [6048, 3402]
+          },
+          {
+            "format": "RAW 4K",
+            "size": [4030, 2268]
+          },
+          {
+            "format": "5.4K",
+            "size": [5376, 3024]
+          },
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
+      }
+    ],
+    "category": ["Movie"],
+    "references": [
+      {
+        "title": "Nikon ZR",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Nikon_ZR&oldid=1313077801",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-09-28"
+      },
+      {
+        "title": "Nikon ZR Tech Specs",
+        "url": "https://www.nikonusa.com/p/zr/2006/overview#tech-specs",
+        "publisher": "Nikon Inc.",
+        "accessed": "2025-09-28"
+      }
+    ],
+    "tags": ["full frame", "mirrorless"]
   },
   {
     "make": "Panasonic",
@@ -3401,6 +3661,60 @@
       }
     ],
     "tags": ["full frame"]
+  },
+  {
+    "make": "Panasonic",
+    "model": "LUMIX S1RII",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.8, 23.9],
+        "resolution": [
+          {
+            "format": "8.1K 17:9",
+            "size": [8128, 4288]
+          },
+          {
+            "format": "8K 16:9",
+            "size": [7680, 4320]
+          },
+          {
+            "format": "6.4K 3:2",
+            "size": [6432, 4288]
+          },
+          {
+            "format": "5.9K 16:9",
+            "size": [5888, 3312]
+          },
+          {
+            "format": "5.8K 17:9",
+            "size": [5760, 3040]
+          },
+          {
+            "format": "C4K 17:9",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "4K 16:9",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "FHD 16:9",
+            "size": [1920, 1080]
+          }
+        ]
+      }
+    ],
+    "category": ["Still"],
+    "references": [
+      {
+        "title": "LUMIX S1RII Specifications",
+        "url": "https://help.na.panasonic.com/answers/features-and-specifications-lumix-s-series-dc-s1rm2/",
+        "publisher": "Panasonic Corporation",
+        "accessed": "2025-09-28"
+      }
+    ],
+    "tags": ["full frame", "mirrorless"]
   },
   {
     "make": "Panasonic",
@@ -8560,6 +8874,47 @@
   },
   {
     "make": "Sony",
+    "model": "Alpha 1 II",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.9, 24],
+        "resolution": [
+          {
+            "format": "8K",
+            "size": [7680, 4320]
+          },
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
+      }
+    ],
+    "category": ["Still"],
+    "references": [
+      {
+        "title": "Alpha 1 II - Full-frame Mirrorless Interchangeable Lens Camera",
+        "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce1m2b",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-09-28"
+      },
+      {
+        "title": "Sony α1 II",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Sony_%CE%B11_II&oldid=1300392388",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-09-28"
+      }
+    ],
+    "tags": ["full frame", "a1", "ilce-1m2", "mirrorless"]
+  },
+  {
+    "make": "Sony",
     "model": "Alpha 6400",
     "sensorSize": [
       {
@@ -8778,7 +9133,7 @@
         "accessed": "2025-02-22"
       }
     ],
-    "tags": ["full frame", "a7r", "ilce-7rm5"]
+    "tags": ["full frame", "a7r", "ilce-7rm5", "mirrorless"]
   },
   {
     "make": "Sony",
@@ -8896,7 +9251,7 @@
         "accessed": "2025-02-22"
       }
     ],
-    "tags": ["full frame", "a9", "ilce-9m3"]
+    "tags": ["full frame", "a9", "ilce-9m3", "mirrorless"]
   },
   {
     "make": "Sony",
@@ -9231,6 +9586,40 @@
       }
     ],
     "tags": ["super 35"]
+  },
+  {
+    "make": "Sony",
+    "model": "FX2",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.9, 23.9],
+        "resolution": [
+          {
+            "format": "DCI4K",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "HD",
+            "size": [1920, 1080]
+          }
+        ]
+      }
+    ],
+    "category": ["Movie"],
+    "references": [
+      {
+        "title": "Cinema Line FX2 | Full-frame Cinema Camera",
+        "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilmefx2b",
+        "publisher": "SONY ELECTRONICS INC.",
+        "accessed": "2025-09-28"
+      }
+    ],
+    "tags": ["full frame"]
   },
   {
     "make": "Sony",
