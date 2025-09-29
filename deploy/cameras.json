@@ -1241,6 +1241,27 @@
     "tags": ["full frame"]
   },
   {
+    "name": "Blackmagic PYXIS 12K",
+    "sensorSize": [
+      {
+        "format": "Open Gate 3:2",
+        "size": [35.64, 23.32],
+        "resolution": [
+          {
+            "format": "Open Gate 3:2",
+            "size": [12288, 8040]
+          }
+        ]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.blackmagicdesign.com/products/blackmagicpyxis/techspecs/W-BOX-07"
+    ],
+    "tags": ["full frame"]
+  },
+  {
     "name": "Blackmagic Studio Camera 4K Plus G2",
     "sensorSize": [
       {
@@ -1582,6 +1603,58 @@
     "tags": ["aps-c"]
   },
   {
+    "name": "Canon EOS C50",
+    "sensorSize": [
+      {
+        "format": "Full Frame 3:2",
+        "size": [35.9, 23.9],
+        "resolution": [
+          {
+            "format": "Full Frame 3:2",
+            "size": [6960, 4640]
+          }
+        ]
+      },
+      {
+        "format": "Full Frame",
+        "size": [35.9, 18.9],
+        "resolution": [
+          {
+            "format": "Full Frame",
+            "size": [6960, 3672]
+          }
+        ]
+      },
+      {
+        "format": "Super 35mm (Crop)",
+        "size": [26.0, 13.7],
+        "resolution": [
+          {
+            "format": "Super 35mm (Crop)",
+            "size": [5036, 2656]
+          }
+        ]
+      },
+      {
+        "format": "Super 16mm (Crop)",
+        "size": [13.0, 6.9],
+        "resolution": [
+          {
+            "format": "Super 16mm (Crop)",
+            "size": [2524, 1332]
+          }
+        ]
+      }
+    ],
+    "category": ["Movie"],
+    "description": "",
+    "sources": [
+      "https://www.canon-europe.com/video-cameras/eos-c50/specifications/",
+      "https://s7d1.scene7.com/is/content/canon/EOS-C50-Spec-Sheetpdf"
+    ],
+    "tags": ["full frame"]
+  },
+  {
     "name": "Canon EOS C300",
     "sensorSize": [
       {
@@ -1863,7 +1936,33 @@
       "https://www.usa.canon.com/shop/p/eos-r5",
       "https://github.com/wetadigital/physlight/blob/main/data/Canon_EOS_R5_380_780_5.json"
     ],
-    "tags": ["full frame"]
+    "tags": ["full frame", "mirrorless"]
+  },
+  {
+    "name": "EOS R5 Mark II",
+    "sensorSize": [
+      {
+        "format": "Full Frame",
+        "size": [36, 24],
+        "resolution": [
+          {
+            "format": "8K-DCI",
+            "size": [8192, 4320]
+          },
+          {
+            "format": "4K-DCI",
+            "size": [4096, 2160]
+          }
+        ]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/w/index.php?title=Canon_EOS_R5_Mark_II&oldid=1313369650",
+      "https://www.usa.canon.com/shop/p/eos-r5-mark-ii"
+    ],
+    "tags": ["full frame", "mirrorless"]
   },
   {
     "name": "DJI Mavic Air 2",
@@ -1925,6 +2024,55 @@
       "https://github.com/wetadigital/physlight/blob/main/data/Hasselblad_L1D-20c_380_780_5.json"
     ],
     "tags": ["drone", "Hasselblad L1D-20c"]
+  },
+  {
+    "name": "DJI Mavic 4 Pro",
+    "sensorSize": [
+      {
+        "format": "28 mm Hasselblad Camera",
+        "size": [17.3, 13],
+        "resolution": [
+          {
+            "format": "6K",
+            "size": [6016, 3384]
+          },
+          {
+            "format": "4K DCI",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "4K UHD",
+            "size": [3840, 2160]
+          }
+        ]
+      },
+      {
+        "format": "70 mm Medium Tele Camera",
+        "size": [9.6, 7.2],
+        "resolution": [
+          {
+            "format": "4K UHD",
+            "size": [3840, 2160]
+          }
+        ]
+      },
+      {
+        "format": "168 mm Tele Camera",
+        "size": [8.8, 6.6],
+        "resolution": [
+          {
+            "format": "4K UHD",
+            "size": [3840, 2160]
+          }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "sources": [
+      "https://dl.djicdn.com/downloads/mavic-4-pro/20250513/DJI_Mavic_4_Pro_User_Manual_v1.0_en.pdf",
+      "https://www.hasselblad.com/collaborations/dji-mavic-4-pro/"
+    ],
+    "tags": ["drone", "Hasselblad L3D-100C"]
   },
   {
     "name": "DJI Phantom 3",
@@ -2320,7 +2468,22 @@
       "https://www.hasselblad.com/x-system/x1d/",
       "https://cdn.hasselblad.com/manuals/X1D-II-50C-User-Manual/1.0.0.0/X1D-II-50C-User-Guide-en.pdf"
     ],
-    "tags": ["medium format"]
+    "tags": ["medium format", "mirrorless"]
+  },
+  {
+    "name": "Hasselblad X2D II 100C",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [43.8, 32.9]
+      }
+    ],
+    "category": ["Still"],
+    "sources": [
+      "https://www.hasselblad.com/x-system/x2d-ii-100c/",
+      "https://cdn.hasselblad.com/manuals/X2D_II_100C_User_Manual/User_Manual/X2D_II_100C_User_Manual_v1.0_en.pdf"
+    ],
+    "tags": ["medium format", "mirrorless"]
   },
   {
     "name": "Leica S3",
@@ -2407,7 +2570,44 @@
       "https://en.wikipedia.org/wiki/Nikon_Z_9",
       "https://www.nikonusa.com/en/nikon-products/product/mirrorless-cameras/z-9.html#tab-ProductDetail-ProductTabs-TechSpecs"
     ],
-    "tags": ["full frame"]
+    "tags": ["full frame", "mirrorless"]
+  },
+  {
+    "name": "Nikon ZR",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.9, 23.9],
+        "resolution": [
+          {
+            "format": "RAW 6K",
+            "size": [6048, 3402]
+          },
+          {
+            "format": "RAW 4K",
+            "size": [4030, 2268]
+          },
+          {
+            "format": "5.4K",
+            "size": [5376, 3024]
+          },
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
+      }
+    ],
+    "category": ["Movie"],
+    "sources": [
+      "https://en.wikipedia.org/w/index.php?title=Nikon_ZR&oldid=1313077801",
+      "https://www.nikonusa.com/p/zr/2006/overview#tech-specs"
+    ],
+    "tags": ["full frame", "mirrorless"]
   },
   {
     "name": "Panasonic AW-UB50",
@@ -2591,6 +2791,54 @@
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/s1h/index.html"
     ],
     "tags": ["full frame"]
+  },
+  {
+    "name": "Panasonic LUMIX S1RII",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.8, 23.9],
+        "resolution": [
+          {
+            "format": "8.1K 17:9",
+            "size": [8128, 4288]
+          },
+          {
+            "format": "8K 16:9",
+            "size": [7680, 4320]
+          },
+          {
+            "format": "6.4K 3:2",
+            "size": [6432, 4288]
+          },
+          {
+            "format": "5.9K 16:9",
+            "size": [5888, 3312]
+          },
+          {
+            "format": "5.8K 17:9",
+            "size": [5760, 3040]
+          },
+          {
+            "format": "C4K 17:9",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "4K 16:9",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "FHD 16:9",
+            "size": [1920, 1080]
+          }
+        ]
+      }
+    ],
+    "category": ["Still"],
+    "sources": [
+      "https://help.na.panasonic.com/answers/features-and-specifications-lumix-s-series-dc-s1rm2/"
+    ],
+    "tags": ["full frame", "mirrorless"]
   },
   {
     "name": "Panasonic LUMIX S5II",
@@ -7553,6 +7801,36 @@
     "tags": ["imax", "full frame"]
   },
   {
+    "name": "Sony Alpha 1 II",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.9, 24],
+        "resolution": [
+          {
+            "format": "8K",
+            "size": [7680, 4320]
+          },
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "Full HD",
+            "size": [1920, 1080]
+          }
+        ]
+      }
+    ],
+    "category": ["Still"],
+    "description": "",
+    "sources": [
+      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce1m2b",
+      "https://en.wikipedia.org/w/index.php?title=Sony_%CE%B11_II&oldid=1300392388"
+    ],
+    "tags": ["full frame", "a1", "ilce-1m2", "mirrorless"]
+  },
+  {
     "name": "Sony Alpha 6400",
     "sensorSize": [
       {
@@ -8051,6 +8329,34 @@
       "https://www.arkvideo.co.jp/_sys/wp-content/uploads/SonyPXW-FS7M2.pdf"
     ],
     "tags": ["super 35"]
+  },
+  {
+    "name": "Sony FX2",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.9, 23.9],
+        "resolution": [
+          {
+            "format": "DCI4K",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "HD",
+            "size": [1920, 1080]
+          }
+        ]
+      }
+    ],
+    "category": ["Movie"],
+    "sources": [
+      "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilmefx2b"
+    ],
+    "tags": ["full frame"]
   },
   {
     "name": "Sony FX3",
