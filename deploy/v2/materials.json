@@ -1443,7 +1443,7 @@
     ]
   },
   {
-    "name": "Eye (cornea)",
+    "name": "Eye (Cornea)",
     "color": [
       {
         "colorSpace": "srgb-linear",
@@ -1489,7 +1489,7 @@
     ]
   },
   {
-    "name": "Eye (lens)",
+    "name": "Eye (Lens)",
     "color": [
       {
         "colorSpace": "srgb-linear",
@@ -1536,7 +1536,7 @@
     ]
   },
   {
-    "name": "Eye (sclera)",
+    "name": "Eye (Sclera)",
     "color": [
       {
         "colorSpace": "srgb-linear",
@@ -1947,11 +1947,11 @@
     ]
   },
   {
-    "name": "Honey",
+    "name": "Honey (Liquid)",
     "color": [
       {
         "colorSpace": "srgb-linear",
-        "color": [0.83077, 0.397, 0.038]
+        "color": [0.831, 0.571, 0.037]
       }
     ],
     "metalness": 0,
@@ -2015,13 +2015,92 @@
     "images": [
       {
         "format": "jpeg",
-        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/honey.jpeg",
-        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/honey.jpeg"
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/honey-liquid.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/honey-liquid.jpeg"
       },
       {
         "format": "avif",
-        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/honey.avif",
-        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/honey.avif"
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/honey-liquid.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/honey-liquid.avif"
+      }
+    ]
+  },
+  {
+    "name": "Honey (Crystallized)",
+    "color": [
+      {
+        "colorSpace": "srgb-linear",
+        "color": [0.449, 0.319, 0.011]
+      }
+    ],
+    "metalness": 0,
+    "roughness": 0.3,
+    "ior": 1.504,
+    "subsurfaceRadius": [0.2, 0.2, 0.2],
+    "density": [1380, 1450, 1400],
+    "viscosity": [2000, 15000, 15000],
+    "category": ["Liquid"],
+    "description": "Variations in its water content alter its refractive index. Typically, the refractive index for honey ranges from 1.504 at 13% water content to 1.474 at 25%. Fresh honey is liquid and clear but with time it crystallizes and becomes thicker and less clear. The crystallization depends on temperature and the ratio of glucose and fructose.",
+    "references": [
+      {
+        "title": "Honey",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Honey&oldid=1271742958",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-01-26"
+      },
+      {
+        "title": "List of Viscosities",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_viscosities&oldid=1256671906",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-01-26"
+      },
+      {
+        "title": "The Color of Honey",
+        "url": "https://carolinahoneybees.com/the-color-of-honey/",
+        "publisher": "Carolina Honeybees",
+        "accessed": "2025-01-26"
+      },
+      {
+        "title": "Chemical and Functional Properties of Food Saccharides",
+        "author": "Tomasik, P. (Ed.)",
+        "url": "https://www.taylorfrancis.com/books/mono/10.1201/9780203495728/chemical-functional-properties-food-saccharides-piotr-tomasik",
+        "publisher": "CRC Press",
+        "pages": "74 ",
+        "year": "2003",
+        "doi": "https://doi.org/10.1201/9780203495728"
+      },
+      {
+        "title": "Viscosity of Flower Honey (Blended)",
+        "url": "https://wiki.anton-paar.com/en/flower-honey-blended/",
+        "publisher": "Anton Paar GmbH",
+        "accessed": "2025-01-26"
+      },
+      {
+        "title": "Hybrido Viscosity Table",
+        "author": "RealFlow 10 Documentation",
+        "publisher": "Next Limit Technologies",
+        "url": "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table",
+        "accessed": "2025-01-26"
+      },
+      {
+        "title": "Viscosity - Absolute (Dynamic) vs. Kinematic ",
+        "url": "https://www.engineeringtoolbox.com/dynamic-absolute-kinematic-viscosity-d_412.html",
+        "publisher": "The Engineering ToolBox",
+        "accessed": "2025-01-26"
+      }
+    ],
+    "images": [
+      {
+        "format": "jpeg",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/honey-crystallized.jpeg",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/honey-crystallized.jpeg"
+      },
+      {
+        "format": "avif",
+        "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/honey-crystallized.avif",
+        "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/honey-crystallized.avif"
       }
     ]
   },
@@ -5384,7 +5463,7 @@
     ]
   },
   {
-    "name": "Toner (black)",
+    "name": "Toner (Black)",
     "color": [
       {
         "colorSpace": "srgb-linear",
