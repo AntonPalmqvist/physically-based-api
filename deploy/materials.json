@@ -445,7 +445,7 @@
     ]
   },
   {
-    "name": "Eye (cornea)",
+    "name": "Eye (Cornea)",
     "color": [1, 1, 1],
     "metalness": 0,
     "roughness": 0,
@@ -464,7 +464,7 @@
     ]
   },
   {
-    "name": "Eye (lens)",
+    "name": "Eye (Lens)",
     "color": [1, 1, 1],
     "metalness": 0,
     "roughness": 0,
@@ -483,7 +483,7 @@
     ]
   },
   {
-    "name": "Eye (sclera)",
+    "name": "Eye (Sclera)",
     "color": [0.652, 0.5, 0.394],
     "metalness": 0,
     "roughness": 0,
@@ -611,8 +611,8 @@
     ]
   },
   {
-    "name": "Honey",
-    "color": [0.83077, 0.397, 0.038],
+    "name": "Honey (Liquid)",
+    "color": [0.831, 0.571, 0.037],
     "metalness": 0,
     "roughness": 0,
     "ior": 1.504,
@@ -634,7 +634,34 @@
     ],
     "tags": [""],
     "reference": [
-      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/honey.jpeg"
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/honey-liquid.jpeg"
+    ]
+  },
+  {
+    "name": "Honey (Crystallized)",
+    "color": [0.449, 0.319, 0.011],
+    "metalness": 0,
+    "roughness": 0,
+    "ior": 1.504,
+    "subsurfaceRadius": [0.2, 0.2, 0.2],
+    "density": 1400,
+    "densityRange": [1380, 1450],
+    "viscosity": 15000,
+    "category": ["Liquid"],
+    "description": "Variations in its water content alter its refractive index. Typically, the refractive index for honey ranges from 1.504 at 13% water content to 1.474 at 25%. Fresh honey is liquid and clear but with time it crystallizes and becomes thicker and less clear. The crystallization depends on temperature and the ratio of glucose and fructose.",
+    "sources": [
+      "https://www.color-name.com/honey.color",
+      "https://en.wikipedia.org/wiki/Honey",
+      "https://carolinahoneybees.com/the-color-of-honey/",
+      "https://books.google.se/books?id=6RfVqdqxCiUC&pg=PA74&redir_esc=y#v=onepage&q&f=false",
+      "https://wiki.anton-paar.com/en/flower-honey-blended/",
+      "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table",
+      "https://en.wikipedia.org/wiki/List_of_viscosities",
+      "https://www.engineeringtoolbox.com/dynamic-absolute-kinematic-viscosity-d_412.html"
+    ],
+    "tags": [""],
+    "reference": [
+      "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/honey-crystallized.jpeg"
     ]
   },
   {
@@ -1642,7 +1669,7 @@
     ]
   },
   {
-    "name": "Toner (black)",
+    "name": "Toner (Black)",
     "color": [0.05, 0.05, 0.05],
     "metalness": 0,
     "roughness": 0.5,
