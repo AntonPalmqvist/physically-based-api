@@ -1537,7 +1537,7 @@
       "https://en.wikipedia.org/wiki/Canon_EOS-1D_X_Mark_II",
       "https://en.wikipedia.org/wiki/Canon_EOS-1D_X_Mark_III",
       "https://www.canon-europe.com/for_home/product_finder/cameras/digital_slr/eos_1dx/specifications/",
-      "https://github.com/wetadigital/physlight/blob/main/data/Canon_EOS-1D_X_Mark_II_380_780_5.json"
+      "https://github.com/wetadigital/physlight/blob/main/data/camera/Canon_EOS-1D_X_Mark_II_380_780_5.json"
     ],
     "tags": ["full frame"]
   },
@@ -1567,7 +1567,7 @@
     "description": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Canon_EOS_5D_Mark_IV",
-      "https://github.com/wetadigital/physlight/blob/main/data/Canon_EOS_5D_Mark_IV_380_780_5.json",
+      "https://github.com/wetadigital/physlight/blob/main/data/camera/Canon_EOS_5D_Mark_IV_380_780_5.json",
       "https://gdlp01.c-wss.com/gds/0/0300024970/07/eos5d-mk4-im8-en.pdf"
     ],
     "tags": ["full frame"]
@@ -1934,7 +1934,7 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Canon_EOS_R5",
       "https://www.usa.canon.com/shop/p/eos-r5",
-      "https://github.com/wetadigital/physlight/blob/main/data/Canon_EOS_R5_380_780_5.json"
+      "https://github.com/wetadigital/physlight/blob/main/data/camera/Canon_EOS_R5_380_780_5.json"
     ],
     "tags": ["full frame", "mirrorless"]
   },
@@ -1960,7 +1960,8 @@
     "description": "",
     "sources": [
       "https://en.wikipedia.org/w/index.php?title=Canon_EOS_R5_Mark_II&oldid=1313369650",
-      "https://www.usa.canon.com/shop/p/eos-r5-mark-ii"
+      "https://www.usa.canon.com/shop/p/eos-r5-mark-ii",
+      "https://github.com/wetadigital/physlight/blob/main/data/camera/Canon_EOS_R5m2_380_780_5.json"
     ],
     "tags": ["full frame", "mirrorless"]
   },
@@ -7878,7 +7879,8 @@
     "description": "",
     "sources": [
       "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7m4-b",
-      "https://en.wikipedia.org/wiki/Sony_α7"
+      "https://en.wikipedia.org/wiki/Sony_α7",
+      "https://github.com/wetadigital/physlight/blob/main/data/camera/Sony_ILCE-7M4_380_780_5.json"
     ],
     "tags": ["full frame", "a7", "ilce-7m4"]
   },
@@ -7904,7 +7906,8 @@
     "description": "",
     "sources": [
       "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce7cm2-b",
-      "https://en.wikipedia.org/wiki/Sony_α7"
+      "https://en.wikipedia.org/wiki/Sony_α7",
+      "https://github.com/wetadigital/physlight/blob/main/data/camera/Sony_ILCE-7CM2_380_780_5.json"
     ],
     "tags": ["full frame", "a7c", "ilce-7cm2"]
   },
@@ -7956,9 +7959,10 @@
     "description": "",
     "sources": [
       "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7rm4a-b",
-      "https://en.wikipedia.org/wiki/Sony_α7"
+      "https://en.wikipedia.org/wiki/Sony_α7",
+      "https://github.com/wetadigital/physlight/blob/main/data/camera/Sony_ILCE-7RM4_380_780_5.json"
     ],
-    "tags": ["full frame", "a7r", "ilce-7rm4a"]
+    "tags": ["full frame", "a7r", "ilce-7rm4"]
   },
   {
     "name": "Sony Alpha 7R V",
@@ -8008,7 +8012,8 @@
     "description": "",
     "sources": [
       "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7sm3-b",
-      "https://en.wikipedia.org/wiki/Sony_α7"
+      "https://en.wikipedia.org/wiki/Sony_α7",
+      "https://github.com/wetadigital/physlight/blob/main/data/camera/Sony_ILCE-7SM3_380_780_5.json"
     ],
     "tags": ["full frame", "a7", "ilce-7sm3"]
   },
@@ -8035,7 +8040,7 @@
     "sources": [
       "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce9-b",
       "https://en.wikipedia.org/wiki/Sony_α9",
-      "https://github.com/wetadigital/physlight/blob/main/data/Sony_ILCE-9_380_780_5.json"
+      "https://github.com/wetadigital/physlight/blob/main/data/camera/Sony_ILCE-9_380_780_5.json"
     ],
     "tags": ["full frame", "a9", "ilce-9"]
   },
