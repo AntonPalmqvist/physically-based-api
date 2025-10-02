@@ -576,7 +576,7 @@
       "https://www.arri.com/resource/blob/296424/88454a5a3dee9fe1d3fd68e75aa3411e/alexa-35-recording-format-poster-data.pdf",
       "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
     ],
-    "tags": [""]
+    "tags": ["netflix"]
   },
   {
     "name": "Arri Alexa 65",
@@ -639,7 +639,47 @@
       "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf",
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
     ],
-    "tags": ["imax"]
+    "tags": ["imax", "netflix"]
+  },
+  {
+    "name": "Arri Alexa 265",
+    "sensorSize": [
+      {
+        "format": "2.12:1 Open Gate",
+        "size": [54.12, 25.58],
+        "resolution": [
+          {
+            "format": "6.5K",
+            "size": [6560, 3100]
+          }
+        ]
+      },
+      {
+        "format": "1.65:1",
+        "size": [42.24, 25.58],
+        "resolution": [
+          {
+            "format": "5.1K",
+            "size": [5120, 3100]
+          }
+        ]
+      },
+      {
+        "format": "LF 3:2",
+        "size": [36.7, 25.54],
+        "resolution": [
+          {
+            "format": "4.5K",
+            "size": [4448, 3096]
+          }
+        ]
+      }
+    ],
+    "category": ["Movie"],
+    "sources": [
+      "https://www.arrirental.com/en/cameras/digital-65-mm-cameras/alexa-265"
+    ],
+    "tags": ["imax", "netflix"]
   },
   {
     "name": "Arri Amira",
@@ -774,7 +814,7 @@
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
       "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
     ],
-    "tags": ["super 35", "imax"]
+    "tags": ["super 35", "imax", "netflix"]
   },
   {
     "name": "Arri Alexa Mini",
@@ -1001,7 +1041,7 @@
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
       "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
     ],
-    "tags": ["super 35", "imax"]
+    "tags": ["super 35", "imax", "netflix"]
   },
   {
     "name": "Arri Alexa SXT W",
@@ -1429,28 +1469,93 @@
       "https://www.youtube.com/live/iI7ZEm-ZbPw?si=FFLiwC3aS4dJ_IL8&t=7485",
       "https://www.cined.com/blackmagic-design-ursa-cine-12k-lf-announced-12k-full-frame-sensor-open-gate-32-new-8tb-dedicated-recording-module-and-more/"
     ],
-    "tags": ["full frame"]
+    "tags": ["full frame", "netflix"]
   },
   {
     "name": "Blackmagic URSA Cine 17K 65",
     "sensorSize": [
       {
-        "format": "2.2:1 open gate",
+        "format": "2.2:1 Open Gate",
         "size": [50.808, 23.316],
         "resolution": [
           { "format": "17K", "size": [17520, 8040] },
           { "format": "8K", "size": [11680, 5360] },
           { "format": "4K", "size": [5840, 2680] }
         ]
+      },
+      {
+        "format": "2.4:1 Full Width",
+        "size": [50.808, 21.16],
+        "resolution": [{ "format": "17K", "size": [17520, 7296] }]
+      },
+      {
+        "format": "2:1 Full Height",
+        "size": [46.77, 23.32],
+        "resolution": [
+          { "format": "17K", "size": [16128, 8040] },
+          { "format": "8K", "size": [10752, 5360] },
+          { "format": "4K", "size": [5376, 2680] }
+        ]
+      },
+      {
+        "format": "17:9 Full Height",
+        "size": [44.54, 23.32],
+        "resolution": [{ "format": "17K", "size": [15360, 8040] }]
+      },
+      {
+        "format": "16:9 Full Height",
+        "size": [41.48, 23.32],
+        "resolution": [{ "format": "17K", "size": [14304, 8040] }]
+      },
+      {
+        "format": "3:2 Full Height",
+        "size": [35.64, 23.32],
+        "resolution": [
+          { "format": "12K", "size": [12288, 8040] },
+          { "format": "8K", "size": [8192, 5360] },
+          { "format": "4K", "size": [4096, 2680] }
+        ]
+      },
+      {
+        "format": "6:5 Full Height",
+        "size": [27.98, 23.32],
+        "resolution": [{ "format": "12K", "size": [9648, 8040] }]
+      },
+      {
+        "format": "16:9 Cropped",
+        "size": [35.64, 20.04],
+        "resolution": [
+          { "format": "12K", "size": [12288, 6912] },
+          { "format": "8K", "size": [8192, 4608] },
+          { "format": "4K", "size": [4096, 2304] }
+        ]
+      },
+      {
+        "format": "17:9 Cropped",
+        "size": [35.64, 18.79],
+        "resolution": [
+          { "format": "12K", "size": [12288, 6480] },
+          { "format": "8K", "size": [8192, 4320] },
+          { "format": "4K", "size": [4096, 2160] }
+        ]
+      },
+      {
+        "format": "2.4:1 Cropped",
+        "size": [35.64, 14.82],
+        "resolution": [
+          { "format": "12K", "size": [12288, 5112] },
+          { "format": "8K", "size": [8192, 3408] },
+          { "format": "4K", "size": [4096, 1704] }
+        ]
       }
     ],
     "category": ["Movie"],
-    "description": "",
     "sources": [
       "https://www.blackmagicdesign.com/products/blackmagicursacine/techspecs/W-URSA-63",
-      "https://en.wikipedia.org/wiki/Blackmagic_URSA#URSA_CINE_17K"
+      "https://en.wikipedia.org/w/index.php?title=Blackmagic_URSA&oldid=1276978178#URSA_CINE_17K",
+      "https://drive.google.com/file/d/1eKcfK69-YnxE-CqGrXEMdAw2Is0vTNB_/view"
     ],
-    "tags": ["imax"]
+    "tags": ["imax", "netflix"]
   },
   {
     "name": "Blackmagic URSA Mini Pro 4.6K G2",
@@ -1472,7 +1577,7 @@
       "https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs/W-URSA-34",
       "https://en.wikipedia.org/wiki/Blackmagic_URSA#URSA_Mini_Pro_4.6K_G2"
     ],
-    "tags": ["super 35"]
+    "tags": ["super 35", "netflix"]
   },
   {
     "name": "Blackmagic URSA Mini Pro 12K",
@@ -1502,7 +1607,7 @@
       "https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs/W-URSA-36",
       "https://en.wikipedia.org/wiki/Blackmagic_URSA#URSA_Mini_Pro_12K"
     ],
-    "tags": ["super 35"]
+    "tags": ["super 35", "netflix"]
   },
   {
     "name": "Canon EOS-1D X",
@@ -1686,7 +1791,7 @@
       "https://gdlp01.c-wss.com/gds/5/0300042345/08/eosc300mk3-500mk2-im13-en.pdf",
       "https://www.canon-europe.com/video-cameras/eos-c300-mark-iii/specifications/"
     ],
-    "tags": ["super 35"]
+    "tags": ["super 35", "netflix"]
   },
   {
     "name": "Canon EOS C400",
@@ -1749,7 +1854,7 @@
       "https://www.usa.canon.com/shop/p/eos-c400#tech-spec-data",
       "https://s7d1.scene7.com/is/content/canon/EOSC400_full_specificationspdf"
     ],
-    "tags": ["super 35"]
+    "tags": ["super 35", "netflix"]
   },
   {
     "name": "Canon EOS C500",
@@ -1771,7 +1876,7 @@
       "https://en.wikipedia.org/wiki/Canon_EOS_C500",
       "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/cinema-eos-c500-mark-ii"
     ],
-    "tags": ["super 35"]
+    "tags": ["super 35", "netflix"]
   },
   {
     "name": "Canon EOS C70",
@@ -1803,7 +1908,7 @@
       "https://www.usa.canon.com/shop/p/eos-c70",
       "https://gdlp01.c-wss.com/gds/4/0300040134/09/eosc70-im10-en.pdf"
     ],
-    "tags": ["super 35"]
+    "tags": ["super 35", "netflix"]
   },
   {
     "name": "Canon EOS C80",
@@ -1879,7 +1984,7 @@
       "https://www.usa.canon.com/shop/p/eos-c80",
       "https://s7d1.scene7.com/is/content/canon/EOSC80_full_specificationspdf"
     ],
-    "tags": ["full frame"]
+    "tags": ["full frame", "netflix"]
   },
   {
     "name": "Canon EOS C700 FF",
@@ -1909,7 +2014,7 @@
       "https://www.usa.canon.com/support/p/eos-c700-ff",
       "https://downloads.canon.com/nw/camera/downloads/brochures/cinema/cinema-eos/eos-c700-ff-series-product-brochure.pdf"
     ],
-    "tags": ["full frame"]
+    "tags": ["full frame", "netflix"]
   },
   {
     "name": "Canon EOS R5",
@@ -1936,7 +2041,7 @@
       "https://www.usa.canon.com/shop/p/eos-r5",
       "https://github.com/wetadigital/physlight/blob/main/data/camera/Canon_EOS_R5_380_780_5.json"
     ],
-    "tags": ["full frame", "mirrorless"]
+    "tags": ["full frame", "mirrorless", "netflix"]
   },
   {
     "name": "EOS R5 Mark II",
@@ -1964,6 +2069,75 @@
       "https://github.com/wetadigital/physlight/blob/main/data/camera/Canon_EOS_R5m2_380_780_5.json"
     ],
     "tags": ["full frame", "mirrorless"]
+  },
+  {
+    "name": "DJI Inspire 3 Zenmuse X9-8K Air",
+    "sensorSize": [
+      {
+        "format": "Full Frame 17:9",
+        "size": [36, 19],
+        "resolution": [
+          {
+            "format": "8.1K",
+            "size": [8192, 4320]
+          },
+          {
+            "format": "4.1K",
+            "size": [4096, 2160]
+          }
+        ]
+      },
+      {
+        "format": "Full Frame 16:9",
+        "size": [33.8, 19],
+        "resolution": [
+          {
+            "format": "8K",
+            "size": [7680, 4320]
+          },
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          }
+        ]
+      },
+      {
+        "format": "Full Frame 2.39:1",
+        "size": [36, 15.06],
+        "resolution": [
+          {
+            "format": "8.1K",
+            "size": [8192, 3424]
+          }
+        ]
+      },
+      {
+        "format": "Super 35 17:9",
+        "size": [24.5, 12.98],
+        "resolution": [
+          {
+            "format": "5.5K",
+            "size": [5568, 2952]
+          }
+        ]
+      },
+      {
+        "format": "Super 35 16:9",
+        "size": [23.1, 12.98],
+        "resolution": [
+          {
+            "format": "5.2K",
+            "size": [5248, 2952]
+          }
+        ]
+      }
+    ],
+    "category": ["Mobile"],
+    "sources": [
+      "https://www.dji.com/inspire-3/specs",
+      "https://dl.djicdn.com/downloads/inspire_3/20241016UM/DJI_Inspire_3_User_Manual_V3.0_EN_.pdf"
+    ],
+    "tags": ["drone", "netflix"]
   },
   {
     "name": "DJI Mavic Air 2",
@@ -2668,7 +2842,7 @@
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/eva1/index.html",
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/au-eva1.pdf"
     ],
-    "tags": ["super 35"]
+    "tags": ["super 35", "netflix"]
   },
   {
     "name": "Panasonic LUMIX BGH1",
@@ -2701,7 +2875,7 @@
     "sources": [
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/bgh1/spec/index.html"
     ],
-    "tags": ["micro four thirds"]
+    "tags": ["micro four thirds", "netflix"]
   },
   {
     "name": "Panasonic LUMIX BS1H",
@@ -2746,7 +2920,7 @@
     "sources": [
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/bs1h/index.html"
     ],
-    "tags": ["full frame"]
+    "tags": ["full frame", "netflix"]
   },
   {
     "name": "Panasonic LUMIX S1H",
@@ -2791,7 +2965,7 @@
     "sources": [
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/s1h/index.html"
     ],
-    "tags": ["full frame"]
+    "tags": ["full frame", "netflix"]
   },
   {
     "name": "Panasonic LUMIX S1RII",
@@ -2922,7 +3096,7 @@
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/varicam_35/spec/index.html",
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf"
     ],
-    "tags": ["super 35"]
+    "tags": ["super 35", "netflix"]
   },
   {
     "name": "Panasonic VariCam LT",
@@ -2958,7 +3132,7 @@
       "https://pro-av.panasonic.net/manual/html/VARICAM_LT(VQT5M58A-11(E))/VARICAM_LT(VQT5M58A-11(E)).pdf",
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf"
     ],
-    "tags": ["super 35"]
+    "tags": ["super 35", "netflix"]
   },
   {
     "name": "Panasonic VariCam Pure",
@@ -2985,7 +3159,7 @@
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/varicam_pure/spec/index.html",
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf"
     ],
-    "tags": ["super 35"]
+    "tags": ["super 35", "netflix"]
   },
   {
     "name": "Panavision Millenium DXL2",
@@ -3328,7 +3502,7 @@
       "https://www.panavision.com/docs/default-source/downloads/panavision_dxl2_manual_v1_0.pdf#%5B%7B%22num%22%3A125%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C42.75%2C673.5%2C0%5D",
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
     ],
-    "tags": ["imax"]
+    "tags": ["imax", "netflix"]
   },
   {
     "name": "RED Dragon",
@@ -4105,7 +4279,7 @@
       "http://docs.red.com/955-0156/EPICSCARLETOperationGuide/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatEpicDragon.htm",
       "https://www.red.com/dsmc2"
     ],
-    "tags": ["super 35"]
+    "tags": ["super 35", "netflix"]
   },
   {
     "name": "RED Gemini",
@@ -4740,7 +4914,7 @@
       "https://www.red.com/arsenal",
       "https://www.red.com/dsmc2"
     ],
-    "tags": ["super 35"]
+    "tags": ["super 35", "netflix"]
   },
   {
     "name": "RED Helium",
@@ -5895,7 +6069,7 @@
       "https://www.red.com/arsenal",
       "https://www.red.com/dsmc2"
     ],
-    "tags": ["super 35"]
+    "tags": ["super 35", "netflix"]
   },
   {
     "name": "RED Komodo",
@@ -6069,7 +6243,7 @@
       "https://www.red.com/komodo-brain-parent",
       "https://www.red.com/arsenal"
     ],
-    "tags": ["super 35"]
+    "tags": ["super 35", "netflix"]
   },
   {
     "name": "RED Monstro",
@@ -7225,7 +7399,7 @@
       "https://www.red.com/arsenal",
       "https://www.red.com/dsmc2"
     ],
-    "tags": ["imax", "full frame"]
+    "tags": ["imax", "full frame", "netflix"]
   },
   {
     "name": "RED V-Raptor",
@@ -7799,7 +7973,7 @@
       "https://www.red.com/v-raptor",
       "https://www.red.com/arsenal"
     ],
-    "tags": ["imax", "full frame"]
+    "tags": ["imax", "full frame", "netflix"]
   },
   {
     "name": "Sony Alpha 1 II",
@@ -8172,7 +8346,7 @@
       "https://en.wikipedia.org/wiki/List_of_Sony_E-mount_cameras",
       "https://en.wikipedia.org/wiki/CineAlta"
     ],
-    "tags": ["super 35"]
+    "tags": ["super 35", "netflix"]
   },
   {
     "name": "Sony F5",
@@ -8214,7 +8388,7 @@
       "https://pro.sony/ue_US/products/digital-cinema-cameras/pmw-f5",
       "https://www.fdtimes.com/2012/10/30/sony-f55-and-f5/"
     ],
-    "tags": ["super 35"]
+    "tags": ["super 35", "netflix"]
   },
   {
     "name": "Sony F55",
@@ -8235,7 +8409,7 @@
     "sources": [
       "https://www.panavision.com/camera-and-optics/cameras/product-detail/f55-f55"
     ],
-    "tags": ["super 35"]
+    "tags": ["super 35", "netflix"]
   },
   {
     "name": "Sony F65",
@@ -8265,7 +8439,40 @@
       "https://pro.sony/ue_US/products/digital-cinema-cameras/f65",
       "https://www.eoshd.com/news/sony-f65-sensor-using-consumer-camcorder-technology/"
     ],
-    "tags": ["super 35"]
+    "tags": ["super 35", "netflix"]
+  },
+  {
+    "name": "Sony FR 7",
+    "sensorSize": [
+      {
+        "format": "Open Gate",
+        "size": [35.6, 23.8],
+        "resolution": [
+          {
+            "format": "FF 4096x2160",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "FF 3840x2160",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "FF 1920x1080",
+            "size": [1920, 1080]
+          },
+          {
+            "format": "S35",
+            "size": [1920, 1080]
+          }
+        ]
+      }
+    ],
+    "category": ["Movie"],
+    "sources": [
+      "https://pro.sony/ue_US/products/ptz-network-cameras/ilme-fr7#ProductSpecificationsBlock-ilme-fr7",
+      "https://helpguide.sony.net/ilc/2240/v1/en/print.pdf"
+    ],
+    "tags": ["full frame", "ilme-fr7", "netflix"]
   },
   {
     "name": "Sony FS7",
@@ -8299,7 +8506,7 @@
       "https://pro.sony/ue_US/products/handheld-camcorders/pxw-fs7",
       "https://www.arkvideo.co.jp/_sys/wp-content/uploads/SonyPXW-FS7.pdf"
     ],
-    "tags": ["super 35"]
+    "tags": ["super 35", "netflix"]
   },
   {
     "name": "Sony FS7 II",
@@ -8333,7 +8540,7 @@
       "https://pro.sony/ue_US/products/handheld-camcorders/pxw-fs7m2",
       "https://www.arkvideo.co.jp/_sys/wp-content/uploads/SonyPXW-FS7M2.pdf"
     ],
-    "tags": ["super 35"]
+    "tags": ["super 35", "netflix"]
   },
   {
     "name": "Sony FX2",
@@ -8390,7 +8597,7 @@
     "sources": [
       "https://electronics.sony.com/imaging/cinema-line-cameras/all-cinema-line-cameras/p/ilmefx3"
     ],
-    "tags": ["full frame"]
+    "tags": ["full frame", "netflix"]
   },
   {
     "name": "Sony FX6",
@@ -8423,7 +8630,7 @@
     "sources": [
       "https://electronics.sony.com/imaging/cinema-line-cameras/all-cinema-line-cameras/p/ilmefx6v"
     ],
-    "tags": ["full frame"]
+    "tags": ["full frame", "netflix"]
   },
   {
     "name": "Sony FX9",
@@ -8475,7 +8682,7 @@
       "https://pro.sony/ue_US/products/handheld-camcorders/pxw-fx9",
       "https://www.cined.com/sony-fx9-sensor-scan-modes-explained/"
     ],
-    "tags": ["full frame"]
+    "tags": ["full frame", "netflix"]
   },
   {
     "name": "Sony ILX-LR1",
@@ -8643,7 +8850,7 @@
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
       "https://en.wikipedia.org/wiki/CineAlta"
     ],
-    "tags": ["imax"]
+    "tags": ["imax", "netflix"]
   },
   {
     "name": "Sony VENICE 2",
@@ -8898,6 +9105,6 @@
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
       "https://en.wikipedia.org/wiki/CineAlta"
     ],
-    "tags": ["imax"]
+    "tags": ["imax", "netflix"]
   }
 ]
