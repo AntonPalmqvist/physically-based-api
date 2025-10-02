@@ -2132,7 +2132,7 @@
         ]
       }
     ],
-    "category": ["Mobile"],
+    "category": ["Movie"],
     "sources": [
       "https://www.dji.com/inspire-3/specs",
       "https://dl.djicdn.com/downloads/inspire_3/20241016UM/DJI_Inspire_3_User_Manual_V3.0_EN_.pdf"
@@ -8442,7 +8442,7 @@
     "tags": ["super 35", "netflix"]
   },
   {
-    "name": "Sony FR 7",
+    "name": "Sony FR7",
     "sensorSize": [
       {
         "format": "Open Gate",

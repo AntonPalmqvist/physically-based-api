@@ -2538,7 +2538,7 @@
         ]
       }
     ],
-    "category": ["Mobile"],
+    "category": ["Movie"],
     "references": [
       {
         "title": "DJI Inspire 3 - Specs",
@@ -9733,7 +9733,7 @@
   },
   {
     "make": "Sony",
-    "model": "FR 7",
+    "model": "FR7",
     "sensorSize": [
       {
         "format": "Open Gate",
