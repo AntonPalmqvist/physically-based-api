@@ -1,112 +1,201 @@
 [
   {
-    "name": "Analog 16 mm",
+    "name": "Analog 8 mm",
     "sensorSize": [
       {
-        "format": "Open Gate",
-        "size": [10.26, 7.49]
+        "format": "Standard 8 mm",
+        "size": [4.8, 3.5],
+        "resolution": [
+          {
+            "format": "2K",
+            "size": [2048, 1495]
+          }
+        ]
+      },
+      {
+        "format": "Super 8 mm",
+        "size": [5.79, 4.01],
+        "resolution": [
+          {
+            "format": "2K",
+            "size": [2048, 1418]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/16_mm_film#Standard_16_mm"],
+    "sources": [
+      "https://en.wikipedia.org/w/index.php?title=8_mm_film&oldid=1263471196",
+      "https://en.wikipedia.org/w/index.php?title=Super_8_film&oldid=1290262002",
+      "https://en.wikipedia.org/w/index.php?title=Image_sensor_format&oldid=1275872254"
+    ],
+    "tags": ["film"]
+  },
+  {
+    "name": "Analog 16 mm",
+    "sensorSize": [
+      {
+        "format": "Standard 16 mm",
+        "size": [10.26, 7.49],
+        "resolution": [
+          {
+            "format": "2K",
+            "size": [2048, 1495]
+          }
+        ]
+      },
+      {
+        "format": "Super 16 mm",
+        "size": [12.52, 7.41],
+        "resolution": [
+          {
+            "format": "2K",
+            "size": [2048, 1212]
+          }
+        ]
+      }
+    ],
+    "category": ["Movie"],
+    "sources": [
+      "https://en.wikipedia.org/w/index.php?title=16_mm_film&oldid=1273079668",
+      "https://www.cinematography.net/edited-pages/16mmSuper16AspectsRatios.htm",
+      "https://en.wikipedia.org/w/index.php?title=2K_resolution&oldid=1307715721"
+    ],
     "tags": ["film"]
   },
   {
     "name": "Analog 35 mm",
     "sensorSize": [
       {
-        "format": "Open Gate",
-        "size": [22, 16]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/35_mm_movie_film"],
-    "tags": ["film"]
-  },
-  {
-    "name": "Analog 65 mm",
-    "sensorSize": [
+        "format": "Academy Ratio",
+        "size": [22, 16],
+        "resolution": [
+          {
+            "format": "2K",
+            "size": [2048, 1489]
+          }
+        ]
+      },
       {
-        "format": "Open Gate",
-        "size": [52.48, 23.01]
+        "format": "CinemaScope",
+        "size": [21.95, 18.6],
+        "resolution": [
+          {
+            "format": "Flat",
+            "size": [2048, 858]
+          },
+          {
+            "format": "Anamorphic",
+            "size": [2048, 1736]
+          }
+        ]
+      },
+      {
+        "format": "Widescreen",
+        "size": [21.95, 18.6],
+        "resolution": [
+          {
+            "format": "Flat",
+            "size": [2048, 1107]
+          },
+          {
+            "format": "Anamorphic",
+            "size": [2048, 1736]
+          }
+        ]
+      },
+      {
+        "format": "Super 35",
+        "size": [24.89, 18.66],
+        "resolution": [
+          {
+            "format": "2K",
+            "size": [2048, 1540]
+          }
+        ]
+      },
+      {
+        "format": "Super 35 3-perf",
+        "size": [24.89, 13.9],
+        "resolution": [
+          {
+            "format": "2K",
+            "size": [2048, 1144]
+          }
+        ]
+      },
+      {
+        "format": "VistaVision",
+        "size": [37.7, 25.17],
+        "resolution": [
+          {
+            "format": "2K",
+            "size": [2048, 1367]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
-    "description": "",
     "sources": [
-      "https://en.wikipedia.org/wiki/70_mm_film#Technical_specifications"
+      "https://en.wikipedia.org/w/index.php?title=35_mm_movie_film&oldid=1276508353",
+      "https://en.wikipedia.org/w/index.php?title=Image_sensor_format&oldid=1275872254",
+      "https://en.wikipedia.org/w/index.php?title=2K_resolution&oldid=1307715721"
     ],
-    "tags": ["film"]
+    "tags": [
+      "film",
+      "vistavision",
+      "super 35",
+      "academy",
+      "widescreen",
+      "cinemascope"
+    ]
   },
   {
-    "name": "Analog IMAX 70 mm",
+    "name": "Analog 65/70 mm",
     "sensorSize": [
       {
-        "format": "Open Gate",
-        "size": [70.41, 52.63]
+        "format": "Standard 65 mm",
+        "size": [52.63, 23.01],
+        "resolution": [
+          {
+            "format": "12K",
+            "size": [12288, 5373]
+          },
+          {
+            "format": "8K",
+            "size": [8192, 3582]
+          },
+          {
+            "format": "4K",
+            "size": [4096, 1791]
+          }
+        ]
+      },
+      {
+        "format": "IMAX 70 mm",
+        "size": [70.41, 52.63],
+        "resolution": [
+          {
+            "format": "12K",
+            "size": [12288, 9184]
+          },
+          {
+            "format": "8K",
+            "size": [8192, 6123]
+          },
+          {
+            "format": "4K",
+            "size": [4096, 3061]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/70_mm_film#IMAX_.2815.2F70.29"],
-    "tags": ["film"]
-  },
-  {
-    "name": "Analog Super 8 mm",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [5.79, 4.01]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Super_8_film"],
-    "tags": ["film"]
-  },
-  {
-    "name": "Analog Super 16 mm",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [12.52, 7.41]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/16_mm_film#Super_16_mm"],
-    "tags": ["film"]
-  },
-  {
-    "name": "Analog Super 35 mm 3-perf",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [24.89, 13.86]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
     "sources": [
-      "https://en.wikipedia.org/wiki/Super_35",
-      "https://en.wikipedia.org/wiki/Image_sensor_format"
+      "https://en.wikipedia.org/w/index.php?title=70_mm_film&oldid=1273823265#Technical_specifications",
+      "https://en.wikipedia.org/w/index.php?title=Image_sensor_format&oldid=1275872254"
     ],
-    "tags": ["film"]
-  },
-  {
-    "name": "Analog Super 35 mm 4-perf",
-    "sensorSize": [
-      {
-        "format": "Open Gate",
-        "size": [24.89, 18.66]
-      }
-    ],
-    "category": ["Movie"],
-    "description": "",
-    "sources": ["https://en.wikipedia.org/wiki/Super_35"],
-    "tags": ["film"]
+    "tags": ["film", "imax"]
   },
   {
     "name": "Apple Iphone 13 Pro",
@@ -427,22 +516,40 @@
     "name": "APS-C",
     "sensorSize": [
       {
-        "format": "Open Gate",
-        "size": [23.5, 15.6]
-      }
-    ],
-    "category": ["Still"],
-    "sources": [
-      "https://en.wikipedia.org/w/index.php?title=APS-C&oldid=1312922548"
-    ],
-    "tags": [""]
-  },
-  {
-    "name": "APS-C (Canon)",
-    "sensorSize": [
+        "format": "APS-C",
+        "size": [23.5, 15.6],
+        "resolution": [
+          {
+            "format": "60 MP",
+            "size": [9486, 6324]
+          },
+          {
+            "format": "40 MP",
+            "size": [7746, 5164]
+          },
+          {
+            "format": "20 MP",
+            "size": [5478, 3652]
+          }
+        ]
+      },
       {
-        "format": "Open Gate",
-        "size": [22.3, 14.9]
+        "format": "APS-C (Canon)",
+        "size": [22.3, 14.9],
+        "resolution": [
+          {
+            "format": "60 MP",
+            "size": [9486, 6324]
+          },
+          {
+            "format": "40 MP",
+            "size": [7746, 5164]
+          },
+          {
+            "format": "20 MP",
+            "size": [5478, 3652]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -1644,7 +1751,7 @@
       "https://www.canon-europe.com/for_home/product_finder/cameras/digital_slr/eos_1dx/specifications/",
       "https://github.com/wetadigital/physlight/blob/main/data/camera/Canon_EOS-1D_X_Mark_II_380_780_5.json"
     ],
-    "tags": ["full frame"]
+    "tags": ["full frame", "dslr"]
   },
   {
     "name": "Canon EOS 5D Mark IV",
@@ -1675,7 +1782,7 @@
       "https://github.com/wetadigital/physlight/blob/main/data/camera/Canon_EOS_5D_Mark_IV_380_780_5.json",
       "https://gdlp01.c-wss.com/gds/0/0300024970/07/eos5d-mk4-im8-en.pdf"
     ],
-    "tags": ["full frame"]
+    "tags": ["full frame", "dslr"]
   },
   {
     "name": "Canon EOS 90D",
@@ -1705,7 +1812,7 @@
       "https://en.wikipedia.org/wiki/Canon_EOS_90D",
       "https://canoncanada.custhelp.com/app/answers/answer_view/a_id/1031111/~/specifications-%28eos-90d%29"
     ],
-    "tags": ["aps-c"]
+    "tags": ["aps-c", "dslr"]
   },
   {
     "name": "Canon EOS C50",
@@ -2343,11 +2450,25 @@
     "sensorSize": [
       {
         "format": "Open Gate",
-        "size": [17.3, 13]
+        "size": [17.3, 13],
+        "resolution": [
+          {
+            "format": "60 MP",
+            "size": [8944, 6708]
+          },
+          {
+            "format": "40 MP",
+            "size": [7303, 5477]
+          },
+          {
+            "format": "20 MP",
+            "size": [5164, 3873]
+          }
+        ]
       }
     ],
     "category": ["Still"],
-    "description": "The Micro Four Thirds system uses the same sensor, but removes the mirror box from the camera design.",
+    "description": "The Micro Four Thirds system has the same sensor size as Four Thirds, but removes the mirror box from the camera design.",
     "sources": [
       "https://en.wikipedia.org/w/index.php?title=Four_Thirds_system&oldid=1305837716",
       "https://en.wikipedia.org/w/index.php?title=Micro_Four_Thirds_system&oldid=1301996798"
@@ -2386,7 +2507,7 @@
       "https://fujifilm-x.com/global/products/cameras/gfx100/specifications/",
       "https://en.wikipedia.org/wiki/Fujifilm_GFX100"
     ],
-    "tags": ["medium format"]
+    "tags": ["medium format", "mirrorless"]
   },
   {
     "name": "Fujifilm GFX100 II",
@@ -2452,7 +2573,7 @@
       "https://fujifilm-x.com/global/products/cameras/gfx100-ii/specifications/",
       "https://en.wikipedia.org/wiki/Fujifilm_GFX100"
     ],
-    "tags": ["medium format"]
+    "tags": ["medium format", "mirrorless"]
   },
   {
     "name": "Fujifilm GFX Eterna 55",
@@ -2510,7 +2631,7 @@
     "sources": [
       "https://fujifilm-x.com/global/products/cameras/x-h2/specifications/"
     ],
-    "tags": ["aps-c"]
+    "tags": ["aps-c", "mirrorless"]
   },
   {
     "name": "Fujifilm X-T5",
@@ -2548,14 +2669,28 @@
       "https://fujifilm-x.com/global/products/cameras/x-t5/specifications/",
       "https://en.wikipedia.org/wiki/Fujifilm_X-T5"
     ],
-    "tags": ["aps-c"]
+    "tags": ["aps-c", "mirrorless"]
   },
   {
-    "name": "Full Frame 35 mm",
+    "name": "Full Frame DSLR (35 mm)",
     "sensorSize": [
       {
-        "format": "Open Gate",
-        "size": [36, 24]
+        "format": "Full Frame",
+        "size": [36, 24],
+        "resolution": [
+          {
+            "format": "60 MP",
+            "size": [9486, 6324]
+          },
+          {
+            "format": "40 MP",
+            "size": [7746, 5164]
+          },
+          {
+            "format": "20 MP",
+            "size": [5478, 3652]
+          }
+        ]
       }
     ],
     "category": ["Still"],
@@ -2684,7 +2819,7 @@
       "https://en.wikipedia.org/wiki/Leica_S-System",
       "https://leicacamerausa.com/leica-s3.html"
     ],
-    "tags": ["medium format"]
+    "tags": ["medium format", "dslr"]
   },
   {
     "name": "Nikon D850",
@@ -2715,7 +2850,7 @@
       "https://www.nikonusa.com/en/nikon-products/product/dslr-cameras/d850.html#tab-ProductDetail-ProductTabs-TechSpecs",
       "https://github.com/wetadigital/physlight/blob/main/data/Nikon_D850_380_780_5.json"
     ],
-    "tags": ["full frame"]
+    "tags": ["full frame", "dslr"]
   },
   {
     "name": "Nikon Z9",
@@ -2965,7 +3100,7 @@
     "sources": [
       "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/s1h/index.html"
     ],
-    "tags": ["full frame", "netflix"]
+    "tags": ["full frame", "netflix", "mirrorless"]
   },
   {
     "name": "Panasonic LUMIX S1RII",
@@ -3060,7 +3195,7 @@
       "https://help.na.panasonic.com/wp-content/uploads/2023/02/DCS5M2_DVQP2839ZA_ENG.pdf",
       "https://www.panasonic.com/uk/consumer/cameras-camcorders/lumix-mirrorless-cameras/lumix-s-full-frame-cameras/dc-s5m2.html#specs"
     ],
-    "tags": ["full frame"]
+    "tags": ["full frame", "mirrorless"]
   },
   {
     "name": "Panasonic VariCam 35",
@@ -8029,7 +8164,7 @@
       "https://electronics.sony.com/imaging/interchangeable-lens-cameras/aps-c/p/ilce6400-b",
       "https://en.wikipedia.org/wiki/Sony_%CE%B16400"
     ],
-    "tags": ["a6400", "aps-c", "ilce-6400"]
+    "tags": ["a6400", "aps-c", "ilce-6400", "mirrorless"]
   },
   {
     "name": "Sony Alpha 7 IV",
@@ -8056,7 +8191,7 @@
       "https://en.wikipedia.org/wiki/Sony_α7",
       "https://github.com/wetadigital/physlight/blob/main/data/camera/Sony_ILCE-7M4_380_780_5.json"
     ],
-    "tags": ["full frame", "a7", "ilce-7m4"]
+    "tags": ["full frame", "a7", "ilce-7m4", "mirrorless"]
   },
   {
     "name": "Sony Alpha 7C II",
@@ -8083,7 +8218,7 @@
       "https://en.wikipedia.org/wiki/Sony_α7",
       "https://github.com/wetadigital/physlight/blob/main/data/camera/Sony_ILCE-7CM2_380_780_5.json"
     ],
-    "tags": ["full frame", "a7c", "ilce-7cm2"]
+    "tags": ["full frame", "a7c", "ilce-7cm2", "mirrorless"]
   },
   {
     "name": "Sony Alpha 7CR",
@@ -8109,7 +8244,7 @@
       "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7cr-b",
       "https://en.wikipedia.org/wiki/Sony_α7"
     ],
-    "tags": ["full frame", "a7cr", "ilce-7cr"]
+    "tags": ["full frame", "a7cr", "ilce-7cr", "mirrorless"]
   },
   {
     "name": "Sony Alpha 7R IV",
@@ -8136,7 +8271,7 @@
       "https://en.wikipedia.org/wiki/Sony_α7",
       "https://github.com/wetadigital/physlight/blob/main/data/camera/Sony_ILCE-7RM4_380_780_5.json"
     ],
-    "tags": ["full frame", "a7r", "ilce-7rm4"]
+    "tags": ["full frame", "a7r", "ilce-7rm4", "mirrorless"]
   },
   {
     "name": "Sony Alpha 7R V",
@@ -8162,7 +8297,7 @@
       "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce7rm5-b",
       "https://en.wikipedia.org/wiki/Sony_α7"
     ],
-    "tags": ["full frame", "a7r", "ilce-7rm5"]
+    "tags": ["full frame", "a7r", "ilce-7rm5", "mirrorless"]
   },
   {
     "name": "Sony Alpha 7S III",
@@ -8189,7 +8324,7 @@
       "https://en.wikipedia.org/wiki/Sony_α7",
       "https://github.com/wetadigital/physlight/blob/main/data/camera/Sony_ILCE-7SM3_380_780_5.json"
     ],
-    "tags": ["full frame", "a7", "ilce-7sm3"]
+    "tags": ["full frame", "a7", "ilce-7sm3", "mirrorless"]
   },
   {
     "name": "Sony Alpha 9",
@@ -8216,7 +8351,7 @@
       "https://en.wikipedia.org/wiki/Sony_α9",
       "https://github.com/wetadigital/physlight/blob/main/data/camera/Sony_ILCE-9_380_780_5.json"
     ],
-    "tags": ["full frame", "a9", "ilce-9"]
+    "tags": ["full frame", "a9", "ilce-9", "mirrorless"]
   },
   {
     "name": "Sony Alpha 9 III",
@@ -8242,7 +8377,7 @@
       "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce9m3b",
       "https://en.wikipedia.org/wiki/Sony_α9_III"
     ],
-    "tags": ["full frame", "a9", "ilce-9m3"]
+    "tags": ["full frame", "a9", "ilce-9m3", "mirrorless"]
   },
   {
     "name": "Sony BURANO",
@@ -8702,7 +8837,7 @@
         ]
       }
     ],
-    "category": ["Still"],
+    "category": ["Mobile"],
     "description": "",
     "sources": ["https://pro.sony/ue_US/products/installable-cameras/ilx-lr1"],
     "tags": ["full frame"]
