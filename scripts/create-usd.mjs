@@ -147,29 +147,36 @@ function createCameras() {
     const name =
       hit.make.replace(/ |-|:|\./g, "_").replace(/[\[\]()º]/g, "") +
       "_" +
-      hit.model.replace(/ |-|:|\./g, "_").replace(/[\[\]()º]/g, "") +
-      "_";
+      hit.model.replace(/ |-|:|\./g, "_").replace(/[\[\]()º]/g, "");
     const define =
-      'def xform "' + name + '" (\n' +
+      'def Xform "' + name + '" (\n' +
+      '    variants = {\n' +
+      '        string sensorSize = "' + hit.sensorSize[0].format.replace(/ |-|:|\./g, "_") + '"\n' +
+      '    }\n' +
       '    prepend variantSets = "sensorSize"\n' +
-      ')\n';
+      ')\n' +
+      '{\n' +
+      '	  def Camera "' + name + '"\n' +
+      '    {\n' +
+      '        float2 clippingRange = (0.1, 1000)\n' +
+      '        float focalLength = 50\n' +
+      '        token projection = "perspective"\n' +
+      '        float horizontalApertureOffset = 0\n' +
+      '        float verticalApertureOffset = 0\n' +
+      '    }\n\n';
     const variantSets =
-      'variantSet "sensorSize" = {\n\n' +
+      '    variantSet "sensorSize" = {\n' +
       hit.sensorSize.map((item) => (
-        '    "' + item.format.replace(/ |-|:|\./g, "_") + '" {\n' +
-        '	  def Camera "' + name + item.format.replace(/ |-|:|\./g, "_") + '" {\n' +
-        '       float2 clippingRange = (0.1, 1000)\n' +
-        '       float focalLength = 50\n' +
-        '       token projection = "perspective"\n' +
-        '       float horizontalAperture = ' + item.size[0].toFixed(2) + '\n' +
-        '       float horizontalApertureOffset = 0\n' +
-        '       float verticalAperture = ' + item.size[1].toFixed(2) + '\n' +
-        '       float verticalApertureOffset = 0\n' +
-        '   }\n' +
-        ' }\n'
+        '        "' + item.format.replace(/ |-|:|\./g, "_") + '" {\n' +
+        '            over "' + name + '"\n' +
+        '            {\n'+
+        '                float horizontalAperture = ' + item.size[0].toFixed(2) + '\n' +
+        '                float verticalAperture = ' + item.size[1].toFixed(2) + '\n' +
+        '            }\n' +
+        '        }\n'
       )).join('\n') +
-      '\n}\n'+
-      '\n}\n';
+      '    }\n'+
+      '}\n';
     
     usd =
       '#usda 1.0\n' +
@@ -181,7 +188,6 @@ function createCameras() {
       ')\n' +
       '\n' +
       define +
-      '{\n' +
       variantSets;
     return usd;
   }
@@ -366,7 +372,7 @@ function createLightsources() {
         color +
         colorTemperature +
         '                bool inputs:enableColorTemperature = ' + enableColorTemperature +'\n' +
-        '                float inputs:intensity = ' + Math.round(convertedIntensity) +'\n' +
+        '                float inputs:intensity = ' + roundLargeNumbers(convertedIntensity, 10) +'\n' +
         (width ? '                float inputs:width = ' + width + '\n' : "") +
         (height ? '                float inputs:height = ' + height + '\n' : "") +
         (length ? '                float inputs:length = ' + length + '\n' : "") +
@@ -427,8 +433,8 @@ function zipFiles() {
 
 async function main() {
   try {
-    // await createCameras();
-    await createLightsources();
+    await createCameras();
+    // await createLightsources();
     // processJson("materials");
     // processJson("lightsources");
     // processJson("cameras");
