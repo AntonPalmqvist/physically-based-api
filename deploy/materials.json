@@ -494,7 +494,7 @@
     "description": "",
     "sources": [
       "https://www.researchgate.net/publication/225767258_Optical_properties_of_human_sclera_in_spectral_range_370-2500_nm",
-      "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
+      "https://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
       "https://vgl.ict.usc.edu/Data/DigitalEmily2/",
       "https://eisko.com/louise/"
     ],
@@ -912,7 +912,7 @@
     "sources": [
       "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html",
       "https://www.researchgate.net/publication/346758555_What_Is_the_Color_of_Milk_and_Dairy_Products_and_How_Is_It_Measured",
-      "http://dairy-technology.blogspot.com/2014/11/refractive-index.html",
+      "https://dairy-technology.blogspot.com/2014/11/refractive-index.html",
       "https://www.theengineer.co.uk/content/product/density-measurement-of-milk-and-dairy-products/",
       "https://hypertextbook.com/facts/2002/AliciaNoelleJones.shtml",
       "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table",
@@ -1346,7 +1346,7 @@
       "https://refractiveindex.info/?shelf=3d&book=crystals&page=sapphire",
       "https://www.gemsociety.org/article/table-refractive-index-double-refraction-gems/",
       "https://en.wikipedia.org/wiki/Sapphire",
-      "http://www.roditi.com/SingleCrystal/Sapphire/Properties.html"
+      "https://www.roditi.com/SingleCrystal/Sapphire/Properties.html"
     ],
     "tags": ["gem", "gemstone"],
     "reference": [
@@ -1410,8 +1410,8 @@
     "sources": [
       "https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-17/issue-9/090901/Optical-properties-of-human-skin/10.1117/1.JBO.17.9.090901.full?SSO=1",
       "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699319/",
-      "http://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
-      "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
+      "https://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
+      "https://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
       "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
       "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html"
     ],
@@ -1434,8 +1434,8 @@
     "sources": [
       "https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-17/issue-9/090901/Optical-properties-of-human-skin/10.1117/1.JBO.17.9.090901.full?SSO=1",
       "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699319/",
-      "http://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
-      "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
+      "https://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
+      "https://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
       "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
       "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html"
     ],
@@ -1458,8 +1458,8 @@
     "sources": [
       "https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-17/issue-9/090901/Optical-properties-of-human-skin/10.1117/1.JBO.17.9.090901.full?SSO=1",
       "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699319/",
-      "http://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
-      "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
+      "https://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
+      "https://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
       "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
       "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html",
       "https://spectraldb.com/measurements/00490/",
@@ -1484,8 +1484,8 @@
     "sources": [
       "https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-17/issue-9/090901/Optical-properties-of-human-skin/10.1117/1.JBO.17.9.090901.full?SSO=1",
       "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699319/",
-      "http://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
-      "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
+      "https://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
+      "https://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
       "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
       "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html",
       "https://spectraldb.com/measurements/00408/"
@@ -1509,8 +1509,8 @@
     "sources": [
       "https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-17/issue-9/090901/Optical-properties-of-human-skin/10.1117/1.JBO.17.9.090901.full?SSO=1",
       "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699319/",
-      "http://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
-      "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
+      "https://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
+      "https://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
       "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
       "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html",
       "https://spectraldb.com/measurements/00396/"
@@ -1534,8 +1534,8 @@
     "sources": [
       "https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-17/issue-9/090901/Optical-properties-of-human-skin/10.1117/1.JBO.17.9.090901.full?SSO=1",
       "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699319/",
-      "http://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
-      "http://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
+      "https://graphics.ucsd.edu/~henrik/papers/skin_bssrdf/skin_bssrdf.pdf",
+      "https://www.iryoku.com/downloads/Next-Generation-Character-Rendering-v6.pptx",
       "https://graphics.stanford.edu/papers/bssrdf/bssrdf.pdf",
       "https://renderman.pixar.com/resources/RenderMan_20/subsurface.html",
       "https://spectraldb.com/measurements/00414/"

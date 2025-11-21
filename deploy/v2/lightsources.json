@@ -1,8 +1,6 @@
 [
   {
     "name": "Aputure amaran 300c",
-    "temperature": [2500, 7500, 5600],
-    "sourceSize": [4],
     "variants": [
       {
         "format": "Hyper Reflector",
@@ -12,9 +10,10 @@
             "color": [1.0, 0.859, 0.778]
           }
         ],
-        "temperature": 5600,
+        "temperature": [2500, 7500, 5600],
+        "sourceSize": [4],
         "angle": 64.8,
-        "intensity": 26155
+        "intensity": [26155]
       },
       {
         "format": "Bare Bulb",
@@ -24,9 +23,10 @@
             "color": [1.0, 0.859, 0.778]
           }
         ],
-        "temperature": 5600,
+        "temperature": [2500, 7500, 5600],
+        "sourceSize": [4],
         "angle": 89.6,
-        "intensity": 17244
+        "intensity": [17244]
       }
     ],
     "unit": ["lm"],
@@ -49,17 +49,22 @@
   },
   {
     "name": "Aputure amaran P60c",
-    "color": [
+    "variants": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.859, 0.778]
+        "format": "Aputure amaran P60c",
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.859, 0.778]
+          }
+        ],
+        "temperature": [2500, 7500, 5600],
+        "intensity": [3000],
+        "angle": 45,
+        "sourceSize": [27, 21]
       }
     ],
-    "temperature": [2500, 7500, 5600],
-    "intensity": [3000],
     "unit": ["lm"],
-    "angle": 45,
-    "sourceSize": [27, 21],
     "type": ["surface"],
     "category": ["Artificial"],
     "references": [
@@ -79,14 +84,6 @@
   },
   {
     "name": "Aputure STORM 1000c",
-    "color": [
-      {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.859, 0.778]
-      }
-    ],
-    "temperature": [1800, 20000, 5600],
-    "sourceSize": [4],
     "variants": [
       {
         "format": "15º Reflector",
@@ -96,9 +93,10 @@
             "color": [1.0, 0.859, 0.778]
           }
         ],
-        "temperature": 5600,
+        "temperature": [1800, 20000, 5600],
+        "sourceSize": [4],
         "angle": 15,
-        "intensity": 32671
+        "intensity": [32671]
       },
       {
         "format": "30º Reflector",
@@ -108,9 +106,10 @@
             "color": [1.0, 0.859, 0.778]
           }
         ],
-        "temperature": 5600,
+        "temperature": [1800, 20000, 5600],
+        "sourceSize": [4],
         "angle": 30,
-        "intensity": 56389
+        "intensity": [56389]
       },
       {
         "format": "45º Reflector",
@@ -120,9 +119,10 @@
             "color": [1.0, 0.859, 0.778]
           }
         ],
-        "temperature": 5600,
+        "temperature": [1800, 20000, 5600],
+        "sourceSize": [4],
         "angle": 45,
-        "intensity": 67377
+        "intensity": [67377]
       },
       {
         "format": "No Reflector",
@@ -132,9 +132,10 @@
             "color": [1.0, 0.859, 0.778]
           }
         ],
-        "temperature": 5600,
+        "temperature": [1800, 20000, 5600],
+        "sourceSize": [4],
         "angle": 65,
-        "intensity": 78096
+        "intensity": [78096]
       }
     ],
     "unit": ["lm"],
@@ -157,14 +158,6 @@
   },
   {
     "name": "Aputure STORM 1200x",
-    "color": [
-      {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.859, 0.778]
-      }
-    ],
-    "temperature": [2500, 10000, 5600],
-    "sourceSize": [4],
     "variants": [
       {
         "format": "15º Reflector",
@@ -174,9 +167,10 @@
             "color": [1.0, 0.859, 0.778]
           }
         ],
-        "temperature": 5600,
+        "temperature": [2500, 10000, 5600],
+        "sourceSize": [4],
         "angle": 15,
-        "intensity": 47095
+        "intensity": [47095]
       },
       {
         "format": "30º Reflector",
@@ -186,9 +180,10 @@
             "color": [1.0, 0.859, 0.778]
           }
         ],
-        "temperature": 5600,
+        "temperature": [2500, 10000, 5600],
+        "sourceSize": [4],
         "angle": 30,
-        "intensity": 84854
+        "intensity": [84854]
       },
       {
         "format": "45º Reflector",
@@ -198,9 +193,10 @@
             "color": [1.0, 0.859, 0.778]
           }
         ],
-        "temperature": 5600,
+        "temperature": [2500, 10000, 5600],
+        "sourceSize": [4],
         "angle": 45,
-        "intensity": 109150
+        "intensity": [109150]
       },
       {
         "format": "No Reflector",
@@ -210,9 +206,10 @@
             "color": [1.0, 0.859, 0.778]
           }
         ],
-        "temperature": 5600,
+        "temperature": [2500, 10000, 5600],
+        "sourceSize": [4],
         "angle": 70,
-        "intensity": 117678
+        "intensity": [117678]
       }
     ],
     "unit": ["lm"],
@@ -235,13 +232,6 @@
   },
   {
     "name": "Arri M-Series M8",
-    "color": [
-      {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.899, 0.875]
-      }
-    ],
-    "temperature": [6000],
     "variants": [
       {
         "format": "Spot",
@@ -251,9 +241,10 @@
             "color": [1.0, 0.899, 0.875]
           }
         ],
-        "temperature": 6000,
+        "temperature": [6000],
+        "sourceSize": [11.5],
         "angle": 15,
-        "intensity": 22053
+        "intensity": [22053]
       },
       {
         "format": "Medium",
@@ -263,9 +254,10 @@
             "color": [1.0, 0.899, 0.875]
           }
         ],
-        "temperature": 6000,
+        "temperature": [6000],
+        "sourceSize": [11.5],
         "angle": 40,
-        "intensity": 31671
+        "intensity": [31671]
       },
       {
         "format": "Flood",
@@ -275,12 +267,12 @@
             "color": [1.0, 0.899, 0.875]
           }
         ],
-        "temperature": 6000,
+        "temperature": [6000],
+        "sourceSize": [11.5],
         "angle": 60,
-        "intensity": 43249
+        "intensity": [43249]
       }
     ],
-    "sourceSize": [11.5],
     "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],
@@ -301,16 +293,21 @@
   },
   {
     "name": "Arri SkyPanel S60 Pro",
-    "color": [
+    "variants": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.859, 0.778]
+        "format": "Arri SkyPanel S60 Pro",
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.859, 0.778]
+          }
+        ],
+        "temperature": [2800, 10000, 5600],
+        "intensity": [41100],
+        "sourceSize": [64.5, 30.0],
+        "angle": 103
       }
     ],
-    "temperature": [2800, 10000, 5600],
-    "intensity": [41100],
-    "sourceSize": [64.5, 30.0],
-    "angle": 103,
     "unit": ["lm"],
     "type": ["surface"],
     "category": ["Artificial"],
@@ -331,7 +328,6 @@
   },
   {
     "name": "Arri SkyPanel X",
-    "temperature": [1500, 20000, 5600],
     "variants": [
       {
         "format": "Open-Face",
@@ -341,9 +337,10 @@
             "color": [1.0, 0.859, 0.778]
           }
         ],
-        "temperature": 5600,
+        "temperature": [1500, 20000, 5600],
+        "sourceSize": [64.8, 30.3],
         "angle": 121,
-        "intensity": 48000
+        "intensity": [48000]
       },
       {
         "format": "Dome",
@@ -353,9 +350,10 @@
             "color": [1.0, 0.859, 0.778]
           }
         ],
-        "temperature": 5600,
+        "temperature": [1500, 20000, 5600],
+        "sourceSize": [64.8, 30.3],
         "angle": 107,
-        "intensity": 42700
+        "intensity": [42700]
       },
       {
         "format": "S60 Adapter",
@@ -365,9 +363,10 @@
             "color": [1.0, 0.859, 0.778]
           }
         ],
-        "temperature": 5600,
+        "temperature": [1500, 20000, 5600],
+        "sourceSize": [64.8, 30.3],
         "angle": 101,
-        "intensity": 35400
+        "intensity": [35400]
       },
       {
         "format": "HyPer Optic",
@@ -377,12 +376,12 @@
             "color": [1.0, 0.859, 0.778]
           }
         ],
-        "temperature": 5600,
+        "temperature": [1500, 20000, 5600],
+        "sourceSize": [64.8, 30.3],
         "angle": 11,
-        "intensity": 22000
+        "intensity": [22000]
       }
     ],
-    "sourceSize": [64.8, 30.3],
     "unit": ["lm"],
     "type": ["surface"],
     "category": ["Artificial"],
@@ -403,16 +402,21 @@
   },
   {
     "name": "Candle Flame",
-    "color": [
+    "variants": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.22, 0.0]
+        "format": "Candle Flame",
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.22, 0.0]
+          }
+        ],
+        "temperature": [1850],
+        "intensity": [13],
+        "sourceSize": [1]
       }
     ],
-    "temperature": [1850],
-    "intensity": [13],
     "unit": ["lm"],
-    "sourceSize": [1],
     "type": ["point"],
     "category": ["Natural"],
     "references": [
@@ -433,17 +437,35 @@
     ]
   },
   {
-    "name": "Car Headlight (Halogen)",
-    "color": [
+    "name": "Car Headlight",
+    "variants": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.553, 0.237]
+        "format": "Halogen",
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.553, 0.237]
+          }
+        ],
+        "temperature": [3400, 4000],
+        "intensity": [1000, 2000, 1500],
+        "sourceSize": [5],
+        "angle": 15
+      },
+      {
+        "format": "LED",
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.792, 0.628]
+          }
+        ],
+        "temperature": [5000, 6000],
+        "intensity": [2000, 5000, 3000],
+        "sourceSize": [5],
+        "angle": 15
       }
     ],
-    "temperature": [3400, 4000],
-    "intensity": [1000, 2000, 1500],
-    "sourceSize": [5],
-    "angle": 15,
     "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],
@@ -455,38 +477,6 @@
         "publisher": "Bulb Facts LLC.",
         "accessed": "2025-02-27"
       },
-      {
-        "title": "Light Sources",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=Headlamp&oldid=1274156171#Light_sources",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-27"
-      },
-      {
-        "title": "Light Source: A Quick Guide to Automotive Lighting",
-        "author": "Fuller, D.",
-        "url": "https://www.onallcylinders.com/2015/02/27/light-source-quick-guide-automotive-lighting/",
-        "publisher": "Summit Racing",
-        "accessed": "2025-06-18"
-      }
-    ]
-  },
-  {
-    "name": "Car Headlight (LED)",
-    "color": [
-      {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.792, 0.628]
-      }
-    ],
-    "temperature": [5000, 6000],
-    "intensity": [2000, 5000, 3000],
-    "sourceSize": [5],
-    "angle": 15,
-    "unit": ["lm"],
-    "type": ["spot"],
-    "category": ["Artificial"],
-    "references": [
       {
         "title": "Lab Tested Aftermarket LED Kits Chart",
         "url": "https://www.bulbfacts.com/led-kits/chart/",
@@ -511,16 +501,21 @@
   },
   {
     "name": "Digital Display",
-    "color": [
+    "variants": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.943, 0.992]
+        "format": "Digital Display",
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.943, 0.992]
+          }
+        ],
+        "temperature": [5000, 7500, 6500],
+        "intensity": [100, 2500, 200],
+        "sourceSize": [61, 38]
       }
     ],
-    "temperature": [5000, 7500, 6500],
-    "intensity": [100, 2500, 200],
     "unit": ["cd/m2"],
-    "sourceSize": [61, 38],
     "type": ["surface"],
     "category": ["Artificial"],
     "description": "Displays like computer monitors, TVs, signage, etc. typically have a temperature of 6500K but it can vary. The sRGB spec for monitors targets 80 cd/m2 at 6500K. Typically, monitors calibrated for broadcast or studio color grading should have a brightness of 100 cd/m2 in Japan and in the United States, or 120 cd/m2 in the European Union. This is however considered quite dark for normal use, so consumer monitors tend to be brighter, and HDR displays even brighter.",
@@ -551,7 +546,6 @@
   },
   {
     "name": "Firefly",
-    "intensity": [0.0006],
     "variants": [
       {
         "format": "Green",
@@ -561,7 +555,8 @@
             "color": [0, 1, 0]
           }
         ],
-        "intensity": 0.0006
+        "intensity": [0.0006],
+        "sourceSize": [0.25]
       },
       {
         "format": "Yellow",
@@ -571,7 +566,8 @@
             "color": [1.0, 0.5, 0]
           }
         ],
-        "intensity": 0.0006
+        "intensity": [0.0006],
+        "sourceSize": [0.25]
       },
       {
         "format": "Red",
@@ -581,11 +577,11 @@
             "color": [1.0, 0, 0]
           }
         ],
-        "intensity": 0.0006
+        "intensity": [0.0006],
+        "sourceSize": [0.25]
       }
     ],
     "unit": ["lm"],
-    "sourceSize": [0.25],
     "type": ["point"],
     "category": ["Natural"],
     "description": "Fireflies produce a \"cold light\", with no infrared or ultraviolet frequencies. The light may be yellow, green, or pale red, with wavelengths from 510 to 670 nanometers. Some species such as the dimly glowing \"blue ghost\" of the Eastern US may seem to emit blueish-white light from a distance and in low light conditions, but their glow is bright green when observed up close. Their perceived blue tint may be due to the Purkinje effect.",
@@ -624,14 +620,6 @@
   },
   {
     "name": "Fluorescent Tube Light",
-    "color": [
-      {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.654, 0.377]
-      }
-    ],
-    "temperature": [2700, 6500, 4000],
-    "intensity": [500, 5000, 3000],
     "variants": [
       {
         "format": "2700 K",
@@ -641,7 +629,9 @@
             "color": [1.0, 0.415, 0.099]
           }
         ],
-        "temperature": 2700
+        "intensity": [500, 5000, 3000],
+        "temperature": [2700],
+        "sourceSize": [1.5, 60]
       },
       {
         "format": "4000 K",
@@ -651,7 +641,9 @@
             "color": [1.0, 0.654, 0.377]
           }
         ],
-        "temperature": 4000
+        "intensity": [500, 5000, 3000],
+        "temperature": [4000],
+        "sourceSize": [1.5, 60]
       },
       {
         "format": "6500 K",
@@ -661,11 +653,12 @@
             "color": [1.0, 0.943, 0.992]
           }
         ],
-        "temperature": 2700
+        "intensity": [500, 5000, 3000],
+        "temperature": [2700],
+        "sourceSize": [1.5, 60]
       }
     ],
     "unit": ["lm"],
-    "sourceSize": [1.5, 60],
     "type": ["cylinder"],
     "category": ["Artificial"],
     "references": [
@@ -686,15 +679,20 @@
   },
   {
     "name": "Kerosene Lamp",
-    "color": [
+    "variants": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.22, 0.0]
+        "format": "Kerosene Lamp",
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.22, 0.0]
+          }
+        ],
+        "temperature": [1850],
+        "intensity": [8, 100, 50],
+        "sourceSize": [1]
       }
     ],
-    "temperature": [1850],
-    "intensity": [8, 100, 50],
-    "sourceSize": [1],
     "unit": ["lm"],
     "type": ["point"],
     "category": ["Natural"],
@@ -717,15 +715,20 @@
   },
   {
     "name": "Kino Flo MIMIK 120",
-    "color": [
+    "variants": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.859, 0.778]
+        "format": "Kino Flo MIMIK 120",
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.859, 0.778]
+          }
+        ],
+        "temperature": [2700, 6500, 5600],
+        "intensity": [10000],
+        "sourceSize": [120, 60]
       }
     ],
-    "temperature": [2700, 6500, 5600],
-    "intensity": [10000],
-    "sourceSize": [120, 60],
     "unit": ["cd/m2"],
     "type": ["surface"],
     "category": ["Artificial"],
@@ -746,8 +749,6 @@
   },
   {
     "name": "Household Light Bulb",
-    "temperature": [2200, 6000, 2700],
-    "intensity": [400, 1600, 800],
     "variants": [
       {
         "format": "2700 K",
@@ -757,7 +758,9 @@
             "color": [1.0, 0.415, 0.099]
           }
         ],
-        "temperature": 2700
+        "temperature": [2200, 6000, 2700],
+        "intensity": [400, 1600, 800],
+        "sourceSize": [3]
       },
       {
         "format": "5000 K",
@@ -767,11 +770,12 @@
             "color": [1.0, 0.792, 0.628]
           }
         ],
-        "temperature": 5000
+        "temperature": [2200, 6000, 5000],
+        "intensity": [400, 1600, 800],
+        "sourceSize": [3]
       }
     ],
     "unit": ["lm"],
-    "sourceSize": [3],
     "type": ["point"],
     "category": ["Artificial"],
     "description": "Today's household lightbulbs has a LED light source whereas older light bulbs were using a glowing tungsten filament. LED:s are much much more energy efficient and makes the use of wattage, as a measure of intensity, not very useful. This is why lumen is preferred.",
@@ -801,16 +805,33 @@
   },
   {
     "name": "Moon",
-    "color": [
+    "variants": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.669, 0.402]
+        "format": "Full",
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.669, 0.402]
+          }
+        ],
+        "temperature": [4100],
+        "intensity": [0.32],
+        "angle": 0.5286
+      },
+      {
+        "format": "Crescent",
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.669, 0.402]
+          }
+        ],
+        "temperature": [4100],
+        "intensity": [0.05],
+        "angle": 0.5286
       }
     ],
-    "temperature": [4100],
-    "intensity": [0.05, 0.32],
     "unit": ["lx"],
-    "angle": 0.5286,
     "type": ["directional"],
     "category": ["Natural"],
     "description": "Technically not a light source, since the light from the moon is simply reflected sunlight. Moonlight is warmer than sunlight due to the surface material of the moon shifting it towards a redder color. Just as sunlight, moonlight is also subject to atmospheric scattering known as Rayleigh scattering, where it goes more towards red during moonrise and moonset. Moonlight is often mistaken to be bluish due to the Purkinje effect.",
@@ -863,16 +884,21 @@
   },
   {
     "name": "Photo Flash",
-    "color": [
+    "variants": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.849, 0.754]
+        "format": "Generic",
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.849, 0.754]
+          }
+        ],
+        "temperature": [5500],
+        "intensity": [10000, 20000],
+        "sourceSize": [5],
+        "angle": 60
       }
     ],
-    "temperature": [5500],
-    "intensity": [10000, 20000],
-    "sourceSize": [5],
-    "angle": 60,
     "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],
@@ -887,19 +913,94 @@
     ]
   },
   {
-    "name": "Sky (Clear)",
-    "color": [
+    "name": "ROE Carbon Carbon CB5 MKII",
+    "variants": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [0.609, 0.695, 1.0]
+        "format": "RGBCA",
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.859, 0.778]
+          }
+        ],
+        "temperature": [3200, 6500, 5600],
+        "intensity": [4400],
+        "sourceSize": [60, 120]
+      },
+      {
+        "format": "RGBW",
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.859, 0.778]
+          }
+        ],
+        "temperature": [2700, 6500, 5600],
+        "intensity": [3200],
+        "sourceSize": [60, 120]
       }
     ],
-    "temperature": [10000],
-    "intensity": [6000],
+    "unit": ["cd/m2"],
+    "type": ["surface"],
+    "category": ["Artificial"],
+    "references": [
+      {
+        "title": "Carbon Full Spectrum LED Panels Specifications",
+        "url": "https://www.roevisual.com/en/products/carbon-full-spectrum-led-panels",
+        "publisher": "ROE Visual",
+        "accessed": "2025-03-01"
+      },
+      {
+        "title": "Carbon Full Spectrum LED Panels Brochure",
+        "url": "https://www.roevisual.com/assets/components/roevisual/connector.php?action=api/web/download/136",
+        "publisher": "ROE Visual",
+        "accessed": "2025-03-01"
+      }
+    ],
+    "tags": ["CB5MKII"]
+  },
+  {
+    "name": "Sky",
+    "variants": [
+      {
+        "format": "Clear",
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [0.609, 0.695, 1.0]
+          }
+        ],
+        "temperature": [10000],
+        "intensity": [6000],
+        "description": "Shade illuminated by entire clear blue sky at midday"
+      },
+      {
+        "format": "Moonless Clear Night",
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.943, 0.992]
+          }
+        ],
+        "temperature": [6500],
+        "intensity": [0.002],
+        "description": "Even a moonless sky casts some light on earth. A phenomenon called airglow, and also starlight, contributes to this. The color of airglow varies"
+      },
+      {
+        "format": "Overcast Day",
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.943, 0.992]
+          }
+        ],
+        "temperature": [6500],
+        "intensity": [100, 2000, 2000]
+      }
+    ],
     "unit": ["lx"],
     "type": ["dome"],
     "category": ["Natural"],
-    "description": "Shade illuminated by entire clear blue sky at midday",
     "references": [
       {
         "title": "Illuminance Meter Measurement",
@@ -923,93 +1024,23 @@
         "accessed": "2025-02-27"
       },
       {
+        "title": "Lux",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Lux&oldid=1255787364",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-02-27"
+      },
+      {
         "title": "Expedia's Best Blue Sky: Experiment and Results.",
         "author": "Pegrum, H. M., Montgomery, R., Fox, N. P., Mountford, J. R., Salim, S., Woolliams, P. D., Pointer, M. R., Crane, L., & Chapman, M.",
-        "url": "http://eprintspublications.npl.co.uk/3518/",
+        "url": "https://eprintspublications.npl.co.uk/3518/",
         "publisher": "NPL Report",
         "year": "2006"
-      }
-    ]
-  },
-  {
-    "name": "ROE Carbon Carbon CB5 MKII RGBCA",
-    "color": [
-      {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.859, 0.778]
-      }
-    ],
-    "temperature": [3200, 6500, 5600],
-    "intensity": [4400],
-    "sourceSize": [60, 120],
-    "unit": ["cd/m2"],
-    "type": ["surface"],
-    "category": ["Artificial"],
-    "references": [
-      {
-        "title": "Carbon Full Spectrum LED Panels Specifications",
-        "url": "https://www.roevisual.com/en/products/carbon-full-spectrum-led-panels",
-        "publisher": "ROE Visual",
-        "accessed": "2025-03-01"
       },
-      {
-        "title": "Carbon Full Spectrum LED Panels Brochure",
-        "url": "https://www.roevisual.com/assets/components/roevisual/connector.php?action=api/web/download/136",
-        "publisher": "ROE Visual",
-        "accessed": "2025-03-01"
-      }
-    ],
-    "tags": ["CB5MKII"]
-  },
-  {
-    "name": "ROE Carbon Carbon CB5 MKII RGBW",
-    "color": [
-      {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.859, 0.778]
-      }
-    ],
-    "temperature": [2700, 6500, 5600],
-    "intensity": [3200],
-    "sourceSize": [60, 120],
-    "unit": ["cd/m2"],
-    "type": ["surface"],
-    "category": ["Artificial"],
-    "references": [
-      {
-        "title": "Carbon Full Spectrum LED Panels Specifications",
-        "url": "https://www.roevisual.com/en/products/carbon-full-spectrum-led-panels",
-        "publisher": "ROE Visual",
-        "accessed": "2025-03-01"
-      },
-      {
-        "title": "Carbon Full Spectrum LED Panels Brochure",
-        "url": "https://www.roevisual.com/assets/components/roevisual/connector.php?action=api/web/download/136",
-        "publisher": "ROE Visual",
-        "accessed": "2025-03-01"
-      }
-    ],
-    "tags": ["CB5MKII"]
-  },
-  {
-    "name": "Sky (Moonless Clear Night)",
-    "color": [
-      {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.943, 0.992]
-      }
-    ],
-    "temperature": [6500],
-    "intensity": [0.002],
-    "unit": ["lx"],
-    "type": ["dome"],
-    "category": ["Natural"],
-    "description": "Even a moonless sky casts some light on earth. A phenomenon called airglow, and also starlight, contributes to this. The color of airglow varies",
-    "references": [
       {
         "title": "Radiometry and Photometry in Astronomy",
         "author": "Schlyter, P.",
-        "url": "http://stjarnhimlen.se/comp/radfaq.html#10",
+        "url": "https://stjarnhimlen.se/comp/radfaq.html#10",
         "accessed": "2025-03-01"
       },
       {
@@ -1037,57 +1068,25 @@
     "tags": ["airglow"]
   },
   {
-    "name": "Sky (Overcast Day)",
-    "color": [
-      {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.943, 0.992]
-      }
-    ],
-    "temperature": [6500],
-    "intensity": [100, 2000, 2000],
-    "unit": ["lx"],
-    "type": ["dome"],
-    "category": ["Natural"],
-    "references": [
-      {
-        "title": "Color temperature",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=Color_temperature&oldid=1272808359",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-27"
-      },
-      {
-        "title": "Daylight",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=Daylight&oldid=1254565053",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-27"
-      },
-      {
-        "title": "Lux",
-        "author": "Wikipedia contributors",
-        "url": "https://en.wikipedia.org/w/index.php?title=Lux&oldid=1255787364",
-        "publisher": "Wikipedia, The Free Encyclopedia",
-        "accessed": "2025-02-27"
-      }
-    ]
-  },
-  {
     "name": "Street Light",
-    "color": [
+    "variants": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [1, 0.761, 0]
+        "format": "Sodium-vapor Lamp",
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1, 0.761, 0]
+          }
+        ],
+        "intensity": [2000, 140000],
+        "sourceSize": [5],
+        "angle": 60,
+        "description": "The type of yellow light typically used in street lighting is usually a sodium-vapor light. To simulate a sodium-vapor light faithfully you would need a spectral renderer where you can specify the very narrow wavelength range of 589.0 - 589.6 nm in order to get its bespoke monochromatic look."
       }
     ],
-    "intensity": [2000, 140000],
-    "sourceSize": [5],
-    "angle": 60,
     "unit": ["lm"],
     "type": ["spot"],
     "category": ["Artificial"],
-    "description": "The type of yellow light typically used in street lighting is usually a sodium-vapor light. To simulate a sodium-vapor light faithfully you would need a spectral renderer where you can specify the very narrow wavelength range of 589.0 - 589.6 nm in order to get its bespoke monochromatic look.",
     "references": [
       {
         "title": "Sodium-vapor lamp",
@@ -1107,19 +1106,24 @@
   },
   {
     "name": "Sun",
-    "color": [
+    "variants": [
       {
-        "colorSpace": "srgb-linear",
-        "color": [1.0, 0.877, 0.822]
+        "format": "Sun",
+        "color": [
+          {
+            "colorSpace": "srgb-linear",
+            "color": [1.0, 0.877, 0.822]
+          }
+        ],
+        "temperature": [5778],
+        "intensity": [400, 100000, 100000],
+        "angle": 0.5332,
+        "description": "The changing color of the Sun over the course of the day is mainly a result of the scattering of sunlight and is not due to changes in black-body radiation. The solar illuminance constant is equal to 128 000 lux, but atmospheric extinction brings the number of lux down to around 100 000 lux."
       }
     ],
-    "temperature": [5778],
-    "intensity": [400, 100000, 100000],
     "unit": ["lx"],
-    "angle": 0.5332,
     "type": ["directional"],
     "category": ["Natural"],
-    "description": "The changing color of the Sun over the course of the day is mainly a result of the scattering of sunlight and is not due to changes in black-body radiation. The solar illuminance constant is equal to 128 000 lux, but atmospheric extinction brings the number of lux down to around 100 000 lux.",
     "references": [
       {
         "title": "Illuminance Meter Measurement",
@@ -1152,7 +1156,7 @@
       {
         "title": "Radiometry and Photometry in Astronomy",
         "author": "Schlyter, P.",
-        "url": "http://stjarnhimlen.se/comp/radfaq.html#10",
+        "url": "https://stjarnhimlen.se/comp/radfaq.html#10",
         "accessed": "2025-03-01"
       },
       {

@@ -13,9 +13,9 @@ A database of physically based values for CG artists.
 
 - Open Database: Access a curated collection of physically based material values
 - Lightweight: The entire dataset is optimized for quick loading and integration as presets
-  - [materials.json](deploy/v2/materials.json) `191 KB`
-  - [lightsources.json](deploy/v2/lightsources.json) `35 KB`
-  - [cameras.json](deploy/v2/cameras.json) `222 KB`
+  - [materials.json](deploy/v2/materials.json) `152 KB`
+  - [lightsources.json](deploy/v2/lightsources.json) `27 KB`
+  - [cameras.json](deploy/v2/cameras.json) `152 KB`
   - [lenses.json](deploy/v2/lenses.json) (coming in v2)
 - API Access: Connect your tools to the API to get the latest updates from the database
 - Community-Driven: Contribute new materials or improve existing ones

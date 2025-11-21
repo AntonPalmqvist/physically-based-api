@@ -1,5 +1,5 @@
-const fs = require("node:fs");
-const AdmZip = require("adm-zip");
+import fs from "node:fs";
+import AdmZip from "adm-zip";
 
 const materialxVersion = "1.39";
 const outputFile = "MaterialX-v" + materialxVersion + "_OpenPBR.zip";
@@ -20,7 +20,7 @@ function createFiles() {
   ) {
     const baseColor = JSON.stringify(hit.color[0].color) !== JSON.stringify([0.8, 0.8, 0.8]) && !hit.transmission && !hit.subsurfaceRadius ? '    <input name="base_color" type="color3" value="'+ hit.color[0].color[0].toFixed(3)+', '+ hit.color[0].color[1].toFixed(3)+', '+ hit.color[0].color[2].toFixed(3) +'" />\n' : "";
     const metalness = hit.metalness > 0 ? '    <input name="base_metalness" type="float" value="'+ hit.metalness.toFixed(1) +'" />\n' : "";
-    const specularColor = hit.specularColor ? '    <input name="specular_color" type="color3" value="'+ hit.specularColor[0].color[0].color[0]+', '+ hit.specularColor[0].color[0].color[1]+', '+ hit.specularColor[0].color[0].color[2] +'" />\n' : "";
+    const specularColor = hit.specularColor ? '    <input name="specular_color" type="color3" value="'+ hit.specularColor[1].color[0].color[0]+', '+ hit.specularColor[1].color[0].color[1]+', '+ hit.specularColor[1].color[0].color[2] +'" />\n' : "";
     const roughness = hit.roughness != 0.3 ? '    <input name="specular_roughness" type="float" value="'+ hit.roughness.toFixed(1) +'" />\n' : "";
     const specularIor = hit.ior && hit.metalness < 1 && hit.ior != 1.5 ? '    <input name="specular_ior" type="float" value="'+ hit.ior.toFixed(2) +'" />\n' : "";
     const transmission = hit.transmission ? '    <input name="transmission_weight" type="float" value="'+ hit.transmission.toFixed(1) +'" />\n' : "";
@@ -38,7 +38,7 @@ function createFiles() {
         // Commented lines are values that are not used and therefore removed to follow best practices for MaterialX "preset" functionality https://academysoftwarefdn.slack.com/archives/C0230LWBE2X/p1660682953141679?thread_ts=1660168970.997769&cid=C0230LWBE2X
         '<?xml version="1.0"?>\n' +
         '<materialx version="'+ materialxVersion +'" colorspace="lin_rec709">\n' +
-        '  <surfacematerial name="'+ hit.name.replace(/ |-|\./g, "_").replace(/[()]/g, "") +'" type="material">\n' +
+        '  <surfacematerial name="'+ hit.name.replace(/ |-|:|\./g, "_").replace(/[\[\]()º]/g, "") +'" type="material">\n' +
         '    <input name="surfaceshader" type="surfaceshader" nodename="open_pbr_surface_surfaceshader" />\n' +
         '  </surfacematerial>\n' +
         '  <open_pbr_surface name="open_pbr_surface_surfaceshader" type="surfaceshader">\n' +
@@ -83,7 +83,7 @@ function createFiles() {
         }
         const fileName =
           tempFolder +
-          element.name.replace(/ |-|\./g, "_").replace(/[()]/g, "") +
+          element.name.replace(/ |-|:|\./g, "_").replace(/[\[\]()º]/g, "") +
           ".mtlx";
         fs.writeFile(fileName, makeMaterialX(element), (err) => {
           if (err) {

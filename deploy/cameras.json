@@ -681,7 +681,7 @@
     "sources": [
       "https://www.arri.com/en/camera-systems/cameras/alexa-35",
       "https://www.arri.com/resource/blob/296424/88454a5a3dee9fe1d3fd68e75aa3411e/alexa-35-recording-format-poster-data.pdf",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
+      "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf"
     ],
     "tags": ["netflix"]
   },
@@ -743,7 +743,7 @@
     "description": "",
     "sources": [
       "https://www.arrirental.com/en/cameras/exclusive-cameras/alexa-65",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf",
+      "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
     ],
     "tags": ["imax", "netflix"]
@@ -856,7 +856,7 @@
     "description": "",
     "sources": [
       "https://www.arri.com/en/camera-systems/cameras/amira",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
+      "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf"
     ],
     "tags": ["super 35"]
   },
@@ -919,7 +919,7 @@
     "sources": [
       "https://www.arri.com/en/camera-systems/cameras/alexa-lf",
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
+      "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf"
     ],
     "tags": ["super 35", "imax", "netflix"]
   },
@@ -1031,7 +1031,7 @@
     "description": "",
     "sources": [
       "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-mini",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
+      "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf"
     ],
     "tags": ["super 35"]
   },
@@ -1146,7 +1146,7 @@
     "sources": [
       "https://www.arri.com/en/camera-systems/cameras/alexa-mini-lf",
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
+      "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf"
     ],
     "tags": ["super 35", "imax", "netflix"]
   },
@@ -1278,9 +1278,38 @@
     "description": "",
     "sources": [
       "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-sxt-w",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
+      "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf"
     ],
     "tags": ["super 35"]
+  },
+  {
+    "name": "Arri Arriflex 765",
+    "sensorSize": [
+      {
+        "format": "2.2:1",
+        "size": [48.5, 22],
+        "resolution": [
+          {
+            "format": "12K",
+            "size": [12288, 5585]
+          },
+          {
+            "format": "8K",
+            "size": [8192, 3724]
+          },
+          {
+            "format": "4K",
+            "size": [4096, 1862]
+          }
+        ]
+      }
+    ],
+    "category": ["Movie"],
+    "sources": [
+      "https://www.arrirental.com/en/cameras/analog-film/arriflex-765",
+      "https://en.wikipedia.org/w/index.php?title=Arriflex_765&oldid=1232316873"
+    ],
+    "tags": ["imax", "film"]
   },
   {
     "name": "Blackmagic Cinema Camera 6K",
@@ -2174,6 +2203,47 @@
       "https://en.wikipedia.org/w/index.php?title=Canon_EOS_R5_Mark_II&oldid=1313369650",
       "https://www.usa.canon.com/shop/p/eos-r5-mark-ii",
       "https://github.com/wetadigital/physlight/blob/main/data/camera/Canon_EOS_R5m2_380_780_5.json"
+    ],
+    "tags": ["full frame", "mirrorless"]
+  },
+  {
+    "name": "Canon EOS R6 Mark III",
+    "sensorSize": [
+      {
+        "format": "Full Frame",
+        "size": [35.9, 23.9],
+        "resolution": [
+          {
+            "format": "7K Open Gate RAW 3:2",
+            "size": [6960, 4840]
+          },
+          {
+            "format": "7K RAW 17:9",
+            "size": [6960, 4640]
+          },
+          {
+            "format": "4K DCI 17:9",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "4K UHD 16:9",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "2K DCI 17:9",
+            "size": [2048, 1080]
+          },
+          {
+            "format": "2K UHD 16:9",
+            "size": [1920, 1080]
+          }
+        ]
+      }
+    ],
+    "category": ["Still"],
+    "sources": [
+      "https://www.usa.canon.com/shop/p/eos-r6-mark-iii",
+      "https://s7d1.scene7.com/is/content/canon/EOSR6-Mark3-Spec-Sheetpdf"
     ],
     "tags": ["full frame", "mirrorless"]
   },
@@ -4410,8 +4480,8 @@
       "https://docs.red.com/955-0177_v7.4/DSMC2_DRAGON_7_4/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatWeaponDragon.htm",
       "https://docs.red.com/955-0181_v7.4/DSMC2_DRAGONX_7_4/Content/5_Advanced_Menus/1_Settings/Project/FormatScarletWDragon.htm",
       "https://docs.red.com/955-0116_v7.4/SCARLET_DRAGON_7_4/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatScarletWDragon.htm",
-      "http://docs.red.com/955-0156/EPICSCARLETOperationGuide/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatScarletDragon.htm",
-      "http://docs.red.com/955-0156/EPICSCARLETOperationGuide/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatEpicDragon.htm",
+      "https://docs.red.com/955-0156/EPICSCARLETOperationGuide/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatScarletDragon.htm",
+      "https://docs.red.com/955-0156/EPICSCARLETOperationGuide/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatEpicDragon.htm",
       "https://www.red.com/dsmc2"
     ],
     "tags": ["super 35", "netflix"]

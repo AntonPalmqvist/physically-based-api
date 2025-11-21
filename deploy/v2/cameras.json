@@ -601,7 +601,7 @@
       {
         "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
         "publisher": "ARRI GmbH",
-        "url": "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf",
+        "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
         "accessed": "2025-02-22"
       }
     ],
@@ -673,7 +673,7 @@
       {
         "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
         "publisher": "ARRI GmbH",
-        "url": "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf",
+        "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
         "accessed": "2025-02-22"
       },
       {
@@ -808,7 +808,7 @@
       {
         "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
         "publisher": "ARRI GmbH",
-        "url": "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf",
+        "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
         "accessed": "2025-02-22"
       }
     ],
@@ -887,7 +887,7 @@
       {
         "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
         "publisher": "ARRI GmbH",
-        "url": "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf",
+        "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
         "accessed": "2025-02-22"
       }
     ],
@@ -1009,7 +1009,7 @@
       {
         "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
         "publisher": "ARRI GmbH",
-        "url": "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf",
+        "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
         "accessed": "2025-02-22"
       }
     ],
@@ -1140,7 +1140,7 @@
       {
         "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
         "publisher": "ARRI GmbH",
-        "url": "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf",
+        "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
         "accessed": "2025-02-22"
       }
     ],
@@ -1282,11 +1282,52 @@
       {
         "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
         "publisher": "ARRI GmbH",
-        "url": "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf",
+        "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
         "accessed": "2025-02-22"
       }
     ],
     "tags": ["super 35"]
+  },
+  {
+    "make": "Arri",
+    "model": "Arriflex 765",
+    "sensorSize": [
+      {
+        "format": "2.2:1",
+        "size": [48.5, 22],
+        "resolution": [
+          {
+            "format": "12K",
+            "size": [12288, 5585]
+          },
+          {
+            "format": "8K",
+            "size": [8192, 3724]
+          },
+          {
+            "format": "4K",
+            "size": [4096, 1862]
+          }
+        ]
+      }
+    ],
+    "category": ["Movie"],
+    "references": [
+      {
+        "title": "ARRI Rental | Arriflex 765",
+        "publisher": "ARRI GmbH",
+        "url": "https://www.arrirental.com/en/cameras/analog-film/arriflex-765",
+        "accessed": "2025-11-09"
+      },
+      {
+        "title": "Arriflex 765",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/w/index.php?title=Arriflex_765&oldid=1232316873",
+        "publisher": "Wikipedia, The Free Encyclopedia",
+        "accessed": "2025-11-09"
+      }
+    ],
+    "tags": ["imax", "film"]
   },
   {
     "make": "Blackmagic",
@@ -2471,6 +2512,58 @@
         "url": "https://github.com/wetadigital/physlight/blob/main/data/camera/Canon_EOS_R5m2_380_780_5.json",
         "publisher": "Wētā FX",
         "accessed": "2025-09-30"
+      }
+    ],
+    "tags": ["full frame", "mirrorless"]
+  },
+  {
+    "make": "Canon",
+    "model": "EOS R6 Mark III",
+    "sensorSize": [
+      {
+        "format": "Full Frame",
+        "size": [35.9, 23.9],
+        "resolution": [
+          {
+            "format": "7K Open Gate RAW 3:2",
+            "size": [6960, 4840]
+          },
+          {
+            "format": "7K RAW 17:9",
+            "size": [6960, 4640]
+          },
+          {
+            "format": "4K DCI 17:9",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "4K UHD 16:9",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "2K DCI 17:9",
+            "size": [2048, 1080]
+          },
+          {
+            "format": "2K UHD 16:9",
+            "size": [1920, 1080]
+          }
+        ]
+      }
+    ],
+    "category": ["Still"],
+    "references": [
+      {
+        "title": "EOS R6 Mark III",
+        "publisher": "Canon U.S.A., Inc.",
+        "url": "https://www.usa.canon.com/shop/p/eos-r6-mark-iii",
+        "accessed": "2025-11-07"
+      },
+      {
+        "title": "EOS R6 Mark III Detailed Specifications",
+        "publisher": "Canon U.S.A., Inc.",
+        "url": "https://s7d1.scene7.com/is/content/canon/EOSR6-Mark3-Spec-Sheetpdf",
+        "accessed": "2025-11-07"
       }
     ],
     "tags": ["full frame", "mirrorless"]
@@ -5421,13 +5514,13 @@
       },
       {
         "title": "SCARLET DRAGON Formats",
-        "url": "http://docs.red.com/955-0156/EPICSCARLETOperationGuide/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatScarletDragon.htm",
+        "url": "https://docs.red.com/955-0156/EPICSCARLETOperationGuide/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatScarletDragon.htm",
         "publisher": "RED.COM, LLC.",
         "accessed": "2025-02-22"
       },
       {
         "title": "EPIC DRAGON Formats",
-        "url": "http://docs.red.com/955-0156/EPICSCARLETOperationGuide/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatEpicDragon.htm",
+        "url": "https://docs.red.com/955-0156/EPICSCARLETOperationGuide/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatEpicDragon.htm",
         "publisher": "RED.COM, LLC.",
         "accessed": "2025-02-22"
       }
