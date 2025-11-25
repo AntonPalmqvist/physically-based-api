@@ -654,7 +654,7 @@
           }
         ],
         "intensity": [500, 5000, 3000],
-        "temperature": [2700],
+        "temperature": [6500],
         "sourceSize": [1.5, 60]
       }
     ],

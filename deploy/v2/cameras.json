@@ -2564,6 +2564,13 @@
         "publisher": "Canon U.S.A., Inc.",
         "url": "https://s7d1.scene7.com/is/content/canon/EOSR6-Mark3-Spec-Sheetpdf",
         "accessed": "2025-11-07"
+      },
+      {
+        "title": "Canon EOS R6 Mark III Camera Spectral Sensitivity Data",
+        "author": "Contributors to the RAW to ACES project",
+        "url": "https://github.com/AcademySoftwareFoundation/rawtoaces-data/blob/main/data/camera/Canon_EOS_R6_380_780_5.json",
+        "publisher": "Academy Software Foundation ",
+        "accessed": "2025-11-24"
       }
     ],
     "tags": ["full frame", "mirrorless"]

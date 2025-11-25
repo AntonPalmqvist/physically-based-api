@@ -2,9 +2,10 @@ import fs from "node:fs";
 import util from "node:util";
 import AdmZip from "adm-zip";
 
-const usdVersion = "1.0";
-const outputFile = `USD-v ${usdVersion}.zip`;
+const date = new Date().toISOString().split("T")[0];
+const outputFile = `Physically Based Database ${date}.zip`;
 const tempFolder = "./tmp/";
+const doc = `    doc = "Generated with data from https://api.physicallybased.info on ${date}"\n`;
 
 // Promisify the fs functions
 const readFile = util.promisify(fs.readFile);
@@ -127,7 +128,7 @@ async function processJson(file) {
     await nanoJson(file);
   }
 
-  runSequentially();
+  await runSequentially();
 }
 
 function createCameras() {
@@ -145,13 +146,13 @@ function createCameras() {
     let usd = "";
     const upAxis = "Y";
     const name =
-      hit.make.replace(/ |-|:|\./g, "_").replace(/[\[\]()º]/g, "") +
+      hit.make.replace(/ |-|:|\./g, "_").replace(/[\/\()º]/g, "") +
       "_" +
-      hit.model.replace(/ |-|:|\./g, "_").replace(/[\[\]()º]/g, "");
+      hit.model.replace(/ |-|:|\./g, "_").replace(/[\/\()º]/g, "");
     const define =
       'def Xform "' + name + '" (\n' +
       '    variants = {\n' +
-      '        string sensorSize = "' + hit.sensorSize[0].format.replace(/ |-|:|\./g, "_") + '"\n' +
+      '        string sensorSize = "' + hit.sensorSize[0].format.replace(/ |-|:|\./g, "_").replace(/[\/\()º]/g, "") + '"\n' +
       '    }\n' +
       '    prepend variantSets = "sensorSize"\n' +
       ')\n' +
@@ -167,7 +168,7 @@ function createCameras() {
     const variantSets =
       '    variantSet "sensorSize" = {\n' +
       hit.sensorSize.map((item) => (
-        '        "' + item.format.replace(/ |-|:|\./g, "_") + '" {\n' +
+        '        "' + item.format.replace(/ |-|:|\./g, "_").replace(/[\/\()º]/g, "") + '" {\n' +
         '            over "' + name + '"\n' +
         '            {\n'+
         '                float horizontalAperture = ' + item.size[0].toFixed(2) + '\n' +
@@ -182,7 +183,7 @@ function createCameras() {
       '#usda 1.0\n' +
       '(\n' +
       '    defaultPrim = "' + name +'"\n' +
-      '    doc = "https://api.physicallybased.info"\n' +
+      doc +
       '    metersPerUnit = 0.01\n' +
       '    upAxis = "' + upAxis + '"\n' +
       ')\n' +
@@ -202,9 +203,15 @@ function createCameras() {
         }
         const fileName =
           folder +
-          element.make.replace(/ |-|:|\./g, "_").replace(/[\[\]()º]/g, "") +
+          element.make
+            .replace(/ |-|:|\./g, "_")
+            .replace(/[\/\()º]/g, "")
+            .toLowerCase() +
           "_" +
-          element.model.replace(/ |-|:|\./g, "_").replace(/[\[\]()º]/g, "") +
+          element.model
+            .replace(/ |-|:|\./g, "_")
+            .replace(/[\/\()º]/g, "")
+            .toLowerCase() +
           ".usda";
         fs.writeFile(fileName, makeUSD(element), (err) => {
           if (err) {
@@ -300,12 +307,12 @@ function createLightsources() {
   ) {
     let usd = "";
     const upAxis = "Y";
-    const name = hit.name.replace(/ |-|:|\./g, "_").replace(/[\[\]()º]/g, "");
+    const name = hit.name.replace(/ |-|:|\./g, "_").replace(/[\/\()º]/g, "");
     const type = hit.type[0] === "surface" ? "RectLight" : hit.type[0] === "directional" ? "DistantLight" : hit.type[0] === "dome" ? "DomeLight" : hit.type[0] === "cylinder" ? "CylinderLight" : "SphereLight";
     const define =
       'def Xform "' + name + '" (\n' +
       '    variants = {\n' +
-      '        string lightVariant = "' + hit.variants[0].format.replace(/ |-|:|\./g, "_") + '"\n' +
+      '        string lightVariant = "' + hit.variants[0].format.replace(/ |-|:|\./g, "_").replace(/[\/\()º]/g, "") + '"\n' +
       '    }\n' +
       '    prepend variantSets = "lightVariant"\n' +
       ')\n' +
@@ -324,7 +331,7 @@ function createLightsources() {
     const variantSets =
       '    variantSet "lightVariant" = {\n' +
       hit.variants.map((item) => {
-        const variantName = item.format.replace(/ |-|:|\./g, "_");
+        const variantName = item.format.replace(/ |-|:|\./g, "_").replace(/[\/\()º]/g, "");
         const colorTemperature =
             item.temperature && item.temperature[2]
           ? '                float inputs:colorTemperature = ' + item.temperature[2] + '\n'
@@ -391,7 +398,7 @@ function createLightsources() {
       '#usda 1.0\n' +
       '(\n' +
       '    defaultPrim = "' + name +'"\n' +
-      '    doc = "https://api.physicallybased.info"\n' +
+      doc +
       '    metersPerUnit = 0.01\n' +
       '    upAxis = "' + upAxis + '"\n' +
       ')\n' +
@@ -409,7 +416,10 @@ function createLightsources() {
       JSON.parse(data).forEach((element) => {
         const fileName =
           folder +
-          element.name.replace(/ |-|:|\./g, "_").replace(/[\[\]()º]/g, "") +
+          element.name
+            .replace(/ |-|:|\./g, "_")
+            .replace(/[\[\]()º]/g, "")
+            .toLowerCase() +
           ".usda";
         fs.writeFile(fileName, makeUSD(element), (err) => {
           if (err) {
@@ -434,16 +444,16 @@ function zipFiles() {
 async function main() {
   try {
     await createCameras();
-    // await createLightsources();
-    // processJson("materials");
-    // processJson("lightsources");
-    // processJson("cameras");
-    // zipFiles();
-    // console.log("Created " + outputFile + " successfully");
+    await createLightsources();
+    await processJson("materials");
+    await processJson("lightsources");
+    await processJson("cameras");
+    zipFiles();
+    console.log("Created " + outputFile + " successfully");
 
     if (fs.existsSync(tempFolder)) {
-      // fs.rmSync(tempFolder, { recursive: true, force: true });
-      // console.log("Deleted " + tempFolder + " folder successfully");
+      fs.rmSync(tempFolder, { recursive: true, force: true });
+      console.log("Deleted " + tempFolder + " folder successfully");
     }
   } catch (err) {
     console.error("An error occurred:", err);

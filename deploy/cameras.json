@@ -2243,7 +2243,8 @@
     "category": ["Still"],
     "sources": [
       "https://www.usa.canon.com/shop/p/eos-r6-mark-iii",
-      "https://s7d1.scene7.com/is/content/canon/EOSR6-Mark3-Spec-Sheetpdf"
+      "https://s7d1.scene7.com/is/content/canon/EOSR6-Mark3-Spec-Sheetpdf",
+      "https://github.com/AcademySoftwareFoundation/rawtoaces-data/blob/main/data/camera/Canon_EOS_R6_380_780_5.json"
     ],
     "tags": ["full frame", "mirrorless"]
   },

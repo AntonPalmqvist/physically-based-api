@@ -357,7 +357,7 @@
       {
         "format": "6500 K",
         "color": [1.0, 0.943, 0.992],
-        "temperature": 2700
+        "temperature": 6500
       }
     ],
     "unit": ["lm"],
