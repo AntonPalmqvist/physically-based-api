@@ -26,6 +26,7 @@ function createFiles() {
         const specularIor = hit.ior && hit.metalness < 1 && hit.ior !== 1.5 ? `    <input name="specular_ior" type="float" value="${hit.ior.toFixed(2)}" />\n` : "";
         const transmission = hit.transmission ? `    <input name="transmission_weight" type="float" value="${hit.transmission.toFixed(1)}" />\n` : "";
         const transmissionColor = hit.transmission && JSON.stringify(hit.color[0].color) !== JSON.stringify([1, 1, 1]) ? `    <input name="transmission_color" type="color3" value="${hit.color[0].color[0].toFixed(3)}, ${hit.color[0].color[1].toFixed(3)}, ${hit.color[0].color[2].toFixed(3)}" />\n` : "";
+        const transmissionDepth = hit.transmissionDepth ? `    <input name="transmission_depth" type="float" value="${hit.transmissionDepth}" />\n` : "";
         const transmissionDispersion = hit.transmissionDispersion ? `    <input name="transmission_dispersion_scale" type="float" value="1.0" />\n` : "";
         const transmissionDispersionAbbeNumber = hit.transmissionDispersion ? `    <input name="transmission_dispersion_abbe_number" type="float" value="${hit.transmissionDispersion}" />\n` : "";
         const subsurface = hit.subsurfaceRadius ? `    <input name="subsurface_weight" type="float" value="1.0" />\n` : "";  
@@ -51,7 +52,7 @@ function createFiles() {
             // '    <input name="specular_roughness_anisotropy" type="float" value="0" />\n' +
             transmission +
             transmissionColor +
-            //'    <input name="transmission_depth" type="float" value="0.0" />\n' +
+            transmissionDepth +
             //'    <input name="transmission_scatter" type="color3" value="0, 0, 0" />\n' +
             //'    <input name="transmission_scatter_anisotropy" type="float" value="0" />\n' +
             transmissionDispersion +

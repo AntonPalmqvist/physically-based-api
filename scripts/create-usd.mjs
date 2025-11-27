@@ -233,7 +233,7 @@ function createLightsources() {
     // https://github.com/mrdoob/three.js/blob/16128f5d7236a0410dca44f9da5728633a9ef049/src/lights/RectAreaLight.js#L28
     // https://www.en.silicann.com/blog/post/nits-lux-lumen-candela-calculating-with-light-and-lighting/
     // https://dev.epicgames.com/documentation/en-us/unreal-engine/using-physical-lighting-units-in-unreal-engine#point,spot,andrectlights
-    const nits = lumen / (width * height * Math.PI); // Funkar!
+    const nits = lumen / (width * height * Math.PI); // Works!
 
     return nits;
   }
@@ -244,7 +244,7 @@ function createLightsources() {
     // https://dev.epicgames.com/documentation/en-us/unreal-engine/using-physical-lighting-units-in-unreal-engine#point,spot,andrectlights
     // https://seblagarde.wordpress.com/wp-content/uploads/2015/07/course_notes_moving_frostbite_to_pbr_v32.pdf
     // prettier-ignore
-    const nits = lumen / (2 * Math.PI * (1 - Math.cos(beamAngle / 2 * Math.PI / 180)) * Math.pow(radius, 2)); // Funkar!
+    const nits = lumen / (2 * Math.PI * (1 - Math.cos(beamAngle / 2 * Math.PI / 180)) * Math.pow(radius, 2)); // Works!
 
     return nits;
   }
@@ -449,11 +449,11 @@ async function main() {
     await processJson("lightsources");
     await processJson("cameras");
     zipFiles();
-    console.log("Created " + outputFile + " successfully");
+    console.log(`Created ${outputFile} successfully`);
 
     if (fs.existsSync(tempFolder)) {
       fs.rmSync(tempFolder, { recursive: true, force: true });
-      console.log("Deleted " + tempFolder + " folder successfully");
+      console.log(`Deleted ${tempFolder} folder successfully`);
     }
   } catch (err) {
     console.error("An error occurred:", err);
