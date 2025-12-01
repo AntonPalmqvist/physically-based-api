@@ -36,7 +36,6 @@ async function updateDatabaseVersion(filePath) {
 }
 
 async function main() {
-  //Testing
   try {
     const files = await readdir(folderPath);
     for (const file of targetFiles) {
