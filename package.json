@@ -30,6 +30,8 @@
     "sharp": "^0.34.4"
   },
   "lint-staged": {
-    "./deploy/v2/{cameras,materials,lightsources,lenses}.json": "node scripts/pre-commit.mjs"
+    "./deploy/v2/{cameras,materials,lightsources,lenses}.json": [
+      "node scripts/pre-commit.mjs --staged"
+    ]
   }
 }
