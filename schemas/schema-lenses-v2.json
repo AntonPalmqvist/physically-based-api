@@ -1,70 +1,103 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Lens",
-  "description": "Any type of lens that is being used, or simulated, in any way in CG productions (including games).",
-  "type": "array",
-  "items": {
-    "additionalProperties": false,
-    "properties": {
-      "name": {
-        "description": "Name of the lens.",
-        "type": "string",
-        "default": "Name"
-      },
-      "focalLength": {
-        "description": "Min and max focal length in millimeters. If it's a prime lens, set the same value twice.",
-        "type": "array",
-        "items": {
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["header", "data"],
+  "properties": {
+    "header": {
+      "additionalProperties": false,
+      "type": "object",
+      "description": "Metadata",
+      "properties": {
+        "schemaVersion": {
+          "description": "Schema version.",
           "type": "number"
         },
-        "default": [35, 35],
-        "minItems": 2,
-        "maxItems": 2
-      },
-      "aperture": {
-        "description": "Max and min aperture size.",
-        "type": "array",
-        "items": {
+        "databaseVersion": {
+          "description": "Database version as a date in YYYYMMDDHHmm format.",
           "type": "number"
         },
-        "default": [2, 22],
-        "minItems": 2,
-        "maxItems": 2
-      },
-      "blades": {
-        "description": "Number of diaphragm blades.",
-        "type": "integer",
-        "default": 5
-      },
-      "closeFocus": {
-        "description": "Shortest distance from the sensor to the subject that the lens can achieve focus. Specified in centimeters.",
-        "type": "number",
-        "default": 0
-      },
-      "description": {
-        "description": "This field should be used for disclaimers and other useful info for CG artists that may affect the way they use the values. It's totally fine to leave this empty.",
-        "type": "string",
-        "maxLength": 500
-      },
-      "sources": {
-        "description": "Provide at least one source for the values. Source link to official manufacturer website is preferred.",
-        "type": "array",
-        "items": {
-          "type": "string",
-          "minLength": 1
-        },
-        "minItems": 1,
-        "uniqueItems": true
-      },
-      "tags": {
-        "description": "Tags for alternative names or spellings.",
-        "type": "array",
-        "items": {
+        "license": {
+          "description": "License information.",
           "type": "string"
         },
-        "uniqueItems": true
-      }
+        "origin": {
+          "description": "URL to the source of this JSON file.",
+          "type": "string"
+        }
+      },
+      "required": ["schemaVersion", "databaseVersion", "license", "origin"]
     },
-    "required": ["name", "focalLength", "aperture", "blades", "sources"]
+    "data": {
+      "description": "An array of Lens objects.",
+      "type": "array",
+      "items": {
+        "title": "Lens",
+        "description": "Any type of lens that is being used, or simulated, in any way in CG productions (including games).",
+        "additionalProperties": false,
+        "type": "object",
+        "properties": {
+          "name": {
+            "description": "Name of the lens.",
+            "type": "string",
+            "default": "Name"
+          },
+          "focalLength": {
+            "description": "Min and max focal length in millimeters. If it's a prime lens, set the same value twice.",
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "default": [35, 35],
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "aperture": {
+            "description": "Max and min aperture size.",
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "default": [2, 22],
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "blades": {
+            "description": "Number of diaphragm blades.",
+            "type": "integer",
+            "default": 5
+          },
+          "closeFocus": {
+            "description": "Shortest distance from the sensor to the subject that the lens can achieve focus. Specified in centimeters.",
+            "type": "number",
+            "default": 0
+          },
+          "description": {
+            "description": "This field should be used for disclaimers and other useful info for CG artists that may affect the way they use the values. It's totally fine to leave this empty.",
+            "type": "string",
+            "maxLength": 500
+          },
+          "sources": {
+            "description": "Provide at least one source for the values. Source link to official manufacturer website is preferred.",
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "tags": {
+            "description": "Tags for alternative names or spellings.",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          }
+        },
+        "required": ["name", "focalLength", "aperture", "blades", "sources"]
+      }
+    }
   }
 }
