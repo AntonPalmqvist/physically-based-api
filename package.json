@@ -8,7 +8,8 @@
     "http-v2": "http-server -o deploy/v2",
     "image-processor": "node scripts/image-processor.js",
     "create-materialx": "node scripts/create-materialx.mjs",
-    "create-usd": "node scripts/create-usd.mjs"
+    "create-usd": "node scripts/create-usd.mjs",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -24,10 +25,7 @@
     "@biomejs/biome": "2.3.5",
     "adm-zip": "^0.5.16",
     "http-server": "^14.1.1",
-    "sharp": "^0.34.4",
-    "simple-git-hooks": "^2.13.1"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "node scripts/pre-commit.mjs"
+    "husky": "^9.1.7",
+    "sharp": "^0.34.4"
   }
 }
