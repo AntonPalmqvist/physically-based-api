@@ -1,5 +1,5 @@
-import { readFile, writeFile } from "fs/promises";
-import process from "process";
+import { readFile, writeFile } from "node:fs/promises";
+import process from "node:process";
 
 // Get current date as YYYYMMDDHHmm
 function getCurrentDateAsNumber() {
@@ -9,7 +9,7 @@ function getCurrentDateAsNumber() {
   const day = String(now.getDate()).padStart(2, "0");
   const hours = String(now.getHours()).padStart(2, "0");
   const minutes = String(now.getMinutes()).padStart(2, "0");
-  return parseInt(`${year}${month}${day}${hours}${minutes}`);
+  return parseInt(`${year}${month}${day}${hours}${minutes}`, 10);
 }
 
 async function updateDatabaseVersion(filePath) {
