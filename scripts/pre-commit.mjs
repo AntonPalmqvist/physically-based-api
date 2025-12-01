@@ -1,7 +1,15 @@
-import { readFile, writeFile } from "fs/promises";
-const filePath = "./deploy/v2/cameras.json";
+import { readFile, writeFile, readdir } from "fs/promises";
+import { join } from "path";
 
-// Function to get current date as YYYYMMDDHHmm
+const folderPath = "./deploy/v2/";
+const targetFiles = [
+  "cameras.json",
+  "materials.json",
+  "lightsources.json",
+  "lenses.json",
+];
+
+// Get current date as YYYYMMDDHHmm
 function getCurrentDateAsNumber() {
   const now = new Date();
   const year = now.getFullYear();
@@ -12,26 +20,35 @@ function getCurrentDateAsNumber() {
   return parseInt(`${year}${month}${day}${hours}${minutes}`);
 }
 
-async function updateDatabaseVersion() {
+async function updateDatabaseVersion(filePath) {
   try {
-    // Read the JSON file
     let data = await readFile(filePath, "utf8");
-
-    // Replace only the databaseVersion value using regex
     const newVersion = getCurrentDateAsNumber();
     data = data.replace(
       /"databaseVersion":\s*\d+,/,
       `"databaseVersion": ${newVersion},`
     );
-
-    // Write the updated content back to the file
     await writeFile(filePath, data, "utf8");
-    // console.log(data);
-    console.log("pre-commit.mjs: databaseVersion updated successfully!");
+    console.log(`Updated databaseVersion in ${filePath}`);
   } catch (err) {
-    console.error("Error:", err);
+    console.error(`Error updating ${filePath}:`, err);
   }
 }
 
-// Run the function
-updateDatabaseVersion();
+async function main() {
+  try {
+    const files = await readdir(folderPath);
+    for (const file of targetFiles) {
+      if (files.includes(file)) {
+        const filePath = join(folderPath, file);
+        await updateDatabaseVersion(filePath);
+      } else {
+        console.warn(`File ${file} not found in ${folderPath}`);
+      }
+    }
+  } catch (err) {
+    console.error("Error reading directory:", err);
+  }
+}
+
+main();
