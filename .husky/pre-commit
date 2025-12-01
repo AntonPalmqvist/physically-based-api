@@ -1,1 +1,1 @@
-npm test
+node scripts/pre-commit.mjs
