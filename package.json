@@ -28,5 +28,8 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
     "sharp": "^0.34.4"
+  },
+  "lint-staged": {
+    "*": "node scripts/pre-commit.mjs"
   }
 }
