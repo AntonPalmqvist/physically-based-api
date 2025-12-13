@@ -1,7 +1,8 @@
 {
+  "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.0,
-    "databaseVersion": 202511301813,
+    "databaseVersion": 202512121608,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info"
   },

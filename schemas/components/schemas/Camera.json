@@ -1,9 +1,9 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "additionalProperties": false,
-  "required": ["header", "data"],
+  "required": ["$schema", "header", "data"],
   "properties": {
+    "$schema": { "type": "string" },
     "header": {
       "additionalProperties": false,
       "type": "object",
