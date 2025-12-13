@@ -36,7 +36,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "Material.json"
+                  "$ref": "./Material.json"
                 }
               }
             }
@@ -65,7 +65,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "Lightsource.json"
+                  "$ref": "./Lightsource.json"
                 }
               }
             }
@@ -94,7 +94,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "Camera.json"
+                  "$ref": "./Camera.json"
                 }
               }
             }
@@ -120,7 +120,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "Lens.json"
+                  "$ref": "./Lens.json"
                 }
               }
             }

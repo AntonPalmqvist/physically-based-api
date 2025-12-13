@@ -1,0 +1,1236 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "version": "2.0-alpha",
+    "title": "Physically Based API",
+    "summary": "A database of physically based values for CG artists.",
+    "description": "🚧 2.0 IS UNDER DEVELOPMENT. FOR TESTING USE ONLY. 🚧\n\n## Features\n\n- **Open Database**: Access a curated collection of physically based material values\n- **Lightweight**: The entire dataset is optimized for quick loading and integration as presets\n    - materials.json ```152 KB```\n    - lightsources.json ```27 KB```\n    - cameras.json ```152 KB```\n    - lenses.json ```1 KB```\n- **API Access**: Connect your tools to the API to get the latest updates from the database\n- **Community-Driven**: Contribute new materials or improve existing ones\n- **Free License**: All data is released under CC0 1.0\n\n## Implementations\n\nExplore the database through these implementations:\n\n- Blender [Photographer 5](https://chafouin.gumroad.com/l/photographer5) by [chafouin](https://mastodon.gamedev.place/@chafouin)\n- Web [MaterialXLab](https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html) by [kwokcb](https://github.com/kwokcb)\n- Web [Physically Based](https://physicallybased.info) by [AntonPalmqvist](https://github.com/AntonPalmqvist)\n- Web [Three.js GPU Path Tracer](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [gkjohnson](https://github.com/gkjohnson)\n\n## Contribute\n\nContributions are welcome! Whether you want to add new entries, corrections, or suggestions, your help is appreciated. See the [Github page](https://github.com/AntonPalmqvist/physically-based-api) for more info.\n\n## License\n\nThe database is made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes.\n\nShader ball used for renders is from [ASWF USD WG](https://github.com/usd-wg/assets/tree/main/full_assets/StandardShaderBall) and is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).",
+    "contact": {
+      "url": "https://physicallybased.info/about",
+      "name": "Form"
+    },
+    "license": {
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "name": "CC0 1.0"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://api.physicallybased.info/v2"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Materials",
+      "description": "Gets an array of all materials."
+    },
+    {
+      "name": "Light Sources",
+      "description": "Gets an array of all light sources."
+    },
+    {
+      "name": "Cameras",
+      "description": "Gets an array of all cameras."
+    },
+    {
+      "name": "Lenses",
+      "description": "Gets an array of all lenses."
+    }
+  ],
+  "paths": {
+    "/materials": {
+      "get": {
+        "tags": [
+          "Materials"
+        ],
+        "summary": "Get materials",
+        "description": "Gets an array of all materials.",
+        "operationId": "get-materials",
+        "requestBody": {
+          "description": "",
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Material"
+                }
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "https://api.physicallybased.info/v2"
+          }
+        ],
+        "security": []
+      }
+    },
+    "/lightsources": {
+      "get": {
+        "tags": [
+          "Light Sources"
+        ],
+        "summary": "Get light sources",
+        "description": "Gets an array of all light sources.",
+        "operationId": "get-lightsources",
+        "requestBody": {
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Lightsource"
+                }
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "https://api.physicallybased.info/v2"
+          }
+        ],
+        "security": []
+      }
+    },
+    "/cameras": {
+      "get": {
+        "tags": [
+          "Cameras"
+        ],
+        "summary": "Get cameras",
+        "description": "Gets an array of all cameras.",
+        "operationId": "get-cameras",
+        "requestBody": {
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Camera"
+                }
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "https://api.physicallybased.info/v2"
+          }
+        ],
+        "security": []
+      }
+    },
+    "/lenses": {
+      "get": {
+        "tags": [
+          "Lenses"
+        ],
+        "summary": "Get lenses",
+        "description": "Gets an array of all lenses.",
+        "operationId": "get-lenses",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Lens"
+                }
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "https://api.physicallybased.info/v2"
+          }
+        ],
+        "security": []
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Material": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "$schema",
+          "header",
+          "data"
+        ],
+        "properties": {
+          "$schema": {
+            "type": "string"
+          },
+          "header": {
+            "additionalProperties": false,
+            "type": "object",
+            "description": "Metadata",
+            "properties": {
+              "schemaVersion": {
+                "description": "Schema version.",
+                "type": "number"
+              },
+              "databaseVersion": {
+                "description": "Database version as a date in YYYYMMDDHHmm format.",
+                "type": "number"
+              },
+              "license": {
+                "description": "License information.",
+                "type": "string"
+              },
+              "origin": {
+                "description": "URL to the source of this JSON file.",
+                "type": "string"
+              }
+            },
+            "required": [
+              "schemaVersion",
+              "databaseVersion",
+              "license",
+              "origin"
+            ]
+          },
+          "data": {
+            "description": "An array of Material objects.",
+            "type": "array",
+            "items": {
+              "title": "Material",
+              "description": "A material with parameters for shading, physics simulation, and fluid simulation.",
+              "additionalProperties": false,
+              "type": "object",
+              "properties": {
+                "name": {
+                  "description": "Name of the material.",
+                  "type": "string",
+                  "default": "Name"
+                },
+                "color": {
+                  "description": "Specifies the diffuse or metallic reflectance color, or in the case of a transparent material, transmission color.",
+                  "type": "array",
+                  "minItems": 1,
+                  "uniqueItems": true,
+                  "items": {
+                    "additionalProperties": false,
+                    "type": "object",
+                    "properties": {
+                      "colorSpace": {
+                        "description": "The color space.",
+                        "type": "string",
+                        "default": "srgb-linear"
+                      },
+                      "color": {
+                        "description": "RGB triplet (vec3) in decimal format.",
+                        "type": "array",
+                        "items": {
+                          "type": "number"
+                        },
+                        "default": [
+                          0.5,
+                          0.5,
+                          0.5
+                        ],
+                        "minItems": 3,
+                        "maxItems": 3
+                      }
+                    },
+                    "required": [
+                      "colorSpace",
+                      "color"
+                    ]
+                  }
+                },
+                "metalness": {
+                  "description": "Specifies how metallic the material appears (dials the shading model from pure dielectric to pure metal).",
+                  "type": "number",
+                  "default": 0
+                },
+                "specularColor": {
+                  "description": "Color of the specular reflection for metals, specified in the \"Gulbrandsen edge tint\", and \"F82\" formats. Calculated from spectral data using scripts from https://github.com/natyh/material-params and https://github.com/portsmouth/F82-tint-generator",
+                  "type": "array",
+                  "minItems": 2,
+                  "uniqueItems": true,
+                  "items": {
+                    "additionalProperties": false,
+                    "type": "object",
+                    "properties": {
+                      "format": {
+                        "type": "array",
+                        "items": {
+                          "enum": [
+                            "Gulbrandsen",
+                            "F82"
+                          ]
+                        },
+                        "minItems": 1,
+                        "maxItems": 1
+                      },
+                      "color": {
+                        "type": "array",
+                        "minItems": 1,
+                        "uniqueItems": true,
+                        "items": {
+                          "additionalProperties": false,
+                          "type": "object",
+                          "properties": {
+                            "colorSpace": {
+                              "description": "The color space.",
+                              "type": "string",
+                              "default": "srgb-linear"
+                            },
+                            "color": {
+                              "description": "RGB triplet (vec3) in decimal format.",
+                              "type": "array",
+                              "items": {
+                                "type": "number"
+                              },
+                              "default": [
+                                0.5,
+                                0.5,
+                                0.5
+                              ],
+                              "minItems": 3,
+                              "maxItems": 3
+                            }
+                          },
+                          "required": [
+                            "colorSpace",
+                            "color"
+                          ]
+                        }
+                      }
+                    },
+                    "required": [
+                      "format",
+                      "color"
+                    ]
+                  }
+                },
+                "roughness": {
+                  "description": "The roughness of the specular reflection. Lower numbers produce sharper reflections, higher numbers produce blurrier reflections.",
+                  "type": "number",
+                  "default": 0.5
+                },
+                "ior": {
+                  "description": "Index of refraction of a dielectric material. Does not apply to metals (conductors).",
+                  "type": "number",
+                  "default": 1.5
+                },
+                "subsurfaceRadius": {
+                  "description": "The approximate distance up to which light can scatter below the surface, also known as “mean free path” (MFP). Specified in centimeters.",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "minItems": 3,
+                  "maxItems": 3
+                },
+                "transmission": {
+                  "description": "",
+                  "type": "number",
+                  "default": 0
+                },
+                "transmissionDepth": {
+                  "description": "Controls the depth into the volume at which the Transmission Color is realized.",
+                  "type": "number",
+                  "default": 0
+                },
+                "transmissionDispersion": {
+                  "description": "Abbe number, describing how much the index of refraction varies across wavelengths. For glass and diamonds, this is typically in the range of 10 to 70, with lower numbers giving more dispersion.",
+                  "type": "number",
+                  "default": 0
+                },
+                "complexIor": {
+                  "description": "Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel. Calculated from spectral IOR data files with script from https://github.com/natyh/material-params",
+                  "type": "array",
+                  "minItems": 1,
+                  "uniqueItems": true,
+                  "items": {
+                    "additionalProperties": false,
+                    "type": "object",
+                    "properties": {
+                      "colorSpace": {
+                        "description": "The color space for which the n and k values have been calculated for.",
+                        "type": "string",
+                        "default": "srgb-linear"
+                      },
+                      "n": {
+                        "description": "N values for each RGB color channel.",
+                        "type": "array",
+                        "items": {
+                          "type": "number"
+                        },
+                        "default": [
+                          0,
+                          0,
+                          0
+                        ],
+                        "minItems": 3,
+                        "maxItems": 3
+                      },
+                      "k": {
+                        "description": "K values for each RGB color channel.",
+                        "type": "array",
+                        "items": {
+                          "type": "number"
+                        },
+                        "default": [
+                          0,
+                          0,
+                          0
+                        ],
+                        "minItems": 3,
+                        "maxItems": 3
+                      }
+                    },
+                    "required": [
+                      "colorSpace",
+                      "n",
+                      "k"
+                    ]
+                  }
+                },
+                "thinFilmThickness": {
+                  "description": "The thickness of the thin film layer on the base (in nanometers). If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common thickness.",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "default": [
+                    10,
+                    1000
+                  ],
+                  "minItems": 1,
+                  "maxItems": 3
+                },
+                "thinFilmIor": {
+                  "description": "The index of refraction of the thin-film.",
+                  "type": "number",
+                  "default": 1.5
+                },
+                "density": {
+                  "description": "Density measured in kg/m3. If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common density.",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "default": [
+                    900,
+                    1000
+                  ],
+                  "minItems": 1,
+                  "maxItems": 3
+                },
+                "viscosity": {
+                  "description": "Dynamic viscosity measured in millipascal-seconds (mPa⋅s) at a temperature of 20°C. 1 mPa⋅s (millipascal-second) = 1 cP (centipoise). If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common viscosity.",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "default": [
+                    1,
+                    2
+                  ],
+                  "minItems": 1,
+                  "maxItems": 3
+                },
+                "surfaceTension": {
+                  "description": "Surface tension measured in millinewton per meter (mN/m) at a temperature of 20°C. 1 mN/m = 1 dyn/cm.",
+                  "type": "number",
+                  "default": 1
+                },
+                "acousticAbsorption": {
+                  "description": "Absorption coefficients at 125, 250, 500, 1000, 2000, and 4000 kHz.",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "default": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    0.5,
+                    0.5,
+                    0.5
+                  ],
+                  "minItems": 6,
+                  "maxItems": 6
+                },
+                "category": {
+                  "type": "array",
+                  "items": {
+                    "enum": [
+                      "Crystal",
+                      "Gas",
+                      "Human",
+                      "Liquid",
+                      "Manmade",
+                      "Metal",
+                      "Organic",
+                      "Plastic"
+                    ]
+                  },
+                  "minItems": 1,
+                  "maxItems": 1
+                },
+                "group": {
+                  "description": "Can be used to group similar materials together. For example, Skin I, Skin II, and Skin III would be part of the same group: Skin.",
+                  "type": "string",
+                  "default": "Group"
+                },
+                "description": {
+                  "description": "This field should be used for disclaimers and other useful info for CG artists that may affect the way they use the values. It's totally fine to leave this empty.",
+                  "type": "string",
+                  "maxLength": 500
+                },
+                "tags": {
+                  "description": "Tags for when there are alternative names or spellings of the same material.",
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "uniqueItems": true
+                },
+                "references": {
+                  "description": "List of references. At least one reference needed.",
+                  "type": "array",
+                  "items": {
+                    "additionalProperties": false,
+                    "type": "object",
+                    "properties": {
+                      "title": {
+                        "description": "Title of book, journal article, or website.",
+                        "type": "string"
+                      },
+                      "author": {
+                        "description": "Name(s) of the authors of a book or journal article, or in the case of a webpage, the person or company that created the webpage. For editors, add \"(Ed.)\"",
+                        "type": "string"
+                      },
+                      "url": {
+                        "description": "Link to website, or other web resource where the information was found. For books and journals, this URL should be the one that the DOI is linking to.",
+                        "type": "string"
+                      },
+                      "publisher": {
+                        "description": "Name of publisher or journal where published.",
+                        "type": "string"
+                      },
+                      "volume": {
+                        "description": "Volume number. In relation to periodicals, volume refers to all the issues of a specific journal or magazine for a limited time period, usually one year. For books, volume indicates the order of a book in a series or set.",
+                        "type": "string"
+                      },
+                      "issue": {
+                        "description": "Issue number. The issue number refers to the number of individual publications during the year.",
+                        "type": "string"
+                      },
+                      "pages": {
+                        "description": "Pages in book or journal article, separated by double-hyphens. Can also be article number.",
+                        "type": "string"
+                      },
+                      "year": {
+                        "description": "Year of publication. For webpages, use \"accessed\" instead.",
+                        "type": "string"
+                      },
+                      "doi": {
+                        "description": "Link to Digital Object Identifier (DOI).",
+                        "type": "string"
+                      },
+                      "accessed": {
+                        "description": "Date the webpage was accessed.",
+                        "type": "string",
+                        "format": "date",
+                        "example": "2025-01-31"
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "title"
+                    ]
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "images": {
+                  "description": "Image of the material rendered on a shader ball provided in different sizes and file formats.",
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "additionalProperties": false,
+                    "type": "object",
+                    "properties": {
+                      "300": {
+                        "description": "A URL to the image at 300x300 pixels.",
+                        "type": "string"
+                      },
+                      "600": {
+                        "description": "A URL to the image at 600x600 pixels.",
+                        "type": "string"
+                      },
+                      "format": {
+                        "description": "Specifies the image format.",
+                        "type": "string",
+                        "default": "jpeg"
+                      }
+                    },
+                    "required": [
+                      "format",
+                      "300",
+                      "600"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "name",
+                "color",
+                "metalness",
+                "roughness",
+                "category",
+                "references",
+                "images"
+              ]
+            }
+          }
+        }
+      },
+      "Lightsource": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "$schema",
+          "header",
+          "data"
+        ],
+        "properties": {
+          "$schema": {
+            "type": "string"
+          },
+          "header": {
+            "additionalProperties": false,
+            "type": "object",
+            "description": "Metadata",
+            "properties": {
+              "schemaVersion": {
+                "description": "Schema version.",
+                "type": "number"
+              },
+              "databaseVersion": {
+                "description": "Database version as a date in YYYYMMDDHHmm format.",
+                "type": "number"
+              },
+              "license": {
+                "description": "License information.",
+                "type": "string"
+              },
+              "origin": {
+                "description": "URL to the source of this JSON file.",
+                "type": "string"
+              }
+            },
+            "required": [
+              "schemaVersion",
+              "databaseVersion",
+              "license",
+              "origin"
+            ]
+          },
+          "data": {
+            "description": "An array of Light source objects.",
+            "type": "array",
+            "items": {
+              "title": "Light source",
+              "description": "A light source.",
+              "additionalProperties": false,
+              "type": "object",
+              "properties": {
+                "name": {
+                  "description": "Name of the light source.",
+                  "type": "string",
+                  "default": "Name"
+                },
+                "unit": {
+                  "description": "The unit of measurement of the intensity of the light. In the case of lux, it is specified as lux at 1 meter distance from the light source, unless it's a directional light such as the sun or the moon.",
+                  "type": "array",
+                  "items": {
+                    "enum": [
+                      "lm",
+                      "lx",
+                      "cd/m2"
+                    ]
+                  },
+                  "minItems": 1,
+                  "maxItems": 1
+                },
+                "type": {
+                  "description": "The type of light, for DCC applications.",
+                  "type": "array",
+                  "items": {
+                    "enum": [
+                      "directional",
+                      "surface",
+                      "spot",
+                      "point",
+                      "cylinder",
+                      "dome"
+                    ]
+                  },
+                  "minItems": 1,
+                  "maxItems": 1
+                },
+                "variants": {
+                  "description": "Lists all different variations of the light source, in order of intensity from most bright to least bright. If the light source only comes in one variant, just specify that one single variant.",
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "additionalProperties": false,
+                    "type": "object",
+                    "properties": {
+                      "format": {
+                        "description": "Specifies the format.",
+                        "type": "string",
+                        "default": "Default"
+                      },
+                      "color": {
+                        "description": "Color of the light source.",
+                        "type": "array",
+                        "minItems": 1,
+                        "uniqueItems": true,
+                        "items": {
+                          "additionalProperties": false,
+                          "type": "object",
+                          "properties": {
+                            "colorSpace": {
+                              "description": "The color space.",
+                              "type": "string",
+                              "default": "srgb-linear"
+                            },
+                            "color": {
+                              "description": "RGB triplet (vec3) in decimal format.",
+                              "type": "array",
+                              "items": {
+                                "type": "number"
+                              },
+                              "default": [
+                                1,
+                                1,
+                                1
+                              ],
+                              "minItems": 3,
+                              "maxItems": 3
+                            }
+                          },
+                          "required": [
+                            "colorSpace",
+                            "color"
+                          ]
+                        }
+                      },
+                      "temperature": {
+                        "description": "The typical range of color temperature in Kelvin, if color lies on the Planckian curve. If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common temperature.",
+                        "type": "array",
+                        "items": {
+                          "type": "number"
+                        },
+                        "default": [
+                          2700,
+                          6500
+                        ],
+                        "minItems": 1,
+                        "maxItems": 3
+                      },
+                      "intensity": {
+                        "description": "Intensity of the light emitted from the light source. If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common intensity.",
+                        "type": "array",
+                        "items": {
+                          "type": "number"
+                        },
+                        "default": [
+                          10,
+                          100
+                        ],
+                        "minItems": 1,
+                        "maxItems": 3
+                      },
+                      "angle": {
+                        "description": "The maximum beam angle in degrees. For a directional light, this specifies angular diameter instead.",
+                        "type": "number",
+                        "default": 90
+                      },
+                      "sourceSize": {
+                        "description": "The size of the light source in centimeters. [Radius] if point or spot. [Width, Height] if surface. [Radius, Length] if cylinder.",
+                        "type": "array",
+                        "items": {
+                          "type": "number"
+                        },
+                        "minItems": 1,
+                        "maxItems": 2
+                      },
+                      "description": {
+                        "description": "This field should be used for disclaimers and other useful info for CG artists that may affect the way they use the values. It's totally fine to leave this empty.",
+                        "type": "string",
+                        "maxLength": 500
+                      }
+                    },
+                    "required": [
+                      "format",
+                      "color",
+                      "intensity"
+                    ]
+                  }
+                },
+                "category": {
+                  "type": "array",
+                  "items": {
+                    "enum": [
+                      "Artificial",
+                      "Natural"
+                    ]
+                  },
+                  "minItems": 1,
+                  "maxItems": 1
+                },
+                "description": {
+                  "description": "This field should be used for disclaimers and other useful info for CG artists that may affect the way they use the values. It's totally fine to leave this empty.",
+                  "type": "string",
+                  "maxLength": 500
+                },
+                "references": {
+                  "description": "List of references. At least one reference needed.",
+                  "type": "array",
+                  "items": {
+                    "additionalProperties": false,
+                    "type": "object",
+                    "properties": {
+                      "title": {
+                        "description": "Title of book, journal article, or website.",
+                        "type": "string"
+                      },
+                      "author": {
+                        "description": "Name(s) of the authors of a book or journal article, or in the case of a webpage, the person or company that created the webpage. For editors, add \"(Ed.)\"",
+                        "type": "string"
+                      },
+                      "url": {
+                        "description": "Link to website, or other web resource where the information was found. For books and journals, this URL should be the one that the DOI is linking to.",
+                        "type": "string"
+                      },
+                      "publisher": {
+                        "description": "Name of publisher or journal where published.",
+                        "type": "string"
+                      },
+                      "volume": {
+                        "description": "Volume number. In relation to periodicals, volume refers to all the issues of a specific journal or magazine for a limited time period, usually one year. For books, volume indicates the order of a book in a series or set.",
+                        "type": "string"
+                      },
+                      "issue": {
+                        "description": "Issue number. The issue number refers to the number of individual publications during the year.",
+                        "type": "string"
+                      },
+                      "pages": {
+                        "description": "Pages in book or journal article, separated by double-hyphens. Can also be article number.",
+                        "type": "string"
+                      },
+                      "year": {
+                        "description": "Year of publication. For webpages, use \"accessed\" instead.",
+                        "type": "string"
+                      },
+                      "doi": {
+                        "description": "Link to Digital Object Identifier (DOI).",
+                        "type": "string"
+                      },
+                      "accessed": {
+                        "description": "Date the webpage was accessed.",
+                        "type": "string",
+                        "format": "date",
+                        "example": "2025-01-31"
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "title"
+                    ]
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "tags": {
+                  "description": "Tags",
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "uniqueItems": true
+                }
+              },
+              "required": [
+                "name",
+                "unit",
+                "type",
+                "variants",
+                "category",
+                "references"
+              ]
+            }
+          }
+        }
+      },
+      "Camera": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "$schema",
+          "header",
+          "data"
+        ],
+        "properties": {
+          "$schema": {
+            "type": "string"
+          },
+          "header": {
+            "additionalProperties": false,
+            "type": "object",
+            "description": "Metadata",
+            "properties": {
+              "schemaVersion": {
+                "description": "Schema version.",
+                "type": "number"
+              },
+              "databaseVersion": {
+                "description": "Database version as a date in YYYYMMDDHHmm format.",
+                "type": "number"
+              },
+              "license": {
+                "description": "License information.",
+                "type": "string"
+              },
+              "origin": {
+                "description": "URL to the source of this JSON file.",
+                "type": "string"
+              }
+            },
+            "required": [
+              "schemaVersion",
+              "databaseVersion",
+              "license",
+              "origin"
+            ]
+          },
+          "data": {
+            "description": "An array of Camera objects.",
+            "type": "array",
+            "items": {
+              "title": "Camera",
+              "description": "Any type of camera that is being used, or simulated, in any way in CG productions (including games).",
+              "additionalProperties": false,
+              "type": "object",
+              "properties": {
+                "make": {
+                  "description": "Brand name.",
+                  "type": "string",
+                  "default": "Name"
+                },
+                "model": {
+                  "description": "Model name.",
+                  "type": "string",
+                  "default": "Name"
+                },
+                "sensorSize": {
+                  "description": "Array of sensor sizes. First item specifies the size of a fully open gate. If needed, additional sizes can be added for cameras that crop the sensor.",
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "additionalProperties": false,
+                    "type": "object",
+                    "properties": {
+                      "format": {
+                        "description": "Specifies the sensor format.",
+                        "type": "string",
+                        "default": "Open Gate"
+                      },
+                      "size": {
+                        "description": "Sensor size in millimeters (WxH).",
+                        "type": "array",
+                        "items": {
+                          "type": "number"
+                        },
+                        "default": [
+                          36,
+                          24
+                        ],
+                        "minItems": 2,
+                        "maxItems": 2
+                      },
+                      "resolution": {
+                        "description": "Recording resolution measured in pixels [Width, Height]. One sensor size can have multiple recording resolutions. For still cameras, only movie recording resolutions are listed.",
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "format": {
+                              "description": "Specifies the recording resolution format.",
+                              "type": "string"
+                            },
+                            "size": {
+                              "description": "Recording resolution measured in pixels [Width, Height].",
+                              "type": "array",
+                              "items": {
+                                "type": "integer"
+                              },
+                              "default": [
+                                3000,
+                                2000
+                              ],
+                              "minItems": 2,
+                              "maxItems": 2
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "required": [
+                      "format",
+                      "size"
+                    ]
+                  }
+                },
+                "category": {
+                  "type": "array",
+                  "items": {
+                    "enum": [
+                      "Still",
+                      "Movie",
+                      "Mobile"
+                    ]
+                  },
+                  "minItems": 1,
+                  "maxItems": 1
+                },
+                "description": {
+                  "description": "This field should be used for disclaimers and other useful info for CG artists that may affect the way they use the values. It's totally fine to leave this empty.",
+                  "type": "string",
+                  "maxLength": 500
+                },
+                "tags": {
+                  "description": "Tags",
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "uniqueItems": true
+                },
+                "references": {
+                  "description": "List of references. At least one reference needed.",
+                  "type": "array",
+                  "items": {
+                    "additionalProperties": false,
+                    "type": "object",
+                    "properties": {
+                      "title": {
+                        "description": "Title of book, journal article, or website.",
+                        "type": "string"
+                      },
+                      "author": {
+                        "description": "Name(s) of the authors of a book or journal article, or in the case of a webpage, the person or company that created the webpage. For editors, add \"(Ed.)\"",
+                        "type": "string"
+                      },
+                      "url": {
+                        "description": "Link to website, or other web resource where the information was found. For books and journals, this URL should be the one that the DOI is linking to.",
+                        "type": "string"
+                      },
+                      "publisher": {
+                        "description": "Name of publisher or journal where published.",
+                        "type": "string"
+                      },
+                      "volume": {
+                        "description": "Volume number. In relation to periodicals, volume refers to all the issues of a specific journal or magazine for a limited time period, usually one year. For books, volume indicates the order of a book in a series or set.",
+                        "type": "string"
+                      },
+                      "issue": {
+                        "description": "Issue number. The issue number refers to the number of individual publications during the year.",
+                        "type": "string"
+                      },
+                      "pages": {
+                        "description": "Pages in book or journal article, separated by double-hyphens. Can also be article number.",
+                        "type": "string"
+                      },
+                      "year": {
+                        "description": "Year of publication. For webpages, use \"accessed\" instead.",
+                        "type": "string"
+                      },
+                      "doi": {
+                        "description": "Link to Digital Object Identifier (DOI).",
+                        "type": "string"
+                      },
+                      "accessed": {
+                        "description": "Date the webpage was accessed.",
+                        "type": "string",
+                        "format": "date",
+                        "example": "2025-01-31"
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "title"
+                    ]
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                }
+              },
+              "required": [
+                "make",
+                "model",
+                "sensorSize",
+                "category",
+                "references"
+              ]
+            }
+          }
+        }
+      },
+      "Lens": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "$schema",
+          "header",
+          "data"
+        ],
+        "properties": {
+          "$schema": {
+            "type": "string"
+          },
+          "header": {
+            "additionalProperties": false,
+            "type": "object",
+            "description": "Metadata",
+            "properties": {
+              "schemaVersion": {
+                "description": "Schema version.",
+                "type": "number"
+              },
+              "databaseVersion": {
+                "description": "Database version as a date in YYYYMMDDHHmm format.",
+                "type": "number"
+              },
+              "license": {
+                "description": "License information.",
+                "type": "string"
+              },
+              "origin": {
+                "description": "URL to the source of this JSON file.",
+                "type": "string"
+              }
+            },
+            "required": [
+              "schemaVersion",
+              "databaseVersion",
+              "license",
+              "origin"
+            ]
+          },
+          "data": {
+            "description": "An array of Lens objects.",
+            "type": "array",
+            "items": {
+              "title": "Lens",
+              "description": "Any type of lens that is being used, or simulated, in any way in CG productions (including games).",
+              "additionalProperties": false,
+              "type": "object",
+              "properties": {
+                "name": {
+                  "description": "Name of the lens.",
+                  "type": "string",
+                  "default": "Name"
+                },
+                "focalLength": {
+                  "description": "Min and max focal length in millimeters. If it's a prime lens, set the same value twice.",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "default": [
+                    35,
+                    35
+                  ],
+                  "minItems": 2,
+                  "maxItems": 2
+                },
+                "aperture": {
+                  "description": "Max and min aperture size.",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "default": [
+                    2,
+                    22
+                  ],
+                  "minItems": 2,
+                  "maxItems": 2
+                },
+                "blades": {
+                  "description": "Number of diaphragm blades.",
+                  "type": "integer",
+                  "default": 5
+                },
+                "closeFocus": {
+                  "description": "Shortest distance from the sensor to the subject that the lens can achieve focus. Specified in centimeters.",
+                  "type": "number",
+                  "default": 0
+                },
+                "description": {
+                  "description": "This field should be used for disclaimers and other useful info for CG artists that may affect the way they use the values. It's totally fine to leave this empty.",
+                  "type": "string",
+                  "maxLength": 500
+                },
+                "sources": {
+                  "description": "Provide at least one source for the values. Source link to official manufacturer website is preferred.",
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "tags": {
+                  "description": "Tags for alternative names or spellings.",
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "uniqueItems": true
+                }
+              },
+              "required": [
+                "name",
+                "focalLength",
+                "aperture",
+                "blades",
+                "sources"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

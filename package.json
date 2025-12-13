@@ -34,9 +34,6 @@
   "lint-staged": {
     "./deploy/v2/{cameras,materials,lightsources,lenses}.json": [
       "node scripts/pre-commit.mjs --staged"
-    ],
-    "./schemas/components/schemas/{Base,Camera,Lens,Lightsource,Material}.json": [
-      "npm run redocly-bundle"
     ]
   }
 }
