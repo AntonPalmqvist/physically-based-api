@@ -1,5 +1,7 @@
 # Physically Based API
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/80daad71-95b1-40c0-be3f-df244e44d8b7/deploy-status)](https://app.netlify.com/sites/hardcore-dubinsky-99d96e/deploys)
+
 A database of physically based values for CG artists.
 
 <p align="center">

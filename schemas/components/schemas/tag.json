@@ -1,0 +1,8 @@
+{
+  "description": "Tags for alternative names or spellings.",
+  "type": "array",
+  "items": {
+    "type": "string"
+  },
+  "uniqueItems": true
+}

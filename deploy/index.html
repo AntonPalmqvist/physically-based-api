@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>API | Physically Based</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="title" content="The PBR Database API" />
     <meta
       name="description"
       content="A database of physically based values for CG artists."
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="google-site-verification"
       content="U2EED-cL3HjaIzPZpQPxEpBMokNh9eNig9VtsDKLoms"
@@ -25,7 +24,6 @@
       property="og:image"
       content="https://api.physicallybased.info/assets/img/metatag.jpg"
     />
-
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://api.physicallybased.info/" />
     <meta property="twitter:title" content="The PBR Database API" />
@@ -38,26 +36,42 @@
       content="https://api.physicallybased.info/assets/img/metatag.jpg"
     />
 
-    <!-- Configuration options: https://docs.stoplight.io/docs/elements/b074dc47b2826-elements-configuration-options -->
-    <script
-      defer
-      data-domain="api.physicallybased.info"
-      src="/js/script.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="assets/js/web-components.min.js"
-    ></script>
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.min.css" />
-    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
+    <title>API | Physically Based</title>
+    <!--
+    Redoc doesn't change outer page styles
+    -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <!-- Privacy-friendly analytics by Plausible -->
+    <script async src="/js/script.js"></script>
+    <script>
+      (window.plausible =
+        window.plausible ||
+        function () {
+          (plausible.q = plausible.q || []).push(arguments);
+        }),
+        (plausible.init =
+          plausible.init ||
+          function (i) {
+            plausible.o = i || {};
+          });
+      plausible.init({
+        fileDownloads: {
+          fileExtensions: ["yaml", "json"],
+        },
+      });
+    </script>
   </head>
   <body>
-    <!-- apiDescriptionUrl must point to a web resource, and not to a static file, so it doesn't give an error when going back and forth on the site -->
-    <elements-api
-      apiDescriptionUrl="https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/refs/heads/main/schemas/openapi-schema.yaml"
-      hideSchemas="true"
-      hideExport="true"
-      layout="responsive"
-    />
+    <redoc
+      spec-url="schemas/openapi-schema.yaml"
+      disable-telemetry="true"
+    ></redoc>
+    <script type="module" src="./assets/js/redoc.standalone.js"></script>
   </body>
 </html>

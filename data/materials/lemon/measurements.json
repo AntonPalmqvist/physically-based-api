@@ -1,0 +1,13 @@
+[
+  {
+    "subject": "Lemon",
+    "author": "https://github.com/AntonPalmqvist",
+    "device": "Nix Spectro 2",
+    "illuminant": "D65",
+    "observer": 10,
+    "measuringMode": "M2",
+    "srgb-linear": [0.617, 0.366, 0.045],
+    "ciexyz-d65": [0.394, 0.396, 0.099],
+    "cielab-d65": [69.215, 5.398, 57.135]
+  }
+]

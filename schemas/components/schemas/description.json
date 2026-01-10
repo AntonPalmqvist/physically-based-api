@@ -1,0 +1,5 @@
+{
+  "type": "string",
+  "description": "This field should be used for disclaimers and other useful info for CG artists that may affect the way they use the values. It's totally fine to leave this empty.",
+  "maxLength": 500
+}

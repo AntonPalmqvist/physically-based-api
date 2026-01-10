@@ -1,9 +1,12 @@
 openapi: 3.1.0
 info:
-  version: '1.5'
+  version: "1.5"
   title: Physically Based API
   summary: A database of physically based values for CG artists.
   description: |-
+
+    🚧 THIS VERSION IS DEPRECATED AND WILL NOT GET ANY MORE UPDATES. PLEASE MIGRATE TO [V2](https://api.physicallybased.info/v2/) 🚧
+
     ## Features
 
     - **Open Database**: Access a curated collection of physically based material values
@@ -11,7 +14,7 @@ info:
         - materials.json ```191 KB```
         - lightsources.json ```35 KB```
         - cameras.json ```222 KB```
-        - lenses.json (coming in [v2](https://api.physicallybased.info/v2/))
+        - lenses.json (available in [v2.1](https://api.physicallybased.info/v2/))
     - **API Access**: Connect your tools to the API to get the latest updates from the database
     - **Community-Driven**: Contribute new materials or improve existing ones
     - **Free License**: All data is released under CC0 1.0
@@ -35,13 +38,13 @@ info:
 
     Shader ball used for renders is from [ASWF USD WG](https://github.com/usd-wg/assets/tree/main/full_assets/StandardShaderBall) and is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
   contact:
-    url: 'https://physicallybased.info/about'
+    url: "https://physicallybased.info/about"
     name: Form
   license:
-    url: 'https://creativecommons.org/publicdomain/zero/1.0/legalcode'
+    url: "https://creativecommons.org/publicdomain/zero/1.0/legalcode"
     name: CC0 1.0
 servers:
-  - url: 'https://api.physicallybased.info'
+  - url: "https://api.physicallybased.info"
 paths:
   /materials:
     get:
@@ -51,17 +54,17 @@ paths:
       description: Gets an array of all materials.
       operationId: get-materials
       requestBody:
-        description: ''
+        description: ""
         content: {}
       responses:
-        '200':
+        "200":
           description: OK
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Material'
+                $ref: "#/components/schemas/Material"
       servers:
-        - url: 'https://api.physicallybased.info'
+        - url: "https://api.physicallybased.info"
   /lightsources:
     get:
       tags:
@@ -72,14 +75,14 @@ paths:
       requestBody:
         content: {}
       responses:
-        '200':
+        "200":
           description: OK
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Lightsource'
+                $ref: "#/components/schemas/Lightsource"
       servers:
-        - url: 'https://api.physicallybased.info'
+        - url: "https://api.physicallybased.info"
   /cameras:
     get:
       tags:
@@ -90,14 +93,14 @@ paths:
       requestBody:
         content: {}
       responses:
-        '200':
+        "200":
           description: OK
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Camera'
+                $ref: "#/components/schemas/Camera"
       servers:
-        - url: 'https://api.physicallybased.info'
+        - url: "https://api.physicallybased.info"
 tags:
   - name: Materials
   - name: Light Sources
@@ -107,7 +110,7 @@ components:
     Material:
       type: object
       title: Material
-      description: 'Material parameters for shading, physics simulation, and fluid simulation.'
+      description: "Material parameters for shading, physics simulation, and fluid simulation."
       additionalProperties: false
       properties:
         name:
@@ -115,25 +118,25 @@ components:
           description: Name of the material.
           default: Name
         color:
-          $ref: '#/components/schemas/color'
-          description: 'Specifies the diffuse or metallic reflectance color, or in the case of a transparent material, transmission color. RGB triplet (vec3) in linear decimal format in rec709 primaries.'
+          $ref: "#/components/schemas/color"
+          description: "Specifies the diffuse or metallic reflectance color, or in the case of a transparent material, transmission color. RGB triplet (vec3) in linear decimal format in rec709 primaries."
         metalness:
           type: number
           description: Specifies how metallic the material appears (dials the shading model from pure dielectric to pure metal).
         specularColor:
-          $ref: '#/components/schemas/color'
+          $ref: "#/components/schemas/color"
           description: 'Color of the specular reflection for metals, specified in the "Gulbrandsen edge tint" format. Calculated from spectral data using script from https://github.com/natyh/material-params'
         roughness:
           type: number
-          description: 'The roughness of the specular reflection. Lower numbers produce sharper reflections, higher numbers produce blurrier reflections.'
+          description: "The roughness of the specular reflection. Lower numbers produce sharper reflections, higher numbers produce blurrier reflections."
           default: 0
         ior:
           type: number
           description: Index of refraction of a dielectric material. Does not apply to metals (conductors).
           default: 1.5
         subsurfaceRadius:
-          $ref: '#/components/schemas/color'
-          description: 'The approximate distance up to which light can scatter below the surface, also known as “mean free path” (MFP). Specified in centimeters.'
+          $ref: "#/components/schemas/color"
+          description: "The approximate distance up to which light can scatter below the surface, also known as “mean free path” (MFP). Specified in centimeters."
         transmission:
           type: number
         transmissionDepth:
@@ -141,10 +144,10 @@ components:
           description: Controls the depth into the volume at which the Transmission Color is realized.
         transmissionDispersion:
           type: number
-          description: 'Abbe number, describing how much the index of refraction varies across wavelengths. For glass and diamonds, this is typically in the range of 10 to 70, with lower numbers giving more dispersion.'
+          description: "Abbe number, describing how much the index of refraction varies across wavelengths. For glass and diamonds, this is typically in the range of 10 to 70, with lower numbers giving more dispersion."
         complexIor:
           type: array
-          description: 'Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel, in the following order: nR, kR, nG, kG, nB, kB. Calculated from spectral IOR data files with script from https://github.com/natyh/material-params'
+          description: "Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel, in the following order: nR, kR, nG, kG, nB, kB. Calculated from spectral IOR data files with script from https://github.com/natyh/material-params"
           minItems: 6
           maxItems: 6
           items:
@@ -174,7 +177,7 @@ components:
           description: Surface tension measured in millinewton per meter (mN/m) at a temperature of 20°C. 1 mN/m = 1 dyn/cm.
         acousticAbsorption:
           type: array
-          description: 'Absorption coefficients at 125, 250, 500, 1000, 2000, and 4000 kHz.'
+          description: "Absorption coefficients at 125, 250, 500, 1000, 2000, and 4000 kHz."
           minItems: 6
           maxItems: 6
           items:
@@ -197,13 +200,13 @@ components:
               - Plastic
         group:
           type: string
-          description: 'Can be used to group similar materials together. For example, Skin I, Skin II, and Skin III would be part of the same group: Skin.'
+          description: "Can be used to group similar materials together. For example, Skin I, Skin II, and Skin III would be part of the same group: Skin."
         description:
-          $ref: '#/components/schemas/description'
+          $ref: "#/components/schemas/description"
         sources:
-          $ref: '#/components/schemas/sources'
+          $ref: "#/components/schemas/sources"
         tags:
-          $ref: '#/components/schemas/tags'
+          $ref: "#/components/schemas/tags"
         reference:
           type: array
           description: Links to reference images.
@@ -241,16 +244,16 @@ components:
           category:
             - Metal
           sources:
-            - 'https://refractiveindex.info/?shelf=3d&book=metals&page=aluminium'
-            - 'https://docs.arnoldrenderer.com/display/A5AFMUG/Base'
-            - 'https://en.wikipedia.org/wiki/Aluminium'
-            - 'https://en.wikipedia.org/wiki/Density'
-            - 'https://en.wikipedia.org/wiki/Mirror'
+            - "https://refractiveindex.info/?shelf=3d&book=metals&page=aluminium"
+            - "https://docs.arnoldrenderer.com/display/A5AFMUG/Base"
+            - "https://en.wikipedia.org/wiki/Aluminium"
+            - "https://en.wikipedia.org/wiki/Density"
+            - "https://en.wikipedia.org/wiki/Mirror"
           tags:
             - aluminium
             - mirror
           reference:
-            - 'https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/aluminum-cycles.png'
+            - "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/reference/render/aluminum-cycles.png"
     color:
       type: array
       title: color
@@ -290,11 +293,11 @@ components:
           description: Name of the light source.
           default: Name
         color:
-          $ref: '#/components/schemas/color'
+          $ref: "#/components/schemas/color"
           description: Color of the light source.
         temperature:
           type: number
-          description: 'Color temperature in Kelvin, if color lies on the Planckian curve.'
+          description: "Color temperature in Kelvin, if color lies on the Planckian curve."
           default: 6500
         temperatureRange:
           type: array
@@ -315,7 +318,7 @@ components:
             type: number
         unit:
           type: array
-          description: 'The unit of measurement of the intensity of the light. In the case of lux, it is specified as lux at 1 meter distance from the light source, unless it''s a directional light such as the sun or the moon.'
+          description: "The unit of measurement of the intensity of the light. In the case of lux, it is specified as lux at 1 meter distance from the light source, unless it's a directional light such as the sun or the moon."
           minItems: 1
           maxItems: 1
           items:
@@ -326,17 +329,17 @@ components:
               - cd/m2
         angle:
           type: number
-          description: 'The maximum beam angle in degrees. For a directional light, this specifies angular diameter instead.'
+          description: "The maximum beam angle in degrees. For a directional light, this specifies angular diameter instead."
         sourceSize:
           type: array
-          description: 'The size of the light source in centimeters. [Radius] if point or spot. [Width, Height] if surface. [Length, Radius] if cylinder.'
+          description: "The size of the light source in centimeters. [Radius] if point or spot. [Width, Height] if surface. [Length, Radius] if cylinder."
           minItems: 1
           maxItems: 2
           items:
             type: number
         variants:
           type: array
-          description: 'If the light source comes in different variations, they can be described here.'
+          description: "If the light source comes in different variations, they can be described here."
           minItems: 1
           uniqueItems: true
           items:
@@ -347,22 +350,22 @@ components:
                 type: string
                 description: Specifies the format.
               color:
-                $ref: '#/components/schemas/color'
+                $ref: "#/components/schemas/color"
                 description: Color of the light source.
               temperature:
                 type: number
-                description: 'Color temperature in Kelvin, if color lies on the Planckian curve.'
+                description: "Color temperature in Kelvin, if color lies on the Planckian curve."
                 default: 6500
               intensity:
                 type: number
                 description: Intensity of the light emitted from the light source.
               angle:
                 type: number
-                description: 'The maximum beam angle in degrees. For a directional light, this specifies angular diameter instead.'
+                description: "The maximum beam angle in degrees. For a directional light, this specifies angular diameter instead."
                 default: 90
               sourceSize:
                 type: array
-                description: 'The size of the light source in centimeters. [Radius] if point or spot. [Width, Height] if surface. [Length, Radius] if cylinder.'
+                description: "The size of the light source in centimeters. [Radius] if point or spot. [Width, Height] if surface. [Length, Radius] if cylinder."
                 minItems: 1
                 maxItems: 2
                 items:
@@ -373,7 +376,7 @@ components:
               - intensity
         type:
           type: array
-          description: 'The type of light, for DCC applications.'
+          description: "The type of light, for DCC applications."
           minItems: 1
           maxItems: 1
           items:
@@ -395,11 +398,11 @@ components:
               - Artificial
               - Natural
         description:
-          $ref: '#/components/schemas/description'
+          $ref: "#/components/schemas/description"
         sources:
-          $ref: '#/components/schemas/sources'
+          $ref: "#/components/schemas/sources"
         tags:
-          $ref: '#/components/schemas/tags'
+          $ref: "#/components/schemas/tags"
       required:
         - name
         - color
@@ -427,17 +430,17 @@ components:
             - point
           category:
             - Artificial
-          description: 'Today''s household lightbulbs has a LED light source whereas older light bulbs were using a glowing tungsten filament. LED:s are much much more energy efficient and makes the use of wattage, as a measure of intensity, not very useful. This is why lumen is preferred.'
+          description: "Today's household lightbulbs has a LED light source whereas older light bulbs were using a glowing tungsten filament. LED:s are much much more energy efficient and makes the use of wattage, as a measure of intensity, not very useful. This is why lumen is preferred."
           sources:
-            - 'https://en.wikipedia.org/wiki/Incandescent_light_bulb'
-            - 'https://en.wikipedia.org/wiki/LED_lamp'
+            - "https://en.wikipedia.org/wiki/Incandescent_light_bulb"
+            - "https://en.wikipedia.org/wiki/LED_lamp"
           tags:
             - incandescent
             - tungsten
     Camera:
       type: object
       title: Camera
-      description: 'Any type of camera that is being used, or simulated, in any way in CG productions (including games).'
+      description: "Any type of camera that is being used, or simulated, in any way in CG productions (including games)."
       additionalProperties: false
       properties:
         name:
@@ -445,7 +448,7 @@ components:
           description: Name of the camera.
         sensorSize:
           type: array
-          description: 'Array of sensor sizes. First item specifies the size of a fully open gate. If needed, additional sizes can be added for cameras that crop the sensor.'
+          description: "Array of sensor sizes. First item specifies the size of a fully open gate. If needed, additional sizes can be added for cameras that crop the sensor."
           items:
             type: object
             additionalProperties: false
@@ -463,7 +466,7 @@ components:
                   type: number
               resolution:
                 type: array
-                description: 'Recording resolution measured in pixels [Width, Height]. One sensor size can have multiple recording resolutions. For still cameras, only movie recording resolutions are listed.'
+                description: "Recording resolution measured in pixels [Width, Height]. One sensor size can have multiple recording resolutions. For still cameras, only movie recording resolutions are listed."
                 items:
                   type: object
                   properties:
@@ -472,7 +475,7 @@ components:
                       description: Specifies the recording resolution format.
                     size:
                       type: array
-                      description: 'Recording resolution measured in pixels [Width, Height].'
+                      description: "Recording resolution measured in pixels [Width, Height]."
                       items:
                         type: integer
             required:
@@ -489,12 +492,12 @@ components:
               - Movie
               - Mobile
         description:
-          $ref: '#/components/schemas/description'
+          $ref: "#/components/schemas/description"
         sources:
-          $ref: '#/components/schemas/sources'
+          $ref: "#/components/schemas/sources"
           description: Provide at least one source for the values. Source link to official manufacturer website is preferred.
         tags:
-          $ref: '#/components/schemas/tags'
+          $ref: "#/components/schemas/tags"
       required:
         - name
         - sensorSize
@@ -503,7 +506,7 @@ components:
       examples:
         - name: Arri Alexa 35
           sensorSize:
-            - format: '4.6K 3:2 Open Gate'
+            - format: "4.6K 3:2 Open Gate"
               size:
                 - 27.99
                 - 19.22
@@ -512,7 +515,7 @@ components:
                   size:
                     - 4608
                     - 3164
-            - format: '4.6K 16:9'
+            - format: "4.6K 16:9"
               size:
                 - 27.99
                 - 15.75
@@ -525,7 +528,7 @@ components:
                   size:
                     - 4096
                     - 2304
-            - format: '4K 16:9'
+            - format: "4K 16:9"
               size:
                 - 24.88
                 - 14
@@ -546,7 +549,7 @@ components:
                   size:
                     - 1920
                     - 1080
-            - format: '4K 2:1'
+            - format: "4K 2:1"
               size:
                 - 24.88
                 - 12.44
@@ -555,7 +558,7 @@ components:
                   size:
                     - 4096
                     - 2048
-            - format: '3.8K 16:9'
+            - format: "3.8K 16:9"
               size:
                 - 23.33
                 - 13.12
@@ -564,7 +567,7 @@ components:
                   size:
                     - 3840
                     - 2160
-            - format: '3.3K 6:5'
+            - format: "3.3K 6:5"
               size:
                 - 20.22
                 - 16.95
@@ -573,11 +576,11 @@ components:
                   size:
                     - 3328
                     - 2790
-                - format: '4K 2.39:1 Ana 2x'
+                - format: "4K 2.39:1 Ana 2x"
                   size:
                     - 4096
                     - 1716
-            - format: '3K 1:1'
+            - format: "3K 1:1"
               size:
                 - 18.66
                 - 18.66
@@ -586,20 +589,20 @@ components:
                   size:
                     - 3072
                     - 3072
-                - format: '3.8K 2:1 Ana 2x'
+                - format: "3.8K 2:1 Ana 2x"
                   size:
                     - 3840
                     - 2160
-            - format: '2.7K 8:9'
+            - format: "2.7K 8:9"
               size:
                 - 16.66
                 - 18.75
               resolution:
-                - format: 'UHD 16:9 Ana 2x'
+                - format: "UHD 16:9 Ana 2x"
                   size:
                     - 3840
                     - 2160
-            - format: '2K 16:9 S16'
+            - format: "2K 16:9 S16"
               size:
                 - 12.44
                 - 7
@@ -610,11 +613,11 @@ components:
                     - 1152
           category:
             - Movie
-          description: ''
+          description: ""
           sources:
-            - 'https://www.arri.com/en/camera-systems/cameras/alexa-35'
-            - 'https://www.arri.com/en/camera-systems/cameras/alexa-35/alexa-35-recording-formats'
-            - 'https://www.arri.com/resource/blob/296424/88454a5a3dee9fe1d3fd68e75aa3411e/alexa-35-recording-format-poster-data.pdf'
-            - 'https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf'
+            - "https://www.arri.com/en/camera-systems/cameras/alexa-35"
+            - "https://www.arri.com/en/camera-systems/cameras/alexa-35/alexa-35-recording-formats"
+            - "https://www.arri.com/resource/blob/296424/88454a5a3dee9fe1d3fd68e75aa3411e/alexa-35-recording-format-poster-data.pdf"
+            - "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
           tags:
-            - ''
+            - ""

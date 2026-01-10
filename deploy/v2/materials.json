@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.0,
-    "databaseVersion": 202512121608,
+    "updated": 202601101022,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info"
   },
@@ -72,11 +72,12 @@
           "accessed": "2025-06-26"
         },
         {
-          "title": "Autodesk Arnold Documentation",
-          "author": "Arnold User Guide",
-          "publisher": "Autodesk Inc.",
-          "url": "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_base_html#metalness",
-          "accessed": "2025-01-25"
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
         },
         {
           "title": "Aluminium",
@@ -208,6 +209,14 @@
           "author": "Polyanskiy, M. N.",
           "url": "https://refractiveindex.info/?shelf=main&book=Be&page=Rakic-BB",
           "accessed": "2025-06-18"
+        },
+        {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
         },
         {
           "title": "Beryllium",
@@ -512,6 +521,14 @@
           "accessed": "2025-01-26"
         },
         {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
+        },
+        {
           "title": "Brass",
           "author": "Wikipedia contributors",
           "url": "https://en.wikipedia.org/w/index.php?title=Brass&oldid=1270509985",
@@ -772,6 +789,14 @@
           "accessed": "2025-06-25"
         },
         {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
+        },
+        {
           "title": "Caesium",
           "author": "Wikipedia contributors",
           "url": "https://en.wikipedia.org/w/index.php?title=Caesium&oldid=1297091310",
@@ -960,6 +985,14 @@
           "accessed": "2025-01-26"
         },
         {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
+        },
+        {
           "title": "Density",
           "author": "Wikipedia contributors",
           "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
@@ -1042,6 +1075,14 @@
           "author": "Polyanskiy, M. N.",
           "url": "https://refractiveindex.info/?shelf=main&book=Co&page=Werner-DFT",
           "accessed": "2025-01-26"
+        },
+        {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
         },
         {
           "title": "Feeding a Physically Based Shading Model",
@@ -1331,11 +1372,12 @@
           "accessed": "2025-01-26"
         },
         {
-          "title": "Autodesk Arnold Documentation",
-          "author": "Arnold User Guide",
-          "publisher": "Autodesk Inc.",
-          "url": "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_base_html#metalness",
-          "accessed": "2025-01-26"
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
         },
         {
           "title": "Density",
@@ -1726,6 +1768,14 @@
           "accessed": "2025-06-29"
         },
         {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
+        },
+        {
           "title": "Germanium",
           "author": "Wikipedia contributors",
           "url": "https://en.wikipedia.org/w/index.php?title=Germanium&oldid=1294309596",
@@ -1873,11 +1923,12 @@
           "accessed": "2025-06-26"
         },
         {
-          "title": "Autodesk Arnold Documentation",
-          "author": "Arnold User Guide",
-          "publisher": "Autodesk Inc.",
-          "url": "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_base_html#metalness",
-          "accessed": "2025-01-25"
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
         },
         {
           "title": "Density",
@@ -2232,6 +2283,14 @@
           "accessed": "2025-06-29"
         },
         {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
+        },
+        {
           "title": "Iridium",
           "author": "Wikipedia contributors",
           "url": "https://en.wikipedia.org/w/index.php?title=Iridium&oldid=1296793846",
@@ -2323,11 +2382,12 @@
           "accessed": "2025-01-26"
         },
         {
-          "title": "Autodesk Arnold Documentation",
-          "author": "Arnold User Guide",
-          "publisher": "Autodesk Inc.",
-          "url": "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_base_html#metalness",
-          "accessed": "2025-01-25"
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
         },
         {
           "title": "Density",
@@ -2479,11 +2539,12 @@
           "accessed": "2025-06-26"
         },
         {
-          "title": "Autodesk Arnold Documentation",
-          "author": "Arnold User Guide",
-          "publisher": "Autodesk Inc.",
-          "url": "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_base_html#metalness",
-          "accessed": "2025-01-25"
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
         },
         {
           "title": "Density",
@@ -2511,7 +2572,7 @@
       "color": [
         {
           "colorSpace": "srgb-linear",
-          "color": [0.718, 0.483, 0]
+          "color": [0.617, 0.366, 0.045]
         }
       ],
       "metalness": 0,
@@ -2524,6 +2585,13 @@
           "author": "Jakubiec, J. A.",
           "url": "https://spectraldb.com/measurements/00453/",
           "accessed": "2025-01-25"
+        },
+        {
+          "title": "Spectrophotometer Measurement",
+          "author": "Palmqvist, A.",
+          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/lemon/",
+          "publisher": "Physically Based Database",
+          "accessed": "2025-12-15"
         }
       ],
       "images": [
@@ -2601,6 +2669,14 @@
           "author": "Polyanskiy, M. N.",
           "url": "https://refractiveindex.info/?shelf=main&book=Li&page=Rasigni",
           "accessed": "2025-06-29"
+        },
+        {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
         },
         {
           "title": "Lithium",
@@ -2694,6 +2770,14 @@
           "accessed": "2025-06-29"
         },
         {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
+        },
+        {
           "title": "Magnesium",
           "author": "Wikipedia contributors",
           "url": "https://en.wikipedia.org/w/index.php?title=Magnesium&oldid=1297525267",
@@ -2783,6 +2867,14 @@
           "author": "Polyanskiy, M. N.",
           "url": "https://refractiveindex.info/?shelf=main&book=Mn&page=Querry",
           "accessed": "2025-06-29"
+        },
+        {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
         },
         {
           "title": "Manganese",
@@ -2936,11 +3028,12 @@
           "accessed": "2025-01-26"
         },
         {
-          "title": "Autodesk Arnold Documentation",
-          "author": "Arnold User Guide",
-          "publisher": "Autodesk Inc.",
-          "url": "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_base_html#metalness",
-          "accessed": "2025-01-25"
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
         },
         {
           "title": "Density",
@@ -3183,6 +3276,14 @@
           "accessed": "2025-06-29"
         },
         {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
+        },
+        {
           "title": "Molybdenum",
           "author": "Wikipedia contributors",
           "url": "https://en.wikipedia.org/w/index.php?title=Molybdenum&oldid=1288578240",
@@ -3308,11 +3409,12 @@
           "accessed": "2025-06-26"
         },
         {
-          "title": "Autodesk Arnold Documentation",
-          "author": "Arnold User Guide",
-          "publisher": "Autodesk Inc.",
-          "url": "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_base_html#metalness",
-          "accessed": "2025-01-25"
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
         },
         {
           "title": "Density",
@@ -3447,6 +3549,14 @@
           "author": "Polyanskiy, M. N.",
           "url": "https://refractiveindex.info/?shelf=main&book=Pd&page=Palm",
           "accessed": "2025-06-30"
+        },
+        {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
         },
         {
           "title": "Palladium",
@@ -3895,9 +4005,9 @@
         {
           "title": "Polyvinyl Chloride",
           "author": "Wikipedia contributors",
-          "url": "Polyvinyl chloride",
+          "url": "https://en.wikipedia.org/w/index.php?title=Polyvinyl_chloride&oldid=1331881676",
           "publisher": "Wikipedia, The Free Encyclopedia",
-          "accessed": "2025-02-05"
+          "accessed": "2026-01-09"
         },
         {
           "title": "Refractive index database",
@@ -3983,11 +4093,12 @@
           "accessed": "2025-06-26"
         },
         {
-          "title": "Autodesk Arnold Documentation",
-          "author": "Arnold User Guide",
-          "publisher": "Autodesk Inc.",
-          "url": "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_base_html#metalness",
-          "accessed": "2025-01-25"
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
         },
         {
           "title": "Density",
@@ -4009,6 +4120,69 @@
           "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/platinum.avif"
         }
       ]
+    },
+    {
+      "name": "Porcelain",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.745, 0.745, 0.723]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0,
+      "ior": 1.5,
+      "density": [2000, 2500, 2400],
+      "category": ["Manmade"],
+      "references": [
+        {
+          "title": "Spectrophotometer Measurement",
+          "author": "Palmqvist, A.",
+          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/porcelain/",
+          "publisher": "Physically Based Database",
+          "accessed": "2025-12-15"
+        },
+        {
+          "title": "Vitreous China",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Vitreous_china&oldid=1291896907",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-12-15"
+        },
+        {
+          "title": "Porcelain",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Porcelain&oldid=1320984472",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-12-15"
+        },
+        {
+          "title": "Ceramic",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Ceramic&oldid=1326921651",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-12-15"
+        },
+        {
+          "title": "Ceramic Materials - Properties",
+          "url": "https://www.engineeringtoolbox.com/ceramics-properties-d_1227.html",
+          "publisher": "The Engineering ToolBox",
+          "accessed": "2025-12-15"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/porcelain.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/porcelain.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/porcelain.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/porcelain.avif"
+        }
+      ],
+      "tags": ["vitreous china", "ceramic"]
     },
     {
       "name": "Potassium",
@@ -4072,6 +4246,14 @@
           "author": "Polyanskiy, M. N.",
           "url": "https://refractiveindex.info/?shelf=main&book=K&page=Monin",
           "accessed": "2025-07-03"
+        },
+        {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
         },
         {
           "title": "Potassium",
@@ -4206,6 +4388,14 @@
           "author": "Polyanskiy, M. N.",
           "url": "https://refractiveindex.info/?shelf=main&book=Rb&page=Monin",
           "accessed": "2025-07-03"
+        },
+        {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
         },
         {
           "title": "Rubidium",
@@ -4440,6 +4630,14 @@
           "accessed": "2025-06-26"
         },
         {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
+        },
+        {
           "title": "Silicon",
           "author": "Wikipedia contributors",
           "url": "https://en.wikipedia.org/w/index.php?title=Silicon&oldid=1268079631",
@@ -4532,11 +4730,12 @@
           "accessed": "2025-06-26"
         },
         {
-          "title": "Autodesk Arnold Documentation",
-          "author": "Arnold User Guide",
-          "publisher": "Autodesk Inc.",
-          "url": "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_base_html#metalness",
-          "accessed": "2025-01-25"
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
         },
         {
           "title": "Density",
@@ -5155,11 +5354,12 @@
           "accessed": "2025-02-10"
         },
         {
-          "title": "Thin Film - Arnold User Guide",
-          "author": "Arnold User Guide",
-          "publisher": "Autodesk Inc.",
-          "url": "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_thinfilm_html",
-          "accessed": "2025-02-10"
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
         }
       ],
       "images": [
@@ -5239,6 +5439,14 @@
           "accessed": "2025-07-03"
         },
         {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
+        },
+        {
           "title": "Sodium",
           "author": "Wikipedia contributors",
           "url": "https://en.wikipedia.org/w/index.php?title=Sodium&oldid=1292971623",
@@ -5256,6 +5464,47 @@
           "format": "avif",
           "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/sodium.avif",
           "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/sodium.avif"
+        }
+      ]
+    },
+    {
+      "name": "Spectralon",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.99, 0.99, 0.99]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0.99,
+      "ior": 1.35,
+      "description": "Spectralon is a fluoropolymer that has the highest diffuse reflectance of any known material or coating over the ultraviolet, visible, and near-infrared regions of the spectrum. It is the whitest substance available and reflects 99% of the light.",
+      "category": ["Manmade"],
+      "references": [
+        {
+          "title": "Spectralon",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Spectralon&oldid=1267333247",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-12-15"
+        },
+        {
+          "title": "Spectralon Diffuse Reflectance Material",
+          "url": "https://www.labsphere.com/product/spectralon-diffuse-reflectance-material/",
+          "publisher": "Labsphere, Inc.",
+          "accessed": "2025-12-15"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/spectralon.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/spectralon.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/spectralon.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/spectralon.avif"
         }
       ]
     },
@@ -5321,6 +5570,14 @@
           "author": "Polyanskiy, M. N.",
           "url": "https://refractiveindex.info/?shelf=3d&book=metals&page=stainless_steel",
           "accessed": "2025-02-05"
+        },
+        {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
         },
         {
           "title": "Stainless Steel",
@@ -5450,6 +5707,14 @@
           "accessed": "2025-06-26"
         },
         {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
+        },
+        {
           "title": "Density",
           "author": "Wikipedia contributors",
           "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
@@ -5576,6 +5841,14 @@
           "accessed": "2025-06-26"
         },
         {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
+        },
+        {
           "title": "Density",
           "author": "Wikipedia contributors",
           "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
@@ -5658,6 +5931,14 @@
           "author": "Polyanskiy, M. N.",
           "url": "https://refractiveindex.info/?shelf=main&book=V&page=Werner-DFT",
           "accessed": "2025-01-26"
+        },
+        {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
         },
         {
           "title": "Density",
@@ -5897,6 +6178,14 @@
           "author": "Polyanskiy, M. N.",
           "url": "https://refractiveindex.info/?shelf=main&book=Zn&page=Werner-DFT",
           "accessed": "2025-01-26"
+        },
+        {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
         },
         {
           "title": "Density",

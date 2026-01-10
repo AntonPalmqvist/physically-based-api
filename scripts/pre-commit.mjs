@@ -16,12 +16,9 @@ async function updateDatabaseVersion(filePath) {
   try {
     let data = await readFile(filePath, "utf8");
     const newVersion = getCurrentDateAsNumber();
-    data = data.replace(
-      /"databaseVersion":\s*\d+,/,
-      `"databaseVersion": ${newVersion},`
-    );
+    data = data.replace(/"updated":\s*\d+,/, `"updated": ${newVersion},`);
     await writeFile(filePath, data, "utf8");
-    console.log(`Updated databaseVersion in ${filePath}`);
+    console.log(`Updated database version in ${filePath}`);
   } catch (err) {
     console.error(`Error updating ${filePath}:`, err);
     process.exit(1);

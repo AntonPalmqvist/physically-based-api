@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Lightsource.json",
   "header": {
     "schemaVersion": 2.0,
-    "databaseVersion": 202512121608,
+    "updated": 202601101022,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info"
   },
