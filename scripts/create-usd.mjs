@@ -44,11 +44,11 @@ async function processJson(file) {
   async function fullJson(file) {
     try {
       const data = await readFile(`./deploy/v2/${file}.json`, "utf8");
-      const jsonData = JSON.parse(data);
+      const jsonData = JSON.parse(data).data;
       await writeFile(
         `./tmp/json/full/${file}.json`,
         JSON.stringify(jsonData),
-        "utf8"
+        "utf8",
       );
       const stats = await stat(`./tmp/json/full/${file}.json`);
       const originalStats = await stat(`./deploy/v2/${file}.json`);
@@ -60,7 +60,7 @@ async function processJson(file) {
           " kB (" +
           (Math.round(stats.size / 1024) -
             Math.round(originalStats.size / 1024)) +
-          " kB)"
+          " kB)",
       );
     } catch (err) {
       console.error("Error in fullJson:", err);
@@ -70,12 +70,12 @@ async function processJson(file) {
   async function miniJson(file) {
     try {
       const data = await readFile(`./deploy/v2/${file}.json`, "utf8");
-      const jsonData = JSON.parse(data);
+      const jsonData = JSON.parse(data).data;
       const cleanedData = removeReferences(jsonData);
       await writeFile(
         `./tmp/json/mini/${file}.json`,
         JSON.stringify(cleanedData),
-        "utf8"
+        "utf8",
       );
       const stats = await stat(`./tmp/json/mini/${file}.json`);
       const originalStats = await stat(`./deploy/v2/${file}.json`);
@@ -87,7 +87,7 @@ async function processJson(file) {
           " kB (" +
           (Math.round(stats.size / 1024) -
             Math.round(originalStats.size / 1024)) +
-          " kB)"
+          " kB)",
       );
     } catch (err) {
       console.error("Error in miniJson:", err);
@@ -97,13 +97,13 @@ async function processJson(file) {
   async function nanoJson(file) {
     try {
       const data = await readFile(`./deploy/v2/${file}.json`, "utf8");
-      const jsonData = JSON.parse(data);
+      const jsonData = JSON.parse(data).data;
       const referencesRemoved = removeReferences(jsonData);
       const cleanedData = removeDescriptions(referencesRemoved);
       await writeFile(
         `./tmp/json/nano/${file}.json`,
         JSON.stringify(cleanedData),
-        "utf8"
+        "utf8",
       );
       const stats = await stat(`./tmp/json/nano/${file}.json`);
       const originalStats = await stat(`./deploy/v2/${file}.json`);
@@ -115,7 +115,7 @@ async function processJson(file) {
           " kB (" +
           (Math.round(stats.size / 1024) -
             Math.round(originalStats.size / 1024)) +
-          " kB)"
+          " kB)",
       );
     } catch (err) {
       console.error("Error in nanoJson:", err);
@@ -139,7 +139,7 @@ function createCameras() {
         reject(err);
         return;
       }
-      // prettier-ignore
+      // biome-ignore format: legibility
       function makeUSD(
     hit
   ) {
@@ -197,7 +197,7 @@ function createCameras() {
         fs.mkdirSync(folder, { recursive: true });
       }
 
-      JSON.parse(data).forEach((element) => {
+      JSON.parse(data).data.forEach((element) => {
         if (!fs.existsSync(folder)) {
           fs.mkdirSync(folder, { recursive: true });
         }
@@ -243,7 +243,7 @@ function createLightsources() {
     // https://www.en.silicann.com/blog/post/nits-lux-lumen-candela-calculating-with-light-and-lighting/
     // https://dev.epicgames.com/documentation/en-us/unreal-engine/using-physical-lighting-units-in-unreal-engine#point,spot,andrectlights
     // https://seblagarde.wordpress.com/wp-content/uploads/2015/07/course_notes_moving_frostbite_to_pbr_v32.pdf
-    // prettier-ignore
+    // biome-ignore format: legibility
     const nits = lumen / (2 * Math.PI * (1 - Math.cos(beamAngle / 2 * Math.PI / 180)) * Math.pow(radius, 2)); // Works!
 
     return nits;
@@ -263,7 +263,7 @@ function createLightsources() {
     // Converts luminous flux (lm) to luminance (nits, or cd/m2). Radius and length are measured in meters.
     // p40 in https://seblagarde.wordpress.com/wp-content/uploads/2015/07/course_notes_moving_frostbite_to_pbr_v32.pdf
     // https://www.researchgate.net/publication/303720797_Solid_Angle_Sampling_of_Disk_and_Cylinder_Lights#pf4
-    // prettier-ignore
+    // biome-ignore format: legibility
     const nits = lumen / ((2 * Math.PI * radius * length + 4 * Math.PI * Math.pow(radius, 2)) * Math.PI); // This results in 4x intensity compared to Unreal for some reason.
 
     return nits;
@@ -279,7 +279,7 @@ function createLightsources() {
     // radius = distance * tan(coneAngleInRadians)
     // surfaceArea = pi * Math.pow(distance * tan(coneAngleInradians), 2)
     // lumen = lux * surfaceArea
-    // prettier-ignore
+    // biome-ignore format: legibility
     const lumen = lux * Math.PI * Math.pow(distance * Math.tan(((beamAngle / 2) * Math.PI) / 180), 2);
 
     return lumen;
@@ -301,7 +301,7 @@ function createLightsources() {
         reject(err);
         return;
       }
-      // prettier-ignore
+      // biome-ignore format: legibility
       function makeUSD(
     hit
   ) {
@@ -413,7 +413,7 @@ function createLightsources() {
         fs.mkdirSync(folder, { recursive: true });
       }
 
-      JSON.parse(data).forEach((element) => {
+      JSON.parse(data).data.forEach((element) => {
         const fileName =
           folder +
           element.name

@@ -17,7 +17,7 @@ function createFiles() {
         return;
       }
 
-      // prettier-ignore
+      // biome-ignore format: legibility
       function makeMaterialX ( hit ) {
         const baseColor = JSON.stringify(hit.color[0].color) !== JSON.stringify([0.8, 0.8, 0.8]) && !hit.transmission && !hit.subsurfaceRadius ? `    <input name="base_color" type="color3" value="${hit.color[0].color[0].toFixed(3)}, ${hit.color[0].color[1].toFixed(3)}, ${hit.color[0].color[2].toFixed(3)}" />\n` : "";
         const metalness = hit.metalness > 0 ? `    <input name="base_metalness" type="float" value="${hit.metalness.toFixed(1)}" />\n` : "";
@@ -79,8 +79,7 @@ function createFiles() {
         '</materialx>'
       );
   }
-
-      JSON.parse(data).forEach((element) => {
+      JSON.parse(data).data.forEach((element) => {
         if (!fs.existsSync(tempFolder)) {
           fs.mkdirSync(tempFolder, { recursive: true });
         }
