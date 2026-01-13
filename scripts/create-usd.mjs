@@ -3,7 +3,7 @@ import util from "node:util";
 import AdmZip from "adm-zip";
 
 const date = new Date().toISOString().split("T")[0];
-const outputFile = `Physically Based Database ${date}.zip`;
+const outputFile = `Physically_Based_${date}.zip`;
 const tempFolder = "./tmp/";
 const doc = `    doc = "Generated with data from https://api.physicallybased.info on ${date}"\n`;
 
@@ -44,7 +44,7 @@ async function processJson(file) {
   async function fullJson(file) {
     try {
       const data = await readFile(`./deploy/v2/${file}.json`, "utf8");
-      const jsonData = JSON.parse(data).data;
+      const jsonData = JSON.parse(data);
       await writeFile(
         `./tmp/json/full/${file}.json`,
         JSON.stringify(jsonData),
@@ -70,7 +70,7 @@ async function processJson(file) {
   async function miniJson(file) {
     try {
       const data = await readFile(`./deploy/v2/${file}.json`, "utf8");
-      const jsonData = JSON.parse(data).data;
+      const jsonData = JSON.parse(data);
       const cleanedData = removeReferences(jsonData);
       await writeFile(
         `./tmp/json/mini/${file}.json`,
@@ -97,7 +97,7 @@ async function processJson(file) {
   async function nanoJson(file) {
     try {
       const data = await readFile(`./deploy/v2/${file}.json`, "utf8");
-      const jsonData = JSON.parse(data).data;
+      const jsonData = JSON.parse(data);
       const referencesRemoved = removeReferences(jsonData);
       const cleanedData = removeDescriptions(referencesRemoved);
       await writeFile(

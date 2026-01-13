@@ -4,7 +4,7 @@
     "version": "2.0",
     "title": "Physically Based API",
     "summary": "A database of physically based values for CG artists.",
-    "description": "## Features\n\n- **Open Database**: Access a curated collection of physically based material values\n- **Lightweight**: The entire dataset is optimized for quick loading and integration as presets\n    - materials.json ```152 KB```\n    - lightsources.json ```27 KB```\n    - cameras.json ```152 KB```\n    - lenses.json (coming in v2.1)\n- **API Access**: Connect your tools to the API to get the latest updates from the database\n- **Community-Driven**: Contribute new materials or improve existing ones\n- **Free License**: All data is released under CC0 1.0\n\n## Implementations\n\nExplore the database through these implementations:\n\n- Blender [Photographer 5](https://chafouin.gumroad.com/l/photographer5) by [chafouin](https://mastodon.gamedev.place/@chafouin)\n- Web [MaterialXLab](https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html) by [kwokcb](https://github.com/kwokcb)\n- Web [Physically Based](https://physicallybased.info) by [AntonPalmqvist](https://github.com/AntonPalmqvist)\n- Web [Three.js GPU Path Tracer](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [gkjohnson](https://github.com/gkjohnson)\n\n## Contribute\n\nContributions are welcome! Whether you want to add new entries, corrections, or suggestions, your help is appreciated. See the [Github page](https://github.com/AntonPalmqvist/physically-based-api) for more info.\n\n## License\n\nThe database is made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes.\n\nShader ball used for renders is from [ASWF USD WG](https://github.com/usd-wg/assets/tree/main/full_assets/StandardShaderBall) and is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).",
+    "description": "## Features\n\n- **Open Database**: Access a curated collection of physically based material values\n- **Lightweight**: The entire dataset is optimized for quick loading and integration as presets\n    - materials.json ```161 KB```\n    - lightsources.json ```25 KB```\n    - cameras.json ```159 KB```\n    - lenses.json (coming in v2.1)\n- **API Access**: Connect your tools to the API to get the latest updates from the database\n- **Community-Driven**: Contribute new materials or improve existing ones\n- **Free License**: All data is released under CC0 1.0\n\n## Implementations\n\nExplore the database through these implementations:\n\n- Blender [Photographer 5](https://chafouin.gumroad.com/l/photographer5) by [chafouin](https://mastodon.gamedev.place/@chafouin)\n- Web [MaterialXLab](https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html) by [kwokcb](https://github.com/kwokcb)\n- Web [Physically Based](https://physicallybased.info) by [AntonPalmqvist](https://github.com/AntonPalmqvist)\n- Web [Three.js GPU Path Tracer](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [gkjohnson](https://github.com/gkjohnson)\n\n## Contribute\n\nContributions are welcome! Whether you want to add new entries, corrections, or suggestions, your help is appreciated. See the [Github page](https://github.com/AntonPalmqvist/physically-based-api) for more info.\n\n## License\n\nThe database is made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes.\n\nShader ball used for renders is from [ASWF USD WG](https://github.com/usd-wg/assets/tree/main/full_assets/StandardShaderBall) and is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).",
     "contact": {
       "url": "https://physicallybased.info/about",
       "name": "Form"
@@ -31,10 +31,6 @@
     {
       "name": "Cameras",
       "description": "Gets an array of all cameras."
-    },
-    {
-      "name": "Lenses",
-      "description": "Gets an array of all lenses."
     }
   ],
   "paths": {
@@ -125,37 +121,6 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Camera"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad Request"
-          }
-        },
-        "servers": [
-          {
-            "url": "https://api.physicallybased.info/v2"
-          }
-        ],
-        "security": []
-      }
-    },
-    "/lenses": {
-      "get": {
-        "tags": [
-          "Lenses"
-        ],
-        "summary": "Get lenses",
-        "description": "Gets an array of all lenses.",
-        "operationId": "get-lenses",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Lens"
                 }
               }
             }
@@ -1438,136 +1403,6 @@
                 ],
                 "tags": [
                   "netflix"
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "Lens": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "$schema",
-          "header",
-          "data"
-        ],
-        "properties": {
-          "$schema": {
-            "type": "string"
-          },
-          "header": {
-            "$ref": "#/components/schemas/header"
-          },
-          "data": {
-            "description": "An array of Lens objects.",
-            "type": "array",
-            "items": {
-              "title": "Lens",
-              "description": "Any type of lens that is being used, or simulated, in any way in CG productions (including games).",
-              "additionalProperties": false,
-              "type": "object",
-              "properties": {
-                "make": {
-                  "description": "Brand name.",
-                  "type": "string",
-                  "example": "Cooke"
-                },
-                "model": {
-                  "description": "Model name.",
-                  "type": "string",
-                  "example": "Varotal/i FF 30-95mm"
-                },
-                "focalLength": {
-                  "description": "Min and max focal length in millimeters. If it's a prime lens, set the same value twice.",
-                  "type": "array",
-                  "items": {
-                    "type": "number"
-                  },
-                  "example": [
-                    30,
-                    95
-                  ],
-                  "minItems": 2,
-                  "maxItems": 2
-                },
-                "aperture": {
-                  "description": "Max and min aperture size.",
-                  "type": "array",
-                  "items": {
-                    "type": "number"
-                  },
-                  "example": [
-                    2.9,
-                    22
-                  ],
-                  "minItems": 2,
-                  "maxItems": 2
-                },
-                "blades": {
-                  "description": "Number of diaphragm blades.",
-                  "type": "integer",
-                  "example": 9
-                },
-                "closeFocus": {
-                  "description": "Shortest distance from the sensor to the subject that the lens can achieve focus. Specified in centimeters.",
-                  "type": "number",
-                  "example": 80
-                },
-                "description": {
-                  "$ref": "#/components/schemas/description"
-                },
-                "tags": {
-                  "$ref": "#/components/schemas/tag"
-                },
-                "references": {
-                  "$ref": "#/components/schemas/reference"
-                }
-              },
-              "required": [
-                "make",
-                "model",
-                "focalLength",
-                "aperture",
-                "blades",
-                "references"
-              ]
-            }
-          }
-        },
-        "examples": [
-          {
-            "$schema": "../../schemas/components/schemas/Lens.json",
-            "header": {
-              "schemaVersion": 2,
-              "updated": 202512121608,
-              "license": "CC0 1.0 Universal",
-              "origin": "https://api.physicallybased.info"
-            },
-            "data": [
-              {
-                "make": "Cooke",
-                "model": "S8/i FF 18mm",
-                "focalLength": [
-                  18,
-                  18
-                ],
-                "aperture": [
-                  1.4,
-                  22
-                ],
-                "blades": 9,
-                "closeFocus": 60,
-                "references": [
-                  {
-                    "title": "Cooke S8/i FF",
-                    "publisher": "Cooke Optics Limited",
-                    "url": "https://cookeoptics.com/lens/s8-i-ff/",
-                    "accessed": "2026-01-10"
-                  }
-                ],
-                "tags": [
-                  "prime"
                 ]
               }
             ]
