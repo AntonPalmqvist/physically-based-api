@@ -4,9 +4,10 @@
 //           Mac:    "exiftool "-icc_profile<=sRGB2014.icc" -overwrite_original /Users/anton/Git/physically-based-web/static/images/renders/cycles/original"
 // TODO: Render OpenEXR originals (depends on OpenEXR support in sharp) https://github.com/lovell/sharp/issues/698
 
-const sharp = require("sharp");
-const fs = require("fs");
-const path = require("path");
+import fs from "node:fs";
+import path from "node:path";
+import sharp from "sharp";
+
 const renderFolder = process.argv[2] || "cycles";
 
 async function processImages() {
@@ -41,7 +42,7 @@ async function processImages() {
         const outputFileNameJpeg600 = `${path.parse(file).name}.jpeg`;
         const outputFileJpeg600 = path.join(
           resizedFolderPath600,
-          outputFileNameJpeg600
+          outputFileNameJpeg600,
         );
 
         const processJpeg600 = await sharp(imagePath)
@@ -56,7 +57,7 @@ async function processImages() {
         const outputFileNameJpeg300 = `${path.parse(file).name}.jpeg`;
         const outputFileJpeg300 = path.join(
           resizedFolderPath300,
-          outputFileNameJpeg300
+          outputFileNameJpeg300,
         );
 
         const processJpeg300 = await sharp(imagePath)
@@ -72,7 +73,7 @@ async function processImages() {
         const outputFileNameAVIF600 = `${path.parse(file).name}.avif`;
         const outputFileAVIF600 = path.join(
           resizedFolderPath600,
-          outputFileNameAVIF600
+          outputFileNameAVIF600,
         );
 
         const processAVIF600 = await sharp(imagePath)
@@ -87,7 +88,7 @@ async function processImages() {
         const outputFileNameAVIF300 = `${path.parse(file).name}.avif`;
         const outputFileAVIF300 = path.join(
           resizedFolderPath300,
-          outputFileNameAVIF300
+          outputFileNameAVIF300,
         );
 
         const processAVIF300 = await sharp(imagePath)
