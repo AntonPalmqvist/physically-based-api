@@ -1,7 +1,5 @@
 # Physically Based API
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/80daad71-95b1-40c0-be3f-df244e44d8b7/deploy-status)](https://app.netlify.com/sites/hardcore-dubinsky-99d96e/deploys)
-
 A database of physically based values for CG artists.
 
 <p align="center">
@@ -45,6 +43,9 @@ Contributions are welcome! Whether you want to add new entries, corrections, or 
 The database is made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes.
 
 Shader ball used for renders is from [ASWF USD WG](https://github.com/usd-wg/assets/tree/main/full_assets/StandardShaderBall) and is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/80daad71-95b1-40c0-be3f-df244e44d8b7/deploy-status)](https://app.netlify.com/sites/hardcore-dubinsky-99d96e/deploys)
+
 
 <!-- ## Shader Ball
 
