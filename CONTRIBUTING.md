@@ -8,19 +8,19 @@ If you have any questions or need guidance in addition to the guidelines outline
 
 The API consists of 3 JSON files:
 
-- [materials.json](https://github.com/AntonPalmqvist/physically-based-api/blob/main/deploy/v2/materials.json)
+- [materials.json](deploy/v2/materials.json)
 
-- [lightsources.json](https://github.com/AntonPalmqvist/physically-based-api/blob/main/deploy/v2/lightsources.json)
+- [lightsources.json](deploy/v2/lightsources.json)
 
-- [cameras.json](https://github.com/AntonPalmqvist/physically-based-api/blob/main/deploy/v2/cameras.json)
+- [cameras.json](deploy/v2/cameras.json)
 
 With corresponding schemas:
 
-- [Material.json](https://github.com/AntonPalmqvist/physically-based-api/blob/main/schemas/components/schemas/Material.json)
+- [Material.json](schemas/components/schemas/Material.json)
 
-- [Lightsource.json](https://github.com/AntonPalmqvist/physically-based-api/blob/main/schemas/components/schemas/Lightsource.json)
+- [Lightsource.json](schemas/components/schemas/Lightsource.json)
 
-- [Camera.json](https://github.com/AntonPalmqvist/physically-based-api/blob/main/schemas/components/schemas/Camera.json)
+- [Camera.json](schemas/components/schemas/Camera.json)
 
 ### Schemas
 
