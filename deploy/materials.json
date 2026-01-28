@@ -587,7 +587,7 @@
     "category": ["Metal"],
     "description": "",
     "sources": [
-      "https://refractiveindex.info/?shelf=main&book=Ag&page=Babar",
+      "https://refractiveindex.info/?shelf=main&book=Au&page=Babar",
       "https://arxiv.org/pdf/2512.23696#appendix.D",
       "https://en.wikipedia.org/wiki/Density"
     ],
