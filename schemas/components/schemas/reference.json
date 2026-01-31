@@ -1,0 +1,66 @@
+{
+  "description": "List of references. At least one reference needed.",
+  "type": "array",
+  "items": {
+    "additionalProperties": false,
+    "type": "object",
+    "properties": {
+      "title": {
+        "description": "Title of book, journal article, or website.",
+        "type": "string",
+        "example": "A Practical Model for Subsurface Light Transport"
+      },
+      "author": {
+        "description": "Name(s) of the authors of a book or journal article, or in the case of a webpage, the person or company that created the webpage. For editors, add \"(Ed.)\"",
+        "type": "string",
+        "example": "Jensen, H. W., Marschner, S. R., Levoy, M. & Hanrahan, P."
+      },
+      "url": {
+        "description": "Link to website, or other web resource where the information was found. For books and journals, this URL should be the one that the DOI is linking to.",
+        "type": "string",
+        "format": "uri",
+        "example": "https://dl.acm.org/doi/10.1145/383259.383319"
+      },
+      "publisher": {
+        "description": "Name of publisher or journal where published.",
+        "type": "string",
+        "example": "Proceedings of the 28th Annual Conference on Computer Graphics and Interactive Techniques"
+      },
+      "volume": {
+        "description": "Volume number. In relation to periodicals, volume refers to all the issues of a specific journal or magazine for a limited time period, usually one year. For books, volume indicates the order of a book in a series or set.",
+        "type": "string",
+        "example": "1"
+      },
+      "issue": {
+        "description": "Issue number. The issue number refers to the number of individual publications during the year.",
+        "type": "string",
+        "example": "100"
+      },
+      "pages": {
+        "description": "Pages in book or journal article, separated by double-hyphens. Can also be article number.",
+        "type": "string",
+        "example": "409--417"
+      },
+      "year": {
+        "description": "Year of publication. For webpages, use \"accessed\" instead.",
+        "type": "string",
+        "example": "2025"
+      },
+      "doi": {
+        "description": "Link to Digital Object Identifier (DOI).",
+        "type": "string",
+        "format": "uri",
+        "example": "https://doi.org/10.1145/383259.383319"
+      },
+      "accessed": {
+        "description": "Date the webpage was accessed.",
+        "type": "string",
+        "format": "date",
+        "example": "2025-01-31"
+      }
+    },
+    "required": ["url", "title"]
+  },
+  "minItems": 1,
+  "uniqueItems": true
+}

@@ -1,0 +1,22 @@
+{
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "colorSpace": {
+      "description": "The color space.",
+      "type": "string",
+      "example": "acescg"
+    },
+    "color": {
+      "description": "RGB triplet (vec3) in decimal format.",
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "example": [0.929, 0.788, 0.374],
+      "minItems": 3,
+      "maxItems": 3
+    }
+  },
+  "required": ["colorSpace", "color"]
+}

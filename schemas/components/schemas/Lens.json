@@ -1,0 +1,102 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "header", "data"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "header": { "$ref": "./header.json" },
+    "data": {
+      "description": "An array of Lens objects.",
+      "type": "array",
+      "items": {
+        "title": "Lens",
+        "description": "Any type of lens that is being used, or simulated, in any way in CG productions (including games).",
+        "additionalProperties": false,
+        "type": "object",
+        "properties": {
+          "make": {
+            "description": "Brand name.",
+            "type": "string",
+            "example": "Cooke"
+          },
+          "model": {
+            "description": "Model name.",
+            "type": "string",
+            "example": "Varotal/i FF 30-95mm"
+          },
+          "focalLength": {
+            "description": "Min and max focal length in millimeters. If it's a prime lens, set the same value twice.",
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "example": [30, 95],
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "aperture": {
+            "description": "Max and min aperture size.",
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "example": [2.9, 22],
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "blades": {
+            "description": "Number of diaphragm blades.",
+            "type": "integer",
+            "example": 9
+          },
+          "closeFocus": {
+            "description": "Shortest distance from the sensor to the subject that the lens can achieve focus. Specified in centimeters.",
+            "type": "number",
+            "example": 80
+          },
+          "description": { "$ref": "./description.json" },
+          "tags": { "$ref": "./tag.json" },
+          "references": { "$ref": "./reference.json" }
+        },
+        "required": [
+          "make",
+          "model",
+          "focalLength",
+          "aperture",
+          "blades",
+          "references"
+        ]
+      }
+    }
+  },
+  "examples": [
+    {
+      "$schema": "../../schemas/components/schemas/Lens.json",
+      "header": {
+        "schemaVersion": 2.0,
+        "updated": 202512121608,
+        "license": "CC0 1.0 Universal",
+        "origin": "https://api.physicallybased.info"
+      },
+      "data": [
+        {
+          "make": "Cooke",
+          "model": "S8/i FF 18mm",
+          "focalLength": [18, 18],
+          "aperture": [1.4, 22],
+          "blades": 9,
+          "closeFocus": 60,
+          "references": [
+            {
+              "title": "Cooke S8/i FF",
+              "publisher": "Cooke Optics Limited",
+              "url": "https://cookeoptics.com/lens/s8-i-ff/",
+              "accessed": "2026-01-10"
+            }
+          ],
+          "tags": ["prime"]
+        }
+      ]
+    }
+  ]
+}

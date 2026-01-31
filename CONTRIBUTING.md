@@ -4,28 +4,32 @@ Contributions of all kinds are welcome, such as pull requests and issues!
 
 If you have any questions or need guidance in addition to the guidelines outlined in this document, feel free to use the contact form at: [https://physicallybased.info/about/](https://physicallybased.info/about/)
 
-## Code
+## Developer Setup
 
 The API consists of 3 JSON files:
 
-- [materials.json](https://github.com/AntonPalmqvist/physically-based-api/blob/main/deploy/materials.json)
+- [materials.json](deploy/v2/materials.json)
 
-- [lightsources.json](https://github.com/AntonPalmqvist/physically-based-api/blob/main/deploy/lightsources.json)
+- [lightsources.json](deploy/v2/lightsources.json)
 
-- [cameras.json](https://github.com/AntonPalmqvist/physically-based-api/blob/main/deploy/materials.json)
+- [cameras.json](deploy/v2/cameras.json)
 
 With corresponding schemas:
 
-- [schema-materials.json](https://github.com/AntonPalmqvist/physically-based-api/blob/main/schema-materials.json)
+- [Material.json](schemas/components/schemas/Material.json)
 
-- [schema-lightsources.json](https://github.com/AntonPalmqvist/physically-based-api/blob/main/schema-lightsources.json)
+- [Lightsource.json](schemas/components/schemas/Lightsource.json)
 
-- [schema-cameras.json](https://github.com/AntonPalmqvist/physically-based-api/blob/main/schema-cameras.json)
+- [Camera.json](schemas/components/schemas/Camera.json)
 
-### Developer Setup
+### Schemas
 
-If you're using Visual Studio Code, make sure to open the project using the [workspace file](https://github.com/AntonPalmqvist/physically-based-api/blob/main/workspace.code-workspace) in order to use linting from the schema files.
+If you're using Visual Studio Code, the json schemas will work automatically.
 
-### Formatting
+### Installation
 
-The preferred code formatter is: [https://prettier.io/](https://prettier.io/)
+If you want to contribute to something other than the database files, make sure you have Node.js installed and then run ```npm install``` to get the development environment set up.
+
+### Formatting and linting
+
+This project uses [Biome](https://biomejs.dev/) for both formatting and linting.

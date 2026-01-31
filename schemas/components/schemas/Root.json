@@ -1,0 +1,160 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "version": "2.0",
+    "title": "Physically Based API",
+    "summary": "A database of physically based values for CG artists.",
+    "description": "## Features\n\n- **Open Database**: Access a curated collection of physically based material values\n- **Lightweight**: The entire dataset is optimized for quick loading and integration as presets\n    - materials.json ```161 KB```\n    - lightsources.json ```25 KB```\n    - cameras.json ```159 KB```\n    - lenses.json (coming in v2.1)\n- **API Access**: Connect your tools to the API to get the latest updates from the database\n- **Community-Driven**: Contribute new materials or improve existing ones\n- **Free License**: All data is released under CC0 1.0\n\n## Implementations\n\nExplore the database through these implementations:\n\n- Blender [Photographer 5](https://chafouin.gumroad.com/l/photographer5) by [chafouin](https://mastodon.gamedev.place/@chafouin)\n- Web [MaterialXLab](https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html) by [kwokcb](https://github.com/kwokcb)\n- Web [Physically Based](https://physicallybased.info) by [AntonPalmqvist](https://github.com/AntonPalmqvist)\n- Web [Three.js GPU Path Tracer](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [gkjohnson](https://github.com/gkjohnson)\n\n## Contribute\n\nContributions are welcome! Whether you want to add new entries, corrections, or suggestions, your help is appreciated. See the [Github page](https://github.com/AntonPalmqvist/physically-based-api) for more info.\n\n## License\n\nThe database is made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes.\n\nShader ball used for renders is from [ASWF USD WG](https://github.com/usd-wg/assets/tree/main/full_assets/StandardShaderBall) and is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).",
+    "contact": {
+      "url": "https://physicallybased.info/about",
+      "name": "Form"
+    },
+    "license": {
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "name": "CC0 1.0"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://api.physicallybased.info/v2"
+    }
+  ],
+  "paths": {
+    "/materials": {
+      "get": {
+        "tags": ["Materials"],
+        "summary": "Get materials",
+        "description": "Gets an array of all materials.",
+        "operationId": "get-materials",
+        "requestBody": {
+          "description": "",
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "./Material.json"
+                }
+              }
+            }
+          },
+          "400": { "description": "Bad Request" }
+        },
+        "servers": [
+          {
+            "url": "https://api.physicallybased.info/v2"
+          }
+        ],
+        "security": []
+      }
+    },
+    "/lightsources": {
+      "get": {
+        "tags": ["Light Sources"],
+        "summary": "Get light sources",
+        "description": "Gets an array of all light sources.",
+        "operationId": "get-lightsources",
+        "requestBody": {
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "./Lightsource.json"
+                }
+              }
+            }
+          },
+          "400": { "description": "Bad Request" }
+        },
+        "servers": [
+          {
+            "url": "https://api.physicallybased.info/v2"
+          }
+        ],
+        "security": []
+      }
+    },
+    "/cameras": {
+      "get": {
+        "tags": ["Cameras"],
+        "summary": "Get cameras",
+        "description": "Gets an array of all cameras.",
+        "operationId": "get-cameras",
+        "requestBody": {
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "./Camera.json"
+                }
+              }
+            }
+          },
+          "400": { "description": "Bad Request" }
+        },
+        "servers": [
+          {
+            "url": "https://api.physicallybased.info/v2"
+          }
+        ],
+        "security": []
+      }
+    },
+    "/lenses": {
+      "get": {
+        "tags": ["Lenses"],
+        "summary": "Get lenses",
+        "description": "Gets an array of all lenses.",
+        "operationId": "get-lenses",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "./Lens.json"
+                }
+              }
+            }
+          },
+          "400": { "description": "Bad Request" }
+        },
+        "servers": [
+          {
+            "url": "https://api.physicallybased.info/v2"
+          }
+        ],
+        "security": []
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Materials",
+      "description": "Gets an array of all materials."
+    },
+    {
+      "name": "Light Sources",
+      "description": "Gets an array of all light sources."
+    },
+    {
+      "name": "Cameras",
+      "description": "Gets an array of all cameras."
+    },
+    {
+      "name": "Lenses",
+      "description": "Gets an array of all lenses."
+    }
+  ]
+}

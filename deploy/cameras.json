@@ -681,7 +681,7 @@
     "sources": [
       "https://www.arri.com/en/camera-systems/cameras/alexa-35",
       "https://www.arri.com/resource/blob/296424/88454a5a3dee9fe1d3fd68e75aa3411e/alexa-35-recording-format-poster-data.pdf",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
+      "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf"
     ],
     "tags": ["netflix"]
   },
@@ -743,7 +743,7 @@
     "description": "",
     "sources": [
       "https://www.arrirental.com/en/cameras/exclusive-cameras/alexa-65",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf",
+      "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras"
     ],
     "tags": ["imax", "netflix"]
@@ -856,7 +856,7 @@
     "description": "",
     "sources": [
       "https://www.arri.com/en/camera-systems/cameras/amira",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
+      "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf"
     ],
     "tags": ["super 35"]
   },
@@ -919,7 +919,7 @@
     "sources": [
       "https://www.arri.com/en/camera-systems/cameras/alexa-lf",
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
+      "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf"
     ],
     "tags": ["super 35", "imax", "netflix"]
   },
@@ -1031,7 +1031,7 @@
     "description": "",
     "sources": [
       "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-mini",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
+      "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf"
     ],
     "tags": ["super 35"]
   },
@@ -1146,7 +1146,7 @@
     "sources": [
       "https://www.arri.com/en/camera-systems/cameras/alexa-mini-lf",
       "https://en.wikipedia.org/wiki/IMAX#Film_cameras",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
+      "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf"
     ],
     "tags": ["super 35", "imax", "netflix"]
   },
@@ -1278,9 +1278,38 @@
     "description": "",
     "sources": [
       "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-sxt-w",
-      "https://www.arri.com/resource/blob/277386/a8ebd70f6105162b541bc39f4ad098b5/2022-05-arri-formatsandresolutionsoverview-4-4-data.pdf"
+      "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf"
     ],
     "tags": ["super 35"]
+  },
+  {
+    "name": "Arri Arriflex 765",
+    "sensorSize": [
+      {
+        "format": "2.2:1",
+        "size": [48.5, 22],
+        "resolution": [
+          {
+            "format": "12K",
+            "size": [12288, 5585]
+          },
+          {
+            "format": "8K",
+            "size": [8192, 3724]
+          },
+          {
+            "format": "4K",
+            "size": [4096, 1862]
+          }
+        ]
+      }
+    ],
+    "category": ["Movie"],
+    "sources": [
+      "https://www.arrirental.com/en/cameras/analog-film/arriflex-765",
+      "https://en.wikipedia.org/w/index.php?title=Arriflex_765&oldid=1232316873"
+    ],
+    "tags": ["imax", "film"]
   },
   {
     "name": "Blackmagic Cinema Camera 6K",
@@ -2178,6 +2207,48 @@
     "tags": ["full frame", "mirrorless"]
   },
   {
+    "name": "Canon EOS R6 Mark III",
+    "sensorSize": [
+      {
+        "format": "Full Frame",
+        "size": [35.9, 23.9],
+        "resolution": [
+          {
+            "format": "7K Open Gate RAW 3:2",
+            "size": [6960, 4840]
+          },
+          {
+            "format": "7K RAW 17:9",
+            "size": [6960, 4640]
+          },
+          {
+            "format": "4K DCI 17:9",
+            "size": [4096, 2160]
+          },
+          {
+            "format": "4K UHD 16:9",
+            "size": [3840, 2160]
+          },
+          {
+            "format": "2K DCI 17:9",
+            "size": [2048, 1080]
+          },
+          {
+            "format": "2K UHD 16:9",
+            "size": [1920, 1080]
+          }
+        ]
+      }
+    ],
+    "category": ["Still"],
+    "sources": [
+      "https://www.usa.canon.com/shop/p/eos-r6-mark-iii",
+      "https://s7d1.scene7.com/is/content/canon/EOSR6-Mark3-Spec-Sheetpdf",
+      "https://github.com/AcademySoftwareFoundation/rawtoaces-data/blob/main/data/camera/Canon_EOS_R6_380_780_5.json"
+    ],
+    "tags": ["full frame", "mirrorless"]
+  },
+  {
     "name": "DJI Inspire 3 Zenmuse X9-8K Air",
     "sensorSize": [
       {
@@ -2579,16 +2650,292 @@
     "name": "Fujifilm GFX Eterna 55",
     "sensorSize": [
       {
-        "format": "Open Gate",
-        "size": [43.8, 32.9]
+        "format": "GF 4K 4:3 Open Gate",
+        "size": [43.63, 32.71],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [3840, 2880]
+          }
+        ]
+      },
+      {
+        "format": "GF Cine 5.8K",
+        "size": [43.8, 18.32],
+        "resolution": [
+          {
+            "format": "5.8K",
+            "size": [5834, 2436]
+          }
+        ]
+      },
+      {
+        "format": "GF DCI 4K",
+        "size": [43.63, 23.01],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [4096, 2160]
+          }
+        ]
+      },
+      {
+        "format": "GF 4K",
+        "size": [43.63, 24.55],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          }
+        ]
+      },
+      {
+        "format": "GF DCI FHD",
+        "size": [43.63, 23.01],
+        "resolution": [
+          {
+            "format": "FHD",
+            "size": [2048, 1080]
+          }
+        ]
+      },
+      {
+        "format": "GF FHD",
+        "size": [43.63, 24.55],
+        "resolution": [
+          {
+            "format": "FHD",
+            "size": [1920, 1080]
+          }
+        ]
+      },
+      {
+        "format": "Premista 5.4K",
+        "size": [40.91, 21.57],
+        "resolution": [
+          {
+            "format": "5.4K",
+            "size": [5440, 2868]
+          }
+        ]
+      },
+      {
+        "format": "Premista DCI 4K",
+        "size": [40.27, 21.23],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [4096, 2160]
+          }
+        ]
+      },
+      {
+        "format": "Premista 4K",
+        "size": [40.27, 22.65],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          }
+        ]
+      },
+      {
+        "format": "Premista DCI FHD",
+        "size": [40.27, 21.23],
+        "resolution": [
+          {
+            "format": "FHD",
+            "size": [2048, 1080]
+          }
+        ]
+      },
+      {
+        "format": "Premista FHD",
+        "size": [40.27, 22.65],
+        "resolution": [
+          {
+            "format": "FHD",
+            "size": [1920, 1080]
+          }
+        ]
+      },
+      {
+        "format": "35mm 4.8K 3:2",
+        "size": [35.92, 23.94],
+        "resolution": [
+          {
+            "format": "4.8K",
+            "size": [4776, 3184]
+          }
+        ]
+      },
+      {
+        "format": "35mm 4.8K 16:9",
+        "size": [35.92, 20.21],
+        "resolution": [
+          {
+            "format": "4.8K",
+            "size": [4776, 2688]
+          }
+        ]
+      },
+      {
+        "format": "35mm DCI 4K",
+        "size": [35.92, 18.95],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [4096, 2160]
+          }
+        ]
+      },
+      {
+        "format": "35mm 4K",
+        "size": [35.92, 20.21],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          }
+        ]
+      },
+      {
+        "format": "35mm DCI FHD",
+        "size": [35.92, 18.95],
+        "resolution": [
+          {
+            "format": "FHD",
+            "size": [2048, 1080]
+          }
+        ]
+      },
+      {
+        "format": "35mm FHD",
+        "size": [35.92, 20.2],
+        "resolution": [
+          {
+            "format": "FHD",
+            "size": [1920, 1080]
+          }
+        ]
+      },
+      {
+        "format": "Anamorphic (35mm) 8K (2.76:1)",
+        "size": [35.07, 25.42],
+        "resolution": [
+          {
+            "format": "8K",
+            "size": [8192, 2968]
+          }
+        ]
+      },
+      {
+        "format": "Anamorphic (35mm) 8K (2.39:1)",
+        "size": [30.38, 25.42],
+        "resolution": [
+          {
+            "format": "8K",
+            "size": [8080, 3380]
+          }
+        ]
+      },
+      {
+        "format": "Anamorphic (35mm) 4.6K (1.38:1)",
+        "size": [35.07, 25.42],
+        "resolution": [
+          {
+            "format": "4.6K",
+            "size": [4664, 3380]
+          }
+        ]
+      },
+      {
+        "format": "Anamorphic (35mm) 4.6K (1.20:1)",
+        "size": [30.38, 25.42],
+        "resolution": [
+          {
+            "format": "4.6K",
+            "size": [4040, 3380]
+          }
+        ]
+      },
+      {
+        "format": "DCI 8K",
+        "size": [30.8, 16.24],
+        "resolution": [
+          {
+            "format": "8K",
+            "size": [8192, 4320]
+          }
+        ]
+      },
+      {
+        "format": "8K",
+        "size": [28.88, 16.24],
+        "resolution": [
+          {
+            "format": "8K",
+            "size": [7680, 4320]
+          }
+        ]
+      },
+      {
+        "format": "Super 35 6.3K",
+        "size": [24, 13.5],
+        "resolution": [
+          {
+            "format": "6.3K",
+            "size": [6382, 3590]
+          }
+        ]
+      },
+      {
+        "format": "Super 35 DCI 4K",
+        "size": [24, 12.66],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [4096, 2160]
+          }
+        ]
+      },
+      {
+        "format": "Super 35 4K",
+        "size": [24, 13.5],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [3840, 2160]
+          }
+        ]
+      },
+      {
+        "format": "Super 35 DCI FHD",
+        "size": [24, 12.63],
+        "resolution": [
+          {
+            "format": "FHD",
+            "size": [2048, 1080]
+          }
+        ]
+      },
+      {
+        "format": "Super 35 FHD",
+        "size": [24, 13.49],
+        "resolution": [
+          {
+            "format": "FHD",
+            "size": [1920, 1080]
+          }
+        ]
       }
     ],
     "category": ["Movie"],
-    "description": "",
     "sources": [
       "https://www.fujifilm-x.com/en-us/products/cameras/gfx-eterna-55/specifications/",
       "https://www.fujifilm.com/us/en/news/digital-cameras/fujifilm-first-digital-filmmaking-camera-gfx-eterna",
-      "https://www.dpreview.com/news/9178470454/fujifilm-gfx-eterna-cinema-camera-medium-format-sensor"
+      "https://www.dpreview.com/news/9178470454/fujifilm-gfx-eterna-cinema-camera-medium-format-sensor",
+      "https://shopusa.fujifilm-x.com/gfx-eterna-55-filmmaking-camera-16969715/"
     ],
     "tags": ["full frame"]
   },
@@ -3640,6 +3987,94 @@
     "tags": ["imax", "netflix"]
   },
   {
+    "name": "Phantom 65",
+    "sensorSize": [
+      {
+        "format": "Full Frame 2.2:1",
+        "size": [51.2, 30.5],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [4096, 2440]
+          }
+        ]
+      }
+    ],
+    "category": ["Movie"],
+    "sources": [
+      "https://www.lovehighspeed.com/wp-content/uploads/2017/01/Phantom-65HD-Manual.pdf",
+      "https://en.wikipedia.org/w/index.php?title=Vision_Research_(company)&oldid=1307029849",
+      "https://en.wikipedia.org/w/index.php?title=Phantom_(high-speed_camera_brand)&oldid=1278059321",
+      "https://en.wikipedia.org/w/index.php?title=IMAX&oldid=1323448173#Phantom_65_IMAX_3D_digital_camera"
+    ],
+    "tags": ["imax"]
+  },
+  {
+    "name": "Phantom Flex4K",
+    "sensorSize": [
+      {
+        "format": "4K Super 35 16:9",
+        "size": [27.6, 15.5],
+        "resolution": [
+          {
+            "format": "4K",
+            "size": [4096, 2304]
+          }
+        ]
+      },
+      {
+        "format": "2K Windowed",
+        "size": [13.8, 7.29],
+        "resolution": [
+          {
+            "format": "DCI 2K",
+            "size": [2048, 1080]
+          }
+        ]
+      }
+    ],
+    "category": ["Movie"],
+    "sources": [
+      "https://www.phantomhighspeed.com/-/media/project/ameteksxa/visionresearch/documents/manuals/flex4kmanual.pdf",
+      "https://www.phantomhighspeed.com/-/media/project/ameteksxa/visionresearch/documents/datasheets/web/wdsflex4k.pdf",
+      "https://en.wikipedia.org/w/index.php?title=Vision_Research_(company)&oldid=1307029849",
+      "https://en.wikipedia.org/w/index.php?title=Phantom_(high-speed_camera_brand)&oldid=1278059321"
+    ],
+    "tags": ["super 35"]
+  },
+  {
+    "name": "Phantom HD",
+    "sensorSize": [
+      {
+        "format": "Full Frame 1:1",
+        "size": [25.6, 25.6],
+        "resolution": [
+          {
+            "format": "2K",
+            "size": [2048, 2048]
+          }
+        ]
+      },
+      {
+        "format": "Super 35 1.85:1",
+        "size": [25.6, 13.85],
+        "resolution": [
+          {
+            "format": "2K",
+            "size": [2048, 1108]
+          }
+        ]
+      }
+    ],
+    "category": ["Movie"],
+    "sources": [
+      "https://www.lovehighspeed.com/wp-content/uploads/2017/01/Phantom-65HD-Manual.pdf",
+      "https://en.wikipedia.org/w/index.php?title=Vision_Research_(company)&oldid=1307029849",
+      "https://en.wikipedia.org/w/index.php?title=Phantom_(high-speed_camera_brand)&oldid=1278059321"
+    ],
+    "tags": ["super 35"]
+  },
+  {
     "name": "RED Dragon",
     "sensorSize": [
       {
@@ -4410,8 +4845,8 @@
       "https://docs.red.com/955-0177_v7.4/DSMC2_DRAGON_7_4/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatWeaponDragon.htm",
       "https://docs.red.com/955-0181_v7.4/DSMC2_DRAGONX_7_4/Content/5_Advanced_Menus/1_Settings/Project/FormatScarletWDragon.htm",
       "https://docs.red.com/955-0116_v7.4/SCARLET_DRAGON_7_4/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatScarletWDragon.htm",
-      "http://docs.red.com/955-0156/EPICSCARLETOperationGuide/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatScarletDragon.htm",
-      "http://docs.red.com/955-0156/EPICSCARLETOperationGuide/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatEpicDragon.htm",
+      "https://docs.red.com/955-0156/EPICSCARLETOperationGuide/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatScarletDragon.htm",
+      "https://docs.red.com/955-0156/EPICSCARLETOperationGuide/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatEpicDragon.htm",
       "https://www.red.com/dsmc2"
     ],
     "tags": ["super 35", "netflix"]

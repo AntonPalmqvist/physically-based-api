@@ -1,0 +1,1414 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "version": "2.0",
+    "title": "Physically Based API",
+    "summary": "A database of physically based values for CG artists.",
+    "description": "## Features\n\n- **Open Database**: Access a curated collection of physically based material values\n- **Lightweight**: The entire dataset is optimized for quick loading and integration as presets\n    - materials.json ```161 KB```\n    - lightsources.json ```25 KB```\n    - cameras.json ```159 KB```\n    - lenses.json (coming in v2.1)\n- **API Access**: Connect your tools to the API to get the latest updates from the database\n- **Community-Driven**: Contribute new materials or improve existing ones\n- **Free License**: All data is released under CC0 1.0\n\n## Implementations\n\nExplore the database through these implementations:\n\n- Blender [Photographer 5](https://chafouin.gumroad.com/l/photographer5) by [chafouin](https://mastodon.gamedev.place/@chafouin)\n- Web [MaterialXLab](https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html) by [kwokcb](https://github.com/kwokcb)\n- Web [Physically Based](https://physicallybased.info) by [AntonPalmqvist](https://github.com/AntonPalmqvist)\n- Web [Three.js GPU Path Tracer](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [gkjohnson](https://github.com/gkjohnson)\n\n## Contribute\n\nContributions are welcome! Whether you want to add new entries, corrections, or suggestions, your help is appreciated. See the [Github page](https://github.com/AntonPalmqvist/physically-based-api) for more info.\n\n## License\n\nThe database is made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes.\n\nShader ball used for renders is from [ASWF USD WG](https://github.com/usd-wg/assets/tree/main/full_assets/StandardShaderBall) and is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).",
+    "contact": {
+      "url": "https://physicallybased.info/about",
+      "name": "Form"
+    },
+    "license": {
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "name": "CC0 1.0"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://api.physicallybased.info/v2"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Materials",
+      "description": "Gets an array of all materials."
+    },
+    {
+      "name": "Light Sources",
+      "description": "Gets an array of all light sources."
+    },
+    {
+      "name": "Cameras",
+      "description": "Gets an array of all cameras."
+    }
+  ],
+  "paths": {
+    "/materials": {
+      "get": {
+        "tags": [
+          "Materials"
+        ],
+        "summary": "Get materials",
+        "description": "Gets an array of all materials.",
+        "operationId": "get-materials",
+        "requestBody": {
+          "description": "",
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Material"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        },
+        "servers": [
+          {
+            "url": "https://api.physicallybased.info/v2"
+          }
+        ],
+        "security": []
+      }
+    },
+    "/lightsources": {
+      "get": {
+        "tags": [
+          "Light Sources"
+        ],
+        "summary": "Get light sources",
+        "description": "Gets an array of all light sources.",
+        "operationId": "get-lightsources",
+        "requestBody": {
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Lightsource"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        },
+        "servers": [
+          {
+            "url": "https://api.physicallybased.info/v2"
+          }
+        ],
+        "security": []
+      }
+    },
+    "/cameras": {
+      "get": {
+        "tags": [
+          "Cameras"
+        ],
+        "summary": "Get cameras",
+        "description": "Gets an array of all cameras.",
+        "operationId": "get-cameras",
+        "requestBody": {
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Camera"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        },
+        "servers": [
+          {
+            "url": "https://api.physicallybased.info/v2"
+          }
+        ],
+        "security": []
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "header": {
+        "additionalProperties": false,
+        "type": "object",
+        "description": "Metadata",
+        "properties": {
+          "schemaVersion": {
+            "description": "Schema version.",
+            "type": "number",
+            "example": 2
+          },
+          "updated": {
+            "description": "Date updated, in YYYYMMDDHHmm format.",
+            "type": "number",
+            "example": 202512121608
+          },
+          "license": {
+            "description": "License information.",
+            "type": "string",
+            "const": "CC0 1.0 Universal"
+          },
+          "origin": {
+            "description": "URL to the source of this JSON file.",
+            "type": "string",
+            "const": "https://api.physicallybased.info"
+          }
+        },
+        "required": [
+          "schemaVersion",
+          "updated",
+          "license",
+          "origin"
+        ]
+      },
+      "color": {
+        "additionalProperties": false,
+        "type": "object",
+        "properties": {
+          "colorSpace": {
+            "description": "The color space.",
+            "type": "string",
+            "example": "acescg"
+          },
+          "color": {
+            "description": "RGB triplet (vec3) in decimal format.",
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "example": [
+              0.929,
+              0.788,
+              0.374
+            ],
+            "minItems": 3,
+            "maxItems": 3
+          }
+        },
+        "required": [
+          "colorSpace",
+          "color"
+        ]
+      },
+      "description": {
+        "type": "string",
+        "description": "This field should be used for disclaimers and other useful info for CG artists that may affect the way they use the values. It's totally fine to leave this empty.",
+        "maxLength": 500
+      },
+      "tag": {
+        "description": "Tags for alternative names or spellings.",
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "uniqueItems": true
+      },
+      "reference": {
+        "description": "List of references. At least one reference needed.",
+        "type": "array",
+        "items": {
+          "additionalProperties": false,
+          "type": "object",
+          "properties": {
+            "title": {
+              "description": "Title of book, journal article, or website.",
+              "type": "string",
+              "example": "A Practical Model for Subsurface Light Transport"
+            },
+            "author": {
+              "description": "Name(s) of the authors of a book or journal article, or in the case of a webpage, the person or company that created the webpage. For editors, add \"(Ed.)\"",
+              "type": "string",
+              "example": "Jensen, H. W., Marschner, S. R., Levoy, M. & Hanrahan, P."
+            },
+            "url": {
+              "description": "Link to website, or other web resource where the information was found. For books and journals, this URL should be the one that the DOI is linking to.",
+              "type": "string",
+              "format": "uri",
+              "example": "https://dl.acm.org/doi/10.1145/383259.383319"
+            },
+            "publisher": {
+              "description": "Name of publisher or journal where published.",
+              "type": "string",
+              "example": "Proceedings of the 28th Annual Conference on Computer Graphics and Interactive Techniques"
+            },
+            "volume": {
+              "description": "Volume number. In relation to periodicals, volume refers to all the issues of a specific journal or magazine for a limited time period, usually one year. For books, volume indicates the order of a book in a series or set.",
+              "type": "string",
+              "example": "1"
+            },
+            "issue": {
+              "description": "Issue number. The issue number refers to the number of individual publications during the year.",
+              "type": "string",
+              "example": "100"
+            },
+            "pages": {
+              "description": "Pages in book or journal article, separated by double-hyphens. Can also be article number.",
+              "type": "string",
+              "example": "409--417"
+            },
+            "year": {
+              "description": "Year of publication. For webpages, use \"accessed\" instead.",
+              "type": "string",
+              "example": "2025"
+            },
+            "doi": {
+              "description": "Link to Digital Object Identifier (DOI).",
+              "type": "string",
+              "format": "uri",
+              "example": "https://doi.org/10.1145/383259.383319"
+            },
+            "accessed": {
+              "description": "Date the webpage was accessed.",
+              "type": "string",
+              "format": "date",
+              "example": "2025-01-31"
+            }
+          },
+          "required": [
+            "url",
+            "title"
+          ]
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "Material": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "$schema",
+          "header",
+          "data"
+        ],
+        "properties": {
+          "$schema": {
+            "type": "string"
+          },
+          "header": {
+            "$ref": "#/components/schemas/header"
+          },
+          "data": {
+            "description": "An array of Material objects.",
+            "type": "array",
+            "items": {
+              "title": "Material",
+              "description": "A material with parameters for shading, physics simulation, and fluid simulation.",
+              "additionalProperties": false,
+              "type": "object",
+              "properties": {
+                "name": {
+                  "description": "Name of the material.",
+                  "type": "string",
+                  "example": "Gold"
+                },
+                "color": {
+                  "description": "Specifies the diffuse or metallic reflectance color, or in the case of a transparent material, transmission color.",
+                  "type": "array",
+                  "minItems": 1,
+                  "uniqueItems": true,
+                  "items": {
+                    "$ref": "#/components/schemas/color"
+                  }
+                },
+                "metalness": {
+                  "description": "Specifies how metallic the material appears (dials the shading model from pure dielectric to pure metal).",
+                  "type": "number",
+                  "example": 1
+                },
+                "specularColor": {
+                  "description": "Color of the specular reflection for metals, specified in the \"Gulbrandsen edge tint\", and \"F82\" formats. Calculated from spectral data using scripts from https://github.com/natyh/material-params and https://github.com/portsmouth/F82-tint-generator",
+                  "type": "array",
+                  "minItems": 2,
+                  "uniqueItems": true,
+                  "items": {
+                    "additionalProperties": false,
+                    "type": "object",
+                    "properties": {
+                      "format": {
+                        "type": "array",
+                        "items": {
+                          "enum": [
+                            "Gulbrandsen",
+                            "F82"
+                          ]
+                        },
+                        "minItems": 1,
+                        "maxItems": 1
+                      },
+                      "color": {
+                        "type": "array",
+                        "minItems": 1,
+                        "uniqueItems": true,
+                        "items": {
+                          "$ref": "#/components/schemas/color"
+                        }
+                      }
+                    },
+                    "required": [
+                      "format",
+                      "color"
+                    ]
+                  }
+                },
+                "roughness": {
+                  "description": "The roughness of the specular reflection. Lower numbers produce sharper reflections, higher numbers produce blurrier reflections.",
+                  "type": "number",
+                  "example": 0
+                },
+                "ior": {
+                  "description": "Index of refraction of a dielectric material. Does not apply to metals (conductors).",
+                  "type": "number",
+                  "example": 1.5
+                },
+                "subsurfaceRadius": {
+                  "description": "The approximate distance up to which light can scatter below the surface, also known as “mean free path” (MFP). Specified in centimeters.",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "example": [
+                    1.842,
+                    1.044,
+                    0.35
+                  ],
+                  "minItems": 3,
+                  "maxItems": 3
+                },
+                "transmission": {
+                  "description": "Specifies the transparency of the material.",
+                  "type": "number",
+                  "example": 1
+                },
+                "transmissionDepth": {
+                  "description": "Controls the depth into the volume at which the Transmission Color is realized.",
+                  "type": "number",
+                  "example": 0.1
+                },
+                "transmissionDispersion": {
+                  "description": "Abbe number, describing how much the index of refraction varies across wavelengths. For glass and diamonds, this is typically in the range of 10 to 70, with lower numbers giving more dispersion.",
+                  "type": "number",
+                  "example": 64
+                },
+                "complexIor": {
+                  "description": "Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel. Calculated from spectral IOR data files with script from https://github.com/natyh/material-params",
+                  "type": "array",
+                  "minItems": 1,
+                  "uniqueItems": true,
+                  "items": {
+                    "additionalProperties": false,
+                    "type": "object",
+                    "properties": {
+                      "colorSpace": {
+                        "description": "The color space for which the n and k values have been calculated for.",
+                        "type": "string",
+                        "example": "srgb-linear"
+                      },
+                      "n": {
+                        "description": "N values for each RGB color channel.",
+                        "type": "array",
+                        "items": {
+                          "type": "number"
+                        },
+                        "example": [
+                          0,
+                          0.351563,
+                          1.85894
+                        ],
+                        "minItems": 3,
+                        "maxItems": 3
+                      },
+                      "k": {
+                        "description": "K values for each RGB color channel.",
+                        "type": "array",
+                        "items": {
+                          "type": "number"
+                        },
+                        "example": [
+                          6.59401,
+                          2.08143,
+                          1.49631
+                        ],
+                        "minItems": 3,
+                        "maxItems": 3
+                      }
+                    },
+                    "required": [
+                      "colorSpace",
+                      "n",
+                      "k"
+                    ]
+                  }
+                },
+                "thinFilmThickness": {
+                  "description": "The thickness of the thin film layer on the base (in nanometers). If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common thickness.",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "example": [
+                    10,
+                    1000,
+                    500
+                  ],
+                  "minItems": 1,
+                  "maxItems": 3
+                },
+                "thinFilmIor": {
+                  "description": "The index of refraction of the thin-film.",
+                  "type": "number",
+                  "example": 1.5
+                },
+                "density": {
+                  "description": "Density measured in kg/m3. If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common density.",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "example": [
+                    1380,
+                    1450,
+                    1400
+                  ],
+                  "minItems": 1,
+                  "maxItems": 3
+                },
+                "viscosity": {
+                  "description": "Dynamic viscosity measured in millipascal-seconds (mPa⋅s) at a temperature of 20°C. 1 mPa⋅s (millipascal-second) = 1 cP (centipoise). If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common viscosity.",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "example": [
+                    2000,
+                    15000,
+                    10000
+                  ],
+                  "minItems": 1,
+                  "maxItems": 3
+                },
+                "surfaceTension": {
+                  "description": "Surface tension measured in millinewton per meter (mN/m) at a temperature of 20°C. 1 mN/m = 1 dyn/cm.",
+                  "type": "number",
+                  "example": 72
+                },
+                "acousticAbsorption": {
+                  "description": "Absorption coefficients at 125, 250, 500, 1000, 2000, and 4000 kHz.",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "example": [
+                    0.008,
+                    0.008,
+                    0.013,
+                    0.015,
+                    0.02,
+                    0.025
+                  ],
+                  "minItems": 6,
+                  "maxItems": 6
+                },
+                "category": {
+                  "type": "array",
+                  "items": {
+                    "enum": [
+                      "Crystal",
+                      "Gas",
+                      "Human",
+                      "Liquid",
+                      "Manmade",
+                      "Metal",
+                      "Organic",
+                      "Plastic"
+                    ]
+                  },
+                  "minItems": 1,
+                  "maxItems": 1
+                },
+                "group": {
+                  "description": "Can be used to group similar materials together. For example, Skin I, Skin II, and Skin III would be part of the same group: Skin.",
+                  "type": "string",
+                  "example": "Skin"
+                },
+                "description": {
+                  "$ref": "#/components/schemas/description"
+                },
+                "tags": {
+                  "$ref": "#/components/schemas/tag"
+                },
+                "references": {
+                  "$ref": "#/components/schemas/reference"
+                },
+                "images": {
+                  "description": "Image of the material rendered on a shader ball provided in different sizes and file formats.",
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "additionalProperties": false,
+                    "type": "object",
+                    "properties": {
+                      "300": {
+                        "description": "A URL to the image at 300x300 pixels.",
+                        "type": "string",
+                        "format": "uri",
+                        "example": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/gold.jpeg"
+                      },
+                      "600": {
+                        "description": "A URL to the image at 600x600 pixels.",
+                        "type": "string",
+                        "format": "uri",
+                        "example": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/gold.jpeg"
+                      },
+                      "format": {
+                        "description": "Specifies the image format.",
+                        "type": "string",
+                        "example": "jpeg"
+                      }
+                    },
+                    "required": [
+                      "format",
+                      "300",
+                      "600"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "name",
+                "color",
+                "metalness",
+                "roughness",
+                "category",
+                "references",
+                "images"
+              ]
+            }
+          }
+        },
+        "examples": [
+          {
+            "$schema": "../../schemas/components/schemas/Material.json",
+            "header": {
+              "schemaVersion": 2,
+              "updated": 202512121608,
+              "license": "CC0 1.0 Universal",
+              "origin": "https://api.physicallybased.info"
+            },
+            "data": [
+              {
+                "name": "Aluminum",
+                "color": [
+                  {
+                    "colorSpace": "srgb-linear",
+                    "color": [
+                      0.916,
+                      0.923,
+                      0.924
+                    ]
+                  },
+                  {
+                    "colorSpace": "acescg",
+                    "color": [
+                      0.918,
+                      0.922,
+                      0.923
+                    ]
+                  }
+                ],
+                "metalness": 1,
+                "specularColor": [
+                  {
+                    "format": [
+                      "Gulbrandsen"
+                    ],
+                    "color": [
+                      {
+                        "colorSpace": "srgb-linear",
+                        "color": [
+                          0.989,
+                          0.989,
+                          0.972
+                        ]
+                      },
+                      {
+                        "colorSpace": "acescg",
+                        "color": [
+                          0.985,
+                          0.989,
+                          0.993
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "format": [
+                      "F82"
+                    ],
+                    "color": [
+                      {
+                        "colorSpace": "srgb-linear",
+                        "color": [
+                          0.91,
+                          0.936,
+                          0.959
+                        ]
+                      },
+                      {
+                        "colorSpace": "acescg",
+                        "color": [
+                          0.921,
+                          0.934,
+                          0.955
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "roughness": 0,
+                "complexIor": [
+                  {
+                    "colorSpace": "srgb-linear",
+                    "n": [
+                      0.728978,
+                      0.588215,
+                      0.78354
+                    ],
+                    "k": [
+                      6.45971,
+                      5.19646,
+                      4.37746
+                    ]
+                  },
+                  {
+                    "colorSpace": "acescg",
+                    "n": [
+                      0.73826,
+                      0.58846,
+                      0.401312
+                    ],
+                    "k": [
+                      5.76125,
+                      5.26448,
+                      4.35851
+                    ]
+                  }
+                ],
+                "density": [
+                  2700
+                ],
+                "category": [
+                  "Metal"
+                ],
+                "tags": [
+                  "aluminium",
+                  "mirror"
+                ],
+                "references": [
+                  {
+                    "title": "Refractive index database",
+                    "author": "Polyanskiy, M. N.",
+                    "url": "https://refractiveindex.info/?shelf=main&book=Al&page=Cheng",
+                    "accessed": "2025-06-26"
+                  },
+                  {
+                    "title": "OpenPBR: Novel Features and Implementation Details",
+                    "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+                    "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+                    "year": "2025",
+                    "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+                    "accessed": "2025-12-30"
+                  },
+                  {
+                    "title": "Aluminium",
+                    "author": "Wikipedia contributors",
+                    "url": "https://en.wikipedia.org/w/index.php?title=Aluminium&oldid=1271633189",
+                    "publisher": "Wikipedia, The Free Encyclopedia",
+                    "accessed": "2025-01-25"
+                  },
+                  {
+                    "title": "Density",
+                    "author": "Wikipedia contributors",
+                    "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
+                    "publisher": "Wikipedia, The Free Encyclopedia",
+                    "accessed": "2025-01-25"
+                  },
+                  {
+                    "title": "Mirror",
+                    "author": "Wikipedia contributors",
+                    "url": "https://en.wikipedia.org/w/index.php?title=Mirror&oldid=1268984936",
+                    "publisher": "Wikipedia, The Free Encyclopedia",
+                    "accessed": "2025-01-25"
+                  }
+                ],
+                "images": [
+                  {
+                    "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/aluminum.jpeg",
+                    "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum.jpeg",
+                    "format": "jpeg"
+                  },
+                  {
+                    "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/aluminum.avif",
+                    "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum.avif",
+                    "format": "avif"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "Lightsource": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "$schema",
+          "header",
+          "data"
+        ],
+        "properties": {
+          "$schema": {
+            "type": "string"
+          },
+          "header": {
+            "$ref": "#/components/schemas/header"
+          },
+          "data": {
+            "description": "An array of Light source objects.",
+            "type": "array",
+            "items": {
+              "title": "Light source",
+              "description": "A light source.",
+              "additionalProperties": false,
+              "type": "object",
+              "properties": {
+                "name": {
+                  "description": "Name of the light source.",
+                  "type": "string",
+                  "example": "Fluorescent Tube Light"
+                },
+                "unit": {
+                  "description": "The unit of measurement of the intensity of the light. In the case of lux, it should be converted to lumen, unless it's a directional light such as the sun or the moon.",
+                  "type": "array",
+                  "items": {
+                    "enum": [
+                      "lm",
+                      "lx",
+                      "cd/m2"
+                    ]
+                  },
+                  "minItems": 1,
+                  "maxItems": 1
+                },
+                "type": {
+                  "description": "The type of light, for DCC applications.",
+                  "type": "array",
+                  "items": {
+                    "enum": [
+                      "directional",
+                      "surface",
+                      "spot",
+                      "point",
+                      "cylinder",
+                      "dome"
+                    ]
+                  },
+                  "minItems": 1,
+                  "maxItems": 1
+                },
+                "variants": {
+                  "description": "Lists all different variations of the light source, in order of intensity from most bright to least bright. If the light source only comes in one variant, just specify that one single variant.",
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "additionalProperties": false,
+                    "type": "object",
+                    "properties": {
+                      "format": {
+                        "description": "Specifies the format.",
+                        "type": "string",
+                        "example": "2700 K"
+                      },
+                      "color": {
+                        "description": "Color of the light source.",
+                        "type": "array",
+                        "minItems": 1,
+                        "uniqueItems": true,
+                        "items": {
+                          "$ref": "#/components/schemas/color"
+                        }
+                      },
+                      "temperature": {
+                        "description": "The typical range of color temperature in Kelvin, if color lies on the Planckian curve. If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common temperature.",
+                        "type": "array",
+                        "items": {
+                          "type": "number"
+                        },
+                        "example": [
+                          5000,
+                          7500,
+                          6500
+                        ],
+                        "minItems": 1,
+                        "maxItems": 3
+                      },
+                      "intensity": {
+                        "description": "Intensity of the light emitted from the light source. If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common intensity.",
+                        "type": "array",
+                        "items": {
+                          "type": "number"
+                        },
+                        "example": [
+                          100,
+                          2500,
+                          200
+                        ],
+                        "minItems": 1,
+                        "maxItems": 3
+                      },
+                      "angle": {
+                        "description": "The maximum beam angle in degrees. For a directional light, this specifies angular diameter instead.",
+                        "type": "number",
+                        "example": 90
+                      },
+                      "sourceSize": {
+                        "description": "The size of the light source in centimeters. [Radius] if point or spot. [Width, Height] if surface. [Radius, Length] if cylinder.",
+                        "type": "array",
+                        "items": {
+                          "type": "number"
+                        },
+                        "example": [
+                          1.5,
+                          60
+                        ],
+                        "minItems": 1,
+                        "maxItems": 2
+                      },
+                      "description": {
+                        "$ref": "#/components/schemas/description"
+                      }
+                    },
+                    "required": [
+                      "format",
+                      "color",
+                      "intensity"
+                    ]
+                  }
+                },
+                "category": {
+                  "type": "array",
+                  "items": {
+                    "enum": [
+                      "Artificial",
+                      "Natural"
+                    ]
+                  },
+                  "minItems": 1,
+                  "maxItems": 1
+                },
+                "description": {
+                  "$ref": "#/components/schemas/description"
+                },
+                "references": {
+                  "$ref": "#/components/schemas/reference"
+                },
+                "tags": {
+                  "$ref": "#/components/schemas/tag"
+                }
+              },
+              "required": [
+                "name",
+                "unit",
+                "type",
+                "variants",
+                "category",
+                "references"
+              ]
+            }
+          }
+        },
+        "examples": [
+          {
+            "$schema": "../../schemas/components/schemas/Lightsource.json",
+            "header": {
+              "schemaVersion": 2,
+              "updated": 202512121608,
+              "license": "CC0 1.0 Universal",
+              "origin": "https://api.physicallybased.info"
+            },
+            "data": [
+              {
+                "name": "Fluorescent Tube Light",
+                "variants": [
+                  {
+                    "format": "2700 K",
+                    "color": [
+                      {
+                        "colorSpace": "srgb-linear",
+                        "color": [
+                          1,
+                          0.415,
+                          0.099
+                        ]
+                      }
+                    ],
+                    "intensity": [
+                      500,
+                      5000,
+                      3000
+                    ],
+                    "temperature": [
+                      2700
+                    ],
+                    "sourceSize": [
+                      1.5,
+                      60
+                    ]
+                  },
+                  {
+                    "format": "4000 K",
+                    "color": [
+                      {
+                        "colorSpace": "srgb-linear",
+                        "color": [
+                          1,
+                          0.654,
+                          0.377
+                        ]
+                      }
+                    ],
+                    "intensity": [
+                      500,
+                      5000,
+                      3000
+                    ],
+                    "temperature": [
+                      4000
+                    ],
+                    "sourceSize": [
+                      1.5,
+                      60
+                    ]
+                  },
+                  {
+                    "format": "6500 K",
+                    "color": [
+                      {
+                        "colorSpace": "srgb-linear",
+                        "color": [
+                          1,
+                          0.943,
+                          0.992
+                        ]
+                      }
+                    ],
+                    "intensity": [
+                      500,
+                      5000,
+                      3000
+                    ],
+                    "temperature": [
+                      6500
+                    ],
+                    "sourceSize": [
+                      1.5,
+                      60
+                    ]
+                  }
+                ],
+                "unit": [
+                  "lm"
+                ],
+                "type": [
+                  "cylinder"
+                ],
+                "category": [
+                  "Artificial"
+                ],
+                "references": [
+                  {
+                    "title": "Fluorescent lamp",
+                    "author": "Wikipedia contributors",
+                    "url": "https://en.wikipedia.org/w/index.php?title=Fluorescent_lamp&oldid=1273912390",
+                    "publisher": "Wikipedia, The Free Encyclopedia",
+                    "accessed": "2025-02-27"
+                  },
+                  {
+                    "title": "Fluorescent Tube Lights",
+                    "url": "https://www.homedepot.com/b/Lighting-Light-Bulbs-Tube-Lights-Fluorescent-Tube-Lights/N-5yc1vZ2fkol29",
+                    "publisher": "Home Depot",
+                    "accessed": "2025-02-28"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "Camera": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "$schema",
+          "header",
+          "data"
+        ],
+        "properties": {
+          "$schema": {
+            "type": "string"
+          },
+          "header": {
+            "$ref": "#/components/schemas/header"
+          },
+          "data": {
+            "description": "An array of Camera objects.",
+            "type": "array",
+            "items": {
+              "title": "Camera",
+              "description": "Any type of camera that is being used, or simulated, in any way in CG productions (including games).",
+              "additionalProperties": false,
+              "type": "object",
+              "properties": {
+                "make": {
+                  "description": "Brand name.",
+                  "type": "string",
+                  "example": "Arri"
+                },
+                "model": {
+                  "description": "Model name.",
+                  "type": "string",
+                  "example": "Alexa 35"
+                },
+                "sensorSize": {
+                  "description": "Array of sensor sizes. First item specifies the size of a fully open gate. If needed, additional sizes can be added for cameras that crop the sensor or for devices that have multiple cameras.",
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "additionalProperties": false,
+                    "type": "object",
+                    "properties": {
+                      "format": {
+                        "description": "Specifies the sensor format.",
+                        "type": "string",
+                        "example": "3:2 Open Gate"
+                      },
+                      "size": {
+                        "description": "Sensor size in millimeters (WxH).",
+                        "type": "array",
+                        "items": {
+                          "type": "number"
+                        },
+                        "example": [
+                          27.99,
+                          19.22
+                        ],
+                        "minItems": 2,
+                        "maxItems": 2
+                      },
+                      "resolution": {
+                        "description": "Recording resolution measured in pixels [Width, Height]. One sensor size can have multiple recording resolutions. For still cameras, only movie recording resolutions are listed.",
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "format": {
+                              "description": "Specifies the recording resolution format.",
+                              "type": "string",
+                              "example": "4.6K"
+                            },
+                            "size": {
+                              "description": "Recording resolution measured in pixels [Width, Height].",
+                              "type": "array",
+                              "items": {
+                                "type": "integer"
+                              },
+                              "example": [
+                                4608,
+                                3164
+                              ],
+                              "minItems": 2,
+                              "maxItems": 2
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "required": [
+                      "format",
+                      "size"
+                    ]
+                  }
+                },
+                "category": {
+                  "type": "array",
+                  "items": {
+                    "enum": [
+                      "Still",
+                      "Movie",
+                      "Mobile"
+                    ]
+                  },
+                  "minItems": 1,
+                  "maxItems": 1
+                },
+                "description": {
+                  "$ref": "#/components/schemas/description"
+                },
+                "tags": {
+                  "$ref": "#/components/schemas/tag"
+                },
+                "references": {
+                  "$ref": "#/components/schemas/reference"
+                }
+              },
+              "required": [
+                "make",
+                "model",
+                "sensorSize",
+                "category",
+                "references"
+              ]
+            }
+          }
+        },
+        "examples": [
+          {
+            "$schema": "../../schemas/components/schemas/Camera.json",
+            "header": {
+              "schemaVersion": 2,
+              "updated": 202512121608,
+              "license": "CC0 1.0 Universal",
+              "origin": "https://api.physicallybased.info"
+            },
+            "data": [
+              {
+                "make": "Arri",
+                "model": "Alexa 35",
+                "sensorSize": [
+                  {
+                    "format": "4.6K 3:2 Open Gate",
+                    "size": [
+                      27.99,
+                      19.22
+                    ],
+                    "resolution": [
+                      {
+                        "format": "4.6K",
+                        "size": [
+                          4608,
+                          3164
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "format": "4.6K 16:9",
+                    "size": [
+                      27.99,
+                      15.75
+                    ],
+                    "resolution": [
+                      {
+                        "format": "4.6K",
+                        "size": [
+                          4608,
+                          2592
+                        ]
+                      },
+                      {
+                        "format": "4K",
+                        "size": [
+                          4096,
+                          2304
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "format": "4K 16:9",
+                    "size": [
+                      24.88,
+                      14
+                    ],
+                    "resolution": [
+                      {
+                        "format": "4K",
+                        "size": [
+                          4096,
+                          2304
+                        ]
+                      },
+                      {
+                        "format": "UHD",
+                        "size": [
+                          3840,
+                          2160
+                        ]
+                      },
+                      {
+                        "format": "2K",
+                        "size": [
+                          2048,
+                          1152
+                        ]
+                      },
+                      {
+                        "format": "HD",
+                        "size": [
+                          1920,
+                          1080
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "format": "4K 2:1",
+                    "size": [
+                      24.88,
+                      12.44
+                    ],
+                    "resolution": [
+                      {
+                        "format": "4K",
+                        "size": [
+                          4096,
+                          2048
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "format": "3.8K 16:9",
+                    "size": [
+                      23.33,
+                      13.12
+                    ],
+                    "resolution": [
+                      {
+                        "format": "4K",
+                        "size": [
+                          3840,
+                          2160
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "format": "3.3K 6:5",
+                    "size": [
+                      20.22,
+                      16.95
+                    ],
+                    "resolution": [
+                      {
+                        "format": "3.3K",
+                        "size": [
+                          3328,
+                          2790
+                        ]
+                      },
+                      {
+                        "format": "4K 2.39:1 Ana 2x",
+                        "size": [
+                          4096,
+                          1716
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "format": "3K 1:1",
+                    "size": [
+                      18.66,
+                      18.66
+                    ],
+                    "resolution": [
+                      {
+                        "format": "3K",
+                        "size": [
+                          3072,
+                          3072
+                        ]
+                      },
+                      {
+                        "format": "3.8K 2:1 Ana 2x",
+                        "size": [
+                          3840,
+                          2160
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "format": "2.7K 8:9",
+                    "size": [
+                      16.66,
+                      18.75
+                    ],
+                    "resolution": [
+                      {
+                        "format": "UHD 16:9 Ana 2x",
+                        "size": [
+                          3840,
+                          2160
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "format": "2K 16:9 S16",
+                    "size": [
+                      12.44,
+                      7
+                    ],
+                    "resolution": [
+                      {
+                        "format": "2K",
+                        "size": [
+                          2048,
+                          1152
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "category": [
+                  "Movie"
+                ],
+                "references": [
+                  {
+                    "title": "ALEXA 35 Recording Formats",
+                    "publisher": "ARRI GmbH",
+                    "url": "https://www.arri.com/resource/blob/296424/88454a5a3dee9fe1d3fd68e75aa3411e/alexa-35-recording-format-poster-data.pdf",
+                    "accessed": "2025-02-22"
+                  },
+                  {
+                    "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
+                    "publisher": "ARRI GmbH",
+                    "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
+                    "accessed": "2025-02-22"
+                  }
+                ],
+                "tags": [
+                  "netflix"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

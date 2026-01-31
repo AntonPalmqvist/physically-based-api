@@ -1,0 +1,202 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "header", "data"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "header": { "$ref": "./header.json" },
+    "data": {
+      "description": "An array of Light source objects.",
+      "type": "array",
+      "items": {
+        "title": "Light source",
+        "description": "A light source.",
+        "additionalProperties": false,
+        "type": "object",
+        "properties": {
+          "name": {
+            "description": "Name of the light source.",
+            "type": "string",
+            "example": "Fluorescent Tube Light"
+          },
+          "unit": {
+            "description": "The unit of measurement of the intensity of the light. In the case of lux, it should be converted to lumen, unless it's a directional light such as the sun or the moon.",
+            "type": "array",
+            "items": {
+              "enum": ["lm", "lx", "cd/m2"]
+            },
+            "minItems": 1,
+            "maxItems": 1
+          },
+          "type": {
+            "description": "The type of light, for DCC applications.",
+            "type": "array",
+            "items": {
+              "enum": [
+                "directional",
+                "surface",
+                "spot",
+                "point",
+                "cylinder",
+                "dome"
+              ]
+            },
+            "minItems": 1,
+            "maxItems": 1
+          },
+          "variants": {
+            "description": "Lists all different variations of the light source, in order of intensity from most bright to least bright. If the light source only comes in one variant, just specify that one single variant.",
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "additionalProperties": false,
+              "type": "object",
+              "properties": {
+                "format": {
+                  "description": "Specifies the format.",
+                  "type": "string",
+                  "example": "2700 K"
+                },
+                "color": {
+                  "description": "Color of the light source.",
+                  "type": "array",
+                  "minItems": 1,
+                  "uniqueItems": true,
+                  "items": { "$ref": "./color.json" }
+                },
+                "temperature": {
+                  "description": "The typical range of color temperature in Kelvin, if color lies on the Planckian curve. If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common temperature.",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "example": [5000, 7500, 6500],
+                  "minItems": 1,
+                  "maxItems": 3
+                },
+                "intensity": {
+                  "description": "Intensity of the light emitted from the light source. If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common intensity.",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "example": [100, 2500, 200],
+                  "minItems": 1,
+                  "maxItems": 3
+                },
+                "angle": {
+                  "description": "The maximum beam angle in degrees. For a directional light, this specifies angular diameter instead.",
+                  "type": "number",
+                  "example": 90
+                },
+                "sourceSize": {
+                  "description": "The size of the light source in centimeters. [Radius] if point or spot. [Width, Height] if surface. [Radius, Length] if cylinder.",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "example": [1.5, 60],
+                  "minItems": 1,
+                  "maxItems": 2
+                },
+                "description": { "$ref": "./description.json" }
+              },
+              "required": ["format", "color", "intensity"]
+            }
+          },
+          "category": {
+            "type": "array",
+            "items": {
+              "enum": ["Artificial", "Natural"]
+            },
+            "minItems": 1,
+            "maxItems": 1
+          },
+          "description": { "$ref": "./description.json" },
+          "references": { "$ref": "./reference.json" },
+          "tags": { "$ref": "./tag.json" }
+        },
+        "required": [
+          "name",
+          "unit",
+          "type",
+          "variants",
+          "category",
+          "references"
+        ]
+      }
+    }
+  },
+  "examples": [
+    {
+      "$schema": "../../schemas/components/schemas/Lightsource.json",
+      "header": {
+        "schemaVersion": 2.0,
+        "updated": 202512121608,
+        "license": "CC0 1.0 Universal",
+        "origin": "https://api.physicallybased.info"
+      },
+      "data": [
+        {
+          "name": "Fluorescent Tube Light",
+          "variants": [
+            {
+              "format": "2700 K",
+              "color": [
+                {
+                  "colorSpace": "srgb-linear",
+                  "color": [1.0, 0.415, 0.099]
+                }
+              ],
+              "intensity": [500, 5000, 3000],
+              "temperature": [2700],
+              "sourceSize": [1.5, 60]
+            },
+            {
+              "format": "4000 K",
+              "color": [
+                {
+                  "colorSpace": "srgb-linear",
+                  "color": [1.0, 0.654, 0.377]
+                }
+              ],
+              "intensity": [500, 5000, 3000],
+              "temperature": [4000],
+              "sourceSize": [1.5, 60]
+            },
+            {
+              "format": "6500 K",
+              "color": [
+                {
+                  "colorSpace": "srgb-linear",
+                  "color": [1.0, 0.943, 0.992]
+                }
+              ],
+              "intensity": [500, 5000, 3000],
+              "temperature": [6500],
+              "sourceSize": [1.5, 60]
+            }
+          ],
+          "unit": ["lm"],
+          "type": ["cylinder"],
+          "category": ["Artificial"],
+          "references": [
+            {
+              "title": "Fluorescent lamp",
+              "author": "Wikipedia contributors",
+              "url": "https://en.wikipedia.org/w/index.php?title=Fluorescent_lamp&oldid=1273912390",
+              "publisher": "Wikipedia, The Free Encyclopedia",
+              "accessed": "2025-02-27"
+            },
+            {
+              "title": "Fluorescent Tube Lights",
+              "url": "https://www.homedepot.com/b/Lighting-Light-Bulbs-Tube-Lights-Fluorescent-Tube-Lights/N-5yc1vZ2fkol29",
+              "publisher": "Home Depot",
+              "accessed": "2025-02-28"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "additionalProperties": false,
+  "type": "object",
+  "description": "Metadata",
+  "properties": {
+    "schemaVersion": {
+      "description": "Schema version.",
+      "type": "number",
+      "example": 2.0
+    },
+    "updated": {
+      "description": "Date updated, in YYYYMMDDHHmm format.",
+      "type": "number",
+      "example": 202512121608
+    },
+    "license": {
+      "description": "License information.",
+      "type": "string",
+      "const": "CC0 1.0 Universal"
+    },
+    "origin": {
+      "description": "URL to the source of this JSON file.",
+      "type": "string",
+      "const": "https://api.physicallybased.info"
+    }
+  },
+  "required": ["schemaVersion", "updated", "license", "origin"]
+}

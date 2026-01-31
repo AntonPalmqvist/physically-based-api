@@ -1,0 +1,371 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "header", "data"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "header": { "$ref": "./header.json" },
+    "data": {
+      "description": "An array of Material objects.",
+      "type": "array",
+      "items": {
+        "title": "Material",
+        "description": "A material with parameters for shading, physics simulation, and fluid simulation.",
+        "additionalProperties": false,
+        "type": "object",
+        "properties": {
+          "name": {
+            "description": "Name of the material.",
+            "type": "string",
+            "example": "Gold"
+          },
+          "color": {
+            "description": "Specifies the diffuse or metallic reflectance color, or in the case of a transparent material, transmission color.",
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": { "$ref": "./color.json" }
+          },
+          "metalness": {
+            "description": "Specifies how metallic the material appears (dials the shading model from pure dielectric to pure metal).",
+            "type": "number",
+            "example": 1
+          },
+          "specularColor": {
+            "description": "Color of the specular reflection for metals, specified in the \"Gulbrandsen edge tint\", and \"F82\" formats. Calculated from spectral data using scripts from https://github.com/natyh/material-params and https://github.com/portsmouth/F82-tint-generator",
+            "type": "array",
+            "minItems": 2,
+            "uniqueItems": true,
+            "items": {
+              "additionalProperties": false,
+              "type": "object",
+              "properties": {
+                "format": {
+                  "type": "array",
+                  "items": {
+                    "enum": ["Gulbrandsen", "F82"]
+                  },
+                  "minItems": 1,
+                  "maxItems": 1
+                },
+                "color": {
+                  "type": "array",
+                  "minItems": 1,
+                  "uniqueItems": true,
+                  "items": { "$ref": "./color.json" }
+                }
+              },
+              "required": ["format", "color"]
+            }
+          },
+          "roughness": {
+            "description": "The roughness of the specular reflection. Lower numbers produce sharper reflections, higher numbers produce blurrier reflections.",
+            "type": "number",
+            "example": 0
+          },
+          "ior": {
+            "description": "Index of refraction of a dielectric material. Does not apply to metals (conductors).",
+            "type": "number",
+            "example": 1.5
+          },
+          "subsurfaceRadius": {
+            "description": "The approximate distance up to which light can scatter below the surface, also known as “mean free path” (MFP). Specified in centimeters.",
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "example": [1.842, 1.044, 0.35],
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "transmission": {
+            "description": "Specifies the transparency of the material.",
+            "type": "number",
+            "example": 1
+          },
+          "transmissionDepth": {
+            "description": "Controls the depth into the volume at which the Transmission Color is realized.",
+            "type": "number",
+            "example": 0.1
+          },
+          "transmissionDispersion": {
+            "description": "Abbe number, describing how much the index of refraction varies across wavelengths. For glass and diamonds, this is typically in the range of 10 to 70, with lower numbers giving more dispersion.",
+            "type": "number",
+            "example": 64
+          },
+          "complexIor": {
+            "description": "Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel. Calculated from spectral IOR data files with script from https://github.com/natyh/material-params",
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "additionalProperties": false,
+              "type": "object",
+              "properties": {
+                "colorSpace": {
+                  "description": "The color space for which the n and k values have been calculated for.",
+                  "type": "string",
+                  "example": "srgb-linear"
+                },
+                "n": {
+                  "description": "N values for each RGB color channel.",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "example": [0, 0.351563, 1.85894],
+                  "minItems": 3,
+                  "maxItems": 3
+                },
+                "k": {
+                  "description": "K values for each RGB color channel.",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "example": [6.59401, 2.08143, 1.49631],
+                  "minItems": 3,
+                  "maxItems": 3
+                }
+              },
+              "required": ["colorSpace", "n", "k"]
+            }
+          },
+          "thinFilmThickness": {
+            "description": "The thickness of the thin film layer on the base (in nanometers). If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common thickness.",
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "example": [10, 1000, 500],
+            "minItems": 1,
+            "maxItems": 3
+          },
+          "thinFilmIor": {
+            "description": "The index of refraction of the thin-film.",
+            "type": "number",
+            "example": 1.5
+          },
+          "density": {
+            "description": "Density measured in kg/m3. If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common density.",
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "example": [1380, 1450, 1400],
+            "minItems": 1,
+            "maxItems": 3
+          },
+          "viscosity": {
+            "description": "Dynamic viscosity measured in millipascal-seconds (mPa⋅s) at a temperature of 20°C. 1 mPa⋅s (millipascal-second) = 1 cP (centipoise). If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common viscosity.",
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "example": [2000, 15000, 10000],
+            "minItems": 1,
+            "maxItems": 3
+          },
+          "surfaceTension": {
+            "description": "Surface tension measured in millinewton per meter (mN/m) at a temperature of 20°C. 1 mN/m = 1 dyn/cm.",
+            "type": "number",
+            "example": 72
+          },
+          "acousticAbsorption": {
+            "description": "Absorption coefficients at 125, 250, 500, 1000, 2000, and 4000 kHz.",
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "example": [0.008, 0.008, 0.013, 0.015, 0.02, 0.025],
+            "minItems": 6,
+            "maxItems": 6
+          },
+          "category": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "Crystal",
+                "Gas",
+                "Human",
+                "Liquid",
+                "Manmade",
+                "Metal",
+                "Organic",
+                "Plastic"
+              ]
+            },
+            "minItems": 1,
+            "maxItems": 1
+          },
+          "group": {
+            "description": "Can be used to group similar materials together. For example, Skin I, Skin II, and Skin III would be part of the same group: Skin.",
+            "type": "string",
+            "example": "Skin"
+          },
+          "description": { "$ref": "./description.json" },
+          "tags": { "$ref": "./tag.json" },
+          "references": { "$ref": "./reference.json" },
+          "images": {
+            "description": "Image of the material rendered on a shader ball provided in different sizes and file formats.",
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "additionalProperties": false,
+              "type": "object",
+              "properties": {
+                "format": {
+                  "description": "Specifies the image format.",
+                  "type": "string",
+                  "example": "jpeg"
+                },
+                "300": {
+                  "description": "A URL to the image at 300x300 pixels.",
+                  "type": "string",
+                  "format": "uri",
+                  "example": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/gold.jpeg"
+                },
+                "600": {
+                  "description": "A URL to the image at 600x600 pixels.",
+                  "type": "string",
+                  "format": "uri",
+                  "example": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/gold.jpeg"
+                }
+              },
+              "required": ["format", "300", "600"]
+            }
+          }
+        },
+        "required": [
+          "name",
+          "color",
+          "metalness",
+          "roughness",
+          "category",
+          "references",
+          "images"
+        ]
+      }
+    }
+  },
+  "examples": [
+    {
+      "$schema": "../../schemas/components/schemas/Material.json",
+      "header": {
+        "schemaVersion": 2.0,
+        "updated": 202512121608,
+        "license": "CC0 1.0 Universal",
+        "origin": "https://api.physicallybased.info"
+      },
+      "data": [
+        {
+          "name": "Aluminum",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.916, 0.923, 0.924]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.918, 0.922, 0.923]
+            }
+          ],
+          "metalness": 1,
+          "specularColor": [
+            {
+              "format": ["Gulbrandsen"],
+              "color": [
+                {
+                  "colorSpace": "srgb-linear",
+                  "color": [0.989, 0.989, 0.972]
+                },
+                {
+                  "colorSpace": "acescg",
+                  "color": [0.985, 0.989, 0.993]
+                }
+              ]
+            },
+            {
+              "format": ["F82"],
+              "color": [
+                {
+                  "colorSpace": "srgb-linear",
+                  "color": [0.91, 0.936, 0.959]
+                },
+                {
+                  "colorSpace": "acescg",
+                  "color": [0.921, 0.934, 0.955]
+                }
+              ]
+            }
+          ],
+          "roughness": 0,
+          "complexIor": [
+            {
+              "colorSpace": "srgb-linear",
+              "n": [0.728978, 0.588215, 0.78354],
+              "k": [6.45971, 5.19646, 4.37746]
+            },
+            {
+              "colorSpace": "acescg",
+              "n": [0.73826, 0.58846, 0.401312],
+              "k": [5.76125, 5.26448, 4.35851]
+            }
+          ],
+          "density": [2700],
+          "category": ["Metal"],
+          "tags": ["aluminium", "mirror"],
+          "references": [
+            {
+              "title": "Refractive index database",
+              "author": "Polyanskiy, M. N.",
+              "url": "https://refractiveindex.info/?shelf=main&book=Al&page=Cheng",
+              "accessed": "2025-06-26"
+            },
+            {
+              "title": "OpenPBR: Novel Features and Implementation Details",
+              "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+              "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+              "year": "2025",
+              "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+              "accessed": "2025-12-30"
+            },
+            {
+              "title": "Aluminium",
+              "author": "Wikipedia contributors",
+              "url": "https://en.wikipedia.org/w/index.php?title=Aluminium&oldid=1271633189",
+              "publisher": "Wikipedia, The Free Encyclopedia",
+              "accessed": "2025-01-25"
+            },
+            {
+              "title": "Density",
+              "author": "Wikipedia contributors",
+              "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
+              "publisher": "Wikipedia, The Free Encyclopedia",
+              "accessed": "2025-01-25"
+            },
+            {
+              "title": "Mirror",
+              "author": "Wikipedia contributors",
+              "url": "https://en.wikipedia.org/w/index.php?title=Mirror&oldid=1268984936",
+              "publisher": "Wikipedia, The Free Encyclopedia",
+              "accessed": "2025-01-25"
+            }
+          ],
+          "images": [
+            {
+              "format": "jpeg",
+              "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/aluminum.jpeg",
+              "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum.jpeg"
+            },
+            {
+              "format": "avif",
+              "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/aluminum.avif",
+              "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum.avif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

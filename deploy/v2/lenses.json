@@ -1,49 +1,96 @@
-[
-  {
-    "name": "Cooke S8/i FF 18mm",
-    "focalLength": [18, 18],
-    "aperture": [1.4, 22],
-    "blades": 9,
-    "closeFocus": 60,
-    "sources": ["https://cookeoptics.com/lens/s8-i-ff/"],
-    "tags": ["prime"]
+{
+  "$schema": "../../schemas/components/schemas/Lens.json",
+  "header": {
+    "schemaVersion": 2.0,
+    "updated": 202601101022,
+    "license": "CC0 1.0 Universal",
+    "origin": "https://api.physicallybased.info"
   },
-  {
-    "name": "Cooke Varotal/i FF 19-40mm",
-    "focalLength": [19, 40],
-    "aperture": [2.9, 22],
-    "blades": 9,
-    "closeFocus": 60,
-    "sources": ["https://cookeoptics.com/lens/varotal-i-ff/"],
-    "tags": ["zoom"]
-  },
-  {
-    "name": "Cooke Varotal/i FF 30-95mm",
-    "focalLength": [30, 95],
-    "aperture": [2.9, 22],
-    "blades": 9,
-    "closeFocus": 80,
-    "sources": ["https://cookeoptics.com/lens/varotal-i-ff/"],
-    "tags": ["zoom"]
-  },
-  {
-    "name": "Cooke Varotal/i FF 85-215mm",
-    "focalLength": [85, 215],
-    "aperture": [2.9, 22],
-    "blades": 9,
-    "closeFocus": 150,
-    "sources": ["https://cookeoptics.com/lens/varotal-i-ff/"],
-    "tags": ["zoom"]
-  },
-  {
-    "name": "Sony FE 20mm f/1.8 G",
-    "focalLength": [20, 20],
-    "aperture": [1.8, 22],
-    "blades": 9,
-    "closeFocus": 18,
-    "sources": [
-      "https://electronics.sony.com/imaging/lenses/full-frame-e-mount/p/sel20f18g"
-    ],
-    "tags": ["prime"]
-  }
-]
+  "data": [
+    {
+      "make": "Cooke",
+      "model": "S8/i FF 18mm",
+      "focalLength": [18, 18],
+      "aperture": [1.4, 22],
+      "blades": 9,
+      "closeFocus": 60,
+      "references": [
+        {
+          "title": "Cooke S8/i FF",
+          "publisher": "Cooke Optics Limited",
+          "url": "https://cookeoptics.com/lens/s8-i-ff/",
+          "accessed": "2026-01-10"
+        }
+      ],
+      "tags": ["prime"]
+    },
+    {
+      "make": "Cooke",
+      "model": "Varotal/i FF 19-40mm",
+      "focalLength": [19, 40],
+      "aperture": [2.9, 22],
+      "blades": 9,
+      "closeFocus": 60,
+      "references": [
+        {
+          "title": "Cooke Varotal/i FF",
+          "publisher": "Cooke Optics Limited",
+          "url": "https://cookeoptics.com/lens/varotal-i-ff/",
+          "accessed": "2026-01-10"
+        }
+      ],
+      "tags": ["zoom"]
+    },
+    {
+      "make": "Cooke",
+      "model": "Varotal/i FF 30-95mm",
+      "focalLength": [30, 95],
+      "aperture": [2.9, 22],
+      "blades": 9,
+      "closeFocus": 80,
+      "references": [
+        {
+          "title": "Cooke Varotal/i FF",
+          "publisher": "Cooke Optics Limited",
+          "url": "https://cookeoptics.com/lens/varotal-i-ff/",
+          "accessed": "2026-01-10"
+        }
+      ],
+      "tags": ["zoom"]
+    },
+    {
+      "make": "Cooke",
+      "model": "Varotal/i FF 85-215mm",
+      "focalLength": [85, 215],
+      "aperture": [2.9, 22],
+      "blades": 9,
+      "closeFocus": 150,
+      "references": [
+        {
+          "title": "Cooke Varotal/i FF",
+          "publisher": "Cooke Optics Limited",
+          "url": "https://cookeoptics.com/lens/varotal-i-ff/",
+          "accessed": "2026-01-10"
+        }
+      ],
+      "tags": ["zoom"]
+    },
+    {
+      "make": "Sony",
+      "model": "FE 20mm f/1.8 G",
+      "focalLength": [20, 20],
+      "aperture": [1.8, 22],
+      "blades": 9,
+      "closeFocus": 18,
+      "references": [
+        {
+          "title": "Sony FE 20mm F1.8 G Full-frame Ultra-wide Prime G Lens",
+          "publisher": "Sony Electronics Inc.",
+          "url": "https://electronics.sony.com/imaging/lenses/full-frame-e-mount/p/sel20f18g",
+          "accessed": "2026-01-10"
+        }
+      ],
+      "tags": ["prime"]
+    }
+  ]
+}

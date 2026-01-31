@@ -1,0 +1,244 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "header", "data"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "header": { "$ref": "./header.json" },
+    "data": {
+      "description": "An array of Camera objects.",
+      "type": "array",
+      "items": {
+        "title": "Camera",
+        "description": "Any type of camera that is being used, or simulated, in any way in CG productions (including games).",
+        "additionalProperties": false,
+        "type": "object",
+        "properties": {
+          "make": {
+            "description": "Brand name.",
+            "type": "string",
+            "example": "Arri"
+          },
+          "model": {
+            "description": "Model name.",
+            "type": "string",
+            "example": "Alexa 35"
+          },
+          "sensorSize": {
+            "description": "Array of sensor sizes. First item specifies the size of a fully open gate. If needed, additional sizes can be added for cameras that crop the sensor or for devices that have multiple cameras.",
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "additionalProperties": false,
+              "type": "object",
+              "properties": {
+                "format": {
+                  "description": "Specifies the sensor format.",
+                  "type": "string",
+                  "example": "3:2 Open Gate"
+                },
+                "size": {
+                  "description": "Sensor size in millimeters (WxH).",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "example": [27.99, 19.22],
+                  "minItems": 2,
+                  "maxItems": 2
+                },
+                "resolution": {
+                  "description": "Recording resolution measured in pixels [Width, Height]. One sensor size can have multiple recording resolutions. For still cameras, only movie recording resolutions are listed.",
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "format": {
+                        "description": "Specifies the recording resolution format.",
+                        "type": "string",
+                        "example": "4.6K"
+                      },
+                      "size": {
+                        "description": "Recording resolution measured in pixels [Width, Height].",
+                        "type": "array",
+                        "items": {
+                          "type": "integer"
+                        },
+                        "example": [4608, 3164],
+                        "minItems": 2,
+                        "maxItems": 2
+                      }
+                    }
+                  }
+                }
+              },
+              "required": ["format", "size"]
+            }
+          },
+          "category": {
+            "type": "array",
+            "items": {
+              "enum": ["Still", "Movie", "Mobile"]
+            },
+            "minItems": 1,
+            "maxItems": 1
+          },
+          "description": { "$ref": "./description.json" },
+          "tags": { "$ref": "./tag.json" },
+          "references": { "$ref": "./reference.json" }
+        },
+        "required": ["make", "model", "sensorSize", "category", "references"]
+      }
+    }
+  },
+  "examples": [
+    {
+      "$schema": "../../schemas/components/schemas/Camera.json",
+      "header": {
+        "schemaVersion": 2.0,
+        "updated": 202512121608,
+        "license": "CC0 1.0 Universal",
+        "origin": "https://api.physicallybased.info"
+      },
+      "data": [
+        {
+          "make": "Arri",
+          "model": "Alexa 35",
+          "sensorSize": [
+            {
+              "format": "4.6K 3:2 Open Gate",
+              "size": [27.99, 19.22],
+              "resolution": [
+                {
+                  "format": "4.6K",
+                  "size": [4608, 3164]
+                }
+              ]
+            },
+            {
+              "format": "4.6K 16:9",
+              "size": [27.99, 15.75],
+              "resolution": [
+                {
+                  "format": "4.6K",
+                  "size": [4608, 2592]
+                },
+                {
+                  "format": "4K",
+                  "size": [4096, 2304]
+                }
+              ]
+            },
+            {
+              "format": "4K 16:9",
+              "size": [24.88, 14],
+              "resolution": [
+                {
+                  "format": "4K",
+                  "size": [4096, 2304]
+                },
+                {
+                  "format": "UHD",
+                  "size": [3840, 2160]
+                },
+                {
+                  "format": "2K",
+                  "size": [2048, 1152]
+                },
+                {
+                  "format": "HD",
+                  "size": [1920, 1080]
+                }
+              ]
+            },
+            {
+              "format": "4K 2:1",
+              "size": [24.88, 12.44],
+              "resolution": [
+                {
+                  "format": "4K",
+                  "size": [4096, 2048]
+                }
+              ]
+            },
+            {
+              "format": "3.8K 16:9",
+              "size": [23.33, 13.12],
+              "resolution": [
+                {
+                  "format": "4K",
+                  "size": [3840, 2160]
+                }
+              ]
+            },
+            {
+              "format": "3.3K 6:5",
+              "size": [20.22, 16.95],
+              "resolution": [
+                {
+                  "format": "3.3K",
+                  "size": [3328, 2790]
+                },
+                {
+                  "format": "4K 2.39:1 Ana 2x",
+                  "size": [4096, 1716]
+                }
+              ]
+            },
+            {
+              "format": "3K 1:1",
+              "size": [18.66, 18.66],
+              "resolution": [
+                {
+                  "format": "3K",
+                  "size": [3072, 3072]
+                },
+                {
+                  "format": "3.8K 2:1 Ana 2x",
+                  "size": [3840, 2160]
+                }
+              ]
+            },
+            {
+              "format": "2.7K 8:9",
+              "size": [16.66, 18.75],
+              "resolution": [
+                {
+                  "format": "UHD 16:9 Ana 2x",
+                  "size": [3840, 2160]
+                }
+              ]
+            },
+            {
+              "format": "2K 16:9 S16",
+              "size": [12.44, 7],
+              "resolution": [
+                {
+                  "format": "2K",
+                  "size": [2048, 1152]
+                }
+              ]
+            }
+          ],
+          "category": ["Movie"],
+          "references": [
+            {
+              "title": "ALEXA 35 Recording Formats",
+              "publisher": "ARRI GmbH",
+              "url": "https://www.arri.com/resource/blob/296424/88454a5a3dee9fe1d3fd68e75aa3411e/alexa-35-recording-format-poster-data.pdf",
+              "accessed": "2025-02-22"
+            },
+            {
+              "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
+              "publisher": "ARRI GmbH",
+              "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
+              "accessed": "2025-02-22"
+            }
+          ],
+          "tags": ["netflix"]
+        }
+      ]
+    }
+  ]
+}

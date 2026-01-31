@@ -1,0 +1,13 @@
+[
+  {
+    "subject": "Porcelain",
+    "author": "https://github.com/AntonPalmqvist",
+    "device": "Nix Spectro 2",
+    "illuminant": "D65",
+    "observer": 10,
+    "measuringMode": "M2",
+    "srgb-linear": [0.745, 0.745, 0.723],
+    "ciexyz-d65": [0.704, 0.744, 0.791],
+    "cielab-d65": [89.101, -0.535, 1.465]
+  }
+]

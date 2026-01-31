@@ -357,7 +357,7 @@
       {
         "format": "6500 K",
         "color": [1.0, 0.943, 0.992],
-        "temperature": 2700
+        "temperature": 6500
       }
     ],
     "unit": ["lm"],
@@ -464,22 +464,6 @@
     "sources": ["https://en.wikipedia.org/wiki/Flash_(photography)"]
   },
   {
-    "name": "Sky (Clear)",
-    "color": [0.609, 0.695, 1.0],
-    "temperature": 10000,
-    "intensity": 6000,
-    "unit": ["lx"],
-    "type": ["dome"],
-    "category": ["Natural"],
-    "description": "Shade illuminated by entire clear blue sky at midday",
-    "sources": [
-      "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/lightsources/sky-clear/",
-      "https://en.wikipedia.org/wiki/Color_temperature",
-      "https://en.wikipedia.org/wiki/Daylight",
-      "http://eprintspublications.npl.co.uk/3518/"
-    ]
-  },
-  {
     "name": "ROE Carbon Carbon CB5 MKII RGBCA",
     "color": [1.0, 0.943, 0.992],
     "temperature": 6500,
@@ -512,6 +496,22 @@
     "tags": ["CB5MKII"]
   },
   {
+    "name": "Sky (Clear)",
+    "color": [0.609, 0.695, 1.0],
+    "temperature": 10000,
+    "intensity": 6000,
+    "unit": ["lx"],
+    "type": ["dome"],
+    "category": ["Natural"],
+    "description": "Shade illuminated by entire clear blue sky at midday",
+    "sources": [
+      "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/lightsources/sky-clear/",
+      "https://en.wikipedia.org/wiki/Color_temperature",
+      "https://en.wikipedia.org/wiki/Daylight",
+      "https://eprintspublications.npl.co.uk/3518/"
+    ]
+  },
+  {
     "name": "Sky (Moonless Clear Night)",
     "color": [1.0, 0.943, 0.992],
     "temperature": 6500,
@@ -521,7 +521,7 @@
     "category": ["Natural"],
     "description": "Even a moonless sky casts some light on earth. A phenomenon called airglow, and also starlight, contributes to this. The color of airglow varies",
     "sources": [
-      "http://stjarnhimlen.se/comp/radfaq.html#10",
+      "https://stjarnhimlen.se/comp/radfaq.html#10",
       "https://en.wikipedia.org/wiki/Airglow",
       "https://en.wikipedia.org/wiki/Starlight",
       "https://sciencenotes.org/what-is-airglow/"
@@ -578,7 +578,7 @@
       "https://en.wikipedia.org/wiki/Color_temperature#The_Sun",
       "https://en.wikipedia.org/wiki/Sunlight#Measurement",
       "https://en.wikipedia.org/wiki/Daylight",
-      "http://stjarnhimlen.se/comp/radfaq.html#10",
+      "https://stjarnhimlen.se/comp/radfaq.html#10",
       "https://web.archive.org/web/20250629084019/https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
       "https://www.physics.unlv.edu/~jeffery/astro/moon/sun_moon_angular.html",
       "https://jila.colorado.edu/~ajsh/colour/Tspectrum.html"
