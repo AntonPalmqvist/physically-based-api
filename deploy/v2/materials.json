@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.0,
-    "updated": 202602032004,
+    "updated": 202602032033,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info"
   },
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "name": "Asphalt (fresh)",
+      "name": "Asphalt (Fresh)",
       "color": [
         {
           "colorSpace": "srgb-linear",
