@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.0,
-    "updated": 202601272125,
+    "updated": 202602032004,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info"
   },
@@ -113,6 +113,66 @@
           "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum.avif"
         }
       ]
+    },
+    {
+      "name": "Asphalt (fresh)",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.0429, 0.0414, 0.0401]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0.5,
+      "ior": 1.6,
+      "category": ["Manmade"],
+      "description": "Asphalt consists of crushed stone, gravel, and sand, bound together with bitumen.",
+      "references": [
+        {
+          "title": "Spectral Materials Database",
+          "author": "Jakubiec, J. A.",
+          "url": "https://spectraldb.com/measurements/00117/",
+          "accessed": "2026-02-03"
+        },
+        {
+          "title": "Asphalt concrete",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Asphalt_concrete&oldid=1335472221",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-03"
+        },
+        {
+          "title": "Bitumen",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Bitumen&oldid=1336487797",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-03"
+        },
+        {
+          "title": "Refractive Index Measurements Of Diluted Bitumen Solutions",
+          "author": "Taylor, S. D., Czarnecki, J., & Masliyah, J.",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0016236101000874",
+          "doi": "https://doi.org/10.1016/S0016-2361(01)00087-4",
+          "publisher": "Fuel",
+          "issue": "14",
+          "volume": "80",
+          "pages": "2013--2018",
+          "year": "2001"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/asphalt.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/asphalt.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/asphalt.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/asphalt.avif"
+        }
+      ],
+      "tags": ["tarmac", "bitumen"]
     },
     {
       "name": "Banana",
@@ -4122,6 +4182,65 @@
       ]
     },
     {
+      "name": "Polystyrene (Foam)",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.8393, 0.8384, 0.841]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0.5,
+      "ior": 1.6,
+      "density": [50, 80, 75],
+      "category": ["Manmade"],
+      "references": [
+        {
+          "title": "Spectral Materials Database",
+          "author": "Jakubiec, J. A.",
+          "url": "https://spectraldb.com/measurements/00090/",
+          "accessed": "2026-02-02"
+        },
+        {
+          "title": "Polystyrene",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Polystyrene&oldid=1334078817",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-02"
+        },
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=organic&book=polystyrene&page=Zhang",
+          "accessed": "2026-02-02"
+        },
+        {
+          "title": "Extruded Polystyrene Foams with Enhanced Insulation and Mechanical Properties by a Benzene-Trisamide-Based Additive",
+          "author": "Aksit, M., Zhao, C., Klose, B., Kreger, K., Schmidt, H.-W., & Altstädt, V.",
+          "url": "https://www.mdpi.com/2073-4360/11/2/268",
+          "doi": "https://doi.org/10.3390/polym11020268",
+          "publisher": "Polymers",
+          "issue": "2",
+          "volume": "11",
+          "pages": "268",
+          "year": "2019"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/polystyrene-foam.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/polystyrene-foam.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/polystyrene-foam.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/polystyrene-foam.avif"
+        }
+      ],
+      "tags": ["styrofoam"]
+    },
+    {
       "name": "Porcelain",
       "color": [
         {
@@ -4141,6 +4260,12 @@
           "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/porcelain/",
           "publisher": "Physically Based Database",
           "accessed": "2025-12-15"
+        },
+        {
+          "title": "Spectral Materials Database",
+          "author": "Jakubiec, J. A.",
+          "url": "https://spectraldb.com/measurements/00061/",
+          "accessed": "2026-02-02"
         },
         {
           "title": "Vitreous China",
@@ -4482,6 +4607,12 @@
           "author": "Lagarde, S.",
           "url": "https://seblagarde.wordpress.com/2011/08/17/feeding-a-physical-based-lighting-mode/",
           "accessed": "2025-01-26"
+        },
+        {
+          "title": "Spectral Materials Database",
+          "author": "Jakubiec, J. A.",
+          "url": "https://spectraldb.com/measurements/00464/",
+          "accessed": "2026-02-02"
         },
         {
           "title": "Sand",
