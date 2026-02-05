@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.0,
-    "updated": 202602032033,
+    "updated": 202602042117,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info"
   },
@@ -6232,6 +6232,13 @@
           "author": "Jakubiec, J. A.",
           "url": "https://spectraldb.com/measurements/00074/",
           "accessed": "2025-01-25"
+        },
+        {
+          "title": "Spectrophotometer Measurement",
+          "author": "Palmqvist, A.",
+          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/whiteboard/",
+          "publisher": "Physically Based Database",
+          "accessed": "2026-02-04"
         }
       ],
       "images": [
