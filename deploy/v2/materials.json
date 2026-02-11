@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.0,
-    "updated": 202602071343,
+    "updated": 202602102012,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info"
   },
@@ -263,6 +263,42 @@
       ]
     },
     {
+      "name": "Amber",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.83, 0.288, 0.036]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0,
+      "ior": 1.5,
+      "transmission": 1,
+      "density": [1060, 1100],
+      "category": ["Organic"],
+      "references": [
+        {
+          "title": "Amber",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Amber&oldid=1337093275",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-10"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/amber.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/amber.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/amber.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/amber.avif"
+        }
+      ]
+    },
+    {
       "name": "Asphalt (Fresh)",
       "color": [
         {
@@ -499,7 +535,7 @@
       "color": [
         {
           "colorSpace": "srgb-linear",
-          "color": [0.64448, 0.003, 0.005]
+          "color": [0.644, 0.003, 0.005]
         }
       ],
       "metalness": 0,
@@ -2160,6 +2196,56 @@
       ]
     },
     {
+      "name": "Grass",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.105, 0.133, 0.041]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0.5,
+      "ior": 1.5,
+      "category": ["Organic"],
+      "references": [
+        {
+          "title": "Spectral Materials Database",
+          "author": "Jakubiec, J. A.",
+          "url": "https://spectraldb.com/measurements/01110/",
+          "accessed": "2026-02-10"
+        },
+        {
+          "title": "Spectral Materials Database",
+          "author": "Jakubiec, J. A.",
+          "url": "https://spectraldb.com/measurements/00633/",
+          "accessed": "2026-02-10"
+        },
+        {
+          "title": "The New Preferred Memory Color (PMC) Chart",
+          "author": "Luo, M. R.",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/col.22940#col22940-sec-0002-title",
+          "publisher": "Color Research & Application",
+          "volume": "49",
+          "issue": "6",
+          "pages": "564--576",
+          "year": "2024",
+          "doi": "https://doi.org/10.1002/col.22940"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/grass.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/grass.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/grass.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/grass.avif"
+        }
+      ]
+    },
+    {
       "name": "Gray Card",
       "color": [
         {
@@ -2255,7 +2341,7 @@
           "author": "Tomasik, P. (Ed.)",
           "url": "https://www.taylorfrancis.com/books/mono/10.1201/9780203495728/chemical-functional-properties-food-saccharides-piotr-tomasik",
           "publisher": "CRC Press",
-          "pages": "74 ",
+          "pages": "74",
           "year": "2003",
           "doi": "https://doi.org/10.1201/9780203495728"
         },

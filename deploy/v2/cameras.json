@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Camera.json",
   "header": {
     "schemaVersion": 2.0,
-    "updated": 202601101022,
+    "updated": 202602102012,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info"
   },
@@ -2753,11 +2753,90 @@
     },
     {
       "make": "DJI",
+      "model": "Mavic 3 Pro",
+      "sensorSize": [
+        {
+          "format": "24 mm Hasselblad Camera",
+          "size": [17.3, 13],
+          "resolution": [
+            {
+              "format": "5.1K",
+              "size": [5120, 2700]
+            },
+            {
+              "format": "4K DCI",
+              "size": [4096, 2160]
+            },
+            {
+              "format": "4K UHD",
+              "size": [3840, 2160]
+            },
+            {
+              "format": "FHD",
+              "size": [1920, 1080]
+            }
+          ]
+        },
+        {
+          "format": "70 mm Medium Tele Camera",
+          "size": [9.6, 7.2],
+          "resolution": [
+            {
+              "format": "4K UHD",
+              "size": [3840, 2160]
+            },
+            {
+              "format": "FHD",
+              "size": [1920, 1080]
+            }
+          ]
+        },
+        {
+          "format": "166 mm Tele Camera",
+          "size": [6.4, 4.8],
+          "resolution": [
+            {
+              "format": "4K UHD",
+              "size": [3840, 2160]
+            },
+            {
+              "format": "FHD",
+              "size": [1920, 1080]
+            }
+          ]
+        }
+      ],
+      "category": ["Mobile"],
+      "references": [
+        {
+          "title": "MAVIC 3 PRO User Manual",
+          "publisher": "DJI",
+          "url": "https://dl.djicdn.com/downloads/DJI_Mavic_3_Pro/20240816/DJI_Mavic_3_Pro_User_Manual_EN.pdf",
+          "accessed": "2026-02-10"
+        },
+        {
+          "title": "HASSELBLAD L2D-20",
+          "url": "https://www.hasselblad.com/collaborations/dji-mavic-3-pro",
+          "publisher": "Hasselblad",
+          "accessed": "2026-02-10"
+        },
+        {
+          "title": "DJI Mavic 4 Pro vs. DJI Air 3S vs. DJI Mavic 3 Pro - Concise Comparison",
+          "url": "https://www.pix-pro.com/blog/dji-comparison",
+          "publisher": "Pixpro UAB",
+          "author": "Zmejevskis, L.",
+          "accessed": "2026-02-10"
+        }
+      ],
+      "tags": ["drone", "Hasselblad L2D-20"]
+    },
+    {
+      "make": "DJI",
       "model": "Mavic 4 Pro",
       "sensorSize": [
         {
           "format": "28 mm Hasselblad Camera",
-          "size": [17.3, 13],
+          "size": [18.57, 12.38],
           "resolution": [
             {
               "format": "6K",
@@ -2785,7 +2864,7 @@
         },
         {
           "format": "168 mm Tele Camera",
-          "size": [8.8, 6.6],
+          "size": [8.0, 6.4],
           "resolution": [
             {
               "format": "4K UHD",
@@ -2807,6 +2886,13 @@
           "url": "https://www.hasselblad.com/collaborations/dji-mavic-4-pro/",
           "publisher": "Hasselblad",
           "accessed": "2025-09-28"
+        },
+        {
+          "title": "DJI Mavic 4 Pro vs. DJI Air 3S vs. DJI Mavic 3 Pro - Concise Comparison",
+          "url": "https://www.pix-pro.com/blog/dji-comparison",
+          "publisher": "Pixpro UAB",
+          "author": "Zmejevskis, L.",
+          "accessed": "2026-02-10"
         }
       ],
       "tags": ["drone", "Hasselblad L3D-100C"]
@@ -3856,6 +3942,137 @@
         }
       ],
       "tags": ["dslr"]
+    },
+    {
+      "make": "Generic",
+      "model": "Medium Format",
+      "sensorSize": [
+        {
+          "format": "Medium Format 6x9",
+          "size": [84, 56],
+          "resolution": [
+            {
+              "format": "60 MP",
+              "size": [9487, 6325]
+            },
+            {
+              "format": "40 MP",
+              "size": [7746, 5164]
+            },
+            {
+              "format": "20 MP",
+              "size": [5478, 3652]
+            }
+          ]
+        },
+        {
+          "format": "Medium Format 6x8",
+          "size": [76, 56],
+          "resolution": [
+            {
+              "format": "60 MP",
+              "size": [9024, 6649]
+            },
+            {
+              "format": "40 MP",
+              "size": [7368, 5429]
+            },
+            {
+              "format": "20 MP",
+              "size": [5210, 3839]
+            }
+          ]
+        },
+        {
+          "format": "Medium Format 6x7",
+          "size": [70, 56],
+          "resolution": [
+            {
+              "format": "60 MP",
+              "size": [8660, 6928]
+            },
+            {
+              "format": "40 MP",
+              "size": [7071, 5657]
+            },
+            {
+              "format": "20 MP",
+              "size": [5000, 4000]
+            }
+          ]
+        },
+        {
+          "format": "Medium Format 6x6",
+          "size": [56, 56],
+          "resolution": [
+            {
+              "format": "60 MP",
+              "size": [7746, 7746]
+            },
+            {
+              "format": "40 MP",
+              "size": [6325, 6325]
+            },
+            {
+              "format": "20 MP",
+              "size": [4472, 4472]
+            }
+          ]
+        },
+        {
+          "format": "Medium Format 6x4.5",
+          "size": [42, 56],
+          "resolution": [
+            {
+              "format": "60 MP",
+              "size": [6708, 8944]
+            },
+            {
+              "format": "40 MP",
+              "size": [5477, 7303]
+            },
+            {
+              "format": "20 MP",
+              "size": [3873, 5164]
+            }
+          ]
+        },
+        {
+          "format": "Medium Format Hasselblad",
+          "size": [53.7, 40.2],
+          "resolution": [
+            {
+              "format": "60 MP",
+              "size": [8953, 6702]
+            },
+            {
+              "format": "40 MP",
+              "size": [7310, 5472]
+            },
+            {
+              "format": "20 MP",
+              "size": [5169, 3869]
+            }
+          ]
+        }
+      ],
+      "category": ["Still"],
+      "references": [
+        {
+          "title": "Image Sensor Format",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Image_sensor_format&oldid=1335887401",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-10"
+        },
+        {
+          "title": "Medium Format",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Medium_format&oldid=1332616124",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-10"
+        }
+      ]
     },
     {
       "make": "GoPro",
