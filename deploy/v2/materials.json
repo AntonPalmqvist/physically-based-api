@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.0,
-    "updated": 202602032033,
+    "updated": 202602121903,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info"
   },
@@ -115,6 +115,190 @@
       ]
     },
     {
+      "name": "Aluminum (Anodized Red)",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.6, 0.0, 0.0]
+        },
+        {
+          "colorSpace": "acescg",
+          "color": [0.368, 0.042, 0.012]
+        }
+      ],
+      "metalness": 1,
+      "specularColor": [
+        {
+          "format": ["Gulbrandsen"],
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.989, 0.989, 0.972]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.985, 0.989, 0.993]
+            }
+          ]
+        },
+        {
+          "format": ["F82"],
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.91, 0.936, 0.959]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.921, 0.934, 0.955]
+            }
+          ]
+        }
+      ],
+      "roughness": 0.3,
+      "complexIor": [
+        {
+          "colorSpace": "srgb-linear",
+          "n": [0.728978, 0.588215, 0.78354],
+          "k": [6.45971, 5.19646, 4.37746]
+        },
+        {
+          "colorSpace": "acescg",
+          "n": [0.73826, 0.58846, 0.401312],
+          "k": [5.76125, 5.26448, 4.35851]
+        }
+      ],
+      "density": [2700],
+      "category": ["Metal"],
+      "description": "Aluminum can be colorized by a process called anodization. It creates a layer of aluminum oxide by supplying different voltages which results in different thickness. Unlike titanium, aluminum doesn't get vivid colors from anodization so dyes are used to color it further.",
+      "tags": ["aluminium"],
+      "references": [
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=main&book=Al&page=Cheng",
+          "accessed": "2025-06-26"
+        },
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=main&book=Al2O3&page=Hagemann",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
+        },
+        {
+          "title": "Aluminium",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Aluminium&oldid=1271633189",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Density",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Mirror",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Mirror&oldid=1268984936",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Aluminium oxide",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Aluminium_oxide&oldid=1336992644",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "Anodizing",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Anodizing&oldid=1334964855#Aluminium",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "Anodizing Color Chart",
+          "author": "Ruan, B.",
+          "publisher": "Beska LLC",
+          "url": "https://www.beskamold.com/anodizing-color-chart/",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "What Is the Anodizing Process for Aluminum and Why Is It Used",
+          "publisher": "WUXI SEATHER TECHNOLOGY CO., LTD.",
+          "url": "https://seathertechnology.com/anodizing-process-for-aluminum-benefits-applications/",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "Anodized Aluminum Colors: Process, Performance & Design",
+          "author": "Hayes, C.",
+          "publisher": "TZR",
+          "url": "https://www.tzrmetal.com/anodized-aluminum-colors/",
+          "accessed": "2026-02-07"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/aluminum-anodized-red.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum-anodized-red.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/aluminum-anodized-red.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum-anodized-red.avif"
+        }
+      ]
+    },
+    {
+      "name": "Amber",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.83, 0.288, 0.036]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0,
+      "ior": 1.5,
+      "transmission": 1,
+      "density": [1060, 1100],
+      "category": ["Organic"],
+      "references": [
+        {
+          "title": "Amber",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Amber&oldid=1337093275",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-10"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/amber.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/amber.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/amber.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/amber.avif"
+        }
+      ]
+    },
+    {
       "name": "Asphalt (Fresh)",
       "color": [
         {
@@ -163,13 +347,13 @@
       "images": [
         {
           "format": "jpeg",
-          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/asphalt.jpeg",
-          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/asphalt.jpeg"
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/asphalt-fresh.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/asphalt-fresh.jpeg"
         },
         {
           "format": "avif",
-          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/asphalt.avif",
-          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/asphalt.avif"
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/asphalt-fresh.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/asphalt-fresh.avif"
         }
       ],
       "tags": ["tarmac", "bitumen"]
@@ -351,7 +535,7 @@
       "color": [
         {
           "colorSpace": "srgb-linear",
-          "color": [0.64448, 0.003, 0.005]
+          "color": [0.644, 0.003, 0.005]
         }
       ],
       "metalness": 0,
@@ -2012,6 +2196,56 @@
       ]
     },
     {
+      "name": "Grass",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.105, 0.133, 0.041]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0.5,
+      "ior": 1.5,
+      "category": ["Organic"],
+      "references": [
+        {
+          "title": "Spectral Materials Database",
+          "author": "Jakubiec, J. A.",
+          "url": "https://spectraldb.com/measurements/01110/",
+          "accessed": "2026-02-10"
+        },
+        {
+          "title": "Spectral Materials Database",
+          "author": "Jakubiec, J. A.",
+          "url": "https://spectraldb.com/measurements/00633/",
+          "accessed": "2026-02-10"
+        },
+        {
+          "title": "The New Preferred Memory Color (PMC) Chart",
+          "author": "Luo, M. R.",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/col.22940#col22940-sec-0002-title",
+          "publisher": "Color Research & Application",
+          "volume": "49",
+          "issue": "6",
+          "pages": "564--576",
+          "year": "2024",
+          "doi": "https://doi.org/10.1002/col.22940"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/grass.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/grass.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/grass.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/grass.avif"
+        }
+      ]
+    },
+    {
       "name": "Gray Card",
       "color": [
         {
@@ -2107,7 +2341,7 @@
           "author": "Tomasik, P. (Ed.)",
           "url": "https://www.taylorfrancis.com/books/mono/10.1201/9780203495728/chemical-functional-properties-food-saccharides-piotr-tomasik",
           "publisher": "CRC Press",
-          "pages": "74 ",
+          "pages": "74",
           "year": "2003",
           "doi": "https://doi.org/10.1201/9780203495728"
         },
@@ -5867,6 +6101,164 @@
       ]
     },
     {
+      "name": "Titanium (Anodized)",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.441, 0.4, 0.361]
+        },
+        {
+          "colorSpace": "acescg",
+          "color": [0.424, 0.403, 0.367]
+        }
+      ],
+      "metalness": 1,
+      "specularColor": [
+        {
+          "format": ["Gulbrandsen"],
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.67, 0.641, 0.52]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.637, 0.645, 0.657]
+            }
+          ]
+        },
+        {
+          "format": ["F82"],
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.865, 0.906, 0.946]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.882, 0.903, 0.94]
+            }
+          ]
+        }
+      ],
+      "roughness": 0,
+      "complexIor": [
+        {
+          "colorSpace": "srgb-linear",
+          "n": [1.9345, 1.86761, 2.05863],
+          "k": [2.33987, 2.05312, 1.74518]
+        },
+        {
+          "colorSpace": "acescg",
+          "n": [1.9732, 1.86443, 1.70307],
+          "k": [2.20459, 2.06955, 1.86062]
+        }
+      ],
+      "density": [4540],
+      "thinFilmIor": 2.488,
+      "thinFilmThickness": [20, 300],
+      "category": ["Metal"],
+      "description": "Titanium can be colorized by a process called anodization. It creates a layer of titanium dioxide by supplying different voltages which results in different thickness and color. Additional colors can be achieved by adding dyes.",
+      "references": [
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=main&book=Ti&page=Palm",
+          "accessed": "2025-06-26"
+        },
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=main&book=TiO2&page=Jolivet-anatase",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
+        },
+        {
+          "title": "Density",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-26"
+        },
+        {
+          "title": "Titanium dioxide",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Titanium_dioxide&oldid=1335283760",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "Anodizing",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Anodizing&oldid=1334964855#Titanium",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "How Do You Anodize Titanium: A Step-by-Step Guide?",
+          "author": "Walker, E.",
+          "publisher": "Walker Metal Smith",
+          "url": "https://walkermetalsmith.com/how-do-you-anodize-titanium/",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "Titanium Anodizing: Process, Benefits, and Applications",
+          "author": "Ruan, B.",
+          "publisher": "Beska LLC",
+          "url": "https://www.beskamold.com/titanium-anodizing/",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "Titanium Anodizing: What It Is, How It Works, and Why It Matters",
+          "author": "Huang, S.",
+          "publisher": "Shenzhen Weixiang Hardware Products Co., Ltd",
+          "url": "https://wisensemachining.com/titanium-anodizing-guide/",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "Crystallization Of Amorphous Anodized TiO2 Nanotube Arrays",
+          "author": "Zhiqiang, W., Kunfeng, C., & Dongfeng, X.",
+          "doi": "https://doi.org/10.1039/d4ra00852a",
+          "publisher": "RSC Advances",
+          "issue": "12",
+          "volume": "14",
+          "pages": "8195--8203",
+          "year": "2024",
+          "url": "https://pubs.rsc.org/en/content/articlelanding/2024/ra/d4ra00852a"
+        },
+        {
+          "title": "Correlation Of Oxide Film Thickness With Interference Coloration And Corrosion Resistance In Anodized Titanium",
+          "author": "Yeji, C., & Chanyoung, J.",
+          "doi": "https://doi.org/10.1016/j.electacta.2025.147737",
+          "publisher": "Electrochimica Acta",
+          "issue": "0013-4686",
+          "volume": "545",
+          "pages": "147737",
+          "year": "2026",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0013468625020948"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/titanium-anodized.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/titanium-anodized.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/titanium-anodized.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/titanium-anodized.avif"
+        }
+      ]
+    },
+    {
       "name": "Toner (Black)",
       "color": [
         {
@@ -6232,6 +6624,13 @@
           "author": "Jakubiec, J. A.",
           "url": "https://spectraldb.com/measurements/00074/",
           "accessed": "2025-01-25"
+        },
+        {
+          "title": "Spectrophotometer Measurement",
+          "author": "Palmqvist, A.",
+          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/whiteboard/",
+          "publisher": "Physically Based Database",
+          "accessed": "2026-02-04"
         }
       ],
       "images": [
