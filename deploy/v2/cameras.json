@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Camera.json",
   "header": {
     "schemaVersion": 2.0,
-    "updated": 202602102012,
+    "updated": 202602131941,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info"
   },
@@ -10091,6 +10091,43 @@
         }
       ],
       "tags": ["full frame", "a7", "ilce-7m4", "mirrorless"]
+    },
+    {
+      "make": "Sony",
+      "model": "Alpha 7 V",
+      "sensorSize": [
+        {
+          "format": "Open Gate",
+          "size": [35.9, 23.9],
+          "resolution": [
+            {
+              "format": "4K",
+              "size": [3840, 2160]
+            },
+            {
+              "format": "Full HD",
+              "size": [1920, 1080]
+            }
+          ]
+        }
+      ],
+      "category": ["Still"],
+      "references": [
+        {
+          "title": "Alpha 7 V - Full-frame Mirrorless Interchangeable Lens Camera",
+          "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7m5-b",
+          "publisher": "SONY ELECTRONICS INC.",
+          "accessed": "2026-02-13"
+        },
+        {
+          "title": "Sony α7",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Sony_%CE%B17&oldid=1336585771",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-13"
+        }
+      ],
+      "tags": ["full frame", "a7", "ilce-7m5", "mirrorless"]
     },
     {
       "make": "Sony",
