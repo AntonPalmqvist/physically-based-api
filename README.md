@@ -9,6 +9,23 @@ A database of physically based values for CG artists.
   </picture>
 </p>
 
+<a href="https://github.com/AntonPalmqvist/physically-based-api?tab=CC0-1.0-1-ov-file">
+  <img alt="GitHub License" src="https://img.shields.io/github/license/AntonPalmqvist/physically-based-api">
+</a>
+<a href="https://github.com/AntonPalmqvist/physically-based-api/releases">
+  <img alt="GitHub Release" src="https://img.shields.io/github/v/release/AntonPalmqvist/physically-based-api">
+</a>
+<a href="schemas/openapi-schema-v2.json">
+  <img alt="Swagger Validation" src="https://img.shields.io/swagger/valid/3.0?specUrl=https%3A%2F%2Fraw.githubusercontent.com%2FAntonPalmqvist%2Fphysically-based-api%2Frefs%2Fheads%2Fmain%2Fschemas%2Fopenapi-schema-v2.json&label=openapi%203.1">
+</a>
+<a href="https://mastodon.gamedev.place/@apq">
+  <img alt="Follow on Mastodon" src="https://img.shields.io/badge/%40apq-blue?logo=mastodon&logoColor=%23fff&color=%236364ff">
+</a>
+<a href="https://biomejs.dev/">
+  <img alt="Code Style" src="https://img.shields.io/badge/code_style-biome-60a5fa?logo=biome
+  ">
+</a>
+
 ## Features
 
 - Open Database: Access a curated collection of physically based material values
@@ -43,8 +60,6 @@ Contributions are welcome! Whether you want to add new entries, corrections, or 
 The database is made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes.
 
 Shader ball used for renders is from [ASWF USD WG](https://github.com/usd-wg/assets/tree/main/full_assets/StandardShaderBall) and is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/80daad71-95b1-40c0-be3f-df244e44d8b7/deploy-status)](https://app.netlify.com/sites/hardcore-dubinsky-99d96e/deploys)
 
 
 <!-- ## Shader Ball
