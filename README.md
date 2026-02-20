@@ -9,23 +9,11 @@ A database of physically based values for CG artists.
   </picture>
 </p>
 
-<p>
-  <a href="https://github.com/AntonPalmqvist/physically-based-api?tab=CC0-1.0-1-ov-file">
-    <img alt="GitHub License" src="https://img.shields.io/github/license/AntonPalmqvist/physically-based-api"/>
-  </a>
-  <a href="https://github.com/AntonPalmqvist/physically-based-api/releases">
-    <img alt="GitHub Release" src="https://img.shields.io/github/v/release/AntonPalmqvist/physically-based-api"/>
-  </a>
-  <a href="schemas/openapi-schema-v2.json">
-    <img alt="Swagger Validation" src="https://img.shields.io/swagger/valid/3.0?specUrl=https%3A%2F%2Fraw.githubusercontent.com%2FAntonPalmqvist%2Fphysically-based-api%2Frefs%2Fheads%2Fmain%2Fschemas%2Fopenapi-schema-v2.json&label=openapi%203.1"/>
-  </a>
-  <a href="https://mastodon.gamedev.place/@apq">
-    <img alt="Follow on Mastodon" src="https://img.shields.io/badge/%40apq-blue?logo=mastodon&logoColor=%23fff&color=%236364ff"/>
-  </a>
-  <a href="https://biomejs.dev/">
-    <img alt="Code Style" src="https://img.shields.io/badge/code_style-biome-60a5fa?logo=biome"/>
-  </a>
-</p>
+<a href="https://github.com/AntonPalmqvist/physically-based-api?tab=CC0-1.0-1-ov-file"><img alt="GitHub License" src="https://img.shields.io/github/license/AntonPalmqvist/physically-based-api"/></a>
+<a href="https://github.com/AntonPalmqvist/physically-based-api/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/AntonPalmqvist/physically-based-api"/></a>
+<a href="schemas/openapi-schema-v2.json"><img alt="Swagger Validation" src="https://img.shields.io/swagger/valid/3.0?specUrl=https%3A%2F%2Fraw.githubusercontent.com%2FAntonPalmqvist%2Fphysically-based-api%2Frefs%2Fheads%2Fmain%2Fschemas%2Fopenapi-schema-v2.json&label=openapi%203.1"/></a>
+<a href="https://mastodon.gamedev.place/@apq"><img alt="Follow on Mastodon" src="https://img.shields.io/badge/%40apq-blue?logo=mastodon&logoColor=%23fff&color=%236364ff"/></a>
+<a href="https://biomejs.dev/"><img alt="Code Style" src="https://img.shields.io/badge/code_style-biome-60a5fa?logo=biome"/></a>
 
 ## Features
 
