@@ -21,7 +21,7 @@
     "origin": {
       "description": "URL to the source of this JSON file.",
       "type": "string",
-      "const": "https://api.physicallybased.info"
+      "pattern": "^https://api\\.physicallybased\\.info/v2"
     }
   },
   "required": ["schemaVersion", "updated", "license", "origin"]

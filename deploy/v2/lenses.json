@@ -2,9 +2,9 @@
   "$schema": "../../schemas/components/schemas/Lens.json",
   "header": {
     "schemaVersion": 2.0,
-    "updated": 202601101022,
+    "updated": 202602281104,
     "license": "CC0 1.0 Universal",
-    "origin": "https://api.physicallybased.info"
+    "origin": "https://api.physicallybased.info/v2/lenses"
   },
   "data": [
     {
