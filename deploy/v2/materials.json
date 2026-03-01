@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.0,
-    "updated": 202602281104,
+    "updated": 202603011023,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/materials"
   },
@@ -239,13 +239,6 @@
           "title": "What Is the Anodizing Process for Aluminum and Why Is It Used",
           "publisher": "WUXI SEATHER TECHNOLOGY CO., LTD.",
           "url": "https://seathertechnology.com/anodizing-process-for-aluminum-benefits-applications/",
-          "accessed": "2026-02-07"
-        },
-        {
-          "title": "Anodized Aluminum Colors: Process, Performance & Design",
-          "author": "Hayes, C.",
-          "publisher": "TZR",
-          "url": "https://www.tzrmetal.com/anodized-aluminum-colors/",
           "accessed": "2026-02-07"
         }
       ],

@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Camera.json",
   "header": {
     "schemaVersion": 2.0,
-    "updated": 202602281104,
+    "updated": 202603011023,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/cameras"
   },
@@ -675,8 +675,8 @@
         {
           "title": "ARRI Rental | ALEXA 65",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arrirental.com/en/cameras/exclusive-cameras/alexa-65",
-          "accessed": "2025-02-22"
+          "url": "https://www.arrirental.com/en/cameras/digital-65-mm-cameras/alexa-65",
+          "accessed": "2026-03-01"
         },
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
@@ -2994,8 +2994,8 @@
         {
           "title": "DJI Ronin 4D Specs",
           "publisher": "DJI",
-          "url": "https://www.dji.com/se/ronin-4d/specs",
-          "accessed": "2025-02-22"
+          "url": "https://www.dji.com/ronin-4d/specs",
+          "accessed": "2026-03-01"
         },
         {
           "title": "DJI Ronin",
@@ -3045,8 +3045,8 @@
         {
           "title": "Fujifilm GFX100 Specifications",
           "publisher": "FUJIFILM Corporation.",
-          "url": "https://fujifilm-x.com/global/products/cameras/gfx100/specifications/",
-          "accessed": "2025-02-22"
+          "url": "https://www.fujifilm-x.com/global/products/cameras/gfx100/",
+          "accessed": "2026-03-01"
         },
         {
           "title": "Fujifilm GFX100",
@@ -3122,7 +3122,7 @@
         {
           "title": "Fujifilm GFX100 II Specifications",
           "publisher": "FUJIFILM Corporation.",
-          "url": "https://fujifilm-x.com/global/products/cameras/gfx100-ii/specifications/",
+          "url": "https://www.fujifilm-x.com/global/products/cameras/gfx100-ii/specifications/",
           "accessed": "2025-02-22"
         },
         {
@@ -3490,8 +3490,8 @@
         {
           "title": "Fujifilm X-H2 Specifications",
           "publisher": "FUJIFILM Corporation.",
-          "url": "https://fujifilm-x.com/global/products/cameras/x-h2/specifications/",
-          "accessed": "2025-02-22"
+          "url": "https://www.fujifilm-x.com/global/products/cameras/x-h2/specifications/",
+          "accessed": "2026-03-01"
         }
       ],
       "tags": ["aps-c", "mirrorless"]
@@ -3532,8 +3532,8 @@
         {
           "title": "Fujifilm X-T5 Specifications",
           "publisher": "FUJIFILM Corporation.",
-          "url": "https://fujifilm-x.com/global/products/cameras/x-t5/specifications/",
-          "accessed": "2025-02-22"
+          "url": "https://www.fujifilm-x.com/global/products/cameras/x-t5/specifications/",
+          "accessed": "2026-03-01"
         },
         {
           "title": "Fujifilm X-T5",
@@ -4703,9 +4703,9 @@
       "references": [
         {
           "title": "S5II Full Frame Mirrorless Camera",
-          "url": "https://shop.panasonic.com/cameras-and-camcorders/cameras/full-frame-cameras/dc-s5m2body",
+          "url": "https://shop.panasonic.com/products/s5m2-full-frame-mirrorless-camera-20-60mm-f3-5-5-6-lens",
           "publisher": "Panasonic Corporation",
-          "accessed": "2025-02-22"
+          "accessed": "2026-03-01"
         },
         {
           "title": "LUMIX S5II Operating Instructions",
@@ -10196,7 +10196,7 @@
       "references": [
         {
           "title": "Alpha 7CR - Full-frame Interchangeable Lens Hybrid Camera",
-          "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7cr-b",
+          "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7crb",
           "publisher": "SONY ELECTRONICS INC.",
           "accessed": "2025-02-22"
         },
@@ -10854,10 +10854,10 @@
       "category": ["Movie"],
       "references": [
         {
-          "title": "Alpha FX3 Cinema Line Full-frame Camera",
-          "url": "https://electronics.sony.com/imaging/cinema-line-cameras/all-cinema-line-cameras/p/ilmefx3",
+          "title": "Cinema Line | FX3 Full-frame Cinema Camera",
+          "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilmefx3a",
           "publisher": "SONY ELECTRONICS INC.",
-          "accessed": "2025-02-22"
+          "accessed": "2026-03-01"
         }
       ],
       "tags": ["full frame", "netflix"]
