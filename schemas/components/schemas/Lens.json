@@ -76,7 +76,7 @@
         "schemaVersion": 2.0,
         "updated": 202512121608,
         "license": "CC0 1.0 Universal",
-        "origin": "https://api.physicallybased.info"
+        "origin": "https://api.physicallybased.info/v2/lenses"
       },
       "data": [
         {
