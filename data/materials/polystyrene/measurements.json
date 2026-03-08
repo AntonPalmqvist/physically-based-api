@@ -1,0 +1,13 @@
+[
+  {
+    "subject": "Polystyrene",
+    "author": "https://github.com/AntonPalmqvist",
+    "device": "Nix Spectro 2",
+    "illuminant": "D65",
+    "observer": 10,
+    "measuringMode": "M2",
+    "srgb-linear": [0.824, 0.83, 0.832],
+    "ciexyz-d65": [0.7865, 0.8286, 0.9052],
+    "cielab-d65": [92.95, 0.18, -1.12]
+  }
+]

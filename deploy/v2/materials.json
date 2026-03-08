@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.0,
-    "updated": 202603011023,
+    "updated": 202603081226,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/materials"
   },
@@ -929,6 +929,63 @@
       ]
     },
     {
+      "name": "Cardboard",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.351, 0.208, 0.11]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0.5,
+      "ior": 1.5,
+      "density": [700],
+      "category": ["Manmade"],
+      "description": "The material commonly referred to as \"cardboard\" is more specifically named \"corrugated fiberboard\".",
+      "references": [
+        {
+          "title": "Spectrophotometer Measurement",
+          "author": "Palmqvist, A.",
+          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/cardboard/",
+          "publisher": "Physically Based Database",
+          "accessed": "2026-03-07"
+        },
+        {
+          "title": "Cardboard",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Cardboard&oldid=1337511096",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-03-07"
+        },
+        {
+          "title": "Corrugated Fiberboard",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Corrugated_fiberboard&oldid=1333020802",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-03-07"
+        },
+        {
+          "title": "Solids - Densities ",
+          "url": "https://www.engineeringtoolbox.com/density-solids-d_1265.html",
+          "publisher": "The Engineering ToolBox",
+          "accessed": "2026-03-07"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/cardboard.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/cardboard.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/cardboard.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/cardboard.avif"
+        }
+      ],
+      "tags": ["corrugated fiberboard"]
+    },
+    {
       "name": "Carrot",
       "color": [
         {
@@ -1688,7 +1745,49 @@
       ]
     },
     {
-      "name": "Egg Shell",
+      "name": "Egg Shell (Brown)",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.493, 0.248, 0.123]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0.9,
+      "ior": 1.5,
+      "category": ["Organic"],
+      "description": "Brown hen egg from grocery store.",
+      "references": [
+        {
+          "title": "Spectrophotometer Measurement",
+          "author": "Palmqvist, A.",
+          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/egg-shell-brown/",
+          "publisher": "Physically Based Database",
+          "accessed": "2026-03-07"
+        },
+        {
+          "title": "Eggs as Food",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Eggs_as_food&oldid=1271500408#Shell",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-26"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/egg-shell-brown.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/egg-shell-brown.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/egg-shell-brown.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/egg-shell-brown.avif"
+        }
+      ]
+    },
+    {
+      "name": "Egg Shell (White)",
       "color": [
         {
           "colorSpace": "srgb-linear",
@@ -1704,7 +1803,7 @@
         {
           "title": "Spectrophotometer Measurement",
           "author": "Palmqvist, A.",
-          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/egg-shell/",
+          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/egg-shell-white/",
           "publisher": "Physically Based Database",
           "accessed": "2025-01-26"
         },
@@ -1719,13 +1818,13 @@
       "images": [
         {
           "format": "jpeg",
-          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/egg-shell.jpeg",
-          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/egg-shell.jpeg"
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/egg-shell-white.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/egg-shell-white.jpeg"
         },
         {
           "format": "avif",
-          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/egg-shell.avif",
-          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/egg-shell.avif"
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/egg-shell-white.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/egg-shell-white.avif"
         }
       ]
     },
@@ -3775,6 +3874,40 @@
       ]
     },
     {
+      "name": "Orange",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.615, 0.205, 0.01]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0.5,
+      "ior": 1.5,
+      "category": ["Organic"],
+      "references": [
+        {
+          "title": "Spectrophotometer Measurement",
+          "author": "Palmqvist, A.",
+          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/orange/",
+          "publisher": "Physically Based Database",
+          "accessed": "2026-03-07"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/orange.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/orange.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/orange.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/orange.avif"
+        }
+      ]
+    },
+    {
       "name": "Palladium",
       "color": [
         {
@@ -4427,6 +4560,13 @@
           "author": "Jakubiec, J. A.",
           "url": "https://spectraldb.com/measurements/00090/",
           "accessed": "2026-02-02"
+        },
+        {
+          "title": "Spectrophotometer Measurement",
+          "author": "Palmqvist, A.",
+          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/polystyrene/",
+          "publisher": "Physically Based Database",
+          "accessed": "2026-03-07"
         },
         {
           "title": "Polystyrene",
@@ -5959,6 +6099,68 @@
       ]
     },
     {
+      "name": "Terracotta",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.555, 0.212, 0.11]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0.8,
+      "ior": 1.5,
+      "density": [1800, 2200, 2000],
+      "category": ["Manmade"],
+      "tags": ["clay"],
+      "references": [
+        {
+          "title": "Spectrophotometer Measurement",
+          "author": "Palmqvist, A.",
+          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/terracotta/",
+          "publisher": "Physically Based Database",
+          "accessed": "2026-03-08"
+        },
+        {
+          "title": "Terracotta",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Terracotta&oldid=1334206131",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-03-08"
+        },
+        {
+          "title": "Technical Specifications - Darwen Terracotta",
+          "url": "https://www.darwenterracotta.com/technical-specifications",
+          "publisher": "Darwen Terracotta Limited",
+          "accessed": "2026-03-08"
+        },
+        {
+          "title": "All About Terracotta - Aurora Pots",
+          "author": "Tran, A.",
+          "url": "https://aurorapots.com/blogs/news/all-about-terracotta",
+          "publisher": "Aurora Pots",
+          "accessed": "2026-03-08"
+        },
+        {
+          "title": "Technicial Data of Terracotta Facade Panels",
+          "url": "https://www.terracotta-panel.com/technicial-data-of-terracotta-facade-panels/",
+          "publisher": "LOPO Terracotta Facade Panels Manufacturer Corporation",
+          "accessed": "2026-03-08"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/terracotta.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/terracotta.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/terracotta.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/terracotta.avif"
+        }
+      ]
+    },
+    {
       "name": "Tire",
       "color": [
         {
@@ -5981,7 +6183,7 @@
           "accessed": "2025-01-25"
         },
         {
-          "title": "Stainless Steel",
+          "title": "Tire",
           "author": "Wikipedia contributors",
           "url": "https://en.wikipedia.org/w/index.php?title=Tire&oldid=1274266449",
           "publisher": "Wikipedia, The Free Encyclopedia",
@@ -6252,6 +6454,47 @@
       ]
     },
     {
+      "name": "Toilet Paper",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.83, 0.835, 0.784]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0.9,
+      "ior": 1.5,
+      "density": [20, 70, 50],
+      "category": ["Manmade"],
+      "references": [
+        {
+          "title": "Spectrophotometer Measurement",
+          "author": "Palmqvist, A.",
+          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/toilet-paper/",
+          "publisher": "Physically Based Database",
+          "accessed": "2026-03-08"
+        },
+        {
+          "title": "Why Is Paper Density Very Important for Tissue Paper?",
+          "url": "https://www.yuanhuapaper.com/why-is-paper-density-very-important-for-tissue-paper/",
+          "publisher": "YuanhuaPaper",
+          "accessed": "2026-03-08"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/toilet-paper.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/toilet-paper.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/toilet-paper.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/toilet-paper.avif"
+        }
+      ]
+    },
+    {
       "name": "Toner (Black)",
       "color": [
         {
@@ -6290,6 +6533,73 @@
           "format": "avif",
           "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/toner-black.avif",
           "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/toner-black.avif"
+        }
+      ]
+    },
+    {
+      "name": "Toothpaste",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.9325, 0.9369, 0.9286]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0,
+      "ior": 1.5,
+      "density": [1300, 1500, 1400],
+      "viscosity": [50000],
+      "category": ["Manmade"],
+      "references": [
+        {
+          "title": "Spectrophotometer Measurement",
+          "author": "Palmqvist, A.",
+          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/toothpaste/",
+          "publisher": "Physically Based Database",
+          "accessed": "2026-03-08"
+        },
+        {
+          "title": "How Much Is A Pea-Sized Amount? A Study Of Dentifrice Dosing By Parents In Three Countries",
+          "author": "Creeth, J., Bosma, M. L., & Govier, K.",
+          "publisher": "International Dental Journal",
+          "doi": "https://doi.org/10.1111/idj.12076",
+          "year": "2013",
+          "issue": "0020-6539",
+          "volume": "63",
+          "pages": "25--30",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0020653920337060",
+          "accessed": "2026-03-08"
+        },
+        {
+          "title": "Toothpaste Abrasion and Abrasive Particle Content: Correlating High-Resolution Profilometric Analysis with Relative Dentin Abrasivity (RDA)",
+          "author": "Enax, J., Meyer, F., Schulze zur Wiesche, E., Fuhrmann, I. C., & Fabritius, H.-O.",
+          "publisher": "Dentistry Journal",
+          "doi": "https://doi.org/10.3390/dj11030079",
+          "year": "2023",
+          "issue": "3",
+          "volume": "11",
+          "pages": "79",
+          "url": "https://www.mdpi.com/2304-6767/11/3/79",
+          "accessed": "2026-03-08"
+        },
+        {
+          "title": "Hybrido Viscosity Table",
+          "author": "RealFlow 10 Documentation",
+          "publisher": "Next Limit Technologies",
+          "url": "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table",
+          "accessed": "2026-03-08"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/toothpaste.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/toothpaste.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/toothpaste.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/toothpaste.avif"
         }
       ]
     },

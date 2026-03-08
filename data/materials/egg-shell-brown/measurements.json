@@ -1,0 +1,13 @@
+[
+  {
+    "subject": "Egg Shell (Brown)",
+    "author": "https://github.com/AntonPalmqvist",
+    "device": "Nix Spectro 2",
+    "illuminant": "D65",
+    "observer": 10,
+    "measuringMode": "M2",
+    "srgb-linear": [0.493, 0.248, 0.123],
+    "ciexyz-d65": [0.3142, 0.2912, 0.1564],
+    "cielab-d65": [60.89, 14.61, 27.3]
+  }
+]
