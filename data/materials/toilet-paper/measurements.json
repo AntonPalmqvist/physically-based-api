@@ -1,0 +1,13 @@
+[
+  {
+    "subject": "Toilet Paper",
+    "author": "https://github.com/AntonPalmqvist",
+    "device": "Nix Spectro 2",
+    "illuminant": "D65",
+    "observer": 10,
+    "measuringMode": "M2",
+    "srgb-linear": [0.83, 0.835, 0.784],
+    "ciexyz-d65": [0.7824, 0.8303, 0.861],
+    "cielab-d65": [93.03, -0.96, 2.13]
+  }
+]

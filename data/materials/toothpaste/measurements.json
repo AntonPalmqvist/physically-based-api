@@ -1,0 +1,13 @@
+[
+  {
+    "subject": "Toothpaste",
+    "author": "https://github.com/AntonPalmqvist",
+    "device": "Nix Spectro 2",
+    "illuminant": "D65",
+    "observer": 10,
+    "measuringMode": "M2",
+    "srgb-linear": [0.9325, 0.9369, 0.9286],
+    "ciexyz-d65": [0.8872, 0.9354, 1.0124],
+    "cielab-d65": [97.44, 0.05, -0.56]
+  }
+]

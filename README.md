@@ -16,7 +16,7 @@ A database of physically based values for CG artists.
 
 ## Features
 
-- Open Database: Access a curated collection of physically based material values
+- Open Database: Access a collection of physically based values for materials, cameras, and light sources
 - Lightweight: The entire dataset is optimized for quick loading and integration as presets
   - [materials.json](deploy/v2/materials.json) `161 KB`
   - [lightsources.json](deploy/v2/lightsources.json) `25 KB`

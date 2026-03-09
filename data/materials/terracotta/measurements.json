@@ -1,0 +1,13 @@
+[
+  {
+    "subject": "Terracotta",
+    "author": "https://github.com/AntonPalmqvist",
+    "device": "Nix Spectro 2",
+    "illuminant": "D65",
+    "observer": 10,
+    "measuringMode": "M2",
+    "srgb-linear": [0.555, 0.212, 0.11],
+    "ciexyz-d65": [0.3244, 0.2775, 0.1406],
+    "cielab-d65": [59.66, 23.57, 28.85]
+  }
+]
