@@ -2,9 +2,10 @@
   "$schema": "../../schemas/components/schemas/Camera.json",
   "header": {
     "schemaVersion": 2.0,
-    "updated": 202603011023,
+    "updated": 202603101230,
     "license": "CC0 1.0 Universal",
-    "origin": "https://api.physicallybased.info/v2/cameras"
+    "origin": "https://api.physicallybased.info/v2/cameras",
+    "deprecated": false
   },
   "data": [
     {
