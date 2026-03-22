@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Lightsource.json",
   "header": {
     "schemaVersion": 2.0,
-    "updated": 202603101230,
+    "updated": 202603221536,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/lightsources",
     "deprecated": false
@@ -1075,6 +1075,874 @@
         }
       ],
       "tags": ["airglow"]
+    },
+    {
+      "name": "Standard Illuminant",
+      "variants": [
+        {
+          "format": "A",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.448, 0.126]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.625, 0.233]
+            }
+          ],
+          "temperature": [2855],
+          "intensity": [1000],
+          "description": "Represents typical, domestic, tungsten-filament lighting."
+        },
+        {
+          "format": "B",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.761, 0.603]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.862, 0.698]
+            }
+          ],
+          "temperature": [4874],
+          "intensity": [1000],
+          "description": "Obsolete, direct sunlight at noon."
+        },
+        {
+          "format": "C",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.955, 0.886, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.947, 0.905, 1.0]
+            }
+          ],
+          "temperature": [6774],
+          "intensity": [1000],
+          "description": "Obsolete, average/north sky daylight NTSC 1953], PAL-M."
+        },
+        {
+          "format": "D50",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.83, 0.614]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.907, 0.698]
+            }
+          ],
+          "temperature": [5001],
+          "intensity": [1000],
+          "description": "Horizon light, ICC profile PCS."
+        },
+        {
+          "format": "D55",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.894, 0.745]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.945, 0.806]
+            }
+          ],
+          "temperature": [5502],
+          "intensity": [1000],
+          "description": "Mid-morning/mid-afternoon daylight."
+        },
+        {
+          "format": "D60",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.95, 0.875]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.975, 0.906]
+            }
+          ],
+          "temperature": [6003],
+          "intensity": [1000],
+          "description": "Daylight."
+        },
+        {
+          "format": "D65",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 1.0, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 1.0, 1.0]
+            }
+          ],
+          "temperature": [6504],
+          "intensity": [1000],
+          "description": "Noon daylight, sRGB whitepoint."
+        },
+        {
+          "format": "D75",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.811, 0.879, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.859, 0.892, 1.0]
+            }
+          ],
+          "temperature": [7505],
+          "intensity": [1000],
+          "description": "North sky daylight."
+        },
+        {
+          "format": "D93",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.631, 0.753, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.715, 0.775, 1.0]
+            }
+          ],
+          "temperature": [9295],
+          "intensity": [1000],
+          "description": "High-efficiency blue phosphor monitors, BT.2035, NTSC-J."
+        },
+        {
+          "format": "E",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.787, 0.754]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.875, 0.832]
+            }
+          ],
+          "temperature": [5455],
+          "intensity": [1000],
+          "description": "Illuminant E is an equal-energy radiator. It has a constant SPD inside the visible spectrum. It is useful as a theoretical reference, an illuminant that gives equal weight to all wavelengths."
+        },
+        {
+          "format": "FL1",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.937, 1.0, 0.927]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.963, 1.0, 0.941]
+            }
+          ],
+          "intensity": [1000],
+          "description": "Daylight fluorescent."
+        },
+        {
+          "format": "FL2",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.703, 0.421]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.825, 0.531]
+            }
+          ],
+          "temperature": [4223],
+          "intensity": [1000],
+          "description": "Cool white fluorescent."
+        },
+        {
+          "format": "FL3",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.565, 0.242]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.724, 0.359]
+            }
+          ],
+          "temperature": [3446],
+          "intensity": [1000],
+          "description": "White fluorescent."
+        },
+        {
+          "format": "FL4",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.461, 0.148]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.637, 0.257]
+            }
+          ],
+          "temperature": [2938],
+          "intensity": [1000],
+          "description": "Warm white fluorescent. Used for calibrating the CIE color rendering index (the CRI formula was chosen such that FL4 would have a CRI of 51)."
+        },
+        {
+          "format": "FL5",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.884, 1.0, 0.86]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.932, 1.0, 0.884]
+            }
+          ],
+          "intensity": [1000],
+          "description": "White fluorescent."
+        },
+        {
+          "format": "FL6",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.727, 0.37]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.844, 0.481]
+            }
+          ],
+          "intensity": [1000],
+          "description": "Light white fluorescent."
+        },
+        {
+          "format": "FL7",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.999, 0.997]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.999, 0.997]
+            }
+          ],
+          "temperature": [6492],
+          "intensity": [1000],
+          "description": "D65, daylight simulator, a \"broadband\" (full-spectrum) fluorescent lamp with multiple phosphors, and higher CRI."
+        },
+        {
+          "format": "FL8",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.829, 0.613]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.907, 0.697]
+            }
+          ],
+          "temperature": [4997],
+          "intensity": [1000],
+          "description": "D50 simulator. Sylvania F40 Design 50, a \"broadband\" (full-spectrum) fluorescent lamp with multiple phosphors, and higher CRI."
+        },
+        {
+          "format": "FL9",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.676, 0.414]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.807, 0.527]
+            }
+          ],
+          "temperature": [4149],
+          "intensity": [1000],
+          "description": "Cool white deluxe fluorescent, a \"broadband\" (full-spectrum) fluorescent lamp with multiple phosphors, and higher CRI."
+        },
+        {
+          "format": "FL10",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.831, 0.613]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.909, 0.697]
+            }
+          ],
+          "temperature": [4998],
+          "intensity": [1000],
+          "description": "Philips TL85, Ultralume 50, a narrow triband illuminant consisting of three \"narrowband\" emissions (caused by ternary compositions of rare-earth phosphors) in the R, G, B regions of the visible spectrum, which leads to poor CRI."
+        },
+        {
+          "format": "FL11",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.654, 0.377]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.79, 0.493]
+            }
+          ],
+          "temperature": [4000],
+          "intensity": [1000],
+          "description": "Philips TL84, Ultralume 40, a narrow triband illuminant consisting of three \"narrowband\" emissions (caused by ternary compositions of rare-earth phosphors) in the R, G, B regions of the visible spectrum, which leads to poor CRI."
+        },
+        {
+          "format": "FL12",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.477, 0.153]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.651, 0.264]
+            }
+          ],
+          "temperature": [3000],
+          "intensity": [1000],
+          "description": "Philips TL83, Ultralume 30, a narrow triband illuminant consisting of three \"narrowband\" emissions (caused by ternary compositions of rare-earth phosphors) in the R, G, B regions of the visible spectrum, which leads to poor CRI."
+        },
+        {
+          "format": "FL3.1",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.46, 0.147]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.636, 0.256]
+            }
+          ],
+          "temperature": [2931],
+          "intensity": [1000],
+          "description": "Standard halophosphate."
+        },
+        {
+          "format": "FL3.2",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.636, 0.382]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.777, 0.498]
+            }
+          ],
+          "temperature": [3965],
+          "intensity": [1000],
+          "description": "Standard halophosphate."
+        },
+        {
+          "format": "FL3.3",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.914, 1.0, 0.87]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.949, 1.0, 0.892]
+            }
+          ],
+          "intensity": [1000],
+          "description": "Standard halophosphate."
+        },
+        {
+          "format": "FL3.4",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.455, 0.14]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.631, 0.249]
+            }
+          ],
+          "temperature": [2904],
+          "intensity": [1000],
+          "description": "DeLuxe type."
+        },
+        {
+          "format": "FL3.5",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.645, 0.419]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.783, 0.535]
+            }
+          ],
+          "temperature": [4086],
+          "intensity": [1000],
+          "description": "DeLuxe type."
+        },
+        {
+          "format": "FL3.6",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.81, 0.588]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.895, 0.678]
+            }
+          ],
+          "temperature": [4894],
+          "intensity": [1000],
+          "description": "DeLuxe type."
+        },
+        {
+          "format": "FL3.7",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.473, 0.15]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.647, 0.26]
+            }
+          ],
+          "temperature": [2979],
+          "intensity": [1000],
+          "description": "Three-band."
+        },
+        {
+          "format": "FL3.8",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.674, 0.36]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.806, 0.474]
+            }
+          ],
+          "temperature": [4005],
+          "intensity": [1000],
+          "description": "Three-band."
+        },
+        {
+          "format": "FL3.9",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.794, 0.581]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.884, 0.674]
+            }
+          ],
+          "temperature": [4851],
+          "intensity": [1000],
+          "description": "Three-band."
+        },
+        {
+          "format": "FL3.10",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.815, 0.618]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.898, 0.705]
+            }
+          ],
+          "temperature": [5000],
+          "intensity": [1000],
+          "description": "Three-band."
+        },
+        {
+          "format": "FL3.11",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.959, 0.835]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.982, 0.872]
+            }
+          ],
+          "temperature": [5853],
+          "intensity": [1000],
+          "description": "Three-band."
+        },
+        {
+          "format": "FL3.12",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.473, 0.153]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.647, 0.263]
+            }
+          ],
+          "temperature": [2984],
+          "intensity": [1000],
+          "description": "Multi-band."
+        },
+        {
+          "format": "FL3.13",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.618, 0.373]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.763, 0.491]
+            }
+          ],
+          "temperature": [3897],
+          "intensity": [1000],
+          "description": "Multi-band."
+        },
+        {
+          "format": "FL3.14",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.855, 0.618]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.924, 0.698]
+            }
+          ],
+          "temperature": [5045],
+          "intensity": [1000],
+          "description": "Multi-band."
+        },
+        {
+          "format": "FL3.15",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.999, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.999, 1.0]
+            }
+          ],
+          "temperature": [6506],
+          "intensity": [1000],
+          "description": "D65 simulator."
+        },
+        {
+          "format": "HP1",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.249, 0.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.427, 0.068]
+            }
+          ],
+          "temperature": [1959],
+          "intensity": [1000],
+          "description": "Standard high pressure sodium lamp."
+        },
+        {
+          "format": "HP2",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.375, 0.063]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.558, 0.157]
+            }
+          ],
+          "temperature": [2506],
+          "intensity": [1000],
+          "description": "Color-enhanced high-pressure sodium lamp."
+        },
+        {
+          "format": "HP3",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.516, 0.164]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.685, 0.276]
+            }
+          ],
+          "temperature": [3144],
+          "intensity": [1000],
+          "description": "High pressure metal halide lamp."
+        },
+        {
+          "format": "HP4",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.663, 0.369]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.797, 0.484]
+            }
+          ],
+          "temperature": [4001],
+          "intensity": [1000],
+          "description": "High pressure metal halide lamp."
+        },
+        {
+          "format": "HP5",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.647, 0.399]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.784, 0.515]
+            }
+          ],
+          "temperature": [4039],
+          "intensity": [1000],
+          "description": "High pressure metal halide lamp."
+        },
+        {
+          "format": "LED-B1",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.42, 0.11]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.6, 0.214]
+            }
+          ],
+          "temperature": [2733],
+          "intensity": [1000],
+          "description": "Phosphor-converted blue."
+        },
+        {
+          "format": "LED-B2",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.472, 0.161]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.647, 0.272]
+            }
+          ],
+          "temperature": [2997],
+          "intensity": [1000],
+          "description": "Phosphor-converted blue."
+        },
+        {
+          "format": "LED-B3",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.664, 0.407]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.798, 0.522]
+            }
+          ],
+          "temperature": [4103],
+          "intensity": [1000],
+          "description": "Phosphor-converted blue."
+        },
+        {
+          "format": "LED-B4",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.81, 0.654]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.894, 0.738]
+            }
+          ],
+          "temperature": [5108],
+          "intensity": [1000],
+          "description": "Phosphor-converted blue."
+        },
+        {
+          "format": "LED-B5",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.983, 0.95, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.979, 0.958, 1.0]
+            }
+          ],
+          "temperature": [6598],
+          "intensity": [1000],
+          "description": "Phosphor-converted blue."
+        },
+        {
+          "format": "LED-BH1",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.446, 0.128]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.623, 0.234]
+            }
+          ],
+          "temperature": [2851],
+          "intensity": [1000],
+          "description": "Mixing of phosphor-converted blue LED and red LED (blue-hybrid)."
+        },
+        {
+          "format": "LED-RGB1",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.46, 0.091]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.637, 0.193]
+            }
+          ],
+          "temperature": [2840],
+          "intensity": [1000],
+          "description": "Mixing of red, green, and blue LEDs."
+        },
+        {
+          "format": "LED-V1",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.414, 0.117]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.594, 0.221]
+            }
+          ],
+          "temperature": [2723],
+          "intensity": [1000],
+          "description": "Phosphor-converted violet."
+        },
+        {
+          "format": "LED-V2",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.672, 0.387]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.805, 0.501]
+            }
+          ],
+          "temperature": [4070],
+          "intensity": [1000],
+          "description": "Phosphor-converted violet."
+        },
+        {
+          "format": "ID50",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.866, 0.631]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.931, 0.709]
+            }
+          ],
+          "temperature": [5097],
+          "intensity": [1000],
+          "description": "ID50 and ID65 are equivalent to their outdoor counterparts, D50 and D65, filtered through window glass, thereby removing the ultraviolet contents."
+        },
+        {
+          "format": "ID65",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.955, 1.0, 0.984]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.976, 1.0, 0.989]
+            }
+          ],
+          "temperature": [6602],
+          "intensity": [1000],
+          "description": "ID50 and ID65 are equivalent to their outdoor counterparts, D50 and D65, filtered through window glass, thereby removing the ultraviolet contents."
+        }
+      ],
+      "unit": ["lm"],
+      "type": ["point"],
+      "category": ["Artificial"],
+      "description": "A standard illuminant is a theoretical source of visible light with a spectral power distribution that is published. Standard illuminants provide a basis for comparing images or colors recorded under different lighting.",
+      "references": [
+        {
+          "title": "Standard Illuminant",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Standard_illuminant&oldid=1317606355",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-12-12"
+        },
+        {
+          "title": "Chromaticity Coordinates of Illuminants",
+          "author": "Colour Developers",
+          "url": "https://github.com/colour-science/colour/blob/develop/colour/colorimetry/datasets/illuminants/chromaticity_coordinates.py",
+          "accessed": "2026-03-22"
+        }
+      ]
     },
     {
       "name": "Street Light",
