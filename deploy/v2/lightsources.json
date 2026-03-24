@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Lightsource.json",
   "header": {
     "schemaVersion": 2.0,
-    "updated": 202603221536,
+    "updated": 202603231920,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/lightsources",
     "deprecated": false
@@ -512,7 +512,19 @@
       "name": "Digital Display",
       "variants": [
         {
-          "format": "Digital Display",
+          "format": "Digital Display (SDR)",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.943, 0.992]
+            }
+          ],
+          "temperature": [5000, 7500, 6500],
+          "intensity": [100, 300, 200],
+          "sourceSize": [61, 38]
+        },
+        {
+          "format": "Digital Display (HDR)",
           "color": [
             {
               "colorSpace": "srgb-linear",
@@ -687,6 +699,102 @@
       ]
     },
     {
+      "name": "Glow Stick",
+      "variants": [
+        {
+          "format": "Green",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0, 1, 0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.315, 1.0, 0.049]
+            }
+          ],
+          "intensity": [10],
+          "sourceSize": [1, 12]
+        }
+      ],
+      "unit": ["lm"],
+      "type": ["cylinder"],
+      "category": ["Artificial"],
+      "references": [
+        {
+          "title": "Glow Stick",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Glow_stick&oldid=1340548389",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-03-22"
+        },
+        {
+          "title": "Chemiluminescence",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Chemiluminescence&oldid=1338098680",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-03-22"
+        }
+      ],
+      "tags": ["chem light"]
+    },
+    {
+      "name": "Household Light Bulb",
+      "variants": [
+        {
+          "format": "2700 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.415, 0.099]
+            }
+          ],
+          "temperature": [2200, 6000, 2700],
+          "intensity": [400, 1600, 800],
+          "sourceSize": [3]
+        },
+        {
+          "format": "5000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.792, 0.628]
+            }
+          ],
+          "temperature": [2200, 6000, 5000],
+          "intensity": [400, 1600, 800],
+          "sourceSize": [3]
+        }
+      ],
+      "unit": ["lm"],
+      "type": ["point"],
+      "category": ["Artificial"],
+      "description": "Today's household lightbulbs has a LED light source whereas older light bulbs were using a glowing tungsten filament. LED:s are much much more energy efficient and makes the use of wattage, as a measure of intensity, not very useful. This is why lumen is preferred.",
+      "references": [
+        {
+          "title": "Incandescent light bulb",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Incandescent_light_bulb&oldid=1277426941",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-02-27"
+        },
+        {
+          "title": "LED lamp",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=LED_lamp&oldid=1269221959",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-02-27"
+        },
+        {
+          "title": "LED light bulbs",
+          "url": "https://www.ikea.com/us/en/cat/led-bulbs-20514/",
+          "publisher": "Inter IKEA Systems B.V.",
+          "accessed": "2025-07-10"
+        }
+      ],
+      "tags": ["incandescent", "tungsten", "LED"]
+    },
+    {
       "name": "Kerosene Lamp",
       "variants": [
         {
@@ -757,60 +865,82 @@
       ]
     },
     {
-      "name": "Household Light Bulb",
+      "name": "Light-emitting Diode (LED)",
       "variants": [
         {
-          "format": "2700 K",
+          "format": "Blue",
           "color": [
             {
               "colorSpace": "srgb-linear",
-              "color": [1.0, 0.415, 0.099]
+              "color": [0.0, 0.008, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.019, 0.019, 1.0]
             }
           ],
-          "temperature": [2200, 6000, 2700],
-          "intensity": [400, 1600, 800],
-          "sourceSize": [3]
+          "intensity": [1],
+          "sourceSize": [0.25]
         },
         {
-          "format": "5000 K",
+          "format": "Green",
           "color": [
             {
               "colorSpace": "srgb-linear",
-              "color": [1.0, 0.792, 0.628]
+              "color": [0.0, 1.0, 0.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.0, 1.0, 0.109]
             }
           ],
-          "temperature": [2200, 6000, 5000],
-          "intensity": [400, 1600, 800],
-          "sourceSize": [3]
+          "intensity": [1],
+          "sourceSize": [0.25]
+        },
+        {
+          "format": "White",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.602, 0.651, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.669, 0.683, 1.0]
+            }
+          ],
+          "intensity": [1],
+          "sourceSize": [0.25],
+          "temperature": [10596]
+        },
+        {
+          "format": "Yellow",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.195, 0.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.366, 0.008]
+            }
+          ],
+          "intensity": [1],
+          "sourceSize": [0.25]
         }
       ],
       "unit": ["lm"],
       "type": ["point"],
       "category": ["Artificial"],
-      "description": "Today's household lightbulbs has a LED light source whereas older light bulbs were using a glowing tungsten filament. LED:s are much much more energy efficient and makes the use of wattage, as a measure of intensity, not very useful. This is why lumen is preferred.",
       "references": [
         {
-          "title": "Incandescent light bulb",
+          "title": "Light-emitting Diode",
           "author": "Wikipedia contributors",
-          "url": "https://en.wikipedia.org/w/index.php?title=Incandescent_light_bulb&oldid=1277426941",
+          "url": "https://en.wikipedia.org/w/index.php?title=Light-emitting_diode&oldid=1344314429",
           "publisher": "Wikipedia, The Free Encyclopedia",
-          "accessed": "2025-02-27"
-        },
-        {
-          "title": "LED lamp",
-          "author": "Wikipedia contributors",
-          "url": "https://en.wikipedia.org/w/index.php?title=LED_lamp&oldid=1269221959",
-          "publisher": "Wikipedia, The Free Encyclopedia",
-          "accessed": "2025-02-27"
-        },
-        {
-          "title": "LED light bulbs",
-          "url": "https://www.ikea.com/us/en/cat/led-bulbs-20514/",
-          "publisher": "Inter IKEA Systems B.V.",
-          "accessed": "2025-07-10"
+          "accessed": "2026-03-22"
         }
-      ],
-      "tags": ["incandescent", "tungsten", "LED"]
+      ]
     },
     {
       "name": "Moon",
@@ -1985,7 +2115,19 @@
       "name": "Sun",
       "variants": [
         {
-          "format": "Sun",
+          "format": "Sun (Space)",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.877, 0.822]
+            }
+          ],
+          "temperature": [5778],
+          "intensity": [128000],
+          "angle": 0.5332
+        },
+        {
+          "format": "Sun (Earth Midday)",
           "color": [
             {
               "colorSpace": "srgb-linear",
@@ -1994,13 +2136,13 @@
           ],
           "temperature": [5778],
           "intensity": [400, 100000, 100000],
-          "angle": 0.5332,
-          "description": "The changing color of the Sun over the course of the day is mainly a result of the scattering of sunlight and is not due to changes in black-body radiation. The solar illuminance constant is equal to 128 000 lux, but atmospheric extinction brings the number of lux down to around 100 000 lux."
+          "angle": 0.5332
         }
       ],
       "unit": ["lx"],
       "type": ["directional"],
       "category": ["Natural"],
+      "description": "The changing color of the Sun over the course of the day is mainly a result of the scattering of sunlight and is not due to changes in black-body radiation. The intensity depends on factors such as sun angle, distance (time of year), and atmosphere. The solar illuminance constant is 128 000 lux in space, but atmospheric extinction on earth brings it down to around 100 000 lux. The sky contributes with an additional 20 000 lux, so 120 000 lux in total illuminance is still possible on earth.",
       "references": [
         {
           "title": "Illuminance Meter Measurement",
