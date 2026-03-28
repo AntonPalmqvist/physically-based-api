@@ -25,13 +25,13 @@
             "example": "Varotal/i FF 30-95mm"
           },
           "focalLength": {
-            "description": "Min and max focal length in millimeters. If it's a prime lens, set the same value twice.",
+            "description": "Min and max focal length in millimeters. If it's a prime lens, only set one value.",
             "type": "array",
             "items": {
               "type": "number"
             },
             "example": [30, 95],
-            "minItems": 2,
+            "minItems": 1,
             "maxItems": 2
           },
           "aperture": {
@@ -54,6 +54,11 @@
             "type": "number",
             "example": 80
           },
+          "squeezeFactor": {
+            "description": "The squeeze factor of an anamorphic lens.",
+            "type": "number",
+            "example": 1.8
+          },
           "description": { "$ref": "./description.json" },
           "tags": { "$ref": "./tag.json" },
           "references": { "$ref": "./reference.json" }
@@ -73,10 +78,11 @@
     {
       "$schema": "../../schemas/components/schemas/Lens.json",
       "header": {
-        "schemaVersion": 2.0,
-        "updated": 202512121608,
+        "schemaVersion": 2.1,
+        "updated": 202603101230,
         "license": "CC0 1.0 Universal",
-        "origin": "https://api.physicallybased.info/v2/lenses"
+        "origin": "https://api.physicallybased.info/v2/lenses",
+        "deprecated": false
       },
       "data": [
         {

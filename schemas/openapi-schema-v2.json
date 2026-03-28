@@ -1,10 +1,10 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "version": "2.0",
+    "version": "2.1",
     "title": "Physically Based API",
     "summary": "A database of physically based values for CG artists.",
-    "description": "A database of physically based values for CG artists.\n\n ## Features\n\n- **Open Database**: Access a curated collection of physically based material values\n- **Lightweight**: The entire dataset is optimized for quick loading and integration as presets\n    - materials.json ```161 KB```\n    - lightsources.json ```25 KB```\n    - cameras.json ```159 KB```\n    - lenses.json (coming in v2.1)\n- **API Access**: Connect your tools to the API to get the latest updates from the database\n- **Community-Driven**: Contribute new materials or improve existing ones\n- **Free License**: All data is released under CC0 1.0\n\n## Implementations\n\nExplore the database through these implementations:\n\n- Blender [Photographer 5](https://chafouin.gumroad.com/l/photographer5) by [chafouin](https://mastodon.gamedev.place/@chafouin)\n- Web [MaterialXLab](https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html) by [kwokcb](https://github.com/kwokcb)\n- Web [Physically Based](https://physicallybased.info) by [AntonPalmqvist](https://github.com/AntonPalmqvist)\n- Web [Three.js GPU Path Tracer](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [gkjohnson](https://github.com/gkjohnson)\n\n## Contribute\n\nContributions are welcome! Whether you want to add new entries, corrections, or suggestions, your help is appreciated. See the [Github page](https://github.com/AntonPalmqvist/physically-based-api) for more info.\n\n## License\n\nThe database is made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes.\n\nShader ball used for renders is from [ASWF USD WG](https://github.com/usd-wg/assets/tree/main/full_assets/StandardShaderBall) and is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).",
+    "description": "A database of physically based values for CG artists.\n\n ## Features\n\n- **Open Database**: Access a collection of physically based values for materials, cameras, and light sources\n- **Lightweight**: The entire dataset is optimized for quick loading and integration as presets\n    - materials.json ```161 KB```\n    - lightsources.json ```25 KB```\n    - cameras.json ```159 KB```\n    - lenses.json (coming in v2.1)\n- **API Access**: Connect your tools to the API to get the latest updates from the database\n- **Community-Driven**: Contribute new materials or improve existing ones\n- **Free License**: All data is released under CC0 1.0\n\n## Implementations\n\nExplore the database through these implementations:\n\n- Blender [Photographer 5](https://chafouin.gumroad.com/l/photographer5) by [chafouin](https://mastodon.gamedev.place/@chafouin)\n- Web [MaterialXLab](https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html) by [kwokcb](https://github.com/kwokcb)\n- Web [Physically Based](https://physicallybased.info) by [AntonPalmqvist](https://github.com/AntonPalmqvist)\n- Web [Three.js GPU Path Tracer](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [gkjohnson](https://github.com/gkjohnson)\n\n## Contribute\n\nContributions are welcome! Whether you want to add new entries, corrections, or suggestions, your help is appreciated. See the [Github page](https://github.com/AntonPalmqvist/physically-based-api) for more info.\n\n## License\n\nThe database is made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes.\n\nShader ball used for renders is from [ASWF USD WG](https://github.com/usd-wg/assets/tree/main/full_assets/StandardShaderBall) and is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).",
     "license": {
       "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
       "name": "CC0 1.0"
@@ -163,14 +163,20 @@
           "origin": {
             "description": "URL to the source of this JSON file.",
             "type": "string",
-            "const": "https://api.physicallybased.info"
+            "pattern": "^https://api\\.physicallybased\\.info/v2"
+          },
+          "deprecated": {
+            "description": "This will be set to true when this version of the API is deprecated and indicates that no more updates will be made. This helps visibility when using the data in different contexts.",
+            "type": "boolean",
+            "example": false
           }
         },
         "required": [
           "schemaVersion",
           "updated",
           "license",
-          "origin"
+          "origin",
+          "deprecated"
         ]
       },
       "color": {
@@ -601,10 +607,11 @@
           {
             "$schema": "../../schemas/components/schemas/Material.json",
             "header": {
-              "schemaVersion": 2,
-              "updated": 202512121608,
+              "schemaVersion": 2.1,
+              "updated": 202603231920,
               "license": "CC0 1.0 Universal",
-              "origin": "https://api.physicallybased.info"
+              "origin": "https://api.physicallybased.info/v2/materials",
+              "deprecated": false
             },
             "data": [
               {
@@ -841,7 +848,7 @@
                         "example": "2700 K"
                       },
                       "color": {
-                        "description": "Color of the light source.",
+                        "description": "Color of the light source, normalized.",
                         "type": "array",
                         "minItems": 1,
                         "uniqueItems": true,
@@ -850,7 +857,7 @@
                         }
                       },
                       "temperature": {
-                        "description": "The typical range of color temperature in Kelvin, if color lies on the Planckian curve. If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common temperature.",
+                        "description": "The typical range of color temperature in Kelvin, if color lies near the Planckian curve (within 0.005 Duv). If too far off, temperature shouldn't be specified. A range can be specified with two values. A third value can be added to specify the most common temperature.",
                         "type": "array",
                         "items": {
                           "type": "number"
@@ -942,10 +949,11 @@
           {
             "$schema": "../../schemas/components/schemas/Lightsource.json",
             "header": {
-              "schemaVersion": 2,
-              "updated": 202512121608,
+              "schemaVersion": 2.1,
+              "updated": 202603231920,
               "license": "CC0 1.0 Universal",
-              "origin": "https://api.physicallybased.info"
+              "origin": "https://api.physicallybased.info/v2/lightsources",
+              "deprecated": false
             },
             "data": [
               {
@@ -1143,6 +1151,18 @@
                             }
                           }
                         }
+                      },
+                      "focalLength": {
+                        "description": "Focal length of the camera, in millimeters, if the camera has a fixed lens.",
+                        "type": "array",
+                        "items": {
+                          "type": "number"
+                        },
+                        "example": [
+                          50
+                        ],
+                        "minItems": 1,
+                        "maxItems": 2
                       }
                     },
                     "required": [
@@ -1187,10 +1207,11 @@
           {
             "$schema": "../../schemas/components/schemas/Camera.json",
             "header": {
-              "schemaVersion": 2,
-              "updated": 202512121608,
+              "schemaVersion": 2.1,
+              "updated": 202603101230,
               "license": "CC0 1.0 Universal",
-              "origin": "https://api.physicallybased.info"
+              "origin": "https://api.physicallybased.info/v2/cameras",
+              "deprecated": false
             },
             "data": [
               {

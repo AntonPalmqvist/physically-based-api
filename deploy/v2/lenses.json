@@ -1,17 +1,76 @@
 {
   "$schema": "../../schemas/components/schemas/Lens.json",
   "header": {
-    "schemaVersion": 2.0,
-    "updated": 202603101230,
+    "schemaVersion": 2.1,
+    "updated": 202603281641,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/lenses",
     "deprecated": false
   },
   "data": [
     {
+      "make": "Arri",
+      "model": "Prime DNA 60 mm",
+      "focalLength": [60],
+      "aperture": [2, 22],
+      "blades": 11,
+      "closeFocus": 60,
+      "references": [
+        {
+          "title": "Technical Data of Prime DNA",
+          "publisher": "ARRI GmbH.",
+          "url": "https://www.arrirental.com/en/lenses/65-mm-lenses/prime-dna/technical-data",
+          "accessed": "2026-03-28"
+        }
+      ],
+      "tags": ["prime"]
+    },
+    {
+      "make": "Canon",
+      "model": "EF 50mm f/1.8 STM",
+      "focalLength": [50],
+      "aperture": [1.8, 22],
+      "blades": 7,
+      "closeFocus": 35,
+      "references": [
+        {
+          "title": "EF 50mm f/1.8 STM",
+          "publisher": "Canon U.S.A., Inc.",
+          "url": "https://www.usa.canon.com/shop/p/ef-50mm-f-1-8-stm",
+          "accessed": "2026-03-28"
+        },
+        {
+          "title": "Canon EF 50mm lens",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Canon_EF_50mm_lens&oldid=1340007443#EF50mm_f/1.8_STM",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-03-28"
+        }
+      ],
+      "tags": ["prime"]
+    },
+    {
+      "make": "Cooke",
+      "model": "Anamorphic/i FF 50mm",
+      "focalLength": [18],
+      "aperture": [2.3, 22],
+      "blades": 9,
+      "closeFocus": 60,
+      "squeezeFactor": 1.8,
+      "references": [
+        {
+          "title": "Anamorphic/i FF Lens",
+          "publisher": "Cooke Optics Limited",
+          "url": "https://cookeoptics.com/lens/anamorphic-i-ff/",
+          "accessed": "2026-03-28"
+        }
+      ],
+      "tags": ["prime"]
+    },
+    {
       "make": "Cooke",
       "model": "S8/i FF 18mm",
-      "focalLength": [18, 18],
+      "focalLength": [18],
       "aperture": [1.4, 22],
       "blades": 9,
       "closeFocus": 60,
@@ -79,7 +138,7 @@
     {
       "make": "Sony",
       "model": "FE 20mm f/1.8 G",
-      "focalLength": [20, 20],
+      "focalLength": [20],
       "aperture": [1.8, 22],
       "blades": 9,
       "closeFocus": 18,

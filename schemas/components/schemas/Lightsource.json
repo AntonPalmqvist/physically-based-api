@@ -131,10 +131,11 @@
     {
       "$schema": "../../schemas/components/schemas/Lightsource.json",
       "header": {
-        "schemaVersion": 2.0,
-        "updated": 202512121608,
+        "schemaVersion": 2.1,
+        "updated": 202603231920,
         "license": "CC0 1.0 Universal",
-        "origin": "https://api.physicallybased.info/v2/lightsources"
+        "origin": "https://api.physicallybased.info/v2/lightsources",
+        "deprecated": false
       },
       "data": [
         {

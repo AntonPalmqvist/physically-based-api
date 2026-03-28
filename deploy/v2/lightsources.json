@@ -1,8 +1,8 @@
 {
   "$schema": "../../schemas/components/schemas/Lightsource.json",
   "header": {
-    "schemaVersion": 2.0,
-    "updated": 202603231920,
+    "schemaVersion": 2.1,
+    "updated": 202603281641,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/lightsources",
     "deprecated": false
@@ -408,6 +408,394 @@
           "accessed": "2025-02-22"
         }
       ]
+    },
+    {
+      "name": "Black-body",
+      "variants": [
+        {
+          "format": "798 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.0, 0.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.059, 0.006]
+            }
+          ],
+          "temperature": [798],
+          "intensity": [1000],
+          "description": "At 798 K, the Draper point is the approximate temperature above which almost all solid materials visibly glow as a result of black-body radiation."
+        },
+        {
+          "format": "1000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.009, 0.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.127, 0.007]
+            }
+          ],
+          "temperature": [1000],
+          "intensity": [1000]
+        },
+        {
+          "format": "1900 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.233, 0.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.409, 0.067]
+            }
+          ],
+          "temperature": [1900],
+          "intensity": [1000],
+          "description": "1900 K is the lowest color temperature that the sRGB colorspace can accurately represent."
+        },
+        {
+          "format": "2000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.257, 0.008]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.436, 0.08]
+            }
+          ],
+          "temperature": [2000],
+          "intensity": [1000]
+        },
+        {
+          "format": "3000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.477, 0.154]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.651, 0.264]
+            }
+          ],
+          "temperature": [3000],
+          "intensity": [1000]
+        },
+        {
+          "format": "4000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.653, 0.377]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.79, 0.493]
+            }
+          ],
+          "temperature": [4000],
+          "intensity": [1000]
+        },
+        {
+          "format": "5000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.792, 0.628]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.882, 0.717]
+            }
+          ],
+          "temperature": [5000],
+          "intensity": [1000]
+        },
+        {
+          "format": "6000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.898, 0.8758]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.944, 0.917]
+            }
+          ],
+          "temperature": [6000],
+          "intensity": [1000]
+        },
+        {
+          "format": "6504 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 1.0, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 1.0, 1.0]
+            }
+          ],
+          "temperature": [6504],
+          "intensity": [1000],
+          "description": "Whitepoint of the sRGB color space."
+        },
+        {
+          "format": "7000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.907, 0.89, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.918, 0.905, 1.0]
+            }
+          ],
+          "temperature": [7000],
+          "intensity": [1000]
+        },
+        {
+          "format": "8000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.766, 0.802, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.811, 0.824, 1.0]
+            }
+          ],
+          "temperature": [8000],
+          "intensity": [1000]
+        },
+        {
+          "format": "9000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.673, 0.74, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.738, 0.765, 1.0]
+            }
+          ],
+          "temperature": [9000],
+          "intensity": [1000]
+        },
+        {
+          "format": "10000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.609, 0.695, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.686, 0.724, 1.0]
+            }
+          ],
+          "temperature": [10000],
+          "intensity": [1000]
+        },
+        {
+          "format": "11000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.563, 0.662, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.647, 0.691, 1.0]
+            }
+          ],
+          "temperature": [11000],
+          "intensity": [1000]
+        },
+        {
+          "format": "12000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.527, 0.634, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.617, 0.665, 1.0]
+            }
+          ],
+          "temperature": [12000],
+          "intensity": [1000]
+        },
+        {
+          "format": "13000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.5, 0.614, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.593, 0.644, 1.0]
+            }
+          ],
+          "temperature": [13000],
+          "intensity": [1000]
+        },
+        {
+          "format": "14000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.478, 0.596, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.575, 0.628, 1.0]
+            }
+          ],
+          "temperature": [14000],
+          "intensity": [1000]
+        },
+        {
+          "format": "15000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.46, 0.582, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.559, 0.614, 1.0]
+            }
+          ],
+          "temperature": [15000],
+          "intensity": [1000]
+        },
+        {
+          "format": "16000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.446, 0.57, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.546, 0.602, 1.0]
+            }
+          ],
+          "temperature": [16000],
+          "intensity": [1000]
+        },
+        {
+          "format": "17000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.433, 0.56, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.535, 0.592, 1.0]
+            }
+          ],
+          "temperature": [17000],
+          "intensity": [1000]
+        },
+        {
+          "format": "18000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.422, 0.551, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.526, 0.583, 1.0]
+            }
+          ],
+          "temperature": [18000],
+          "intensity": [1000]
+        },
+        {
+          "format": "19000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.414, 0.543, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.518, 0.576, 1.0]
+            }
+          ],
+          "temperature": [19000],
+          "intensity": [1000]
+        },
+        {
+          "format": "20000 K",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.405, 0.537, 1.0]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.51, 0.569, 1.0]
+            }
+          ],
+          "temperature": [20000],
+          "intensity": [1000]
+        }
+      ],
+      "unit": ["lm"],
+      "type": ["point"],
+      "category": ["Artificial"],
+      "description": "A black-body is a theoretical light emitter with an opaque, non-reflective body. It has a characteristic, continuous frequency spectrum that depends only on the body's temperature, called the Planck spectrum or Planck's law. The most common real world example that gets close to a black-body radiator is an incandescent tungsten light bulb.",
+      "references": [
+        {
+          "title": "Black-body radiation",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Black-body_radiation&oldid=1325743332",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-01-05"
+        },
+        {
+          "title": "Draper point",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Draper_point&oldid=1325819896",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-01-05"
+        },
+        {
+          "title": "Color temperature",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Color_temperature&oldid=1331420384",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-01-06"
+        },
+        {
+          "title": "Correlated color temperature",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Correlated_color_temperature&oldid=1320619729",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-01-06"
+        }
+      ],
+      "tags": ["blackbody"]
     },
     {
       "name": "Candle Flame",
