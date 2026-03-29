@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Lightsource.json",
   "header": {
     "schemaVersion": 2.1,
-    "updated": 202603281641,
+    "updated": 202603291608,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/lightsources",
     "deprecated": false
@@ -2503,11 +2503,15 @@
       "name": "Sun",
       "variants": [
         {
-          "format": "Sun (Space)",
+          "format": "Space",
           "color": [
             {
               "colorSpace": "srgb-linear",
               "color": [1.0, 0.877, 0.822]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.932, 0.876]
             }
           ],
           "temperature": [5778],
@@ -2515,15 +2519,35 @@
           "angle": 0.5332
         },
         {
-          "format": "Sun (Earth Midday)",
+          "format": "Midday",
           "color": [
             {
               "colorSpace": "srgb-linear",
               "color": [1.0, 0.877, 0.822]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.932, 0.876]
             }
           ],
           "temperature": [5778],
           "intensity": [400, 100000, 100000],
+          "angle": 0.5332
+        },
+        {
+          "format": "Sunset",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.394, 0.083]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [1.0, 0.576, 0.181]
+            }
+          ],
+          "temperature": [2600],
+          "intensity": [3000],
           "angle": 0.5332
         }
       ],

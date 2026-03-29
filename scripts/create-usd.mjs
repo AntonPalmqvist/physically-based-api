@@ -160,7 +160,6 @@ function createCameras() {
       '	  def Camera "' + name + '"\n' +
       '    {\n' +
       '        float2 clippingRange = (0.1, 1000)\n' +
-      '        float focalLength = 50\n' +
       '        token projection = "perspective"\n' +
       '        float horizontalApertureOffset = 0\n' +
       '        float verticalApertureOffset = 0\n' +
@@ -171,6 +170,7 @@ function createCameras() {
         '        "' + item.format.replace(/ |-|:|\./g, "_").replace(/[\/\()º]/g, "") + '" {\n' +
         '            over "' + name + '"\n' +
         '            {\n'+
+        '                float focalLength = '+ (item.focalLength || 50) +'\n' +
         '                float horizontalAperture = ' + item.size[0].toFixed(2) + '\n' +
         '                float verticalAperture = ' + item.size[1].toFixed(2) + '\n' +
         '            }\n' +

@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Lens.json",
   "header": {
     "schemaVersion": 2.1,
-    "updated": 202603281641,
+    "updated": 202603291608,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/lenses",
     "deprecated": false
@@ -13,7 +13,7 @@
       "model": "Prime DNA 60 mm",
       "focalLength": [60],
       "aperture": [2, 22],
-      "blades": 11,
+      "blades": 6,
       "closeFocus": 60,
       "references": [
         {
