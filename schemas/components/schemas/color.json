@@ -3,12 +3,12 @@
   "type": "object",
   "properties": {
     "colorSpace": {
-      "description": "The color space.",
+      "description": "The color space for which the values have been computed for.",
       "type": "string",
       "example": "acescg"
     },
     "color": {
-      "description": "RGB triplet (vec3) in decimal format.",
+      "description": "RGB triplet array in decimal format.",
       "type": "array",
       "items": {
         "type": "number"
@@ -16,7 +16,27 @@
       "example": [0.929, 0.788, 0.374],
       "minItems": 3,
       "maxItems": 3
+    },
+    "n": {
+      "description": "Refractive index (n) of each RGB color channel.",
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "example": [0, 0.351563, 1.85894],
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "k": {
+      "description": "Extinction coefficient (k) of each RGB color channel.",
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "example": [6.59401, 2.08143, 1.49631],
+      "minItems": 3,
+      "maxItems": 3
     }
   },
-  "required": ["colorSpace", "color"]
+  "required": ["colorSpace"]
 }

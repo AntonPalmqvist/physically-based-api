@@ -184,12 +184,12 @@
         "type": "object",
         "properties": {
           "colorSpace": {
-            "description": "The color space.",
+            "description": "The color space for which the values have been computed for.",
             "type": "string",
             "example": "acescg"
           },
           "color": {
-            "description": "RGB triplet (vec3) in decimal format.",
+            "description": "RGB triplet array in decimal format.",
             "type": "array",
             "items": {
               "type": "number"
@@ -201,11 +201,38 @@
             ],
             "minItems": 3,
             "maxItems": 3
+          },
+          "n": {
+            "description": "Refractive index (n) of each RGB color channel.",
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "example": [
+              0,
+              0.351563,
+              1.85894
+            ],
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "k": {
+            "description": "Extinction coefficient (k) of each RGB color channel.",
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "example": [
+              6.59401,
+              2.08143,
+              1.49631
+            ],
+            "minItems": 3,
+            "maxItems": 3
           }
         },
         "required": [
-          "colorSpace",
-          "color"
+          "colorSpace"
         ]
       },
       "description": {
@@ -407,8 +434,8 @@
                   "type": "number",
                   "example": 64
                 },
-                "complexIor": {
-                  "description": "Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel. Calculated from spectral IOR data files with script from https://github.com/natyh/material-params",
+                "volumeCoefficients": {
+                  "description": "Volume coefficients and anisotropy factor, defined per channel (RGB). Extinction coefficient (also called attenuation coefficient) = scattering coefficient + absorption coefficient.",
                   "type": "array",
                   "minItems": 1,
                   "uniqueItems": true,
@@ -416,45 +443,43 @@
                     "additionalProperties": false,
                     "type": "object",
                     "properties": {
-                      "colorSpace": {
-                        "description": "The color space for which the n and k values have been calculated for.",
-                        "type": "string",
-                        "example": "srgb-linear"
-                      },
-                      "n": {
-                        "description": "N values for each RGB color channel.",
+                      "absorption": {
+                        "description": "Absorption coefficients, defined per channel (RGB). Measured in reciprocal centimeters (cm⁻¹), which is light absorbed per centimeter traveled in the medium.",
                         "type": "array",
+                        "minItems": 1,
+                        "uniqueItems": true,
                         "items": {
-                          "type": "number"
-                        },
-                        "example": [
-                          0,
-                          0.351563,
-                          1.85894
-                        ],
-                        "minItems": 3,
-                        "maxItems": 3
+                          "$ref": "#/components/schemas/color"
+                        }
                       },
-                      "k": {
-                        "description": "K values for each RGB color channel.",
+                      "scattering": {
+                        "description": "Scattering coefficients, defined per channel (RGB). Measured in reciprocal centimeters (cm⁻¹), which is light absorbed per centimeter traveled in the medium.",
                         "type": "array",
+                        "minItems": 1,
+                        "uniqueItems": true,
                         "items": {
-                          "type": "number"
-                        },
-                        "example": [
-                          6.59401,
-                          2.08143,
-                          1.49631
-                        ],
-                        "minItems": 3,
-                        "maxItems": 3
+                          "$ref": "#/components/schemas/color"
+                        }
+                      },
+                      "anisotropy": {
+                        "description": "Scattering phase function anisotropy factor, defined per channel (RGB).",
+                        "type": "array",
+                        "minItems": 1,
+                        "uniqueItems": true,
+                        "items": {
+                          "$ref": "#/components/schemas/color"
+                        }
                       }
-                    },
-                    "required": [
-                      "colorSpace",
-                      "n",
-                      "k"
-                    ]
+                    }
+                  }
+                },
+                "complexIor": {
+                  "description": "Complex IOR values, n (refractive index), and k (extinction coefficient), for each color channel. Calculated from spectral IOR data files with script from https://github.com/natyh/material-params",
+                  "type": "array",
+                  "minItems": 1,
+                  "uniqueItems": true,
+                  "items": {
+                    "$ref": "#/components/schemas/color"
                   }
                 },
                 "thinFilmThickness": {
