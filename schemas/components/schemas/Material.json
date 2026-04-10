@@ -95,34 +95,29 @@
           },
           "volumeCoefficients": {
             "description": "Volume coefficients and anisotropy factor, defined per channel (RGB). Extinction coefficient (also called attenuation coefficient) = scattering coefficient + absorption coefficient.",
-            "type": "array",
-            "minItems": 1,
-            "uniqueItems": true,
-            "items": {
-              "additionalProperties": false,
-              "type": "object",
-              "properties": {
-                "absorption": {
-                  "description": "Absorption coefficients, defined per channel (RGB). Measured in reciprocal centimeters (cm⁻¹), which is light absorbed per centimeter traveled in the medium.",
-                  "type": "array",
-                  "minItems": 1,
-                  "uniqueItems": true,
-                  "items": { "$ref": "./color.json" }
-                },
-                "scattering": {
-                  "description": "Scattering coefficients, defined per channel (RGB). Measured in reciprocal centimeters (cm⁻¹), which is light absorbed per centimeter traveled in the medium.",
-                  "type": "array",
-                  "minItems": 1,
-                  "uniqueItems": true,
-                  "items": { "$ref": "./color.json" }
-                },
-                "anisotropy": {
-                  "description": "Scattering phase function anisotropy factor, defined per channel (RGB).",
-                  "type": "array",
-                  "minItems": 1,
-                  "uniqueItems": true,
-                  "items": { "$ref": "./color.json" }
-                }
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "absorption": {
+                "description": "Absorption coefficients, defined per channel (RGB). Measured in reciprocal centimeters (cm⁻¹), which is light absorbed per centimeter traveled in the medium.",
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": { "$ref": "./color.json" }
+              },
+              "scattering": {
+                "description": "Scattering coefficients, defined per channel (RGB). Measured in reciprocal centimeters (cm⁻¹), which is light absorbed per centimeter traveled in the medium.",
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": { "$ref": "./color.json" }
+              },
+              "anisotropy": {
+                "description": "Scattering phase function anisotropy factor, defined per channel (RGB).",
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": { "$ref": "./color.json" }
               }
             }
           },
