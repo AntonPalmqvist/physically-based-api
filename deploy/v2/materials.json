@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.1,
-    "updated": 202604101147,
+    "updated": 202604120937,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/materials",
     "deprecated": false
@@ -386,7 +386,7 @@
       ]
     },
     {
-      "name": "Beer",
+      "name": "Beer (Pale Lager)",
       "color": [
         {
           "colorSpace": "srgb-linear",
@@ -439,13 +439,13 @@
       "images": [
         {
           "format": "jpeg",
-          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/beer.jpeg",
-          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/beer.jpeg"
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/beer-pale-lager.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/beer-pale-lager.jpeg"
         },
         {
           "format": "avif",
-          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/beer.avif",
-          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/beer.avif"
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/beer-pale-lager.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/beer-pale-lager.avif"
         }
       ]
     },
@@ -2600,12 +2600,6 @@
             "colorSpace": "srgb-linear",
             "color": [0.0, 0.0, 0.0]
           }
-        ],
-        "anisotropy": [
-          {
-            "colorSpace": "srgb-linear",
-            "color": [0.99, 0.99, 0.99]
-          }
         ]
       },
       "density": [2230],
@@ -2690,12 +2684,6 @@
           {
             "colorSpace": "srgb-linear",
             "color": [0.0, 0.0, 0.0]
-          }
-        ],
-        "anisotropy": [
-          {
-            "colorSpace": "srgb-linear",
-            "color": [0.99, 0.99, 0.99]
           }
         ]
       },
@@ -3114,7 +3102,7 @@
         }
       ],
       "metalness": 0,
-      "roughness": 0.5,
+      "roughness": 0,
       "ior": 1.3098,
       "transmission": 1,
       "transmissionDispersion": 64.87,
@@ -3129,12 +3117,6 @@
           {
             "colorSpace": "srgb-linear",
             "color": [0.0, 0.0, 0.0]
-          }
-        ],
-        "anisotropy": [
-          {
-            "colorSpace": "srgb-linear",
-            "color": [0.99, 0.99, 0.99]
           }
         ]
       },
@@ -7815,12 +7797,6 @@
           {
             "colorSpace": "srgb-linear",
             "color": [0.0, 0.0, 0.0]
-          }
-        ],
-        "anisotropy": [
-          {
-            "colorSpace": "srgb-linear",
-            "color": [0.99, 0.99, 0.99]
           }
         ]
       },
