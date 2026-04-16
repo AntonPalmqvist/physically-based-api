@@ -1,0 +1,81 @@
+name: New Material
+description: Suggest a new material.
+title: "[Material]: "
+
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Name of the material.
+      placeholder: Water
+    validations:
+      required: true
+
+  - type: input
+    id: color
+    attributes:
+      label: Color
+      description: Color value in sRGB Linear color space. Specifies the diffuse or metallic reflectance color, or in the case of a transparent material, transmission color.
+      placeholder: 1.0, 1.0, 1.0
+    validations:
+      required: true
+
+  - type: input
+    id: ior
+    attributes:
+      label: Index of Refraction
+      description: Index of refraction of the material.
+      placeholder: 1.33
+
+  - type: input
+    id: density
+    attributes:
+      label: Density
+      description: Density measured in kg/m3. If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common density.
+      placeholder: 958, 1000, 1000
+
+  - type: input
+    id: viscosity
+    attributes:
+      label: Viscosity
+      description: Dynamic viscosity measured in millipascal-seconds (mPa⋅s) at a temperature of 20°C. 1 mPa⋅s (millipascal-second) = 1 cP (centipoise). If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common viscosity.
+      placeholder: 1.002
+
+  - type: input
+    id: surface-tension
+    attributes:
+      label: Surface Tension
+      description: Surface tension measured in millinewton per meter (mN/m) at a temperature of 20°C. 1 mN/m = 1 dyn/cm.
+      placeholder: 72
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Any additional information that can be useful when rendering this material.
+      placeholder: While relatively small quantities of water appear to be colorless, pure water has a slight blue color that becomes deeper as the thickness of the observed sample increases beyond 50 cm.
+
+  - type: input
+    id: reference1
+    attributes:
+      label: Reference
+      description: Link to a reference where the information comes from.
+      placeholder: https://refractiveindex.info/?shelf=main&book=H2O&page=Daimon-21.5C
+    validations:
+      required: true
+
+  - type: input
+    id: reference2
+    attributes:
+      label: Additional Reference
+      description: Link to another reference, if available.
+      placeholder: https://en.wikipedia.org/w/index.php?title=Color_of_water&oldid=1273446338
+
+  - type: upload
+    id: spectrum
+    attributes:
+      label: Spectral Data
+      description: If spectral data is available, please upload a file with the data.
+    validations:
+      accept: ".txt,.csv,.json"

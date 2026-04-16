@@ -1,0 +1,86 @@
+name: New Lens
+description: Suggest a new lens.
+title: "[Lens]: "
+
+body:
+  - type: input
+    id: make
+    attributes:
+      label: Make
+      description: Brand name.
+      placeholder: Cooke
+    validations:
+      required: true
+
+  - type: input
+    id: model
+    attributes:
+      label: Model
+      description: Model name.
+      placeholder: Varotal/i FF 30-95mm
+    validations:
+      required: true
+
+  - type: input
+    id: focal-length
+    attributes:
+      label: Focal Length
+      description: Min and max focal length in millimeters. If it's a prime lens, only set one value.
+      placeholder: 30, 95
+    validations:
+      required: true
+
+  - type: input
+    id: aperture
+    attributes:
+      label: Aperture
+      description: Max and min aperture size.
+      placeholder: 2.9, 22
+    validations:
+      required: true
+
+  - type: input
+    id: blades
+    attributes:
+      label: Blades
+      description: Number of diaphragm blades.
+      placeholder: 9
+    validations:
+      required: true
+
+  - type: input
+    id: close-focus
+    attributes:
+      label: Close Focus
+      description: Shortest distance from the sensor to the subject that the lens can achieve focus. Specified in centimeters.
+      placeholder: 80
+
+  - type: input
+    id: squeeze-factor
+    attributes:
+      label: Squeeze Factor
+      description: The squeeze factor of an anamorphic lens.
+      placeholder: 1.8
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Any additional information that can be useful when rendering with this lens.
+      placeholder: Description.
+
+  - type: input
+    id: reference1
+    attributes:
+      label: Reference
+      description: Link to a reference where the information comes from.
+      placeholder: https://cookeoptics.com/lens/varotal-i-ff/
+    validations:
+      required: true
+
+  - type: input
+    id: reference2
+    attributes:
+      label: Additional Reference
+      description: Link to another reference, if available.
+      placeholder: https://cookeoptics.com/lens/varotal-i-ff/

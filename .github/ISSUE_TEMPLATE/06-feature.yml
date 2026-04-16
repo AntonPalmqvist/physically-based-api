@@ -1,0 +1,13 @@
+name: Feature
+description: Suggest a feature or improvement.
+title: "[Feature]: "
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe what kind of functionality you're missing in the API. Please be aware that this only applies to the database, and not the physicallybased.info website.
+      placeholder: Description.
+    validations:
+      required: true
