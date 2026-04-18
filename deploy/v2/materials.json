@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.1,
-    "updated": 202604152059,
+    "updated": 202604171955,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/materials",
     "deprecated": false
@@ -3031,7 +3031,7 @@
       "subsurfaceRadius": [0.2, 0.2, 0.2],
       "density": [1380, 1450, 1400],
       "viscosity": [2000, 15000, 15000],
-      "category": ["Liquid"],
+      "category": ["Organic"],
       "description": "Variations in its water content alter its refractive index. Typically, the refractive index for honey ranges from 1.504 at 13% water content to 1.474 at 25%. Fresh honey is liquid and clear but with time it crystallizes and becomes thicker and less clear. The crystallization depends on temperature and the ratio of glucose and fructose.",
       "references": [
         {
