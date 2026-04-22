@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.1,
-    "updated": 202604171955,
+    "updated": 202604212126,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/materials",
     "deprecated": false
@@ -2593,12 +2593,20 @@
         "absorption": [
           {
             "colorSpace": "srgb-linear",
-            "color": [0.002407, 0.001653, 0.002973]
+            "color": [0.00237, 0.0018, 0.00301]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.00221, 0.00186, 0.00286]
           }
         ],
         "scattering": [
           {
             "colorSpace": "srgb-linear",
+            "color": [0.0, 0.0, 0.0]
+          },
+          {
+            "colorSpace": "acescg",
             "color": [0.0, 0.0, 0.0]
           }
         ]
@@ -2680,12 +2688,20 @@
         "absorption": [
           {
             "colorSpace": "srgb-linear",
-            "color": [0.16184, 0.050265, 0.053756]
+            "color": [0.13941, 0.04527, 0.05334]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.10337, 0.05197, 0.05422]
           }
         ],
         "scattering": [
           {
             "colorSpace": "srgb-linear",
+            "color": [0.0, 0.0, 0.0]
+          },
+          {
+            "colorSpace": "acescg",
             "color": [0.0, 0.0, 0.0]
           }
         ]
@@ -3114,12 +3130,20 @@
         "absorption": [
           {
             "colorSpace": "srgb-linear",
-            "color": [0.002765, 0.000523, 0.000026]
+            "color": [0.002075, 0.000416, 0.0]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.001411, 0.000526, 0.00005]
           }
         ],
         "scattering": [
           {
             "colorSpace": "srgb-linear",
+            "color": [0.0, 0.0, 0.0]
+          },
+          {
+            "colorSpace": "acescg",
             "color": [0.0, 0.0, 0.0]
           }
         ]
@@ -3130,8 +3154,8 @@
         {
           "title": "Refractive index database",
           "author": "Polyanskiy, M. N.",
-          "url": "https://refractiveindex.info/?shelf=3d&book=crystals&page=ice",
-          "accessed": "2025-01-26"
+          "url": "https://refractiveindex.info/?shelf=main&book=H2O&page=Warren-2008",
+          "accessed": "2026-04-21"
         },
         {
           "title": "Refractive index database",
@@ -7755,12 +7779,20 @@
         "absorption": [
           {
             "colorSpace": "srgb-linear",
-            "color": [0.003171, 0.000448, 0.000285]
+            "color": [0.00297, 0.00045, 0.00017]
+          },
+          {
+            "colorSpace": "acescg",
+            "color": [0.00198, 0.00062, 0.00026]
           }
         ],
         "scattering": [
           {
             "colorSpace": "srgb-linear",
+            "color": [0.0, 0.0, 0.0]
+          },
+          {
+            "colorSpace": "acescg",
             "color": [0.0, 0.0, 0.0]
           }
         ]
@@ -7777,6 +7809,12 @@
           "author": "Polyanskiy, M. N.",
           "url": "https://refractiveindex.info/?shelf=main&book=H2O&page=Daimon-21.5C",
           "accessed": "2025-01-26"
+        },
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=main&book=H2O&page=Hale",
+          "accessed": "2026-04-21"
         },
         {
           "title": "Density",
