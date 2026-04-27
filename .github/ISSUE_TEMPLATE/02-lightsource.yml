@@ -53,7 +53,7 @@ body:
     attributes:
       label: Angle
       description: The maximum beam angle in degrees.
-      placeholder: 90
+      placeholder: "90"
 
   - type: input
     id: size
