@@ -22,7 +22,12 @@
       "description": "URL to the source of this JSON file.",
       "type": "string",
       "pattern": "^https://api\\.physicallybased\\.info/v2"
+    },
+    "deprecated": {
+      "description": "This will be set to true when this version of the API is deprecated and indicates that no more updates will be made. This helps visibility when using the data in different contexts.",
+      "type": "boolean",
+      "example": false
     }
   },
-  "required": ["schemaVersion", "updated", "license", "origin"]
+  "required": ["schemaVersion", "updated", "license", "origin", "deprecated"]
 }

@@ -1,0 +1,53 @@
+name: New Camera
+description: Suggest a new camera.
+title: "[Camera]: "
+
+body:
+  - type: input
+    id: make
+    attributes:
+      label: Make
+      description: Brand name.
+      placeholder: Arri
+    validations:
+      required: true
+
+  - type: input
+    id: model
+    attributes:
+      label: Model
+      description: Model name.
+      placeholder: Alexa 35
+    validations:
+      required: true
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Any additional information that can be useful when rendering with this camera.
+      placeholder: Description.
+
+  - type: input
+    id: reference1
+    attributes:
+      label: Reference
+      description: Link to a reference where the information comes from.
+      placeholder: https://www.arri.com/resource/blob/296424/88454a5a3dee9fe1d3fd68e75aa3411e/alexa-35-recording-format-poster-data.pdf
+    validations:
+      required: true
+
+  - type: input
+    id: reference2
+    attributes:
+      label: Additional Reference
+      description: Link to another reference, if available.
+      placeholder: https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf
+
+  - type: upload
+    id: spectrum
+    attributes:
+      label: Spectral Data
+      description: If spectral data is available, please upload a file with the data.
+    validations:
+      accept: ".txt,.csv,.json"

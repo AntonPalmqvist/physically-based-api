@@ -71,6 +71,16 @@
                       }
                     }
                   }
+                },
+                "focalLength": {
+                  "description": "Focal length of the camera, in millimeters, if the camera has a fixed lens.",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "example": [50],
+                  "minItems": 1,
+                  "maxItems": 2
                 }
               },
               "required": ["format", "size"]
@@ -96,10 +106,11 @@
     {
       "$schema": "../../schemas/components/schemas/Camera.json",
       "header": {
-        "schemaVersion": 2.0,
-        "updated": 202512121608,
+        "schemaVersion": 2.1,
+        "updated": 202603101230,
         "license": "CC0 1.0 Universal",
-        "origin": "https://api.physicallybased.info/v2/cameras"
+        "origin": "https://api.physicallybased.info/v2/cameras",
+        "deprecated": false
       },
       "data": [
         {

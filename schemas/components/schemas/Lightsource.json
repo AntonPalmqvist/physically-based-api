@@ -58,14 +58,14 @@
                   "example": "2700 K"
                 },
                 "color": {
-                  "description": "Color of the light source.",
+                  "description": "Color of the light source, normalized.",
                   "type": "array",
                   "minItems": 1,
                   "uniqueItems": true,
                   "items": { "$ref": "./color.json" }
                 },
                 "temperature": {
-                  "description": "The typical range of color temperature in Kelvin, if color lies on the Planckian curve. If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common temperature.",
+                  "description": "The typical range of color temperature in Kelvin, if color lies near the Planckian curve (within 0.005 Duv). If too far off, temperature shouldn't be specified. A range can be specified with two values. A third value can be added to specify the most common temperature.",
                   "type": "array",
                   "items": {
                     "type": "number"
@@ -131,10 +131,11 @@
     {
       "$schema": "../../schemas/components/schemas/Lightsource.json",
       "header": {
-        "schemaVersion": 2.0,
-        "updated": 202512121608,
+        "schemaVersion": 2.1,
+        "updated": 202603231920,
         "license": "CC0 1.0 Universal",
-        "origin": "https://api.physicallybased.info/v2/lightsources"
+        "origin": "https://api.physicallybased.info/v2/lightsources",
+        "deprecated": false
       },
       "data": [
         {

@@ -1,10 +1,11 @@
 {
   "$schema": "../../schemas/components/schemas/Camera.json",
   "header": {
-    "schemaVersion": 2.0,
-    "updated": 202603011023,
+    "schemaVersion": 2.1,
+    "updated": 202603281641,
     "license": "CC0 1.0 Universal",
-    "origin": "https://api.physicallybased.info/v2/cameras"
+    "origin": "https://api.physicallybased.info/v2/cameras",
+    "deprecated": false
   },
   "data": [
     {
@@ -18,7 +19,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [5.71]
         },
         {
           "format": "13 mm Ultra Wide",
@@ -27,7 +29,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [1.5]
         },
         {
           "format": "77 mm Telephoto",
@@ -36,7 +39,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [8.9]
         }
       ],
       "category": ["Mobile"],
@@ -77,7 +81,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [6.78]
         },
         {
           "format": "13 mm Ultra Wide",
@@ -86,7 +91,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [2.1]
         },
         {
           "format": "77 mm Telephoto",
@@ -95,7 +101,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [8.9]
         }
       ],
       "category": ["Mobile"],
@@ -136,7 +143,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [6.78]
         },
         {
           "format": "13 mm Ultra Wide",
@@ -145,7 +153,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [2.1]
         },
         {
           "format": "77 mm Telephoto",
@@ -154,7 +163,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [8.9]
         }
       ],
       "category": ["Mobile"],
@@ -195,7 +205,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [6.78]
         },
         {
           "format": "13 mm Ultra Wide",
@@ -204,7 +215,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [2.1]
         },
         {
           "format": "120 mm Telephoto",
@@ -213,7 +225,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [15.64]
         }
       ],
       "category": ["Mobile"],
@@ -254,7 +267,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [6.78]
         },
         {
           "format": "13 mm Ultra Wide",
@@ -263,7 +277,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [2.1]
         },
         {
           "format": "120 mm Telephoto",
@@ -272,7 +287,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [15.64]
         }
       ],
       "category": ["Mobile"],
@@ -313,7 +329,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [6.78]
         },
         {
           "format": "13 mm Ultra Wide",
@@ -322,7 +339,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [2.1]
         },
         {
           "format": "120 mm Telephoto",
@@ -331,7 +349,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [15.64]
         }
       ],
       "category": ["Mobile"],
@@ -372,7 +391,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [6.78]
         },
         {
           "format": "13 mm Ultra Wide",
@@ -381,7 +401,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [2.1]
         },
         {
           "format": "100 mm Telephoto",
@@ -390,7 +411,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [16.18]
         }
       ],
       "category": ["Mobile"],
@@ -431,7 +453,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [6.78]
         },
         {
           "format": "13 mm Ultra Wide",
@@ -440,7 +463,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [2.1]
         },
         {
           "format": "100 mm Telephoto",
@@ -449,7 +473,8 @@
             { "format": "4K", "size": [3840, 2160] },
             { "format": "1080p", "size": [1920, 1080] },
             { "format": "720p", "size": [1280, 720] }
-          ]
+          ],
+          "focalLength": [16.18]
         }
       ],
       "category": ["Mobile"],

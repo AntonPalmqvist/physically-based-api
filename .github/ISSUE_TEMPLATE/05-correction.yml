@@ -1,0 +1,26 @@
+name: Correction
+description: Suggest a correction to an existing asset.
+title: "[Correction]: "
+
+body:
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What type of asset does this relate to?
+      options:
+        - Material
+        - Light Source
+        - Camera
+        - Lens
+      default: 0
+    validations:
+      required: true 
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe what needs to be corrected. It can be feedback about terminology, or accuracy, for example.
+      placeholder: Description.
+    validations:
+      required: true 

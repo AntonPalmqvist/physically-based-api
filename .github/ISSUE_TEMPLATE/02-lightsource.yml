@@ -1,0 +1,94 @@
+name: New Light Source
+description: Suggest a new light source.
+title: "[Light Source]: "
+
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Name of the light source.
+      placeholder: Fluorescent Tube Light
+    validations:
+      required: true
+
+  - type: input
+    id: temperature
+    attributes:
+      label: Color Temperature
+      description: The typical range of color temperature in Kelvin, if color lies near the Planckian curve (within 0.005 Duv). If too far off, temperature shouldn't be specified. A range can be specified with two values. A third value can be added to specify the most common temperature.
+      placeholder: 2700, 6500, 4500
+  
+  - type: input
+    id: color
+    attributes:
+      label: Color
+      description: Color of the light source.
+      placeholder: 1.0, 0.415, 0.099
+
+  - type: input
+    id: intensity
+    attributes:
+      label: Intensity
+      description: Intensity of the light emitted from the light source. If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common intensity.
+      placeholder: 500, 5000, 3000
+    validations:
+      required: true
+
+  - type: dropdown
+    id: unit
+    attributes:
+      label: Unit
+      description: The unit of measurement of the intensity of the light. In the case of lux, it should be converted to lumen, unless it's a directional light such as the sun or the moon.
+      options:
+        - Lumen (lm)
+        - Lux (lx)
+        - Nits (cd/m2)
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: angle
+    attributes:
+      label: Angle
+      description: The maximum beam angle in degrees.
+      placeholder: 90
+
+  - type: input
+    id: size
+    attributes:
+      label: Source Size
+      description: The size of the light source in centimeters. [Radius] if point or spot. [Width, Height] if surface. [Radius, Length] if cylinder.
+      placeholder: 1.5, 60
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Any additional information that can be useful when rendering this light source.
+      placeholder: The changing color of the Sun over the course of the day is mainly a result of the scattering of sunlight and is not due to changes in black-body radiation.
+
+  - type: input
+    id: reference1
+    attributes:
+      label: Reference
+      description: Link to a reference where the information comes from.
+      placeholder: https://en.wikipedia.org/w/index.php?title=Color_temperature&oldid=1272808359#The_Sun
+    validations:
+      required: true
+
+  - type: input
+    id: reference2
+    attributes:
+      label: Additional Reference
+      description: Link to another reference, if available.
+      placeholder: https://stjarnhimlen.se/comp/radfaq.html#10
+
+  - type: upload
+    id: spectrum
+    attributes:
+      label: Spectral Data
+      description: If spectral data is available, please upload a file with the data.
+    validations:
+      accept: ".txt,.csv,.json"
