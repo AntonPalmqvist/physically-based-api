@@ -44,7 +44,7 @@ body:
     attributes:
       label: Blades
       description: Number of diaphragm blades.
-      placeholder: 9
+      placeholder: "9"
     validations:
       required: true
 
@@ -53,14 +53,14 @@ body:
     attributes:
       label: Close Focus
       description: Shortest distance from the sensor to the subject that the lens can achieve focus. Specified in centimeters.
-      placeholder: 80
+      placeholder: "80"
 
   - type: input
     id: squeeze-factor
     attributes:
       label: Squeeze Factor
       description: The squeeze factor of an anamorphic lens.
-      placeholder: 1.8
+      placeholder: "1.8"
   
   - type: textarea
     id: description

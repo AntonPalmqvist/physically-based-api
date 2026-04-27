@@ -26,7 +26,7 @@ body:
     attributes:
       label: Index of Refraction
       description: Index of refraction of the material.
-      placeholder: 1.33
+      placeholder: "1.33"
 
   - type: input
     id: density
@@ -40,14 +40,14 @@ body:
     attributes:
       label: Viscosity
       description: Dynamic viscosity measured in millipascal-seconds (mPa⋅s) at a temperature of 20°C. 1 mPa⋅s (millipascal-second) = 1 cP (centipoise). If there's no variation, only one value should be specified. A range can be specified with two values. A third value can be added to specify the most common viscosity.
-      placeholder: 1.002
+      placeholder: "1.002"
 
   - type: input
     id: surface-tension
     attributes:
       label: Surface Tension
       description: Surface tension measured in millinewton per meter (mN/m) at a temperature of 20°C. 1 mN/m = 1 dyn/cm.
-      placeholder: 72
+      placeholder: "72"
   
   - type: textarea
     id: description
