@@ -1,8 +1,8 @@
 {
   "$schema": "../../schemas/components/schemas/Camera.json",
   "header": {
-    "schemaVersion": 2.1,
-    "updated": 202605031110,
+    "schemaVersion": 2.2,
+    "updated": 202605191932,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/cameras",
     "deprecated": false
@@ -2604,6 +2604,58 @@
           "url": "https://github.com/AcademySoftwareFoundation/rawtoaces-data/blob/main/data/camera/Canon_EOS_R6_380_780_5.json",
           "publisher": "Academy Software Foundation ",
           "accessed": "2025-11-24"
+        }
+      ],
+      "tags": ["full frame", "mirrorless"]
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R6 Mark V",
+      "sensorSize": [
+        {
+          "format": "Full Frame",
+          "size": [35.9, 23.9],
+          "resolution": [
+            {
+              "format": "7K Open Gate RAW 3:2",
+              "size": [6960, 4840]
+            },
+            {
+              "format": "7K RAW 17:9",
+              "size": [6960, 4640]
+            },
+            {
+              "format": "4K DCI 17:9",
+              "size": [4096, 2160]
+            },
+            {
+              "format": "4K UHD 16:9",
+              "size": [3840, 2160]
+            },
+            {
+              "format": "2K DCI 17:9",
+              "size": [2048, 1080]
+            },
+            {
+              "format": "2K UHD 16:9",
+              "size": [1920, 1080]
+            }
+          ]
+        }
+      ],
+      "category": ["Still"],
+      "references": [
+        {
+          "title": "EOS R6 Mark V",
+          "publisher": "Canon U.S.A., Inc.",
+          "url": "https://www.usa.canon.com/shop/p/eos-r6-v-body",
+          "accessed": "2026-05-13"
+        },
+        {
+          "title": "EOS R6 Mark V Detailed Specifications",
+          "publisher": "Canon U.S.A., Inc.",
+          "url": "https://s7d1.scene7.com/is/content/canon/EOS-R6-V-specsheet-finalpdf",
+          "accessed": "2026-05-13"
         }
       ],
       "tags": ["full frame", "mirrorless"]
@@ -10315,6 +10367,54 @@
         }
       ],
       "tags": ["full frame", "a7r", "ilce-7rm5", "mirrorless"]
+    },
+    {
+      "make": "Sony",
+      "model": "Alpha 7R VI",
+      "sensorSize": [
+        {
+          "format": "Open Gate",
+          "size": [35.9, 24.0],
+          "resolution": [
+            {
+              "format": "8K",
+              "size": [7680, 4320]
+            },
+            {
+              "format": "4K",
+              "size": [3840, 2160]
+            },
+            {
+              "format": "Full HD",
+              "size": [1920, 1080]
+            }
+          ]
+        }
+      ],
+      "category": ["Still"],
+      "references": [
+        {
+          "title": "Alpha 7R VI: Full-frame Mirrorless Interchangeable Lens Camera",
+          "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce7rm6b",
+          "publisher": "SONY ELECTRONICS INC.",
+          "accessed": "2026-05-13"
+        },
+        {
+          "title": "Sony α7",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Sony_%CE%B17&oldid=1267254025",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-02-22"
+        },
+        {
+          "title": "Sony's a7R VI comes speeding out of the studio",
+          "author": "Butler, R., & Clark, M.",
+          "url": "https://www.dpreview.com/reviews/sony-a7r-vi-review",
+          "publisher": "Digital Photography Review",
+          "accessed": "2026-05-13"
+        }
+      ],
+      "tags": ["full frame", "a7r", "ilce-7rm6", "mirrorless"]
     },
     {
       "make": "Sony",

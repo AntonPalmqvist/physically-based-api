@@ -35,6 +35,7 @@ Access the API and documentation at [https://api.physicallybased.info/v2](https:
 Explore the database through these implementations:
 
 - Blender [Photographer 5](https://chafouin.gumroad.com/l/photographer5) by [chafouin](https://mastodon.gamedev.place/@chafouin)
+- Blender [Remote Asset Library](https://blender.physicallybased.info/) by [AntonPalmqvist](https://github.com/AntonPalmqvist)
 - Web [MaterialXLab](https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html) by [kwokcb](https://github.com/kwokcb)
 - Web [Physically Based](https://physicallybased.info) by [AntonPalmqvist](https://github.com/AntonPalmqvist)
 - Web [Three.js GPU Path Tracer](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [gkjohnson](https://github.com/gkjohnson)
