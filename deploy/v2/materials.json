@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202605221622,
+    "updated": 202605241255,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/materials",
     "deprecated": false
@@ -395,10 +395,10 @@
       ],
       "metalness": 0,
       "roughness": 0,
-      "ior": 1.3325,
+      "ior": 1.33,
       "transmission": 1,
       "transmissionDepth": 1,
-      "transmissionDispersion": 55.78,
+      "transmissionDispersion": 56,
       "volumeCoefficients": {
         "absorption": [
           {
@@ -421,8 +421,8 @@
       },
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
-      "surfaceTension": 72,
       "category": ["Liquid"],
+      "description": "While the index of refraction of beer depends on its alcohol and sugar contents, beer contains 90%-95% water, so the index of refraction can in most cases be assumed to be close to that of water.",
       "references": [
         {
           "title": "Acquiring Scattering Properties Of Participating Media By Dilution",
@@ -1763,7 +1763,6 @@
       },
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
-      "surfaceTension": 72,
       "category": ["Liquid"],
       "references": [
         {
@@ -2268,6 +2267,60 @@
           "format": "avif",
           "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/egg-shell-white.avif",
           "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/egg-shell-white.avif"
+        }
+      ]
+    },
+    {
+      "name": "Ethanol",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [1, 1, 1]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0,
+      "ior": 1.362,
+      "transmission": 1,
+      "transmissionDispersion": 60,
+      "density": [789],
+      "viscosity": [1.2],
+      "surfaceTension": 22.27,
+      "category": ["Liquid"],
+      "description": "Ethanol is also called ethyl alcohol, grain alcohol, drinking alcohol, or simply alcohol. The refractive index of an alcoholic beverage such as vodka depends on the ratio of alcohol and water. For example, vodka with 40% alcohol by volume contains 40% ethanol and 60% water.",
+      "tags": ["alcohol", "vodka"],
+      "references": [
+        {
+          "title": "Ethanol",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Ethanol&oldid=1353022559",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-05-24"
+        },
+        {
+          "title": "Surface tension",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Surface_tension&oldid=1349048290#Values",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-05-24"
+        },
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=organic&book=ethanol&page=Rheims",
+          "accessed": "2026-05-24"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/ethanol.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/ethanol.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/ethanol.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/ethanol.avif"
         }
       ]
     },
@@ -3426,7 +3479,6 @@
       },
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
-      "surfaceTension": 72,
       "category": ["Liquid"],
       "references": [
         {
@@ -3490,7 +3542,6 @@
       },
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
-      "surfaceTension": 72,
       "category": ["Liquid"],
       "references": [
         {
@@ -3554,7 +3605,6 @@
       },
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
-      "surfaceTension": 72,
       "category": ["Liquid"],
       "references": [
         {
@@ -3618,7 +3668,6 @@
       },
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
-      "surfaceTension": 72,
       "category": ["Liquid"],
       "references": [
         {
@@ -3682,7 +3731,6 @@
       },
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
-      "surfaceTension": 72,
       "category": ["Liquid"],
       "references": [
         {
@@ -7778,6 +7826,61 @@
       ]
     },
     {
+      "name": "Vodka (40%)",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [1, 1, 1]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0,
+      "ior": 1.3583,
+      "transmission": 1,
+      "transmissionDispersion": 60,
+      "density": [935],
+      "viscosity": [2.846],
+      "surfaceTension": 30,
+      "category": ["Liquid"],
+      "description": "The refractive index of vodka depends on the ratio of alcohol and water. Vodka with 40% alcohol by volume contains 40% ethanol and 60% water.",
+      "tags": ["alcohol", "ethanol"],
+      "references": [
+        {
+          "title": "Vodka",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Vodka&oldid=1351593831",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-05-24"
+        },
+        {
+          "title": "Surface tension",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Surface_tension&oldid=1349048290#Values",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-05-24"
+        },
+        {
+          "title": "CRC Handbook of Chemistry and Physics (85th Edition)",
+          "author": "Lide, D. R.",
+          "url": "https://ia601308.us.archive.org/27/items/CRC.Press.Handbook.of.Chemistry.and.Physics.85th.ed.eBook-LRN/CRC.Press.Handbook.of.Chemistry.and.Physics.85th.ed.eBook-LRN.pdf",
+          "publisher": "CRC Press",
+          "year": "2004"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/vodka_40.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/vodka_40.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/vodka_40.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/vodka_40.avif"
+        }
+      ]
+    },
+    {
       "name": "Water",
       "color": [
         {
@@ -7815,7 +7918,7 @@
       },
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
-      "surfaceTension": 72,
+      "surfaceTension": 72.75,
       "acousticAbsorption": [0.008, 0.008, 0.013, 0.015, 0.02, 0.025],
       "category": ["Liquid"],
       "description": "While relatively small quantities of water appear to be colorless, pure water has a slight blue color that becomes deeper as the thickness of the observed sample increases beyond 50 cm. The hue of water is an intrinsic property and is caused by selective absorption and scattering of white light. Dissolved elements or suspended impurities may give water a different color.",
@@ -8005,7 +8108,6 @@
       },
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
-      "surfaceTension": 72,
       "category": ["Liquid"],
       "references": [
         {
@@ -8069,7 +8171,6 @@
       },
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
-      "surfaceTension": 72,
       "category": ["Liquid"],
       "references": [
         {
