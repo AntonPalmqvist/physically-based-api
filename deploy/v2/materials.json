@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202605242123,
+    "updated": 202605271928,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/materials",
     "deprecated": false
@@ -1112,7 +1112,7 @@
       "ior": 1.5,
       "category": ["Manmade"],
       "description": "Modern car paints are nearly always an acrylic polyurethane \"enamel\" with a pigmented basecoat and a clear topcoat. It may be described as \"acrylic\", \"acrylic enamel\", \"urethane\", etc. and the clearcoat in particular may be described as a lacquer. The size of the metal flakes in metallic paints is typically between 100 to 400 microns in diameter. Modern automobile paint is applied in several layers, with a total thickness of around 100 μm (0.1mm).",
-      "tags": ["acrylic", "coat", "car paint", "lacquer"],
+      "tags": ["acrylic", "coat", "lacquer"],
       "references": [
         {
           "title": "Automotive Paint",
@@ -2151,7 +2151,6 @@
       "transmissionDispersion": 55.3,
       "density": [3500],
       "category": ["Crystal"],
-      "tags": ["gem", "gemstone"],
       "references": [
         {
           "title": "Refractive index database",
@@ -5328,6 +5327,49 @@
       ]
     },
     {
+      "name": "Plastic (PLA)",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [1, 1, 1]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0,
+      "ior": 1.4586,
+      "transmission": 1,
+      "density": [1210, 1430],
+      "category": ["Plastic"],
+      "tags": ["polylactic acid"],
+      "references": [
+        {
+          "title": "Polylactic Acid",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Polylactic_acid&oldid=1354580220",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-05-27"
+        },
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=organic&book=polylactic_acid&page=Bodurov",
+          "accessed": "2026-05-27"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/plastic-pla.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-pla.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/plastic-pla.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-pla.avif"
+        }
+      ]
+    },
+    {
       "name": "Plastic (PP)",
       "color": [
         {
@@ -5963,7 +6005,6 @@
       "transmissionDispersion": 42.89,
       "density": [2170],
       "category": ["Crystal"],
-      "tags": [],
       "references": [
         {
           "title": "Refractive index database",
@@ -6005,7 +6046,6 @@
       "ior": 1.5,
       "density": [1440, 1680, 1500],
       "category": ["Crystal"],
-      "tags": [],
       "references": [
         {
           "title": "Feeding a Physically Based Shading Model",
@@ -6061,7 +6101,6 @@
       "transmissionDispersion": 72.2,
       "density": [3980],
       "category": ["Crystal"],
-      "tags": ["gem", "gemstone"],
       "references": [
         {
           "title": "Refractive index database",
