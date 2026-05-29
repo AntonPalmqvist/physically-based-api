@@ -1,10 +1,10 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "version": "2.1",
+    "version": "2.2",
     "title": "Physically Based API",
     "summary": "A database of physically based values for CG artists.",
-    "description": "A database of physically based values for CG artists.\n\n ## Features\n\n- **Open Database**: Access a collection of physically based values for materials, cameras, and light sources\n- **Lightweight**: The entire dataset is optimized for quick loading and integration as presets\n    - materials.json ```211 KB```\n    - lightsources.json ```47 KB```\n    - cameras.json ```164 KB```\n    - lenses.json (coming in v2.2)\n- **API Access**: Connect your tools to the API to get the latest updates from the database\n- **Community-Driven**: Contribute new materials or improve existing ones\n- **Free License**: All data is released under CC0 1.0\n\n## Implementations\n\nExplore the database through these implementations:\n\n- Blender [Photographer 5](https://chafouin.gumroad.com/l/photographer5) by [chafouin](https://mastodon.gamedev.place/@chafouin)\n- Web [MaterialXLab](https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html) by [kwokcb](https://github.com/kwokcb)\n- Web [Physically Based](https://physicallybased.info) by [AntonPalmqvist](https://github.com/AntonPalmqvist)\n- Web [Three.js GPU Path Tracer](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [gkjohnson](https://github.com/gkjohnson)\n\n## Contribute\n\nContributions are welcome! Whether you want to add new entries, corrections, or suggestions, your help is appreciated. See the [Github page](https://github.com/AntonPalmqvist/physically-based-api) for more info.\n\n## License\n\nThe database is made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes.\n\nShader ball used for renders is from [ASWF USD WG](https://github.com/usd-wg/assets/tree/main/full_assets/StandardShaderBall) and is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).",
+    "description": "A database of physically based values for CG artists.\n\n ## Features\n\n- **Open Database**: Access a collection of physically based values for materials, cameras, and light sources\n- **Lightweight**: The entire dataset is optimized for quick loading and integration as presets\n    - materials.json ```211 KB```\n    - lightsources.json ```47 KB```\n    - cameras.json ```164 KB```\n    - lenses.json (coming in v2.2)\n- **API Access**: Connect your tools to the API to get the latest updates from the database\n- **Community-Driven**: Contribute new materials or improve existing ones\n- **Free License**: All data is released under CC0 1.0\n\n## Implementations\n\nExplore the database through these implementations:\n\n- Blender [Photographer 5](https://chafouin.gumroad.com/l/photographer5) by [chafouin](https://mastodon.gamedev.place/@chafouin)\n- Blender [Remote Asset Library](https://blender.physicallybased.info/) by [AntonPalmqvist](https://github.com/AntonPalmqvist)\n- Web [Materially](https://artofpilgrim.github.io/materially/) by [Pilgrim](https://www.artstation.com/art_of_pilgrim)\n- Web [MaterialXLab](https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html) by [kwokcb](https://github.com/kwokcb)\n- Web [Physically Based](https://physicallybased.info) by [AntonPalmqvist](https://github.com/AntonPalmqvist)\n- Web [Three.js GPU Path Tracer](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [gkjohnson](https://github.com/gkjohnson)\n\n## Contribute\n\nContributions are welcome! Whether you want to add new entries, corrections, or suggestions, your help is appreciated. See the [Github page](https://github.com/AntonPalmqvist/physically-based-api) for more info.\n\n## License\n\nThe database is made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes.\n\nShader ball used for renders is from [ASWF USD WG](https://github.com/usd-wg/assets/tree/main/full_assets/StandardShaderBall) and is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).",
     "license": {
       "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
       "name": "CC0 1.0"
@@ -27,6 +27,10 @@
     {
       "name": "Cameras",
       "description": "Gets an array of all cameras."
+    },
+    {
+      "name": "Lenses",
+      "description": "Gets an array of all lenses."
     }
   ],
   "externalDocs": {
@@ -121,6 +125,37 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Camera"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        },
+        "servers": [
+          {
+            "url": "https://api.physicallybased.info/v2"
+          }
+        ],
+        "security": []
+      }
+    },
+    "/lenses": {
+      "get": {
+        "tags": [
+          "Lenses"
+        ],
+        "summary": "Get lenses",
+        "description": "Gets an array of all lenses.",
+        "operationId": "get-lenses",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Lens"
                 }
               }
             }
@@ -1444,6 +1479,196 @@
                 ],
                 "tags": [
                   "netflix"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "Lens": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "$schema",
+          "header",
+          "data"
+        ],
+        "properties": {
+          "$schema": {
+            "type": "string"
+          },
+          "header": {
+            "$ref": "#/components/schemas/header"
+          },
+          "data": {
+            "description": "An array of Lens objects.",
+            "type": "array",
+            "items": {
+              "title": "Lens",
+              "description": "Any type of lens that is being used, or simulated, in any way in CG productions (including games).",
+              "additionalProperties": false,
+              "type": "object",
+              "properties": {
+                "make": {
+                  "description": "Brand name.",
+                  "type": "string",
+                  "example": "Cooke"
+                },
+                "model": {
+                  "description": "Model name.",
+                  "type": "string",
+                  "example": "Varotal/i"
+                },
+                "variants": {
+                  "description": "Lists all different variations of the lens. If the lens only comes in one variant, just specify that one single variant.",
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "additionalProperties": false,
+                    "type": "object",
+                    "properties": {
+                      "format": {
+                        "description": "Format.",
+                        "type": "string",
+                        "example": "FF 30-95mm"
+                      },
+                      "focalLength": {
+                        "description": "Min and max focal length in millimeters. If it's a prime lens, only set one value.",
+                        "type": "array",
+                        "items": {
+                          "type": "number"
+                        },
+                        "example": [
+                          30,
+                          95
+                        ],
+                        "minItems": 1,
+                        "maxItems": 2
+                      },
+                      "aperture": {
+                        "description": "Max and min aperture size.",
+                        "type": "array",
+                        "items": {
+                          "type": "number"
+                        },
+                        "example": [
+                          2.9,
+                          22
+                        ],
+                        "minItems": 2,
+                        "maxItems": 2
+                      },
+                      "blades": {
+                        "description": "Number of diaphragm blades.",
+                        "type": "integer",
+                        "example": 9
+                      },
+                      "closeFocus": {
+                        "description": "Shortest distance from the sensor to the subject that the lens can achieve focus. Specified in centimeters.",
+                        "type": "number",
+                        "example": 80
+                      },
+                      "squeezeFactor": {
+                        "description": "The squeeze factor of an anamorphic lens.",
+                        "type": "number",
+                        "example": 1.8
+                      },
+                      "description": {
+                        "$ref": "#/components/schemas/description"
+                      }
+                    },
+                    "required": [
+                      "format",
+                      "focalLength",
+                      "aperture",
+                      "blades"
+                    ]
+                  }
+                },
+                "description": {
+                  "$ref": "#/components/schemas/description"
+                },
+                "tags": {
+                  "$ref": "#/components/schemas/tag"
+                },
+                "references": {
+                  "$ref": "#/components/schemas/reference"
+                }
+              },
+              "required": [
+                "make",
+                "model",
+                "variants",
+                "references"
+              ]
+            }
+          }
+        },
+        "examples": [
+          {
+            "$schema": "../../schemas/components/schemas/Lens.json",
+            "header": {
+              "schemaVersion": 2.1,
+              "updated": 202603101230,
+              "license": "CC0 1.0 Universal",
+              "origin": "https://api.physicallybased.info/v2/lenses",
+              "deprecated": false
+            },
+            "data": [
+              {
+                "make": "Cooke",
+                "model": "Varotal/i",
+                "variants": [
+                  {
+                    "format": "FF 19-40mm",
+                    "focalLength": [
+                      19,
+                      40
+                    ],
+                    "aperture": [
+                      2.9,
+                      22
+                    ],
+                    "blades": 9,
+                    "closeFocus": 60
+                  },
+                  {
+                    "format": "FF 30-95mm",
+                    "focalLength": [
+                      30,
+                      95
+                    ],
+                    "aperture": [
+                      2.9,
+                      22
+                    ],
+                    "blades": 9,
+                    "closeFocus": 80
+                  },
+                  {
+                    "format": "FF 85-215mm",
+                    "focalLength": [
+                      85,
+                      215
+                    ],
+                    "aperture": [
+                      2.9,
+                      22
+                    ],
+                    "blades": 9,
+                    "closeFocus": 150
+                  }
+                ],
+                "references": [
+                  {
+                    "title": "Cooke Varotal/i FF",
+                    "publisher": "Cooke Optics Limited",
+                    "url": "https://cookeoptics.com/lens/varotal-i-ff/",
+                    "accessed": "2026-01-10"
+                  }
+                ],
+                "tags": [
+                  "zoom"
                 ]
               }
             ]
