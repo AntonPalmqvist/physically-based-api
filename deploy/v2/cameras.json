@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Camera.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202605191932,
+    "updated": 202605311345,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/cameras",
     "deprecated": false
@@ -1515,7 +1515,7 @@
           "accessed": "2025-09-28"
         }
       ],
-      "tags": ["full frame"]
+      "tags": ["full frame", "netflix"]
     },
     {
       "make": "Blackmagic",
