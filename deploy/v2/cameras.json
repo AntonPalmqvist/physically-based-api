@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Camera.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202606171859,
+    "updated": 202606171904,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/cameras",
     "deprecated": false
@@ -11124,23 +11124,11 @@
       "sensorSize": [
         {
           "format": "9.6K 1.5:1",
-          "size": [53.75, 35.83],
-          "resolution": [
-            {
-              "format": "9.6K 1.5:1",
-              "size": [0, 0]
-            }
-          ]
+          "size": [53.75, 35.83]
         },
         {
           "format": "9.6K 2.2:1",
-          "size": [53.75, 24.44],
-          "resolution": [
-            {
-              "format": "9.6K 2.2:1",
-              "size": [0, 0]
-            }
-          ]
+          "size": [53.75, 24.44]
         }
       ],
       "category": ["Movie"],
