@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Camera.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202605311345,
+    "updated": 202606171859,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/cameras",
     "deprecated": false
@@ -11117,6 +11117,57 @@
         }
       ],
       "tags": ["full frame"]
+    },
+    {
+      "make": "Sony",
+      "model": "RIALTO 65",
+      "sensorSize": [
+        {
+          "format": "9.6K 1.5:1",
+          "size": [53.75, 35.83],
+          "resolution": [
+            {
+              "format": "9.6K 1.5:1",
+              "size": [0, 0]
+            }
+          ]
+        },
+        {
+          "format": "9.6K 2.2:1",
+          "size": [53.75, 24.44],
+          "resolution": [
+            {
+              "format": "9.6K 2.2:1",
+              "size": [0, 0]
+            }
+          ]
+        }
+      ],
+      "category": ["Movie"],
+      "description": "RIALTO 65 is a sensor block that attaches to the VENICE 2 camera.",
+      "references": [
+        {
+          "title": "Announcing the RIALTO 65 — Bringing the 65mm Format to VENICE 2",
+          "url": "https://sony-cinematography.com/announcing-the-rialto-65-bringing-the-65mm-format-to-venice-2/",
+          "publisher": "SONY ELECTRONICS INC.",
+          "accessed": "2026-06-17"
+        },
+        {
+          "title": "IMAX",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=IMAX&oldid=1275572464#Film_cameras",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-02-22"
+        },
+        {
+          "title": "Sony RIALTO 65 Development Announcement",
+          "author": "Fauer, J.",
+          "url": "https://www.fdtimes.com/wp-content/uploads/2026/06/FDTimes-Sony-RIALTO65-June-3-2026-1.pdf",
+          "publisher": "Film And Digital Times",
+          "accessed": "2026-06-17"
+        }
+      ],
+      "tags": ["imax"]
     },
     {
       "make": "Sony",

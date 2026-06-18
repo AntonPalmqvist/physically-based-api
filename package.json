@@ -36,5 +36,11 @@
     "./deploy/v2/{cameras,materials,lightsources,lenses}.json": [
       "node scripts/pre-commit.mjs --staged"
     ]
+  },
+  "allowScripts": {
+    "vue-demi@0.14.10": true,
+    "core-js@3.49.0": true,
+    "sharp@0.34.5": true,
+    "protobufjs@7.6.1": true
   }
 }
