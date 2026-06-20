@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202606201133,
+    "updated": 202606201246,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/materials",
     "deprecated": false
@@ -1045,7 +1045,7 @@
         }
       ],
       "metalness": 0,
-      "roughness": 0.9,
+      "roughness": 1.0,
       "diffuseRoughness": 1.0,
       "ior": 1.5,
       "density": [500, 2400, 2000],
@@ -1365,7 +1365,7 @@
         }
       ],
       "metalness": 0,
-      "roughness": 0.9,
+      "roughness": 1.0,
       "diffuseRoughness": 1.0,
       "ior": 1.5,
       "density": [200, 500, 200],
@@ -1801,8 +1801,7 @@
         }
       ],
       "metalness": 0,
-      "roughness": 0.9,
-      "diffuseRoughness": 1.0,
+      "roughness": 0.5,
       "ior": 1.5,
       "density": [2400],
       "acousticAbsorption": [0.01, 0.01, 0.02, 0.02, 0.02, 0.02],
@@ -4606,7 +4605,7 @@
         }
       ],
       "metalness": 0,
-      "roughness": 0.99,
+      "roughness": 1.0,
       "diffuseRoughness": 1.0,
       "ior": 1.5,
       "category": ["Manmade"],
@@ -4732,7 +4731,7 @@
         }
       ],
       "metalness": 0,
-      "roughness": 0.9,
+      "roughness": 1.0,
       "diffuseRoughness": 1.0,
       "ior": 1.5,
       "category": ["Manmade"],
@@ -6047,7 +6046,7 @@
         }
       ],
       "metalness": 0,
-      "roughness": 0.9,
+      "roughness": 1.0,
       "diffuseRoughness": 1.0,
       "ior": 1.5,
       "density": [1440, 1680, 1500],
@@ -7190,7 +7189,7 @@
         }
       ],
       "metalness": 0,
-      "roughness": 0.8,
+      "roughness": 1.0,
       "diffuseRoughness": 1.0,
       "ior": 1.5,
       "density": [1800, 2200, 2000],
