@@ -435,6 +435,11 @@
                   "type": "number",
                   "example": 0
                 },
+                "diffuseRoughness": {
+                  "description": "The roughness of the diffuse lobe. Typically 0 gives a standard Lambertian reflection, while higher values activate the Oren-Nayar BSDF.",
+                  "type": "number",
+                  "example": 0
+                },
                 "ior": {
                   "description": "Index of refraction of a dielectric material. Does not apply to metals (conductors).",
                   "type": "number",
