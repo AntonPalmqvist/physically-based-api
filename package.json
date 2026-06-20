@@ -30,7 +30,7 @@
     "http-server": "^14.1.1",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
-    "sharp": "^0.34.5"
+    "sharp": "^0.35.1"
   },
   "lint-staged": {
     "./deploy/v2/{cameras,materials,lightsources,lenses}.json": [

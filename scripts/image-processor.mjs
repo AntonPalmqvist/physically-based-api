@@ -79,7 +79,7 @@ async function processImages() {
         const processAVIF600 = await sharp(imagePath)
           .withMetadata() // Keeps most metadata and adds sRGB ICC profile  https://sharp.pixelplumbing.com/api-output#withmetadata
           .resize({ width: 600, height: 600 })
-          .toFormat("avif", { quality: 50 })
+          .toFormat("avif", { quality: 50, effort: 8 })
           .toFile(outputFileAVIF600); // Save resized image with modified name
 
         console.log(`Processed ${file} (600x600):`, processAVIF600);
@@ -94,7 +94,7 @@ async function processImages() {
         const processAVIF300 = await sharp(imagePath)
           .withMetadata() // Keeps most metadata and adds sRGB ICC profile  https://sharp.pixelplumbing.com/api-output#withmetadata
           .resize({ width: 300, height: 300 })
-          .toFormat("avif", { quality: 50 })
+          .toFormat("avif", { quality: 50, effort: 8 })
           .toFile(outputFileAVIF300); // Save resized image with modified name
 
         console.log(`Processed ${file} (300x300):`, processAVIF300);
