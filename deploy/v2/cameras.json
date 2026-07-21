@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Camera.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202607181402,
+    "updated": 202607201740,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/cameras",
     "deprecated": false
@@ -2551,6 +2551,55 @@
     },
     {
       "make": "Canon",
+      "model": "EOS R6 Mark II",
+      "sensorSize": [
+        {
+          "format": "Full Frame",
+          "size": [36, 24],
+          "resolution": [
+            {
+              "format": "4K UHD 16:9",
+              "size": [3840, 2160]
+            },
+            {
+              "format": "FHD 16:9",
+              "size": [1920, 1080]
+            }
+          ]
+        }
+      ],
+      "category": ["Still"],
+      "references": [
+        {
+          "title": "EOS R6 Mark II",
+          "publisher": "Canon U.S.A., Inc.",
+          "url": "https://www.usa.canon.com/shop/p/eos-r6-mark-ii",
+          "accessed": "2026-07-20"
+        },
+        {
+          "title": "EOS R6 Mark II Detailed Specifications",
+          "publisher": "Canon U.S.A., Inc.",
+          "url": "https://downloads.canon.com/nw/camera/products/eos/r6-markii/R6-MarkII-SpecSheet.pdf",
+          "accessed": "2026-07-20"
+        },
+        {
+          "title": "EOS R6 Mark II User's Manual",
+          "publisher": "Canon U.S.A., Inc.",
+          "url": "https://cam.start.canon/en/C012/manual/c012.pdf",
+          "accessed": "2026-07-20"
+        },
+        {
+          "title": "Canon EOS R6 Mark II Camera Spectral Sensitivity Data",
+          "author": "Contributors to the RAW to ACES project",
+          "url": "https://github.com/wetadigital/physlight/blob/main/data/camera/Canon_EOS_R6m2_380_780_5.json",
+          "publisher": "Academy Software Foundation ",
+          "accessed": "2026-07-20"
+        }
+      ],
+      "tags": ["full frame", "mirrorless"]
+    },
+    {
+      "make": "Canon",
       "model": "EOS R6 Mark III",
       "sensorSize": [
         {
@@ -2597,13 +2646,6 @@
           "publisher": "Canon U.S.A., Inc.",
           "url": "https://s7d1.scene7.com/is/content/canon/EOSR6-Mark3-Spec-Sheetpdf",
           "accessed": "2025-11-07"
-        },
-        {
-          "title": "Canon EOS R6 Mark III Camera Spectral Sensitivity Data",
-          "author": "Contributors to the RAW to ACES project",
-          "url": "https://github.com/AcademySoftwareFoundation/rawtoaces-data/blob/main/data/camera/Canon_EOS_R6_380_780_5.json",
-          "publisher": "Academy Software Foundation ",
-          "accessed": "2025-11-24"
         }
       ],
       "tags": ["full frame", "mirrorless"]
@@ -2862,6 +2904,13 @@
           "publisher": "Pixpro UAB",
           "author": "Zmejevskis, L.",
           "accessed": "2026-02-10"
+        },
+        {
+          "title": "L2D-20c Camera Spectral Sensitivity Data",
+          "author": "Contributors to the PhysLight Project",
+          "url": "https://github.com/wetadigital/physlight/blob/main/data/camera/Hasselblad_L2D-20c_380_780_5.json",
+          "publisher": "Wētā FX",
+          "accessed": "2026-07-20"
         }
       ],
       "tags": ["drone", "hasselblad l2d-20"]
@@ -3131,6 +3180,13 @@
           "url": "https://en.wikipedia.org/w/index.php?title=Fujifilm_GFX100&oldid=1266453326",
           "publisher": "Wikipedia, The Free Encyclopedia",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Fujifilm GFX100 Camera Spectral Sensitivity Data",
+          "author": "Contributors to the PhysLight Project",
+          "url": "https://github.com/wetadigital/physlight/blob/main/data/camera/Fujifilm_GFX_100_380_780_5.json",
+          "publisher": "Wētā FX",
+          "accessed": "2026-07-20"
         }
       ],
       "tags": ["medium format", "mirrorless"]
