@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Camera.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202607201740,
+    "updated": 202607241042,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/cameras",
     "deprecated": false
@@ -636,6 +636,12 @@
           "publisher": "ARRI GmbH",
           "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["netflix"]
@@ -715,6 +721,12 @@
           "url": "https://en.wikipedia.org/w/index.php?title=IMAX&oldid=1275572464#Film_cameras",
           "publisher": "Wikipedia, The Free Encyclopedia",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["imax", "netflix"]
@@ -761,6 +773,12 @@
           "publisher": "ARRI GmbH",
           "url": "https://www.arrirental.com/en/cameras/digital-65-mm-cameras/alexa-265",
           "accessed": "2025-10-01"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["imax", "netflix"]
@@ -840,6 +858,12 @@
           "publisher": "ARRI GmbH",
           "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "imax", "netflix"]
@@ -1093,6 +1117,12 @@
           "publisher": "ARRI GmbH",
           "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "imax", "netflix"]
@@ -1513,6 +1543,12 @@
           "publisher": "Blackmagic Design Pty. Ltd.",
           "url": "https://www.blackmagicdesign.com/products/blackmagicpyxis/techspecs/W-BOX-07",
           "accessed": "2025-09-28"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "netflix"]
@@ -1729,6 +1765,12 @@
           "url": "https://www.cined.com/blackmagic-design-ursa-cine-12k-lf-announced-12k-full-frame-sensor-open-gate-32-new-8tb-dedicated-recording-module-and-more/",
           "publisher": "CineD",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "netflix"]
@@ -1831,6 +1873,12 @@
           "url": "https://drive.google.com/file/d/1eKcfK69-YnxE-CqGrXEMdAw2Is0vTNB_/view",
           "publisher": "Netflix, Inc.",
           "accessed": "2025-10-01"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["imax", "netflix"]
@@ -1864,6 +1912,12 @@
           "url": "https://en.wikipedia.org/w/index.php?title=Blackmagic_URSA&oldid=1276978178#URSA_Mini_Pro_4.6K_G2",
           "publisher": "Wikipedia, The Free Encyclopedia",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -1905,6 +1959,12 @@
           "url": "https://en.wikipedia.org/w/index.php?title=Blackmagic_URSA&oldid=1276978178#URSA_Mini_Pro_12K",
           "publisher": "Wikipedia, The Free Encyclopedia",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -2170,6 +2230,12 @@
           "publisher": "Canon Inc.",
           "url": "https://gdlp01.c-wss.com/gds/4/0300040134/09/eosc70-im10-en.pdf",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -2256,6 +2322,12 @@
           "publisher": "Canon Inc.",
           "url": "https://s7d1.scene7.com/is/content/canon/EOSC80_full_specificationspdf",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "netflix"]
@@ -2305,6 +2377,12 @@
           "publisher": "Canon Inc.",
           "url": "https://gdlp01.c-wss.com/gds/5/0300042345/08/eosc300mk3-500mk2-im13-en.pdf",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -2384,6 +2462,12 @@
           "publisher": "Canon Inc.",
           "url": "https://s7d1.scene7.com/is/content/canon/EOSC400_full_specificationspdf",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -2417,6 +2501,12 @@
           "url": "https://en.wikipedia.org/w/index.php?title=Canon_EOS_C500&oldid=1167506586",
           "publisher": "Wikipedia, The Free Encyclopedia",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -2457,6 +2547,12 @@
           "publisher": "Canon U.S.A., Inc.",
           "url": "https://downloads.canon.com/nw/camera/downloads/brochures/cinema/cinema-eos/eos-c700-ff-series-product-brochure.pdf",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "netflix"]
@@ -2501,6 +2597,12 @@
           "url": "https://github.com/wetadigital/physlight/blob/main/data/camera/Canon_EOS_R5_380_780_5.json",
           "publisher": "Wētā FX",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "mirrorless", "netflix"]
@@ -2778,6 +2880,12 @@
           "publisher": "DJI",
           "url": "https://dl.djicdn.com/downloads/inspire_3/20241016UM/DJI_Inspire_3_User_Manual_V3.0_EN_.pdf",
           "accessed": "2025-10-01"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["drone", "netflix"]
@@ -4597,6 +4705,12 @@
           "url": "https://eww.pass.panasonic.co.jp/pro-av/support/content/guide/EN/aueva1_handbook_e.pdf",
           "publisher": "Panasonic Corporation",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -4635,6 +4749,12 @@
           "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/bgh1/spec/index.html",
           "publisher": "Panasonic Corporation",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["micro four thirds", "netflix"]
@@ -4685,6 +4805,12 @@
           "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/bs1h/index.html",
           "publisher": "Panasonic Corporation",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "netflix"]
@@ -4735,6 +4861,12 @@
           "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/s1h/index.html",
           "publisher": "Panasonic Corporation",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "netflix", "mirrorless"]
@@ -4902,6 +5034,12 @@
           "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf",
           "publisher": "Panasonic Corporation",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -4959,6 +5097,12 @@
           "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf",
           "publisher": "Panasonic Corporation",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -5002,6 +5146,12 @@
           "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf",
           "publisher": "Panasonic Corporation",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -5362,6 +5512,12 @@
           "url": "https://en.wikipedia.org/w/index.php?title=IMAX&oldid=1275572464#Film_cameras",
           "publisher": "Wikipedia, The Free Encyclopedia",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["imax", "netflix"]
@@ -6324,6 +6480,12 @@
           "url": "https://docs.red.com/955-0156/EPICSCARLETOperationGuide/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatEpicDragon.htm",
           "publisher": "RED.COM, LLC.",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -6974,6 +7136,12 @@
           "url": "https://docs.red.com/955-0192_v7.4/RANGER_GEMINI_7_4/Content/5_Advanced_Menus/1_Settings/Project/FormatGEMINI.htm",
           "publisher": "RED.COM, LLC.",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -8143,6 +8311,12 @@
           "url": "https://docs.red.com/955-0191_v7.4/RANGER_HELIUM_7_4/Content/5_Advanced_Menus/1_Settings/Project/FormatHELIUM.htm",
           "publisher": "RED.COM, LLC.",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -8332,6 +8506,12 @@
           "url": "https://www.red.com/komodo",
           "publisher": "RED.COM, LLC.",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -9509,6 +9689,12 @@
           "url": "https://en.wikipedia.org/w/index.php?title=IMAX&oldid=1275572464#Film_cameras",
           "publisher": "Wikipedia, The Free Encyclopedia",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["imax", "full frame", "netflix"]
@@ -10099,6 +10285,12 @@
           "url": "https://www.red.com/v-raptor",
           "publisher": "RED.COM, LLC.",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["imax", "full frame", "netflix"]
@@ -10719,6 +10911,12 @@
           "url": "https://en.wikipedia.org/w/index.php?title=CineAlta&oldid=1267053892",
           "publisher": "Wikipedia, The Free Encyclopedia",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -10772,6 +10970,12 @@
           "url": "https://www.fdtimes.com/2012/10/30/sony-f55-and-f5/",
           "publisher": "Film and Digital Times Inc.",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -10798,6 +11002,12 @@
           "url": "https://www.panavision.com/camera-and-optics/cameras/product-detail/f55-f55",
           "publisher": "Panavision",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -10839,6 +11049,12 @@
           "url": "https://www.eoshd.com/news/sony-f65-sensor-using-consumer-camcorder-technology/",
           "publisher": "EOSHD",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -10883,6 +11099,12 @@
           "url": "https://helpguide.sony.net/ilc/2240/v1/en/print.pdf",
           "publisher": "SONY ELECTRONICS INC.",
           "accessed": "2025-10-01"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "ilme-fr7", "netflix"]
@@ -10927,6 +11149,12 @@
           "url": "https://www.arkvideo.co.jp/_sys/wp-content/uploads/SonyPXW-FS7.pdf",
           "publisher": "ARKVIDEO Inc.",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -10971,6 +11199,12 @@
           "url": "https://www.arkvideo.co.jp/_sys/wp-content/uploads/SonyPXW-FS7M2.pdf",
           "publisher": "ARKVIDEO Inc.",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -11039,9 +11273,49 @@
           "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilmefx3a",
           "publisher": "SONY ELECTRONICS INC.",
           "accessed": "2026-03-01"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "netflix"]
+    },
+    {
+      "make": "Sony",
+      "model": "FX5",
+      "sensorSize": [
+        {
+          "format": "Open Gate FF 5K",
+          "size": [35.9, 24],
+          "resolution": [
+            {
+              "format": "5K 3:2",
+              "size": [4992, 3328]
+            },
+            {
+              "format": "5K 16:9",
+              "size": [4992, 2808]
+            },
+            {
+              "format": "5K 17:9",
+              "size": [4992, 2632]
+            }
+          ]
+        }
+      ],
+      "category": ["Movie"],
+      "references": [
+        {
+          "title": "Sony Cinema Line | FX5 Full-frame Cinema Camera",
+          "url": "https://electronics.sony.com/imaging/cinema-line-cameras/all-cinema-line-cameras/p/ilmefx5b",
+          "publisher": "SONY ELECTRONICS INC.",
+          "accessed": "2026-07-24"
+        }
+      ],
+      "tags": ["full frame"]
     },
     {
       "make": "Sony",
@@ -11077,6 +11351,12 @@
           "url": "https://electronics.sony.com/imaging/cinema-line-cameras/all-cinema-line-cameras/p/ilmefx6v",
           "publisher": "SONY ELECTRONICS INC.",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "netflix"]
@@ -11140,6 +11420,12 @@
           "url": "https://www.cined.com/sony-fx9-sensor-scan-modes-explained/",
           "publisher": "CineD",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "netflix"]
@@ -11382,6 +11668,12 @@
           "url": "https://en.wikipedia.org/w/index.php?title=IMAX&oldid=1275572464#Film_cameras",
           "publisher": "Wikipedia, The Free Encyclopedia",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["imax", "netflix"]
@@ -11666,6 +11958,12 @@
           "url": "https://en.wikipedia.org/w/index.php?title=IMAX&oldid=1275572464#Film_cameras",
           "publisher": "Wikipedia, The Free Encyclopedia",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["imax", "netflix"]
