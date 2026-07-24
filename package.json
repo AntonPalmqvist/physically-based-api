@@ -23,9 +23,9 @@
   },
   "homepage": "https://api.physicallybased.info/",
   "devDependencies": {
-    "@biomejs/biome": "^2.5.3",
-    "@redocly/cli": "^2.38.0",
-    "@scalar/api-reference": "^1.62.5",
+    "@biomejs/biome": "^2.5.4",
+    "@redocly/cli": "^2.39.0",
+    "@scalar/api-reference": "^1.62.9",
     "adm-zip": "^0.5.18",
     "http-server": "^14.1.1",
     "husky": "^9.1.7",
