@@ -23,13 +23,13 @@
   },
   "homepage": "https://api.physicallybased.info/",
   "devDependencies": {
-    "@biomejs/biome": "^2.5.5",
-    "@redocly/cli": "^2.40.0",
-    "@scalar/api-reference": "^1.63.0",
+    "@biomejs/biome": "^2.5.10",
+    "@redocly/cli": "^2.47.0",
+    "@scalar/api-reference": "^1.66.1",
     "adm-zip": "^0.5.18",
     "http-server": "^14.1.1",
     "husky": "^9.1.7",
-    "lint-staged": "^17.2.0",
+    "lint-staged": "^17.3.0",
     "sharp": "^0.35.3"
   },
   "lint-staged": {
