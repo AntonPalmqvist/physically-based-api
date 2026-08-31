@@ -1,0 +1,13 @@
+[
+  {
+    "subject": "Rust",
+    "author": "https://github.com/AntonPalmqvist",
+    "device": "Nix Spectro 2",
+    "illuminant": "D65",
+    "observer": 10,
+    "measuringMode": "M2",
+    "srgb-linear": [0.181, 0.057, 0.017],
+    "ciexyz-d65": [0.098, 0.0806, 0.0263],
+    "cielab-d65": [34.11, 18.66, 28.23]
+  }
+]

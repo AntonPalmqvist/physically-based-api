@@ -1,0 +1,13 @@
+[
+  {
+    "subject": "Charcoal",
+    "author": "https://github.com/AntonPalmqvist",
+    "device": "Nix Spectro 2",
+    "illuminant": "D65",
+    "observer": 10,
+    "measuringMode": "M2",
+    "srgb-linear": [0.035, 0.035, 0.031],
+    "ciexyz-d65": [0.0323, 0.0344, 0.0346],
+    "cielab-d65": [21.74, -0.43, 1.4]
+  }
+]

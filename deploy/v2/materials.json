@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.1,
-    "updated": 202608300831,
+    "updated": 202608301729,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/materials",
     "deprecated": false
@@ -1264,6 +1264,54 @@
       ]
     },
     {
+      "name": "Cast Iron",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.027, 0.026, 0.026]
+        }
+      ],
+      "metalness": 1,
+      "roughness": 0.3,
+      "ior": 1.5,
+      "density": [6800, 7800],
+      "category": ["Manmade"],
+      "references": [
+        {
+          "title": "Spectrophotometer Measurement",
+          "author": "Palmqvist, A.",
+          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/cast-iron/",
+          "publisher": "Physically Based Database",
+          "accessed": "2026-08-30"
+        },
+        {
+          "title": "Cast iron",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Cast_iron&oldid=1369975429",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-08-30"
+        },
+        {
+          "title": "Metals and Alloys - Densities",
+          "url": "https://www.engineeringtoolbox.com/metal-alloys-densities-d_50.html",
+          "publisher": "The Engineering ToolBox",
+          "accessed": "2026-08-30"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/cast-iron.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/cast-iron.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/cast-iron.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/cast-iron.avif"
+        }
+      ]
+    },
+    {
       "name": "Cesium",
       "color": [
         {
@@ -1382,6 +1430,13 @@
           "author": "Brejon, C.",
           "url": "https://chrisbrejon.com/articles/albedo-and-pointers-gamut/",
           "accessed": "2025-01-26"
+        },
+        {
+          "title": "Spectrophotometer Measurement",
+          "author": "Palmqvist, A.",
+          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/charcoal/",
+          "publisher": "Physically Based Database",
+          "accessed": "2026-08-30"
         },
         {
           "title": "Physical properties of charcoal",
@@ -1550,6 +1605,62 @@
           "format": "avif",
           "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/chromium.avif",
           "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/chromium.avif"
+        }
+      ]
+    },
+    {
+      "name": "Clay",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.256, 0.118, 0.091]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0.5,
+      "ior": 1.5,
+      "density": [812],
+      "category": ["Manmade"],
+      "tags": ["plasticine"],
+      "references": [
+        {
+          "title": "Spectrophotometer Measurement",
+          "author": "Palmqvist, A.",
+          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/clay/",
+          "publisher": "Physically Based Database",
+          "accessed": "2026-08-30"
+        },
+        {
+          "title": "Modelling clay",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Modelling_clay&oldid=1356260840",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-08-30"
+        },
+        {
+          "title": "Plasticine",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Plasticine&oldid=1366389485",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-08-30"
+        },
+        {
+          "title": "Monster Clay Safety Data Sheet",
+          "url": "https://www.monstermakers.com/content/pdfs/SDS%20MMOBC-%20Monster%20Makers%20Monster%20Clay.pdf",
+          "publisher": "The Monster Makers, Inc.",
+          "accessed": "2026-08-30"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/clay.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/clay.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/clay.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/clay.avif"
         }
       ]
     },
@@ -5991,6 +6102,50 @@
           "format": "avif",
           "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/rubidium.avif",
           "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/rubidium.avif"
+        }
+      ]
+    },
+    {
+      "name": "Rust",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.181, 0.057, 0.017]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 1.0,
+      "diffuseRoughness": 1.0,
+      "ior": 1.5,
+      "category": ["Manmade"],
+      "description": "When iron reacts with oxygen it transforms into a non-metal substance called iron oxide.",
+      "tags": ["iron oxide"],
+      "references": [
+        {
+          "title": "Spectrophotometer Measurement",
+          "author": "Palmqvist, A.",
+          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/rust/",
+          "publisher": "Physically Based Database",
+          "accessed": "2026-08-30"
+        },
+        {
+          "title": "Rust",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Rust&oldid=1361494391",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-08-30"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/rust.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/rust.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/rust.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/rust.avif"
         }
       ]
     },
