@@ -1,0 +1,13 @@
+[
+  {
+    "subject": "Cast Iron",
+    "author": "https://github.com/AntonPalmqvist",
+    "device": "Nix Spectro 2",
+    "illuminant": "D65",
+    "observer": 10,
+    "measuringMode": "M2",
+    "srgb-linear": [0.027, 0.026, 0.026],
+    "ciexyz-d65": [0.0255, 0.0266, 0.0286],
+    "cielab-d65": [18.65, 0.43, -0.05]
+  }
+]

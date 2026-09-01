@@ -17,6 +17,12 @@ function createFiles() {
         return;
       }
 
+      function replaceWithUnderscore(stringToReplace) {
+        return stringToReplace
+          .replace(/[\\/\()%º]/g, "")
+          .replace(/ |-|:|\./g, "_");
+      }
+
       // biome-ignore format: legibility
       function makeMaterialX ( hit ) {
         const baseColor = JSON.stringify(hit.color[0].color) !== JSON.stringify([0.8, 0.8, 0.8]) && !hit.transmission && !hit.subsurfaceRadius ? `    <input name="base_color" type="color3" value="${hit.color[0].color[0].toFixed(3)}, ${hit.color[0].color[1].toFixed(3)}, ${hit.color[0].color[2].toFixed(3)}" />\n` : "";
@@ -38,7 +44,7 @@ function createFiles() {
         const thinWalled = hit.thinFilmThickness && hit.transmission ? `    <input name="geometry_thin_walled" type="boolean" value="true" />\n` : "";
         const xml =
             // Commented lines are values that are not used and therefore removed to follow best practices for MaterialX "preset" functionality https://academysoftwarefdn.slack.com/archives/C0230LWBE2X/p1660682953141679?thread_ts=1660168970.997769&cid=C0230LWBE2X
-            '  <surfacematerial name="'+ hit.name.replace(/ |-|:|\./g, "_").replace(/[\[\]()º]/g, "") +'" type="material">\n' +
+            '  <surfacematerial name="'+ replaceWithUnderscore(hit.name) +'" type="material">\n' +
             '    <input name="surfaceshader" type="surfaceshader" nodename="open_pbr_surface_surfaceshader" />\n' +
             '  </surfacematerial>\n' +
             '  <open_pbr_surface name="open_pbr_surface_surfaceshader" type="surfaceshader">\n' +
@@ -85,10 +91,7 @@ function createFiles() {
         }
         const fileName =
           tempFolder +
-          element.name
-            .replace(/ |-|:|\./g, "_")
-            .replace(/[\[\]()º]/g, "")
-            .toLowerCase() +
+          replaceWithUnderscore(element.name).toLowerCase() +
           ".mtlx";
         fs.writeFile(fileName, makeMaterialX(element), (err) => {
           if (err) {

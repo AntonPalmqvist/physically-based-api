@@ -1,0 +1,13 @@
+[
+  {
+    "subject": "Clay",
+    "author": "https://github.com/AntonPalmqvist",
+    "device": "Nix Spectro 2",
+    "illuminant": "D65",
+    "observer": 10,
+    "measuringMode": "M2",
+    "srgb-linear": [0.256, 0.118, 0.091],
+    "ciexyz-d65": [0.1638, 0.1455, 0.1035],
+    "cielab-d65": [45.01, 15.47, 13.45]
+  }
+]

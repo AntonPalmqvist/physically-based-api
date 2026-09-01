@@ -22,55 +22,66 @@
           "model": {
             "description": "Model name.",
             "type": "string",
-            "example": "Varotal/i FF 30-95mm"
+            "example": "Varotal/i"
           },
-          "focalLength": {
-            "description": "Min and max focal length in millimeters. If it's a prime lens, only set one value.",
+          "variants": {
+            "description": "Lists all different variations of the lens. If the lens only comes in one variant, just specify that one single variant.",
             "type": "array",
-            "items": {
-              "type": "number"
-            },
-            "example": [30, 95],
             "minItems": 1,
-            "maxItems": 2
-          },
-          "aperture": {
-            "description": "Max and min aperture size.",
-            "type": "array",
             "items": {
-              "type": "number"
-            },
-            "example": [2.9, 22],
-            "minItems": 2,
-            "maxItems": 2
-          },
-          "blades": {
-            "description": "Number of diaphragm blades.",
-            "type": "integer",
-            "example": 9
-          },
-          "closeFocus": {
-            "description": "Shortest distance from the sensor to the subject that the lens can achieve focus. Specified in centimeters.",
-            "type": "number",
-            "example": 80
-          },
-          "squeezeFactor": {
-            "description": "The squeeze factor of an anamorphic lens.",
-            "type": "number",
-            "example": 1.8
+              "additionalProperties": false,
+              "type": "object",
+              "properties": {
+                "format": {
+                  "description": "Format.",
+                  "type": "string",
+                  "example": "FF 30-95mm"
+                },
+                "focalLength": {
+                  "description": "Min and max focal length in millimeters. If it's a prime lens, only set one value.",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "example": [30, 95],
+                  "minItems": 1,
+                  "maxItems": 2
+                },
+                "aperture": {
+                  "description": "Max and min aperture size.",
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "example": [2.9, 22],
+                  "minItems": 2,
+                  "maxItems": 2
+                },
+                "blades": {
+                  "description": "Number of diaphragm blades.",
+                  "type": "integer",
+                  "example": 9
+                },
+                "closeFocus": {
+                  "description": "Shortest distance from the sensor to the subject that the lens can achieve focus. Specified in centimeters.",
+                  "type": "number",
+                  "example": 80
+                },
+                "squeezeFactor": {
+                  "description": "The squeeze factor of an anamorphic lens.",
+                  "type": "number",
+                  "example": 1.8
+                },
+                "description": { "$ref": "./description.json" }
+              },
+              "required": ["format", "focalLength", "aperture", "blades"]
+            }
           },
           "description": { "$ref": "./description.json" },
           "tags": { "$ref": "./tag.json" },
           "references": { "$ref": "./reference.json" }
         },
-        "required": [
-          "make",
-          "model",
-          "focalLength",
-          "aperture",
-          "blades",
-          "references"
-        ]
+        "required": ["make", "model", "variants", "references"]
       }
     }
   },
@@ -87,20 +98,39 @@
       "data": [
         {
           "make": "Cooke",
-          "model": "S8/i FF 18mm",
-          "focalLength": [18, 18],
-          "aperture": [1.4, 22],
-          "blades": 9,
-          "closeFocus": 60,
+          "model": "Varotal/i",
+          "variants": [
+            {
+              "format": "FF 19-40mm",
+              "focalLength": [19, 40],
+              "aperture": [2.9, 22],
+              "blades": 9,
+              "closeFocus": 60
+            },
+            {
+              "format": "FF 30-95mm",
+              "focalLength": [30, 95],
+              "aperture": [2.9, 22],
+              "blades": 9,
+              "closeFocus": 80
+            },
+            {
+              "format": "FF 85-215mm",
+              "focalLength": [85, 215],
+              "aperture": [2.9, 22],
+              "blades": 9,
+              "closeFocus": 150
+            }
+          ],
           "references": [
             {
-              "title": "Cooke S8/i FF",
+              "title": "Cooke Varotal/i FF",
               "publisher": "Cooke Optics Limited",
-              "url": "https://cookeoptics.com/lens/s8-i-ff/",
+              "url": "https://cookeoptics.com/lens/varotal-i-ff/",
               "accessed": "2026-01-10"
             }
           ],
-          "tags": ["prime"]
+          "tags": ["zoom"]
         }
       ]
     }

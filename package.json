@@ -23,18 +23,24 @@
   },
   "homepage": "https://api.physicallybased.info/",
   "devDependencies": {
-    "@biomejs/biome": "^2.4.10",
-    "@redocly/cli": "^2.25.4",
-    "@scalar/api-reference": "^1.51.0",
-    "adm-zip": "^0.5.17",
+    "@biomejs/biome": "^2.5.10",
+    "@redocly/cli": "^2.47.0",
+    "@scalar/api-reference": "^1.66.1",
+    "adm-zip": "^0.5.18",
     "http-server": "^14.1.1",
     "husky": "^9.1.7",
-    "lint-staged": "^16.4.0",
-    "sharp": "^0.34.5"
+    "lint-staged": "^17.3.0",
+    "sharp": "^0.35.3"
   },
   "lint-staged": {
     "./deploy/v2/{cameras,materials,lightsources,lenses}.json": [
       "node scripts/pre-commit.mjs --staged"
     ]
+  },
+  "allowScripts": {
+    "vue-demi@0.14.10": true,
+    "core-js@3.49.0": true,
+    "sharp@0.34.5": true,
+    "protobufjs@7.6.4": true
   }
 }

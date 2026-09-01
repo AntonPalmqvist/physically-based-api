@@ -1,8 +1,8 @@
 {
   "$schema": "../../schemas/components/schemas/Lens.json",
   "header": {
-    "schemaVersion": 2.1,
-    "updated": 202603291608,
+    "schemaVersion": 2.2,
+    "updated": 202605191932,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/lenses",
     "deprecated": false
@@ -10,11 +10,16 @@
   "data": [
     {
       "make": "Arri",
-      "model": "Prime DNA 60 mm",
-      "focalLength": [60],
-      "aperture": [2, 22],
-      "blades": 6,
-      "closeFocus": 60,
+      "model": "Prime DNA",
+      "variants": [
+        {
+          "format": "60 mm",
+          "focalLength": [60],
+          "aperture": [2, 22],
+          "blades": 6,
+          "closeFocus": 60
+        }
+      ],
       "references": [
         {
           "title": "Technical Data of Prime DNA",
@@ -27,11 +32,16 @@
     },
     {
       "make": "Canon",
-      "model": "EF 50mm f/1.8 STM",
-      "focalLength": [50],
-      "aperture": [1.8, 22],
-      "blades": 7,
-      "closeFocus": 35,
+      "model": "EF",
+      "variants": [
+        {
+          "format": "50mm f/1.8 STM",
+          "focalLength": [50],
+          "aperture": [1.8, 22],
+          "blades": 7,
+          "closeFocus": 35
+        }
+      ],
       "references": [
         {
           "title": "EF 50mm f/1.8 STM",
@@ -51,12 +61,17 @@
     },
     {
       "make": "Cooke",
-      "model": "Anamorphic/i FF 50mm",
-      "focalLength": [18],
-      "aperture": [2.3, 22],
-      "blades": 9,
-      "closeFocus": 60,
-      "squeezeFactor": 1.8,
+      "model": "Anamorphic/i FF",
+      "variants": [
+        {
+          "format": "50mm",
+          "focalLength": [18],
+          "aperture": [2.3, 22],
+          "blades": 9,
+          "closeFocus": 60,
+          "squeezeFactor": 1.8
+        }
+      ],
       "references": [
         {
           "title": "Anamorphic/i FF Lens",
@@ -69,11 +84,16 @@
     },
     {
       "make": "Cooke",
-      "model": "S8/i FF 18mm",
-      "focalLength": [18],
-      "aperture": [1.4, 22],
-      "blades": 9,
-      "closeFocus": 60,
+      "model": "S8/i",
+      "variants": [
+        {
+          "format": "FF 18mm",
+          "focalLength": [18],
+          "aperture": [1.4, 22],
+          "blades": 9,
+          "closeFocus": 60
+        }
+      ],
       "references": [
         {
           "title": "Cooke S8/i FF",
@@ -86,45 +106,30 @@
     },
     {
       "make": "Cooke",
-      "model": "Varotal/i FF 19-40mm",
-      "focalLength": [19, 40],
-      "aperture": [2.9, 22],
-      "blades": 9,
-      "closeFocus": 60,
-      "references": [
+      "model": "Varotal/i",
+      "variants": [
         {
-          "title": "Cooke Varotal/i FF",
-          "publisher": "Cooke Optics Limited",
-          "url": "https://cookeoptics.com/lens/varotal-i-ff/",
-          "accessed": "2026-01-10"
+          "format": "FF 19-40mm",
+          "focalLength": [19, 40],
+          "aperture": [2.9, 22],
+          "blades": 9,
+          "closeFocus": 60
+        },
+        {
+          "format": "FF 30-95mm",
+          "focalLength": [30, 95],
+          "aperture": [2.9, 22],
+          "blades": 9,
+          "closeFocus": 80
+        },
+        {
+          "format": "FF 85-215mm",
+          "focalLength": [85, 215],
+          "aperture": [2.9, 22],
+          "blades": 9,
+          "closeFocus": 150
         }
       ],
-      "tags": ["zoom"]
-    },
-    {
-      "make": "Cooke",
-      "model": "Varotal/i FF 30-95mm",
-      "focalLength": [30, 95],
-      "aperture": [2.9, 22],
-      "blades": 9,
-      "closeFocus": 80,
-      "references": [
-        {
-          "title": "Cooke Varotal/i FF",
-          "publisher": "Cooke Optics Limited",
-          "url": "https://cookeoptics.com/lens/varotal-i-ff/",
-          "accessed": "2026-01-10"
-        }
-      ],
-      "tags": ["zoom"]
-    },
-    {
-      "make": "Cooke",
-      "model": "Varotal/i FF 85-215mm",
-      "focalLength": [85, 215],
-      "aperture": [2.9, 22],
-      "blades": 9,
-      "closeFocus": 150,
       "references": [
         {
           "title": "Cooke Varotal/i FF",
@@ -137,11 +142,16 @@
     },
     {
       "make": "Sony",
-      "model": "FE 20mm f/1.8 G",
-      "focalLength": [20],
-      "aperture": [1.8, 22],
-      "blades": 9,
-      "closeFocus": 18,
+      "model": "FE",
+      "variants": [
+        {
+          "format": "20mm f/1.8 G",
+          "focalLength": [20],
+          "aperture": [1.8, 22],
+          "blades": 9,
+          "closeFocus": 18
+        }
+      ],
       "references": [
         {
           "title": "Sony FE 20mm F1.8 G Full-frame Ultra-wide Prime G Lens",

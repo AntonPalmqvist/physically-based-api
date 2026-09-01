@@ -131,6 +131,10 @@ async function processJson(file) {
   await runSequentially();
 }
 
+function replaceWithUnderscore(stringToReplace) {
+  return stringToReplace.replace(/[\\/\()%º]/g, "").replace(/ |-|:|\./g, "_");
+}
+
 function createCameras() {
   return new Promise((resolve, reject) => {
     fs.readFile("./deploy/v2/cameras.json", "utf8", (err, data) => {
@@ -146,13 +150,13 @@ function createCameras() {
     let usd = "";
     const upAxis = "Y";
     const name =
-      hit.make.replace(/ |-|:|\./g, "_").replace(/[\/\()º]/g, "") +
+      replaceWithUnderscore(hit.make) +
       "_" +
-      hit.model.replace(/ |-|:|\./g, "_").replace(/[\/\()º]/g, "");
+      replaceWithUnderscore(hit.model);
     const define =
       'def Xform "' + name + '" (\n' +
       '    variants = {\n' +
-      '        string sensorSize = "' + hit.sensorSize[0].format.replace(/ |-|:|\./g, "_").replace(/[\/\()º]/g, "") + '"\n' +
+      '        string sensorSize = "' + replaceWithUnderscore(hit.sensorSize[0].format) + '"\n' +
       '    }\n' +
       '    prepend variantSets = "sensorSize"\n' +
       ')\n' +
@@ -167,7 +171,7 @@ function createCameras() {
     const variantSets =
       '    variantSet "sensorSize" = {\n' +
       hit.sensorSize.map((item) => (
-        '        "' + item.format.replace(/ |-|:|\./g, "_").replace(/[\/\()º]/g, "") + '" {\n' +
+        '        "' + replaceWithUnderscore(item.format) + '" {\n' +
         '            over "' + name + '"\n' +
         '            {\n'+
         '                float focalLength = '+ (item.focalLength || 50) +'\n' +
@@ -203,15 +207,9 @@ function createCameras() {
         }
         const fileName =
           folder +
-          element.make
-            .replace(/ |-|:|\./g, "_")
-            .replace(/[\/\()º]/g, "")
-            .toLowerCase() +
+          replaceWithUnderscore(element.make).toLowerCase() +
           "_" +
-          element.model
-            .replace(/ |-|:|\./g, "_")
-            .replace(/[\/\()º]/g, "")
-            .toLowerCase() +
+          replaceWithUnderscore(element.model).toLowerCase() +
           ".usda";
         fs.writeFile(fileName, makeUSD(element), (err) => {
           if (err) {
@@ -307,12 +305,12 @@ function createLightsources() {
   ) {
     let usd = "";
     const upAxis = "Y";
-    const name = hit.name.replace(/ |-|:|\./g, "_").replace(/[\/\()º]/g, "");
+    const name = replaceWithUnderscore(hit.name);
     const type = hit.type[0] === "surface" ? "RectLight" : hit.type[0] === "directional" ? "DistantLight" : hit.type[0] === "dome" ? "DomeLight" : hit.type[0] === "cylinder" ? "CylinderLight" : "SphereLight";
     const define =
       'def Xform "' + name + '" (\n' +
       '    variants = {\n' +
-      '        string lightVariant = "' + hit.variants[0].format.replace(/ |-|:|\./g, "_").replace(/[\/\()º]/g, "") + '"\n' +
+      '        string lightVariant = "' + replaceWithUnderscore(hit.variants[0].format) + '"\n' +
       '    }\n' +
       '    prepend variantSets = "lightVariant"\n' +
       ')\n' +
@@ -331,7 +329,7 @@ function createLightsources() {
     const variantSets =
       '    variantSet "lightVariant" = {\n' +
       hit.variants.map((item) => {
-        const variantName = item.format.replace(/ |-|:|\./g, "_").replace(/[\/\()º]/g, "");
+        const variantName = replaceWithUnderscore(item.format);
         const colorTemperature =
             item.temperature && item.temperature[2]
           ? '                float inputs:colorTemperature = ' + item.temperature[2] + '\n'
@@ -414,13 +412,7 @@ function createLightsources() {
       }
 
       JSON.parse(data).data.forEach((element) => {
-        const fileName =
-          folder +
-          element.name
-            .replace(/ |-|:|\./g, "_")
-            .replace(/[\[\]()º]/g, "")
-            .toLowerCase() +
-          ".usda";
+        const fileName = `${folder}${replaceWithUnderscore(element.name).toLowerCase()}.usda`;
         fs.writeFile(fileName, makeUSD(element), (err) => {
           if (err) {
             console.error(err);

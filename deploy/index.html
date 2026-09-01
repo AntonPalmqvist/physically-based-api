@@ -22,7 +22,7 @@
     />
     <meta
       property="og:image"
-      content="https://api.physicallybased.info/assets/img/metatag.jpg"
+      content="https://api.physicallybased.info/assets/img/metatag.webp"
     />
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://api.physicallybased.info/" />
@@ -33,7 +33,7 @@
     />
     <meta
       property="twitter:image"
-      content="https://api.physicallybased.info/assets/img/metatag.jpg"
+      content="https://api.physicallybased.info/assets/img/metatag.webp"
     />
 
     <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
@@ -77,9 +77,11 @@
     <div id="app"></div>
 
     <!-- Load Scalar script (to update, get latest from https://cdn.jsdelivr.net/npm/@scalar/api-reference) -->
+    <!-- Changelog https://scalar.com/resources/changelog/api-reference -->
     <script src="./assets/js/api-reference.js"></script>
 
     <!-- Initialize Scalar API Reference -->
+    <!-- Configuration options https://scalar.com/products/api-references/configuration#properties -->
     <script>
       Scalar.createApiReference("#app", {
         url: "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/refs/heads/main/schemas/openapi-schema.yaml",

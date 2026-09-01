@@ -33,3 +33,4 @@ If you want to contribute to something other than the database files, make sure 
 ### Formatting and linting
 
 This project uses [Biome](https://biomejs.dev/) for both formatting and linting.
+To update Biome config after upgrade: ```npx biome migrate --write```

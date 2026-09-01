@@ -1,8 +1,8 @@
 {
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
-    "schemaVersion": 2.1,
-    "updated": 202604261435,
+    "schemaVersion": 2.2,
+    "updated": 202609010742,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/materials",
     "deprecated": false
@@ -395,10 +395,10 @@
       ],
       "metalness": 0,
       "roughness": 0,
-      "ior": 1.3325,
+      "ior": 1.33,
       "transmission": 1,
       "transmissionDepth": 1,
-      "transmissionDispersion": 55.78,
+      "transmissionDispersion": 56,
       "volumeCoefficients": {
         "absorption": [
           {
@@ -421,8 +421,8 @@
       },
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
-      "surfaceTension": 72,
       "category": ["Liquid"],
+      "description": "While the index of refraction of beer depends on its alcohol and sugar contents, beer contains 90%-95% water, so the index of refraction can in most cases be assumed to be close to that of water.",
       "references": [
         {
           "title": "Acquiring Scattering Properties Of Participating Media By Dilution",
@@ -1045,7 +1045,8 @@
         }
       ],
       "metalness": 0,
-      "roughness": 0.9,
+      "roughness": 1.0,
+      "diffuseRoughness": 1.0,
       "ior": 1.5,
       "density": [500, 2400, 2000],
       "acousticAbsorption": [0.03, 0.03, 0.03, 0.04, 0.05, 0.07],
@@ -1112,7 +1113,7 @@
       "ior": 1.5,
       "category": ["Manmade"],
       "description": "Modern car paints are nearly always an acrylic polyurethane \"enamel\" with a pigmented basecoat and a clear topcoat. It may be described as \"acrylic\", \"acrylic enamel\", \"urethane\", etc. and the clearcoat in particular may be described as a lacquer. The size of the metal flakes in metallic paints is typically between 100 to 400 microns in diameter. Modern automobile paint is applied in several layers, with a total thickness of around 100 μm (0.1mm).",
-      "tags": ["acrylic", "coat", "car paint", "lacquer"],
+      "tags": ["acrylic", "coat", "lacquer"],
       "references": [
         {
           "title": "Automotive Paint",
@@ -1263,6 +1264,54 @@
       ]
     },
     {
+      "name": "Cast Iron",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.027, 0.026, 0.026]
+        }
+      ],
+      "metalness": 1,
+      "roughness": 0.3,
+      "ior": 1.5,
+      "density": [6800, 7800],
+      "category": ["Manmade"],
+      "references": [
+        {
+          "title": "Spectrophotometer Measurement",
+          "author": "Palmqvist, A.",
+          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/cast-iron/",
+          "publisher": "Physically Based Database",
+          "accessed": "2026-08-30"
+        },
+        {
+          "title": "Cast iron",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Cast_iron&oldid=1369975429",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-08-30"
+        },
+        {
+          "title": "Metals and Alloys - Densities",
+          "url": "https://www.engineeringtoolbox.com/metal-alloys-densities-d_50.html",
+          "publisher": "The Engineering ToolBox",
+          "accessed": "2026-08-30"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/cast-iron.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/cast-iron.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/cast-iron.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/cast-iron.avif"
+        }
+      ]
+    },
+    {
       "name": "Cesium",
       "color": [
         {
@@ -1364,7 +1413,8 @@
         }
       ],
       "metalness": 0,
-      "roughness": 0.9,
+      "roughness": 1.0,
+      "diffuseRoughness": 1.0,
       "ior": 1.5,
       "density": [200, 500, 200],
       "category": ["Organic"],
@@ -1380,6 +1430,13 @@
           "author": "Brejon, C.",
           "url": "https://chrisbrejon.com/articles/albedo-and-pointers-gamut/",
           "accessed": "2025-01-26"
+        },
+        {
+          "title": "Spectrophotometer Measurement",
+          "author": "Palmqvist, A.",
+          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/charcoal/",
+          "publisher": "Physically Based Database",
+          "accessed": "2026-08-30"
         },
         {
           "title": "Physical properties of charcoal",
@@ -1548,6 +1605,62 @@
           "format": "avif",
           "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/chromium.avif",
           "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/chromium.avif"
+        }
+      ]
+    },
+    {
+      "name": "Clay",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.256, 0.118, 0.091]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0.5,
+      "ior": 1.5,
+      "density": [812],
+      "category": ["Manmade"],
+      "tags": ["plasticine"],
+      "references": [
+        {
+          "title": "Spectrophotometer Measurement",
+          "author": "Palmqvist, A.",
+          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/clay/",
+          "publisher": "Physically Based Database",
+          "accessed": "2026-08-30"
+        },
+        {
+          "title": "Modelling clay",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Modelling_clay&oldid=1356260840",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-08-30"
+        },
+        {
+          "title": "Plasticine",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Plasticine&oldid=1366389485",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-08-30"
+        },
+        {
+          "title": "Monster Clay Safety Data Sheet",
+          "url": "https://www.monstermakers.com/content/pdfs/SDS%20MMOBC-%20Monster%20Makers%20Monster%20Clay.pdf",
+          "publisher": "The Monster Makers, Inc.",
+          "accessed": "2026-08-30"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/clay.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/clay.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/clay.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/clay.avif"
         }
       ]
     },
@@ -1763,7 +1876,6 @@
       },
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
-      "surfaceTension": 72,
       "category": ["Liquid"],
       "references": [
         {
@@ -2152,7 +2264,6 @@
       "transmissionDispersion": 55.3,
       "density": [3500],
       "category": ["Crystal"],
-      "tags": ["gem", "gemstone"],
       "references": [
         {
           "title": "Refractive index database",
@@ -2268,6 +2379,60 @@
           "format": "avif",
           "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/egg-shell-white.avif",
           "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/egg-shell-white.avif"
+        }
+      ]
+    },
+    {
+      "name": "Ethanol",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [1, 1, 1]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0,
+      "ior": 1.362,
+      "transmission": 1,
+      "transmissionDispersion": 60,
+      "density": [789],
+      "viscosity": [1.2],
+      "surfaceTension": 22.27,
+      "category": ["Liquid"],
+      "description": "Ethanol is also called ethyl alcohol, grain alcohol, drinking alcohol, or simply alcohol. The refractive index of an alcoholic beverage such as vodka depends on the ratio of alcohol and water. For example, vodka with 40% alcohol by volume contains 40% ethanol and 60% water.",
+      "tags": ["alcohol", "vodka"],
+      "references": [
+        {
+          "title": "Ethanol",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Ethanol&oldid=1353022559",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-05-24"
+        },
+        {
+          "title": "Surface tension",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Surface_tension&oldid=1349048290#Values",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-05-24"
+        },
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=organic&book=ethanol&page=Rheims",
+          "accessed": "2026-05-24"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/ethanol.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/ethanol.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/ethanol.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/ethanol.avif"
         }
       ]
     },
@@ -2955,85 +3120,6 @@
       ]
     },
     {
-      "name": "Honey (Liquid)",
-      "color": [
-        {
-          "colorSpace": "srgb-linear",
-          "color": [0.831, 0.571, 0.037]
-        }
-      ],
-      "metalness": 0,
-      "roughness": 0,
-      "ior": 1.504,
-      "transmission": 1,
-      "density": [1380, 1450, 1400],
-      "viscosity": [2000, 15000, 10000],
-      "category": ["Liquid"],
-      "description": "Variations in its water content alter its refractive index. Typically, the refractive index for honey ranges from 1.504 at 13% water content to 1.474 at 25%. Fresh honey is liquid and clear but with time it crystallizes and becomes thicker and less clear. The crystallization depends on temperature and the ratio of glucose and fructose.",
-      "references": [
-        {
-          "title": "Honey",
-          "author": "Wikipedia contributors",
-          "url": "https://en.wikipedia.org/w/index.php?title=Honey&oldid=1271742958",
-          "publisher": "Wikipedia, The Free Encyclopedia",
-          "accessed": "2025-01-26"
-        },
-        {
-          "title": "List of Viscosities",
-          "author": "Wikipedia contributors",
-          "url": "https://en.wikipedia.org/w/index.php?title=List_of_viscosities&oldid=1256671906",
-          "publisher": "Wikipedia, The Free Encyclopedia",
-          "accessed": "2025-01-26"
-        },
-        {
-          "title": "The Color of Honey",
-          "url": "https://carolinahoneybees.com/the-color-of-honey/",
-          "publisher": "Carolina Honeybees",
-          "accessed": "2025-01-26"
-        },
-        {
-          "title": "Chemical and Functional Properties of Food Saccharides",
-          "author": "Tomasik, P. (Ed.)",
-          "url": "https://www.taylorfrancis.com/books/mono/10.1201/9780203495728/chemical-functional-properties-food-saccharides-piotr-tomasik",
-          "publisher": "CRC Press",
-          "pages": "74",
-          "year": "2003",
-          "doi": "https://doi.org/10.1201/9780203495728"
-        },
-        {
-          "title": "Viscosity of Flower Honey (Blended)",
-          "url": "https://wiki.anton-paar.com/en/flower-honey-blended/",
-          "publisher": "Anton Paar GmbH",
-          "accessed": "2025-01-26"
-        },
-        {
-          "title": "Hybrido Viscosity Table",
-          "author": "RealFlow 10 Documentation",
-          "publisher": "Next Limit Technologies",
-          "url": "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table",
-          "accessed": "2025-01-26"
-        },
-        {
-          "title": "Viscosity - Absolute (Dynamic) vs. Kinematic ",
-          "url": "https://www.engineeringtoolbox.com/dynamic-absolute-kinematic-viscosity-d_412.html",
-          "publisher": "The Engineering ToolBox",
-          "accessed": "2025-01-26"
-        }
-      ],
-      "images": [
-        {
-          "format": "jpeg",
-          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/honey-liquid.jpeg",
-          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/honey-liquid.jpeg"
-        },
-        {
-          "format": "avif",
-          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/honey-liquid.avif",
-          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/honey-liquid.avif"
-        }
-      ]
-    },
-    {
       "name": "Honey (Crystallized)",
       "color": [
         {
@@ -3109,6 +3195,85 @@
           "format": "avif",
           "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/honey-crystallized.avif",
           "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/honey-crystallized.avif"
+        }
+      ]
+    },
+    {
+      "name": "Honey (Liquid)",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.831, 0.571, 0.037]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0,
+      "ior": 1.504,
+      "transmission": 1,
+      "density": [1380, 1450, 1400],
+      "viscosity": [2000, 15000, 10000],
+      "category": ["Liquid"],
+      "description": "Variations in its water content alter its refractive index. Typically, the refractive index for honey ranges from 1.504 at 13% water content to 1.474 at 25%. Fresh honey is liquid and clear but with time it crystallizes and becomes thicker and less clear. The crystallization depends on temperature and the ratio of glucose and fructose.",
+      "references": [
+        {
+          "title": "Honey",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Honey&oldid=1271742958",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-26"
+        },
+        {
+          "title": "List of Viscosities",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=List_of_viscosities&oldid=1256671906",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-26"
+        },
+        {
+          "title": "The Color of Honey",
+          "url": "https://carolinahoneybees.com/the-color-of-honey/",
+          "publisher": "Carolina Honeybees",
+          "accessed": "2025-01-26"
+        },
+        {
+          "title": "Chemical and Functional Properties of Food Saccharides",
+          "author": "Tomasik, P. (Ed.)",
+          "url": "https://www.taylorfrancis.com/books/mono/10.1201/9780203495728/chemical-functional-properties-food-saccharides-piotr-tomasik",
+          "publisher": "CRC Press",
+          "pages": "74",
+          "year": "2003",
+          "doi": "https://doi.org/10.1201/9780203495728"
+        },
+        {
+          "title": "Viscosity of Flower Honey (Blended)",
+          "url": "https://wiki.anton-paar.com/en/flower-honey-blended/",
+          "publisher": "Anton Paar GmbH",
+          "accessed": "2025-01-26"
+        },
+        {
+          "title": "Hybrido Viscosity Table",
+          "author": "RealFlow 10 Documentation",
+          "publisher": "Next Limit Technologies",
+          "url": "https://nextlimitsupport.atlassian.net/wiki/spaces/rf2016docs/pages/5497120/Hybrido+Viscosity+Table",
+          "accessed": "2025-01-26"
+        },
+        {
+          "title": "Viscosity - Absolute (Dynamic) vs. Kinematic ",
+          "url": "https://www.engineeringtoolbox.com/dynamic-absolute-kinematic-viscosity-d_412.html",
+          "publisher": "The Engineering ToolBox",
+          "accessed": "2025-01-26"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/honey-liquid.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/honey-liquid.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/honey-liquid.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/honey-liquid.avif"
         }
       ]
     },
@@ -3426,7 +3591,6 @@
       },
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
-      "surfaceTension": 72,
       "category": ["Liquid"],
       "references": [
         {
@@ -3490,7 +3654,6 @@
       },
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
-      "surfaceTension": 72,
       "category": ["Liquid"],
       "references": [
         {
@@ -3554,7 +3717,6 @@
       },
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
-      "surfaceTension": 72,
       "category": ["Liquid"],
       "references": [
         {
@@ -3618,7 +3780,6 @@
       },
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
-      "surfaceTension": 72,
       "category": ["Liquid"],
       "references": [
         {
@@ -3682,7 +3843,6 @@
       },
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
-      "surfaceTension": 72,
       "category": ["Liquid"],
       "references": [
         {
@@ -4556,7 +4716,8 @@
         }
       ],
       "metalness": 0,
-      "roughness": 0.99,
+      "roughness": 1.0,
+      "diffuseRoughness": 1.0,
       "ior": 1.5,
       "category": ["Manmade"],
       "references": [
@@ -4681,7 +4842,8 @@
         }
       ],
       "metalness": 0,
-      "roughness": 0.9,
+      "roughness": 1.0,
+      "diffuseRoughness": 1.0,
       "ior": 1.5,
       "category": ["Manmade"],
       "description": "Musou Black is one of the darkest paints available. Darker materials can be achieved by using carbon nanotube technology, such as the “MIT Black” material.",
@@ -5276,6 +5438,49 @@
           "format": "avif",
           "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/plastic-pet.avif",
           "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-pet.avif"
+        }
+      ]
+    },
+    {
+      "name": "Plastic (PLA)",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [1, 1, 1]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0,
+      "ior": 1.4586,
+      "transmission": 1,
+      "density": [1210, 1430],
+      "category": ["Plastic"],
+      "tags": ["polylactic acid"],
+      "references": [
+        {
+          "title": "Polylactic Acid",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Polylactic_acid&oldid=1354580220",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-05-27"
+        },
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=organic&book=polylactic_acid&page=Bodurov",
+          "accessed": "2026-05-27"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/plastic-pla.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-pla.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/plastic-pla.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-pla.avif"
         }
       ]
     },
@@ -5901,6 +6106,50 @@
       ]
     },
     {
+      "name": "Rust",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.181, 0.057, 0.017]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 1.0,
+      "diffuseRoughness": 1.0,
+      "ior": 1.5,
+      "category": ["Manmade"],
+      "description": "When iron reacts with oxygen it transforms into a non-metal substance called iron oxide.",
+      "tags": ["iron oxide"],
+      "references": [
+        {
+          "title": "Spectrophotometer Measurement",
+          "author": "Palmqvist, A.",
+          "url": "https://github.com/AntonPalmqvist/physically-based-api/tree/main/data/materials/rust/",
+          "publisher": "Physically Based Database",
+          "accessed": "2026-08-30"
+        },
+        {
+          "title": "Rust",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Rust&oldid=1361494391",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-08-30"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/rust.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/rust.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/rust.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/rust.avif"
+        }
+      ]
+    },
+    {
       "name": "Salt",
       "color": [
         {
@@ -5915,7 +6164,6 @@
       "transmissionDispersion": 42.89,
       "density": [2170],
       "category": ["Crystal"],
-      "tags": [],
       "references": [
         {
           "title": "Refractive index database",
@@ -5953,11 +6201,11 @@
         }
       ],
       "metalness": 0,
-      "roughness": 0.9,
+      "roughness": 1.0,
+      "diffuseRoughness": 1.0,
       "ior": 1.5,
       "density": [1440, 1680, 1500],
       "category": ["Crystal"],
-      "tags": [],
       "references": [
         {
           "title": "Feeding a Physically Based Shading Model",
@@ -6013,7 +6261,6 @@
       "transmissionDispersion": 72.2,
       "density": [3980],
       "category": ["Crystal"],
-      "tags": ["gem", "gemstone"],
       "references": [
         {
           "title": "Refractive index database",
@@ -7097,7 +7344,8 @@
         }
       ],
       "metalness": 0,
-      "roughness": 0.8,
+      "roughness": 1.0,
+      "diffuseRoughness": 1.0,
       "ior": 1.5,
       "density": [1800, 2200, 2000],
       "category": ["Manmade"],
@@ -7778,6 +8026,61 @@
       ]
     },
     {
+      "name": "Vodka (40%)",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [1, 1, 1]
+        }
+      ],
+      "metalness": 0,
+      "roughness": 0,
+      "ior": 1.3583,
+      "transmission": 1,
+      "transmissionDispersion": 60,
+      "density": [935],
+      "viscosity": [2.846],
+      "surfaceTension": 30,
+      "category": ["Liquid"],
+      "description": "The refractive index of vodka depends on the ratio of alcohol and water. Vodka with 40% alcohol by volume contains 40% ethanol and 60% water.",
+      "tags": ["alcohol", "ethanol"],
+      "references": [
+        {
+          "title": "Vodka",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Vodka&oldid=1351593831",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-05-24"
+        },
+        {
+          "title": "Surface tension",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Surface_tension&oldid=1349048290#Values",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-05-24"
+        },
+        {
+          "title": "CRC Handbook of Chemistry and Physics (85th Edition)",
+          "author": "Lide, D. R.",
+          "url": "https://ia601308.us.archive.org/27/items/CRC.Press.Handbook.of.Chemistry.and.Physics.85th.ed.eBook-LRN/CRC.Press.Handbook.of.Chemistry.and.Physics.85th.ed.eBook-LRN.pdf",
+          "publisher": "CRC Press",
+          "year": "2004"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/vodka-40.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/vodka-40.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/vodka-40.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/vodka-40.avif"
+        }
+      ]
+    },
+    {
       "name": "Water",
       "color": [
         {
@@ -7815,7 +8118,7 @@
       },
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
-      "surfaceTension": 72,
+      "surfaceTension": 72.75,
       "acousticAbsorption": [0.008, 0.008, 0.013, 0.015, 0.02, 0.025],
       "category": ["Liquid"],
       "description": "While relatively small quantities of water appear to be colorless, pure water has a slight blue color that becomes deeper as the thickness of the observed sample increases beyond 50 cm. The hue of water is an intrinsic property and is caused by selective absorption and scattering of white light. Dissolved elements or suspended impurities may give water a different color.",
@@ -8005,7 +8308,6 @@
       },
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
-      "surfaceTension": 72,
       "category": ["Liquid"],
       "references": [
         {
@@ -8069,7 +8371,6 @@
       },
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
-      "surfaceTension": 72,
       "category": ["Liquid"],
       "references": [
         {

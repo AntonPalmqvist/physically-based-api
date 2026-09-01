@@ -1,8 +1,8 @@
 {
   "$schema": "../../schemas/components/schemas/Camera.json",
   "header": {
-    "schemaVersion": 2.1,
-    "updated": 202603281641,
+    "schemaVersion": 2.2,
+    "updated": 202609010742,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/cameras",
     "deprecated": false
@@ -636,6 +636,12 @@
           "publisher": "ARRI GmbH",
           "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["netflix"]
@@ -715,6 +721,12 @@
           "url": "https://en.wikipedia.org/w/index.php?title=IMAX&oldid=1275572464#Film_cameras",
           "publisher": "Wikipedia, The Free Encyclopedia",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["imax", "netflix"]
@@ -761,91 +773,15 @@
           "publisher": "ARRI GmbH",
           "url": "https://www.arrirental.com/en/cameras/digital-65-mm-cameras/alexa-265",
           "accessed": "2025-10-01"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["imax", "netflix"]
-    },
-    {
-      "make": "Arri",
-      "model": "Amira",
-      "sensorSize": [
-        {
-          "format": "4K UHD",
-          "size": [26.4, 14.85],
-          "resolution": [
-            {
-              "format": "4K UHD",
-              "size": [3840, 2160]
-            }
-          ]
-        },
-        {
-          "format": "3.2K",
-          "size": [26.4, 14.85],
-          "resolution": [
-            {
-              "format": "3.2K",
-              "size": [3200, 1800]
-            }
-          ]
-        },
-        {
-          "format": "2.8K",
-          "size": [23.76, 13.37],
-          "resolution": [
-            {
-              "format": "2.8K",
-              "size": [2880, 1620]
-            }
-          ]
-        },
-        {
-          "format": "2K",
-          "size": [23.66, 13.3],
-          "resolution": [
-            {
-              "format": "2K",
-              "size": [2048, 1152]
-            }
-          ]
-        },
-        {
-          "format": "HD",
-          "size": [23.76, 13.37],
-          "resolution": [
-            {
-              "format": "HD",
-              "size": [1920, 1080]
-            }
-          ]
-        },
-        {
-          "format": "S16 HD",
-          "size": [13.2, 7.425],
-          "resolution": [
-            {
-              "format": "S16 HD",
-              "size": [1920, 1080]
-            }
-          ]
-        }
-      ],
-      "category": ["Movie"],
-      "references": [
-        {
-          "title": "AMIRA | Camera Systems | ARRI",
-          "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/en/camera-systems/cameras/amira",
-          "accessed": "2025-02-22"
-        },
-        {
-          "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
-          "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
-          "accessed": "2025-02-22"
-        }
-      ],
-      "tags": ["super 35"]
     },
     {
       "make": "Arri",
@@ -922,6 +858,12 @@
           "publisher": "ARRI GmbH",
           "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "imax", "netflix"]
@@ -1175,6 +1117,12 @@
           "publisher": "ARRI GmbH",
           "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "imax", "netflix"]
@@ -1310,6 +1258,88 @@
           "title": "ALEXA SXT W | Camera Systems | ARRI",
           "publisher": "ARRI GmbH",
           "url": "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-sxt-w",
+          "accessed": "2025-02-22"
+        },
+        {
+          "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
+          "publisher": "ARRI GmbH",
+          "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
+          "accessed": "2025-02-22"
+        }
+      ],
+      "tags": ["super 35"]
+    },
+    {
+      "make": "Arri",
+      "model": "Amira",
+      "sensorSize": [
+        {
+          "format": "4K UHD",
+          "size": [26.4, 14.85],
+          "resolution": [
+            {
+              "format": "4K UHD",
+              "size": [3840, 2160]
+            }
+          ]
+        },
+        {
+          "format": "3.2K",
+          "size": [26.4, 14.85],
+          "resolution": [
+            {
+              "format": "3.2K",
+              "size": [3200, 1800]
+            }
+          ]
+        },
+        {
+          "format": "2.8K",
+          "size": [23.76, 13.37],
+          "resolution": [
+            {
+              "format": "2.8K",
+              "size": [2880, 1620]
+            }
+          ]
+        },
+        {
+          "format": "2K",
+          "size": [23.66, 13.3],
+          "resolution": [
+            {
+              "format": "2K",
+              "size": [2048, 1152]
+            }
+          ]
+        },
+        {
+          "format": "HD",
+          "size": [23.76, 13.37],
+          "resolution": [
+            {
+              "format": "HD",
+              "size": [1920, 1080]
+            }
+          ]
+        },
+        {
+          "format": "S16 HD",
+          "size": [13.2, 7.425],
+          "resolution": [
+            {
+              "format": "S16 HD",
+              "size": [1920, 1080]
+            }
+          ]
+        }
+      ],
+      "category": ["Movie"],
+      "references": [
+        {
+          "title": "AMIRA | Camera Systems | ARRI",
+          "publisher": "ARRI GmbH",
+          "url": "https://www.arri.com/en/camera-systems/cameras/amira",
           "accessed": "2025-02-22"
         },
         {
@@ -1513,9 +1543,15 @@
           "publisher": "Blackmagic Design Pty. Ltd.",
           "url": "https://www.blackmagicdesign.com/products/blackmagicpyxis/techspecs/W-BOX-07",
           "accessed": "2025-09-28"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
-      "tags": ["full frame"]
+      "tags": ["full frame", "netflix"]
     },
     {
       "make": "Blackmagic",
@@ -1729,6 +1765,12 @@
           "url": "https://www.cined.com/blackmagic-design-ursa-cine-12k-lf-announced-12k-full-frame-sensor-open-gate-32-new-8tb-dedicated-recording-module-and-more/",
           "publisher": "CineD",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "netflix"]
@@ -1831,6 +1873,12 @@
           "url": "https://drive.google.com/file/d/1eKcfK69-YnxE-CqGrXEMdAw2Is0vTNB_/view",
           "publisher": "Netflix, Inc.",
           "accessed": "2025-10-01"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["imax", "netflix"]
@@ -1864,6 +1912,12 @@
           "url": "https://en.wikipedia.org/w/index.php?title=Blackmagic_URSA&oldid=1276978178#URSA_Mini_Pro_4.6K_G2",
           "publisher": "Wikipedia, The Free Encyclopedia",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -1905,6 +1959,12 @@
           "url": "https://en.wikipedia.org/w/index.php?title=Blackmagic_URSA&oldid=1276978178#URSA_Mini_Pro_12K",
           "publisher": "Wikipedia, The Free Encyclopedia",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -2134,167 +2194,6 @@
     },
     {
       "make": "Canon",
-      "model": "EOS C300",
-      "sensorSize": [
-        {
-          "format": "Super 35",
-          "size": [26.2, 13.8],
-          "resolution": [
-            {
-              "format": "4096x2160",
-              "size": [4096, 2160]
-            }
-          ]
-        },
-        {
-          "format": "Super 16",
-          "size": [24.6, 13.8],
-          "resolution": [
-            {
-              "format": "2048x1080",
-              "size": [2048, 1080]
-            }
-          ]
-        }
-      ],
-      "category": ["Movie"],
-      "references": [
-        {
-          "title": "Canon EOS C300 Mark III Specifications",
-          "publisher": "Canon Europe Ltd",
-          "url": "https://www.canon-europe.com/video-cameras/eos-c300-mark-iii/specifications/",
-          "accessed": "2025-02-22"
-        },
-        {
-          "title": "Canon EOS C300",
-          "author": "Wikipedia contributors",
-          "url": "https://en.wikipedia.org/w/index.php?title=Canon_EOS_C300&oldid=1262015142",
-          "publisher": "Wikipedia, The Free Encyclopedia",
-          "accessed": "2025-02-22"
-        },
-        {
-          "title": "EOS C300 Mark III Instruction Manual",
-          "publisher": "Canon Inc.",
-          "url": "https://gdlp01.c-wss.com/gds/5/0300042345/08/eosc300mk3-500mk2-im13-en.pdf",
-          "accessed": "2025-02-22"
-        }
-      ],
-      "tags": ["super 35", "netflix"]
-    },
-    {
-      "make": "Canon",
-      "model": "EOS C400",
-      "sensorSize": [
-        {
-          "format": "Full Frame",
-          "size": [36, 19],
-          "resolution": [
-            {
-              "format": "Full Frame 6000x3164",
-              "size": [6000, 3164]
-            },
-            {
-              "format": "Full Frame 4096x2160",
-              "size": [4096, 2160]
-            },
-            {
-              "format": "Full Frame 2048x1080",
-              "size": [2048, 1080]
-            }
-          ]
-        },
-        {
-          "format": "Super 35",
-          "size": [26.2, 13.8],
-          "resolution": [
-            {
-              "format": "Super 35 4368x2304",
-              "size": [4368, 2304]
-            },
-            {
-              "format": "Super 35 4096x2160",
-              "size": [4096, 2160]
-            },
-            {
-              "format": "Super 35 2048x1080",
-              "size": [2048, 1080]
-            }
-          ]
-        },
-        {
-          "format": "Super 16",
-          "size": [13.1, 6.9],
-          "resolution": [
-            {
-              "format": "Super 16 2184x1152",
-              "size": [2184, 1152]
-            },
-            {
-              "format": "Super 16 2048x1080",
-              "size": [2048, 1080]
-            }
-          ]
-        }
-      ],
-      "category": ["Movie"],
-      "references": [
-        {
-          "title": "EOS C400 Specifications",
-          "publisher": "Canon U.S.A., Inc.",
-          "url": "https://www.usa.canon.com/shop/p/eos-c400#tech-spec-data",
-          "accessed": "2025-02-22"
-        },
-        {
-          "title": "Canon Cinema EOS",
-          "author": "Wikipedia contributors",
-          "url": "https://en.wikipedia.org/w/index.php?title=Canon_Cinema_EOS&oldid=1267135875",
-          "publisher": "Wikipedia, The Free Encyclopedia",
-          "accessed": "2025-02-22"
-        },
-        {
-          "title": "EOS C400 Full Specifications",
-          "publisher": "Canon Inc.",
-          "url": "https://s7d1.scene7.com/is/content/canon/EOSC400_full_specificationspdf",
-          "accessed": "2025-02-22"
-        }
-      ],
-      "tags": ["super 35", "netflix"]
-    },
-    {
-      "make": "Canon",
-      "model": "EOS C500",
-      "sensorSize": [
-        {
-          "format": "Full Frame",
-          "size": [26.2, 13.8],
-          "resolution": [
-            {
-              "format": "Full Frame",
-              "size": [5952, 3140]
-            }
-          ]
-        }
-      ],
-      "category": ["Movie"],
-      "references": [
-        {
-          "title": "EOS C500 Mark II",
-          "publisher": "Canon U.S.A., Inc.",
-          "url": "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/cinema-eos-c500-mark-ii",
-          "accessed": "2025-02-22"
-        },
-        {
-          "title": "Canon EOS C500",
-          "author": "Wikipedia contributors",
-          "url": "https://en.wikipedia.org/w/index.php?title=Canon_EOS_C500&oldid=1167506586",
-          "publisher": "Wikipedia, The Free Encyclopedia",
-          "accessed": "2025-02-22"
-        }
-      ],
-      "tags": ["super 35", "netflix"]
-    },
-    {
-      "make": "Canon",
       "model": "EOS C70",
       "sensorSize": [
         {
@@ -2331,6 +2230,12 @@
           "publisher": "Canon Inc.",
           "url": "https://gdlp01.c-wss.com/gds/4/0300040134/09/eosc70-im10-en.pdf",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -2417,9 +2322,194 @@
           "publisher": "Canon Inc.",
           "url": "https://s7d1.scene7.com/is/content/canon/EOSC80_full_specificationspdf",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "netflix"]
+    },
+    {
+      "make": "Canon",
+      "model": "EOS C300",
+      "sensorSize": [
+        {
+          "format": "Super 35",
+          "size": [26.2, 13.8],
+          "resolution": [
+            {
+              "format": "4096x2160",
+              "size": [4096, 2160]
+            }
+          ]
+        },
+        {
+          "format": "Super 16",
+          "size": [24.6, 13.8],
+          "resolution": [
+            {
+              "format": "2048x1080",
+              "size": [2048, 1080]
+            }
+          ]
+        }
+      ],
+      "category": ["Movie"],
+      "references": [
+        {
+          "title": "Canon EOS C300 Mark III Specifications",
+          "publisher": "Canon Europe Ltd",
+          "url": "https://www.canon-europe.com/video-cameras/eos-c300-mark-iii/specifications/",
+          "accessed": "2025-02-22"
+        },
+        {
+          "title": "Canon EOS C300",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Canon_EOS_C300&oldid=1262015142",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-02-22"
+        },
+        {
+          "title": "EOS C300 Mark III Instruction Manual",
+          "publisher": "Canon Inc.",
+          "url": "https://gdlp01.c-wss.com/gds/5/0300042345/08/eosc300mk3-500mk2-im13-en.pdf",
+          "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
+        }
+      ],
+      "tags": ["super 35", "netflix"]
+    },
+    {
+      "make": "Canon",
+      "model": "EOS C400",
+      "sensorSize": [
+        {
+          "format": "Full Frame",
+          "size": [36, 19],
+          "resolution": [
+            {
+              "format": "Full Frame 6000x3164",
+              "size": [6000, 3164]
+            },
+            {
+              "format": "Full Frame 4096x2160",
+              "size": [4096, 2160]
+            },
+            {
+              "format": "Full Frame 2048x1080",
+              "size": [2048, 1080]
+            }
+          ]
+        },
+        {
+          "format": "Super 35",
+          "size": [26.2, 13.8],
+          "resolution": [
+            {
+              "format": "Super 35 4368x2304",
+              "size": [4368, 2304]
+            },
+            {
+              "format": "Super 35 4096x2160",
+              "size": [4096, 2160]
+            },
+            {
+              "format": "Super 35 2048x1080",
+              "size": [2048, 1080]
+            }
+          ]
+        },
+        {
+          "format": "Super 16",
+          "size": [13.1, 6.9],
+          "resolution": [
+            {
+              "format": "Super 16 2184x1152",
+              "size": [2184, 1152]
+            },
+            {
+              "format": "Super 16 2048x1080",
+              "size": [2048, 1080]
+            }
+          ]
+        }
+      ],
+      "category": ["Movie"],
+      "references": [
+        {
+          "title": "EOS C400 Specifications",
+          "publisher": "Canon U.S.A., Inc.",
+          "url": "https://www.usa.canon.com/shop/p/eos-c400#tech-spec-data",
+          "accessed": "2025-02-22"
+        },
+        {
+          "title": "Canon Cinema EOS",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Canon_Cinema_EOS&oldid=1267135875",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-02-22"
+        },
+        {
+          "title": "EOS C400 Full Specifications",
+          "publisher": "Canon Inc.",
+          "url": "https://s7d1.scene7.com/is/content/canon/EOSC400_full_specificationspdf",
+          "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
+        }
+      ],
+      "tags": ["super 35", "netflix"]
+    },
+    {
+      "make": "Canon",
+      "model": "EOS C500",
+      "sensorSize": [
+        {
+          "format": "Full Frame",
+          "size": [26.2, 13.8],
+          "resolution": [
+            {
+              "format": "Full Frame",
+              "size": [5952, 3140]
+            }
+          ]
+        }
+      ],
+      "category": ["Movie"],
+      "references": [
+        {
+          "title": "EOS C500 Mark II",
+          "publisher": "Canon U.S.A., Inc.",
+          "url": "https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/cinema-eos/cinema-eos-c500-mark-ii",
+          "accessed": "2025-02-22"
+        },
+        {
+          "title": "Canon EOS C500",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Canon_EOS_C500&oldid=1167506586",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
+        }
+      ],
+      "tags": ["super 35", "netflix"]
     },
     {
       "make": "Canon",
@@ -2457,6 +2547,12 @@
           "publisher": "Canon U.S.A., Inc.",
           "url": "https://downloads.canon.com/nw/camera/downloads/brochures/cinema/cinema-eos/eos-c700-ff-series-product-brochure.pdf",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "netflix"]
@@ -2501,6 +2597,12 @@
           "url": "https://github.com/wetadigital/physlight/blob/main/data/camera/Canon_EOS_R5_380_780_5.json",
           "publisher": "Wētā FX",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "mirrorless", "netflix"]
@@ -2545,6 +2647,55 @@
           "url": "https://github.com/wetadigital/physlight/blob/main/data/camera/Canon_EOS_R5m2_380_780_5.json",
           "publisher": "Wētā FX",
           "accessed": "2025-09-30"
+        }
+      ],
+      "tags": ["full frame", "mirrorless"]
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R6 Mark II",
+      "sensorSize": [
+        {
+          "format": "Full Frame",
+          "size": [36, 24],
+          "resolution": [
+            {
+              "format": "4K UHD 16:9",
+              "size": [3840, 2160]
+            },
+            {
+              "format": "FHD 16:9",
+              "size": [1920, 1080]
+            }
+          ]
+        }
+      ],
+      "category": ["Still"],
+      "references": [
+        {
+          "title": "EOS R6 Mark II",
+          "publisher": "Canon U.S.A., Inc.",
+          "url": "https://www.usa.canon.com/shop/p/eos-r6-mark-ii",
+          "accessed": "2026-07-20"
+        },
+        {
+          "title": "EOS R6 Mark II Detailed Specifications",
+          "publisher": "Canon U.S.A., Inc.",
+          "url": "https://downloads.canon.com/nw/camera/products/eos/r6-markii/R6-MarkII-SpecSheet.pdf",
+          "accessed": "2026-07-20"
+        },
+        {
+          "title": "EOS R6 Mark II User's Manual",
+          "publisher": "Canon U.S.A., Inc.",
+          "url": "https://cam.start.canon/en/C012/manual/c012.pdf",
+          "accessed": "2026-07-20"
+        },
+        {
+          "title": "Canon EOS R6 Mark II Camera Spectral Sensitivity Data",
+          "author": "Contributors to the RAW to ACES project",
+          "url": "https://github.com/wetadigital/physlight/blob/main/data/camera/Canon_EOS_R6m2_380_780_5.json",
+          "publisher": "Academy Software Foundation ",
+          "accessed": "2026-07-20"
         }
       ],
       "tags": ["full frame", "mirrorless"]
@@ -2597,13 +2748,58 @@
           "publisher": "Canon U.S.A., Inc.",
           "url": "https://s7d1.scene7.com/is/content/canon/EOSR6-Mark3-Spec-Sheetpdf",
           "accessed": "2025-11-07"
+        }
+      ],
+      "tags": ["full frame", "mirrorless"]
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R6 Mark V",
+      "sensorSize": [
+        {
+          "format": "Full Frame",
+          "size": [35.9, 23.9],
+          "resolution": [
+            {
+              "format": "7K Open Gate RAW 3:2",
+              "size": [6960, 4840]
+            },
+            {
+              "format": "7K RAW 17:9",
+              "size": [6960, 4640]
+            },
+            {
+              "format": "4K DCI 17:9",
+              "size": [4096, 2160]
+            },
+            {
+              "format": "4K UHD 16:9",
+              "size": [3840, 2160]
+            },
+            {
+              "format": "2K DCI 17:9",
+              "size": [2048, 1080]
+            },
+            {
+              "format": "2K UHD 16:9",
+              "size": [1920, 1080]
+            }
+          ]
+        }
+      ],
+      "category": ["Still"],
+      "references": [
+        {
+          "title": "EOS R6 Mark V",
+          "publisher": "Canon U.S.A., Inc.",
+          "url": "https://www.usa.canon.com/shop/p/eos-r6-v-body",
+          "accessed": "2026-05-13"
         },
         {
-          "title": "Canon EOS R6 Mark III Camera Spectral Sensitivity Data",
-          "author": "Contributors to the RAW to ACES project",
-          "url": "https://github.com/AcademySoftwareFoundation/rawtoaces-data/blob/main/data/camera/Canon_EOS_R6_380_780_5.json",
-          "publisher": "Academy Software Foundation ",
-          "accessed": "2025-11-24"
+          "title": "EOS R6 Mark V Detailed Specifications",
+          "publisher": "Canon U.S.A., Inc.",
+          "url": "https://s7d1.scene7.com/is/content/canon/EOS-R6-V-specsheet-finalpdf",
+          "accessed": "2026-05-13"
         }
       ],
       "tags": ["full frame", "mirrorless"]
@@ -2684,50 +2880,15 @@
           "publisher": "DJI",
           "url": "https://dl.djicdn.com/downloads/inspire_3/20241016UM/DJI_Inspire_3_User_Manual_V3.0_EN_.pdf",
           "accessed": "2025-10-01"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["drone", "netflix"]
-    },
-    {
-      "make": "DJI",
-      "model": "Mavic Air 2",
-      "sensorSize": [
-        {
-          "format": "Open Gate",
-          "size": [6.4, 4.8],
-          "resolution": [
-            {
-              "format": "4K Ultra HD",
-              "size": [3840, 2160]
-            },
-            {
-              "format": "2.7K",
-              "size": [2688, 1512]
-            },
-            {
-              "format": "FHD",
-              "size": [1920, 1080]
-            }
-          ]
-        }
-      ],
-      "category": ["Mobile"],
-      "references": [
-        {
-          "title": "Support for Mavic Air 2",
-          "publisher": "DJI",
-          "url": "https://www.dji.com/support/product/mavic-air-2",
-          "accessed": "2025-02-22"
-        },
-        {
-          "title": "Image sensor format",
-          "author": "Wikipedia contributors",
-          "url": "https://en.wikipedia.org/w/index.php?title=Image_sensor_format&oldid=1275872254#Table_of_sensor_formats_and_sizes",
-          "publisher": "Wikipedia, The Free Encyclopedia",
-          "accessed": "2025-02-22"
-        }
-      ],
-      "tags": ["drone"]
     },
     {
       "make": "DJI",
@@ -2774,7 +2935,7 @@
           "accessed": "2025-02-22"
         }
       ],
-      "tags": ["drone", "Hasselblad L1D-20c"]
+      "tags": ["drone", "hasselblad l1d-20c"]
     },
     {
       "make": "DJI",
@@ -2851,9 +3012,16 @@
           "publisher": "Pixpro UAB",
           "author": "Zmejevskis, L.",
           "accessed": "2026-02-10"
+        },
+        {
+          "title": "L2D-20c Camera Spectral Sensitivity Data",
+          "author": "Contributors to the PhysLight Project",
+          "url": "https://github.com/wetadigital/physlight/blob/main/data/camera/Hasselblad_L2D-20c_380_780_5.json",
+          "publisher": "Wētā FX",
+          "accessed": "2026-07-20"
         }
       ],
-      "tags": ["drone", "Hasselblad L2D-20"]
+      "tags": ["drone", "hasselblad l2d-20"]
     },
     {
       "make": "DJI",
@@ -2920,7 +3088,48 @@
           "accessed": "2026-02-10"
         }
       ],
-      "tags": ["drone", "Hasselblad L3D-100C"]
+      "tags": ["drone", "hasselblad l3d-100c"]
+    },
+    {
+      "make": "DJI",
+      "model": "Mavic Air 2",
+      "sensorSize": [
+        {
+          "format": "Open Gate",
+          "size": [6.4, 4.8],
+          "resolution": [
+            {
+              "format": "4K Ultra HD",
+              "size": [3840, 2160]
+            },
+            {
+              "format": "2.7K",
+              "size": [2688, 1512]
+            },
+            {
+              "format": "FHD",
+              "size": [1920, 1080]
+            }
+          ]
+        }
+      ],
+      "category": ["Mobile"],
+      "references": [
+        {
+          "title": "Support for Mavic Air 2",
+          "publisher": "DJI",
+          "url": "https://www.dji.com/support/product/mavic-air-2",
+          "accessed": "2025-02-22"
+        },
+        {
+          "title": "Image sensor format",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Image_sensor_format&oldid=1275872254#Table_of_sensor_formats_and_sizes",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-02-22"
+        }
+      ],
+      "tags": ["drone"]
     },
     {
       "make": "DJI",
@@ -3079,6 +3288,13 @@
           "url": "https://en.wikipedia.org/w/index.php?title=Fujifilm_GFX100&oldid=1266453326",
           "publisher": "Wikipedia, The Free Encyclopedia",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Fujifilm GFX100 Camera Spectral Sensitivity Data",
+          "author": "Contributors to the PhysLight Project",
+          "url": "https://github.com/wetadigital/physlight/blob/main/data/camera/Fujifilm_GFX_100_380_780_5.json",
+          "publisher": "Wētā FX",
+          "accessed": "2026-07-20"
         }
       ],
       "tags": ["medium format", "mirrorless"]
@@ -4489,6 +4705,12 @@
           "url": "https://eww.pass.panasonic.co.jp/pro-av/support/content/guide/EN/aueva1_handbook_e.pdf",
           "publisher": "Panasonic Corporation",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -4527,6 +4749,12 @@
           "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/bgh1/spec/index.html",
           "publisher": "Panasonic Corporation",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["micro four thirds", "netflix"]
@@ -4577,6 +4805,12 @@
           "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/bs1h/index.html",
           "publisher": "Panasonic Corporation",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "netflix"]
@@ -4627,6 +4861,12 @@
           "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/products/s1h/index.html",
           "publisher": "Panasonic Corporation",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "netflix", "mirrorless"]
@@ -4794,6 +5034,12 @@
           "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf",
           "publisher": "Panasonic Corporation",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -4851,6 +5097,12 @@
           "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf",
           "publisher": "Panasonic Corporation",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -4894,6 +5146,12 @@
           "url": "https://pro-av.panasonic.net/en/cinema_camera_varicam_eva/support/pdf/New_S35mm_MOS_Sensor.pdf",
           "publisher": "Panasonic Corporation",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -5254,6 +5512,12 @@
           "url": "https://en.wikipedia.org/w/index.php?title=IMAX&oldid=1275572464#Film_cameras",
           "publisher": "Wikipedia, The Free Encyclopedia",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["imax", "netflix"]
@@ -6216,6 +6480,12 @@
           "url": "https://docs.red.com/955-0156/EPICSCARLETOperationGuide/en-us/Content/5_Advanced_Menus/1_Settings/Project/FormatEpicDragon.htm",
           "publisher": "RED.COM, LLC.",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -6866,6 +7136,12 @@
           "url": "https://docs.red.com/955-0192_v7.4/RANGER_GEMINI_7_4/Content/5_Advanced_Menus/1_Settings/Project/FormatGEMINI.htm",
           "publisher": "RED.COM, LLC.",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -8035,6 +8311,12 @@
           "url": "https://docs.red.com/955-0191_v7.4/RANGER_HELIUM_7_4/Content/5_Advanced_Menus/1_Settings/Project/FormatHELIUM.htm",
           "publisher": "RED.COM, LLC.",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -8221,9 +8503,15 @@
         },
         {
           "title": "Komodo 6K Product Page",
-          "url": "https://www.red.com/komodo-brain-parent",
+          "url": "https://www.red.com/komodo",
           "publisher": "RED.COM, LLC.",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -9401,6 +9689,12 @@
           "url": "https://en.wikipedia.org/w/index.php?title=IMAX&oldid=1275572464#Film_cameras",
           "publisher": "Wikipedia, The Free Encyclopedia",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["imax", "full frame", "netflix"]
@@ -9991,6 +10285,12 @@
           "url": "https://www.red.com/v-raptor",
           "publisher": "RED.COM, LLC.",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["imax", "full frame", "netflix"]
@@ -10035,43 +10335,6 @@
         }
       ],
       "tags": ["full frame", "a1", "ilce-1m2", "mirrorless"]
-    },
-    {
-      "make": "Sony",
-      "model": "Alpha 6400",
-      "sensorSize": [
-        {
-          "format": "Open Gate",
-          "size": [23.5, 15.6],
-          "resolution": [
-            {
-              "format": "4K",
-              "size": [3840, 2160]
-            },
-            {
-              "format": "Full HD",
-              "size": [1920, 1080]
-            }
-          ]
-        }
-      ],
-      "category": ["Still"],
-      "references": [
-        {
-          "title": "Alpha 6400 - APS-C Interchangeable Lens Camera 24.2MP, 11FPS, 4K/30p",
-          "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/aps-c/p/ilce6400-b",
-          "publisher": "SONY ELECTRONICS INC.",
-          "accessed": "2025-02-22"
-        },
-        {
-          "title": "Sony α6400",
-          "author": "Wikipedia contributors",
-          "url": "https://en.wikipedia.org/w/index.php?title=Sony_%CE%B16400&oldid=1274197275",
-          "publisher": "Wikipedia, The Free Encyclopedia",
-          "accessed": "2025-02-22"
-        }
-      ],
-      "tags": ["a6400", "aps-c", "ilce-6400", "mirrorless"]
     },
     {
       "make": "Sony",
@@ -10318,6 +10581,54 @@
     },
     {
       "make": "Sony",
+      "model": "Alpha 7R VI",
+      "sensorSize": [
+        {
+          "format": "Open Gate",
+          "size": [35.9, 24.0],
+          "resolution": [
+            {
+              "format": "8K",
+              "size": [7680, 4320]
+            },
+            {
+              "format": "4K",
+              "size": [3840, 2160]
+            },
+            {
+              "format": "Full HD",
+              "size": [1920, 1080]
+            }
+          ]
+        }
+      ],
+      "category": ["Still"],
+      "references": [
+        {
+          "title": "Alpha 7R VI: Full-frame Mirrorless Interchangeable Lens Camera",
+          "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/full-frame/p/ilce7rm6b",
+          "publisher": "SONY ELECTRONICS INC.",
+          "accessed": "2026-05-13"
+        },
+        {
+          "title": "Sony α7",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Sony_%CE%B17&oldid=1267254025",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-02-22"
+        },
+        {
+          "title": "Sony's a7R VI comes speeding out of the studio",
+          "author": "Butler, R., & Clark, M.",
+          "url": "https://www.dpreview.com/reviews/sony-a7r-vi-review",
+          "publisher": "Digital Photography Review",
+          "accessed": "2026-05-13"
+        }
+      ],
+      "tags": ["full frame", "a7r", "ilce-7rm6", "mirrorless"]
+    },
+    {
+      "make": "Sony",
       "model": "Alpha 7S III",
       "sensorSize": [
         {
@@ -10443,6 +10754,43 @@
     },
     {
       "make": "Sony",
+      "model": "Alpha 6400",
+      "sensorSize": [
+        {
+          "format": "Open Gate",
+          "size": [23.5, 15.6],
+          "resolution": [
+            {
+              "format": "4K",
+              "size": [3840, 2160]
+            },
+            {
+              "format": "Full HD",
+              "size": [1920, 1080]
+            }
+          ]
+        }
+      ],
+      "category": ["Still"],
+      "references": [
+        {
+          "title": "Alpha 6400 - APS-C Interchangeable Lens Camera 24.2MP, 11FPS, 4K/30p",
+          "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/aps-c/p/ilce6400-b",
+          "publisher": "SONY ELECTRONICS INC.",
+          "accessed": "2025-02-22"
+        },
+        {
+          "title": "Sony α6400",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Sony_%CE%B16400&oldid=1274197275",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-02-22"
+        }
+      ],
+      "tags": ["a6400", "aps-c", "ilce-6400", "mirrorless"]
+    },
+    {
+      "make": "Sony",
       "model": "BURANO",
       "sensorSize": [
         {
@@ -10563,6 +10911,12 @@
           "url": "https://en.wikipedia.org/w/index.php?title=CineAlta&oldid=1267053892",
           "publisher": "Wikipedia, The Free Encyclopedia",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -10616,6 +10970,12 @@
           "url": "https://www.fdtimes.com/2012/10/30/sony-f55-and-f5/",
           "publisher": "Film and Digital Times Inc.",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -10642,6 +11002,12 @@
           "url": "https://www.panavision.com/camera-and-optics/cameras/product-detail/f55-f55",
           "publisher": "Panavision",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -10683,6 +11049,12 @@
           "url": "https://www.eoshd.com/news/sony-f65-sensor-using-consumer-camcorder-technology/",
           "publisher": "EOSHD",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -10727,6 +11099,12 @@
           "url": "https://helpguide.sony.net/ilc/2240/v1/en/print.pdf",
           "publisher": "SONY ELECTRONICS INC.",
           "accessed": "2025-10-01"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "ilme-fr7", "netflix"]
@@ -10771,6 +11149,12 @@
           "url": "https://www.arkvideo.co.jp/_sys/wp-content/uploads/SonyPXW-FS7.pdf",
           "publisher": "ARKVIDEO Inc.",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -10815,6 +11199,12 @@
           "url": "https://www.arkvideo.co.jp/_sys/wp-content/uploads/SonyPXW-FS7M2.pdf",
           "publisher": "ARKVIDEO Inc.",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["super 35", "netflix"]
@@ -10883,9 +11273,49 @@
           "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilmefx3a",
           "publisher": "SONY ELECTRONICS INC.",
           "accessed": "2026-03-01"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "netflix"]
+    },
+    {
+      "make": "Sony",
+      "model": "FX5",
+      "sensorSize": [
+        {
+          "format": "Open Gate FF 5K",
+          "size": [35.9, 24],
+          "resolution": [
+            {
+              "format": "5K 3:2",
+              "size": [4992, 3328]
+            },
+            {
+              "format": "5K 16:9",
+              "size": [4992, 2808]
+            },
+            {
+              "format": "5K 17:9",
+              "size": [4992, 2632]
+            }
+          ]
+        }
+      ],
+      "category": ["Movie"],
+      "references": [
+        {
+          "title": "Sony Cinema Line | FX5 Full-frame Cinema Camera",
+          "url": "https://electronics.sony.com/imaging/cinema-line-cameras/all-cinema-line-cameras/p/ilmefx5b",
+          "publisher": "SONY ELECTRONICS INC.",
+          "accessed": "2026-07-24"
+        }
+      ],
+      "tags": ["full frame"]
     },
     {
       "make": "Sony",
@@ -10921,6 +11351,12 @@
           "url": "https://electronics.sony.com/imaging/cinema-line-cameras/all-cinema-line-cameras/p/ilmefx6v",
           "publisher": "SONY ELECTRONICS INC.",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "netflix"]
@@ -10984,6 +11420,12 @@
           "url": "https://www.cined.com/sony-fx9-sensor-scan-modes-explained/",
           "publisher": "CineD",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["full frame", "netflix"]
@@ -11017,6 +11459,45 @@
         }
       ],
       "tags": ["full frame"]
+    },
+    {
+      "make": "Sony",
+      "model": "RIALTO 65",
+      "sensorSize": [
+        {
+          "format": "9.6K 1.5:1",
+          "size": [53.75, 35.83]
+        },
+        {
+          "format": "9.6K 2.2:1",
+          "size": [53.75, 24.44]
+        }
+      ],
+      "category": ["Movie"],
+      "description": "RIALTO 65 is a sensor block that attaches to the VENICE 2 camera.",
+      "references": [
+        {
+          "title": "Announcing the RIALTO 65 — Bringing the 65mm Format to VENICE 2",
+          "url": "https://sony-cinematography.com/announcing-the-rialto-65-bringing-the-65mm-format-to-venice-2/",
+          "publisher": "SONY ELECTRONICS INC.",
+          "accessed": "2026-06-17"
+        },
+        {
+          "title": "IMAX",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=IMAX&oldid=1275572464#Film_cameras",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-02-22"
+        },
+        {
+          "title": "Sony RIALTO 65 Development Announcement",
+          "author": "Fauer, J.",
+          "url": "https://www.fdtimes.com/wp-content/uploads/2026/06/FDTimes-Sony-RIALTO65-June-3-2026-1.pdf",
+          "publisher": "Film And Digital Times",
+          "accessed": "2026-06-17"
+        }
+      ],
+      "tags": ["imax"]
     },
     {
       "make": "Sony",
@@ -11187,6 +11668,12 @@
           "url": "https://en.wikipedia.org/w/index.php?title=IMAX&oldid=1275572464#Film_cameras",
           "publisher": "Wikipedia, The Free Encyclopedia",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["imax", "netflix"]
@@ -11471,6 +11958,12 @@
           "url": "https://en.wikipedia.org/w/index.php?title=IMAX&oldid=1275572464#Film_cameras",
           "publisher": "Wikipedia, The Free Encyclopedia",
           "accessed": "2025-02-22"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-07-24"
         }
       ],
       "tags": ["imax", "netflix"]
