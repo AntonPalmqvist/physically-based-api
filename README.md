@@ -12,16 +12,16 @@ A database of physically based values for CG artists.
 <a href="https://github.com/AntonPalmqvist/physically-based-api?tab=CC0-1.0-1-ov-file"><img alt="GitHub License" src="https://img.shields.io/github/license/AntonPalmqvist/physically-based-api"/></a>
 <a href="https://github.com/AntonPalmqvist/physically-based-api/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/AntonPalmqvist/physically-based-api"/></a>
 <a href="schemas/openapi-schema-v2.json"><img alt="Swagger Validation" src="https://img.shields.io/swagger/valid/3.0?specUrl=https%3A%2F%2Fraw.githubusercontent.com%2FAntonPalmqvist%2Fphysically-based-api%2Frefs%2Fheads%2Fmain%2Fschemas%2Fopenapi-schema-v2.json&label=openapi%203.1"/></a>
-<a href="https://biomejs.dev/"><img alt="Code Style" src="https://img.shields.io/badge/code_style-biome-60a5fa?logo=biome"/></a>
+<!-- <a href="https://biomejs.dev/"><img alt="Code Style" src="https://img.shields.io/badge/code_style-biome-60a5fa?logo=biome"/></a> -->
 
 ## Features
 
 - Open Database: Access a collection of physically based values for materials, cameras, and light sources
 - Lightweight: The entire dataset is optimized for quick loading and integration as presets
-  - [materials.json](deploy/v2/materials.json) `211 KB`
-  - [lightsources.json](deploy/v2/lightsources.json) `47 KB`
-  - [cameras.json](deploy/v2/cameras.json) `164 KB`
-  - [lenses.json](deploy/v2/lenses.json) (coming in v2.2)
+  - [materials.json](deploy/v2/materials.json) `215 KB`
+  - [lightsources.json](deploy/v2/lightsources.json) `46 KB`
+  - [cameras.json](deploy/v2/cameras.json) `173 KB`
+  - [lenses.json](deploy/v2/lenses.json) (coming in v2.3)
 - API Access: Connect your tools to the API to get the latest updates from the database
 - Community-Driven: Contribute new materials or improve existing ones
 - Free License: All data is released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
