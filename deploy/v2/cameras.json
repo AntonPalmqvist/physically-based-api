@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Camera.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202609100839,
+    "updated": 202609100853,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/cameras",
     "deprecated": false
@@ -66,8 +66,7 @@
           "publisher": "Digital Photography Review",
           "accessed": "2025-02-22"
         }
-      ],
-      "tags": ["phone"]
+      ]
     },
     {
       "make": "Apple",
@@ -127,8 +126,7 @@
           "publisher": "Digital Photography Review",
           "accessed": "2025-02-22"
         }
-      ],
-      "tags": ["phone"]
+      ]
     },
     {
       "make": "Apple",
@@ -188,8 +186,7 @@
           "publisher": "Digital Photography Review",
           "accessed": "2025-02-22"
         }
-      ],
-      "tags": ["phone"]
+      ]
     },
     {
       "make": "Apple",
@@ -249,8 +246,7 @@
           "publisher": "Digital Photography Review",
           "accessed": "2025-02-22"
         }
-      ],
-      "tags": ["phone"]
+      ]
     },
     {
       "make": "Apple",
@@ -310,8 +306,7 @@
           "publisher": "Digital Photography Review",
           "accessed": "2025-02-22"
         }
-      ],
-      "tags": ["phone"]
+      ]
     },
     {
       "make": "Apple",
@@ -371,8 +366,7 @@
           "publisher": "Digital Photography Review",
           "accessed": "2025-02-22"
         }
-      ],
-      "tags": ["phone"]
+      ]
     },
     {
       "make": "Apple",
@@ -432,8 +426,7 @@
           "publisher": "Digital Photography Review",
           "accessed": "2025-02-22"
         }
-      ],
-      "tags": ["phone"]
+      ]
     },
     {
       "make": "Apple",
@@ -493,8 +486,7 @@
           "publisher": "Digital Photography Review",
           "accessed": "2025-02-22"
         }
-      ],
-      "tags": ["phone"]
+      ]
     },
     {
       "make": "Apple",
@@ -562,8 +554,7 @@
           "publisher": "Digital Photography Review",
           "accessed": "2025-02-22"
         }
-      ],
-      "tags": ["phone"]
+      ]
     },
     {
       "make": "Apple",
@@ -631,8 +622,7 @@
           "publisher": "Digital Photography Review",
           "accessed": "2025-02-22"
         }
-      ],
-      "tags": ["phone"]
+      ]
     },
     {
       "make": "Arri",
