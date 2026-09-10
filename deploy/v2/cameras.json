@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Camera.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202609010742,
+    "updated": 202609100853,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/cameras",
     "deprecated": false
@@ -44,7 +44,6 @@
         }
       ],
       "category": ["Mobile"],
-      "description": "Apple uses Sony sensors for their Iphones.",
       "references": [
         {
           "title": "IPhone 13 Pro",
@@ -67,8 +66,7 @@
           "publisher": "Digital Photography Review",
           "accessed": "2025-02-22"
         }
-      ],
-      "tags": ["phone"]
+      ]
     },
     {
       "make": "Apple",
@@ -106,7 +104,6 @@
         }
       ],
       "category": ["Mobile"],
-      "description": "Apple uses Sony sensors for their Iphones.",
       "references": [
         {
           "title": "IPhone 14 Pro",
@@ -129,8 +126,7 @@
           "publisher": "Digital Photography Review",
           "accessed": "2025-02-22"
         }
-      ],
-      "tags": ["phone"]
+      ]
     },
     {
       "make": "Apple",
@@ -168,7 +164,6 @@
         }
       ],
       "category": ["Mobile"],
-      "description": "Apple uses Sony sensors for their Iphones.",
       "references": [
         {
           "title": "IPhone 15 Pro",
@@ -191,8 +186,7 @@
           "publisher": "Digital Photography Review",
           "accessed": "2025-02-22"
         }
-      ],
-      "tags": ["phone"]
+      ]
     },
     {
       "make": "Apple",
@@ -230,7 +224,6 @@
         }
       ],
       "category": ["Mobile"],
-      "description": "Apple uses Sony sensors for their Iphones.",
       "references": [
         {
           "title": "IPhone 15 Pro",
@@ -253,8 +246,7 @@
           "publisher": "Digital Photography Review",
           "accessed": "2025-02-22"
         }
-      ],
-      "tags": ["phone"]
+      ]
     },
     {
       "make": "Apple",
@@ -292,7 +284,6 @@
         }
       ],
       "category": ["Mobile"],
-      "description": "Apple uses Sony sensors for their Iphones.",
       "references": [
         {
           "title": "IPhone 16 Pro",
@@ -315,8 +306,7 @@
           "publisher": "Digital Photography Review",
           "accessed": "2025-02-22"
         }
-      ],
-      "tags": ["phone"]
+      ]
     },
     {
       "make": "Apple",
@@ -354,7 +344,6 @@
         }
       ],
       "category": ["Mobile"],
-      "description": "Apple uses Sony sensors for their Iphones.",
       "references": [
         {
           "title": "IPhone 16 Pro",
@@ -377,15 +366,14 @@
           "publisher": "Digital Photography Review",
           "accessed": "2025-02-22"
         }
-      ],
-      "tags": ["phone"]
+      ]
     },
     {
       "make": "Apple",
       "model": "Iphone 17 Pro",
       "sensorSize": [
         {
-          "format": "24 mm Main",
+          "format": "24 mm Main (Sony IMX903)",
           "size": [9.8, 7.3],
           "resolution": [
             { "format": "4K", "size": [3840, 2160] },
@@ -395,7 +383,7 @@
           "focalLength": [6.78]
         },
         {
-          "format": "13 mm Ultra Wide",
+          "format": "13 mm Ultra Wide (Sony IMX972)",
           "size": [5.6, 4.2],
           "resolution": [
             { "format": "4K", "size": [3840, 2160] },
@@ -405,7 +393,7 @@
           "focalLength": [2.1]
         },
         {
-          "format": "100 mm Telephoto",
+          "format": "100 mm Telephoto (Sony IMX973)",
           "size": [5.6, 4.2],
           "resolution": [
             { "format": "4K", "size": [3840, 2160] },
@@ -416,7 +404,6 @@
         }
       ],
       "category": ["Mobile"],
-      "description": "Apple uses Sony sensors for their Iphones.",
       "references": [
         {
           "title": "IPhone 17 Pro",
@@ -439,15 +426,14 @@
           "publisher": "Digital Photography Review",
           "accessed": "2025-02-22"
         }
-      ],
-      "tags": ["phone"]
+      ]
     },
     {
       "make": "Apple",
       "model": "Iphone 17 Pro Max",
       "sensorSize": [
         {
-          "format": "24 mm Main",
+          "format": "24 mm Main (Sony IMX903)",
           "size": [9.8, 7.3],
           "resolution": [
             { "format": "4K", "size": [3840, 2160] },
@@ -457,7 +443,7 @@
           "focalLength": [6.78]
         },
         {
-          "format": "13 mm Ultra Wide",
+          "format": "13 mm Ultra Wide (Sony IMX972)",
           "size": [5.6, 4.2],
           "resolution": [
             { "format": "4K", "size": [3840, 2160] },
@@ -467,7 +453,7 @@
           "focalLength": [2.1]
         },
         {
-          "format": "100 mm Telephoto",
+          "format": "100 mm Telephoto (Sony IMX973)",
           "size": [5.6, 4.2],
           "resolution": [
             { "format": "4K", "size": [3840, 2160] },
@@ -478,7 +464,6 @@
         }
       ],
       "category": ["Mobile"],
-      "description": "Apple uses Sony sensors for their Iphones.",
       "references": [
         {
           "title": "IPhone 17 Pro",
@@ -501,8 +486,143 @@
           "publisher": "Digital Photography Review",
           "accessed": "2025-02-22"
         }
+      ]
+    },
+    {
+      "make": "Apple",
+      "model": "Iphone 18 Pro",
+      "sensorSize": [
+        {
+          "format": "24 mm Main (Sony IMX905)",
+          "size": [9.8, 7.3],
+          "resolution": [
+            { "format": "4K", "size": [3840, 2160] },
+            { "format": "1080p", "size": [1920, 1080] },
+            { "format": "720p", "size": [1280, 720] }
+          ],
+          "focalLength": [6.78]
+        },
+        {
+          "format": "13 mm Ultra Wide (Sony IMX972)",
+          "size": [5.6, 4.2],
+          "resolution": [
+            { "format": "4K", "size": [3840, 2160] },
+            { "format": "1080p", "size": [1920, 1080] },
+            { "format": "720p", "size": [1280, 720] }
+          ],
+          "focalLength": [2.1]
+        },
+        {
+          "format": "100 mm Telephoto (Sony IMX973)",
+          "size": [5.6, 4.2],
+          "resolution": [
+            { "format": "4K", "size": [3840, 2160] },
+            { "format": "1080p", "size": [1920, 1080] },
+            { "format": "720p", "size": [1280, 720] }
+          ],
+          "focalLength": [16.18]
+        }
       ],
-      "tags": ["phone"]
+      "category": ["Mobile"],
+
+      "references": [
+        {
+          "title": "IPhone 18 Pro",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=IPhone_18_Pro&oldid=1374127783",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-09-09"
+        },
+        {
+          "title": "The iPhone 18 Pro is here, complete with a variable aperture and manual camera controls",
+          "author": "Ferguson, A.",
+          "url": "https://www.dpreview.com/news/one-of-the-new-iphone-18-pros-includes-a-new-camera-trick-a-moving-aperture/",
+          "publisher": "Digital Photography Review",
+          "accessed": "2026-09-09"
+        },
+        {
+          "title": "Exclusive: Diagnostics log confirms iPhone 18 Pro Max camera specs ahead of launch",
+          "author": "Bùi, G.",
+          "url": "https://www.notebookcheck.net/Exclusive-Diagnostics-log-confirms-iPhone-18-Pro-Max-camera-specs-ahead-of-launch.1344805.0.html",
+          "publisher": "Notebookcheck Digital Media SRL",
+          "accessed": "2026-09-09"
+        },
+        {
+          "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+          "author": "Burgett, G.",
+          "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+          "publisher": "Digital Photography Review",
+          "accessed": "2025-02-22"
+        }
+      ]
+    },
+    {
+      "make": "Apple",
+      "model": "Iphone 18 Pro Max",
+      "sensorSize": [
+        {
+          "format": "24 mm Main (Sony IMX905)",
+          "size": [9.8, 7.3],
+          "resolution": [
+            { "format": "4K", "size": [3840, 2160] },
+            { "format": "1080p", "size": [1920, 1080] },
+            { "format": "720p", "size": [1280, 720] }
+          ],
+          "focalLength": [6.78]
+        },
+        {
+          "format": "13 mm Ultra Wide (Sony IMX972)",
+          "size": [5.6, 4.2],
+          "resolution": [
+            { "format": "4K", "size": [3840, 2160] },
+            { "format": "1080p", "size": [1920, 1080] },
+            { "format": "720p", "size": [1280, 720] }
+          ],
+          "focalLength": [2.1]
+        },
+        {
+          "format": "100 mm Telephoto (Sony IMX973)",
+          "size": [5.6, 4.2],
+          "resolution": [
+            { "format": "4K", "size": [3840, 2160] },
+            { "format": "1080p", "size": [1920, 1080] },
+            { "format": "720p", "size": [1280, 720] }
+          ],
+          "focalLength": [16.18]
+        }
+      ],
+      "category": ["Mobile"],
+
+      "references": [
+        {
+          "title": "IPhone 18 Pro",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=IPhone_18_Pro&oldid=1374127783",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-09-09"
+        },
+        {
+          "title": "The iPhone 18 Pro is here, complete with a variable aperture and manual camera controls",
+          "author": "Ferguson, A.",
+          "url": "https://www.dpreview.com/news/one-of-the-new-iphone-18-pros-includes-a-new-camera-trick-a-moving-aperture/",
+          "publisher": "Digital Photography Review",
+          "accessed": "2026-09-09"
+        },
+        {
+          "title": "Exclusive: Diagnostics log confirms iPhone 18 Pro Max camera specs ahead of launch",
+          "author": "Bùi, G.",
+          "url": "https://www.notebookcheck.net/Exclusive-Diagnostics-log-confirms-iPhone-18-Pro-Max-camera-specs-ahead-of-launch.1344805.0.html",
+          "publisher": "Notebookcheck Digital Media SRL",
+          "accessed": "2026-09-09"
+        },
+        {
+          "title": "Apple's Tim Cook confirms it's been using Sony sensors in its iPhones for 'over a decade'",
+          "author": "Burgett, G.",
+          "url": "https://www.dpreview.com/news/3849832154/apple-s-tim-cook-confirms-it-s-been-using-sony-sensors-in-its-iphones-for-over-a-decade",
+          "publisher": "Digital Photography Review",
+          "accessed": "2025-02-22"
+        }
+      ]
     },
     {
       "make": "Arri",
