@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Camera.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202609100853,
+    "updated": 202609302132,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/cameras",
     "deprecated": false
@@ -754,7 +754,7 @@
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
+          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
           "accessed": "2025-02-22"
         },
         {
@@ -832,7 +832,7 @@
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
+          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
           "accessed": "2025-02-22"
         },
         {
@@ -963,7 +963,7 @@
         {
           "title": "ALEXA LF | Camera Systems | ARRI",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/en/camera-systems/cameras/alexa-lf",
+          "url": "https://www.arri.com/en/cine-systems/cine-cameras/alexa-lf",
           "accessed": "2025-02-22"
         },
         {
@@ -976,7 +976,7 @@
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
+          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
           "accessed": "2025-02-22"
         },
         {
@@ -1098,13 +1098,13 @@
         {
           "title": "ALEXA Mini | Camera Systems | ARRI",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-mini",
+          "url": "https://www.arri.com/en/cine-systems/cine-cameras/legacy-cine-cameras/alexa-mini",
           "accessed": "2025-02-22"
         },
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
+          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
           "accessed": "2025-02-22"
         }
       ],
@@ -1222,7 +1222,7 @@
         {
           "title": "ALEXA Mini LF | Camera Systems | ARRI",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/en/camera-systems/cameras/alexa-mini-lf",
+          "url": "https://www.arri.com/en/cine-systems/cine-cameras/alexa-mini-lf",
           "accessed": "2025-02-22"
         },
         {
@@ -1235,7 +1235,7 @@
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
+          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
           "accessed": "2025-02-22"
         },
         {
@@ -1377,13 +1377,13 @@
         {
           "title": "ALEXA SXT W | Camera Systems | ARRI",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-sxt-w",
+          "url": "https://www.arri.com/en/cine-systems/cine-cameras/legacy-cine-cameras/alexa-sxt-w",
           "accessed": "2025-02-22"
         },
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
+          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
           "accessed": "2025-02-22"
         }
       ],
@@ -1459,13 +1459,13 @@
         {
           "title": "AMIRA | Camera Systems | ARRI",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/en/camera-systems/cameras/amira",
+          "url": "https://www.arri.com/en/cine-systems/cine-cameras/amira",
           "accessed": "2025-02-22"
         },
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
+          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
           "accessed": "2025-02-22"
         }
       ],
@@ -1609,7 +1609,7 @@
         {
           "title": "Blackmagic Pocket Cinema Camera 6K Pro Technical Specifications",
           "publisher": "Blackmagic Design Pty. Ltd.",
-          "url": "https://www.blackmagicdesign.com/products/blackmagicpocketcinemacamera/techspecs/W-CIN-15",
+          "url": "https://www.blackmagicdesign.com/products/blackmagicpocketcinemacamera/techspecs/W-CIN-16",
           "accessed": "2025-02-22"
         }
       ],
@@ -3122,7 +3122,7 @@
         },
         {
           "title": "HASSELBLAD L2D-20",
-          "url": "https://www.hasselblad.com/collaborations/dji-mavic-3-pro",
+          "url": "https://web.archive.org/web/20260807135326/https://www.hasselblad.com/collaborations/dji-mavic-3-pro/",
           "publisher": "Hasselblad",
           "accessed": "2026-02-10"
         },
@@ -3196,7 +3196,7 @@
         },
         {
           "title": "Hasselblad L3D-100C",
-          "url": "https://www.hasselblad.com/collaborations/dji-mavic-4-pro/",
+          "url": "https://web.archive.org/web/20260509130143/https://www.hasselblad.com/collaborations/dji-mavic-4-pro/",
           "publisher": "Hasselblad",
           "accessed": "2025-09-28"
         },
@@ -3788,12 +3788,6 @@
           "publisher": "FUJIFILM Holdings America Corporation",
           "url": "https://www.fujifilm-x.com/en-us/products/cameras/gfx-eterna-55/specifications/",
           "accessed": "2025-09-14"
-        },
-        {
-          "title": "Fujifilm Unveils the Development of its First Digital Filmmaking Camera - FUJIFILM GFX ETERNA",
-          "publisher": "FUJIFILM Holdings America Corporation",
-          "url": "https://www.fujifilm.com/us/en/news/digital-cameras/fujifilm-first-digital-filmmaking-camera-gfx-eterna",
-          "accessed": "2025-02-22"
         },
         {
           "title": "Fujifilm's putting the GFX100 II's massive sensor into its first cinema camera",
@@ -8623,7 +8617,7 @@
         },
         {
           "title": "Komodo 6K Product Page",
-          "url": "https://www.red.com/komodo",
+          "url": "https://www.reddigitalcinema.com/komodo",
           "publisher": "RED.COM, LLC.",
           "accessed": "2025-02-22"
         },
@@ -10402,7 +10396,7 @@
         },
         {
           "title": "V-RAPTOR Product Page",
-          "url": "https://www.red.com/v-raptor",
+          "url": "https://www.reddigitalcinema.com/v-raptor",
           "publisher": "RED.COM, LLC.",
           "accessed": "2025-02-22"
         },
