@@ -25,7 +25,6 @@
     "@biomejs/biome": "^2.5.14",
     "@redocly/cli": "^2.54.2",
     "@scalar/api-reference": "^1.67.0",
-    "adm-zip": "^0.5.18",
     "http-server": "^14.1.1",
     "husky": "^9.1.7",
     "lint-staged": "^17.5.1",

@@ -1,6 +1,8 @@
 import fs from "node:fs";
+import path from "node:path";
+import { pipeline } from "node:stream/promises";
 import util from "node:util";
-import AdmZip from "adm-zip";
+import zlib from "node:zlib";
 
 const date = new Date().toISOString().split("T")[0];
 const outputFile = `Physically_Based_${date}.zip`;
@@ -523,10 +525,26 @@ function createLightsources() {
   });
 }
 
+async function* collectFiles(folder, prefix = "") {
+  for (const entry of await fs.promises.readdir(folder, {
+    withFileTypes: true,
+  })) {
+    const sourcePath = path.join(folder, entry.name);
+    const entryName = prefix ? `${prefix}/${entry.name}` : entry.name;
+    if (entry.isDirectory()) {
+      yield [sourcePath, entryName];
+      yield* collectFiles(sourcePath, entryName);
+    } else {
+      yield [sourcePath, entryName];
+    }
+  }
+}
+
 function zipFiles() {
-  const zip = new AdmZip();
-  zip.addLocalFolder(tempFolder);
-  zip.writeZip(outputFile);
+  return pipeline(
+    zlib.zipFiles(collectFiles(tempFolder)),
+    fs.createWriteStream(outputFile),
+  );
 }
 
 async function main() {
@@ -537,7 +555,7 @@ async function main() {
     await processJson("materials");
     await processJson("lightsources");
     await processJson("cameras");
-    zipFiles();
+    await zipFiles();
     console.log(`Created ${outputFile} successfully`);
 
     if (fs.existsSync(tempFolder)) {
