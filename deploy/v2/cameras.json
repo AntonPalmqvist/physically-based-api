@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Camera.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202609302132,
+    "updated": 202610042131,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/cameras",
     "deprecated": false
@@ -11402,20 +11402,72 @@
       "model": "FX5",
       "sensorSize": [
         {
-          "format": "Open Gate FF 5K",
+          "format": "FF 5K 3:2",
           "size": [35.9, 24],
           "resolution": [
             {
-              "format": "5K 3:2",
+              "format": "FF 5K 3:2",
               "size": [4992, 3328]
-            },
+            }
+          ]
+        },
+        {
+          "format": "FF 5K 16:9",
+          "size": [35.9, 20.2],
+          "resolution": [
             {
-              "format": "5K 16:9",
+              "format": "FF 5K 16:9",
               "size": [4992, 2808]
-            },
+            }
+          ]
+        },
+        {
+          "format": "FF 5K 17:9",
+          "size": [35.9, 19],
+          "resolution": [
             {
-              "format": "5K 17:9",
+              "format": "FF 5K 17:9",
               "size": [4992, 2632]
+            }
+          ]
+        },
+        {
+          "format": "FFc 4.5K 16:9",
+          "size": [32.7, 18.4],
+          "resolution": [
+            {
+              "format": "FFc 4.5K 16:9",
+              "size": [4552, 2560]
+            }
+          ]
+        },
+        {
+          "format": "FFc 4.5K 17:9",
+          "size": [32.8, 17.3],
+          "resolution": [
+            {
+              "format": "FFc 4.5K 17:9",
+              "size": [4552, 2400]
+            }
+          ]
+        },
+        {
+          "format": "FFc 3.8K 16:9",
+          "size": [27.6, 15.6],
+          "resolution": [
+            {
+              "format": "FFc 3.8K 16:9",
+              "size": [3840, 2160]
+            }
+          ]
+        },
+        {
+          "format": "S35 3.2K 16:9",
+          "size": [23.5, 13.2],
+          "resolution": [
+            {
+              "format": "S35 3.2K 16:9",
+              "size": [3264, 1836]
             }
           ]
         }
@@ -11427,6 +11479,12 @@
           "url": "https://electronics.sony.com/imaging/cinema-line-cameras/all-cinema-line-cameras/p/ilmefx5b",
           "publisher": "SONY ELECTRONICS INC.",
           "accessed": "2026-07-24"
+        },
+        {
+          "title": "ILME-FX5/ILME-FX5B Help Guide ",
+          "url": "https://helpguide.sony.net/ilc/2630/v1/en/contents/basic_action.html",
+          "publisher": "SONY ELECTRONICS INC.",
+          "accessed": "2026-10-04"
         }
       ],
       "tags": ["full frame"]
