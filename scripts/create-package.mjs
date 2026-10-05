@@ -557,13 +557,14 @@ async function main() {
     await processJson("cameras");
     await zipFiles();
     console.log(`Created ${outputFile} successfully`);
-
+  } catch (err) {
+    console.error("An error occurred:", err);
+    process.exitCode = 1;
+  } finally {
     if (fs.existsSync(tempFolder)) {
       fs.rmSync(tempFolder, { recursive: true, force: true });
       console.log(`Deleted ${tempFolder} folder successfully`);
     }
-  } catch (err) {
-    console.error("An error occurred:", err);
   }
 }
 
