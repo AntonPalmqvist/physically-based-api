@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Camera.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202610042131,
+    "updated": 202610050907,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/cameras",
     "deprecated": false
@@ -2723,6 +2723,71 @@
           "publisher": "Netflix, Inc.",
           "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
           "accessed": "2026-07-24"
+        }
+      ],
+      "tags": ["full frame", "mirrorless", "netflix"]
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R5 C",
+      "sensorSize": [
+        {
+          "format": "Full Frame",
+          "size": [36, 19],
+          "resolution": [
+            {
+              "format": "Full Frame RAW",
+              "size": [8192, 4320]
+            }
+          ]
+        },
+        {
+          "format": "Super 35mm (Cropped)",
+          "size": [24.7, 13],
+          "resolution": [
+            {
+              "format": "Super 35mm (Cropped) RAW",
+              "size": [5952, 3140]
+            }
+          ]
+        },
+        {
+          "format": "Super 16mm (Cropped)",
+          "size": [12.3, 6.5],
+          "resolution": [
+            {
+              "format": "Super 16mm (Cropped) RAW",
+              "size": [2976, 1570]
+            }
+          ]
+        }
+      ],
+      "category": ["Still"],
+      "references": [
+        {
+          "title": "Canon EOS R5 C",
+          "publisher": "Canon U.S.A., Inc.",
+          "url": "https://www.usa.canon.com/shop/p/eos-r5-c",
+          "accessed": "2026-10-05"
+        },
+        {
+          "title": "EOS R5 C Advanced User Guide (VIDEO edition)",
+          "publisher": "Canon U.S.A., Inc.",
+          "url": "https://gdlp01.c-wss.com/gds/5/0300043545/10/eosr5c-aug11-video-en.pdf",
+          "accessed": "2026-10-05"
+        },
+        {
+          "title": "Canon EOS R5",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Canon_EOS_R5&oldid=1353453624",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-10-05"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-10-05"
         }
       ],
       "tags": ["full frame", "mirrorless", "netflix"]
