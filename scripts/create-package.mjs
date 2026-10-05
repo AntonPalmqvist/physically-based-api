@@ -4,7 +4,7 @@ import { pipeline } from "node:stream/promises";
 import util from "node:util";
 import zlib from "node:zlib";
 
-const date = new Date().toISOString().split("T")[0];
+const date = Temporal.Now.zonedDateTimeISO().toPlainDate().toString();
 const outputFile = `Physically_Based_${date}.zip`;
 const tempFolder = "./tmp/";
 const doc = `    doc = "Generated with data from https://api.physicallybased.info on ${date}"\n`;
