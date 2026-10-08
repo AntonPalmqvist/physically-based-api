@@ -7,8 +7,7 @@
     "http": "http-server -o deploy",
     "http-v2": "http-server -o deploy/v2",
     "image-processor": "node scripts/image-processor.mjs",
-    "create-materialx": "node scripts/create-materialx.mjs",
-    "create-usd": "node scripts/create-usd.mjs",
+    "create-package": "node scripts/create-package.mjs",
     "prepare": "husky",
     "redocly-bundle": "redocly bundle schemas/components/schemas/Root.json -o schemas/openapi-schema-v2.json"
   },
@@ -23,13 +22,12 @@
   },
   "homepage": "https://api.physicallybased.info/",
   "devDependencies": {
-    "@biomejs/biome": "^2.5.11",
-    "@redocly/cli": "^2.49.0",
+    "@biomejs/biome": "^2.5.14",
+    "@redocly/cli": "^2.54.2",
     "@scalar/api-reference": "^1.67.0",
-    "adm-zip": "^0.5.18",
     "http-server": "^14.1.1",
     "husky": "^9.1.7",
-    "lint-staged": "^17.4.1",
+    "lint-staged": "^17.5.1",
     "sharp": "^0.35.4"
   },
   "lint-staged": {

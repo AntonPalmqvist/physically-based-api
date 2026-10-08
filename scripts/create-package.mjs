@@ -1,11 +1,16 @@
 import fs from "node:fs";
+import path from "node:path";
+import { pipeline } from "node:stream/promises";
 import util from "node:util";
-import AdmZip from "adm-zip";
+import zlib from "node:zlib";
 
-const date = new Date().toISOString().split("T")[0];
+const date = Temporal.Now.zonedDateTimeISO().toPlainDate().toString();
 const outputFile = `Physically_Based_${date}.zip`;
 const tempFolder = "./tmp/";
 const doc = `    doc = "Generated with data from https://api.physicallybased.info on ${date}"\n`;
+const materialxVersion = "1.39";
+const materialxTempFolder = "./tmp/mtlx/openpbr/";
+const docMaterialX = ` doc="Generated with data from https://api.physicallybased.info on ${date}"`;
 
 // Promisify the fs functions
 const readFile = util.promisify(fs.readFile);
@@ -133,6 +138,99 @@ async function processJson(file) {
 
 function replaceWithUnderscore(stringToReplace) {
   return stringToReplace.replace(/[\\/\()%º]/g, "").replace(/ |-|:|\./g, "_");
+}
+
+function createMaterialX() {
+  return new Promise((resolve, reject) => {
+    fs.readFile("./deploy/v2/materials.json", "utf8", (err, data) => {
+      if (err) {
+        console.error(err);
+        reject(err);
+        return;
+      }
+
+      // biome-ignore format: legibility
+      function makeMaterialX ( hit ) {
+        const baseColor = JSON.stringify(hit.color[0].color) !== JSON.stringify([0.8, 0.8, 0.8]) && !hit.transmission && !hit.subsurfaceRadius ? `    <input name="base_color" type="color3" value="${hit.color[0].color[0].toFixed(3)}, ${hit.color[0].color[1].toFixed(3)}, ${hit.color[0].color[2].toFixed(3)}" />\n` : "";
+        const metalness = hit.metalness > 0 ? `    <input name="base_metalness" type="float" value="${hit.metalness.toFixed(1)}" />\n` : "";
+        const specularColor = hit.specularColor ? `    <input name="specular_color" type="color3" value="${hit.specularColor[1].color[0].color[0]}, ${hit.specularColor[1].color[0].color[1]}, ${hit.specularColor[1].color[0].color[2]}" />\n` : "";
+        const roughness = hit.roughness !== 0.3 ? `    <input name="specular_roughness" type="float" value="${hit.roughness.toFixed(1)}" />\n` : "";
+        const specularIor = hit.ior && hit.metalness < 1 && hit.ior !== 1.5 ? `    <input name="specular_ior" type="float" value="${hit.ior.toFixed(2)}" />\n` : "";
+        const transmission = hit.transmission ? `    <input name="transmission_weight" type="float" value="${hit.transmission.toFixed(1)}" />\n` : "";
+        const transmissionColor = hit.transmission && JSON.stringify(hit.color[0].color) !== JSON.stringify([1, 1, 1]) ? `    <input name="transmission_color" type="color3" value="${hit.color[0].color[0].toFixed(3)}, ${hit.color[0].color[1].toFixed(3)}, ${hit.color[0].color[2].toFixed(3)}" />\n` : "";
+        const transmissionDepth = hit.transmissionDepth ? `    <input name="transmission_depth" type="float" value="${hit.transmissionDepth}" />\n` : "";
+        const transmissionDispersion = hit.transmissionDispersion ? `    <input name="transmission_dispersion_scale" type="float" value="1.0" />\n` : "";
+        const transmissionDispersionAbbeNumber = hit.transmissionDispersion ? `    <input name="transmission_dispersion_abbe_number" type="float" value="${hit.transmissionDispersion}" />\n` : "";
+        const subsurface = hit.subsurfaceRadius ? `    <input name="subsurface_weight" type="float" value="1.0" />\n` : "";  
+        const subsurfaceColor = hit.subsurfaceRadius ? `    <input name="subsurface_color" type="color3" value="${hit.color[0].color[0].toFixed(3)}, ${hit.color[0].color[1].toFixed(3)}, ${hit.color[0].color[2].toFixed(3)}" />\n` : "";
+        const subsurfaceRadiusScale = hit.subsurfaceRadius ? `    <input name="subsurface_radius_scale" type="color3" value="${hit.subsurfaceRadius[0]}, ${hit.subsurfaceRadius[1]}, ${hit.subsurfaceRadius[2]}" />\n` : "";
+        const thinFilmWeight = hit.thinFilmThickness ? `    <input name="thin_film_weight" type="float" value="1.0" />\n` : "";
+        const thinFilmThickness = hit.thinFilmThickness && hit.thinFilmThickness[2] ? `    <input name="thin_film_thickness" type="float" value="${hit.thinFilmThickness[2]/1000}" />\n` : hit.thinFilmThickness && hit.thinFilmThickness[0] ? `    <input name="thin_film_thickness" type="float" value="${hit.thinFilmThickness[0]/1000}" />\n` : "";  
+        const thinFilmIor = hit.thinFilmIor ? `    <input name="thin_film_ior" type="float" value="${hit.thinFilmIor.toFixed(2)}" />\n` : "";
+        const thinWalled = hit.thinFilmThickness && hit.transmission ? `    <input name="geometry_thin_walled" type="boolean" value="true" />\n` : "";
+        const xml =
+            // Commented lines are values that are not used and therefore removed to follow best practices for MaterialX "preset" functionality https://academysoftwarefdn.slack.com/archives/C0230LWBE2X/p1660682953141679?thread_ts=1660168970.997769&cid=C0230LWBE2X
+            '  <surfacematerial name="'+ replaceWithUnderscore(hit.name) +'" type="material">\n' +
+            '    <input name="surfaceshader" type="surfaceshader" nodename="open_pbr_surface_surfaceshader" />\n' +
+            '  </surfacematerial>\n' +
+            '  <open_pbr_surface name="open_pbr_surface_surfaceshader" type="surfaceshader">\n' +
+            baseColor +
+            //'    <input name="base_diffuse_roughness" type="float" value="0.0" />\n' +
+            metalness +
+            //'    <input name="specular_weight" type="float" value="1" />\n' +
+            specularColor +
+            roughness +
+            specularIor +
+            // '    <input name="specular_roughness_anisotropy" type="float" value="0" />\n' +
+            transmission +
+            transmissionColor +
+            transmissionDepth +
+            //'    <input name="transmission_scatter" type="color3" value="0, 0, 0" />\n' +
+            //'    <input name="transmission_scatter_anisotropy" type="float" value="0" />\n' +
+            transmissionDispersion +
+            transmissionDispersionAbbeNumber +
+            subsurface +
+            subsurfaceColor +
+            //'    <input name="subsurface_radius" type="float" value="1.0" />\n' +
+            subsurfaceRadiusScale +
+            //'    <input name="subsurface_scatter_anisotropy" type="float" value="0.0" />\n' +
+            //'    <input name="coat_color" type="color3" value="1, 1, 1" />\n' +
+            //'    <input name="coat_roughness_anisotropy" type="float" value="0.0" />\n' +
+            //'    <input name="coat_ior" type="float" value="1.6" />\n' +
+            //'    <input name="coat_darkening" type="float" value="1.0" />\n' +
+            thinFilmWeight +
+            thinFilmThickness +
+            thinFilmIor +
+            //'    <input name="geometry_opacity" type="float" value="1" />\n' +
+            thinWalled +
+            '  </open_pbr_surface>\n';
+      return (
+        '<?xml version="1.0"?>\n' +
+          '<materialx version="'+ materialxVersion +'" colorspace="lin_rec709"' + docMaterialX + '>\n' +
+        xml +
+        '</materialx>'
+      );
+  }
+      JSON.parse(data).data.forEach((element) => {
+        if (!fs.existsSync(materialxTempFolder)) {
+          fs.mkdirSync(materialxTempFolder, { recursive: true });
+        }
+        const fileName =
+          materialxTempFolder +
+          replaceWithUnderscore(element.name).toLowerCase() +
+          ".mtlx";
+        fs.writeFile(fileName, makeMaterialX(element), (err) => {
+          if (err) {
+            console.error(err);
+            reject(err);
+          } else {
+            console.log(`${fileName}  created`);
+            resolve();
+          }
+        });
+      });
+    });
+  });
 }
 
 function createCameras() {
@@ -427,28 +525,46 @@ function createLightsources() {
   });
 }
 
+async function* collectFiles(folder, prefix = "") {
+  for (const entry of await fs.promises.readdir(folder, {
+    withFileTypes: true,
+  })) {
+    const sourcePath = path.join(folder, entry.name);
+    const entryName = prefix ? `${prefix}/${entry.name}` : entry.name;
+    if (entry.isDirectory()) {
+      yield [sourcePath, entryName];
+      yield* collectFiles(sourcePath, entryName);
+    } else {
+      yield [sourcePath, entryName];
+    }
+  }
+}
+
 function zipFiles() {
-  const zip = new AdmZip();
-  zip.addLocalFolder(tempFolder);
-  zip.writeZip(outputFile);
+  return pipeline(
+    zlib.zipFiles(collectFiles(tempFolder)),
+    fs.createWriteStream(outputFile),
+  );
 }
 
 async function main() {
   try {
+    await createMaterialX();
     await createCameras();
     await createLightsources();
     await processJson("materials");
     await processJson("lightsources");
     await processJson("cameras");
-    zipFiles();
+    await zipFiles();
     console.log(`Created ${outputFile} successfully`);
-
+  } catch (err) {
+    console.error("An error occurred:", err);
+    process.exitCode = 1;
+  } finally {
     if (fs.existsSync(tempFolder)) {
       fs.rmSync(tempFolder, { recursive: true, force: true });
       console.log(`Deleted ${tempFolder} folder successfully`);
     }
-  } catch (err) {
-    console.error("An error occurred:", err);
   }
 }
 

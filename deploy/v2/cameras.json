@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Camera.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202609100853,
+    "updated": 202610071810,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/cameras",
     "deprecated": false
@@ -754,7 +754,7 @@
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
+          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
           "accessed": "2025-02-22"
         },
         {
@@ -832,7 +832,7 @@
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
+          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
           "accessed": "2025-02-22"
         },
         {
@@ -963,7 +963,7 @@
         {
           "title": "ALEXA LF | Camera Systems | ARRI",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/en/camera-systems/cameras/alexa-lf",
+          "url": "https://www.arri.com/en/cine-systems/cine-cameras/alexa-lf",
           "accessed": "2025-02-22"
         },
         {
@@ -976,7 +976,7 @@
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
+          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
           "accessed": "2025-02-22"
         },
         {
@@ -1098,13 +1098,13 @@
         {
           "title": "ALEXA Mini | Camera Systems | ARRI",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-mini",
+          "url": "https://www.arri.com/en/cine-systems/cine-cameras/legacy-cine-cameras/alexa-mini",
           "accessed": "2025-02-22"
         },
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
+          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
           "accessed": "2025-02-22"
         }
       ],
@@ -1222,7 +1222,7 @@
         {
           "title": "ALEXA Mini LF | Camera Systems | ARRI",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/en/camera-systems/cameras/alexa-mini-lf",
+          "url": "https://www.arri.com/en/cine-systems/cine-cameras/alexa-mini-lf",
           "accessed": "2025-02-22"
         },
         {
@@ -1235,7 +1235,7 @@
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
+          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
           "accessed": "2025-02-22"
         },
         {
@@ -1377,13 +1377,13 @@
         {
           "title": "ALEXA SXT W | Camera Systems | ARRI",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-sxt-w",
+          "url": "https://www.arri.com/en/cine-systems/cine-cameras/legacy-cine-cameras/alexa-sxt-w",
           "accessed": "2025-02-22"
         },
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
+          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
           "accessed": "2025-02-22"
         }
       ],
@@ -1459,13 +1459,13 @@
         {
           "title": "AMIRA | Camera Systems | ARRI",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/en/camera-systems/cameras/amira",
+          "url": "https://www.arri.com/en/cine-systems/cine-cameras/amira",
           "accessed": "2025-02-22"
         },
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/ad7422b94b9d7acbda1327d6df8c83a3/2025-02-arri-formatsandresolutionsoverview-v6-0-data.pdf",
+          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
           "accessed": "2025-02-22"
         }
       ],
@@ -1609,7 +1609,7 @@
         {
           "title": "Blackmagic Pocket Cinema Camera 6K Pro Technical Specifications",
           "publisher": "Blackmagic Design Pty. Ltd.",
-          "url": "https://www.blackmagicdesign.com/products/blackmagicpocketcinemacamera/techspecs/W-CIN-15",
+          "url": "https://www.blackmagicdesign.com/products/blackmagicpocketcinemacamera/techspecs/W-CIN-16",
           "accessed": "2025-02-22"
         }
       ],
@@ -2729,6 +2729,71 @@
     },
     {
       "make": "Canon",
+      "model": "EOS R5 C",
+      "sensorSize": [
+        {
+          "format": "Full Frame",
+          "size": [36, 19],
+          "resolution": [
+            {
+              "format": "Full Frame RAW",
+              "size": [8192, 4320]
+            }
+          ]
+        },
+        {
+          "format": "Super 35mm (Cropped)",
+          "size": [24.7, 13],
+          "resolution": [
+            {
+              "format": "Super 35mm (Cropped) RAW",
+              "size": [5952, 3140]
+            }
+          ]
+        },
+        {
+          "format": "Super 16mm (Cropped)",
+          "size": [12.3, 6.5],
+          "resolution": [
+            {
+              "format": "Super 16mm (Cropped) RAW",
+              "size": [2976, 1570]
+            }
+          ]
+        }
+      ],
+      "category": ["Still"],
+      "references": [
+        {
+          "title": "Canon EOS R5 C",
+          "publisher": "Canon U.S.A., Inc.",
+          "url": "https://www.usa.canon.com/shop/p/eos-r5-c",
+          "accessed": "2026-10-05"
+        },
+        {
+          "title": "EOS R5 C Advanced User Guide (VIDEO edition)",
+          "publisher": "Canon U.S.A., Inc.",
+          "url": "https://gdlp01.c-wss.com/gds/5/0300043545/10/eosr5c-aug11-video-en.pdf",
+          "accessed": "2026-10-05"
+        },
+        {
+          "title": "Canon EOS R5",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Canon_EOS_R5&oldid=1353453624",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-10-05"
+        },
+        {
+          "title": "Cameras & Image Capture: Requirements & Best Practices",
+          "publisher": "Netflix, Inc.",
+          "url": "https://studiopartner.netflix.net/studio/branded-cameras-and-image-capture",
+          "accessed": "2026-10-05"
+        }
+      ],
+      "tags": ["full frame", "mirrorless", "netflix"]
+    },
+    {
+      "make": "Canon",
       "model": "EOS R5 Mark II",
       "sensorSize": [
         {
@@ -2920,6 +2985,42 @@
           "publisher": "Canon U.S.A., Inc.",
           "url": "https://s7d1.scene7.com/is/content/canon/EOS-R6-V-specsheet-finalpdf",
           "accessed": "2026-05-13"
+        }
+      ],
+      "tags": ["full frame", "mirrorless"]
+    },
+    {
+      "make": "Canon",
+      "model": "EOS R8 Mark II",
+      "sensorSize": [
+        {
+          "format": "Full Frame",
+          "size": [36, 24],
+          "resolution": [
+            {
+              "format": "4K 16:9",
+              "size": [3840, 2160]
+            },
+            {
+              "format": "2K 16:9",
+              "size": [1920, 1080]
+            }
+          ]
+        }
+      ],
+      "category": ["Still"],
+      "references": [
+        {
+          "title": "EOS R6 Mark V",
+          "publisher": "Canon U.S.A., Inc.",
+          "url": "https://www.usa.canon.com/shop/p/eos-r8",
+          "accessed": "2026-10-07"
+        },
+        {
+          "title": "Product Manual EOS R8",
+          "publisher": "Canon U.S.A., Inc.",
+          "url": "https://cam.start.canon/en/C013/manual/html/UG-04_Shooting-2_0040.html",
+          "accessed": "2026-10-07"
         }
       ],
       "tags": ["full frame", "mirrorless"]
@@ -3122,7 +3223,7 @@
         },
         {
           "title": "HASSELBLAD L2D-20",
-          "url": "https://www.hasselblad.com/collaborations/dji-mavic-3-pro",
+          "url": "https://web.archive.org/web/20260807135326/https://www.hasselblad.com/collaborations/dji-mavic-3-pro/",
           "publisher": "Hasselblad",
           "accessed": "2026-02-10"
         },
@@ -3196,7 +3297,7 @@
         },
         {
           "title": "Hasselblad L3D-100C",
-          "url": "https://www.hasselblad.com/collaborations/dji-mavic-4-pro/",
+          "url": "https://web.archive.org/web/20260509130143/https://www.hasselblad.com/collaborations/dji-mavic-4-pro/",
           "publisher": "Hasselblad",
           "accessed": "2025-09-28"
         },
@@ -3788,12 +3889,6 @@
           "publisher": "FUJIFILM Holdings America Corporation",
           "url": "https://www.fujifilm-x.com/en-us/products/cameras/gfx-eterna-55/specifications/",
           "accessed": "2025-09-14"
-        },
-        {
-          "title": "Fujifilm Unveils the Development of its First Digital Filmmaking Camera - FUJIFILM GFX ETERNA",
-          "publisher": "FUJIFILM Holdings America Corporation",
-          "url": "https://www.fujifilm.com/us/en/news/digital-cameras/fujifilm-first-digital-filmmaking-camera-gfx-eterna",
-          "accessed": "2025-02-22"
         },
         {
           "title": "Fujifilm's putting the GFX100 II's massive sensor into its first cinema camera",
@@ -8623,7 +8718,7 @@
         },
         {
           "title": "Komodo 6K Product Page",
-          "url": "https://www.red.com/komodo",
+          "url": "https://www.reddigitalcinema.com/komodo",
           "publisher": "RED.COM, LLC.",
           "accessed": "2025-02-22"
         },
@@ -10402,7 +10497,7 @@
         },
         {
           "title": "V-RAPTOR Product Page",
-          "url": "https://www.red.com/v-raptor",
+          "url": "https://www.reddigitalcinema.com/v-raptor",
           "publisher": "RED.COM, LLC.",
           "accessed": "2025-02-22"
         },
@@ -11408,20 +11503,72 @@
       "model": "FX5",
       "sensorSize": [
         {
-          "format": "Open Gate FF 5K",
+          "format": "FF 5K 3:2",
           "size": [35.9, 24],
           "resolution": [
             {
-              "format": "5K 3:2",
+              "format": "FF 5K 3:2",
               "size": [4992, 3328]
-            },
+            }
+          ]
+        },
+        {
+          "format": "FF 5K 16:9",
+          "size": [35.9, 20.2],
+          "resolution": [
             {
-              "format": "5K 16:9",
+              "format": "FF 5K 16:9",
               "size": [4992, 2808]
-            },
+            }
+          ]
+        },
+        {
+          "format": "FF 5K 17:9",
+          "size": [35.9, 19],
+          "resolution": [
             {
-              "format": "5K 17:9",
+              "format": "FF 5K 17:9",
               "size": [4992, 2632]
+            }
+          ]
+        },
+        {
+          "format": "FFc 4.5K 16:9",
+          "size": [32.7, 18.4],
+          "resolution": [
+            {
+              "format": "FFc 4.5K 16:9",
+              "size": [4552, 2560]
+            }
+          ]
+        },
+        {
+          "format": "FFc 4.5K 17:9",
+          "size": [32.8, 17.3],
+          "resolution": [
+            {
+              "format": "FFc 4.5K 17:9",
+              "size": [4552, 2400]
+            }
+          ]
+        },
+        {
+          "format": "FFc 3.8K 16:9",
+          "size": [27.6, 15.6],
+          "resolution": [
+            {
+              "format": "FFc 3.8K 16:9",
+              "size": [3840, 2160]
+            }
+          ]
+        },
+        {
+          "format": "S35 3.2K 16:9",
+          "size": [23.5, 13.2],
+          "resolution": [
+            {
+              "format": "S35 3.2K 16:9",
+              "size": [3264, 1836]
             }
           ]
         }
@@ -11433,6 +11580,12 @@
           "url": "https://electronics.sony.com/imaging/cinema-line-cameras/all-cinema-line-cameras/p/ilmefx5b",
           "publisher": "SONY ELECTRONICS INC.",
           "accessed": "2026-07-24"
+        },
+        {
+          "title": "ILME-FX5/ILME-FX5B Help Guide ",
+          "url": "https://helpguide.sony.net/ilc/2630/v1/en/contents/basic_action.html",
+          "publisher": "SONY ELECTRONICS INC.",
+          "accessed": "2026-10-04"
         }
       ],
       "tags": ["full frame"]
