@@ -20,7 +20,7 @@ A database of physically based values for CG artists.
 - Lightweight: The entire dataset is optimized for quick loading and integration as presets
   - [materials.json](deploy/v2/materials.json) `215 KB`
   - [lightsources.json](deploy/v2/lightsources.json) `46 KB`
-  - [cameras.json](deploy/v2/cameras.json) `173 KB`
+  - [cameras.json](deploy/v2/cameras.json) `178 KB`
   - [lenses.json](deploy/v2/lenses.json) (coming in v2.3)
 - API Access: Connect your tools to the API to get the latest updates from the database
 - Community-Driven: Contribute new materials or improve existing ones
@@ -39,7 +39,7 @@ Explore the database through these implementations:
 - Web [Materially](https://artofpilgrim.github.io/materially/) by [Pilgrim](https://www.artstation.com/art_of_pilgrim)
 - Web [MaterialXLab](https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html) by [kwokcb](https://github.com/kwokcb)
 - Web [Physically Based](https://physicallybased.info) by [AntonPalmqvist](https://github.com/AntonPalmqvist)
-- Web [Three.js GPU Path Tracer](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [gkjohnson](https://github.com/gkjohnson)
+- Web [Three.js GPU Path Tracer](https://gkjohnson.github.io/three-gpu-pathtracer/materialOrb.html) by [gkjohnson](https://github.com/gkjohnson)
 
 ### Contribute
 
