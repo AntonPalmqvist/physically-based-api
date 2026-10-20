@@ -246,7 +246,23 @@
           "category",
           "references",
           "images"
-        ]
+        ],
+        "if": {
+          "properties": {
+            "metalness": {
+              "const": 1
+            }
+          },
+          "required": ["metalness"]
+        },
+        "then": {
+          "not": {
+            "required": ["ior"]
+          }
+        },
+        "else": {
+          "required": ["ior"]
+        }
       }
     }
   },

@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202610201217,
+    "updated": 202610201254,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/materials",
     "deprecated": false
@@ -1214,7 +1214,7 @@
           "accessed": "2026-03-07"
         },
         {
-          "title": "Solids - Densities ",
+          "title": "Solids - Densities",
           "url": "https://www.engineeringtoolbox.com/density-solids-d_1265.html",
           "publisher": "The Engineering ToolBox",
           "accessed": "2026-03-07"
@@ -1277,7 +1277,6 @@
       ],
       "metalness": 1,
       "roughness": 0.3,
-      "ior": 1.5,
       "density": [6800, 7800],
       "category": ["Manmade"],
       "references": [
@@ -2471,7 +2470,7 @@
           "publisher": "Contact Lens and Anterior Eye",
           "volume": "42",
           "issue": "5",
-          "pages": "575--580 ",
+          "pages": "575--580",
           "year": "2019",
           "doi": "https://doi.org/10.1016/j.clae.2019.04.018"
         }
@@ -2519,7 +2518,7 @@
           "publisher": "Ophthalmic Research",
           "volume": "26",
           "issue": "1",
-          "pages": "32--35 ",
+          "pages": "32--35",
           "year": "1994",
           "doi": "https://doi.org/10.1159/000267371"
         }
@@ -3173,7 +3172,7 @@
           "author": "Tomasik, P. (Ed.)",
           "url": "https://www.taylorfrancis.com/books/mono/10.1201/9780203495728/chemical-functional-properties-food-saccharides-piotr-tomasik",
           "publisher": "CRC Press",
-          "pages": "74 ",
+          "pages": "74",
           "year": "2003",
           "doi": "https://doi.org/10.1201/9780203495728"
         },
@@ -3191,7 +3190,7 @@
           "accessed": "2025-01-26"
         },
         {
-          "title": "Viscosity - Absolute (Dynamic) vs. Kinematic ",
+          "title": "Viscosity - Absolute (Dynamic) vs. Kinematic",
           "url": "https://www.engineeringtoolbox.com/dynamic-absolute-kinematic-viscosity-d_412.html",
           "publisher": "The Engineering ToolBox",
           "accessed": "2025-01-26"
@@ -3271,7 +3270,7 @@
           "accessed": "2025-01-26"
         },
         {
-          "title": "Viscosity - Absolute (Dynamic) vs. Kinematic ",
+          "title": "Viscosity - Absolute (Dynamic) vs. Kinematic",
           "url": "https://www.engineeringtoolbox.com/dynamic-absolute-kinematic-viscosity-d_412.html",
           "publisher": "The Engineering ToolBox",
           "accessed": "2025-01-26"
@@ -4449,7 +4448,7 @@
           "accessed": "2025-01-26"
         },
         {
-          "title": "Minerals - Densities ",
+          "title": "Minerals - Densities",
           "url": "https://www.engineeringtoolbox.com/mineral-density-d_1555.html",
           "publisher": "The Engineering ToolBox",
           "accessed": "2025-01-26"
@@ -5344,7 +5343,7 @@
       "density": [1180],
       "category": ["Plastic"],
       "group": "Plastic",
-      "tags": ["PMMA", "plexi", "polymethyl methacrylate"],
+      "tags": ["pmma", "plexi", "polymethyl methacrylate"],
       "references": [
         {
           "title": "Poly(methyl Methacrylate)",
@@ -8205,7 +8204,7 @@
           "accessed": "2025-01-26"
         },
         {
-          "title": "Water - Dynamic (Absolute) and Kinematic Viscosity vs. Temperature and Pressure ",
+          "title": "Water - Dynamic (Absolute) and Kinematic Viscosity vs. Temperature and Pressure",
           "url": "https://www.engineeringtoolbox.com/water-dynamic-kinematic-viscosity-d_596.html",
           "publisher": "The Engineering ToolBox",
           "accessed": "2025-01-26"
