@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202610110901,
+    "updated": 202610201217,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/materials",
     "deprecated": false
@@ -64,6 +64,7 @@
       ],
       "density": [2700],
       "category": ["Metal"],
+      "group": "Aluminum",
       "tags": ["aluminium", "mirror"],
       "references": [
         {
@@ -171,6 +172,7 @@
       ],
       "density": [2700],
       "category": ["Metal"],
+      "group": "Aluminum",
       "description": "Aluminum can be colorized by a process called anodization. It creates a layer of aluminum oxide by supplying different voltages which results in different thickness. Unlike titanium, aluminum doesn't get vivid colors from anodization so dyes are used to color it further.",
       "tags": ["aluminium"],
       "references": [
@@ -626,6 +628,7 @@
       "viscosity": [2.35, 4, 2.78],
       "surfaceTension": 56,
       "category": ["Human"],
+      "group": "Blood",
       "description": "The color of blood depends on its oxygen level. When hemoglobin has a full oxygen load, it has a bright red color, and when it's deoxygenated it's a darker red. For example, arterial and capillary blood is bright, and venous blood is dark. Upon exposure to air, deoxygenated blood quickly oxygenates and turns a brighter shade of red.",
       "tags": ["liquid"],
       "references": [
@@ -773,6 +776,7 @@
       "viscosity": [2.35, 4, 2.78],
       "surfaceTension": 56,
       "category": ["Human"],
+      "group": "Blood",
       "description": "The color of blood depends on its oxygen level. When hemoglobin has a full oxygen load, it has a bright red color, and when it's deoxygenated it's a darker red. For example, arterial and capillary blood is bright, and venous blood is dark. Upon exposure to air, deoxygenated blood quickly oxygenates and turns a brighter shade of red.",
       "tags": ["liquid"],
       "references": [
@@ -2310,6 +2314,7 @@
       "roughness": 0.9,
       "ior": 1.5,
       "category": ["Organic"],
+      "group": "Egg",
       "description": "Brown hen egg from grocery store.",
       "references": [
         {
@@ -2352,6 +2357,7 @@
       "roughness": 0.9,
       "ior": 1.5,
       "category": ["Organic"],
+      "group": "Egg",
       "description": "White hen egg from grocery store.",
       "references": [
         {
@@ -2449,6 +2455,7 @@
       "ior": 1.376,
       "transmission": 1,
       "category": ["Human"],
+      "group": "Eye",
       "references": [
         {
           "title": "Cornea",
@@ -2495,6 +2502,7 @@
       "ior": 1.386,
       "transmission": 1,
       "category": ["Human"],
+      "group": "Eye",
       "description": "The refractive index of human lens varies from approximately 1.406 in the central layers down to 1.386 in less dense layers of the lens. This index gradient enhances the optical power of the lens.",
       "references": [
         {
@@ -2542,6 +2550,7 @@
       "ior": 1.4,
       "subsurfaceRadius": [0.482, 0.169, 0.109],
       "category": ["Human"],
+      "group": "Eye",
       "references": [
         {
           "title": "Optical properties of human sclera in spectral range 370-2500 nm",
@@ -2780,6 +2789,7 @@
       "acousticAbsorption": [0.04, 0.04, 0.03, 0.03, 0.02, 0.02],
       "description": "Borosilicate glass has numerous advantages over regular soda-lime glass, including having a higher clarity (transparency). Borosilicate is generally slightly more expensive than soda-lime glass.",
       "category": ["Crystal"],
+      "group": "Glass",
       "references": [
         {
           "title": "Refractive index database",
@@ -2875,6 +2885,7 @@
       "acousticAbsorption": [0.04, 0.04, 0.03, 0.03, 0.02, 0.02],
       "description": "Soda-lime glass is the most prevelant type of glass made, and accounts for about 90% of manufactured glass. It's used for windowpanes and glass containers (bottles and jars) for beverages, food, and some commodity items.",
       "category": ["Crystal"],
+      "group": "Glass",
       "references": [
         {
           "title": "Refractive index database",
@@ -3134,6 +3145,7 @@
       "density": [1380, 1450, 1400],
       "viscosity": [2000, 15000, 15000],
       "category": ["Organic"],
+      "group": "Honey",
       "description": "Variations in its water content alter its refractive index. Typically, the refractive index for honey ranges from 1.504 at 13% water content to 1.474 at 25%. Fresh honey is liquid and clear but with time it crystallizes and becomes thicker and less clear. The crystallization depends on temperature and the ratio of glucose and fructose.",
       "references": [
         {
@@ -3213,6 +3225,7 @@
       "density": [1380, 1450, 1400],
       "viscosity": [2000, 15000, 10000],
       "category": ["Liquid"],
+      "group": "Honey",
       "description": "Variations in its water content alter its refractive index. Typically, the refractive index for honey ranges from 1.504 at 13% water content to 1.474 at 25%. Fresh honey is liquid and clear but with time it crystallizes and becomes thicker and less clear. The crystallization depends on temperature and the ratio of glucose and fructose.",
       "references": [
         {
@@ -3592,6 +3605,7 @@
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
       "category": ["Liquid"],
+      "group": "Juice",
       "references": [
         {
           "title": "Acquiring Scattering Properties Of Participating Media By Dilution",
@@ -3655,6 +3669,7 @@
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
       "category": ["Liquid"],
+      "group": "Juice",
       "references": [
         {
           "title": "Acquiring Scattering Properties Of Participating Media By Dilution",
@@ -3718,6 +3733,7 @@
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
       "category": ["Liquid"],
+      "group": "Juice",
       "references": [
         {
           "title": "Acquiring Scattering Properties Of Participating Media By Dilution",
@@ -3781,6 +3797,7 @@
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
       "category": ["Liquid"],
+      "group": "Juice",
       "references": [
         {
           "title": "Acquiring Scattering Properties Of Participating Media By Dilution",
@@ -3844,6 +3861,7 @@
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
       "category": ["Liquid"],
+      "group": "Juice",
       "references": [
         {
           "title": "Acquiring Scattering Properties Of Participating Media By Dilution",
@@ -5325,6 +5343,7 @@
       "transmissionDispersion": 53.18,
       "density": [1180],
       "category": ["Plastic"],
+      "group": "Plastic",
       "tags": ["PMMA", "plexi", "polymethyl methacrylate"],
       "references": [
         {
@@ -5369,6 +5388,7 @@
       "transmissionDispersion": 27.86,
       "density": [1200],
       "category": ["Plastic"],
+      "group": "Plastic",
       "tags": ["polycarbonate"],
       "references": [
         {
@@ -5412,6 +5432,7 @@
       "transmission": 1,
       "density": [1380],
       "category": ["Plastic"],
+      "group": "Plastic",
       "tags": ["polyethylene terephthalate"],
       "references": [
         {
@@ -5455,6 +5476,7 @@
       "transmission": 1,
       "density": [1210, 1430],
       "category": ["Plastic"],
+      "group": "Plastic",
       "tags": ["polylactic acid"],
       "references": [
         {
@@ -5498,6 +5520,7 @@
       "transmission": 1,
       "density": [855, 946, 900],
       "category": ["Plastic"],
+      "group": "Plastic",
       "tags": ["polypropylene"],
       "references": [
         {
@@ -5546,6 +5569,7 @@
       "transmission": 1,
       "density": [1050, 1250],
       "category": ["Plastic"],
+      "group": "Plastic",
       "description": "Modern car paints are nearly always an acrylic polyurethane \"enamel\" with a pigmented basecoat and a clear topcoat. It may be described as \"acrylic\", \"acrylic enamel\", \"urethane\", etc. and the clearcoat in particular may be described as a lacquer.",
       "tags": ["acrylic", "coat", "car paint", "lacquer", "polyurethane"],
       "references": [
@@ -5615,6 +5639,7 @@
       "transmission": 1,
       "density": [1100, 1450, 1300],
       "category": ["Plastic"],
+      "group": "Plastic",
       "tags": ["polyvinyl chloride"],
       "references": [
         {
@@ -7497,6 +7522,7 @@
       ],
       "density": [4540],
       "category": ["Metal"],
+      "group": "Titanium",
       "references": [
         {
           "title": "Refractive index database",
@@ -7591,6 +7617,7 @@
       "thinFilmIor": 2.488,
       "thinFilmThickness": [20, 300],
       "category": ["Metal"],
+      "group": "Titanium",
       "description": "Titanium can be colorized by a process called anodization. It creates a layer of titanium dioxide by supplying different voltages which results in different thickness and color. Additional colors can be achieved by adding dyes.",
       "references": [
         {
@@ -8309,6 +8336,7 @@
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
       "category": ["Liquid"],
+      "group": "Wine",
       "references": [
         {
           "title": "Acquiring Scattering Properties Of Participating Media By Dilution",
@@ -8372,6 +8400,7 @@
       "density": [958, 1000, 1000],
       "viscosity": [1.002],
       "category": ["Liquid"],
+      "group": "Wine",
       "references": [
         {
           "title": "Acquiring Scattering Properties Of Participating Media By Dilution",
