@@ -639,12 +639,30 @@
                 "not": {
                   "required": [
                     "ior"
+                  ],
+                  "allOf": [
+                    {
+                      "properties": {
+                        "ior": {
+                          "type": "number"
+                        }
+                      }
+                    }
                   ]
                 }
               },
               "else": {
                 "required": [
                   "ior"
+                ],
+                "allOf": [
+                  {
+                    "properties": {
+                      "ior": {
+                        "type": "number"
+                      }
+                    }
+                  }
                 ]
               }
             }

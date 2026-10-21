@@ -257,11 +257,25 @@
         },
         "then": {
           "not": {
-            "required": ["ior"]
+            "required": ["ior"],
+            "allOf": [
+              {
+                "properties": {
+                  "ior": { "type": "number" }
+                }
+              }
+            ]
           }
         },
         "else": {
-          "required": ["ior"]
+          "required": ["ior"],
+          "allOf": [
+            {
+              "properties": {
+                "ior": { "type": "number" }
+              }
+            }
+          ]
         }
       }
     }
