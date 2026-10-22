@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Lightsource.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202609010742,
+    "updated": 202610211912,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/lightsources",
     "deprecated": false
@@ -95,7 +95,7 @@
       "name": "Aputure STORM 1000c",
       "variants": [
         {
-          "format": "15º Reflector",
+          "format": "No Reflector",
           "color": [
             {
               "colorSpace": "srgb-linear",
@@ -104,21 +104,8 @@
           ],
           "temperature": [1800, 20000, 5600],
           "sourceSize": [4],
-          "angle": 15,
-          "intensity": [32671]
-        },
-        {
-          "format": "30º Reflector",
-          "color": [
-            {
-              "colorSpace": "srgb-linear",
-              "color": [1.0, 0.859, 0.778]
-            }
-          ],
-          "temperature": [1800, 20000, 5600],
-          "sourceSize": [4],
-          "angle": 30,
-          "intensity": [56389]
+          "angle": 65,
+          "intensity": [78096]
         },
         {
           "format": "45º Reflector",
@@ -134,7 +121,7 @@
           "intensity": [67377]
         },
         {
-          "format": "No Reflector",
+          "format": "30º Reflector",
           "color": [
             {
               "colorSpace": "srgb-linear",
@@ -143,8 +130,21 @@
           ],
           "temperature": [1800, 20000, 5600],
           "sourceSize": [4],
-          "angle": 65,
-          "intensity": [78096]
+          "angle": 30,
+          "intensity": [56389]
+        },
+        {
+          "format": "15º Reflector",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.859, 0.778]
+            }
+          ],
+          "temperature": [1800, 20000, 5600],
+          "sourceSize": [4],
+          "angle": 15,
+          "intensity": [32671]
         }
       ],
       "unit": ["lm"],
@@ -169,7 +169,7 @@
       "name": "Aputure STORM 1200x",
       "variants": [
         {
-          "format": "15º Reflector",
+          "format": "No Reflector",
           "color": [
             {
               "colorSpace": "srgb-linear",
@@ -178,21 +178,8 @@
           ],
           "temperature": [2500, 10000, 5600],
           "sourceSize": [4],
-          "angle": 15,
-          "intensity": [47095]
-        },
-        {
-          "format": "30º Reflector",
-          "color": [
-            {
-              "colorSpace": "srgb-linear",
-              "color": [1.0, 0.859, 0.778]
-            }
-          ],
-          "temperature": [2500, 10000, 5600],
-          "sourceSize": [4],
-          "angle": 30,
-          "intensity": [84854]
+          "angle": 70,
+          "intensity": [117678]
         },
         {
           "format": "45º Reflector",
@@ -208,7 +195,7 @@
           "intensity": [109150]
         },
         {
-          "format": "No Reflector",
+          "format": "30º Reflector",
           "color": [
             {
               "colorSpace": "srgb-linear",
@@ -217,8 +204,22 @@
           ],
           "temperature": [2500, 10000, 5600],
           "sourceSize": [4],
-          "angle": 70,
-          "intensity": [117678]
+          "angle": 30,
+          "intensity": [84854]
+        },
+
+        {
+          "format": "15º Reflector",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.859, 0.778]
+            }
+          ],
+          "temperature": [2500, 10000, 5600],
+          "sourceSize": [4],
+          "angle": 15,
+          "intensity": [47095]
         }
       ],
       "unit": ["lm"],
@@ -243,7 +244,7 @@
       "name": "Arri M-Series M8",
       "variants": [
         {
-          "format": "Spot",
+          "format": "Flood",
           "color": [
             {
               "colorSpace": "srgb-linear",
@@ -252,9 +253,10 @@
           ],
           "temperature": [6000],
           "sourceSize": [11.5],
-          "angle": 15,
-          "intensity": [22053]
+          "angle": 60,
+          "intensity": [43249]
         },
+
         {
           "format": "Medium",
           "color": [
@@ -269,7 +271,7 @@
           "intensity": [31671]
         },
         {
-          "format": "Flood",
+          "format": "Spot",
           "color": [
             {
               "colorSpace": "srgb-linear",
@@ -278,8 +280,8 @@
           ],
           "temperature": [6000],
           "sourceSize": [11.5],
-          "angle": 60,
-          "intensity": [43249]
+          "angle": 15,
+          "intensity": [22053]
         }
       ],
       "unit": ["lm"],
@@ -837,19 +839,6 @@
       "name": "Car Headlight",
       "variants": [
         {
-          "format": "Halogen",
-          "color": [
-            {
-              "colorSpace": "srgb-linear",
-              "color": [1.0, 0.553, 0.237]
-            }
-          ],
-          "temperature": [3400, 4000],
-          "intensity": [1000, 2000, 1500],
-          "sourceSize": [5],
-          "angle": 15
-        },
-        {
           "format": "LED",
           "color": [
             {
@@ -859,6 +848,19 @@
           ],
           "temperature": [5000, 6000],
           "intensity": [2000, 5000, 3000],
+          "sourceSize": [5],
+          "angle": 15
+        },
+        {
+          "format": "Halogen",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.553, 0.237]
+            }
+          ],
+          "temperature": [3400, 4000],
+          "intensity": [1000, 2000, 1500],
           "sourceSize": [5],
           "angle": 15
         }
@@ -1440,7 +1442,7 @@
       ]
     },
     {
-      "name": "ROE Carbon Carbon CB5 MKII",
+      "name": "ROE Carbon CB5 MKII",
       "variants": [
         {
           "format": "RGBCA",
@@ -1502,6 +1504,17 @@
           "description": "Shade illuminated by entire clear blue sky at midday"
         },
         {
+          "format": "Overcast Day",
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [1.0, 0.943, 0.992]
+            }
+          ],
+          "temperature": [6500],
+          "intensity": [100, 2000, 2000]
+        },
+        {
           "format": "Moonless Clear Night",
           "color": [
             {
@@ -1512,17 +1525,6 @@
           "temperature": [6500],
           "intensity": [0.002],
           "description": "Even a moonless sky casts some light on earth. A phenomenon called airglow, and also starlight, contributes to this. The color of airglow varies"
-        },
-        {
-          "format": "Overcast Day",
-          "color": [
-            {
-              "colorSpace": "srgb-linear",
-              "color": [1.0, 0.943, 0.992]
-            }
-          ],
-          "temperature": [6500],
-          "intensity": [100, 2000, 2000]
         }
       ],
       "unit": ["lx"],
