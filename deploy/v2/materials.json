@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202610222010,
+    "updated": 202610222055,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/materials",
     "deprecated": false
@@ -263,7 +263,7 @@
       "color": [
         {
           "colorSpace": "srgb-linear",
-          "color": [0.03, 0.42, 0.6]
+          "color": [0.03, 0.41, 0.6]
         },
         {
           "colorSpace": "acescg",
