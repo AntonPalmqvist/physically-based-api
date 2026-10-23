@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202610201254,
+    "updated": 202610222010,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/materials",
     "deprecated": false
@@ -113,6 +113,716 @@
           "format": "avif",
           "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/aluminum.avif",
           "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum.avif"
+        }
+      ]
+    },
+    {
+      "name": "Aluminum (Anodized Black)",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.05, 0.05, 0.05]
+        },
+        {
+          "colorSpace": "acescg",
+          "color": [0.05, 0.05, 0.05]
+        }
+      ],
+      "metalness": 1,
+      "specularColor": [
+        {
+          "format": ["Gulbrandsen"],
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.989, 0.989, 0.972]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.985, 0.989, 0.993]
+            }
+          ]
+        },
+        {
+          "format": ["F82"],
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.91, 0.936, 0.959]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.921, 0.934, 0.955]
+            }
+          ]
+        }
+      ],
+      "roughness": 0.3,
+      "complexIor": [
+        {
+          "colorSpace": "srgb-linear",
+          "n": [0.728978, 0.588215, 0.78354],
+          "k": [6.45971, 5.19646, 4.37746]
+        },
+        {
+          "colorSpace": "acescg",
+          "n": [0.73826, 0.58846, 0.401312],
+          "k": [5.76125, 5.26448, 4.35851]
+        }
+      ],
+      "density": [2700],
+      "category": ["Metal"],
+      "group": "Aluminum",
+      "description": "Aluminum can be colorized by a process called anodization. It creates a layer of aluminum oxide by supplying different voltages which results in different thickness. Unlike titanium, aluminum doesn't get vivid colors from anodization so dyes are used to color it further.",
+      "tags": ["aluminium"],
+      "references": [
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=main&book=Al&page=Cheng",
+          "accessed": "2025-06-26"
+        },
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=main&book=Al2O3&page=Hagemann",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
+        },
+        {
+          "title": "Aluminium",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Aluminium&oldid=1271633189",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Density",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Mirror",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Mirror&oldid=1268984936",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Aluminium oxide",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Aluminium_oxide&oldid=1336992644",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "Anodizing",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Anodizing&oldid=1334964855#Aluminium",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "Anodizing Color Chart",
+          "author": "Ruan, B.",
+          "publisher": "Beska LLC",
+          "url": "https://www.beskamold.com/anodizing-color-chart/",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "What Is the Anodizing Process for Aluminum and Why Is It Used",
+          "publisher": "WUXI SEATHER TECHNOLOGY CO., LTD.",
+          "url": "https://seathertechnology.com/anodizing-process-for-aluminum-benefits-applications/",
+          "accessed": "2026-02-07"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/aluminum-anodized-black.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum-anodized-black.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/aluminum-anodized-black.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum-anodized-black.avif"
+        }
+      ]
+    },
+    {
+      "name": "Aluminum (Anodized Blue)",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.03, 0.42, 0.6]
+        },
+        {
+          "colorSpace": "acescg",
+          "color": [0.18942, 0.39505, 0.56853]
+        }
+      ],
+      "metalness": 1,
+      "specularColor": [
+        {
+          "format": ["Gulbrandsen"],
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.989, 0.989, 0.972]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.985, 0.989, 0.993]
+            }
+          ]
+        },
+        {
+          "format": ["F82"],
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.91, 0.936, 0.959]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.921, 0.934, 0.955]
+            }
+          ]
+        }
+      ],
+      "roughness": 0.3,
+      "complexIor": [
+        {
+          "colorSpace": "srgb-linear",
+          "n": [0.728978, 0.588215, 0.78354],
+          "k": [6.45971, 5.19646, 4.37746]
+        },
+        {
+          "colorSpace": "acescg",
+          "n": [0.73826, 0.58846, 0.401312],
+          "k": [5.76125, 5.26448, 4.35851]
+        }
+      ],
+      "density": [2700],
+      "category": ["Metal"],
+      "group": "Aluminum",
+      "description": "Aluminum can be colorized by a process called anodization. It creates a layer of aluminum oxide by supplying different voltages which results in different thickness. Unlike titanium, aluminum doesn't get vivid colors from anodization so dyes are used to color it further.",
+      "tags": ["aluminium"],
+      "references": [
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=main&book=Al&page=Cheng",
+          "accessed": "2025-06-26"
+        },
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=main&book=Al2O3&page=Hagemann",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
+        },
+        {
+          "title": "Aluminium",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Aluminium&oldid=1271633189",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Density",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Mirror",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Mirror&oldid=1268984936",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Aluminium oxide",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Aluminium_oxide&oldid=1336992644",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "Anodizing",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Anodizing&oldid=1334964855#Aluminium",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "Anodizing Color Chart",
+          "author": "Ruan, B.",
+          "publisher": "Beska LLC",
+          "url": "https://www.beskamold.com/anodizing-color-chart/",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "What Is the Anodizing Process for Aluminum and Why Is It Used",
+          "publisher": "WUXI SEATHER TECHNOLOGY CO., LTD.",
+          "url": "https://seathertechnology.com/anodizing-process-for-aluminum-benefits-applications/",
+          "accessed": "2026-02-07"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/aluminum-anodized-blue.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum-anodized-blue.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/aluminum-anodized-blue.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum-anodized-blue.avif"
+        }
+      ]
+    },
+    {
+      "name": "Aluminum (Anodized Green)",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.05, 0.6, 0.1]
+        },
+        {
+          "colorSpace": "acescg",
+          "color": [0.23911, 0.55467, 0.15375]
+        }
+      ],
+      "metalness": 1,
+      "specularColor": [
+        {
+          "format": ["Gulbrandsen"],
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.989, 0.989, 0.972]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.985, 0.989, 0.993]
+            }
+          ]
+        },
+        {
+          "format": ["F82"],
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.91, 0.936, 0.959]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.921, 0.934, 0.955]
+            }
+          ]
+        }
+      ],
+      "roughness": 0.3,
+      "complexIor": [
+        {
+          "colorSpace": "srgb-linear",
+          "n": [0.728978, 0.588215, 0.78354],
+          "k": [6.45971, 5.19646, 4.37746]
+        },
+        {
+          "colorSpace": "acescg",
+          "n": [0.73826, 0.58846, 0.401312],
+          "k": [5.76125, 5.26448, 4.35851]
+        }
+      ],
+      "density": [2700],
+      "category": ["Metal"],
+      "group": "Aluminum",
+      "description": "Aluminum can be colorized by a process called anodization. It creates a layer of aluminum oxide by supplying different voltages which results in different thickness. Unlike titanium, aluminum doesn't get vivid colors from anodization so dyes are used to color it further.",
+      "tags": ["aluminium"],
+      "references": [
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=main&book=Al&page=Cheng",
+          "accessed": "2025-06-26"
+        },
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=main&book=Al2O3&page=Hagemann",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
+        },
+        {
+          "title": "Aluminium",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Aluminium&oldid=1271633189",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Density",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Mirror",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Mirror&oldid=1268984936",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Aluminium oxide",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Aluminium_oxide&oldid=1336992644",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "Anodizing",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Anodizing&oldid=1334964855#Aluminium",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "Anodizing Color Chart",
+          "author": "Ruan, B.",
+          "publisher": "Beska LLC",
+          "url": "https://www.beskamold.com/anodizing-color-chart/",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "What Is the Anodizing Process for Aluminum and Why Is It Used",
+          "publisher": "WUXI SEATHER TECHNOLOGY CO., LTD.",
+          "url": "https://seathertechnology.com/anodizing-process-for-aluminum-benefits-applications/",
+          "accessed": "2026-02-07"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/aluminum-anodized-green.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum-anodized-green.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/aluminum-anodized-green.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum-anodized-green.avif"
+        }
+      ]
+    },
+    {
+      "name": "Aluminum (Anodized Orange)",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.89, 0.1, 0.01]
+        },
+        {
+          "colorSpace": "acescg",
+          "color": [0.58008, 0.15424, 0.038]
+        }
+      ],
+      "metalness": 1,
+      "specularColor": [
+        {
+          "format": ["Gulbrandsen"],
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.989, 0.989, 0.972]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.985, 0.989, 0.993]
+            }
+          ]
+        },
+        {
+          "format": ["F82"],
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.91, 0.936, 0.959]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.921, 0.934, 0.955]
+            }
+          ]
+        }
+      ],
+      "roughness": 0.3,
+      "complexIor": [
+        {
+          "colorSpace": "srgb-linear",
+          "n": [0.728978, 0.588215, 0.78354],
+          "k": [6.45971, 5.19646, 4.37746]
+        },
+        {
+          "colorSpace": "acescg",
+          "n": [0.73826, 0.58846, 0.401312],
+          "k": [5.76125, 5.26448, 4.35851]
+        }
+      ],
+      "density": [2700],
+      "category": ["Metal"],
+      "group": "Aluminum",
+      "description": "Aluminum can be colorized by a process called anodization. It creates a layer of aluminum oxide by supplying different voltages which results in different thickness. Unlike titanium, aluminum doesn't get vivid colors from anodization so dyes are used to color it further.",
+      "tags": ["aluminium"],
+      "references": [
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=main&book=Al&page=Cheng",
+          "accessed": "2025-06-26"
+        },
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=main&book=Al2O3&page=Hagemann",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
+        },
+        {
+          "title": "Aluminium",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Aluminium&oldid=1271633189",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Density",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Mirror",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Mirror&oldid=1268984936",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Aluminium oxide",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Aluminium_oxide&oldid=1336992644",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "Anodizing",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Anodizing&oldid=1334964855#Aluminium",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "Anodizing Color Chart",
+          "author": "Ruan, B.",
+          "publisher": "Beska LLC",
+          "url": "https://www.beskamold.com/anodizing-color-chart/",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "What Is the Anodizing Process for Aluminum and Why Is It Used",
+          "publisher": "WUXI SEATHER TECHNOLOGY CO., LTD.",
+          "url": "https://seathertechnology.com/anodizing-process-for-aluminum-benefits-applications/",
+          "accessed": "2026-02-07"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/aluminum-anodized-orange.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum-anodized-orange.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/aluminum-anodized-orange.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum-anodized-orange.avif"
+        }
+      ]
+    },
+    {
+      "name": "Aluminum (Anodized Purple)",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.77, 0.15, 0.89]
+        },
+        {
+          "colorSpace": "acescg",
+          "color": [0.56518, 0.20347, 0.80644]
+        }
+      ],
+      "metalness": 1,
+      "specularColor": [
+        {
+          "format": ["Gulbrandsen"],
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.989, 0.989, 0.972]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.985, 0.989, 0.993]
+            }
+          ]
+        },
+        {
+          "format": ["F82"],
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.91, 0.936, 0.959]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.921, 0.934, 0.955]
+            }
+          ]
+        }
+      ],
+      "roughness": 0.3,
+      "complexIor": [
+        {
+          "colorSpace": "srgb-linear",
+          "n": [0.728978, 0.588215, 0.78354],
+          "k": [6.45971, 5.19646, 4.37746]
+        },
+        {
+          "colorSpace": "acescg",
+          "n": [0.73826, 0.58846, 0.401312],
+          "k": [5.76125, 5.26448, 4.35851]
+        }
+      ],
+      "density": [2700],
+      "category": ["Metal"],
+      "group": "Aluminum",
+      "description": "Aluminum can be colorized by a process called anodization. It creates a layer of aluminum oxide by supplying different voltages which results in different thickness. Unlike titanium, aluminum doesn't get vivid colors from anodization so dyes are used to color it further.",
+      "tags": ["aluminium"],
+      "references": [
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=main&book=Al&page=Cheng",
+          "accessed": "2025-06-26"
+        },
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=main&book=Al2O3&page=Hagemann",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
+        },
+        {
+          "title": "Aluminium",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Aluminium&oldid=1271633189",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Density",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Mirror",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Mirror&oldid=1268984936",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Aluminium oxide",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Aluminium_oxide&oldid=1336992644",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "Anodizing",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Anodizing&oldid=1334964855#Aluminium",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "Anodizing Color Chart",
+          "author": "Ruan, B.",
+          "publisher": "Beska LLC",
+          "url": "https://www.beskamold.com/anodizing-color-chart/",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "What Is the Anodizing Process for Aluminum and Why Is It Used",
+          "publisher": "WUXI SEATHER TECHNOLOGY CO., LTD.",
+          "url": "https://seathertechnology.com/anodizing-process-for-aluminum-benefits-applications/",
+          "accessed": "2026-02-07"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/aluminum-anodized-purple.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum-anodized-purple.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/aluminum-anodized-purple.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum-anodized-purple.avif"
         }
       ]
     },
@@ -255,6 +965,148 @@
           "format": "avif",
           "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/aluminum-anodized-red.avif",
           "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum-anodized-red.avif"
+        }
+      ]
+    },
+    {
+      "name": "Aluminum (Anodized Yellow)",
+      "color": [
+        {
+          "colorSpace": "srgb-linear",
+          "color": [0.6, 0.4, 0.0]
+        },
+        {
+          "colorSpace": "acescg",
+          "color": [0.50367, 0.40866, 0.0562]
+        }
+      ],
+      "metalness": 1,
+      "specularColor": [
+        {
+          "format": ["Gulbrandsen"],
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.989, 0.989, 0.972]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.985, 0.989, 0.993]
+            }
+          ]
+        },
+        {
+          "format": ["F82"],
+          "color": [
+            {
+              "colorSpace": "srgb-linear",
+              "color": [0.91, 0.936, 0.959]
+            },
+            {
+              "colorSpace": "acescg",
+              "color": [0.921, 0.934, 0.955]
+            }
+          ]
+        }
+      ],
+      "roughness": 0.3,
+      "complexIor": [
+        {
+          "colorSpace": "srgb-linear",
+          "n": [0.728978, 0.588215, 0.78354],
+          "k": [6.45971, 5.19646, 4.37746]
+        },
+        {
+          "colorSpace": "acescg",
+          "n": [0.73826, 0.58846, 0.401312],
+          "k": [5.76125, 5.26448, 4.35851]
+        }
+      ],
+      "density": [2700],
+      "category": ["Metal"],
+      "group": "Aluminum",
+      "description": "Aluminum can be colorized by a process called anodization. It creates a layer of aluminum oxide by supplying different voltages which results in different thickness. Unlike titanium, aluminum doesn't get vivid colors from anodization so dyes are used to color it further.",
+      "tags": ["aluminium"],
+      "references": [
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=main&book=Al&page=Cheng",
+          "accessed": "2025-06-26"
+        },
+        {
+          "title": "Refractive index database",
+          "author": "Polyanskiy, M. N.",
+          "url": "https://refractiveindex.info/?shelf=main&book=Al2O3&page=Hagemann",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "OpenPBR: Novel Features and Implementation Details",
+          "author": "Portsmouth, J., Kutz, P., & Hill, S.",
+          "doi": "https://doi.org/10.48550/arXiv.2512.23696",
+          "year": "2025",
+          "url": "https://arxiv.org/pdf/2512.23696#appendix.D",
+          "accessed": "2025-12-30"
+        },
+        {
+          "title": "Aluminium",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Aluminium&oldid=1271633189",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Density",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Mirror",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Mirror&oldid=1268984936",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2025-01-25"
+        },
+        {
+          "title": "Aluminium oxide",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Aluminium_oxide&oldid=1336992644",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "Anodizing",
+          "author": "Wikipedia contributors",
+          "url": "https://en.wikipedia.org/w/index.php?title=Anodizing&oldid=1334964855#Aluminium",
+          "publisher": "Wikipedia, The Free Encyclopedia",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "Anodizing Color Chart",
+          "author": "Ruan, B.",
+          "publisher": "Beska LLC",
+          "url": "https://www.beskamold.com/anodizing-color-chart/",
+          "accessed": "2026-02-07"
+        },
+        {
+          "title": "What Is the Anodizing Process for Aluminum and Why Is It Used",
+          "publisher": "WUXI SEATHER TECHNOLOGY CO., LTD.",
+          "url": "https://seathertechnology.com/anodizing-process-for-aluminum-benefits-applications/",
+          "accessed": "2026-02-07"
+        }
+      ],
+      "images": [
+        {
+          "format": "jpeg",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/aluminum-anodized-yellow.jpeg",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum-anodized-yellow.jpeg"
+        },
+        {
+          "format": "avif",
+          "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/aluminum-anodized-yellow.avif",
+          "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum-anodized-yellow.avif"
         }
       ]
     },
