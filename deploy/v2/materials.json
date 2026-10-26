@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202610222055,
+    "updated": 202610261136,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/materials",
     "deprecated": false
@@ -1953,8 +1953,7 @@
           "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/brick.avif",
           "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/brick.avif"
         }
-      ],
-      "tags": ["acoustics", "audio"]
+      ]
     },
     {
       "name": "Car Paint",
@@ -2818,7 +2817,7 @@
           "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/concrete.avif"
         }
       ],
-      "tags": ["acoustics", "audio"]
+      "tags": ["cement"]
     },
     {
       "name": "Cooking Oil",
@@ -3694,7 +3693,7 @@
           "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/glass-borosilicate.avif"
         }
       ],
-      "tags": ["acoustics", "audio", "crown", "bk7"]
+      "tags": ["crown", "bk7"]
     },
     {
       "name": "Glass (Soda-lime)",
@@ -3782,8 +3781,7 @@
           "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/glass-soda-lime.avif",
           "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/glass-soda-lime.avif"
         }
-      ],
-      "tags": ["acoustics", "audio"]
+      ]
     },
     {
       "name": "Gold",
@@ -4180,7 +4178,6 @@
       "density": [917],
       "acousticAbsorption": [0.008, 0.008, 0.013, 0.015, 0.02, 0.025],
       "category": ["Crystal"],
-      "tags": ["acoustics", "audio"],
       "references": [
         {
           "title": "Refractive index database",
@@ -5281,7 +5278,7 @@
       "density": [2700],
       "acousticAbsorption": [0.01, 0.01, 0.01, 0.01, 0.02, 0.02],
       "category": ["Crystal"],
-      "tags": ["sss", "acoustics", "audio"],
+      "tags": ["sss"],
       "references": [
         {
           "title": "A Practical Model for Subsurface Light Transport",
@@ -7877,7 +7874,7 @@
       "density": [90, 450, 300],
       "acousticAbsorption": [0.45, 0.75, 0.9, 0.95, 0.95, 0.95],
       "category": ["Crystal"],
-      "tags": ["ice", "acoustics", "audio"],
+      "tags": ["ice"],
       "references": [
         {
           "title": "Feeding a Physically Based Shading Model",
@@ -9107,8 +9104,7 @@
           "300": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/300/water.avif",
           "600": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/water.avif"
         }
-      ],
-      "tags": ["acoustics", "audio"]
+      ]
     },
     {
       "name": "Whiteboard",
