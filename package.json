@@ -9,7 +9,7 @@
     "image-processor": "node scripts/image-processor.mjs",
     "create-package": "node scripts/create-package.mjs",
     "prepare": "husky",
-    "redocly-bundle": "redocly bundle schemas/components/schemas/Root.json -o schemas/openapi-schema-v2.json"
+    "redocly-bundle": "redocly lint schemas/components/schemas/Root.json && redocly bundle schemas/components/schemas/Root.json -o schemas/openapi-schema-v2.json"
   },
   "repository": {
     "type": "git",

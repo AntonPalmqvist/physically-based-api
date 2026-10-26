@@ -4,7 +4,7 @@
     "version": "2.2",
     "title": "Physically Based API",
     "summary": "A database of physically based values for CG artists.",
-    "description": "A database of physically based values for CG artists.\n\n ## Features\n\n- **Open Database**: Access a collection of physically based values for materials, cameras, and light sources\n- **Lightweight**: The entire dataset is optimized for quick loading and integration as presets\n    - materials.json ```211 KB```\n    - lightsources.json ```46 KB```\n    - cameras.json ```173 KB```\n    - lenses.json (coming in v2.3)\n- **API Access**: Connect your tools to the API to get the latest updates from the database\n- **Community-Driven**: Contribute new materials or improve existing ones\n- **Free License**: All data is released under CC0 1.0\n\n## Implementations\n\nExplore the database through these implementations:\n\n- Blender [Photographer 5](https://chafouin.gumroad.com/l/photographer5) by [chafouin](https://mastodon.gamedev.place/@chafouin)\n- Blender [Remote Asset Library](https://blender.physicallybased.info/) by [AntonPalmqvist](https://github.com/AntonPalmqvist)\n- Web [Materially](https://artofpilgrim.github.io/materially/) by [Pilgrim](https://www.artstation.com/art_of_pilgrim)\n- Web [MaterialXLab](https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html) by [kwokcb](https://github.com/kwokcb)\n- Web [Physically Based](https://physicallybased.info) by [AntonPalmqvist](https://github.com/AntonPalmqvist)\n- Web [Three.js GPU Path Tracer](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [gkjohnson](https://github.com/gkjohnson)\n\n## Contribute\n\nContributions are welcome! Whether you want to add new entries, corrections, or suggestions, your help is appreciated. See the [Github page](https://github.com/AntonPalmqvist/physically-based-api) for more info.\n\n## License\n\nThe database is made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes.\n\nShader ball used for renders is from [ASWF USD WG](https://github.com/usd-wg/assets/tree/main/full_assets/StandardShaderBall) and is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).",
+    "description": "A database of physically based values for CG artists.\n\n ## Features\n\n- **Open Database**: Access a collection of physically based values for materials, cameras, and light sources\n- **Lightweight**: The entire dataset is optimized for quick loading and integration as presets\n    - materials.json ```215 KB```\n    - lightsources.json ```46 KB```\n    - cameras.json ```178 KB```\n    - lenses.json (coming in v2.3)\n- **API Access**: Connect your tools to the API to get the latest updates from the database\n- **Community-Driven**: Contribute new materials or improve existing ones\n- **Free License**: All data is released under CC0 1.0\n\n## Implementations\n\nSee what others have made with the data:\n\n- Blender [Photographer 5](https://chafouin.gumroad.com/l/photographer5) by [chafouin](https://mastodon.gamedev.place/@chafouin)\n- Blender [Remote Asset Library](https://blender.physicallybased.info/) by [AntonPalmqvist](https://github.com/AntonPalmqvist)\n- Web [Materially](https://artofpilgrim.github.io/materially/) by [Pilgrim](https://www.artstation.com/art_of_pilgrim)\n- Web [MaterialXLab](https://kwokcb.github.io/MaterialXLab/javascript/PhysicallyBasedMaterialX_out.html) by [kwokcb](https://github.com/kwokcb)\n- Web [Physically Based](https://physicallybased.info) by [AntonPalmqvist](https://github.com/AntonPalmqvist)\n- Web [Three.js GPU Path Tracer](https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/materialDatabase.html) by [gkjohnson](https://github.com/gkjohnson)\n\n## Contribute\n\nContributions are welcome! Whether you want to add new entries, corrections, or suggestions, your help is appreciated. See the [Github page](https://github.com/AntonPalmqvist/physically-based-api) for more info.\n\n## License\n\nThe database is made available under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license, which means you are free to use, modify, and distribute its content without any restrictions, even for commercial purposes.\n\nShader ball used for renders is from [ASWF USD WG](https://github.com/usd-wg/assets/tree/main/full_assets/StandardShaderBall) and is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).",
     "license": {
       "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
       "name": "CC0 1.0"
@@ -535,7 +535,7 @@
                   "example": 72
                 },
                 "acousticAbsorption": {
-                  "description": "Absorption coefficients at 125, 250, 500, 1000, 2000, and 4000 kHz.",
+                  "description": "Absorption coefficients at 125, 250, 500, 1000, 2000, and 4000 Hz.",
                   "type": "array",
                   "items": {
                     "type": "number"
@@ -624,7 +624,47 @@
                 "category",
                 "references",
                 "images"
-              ]
+              ],
+              "if": {
+                "properties": {
+                  "metalness": {
+                    "const": 1
+                  }
+                },
+                "required": [
+                  "metalness"
+                ]
+              },
+              "then": {
+                "not": {
+                  "required": [
+                    "ior"
+                  ],
+                  "allOf": [
+                    {
+                      "properties": {
+                        "ior": {
+                          "type": "number"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "else": {
+                "required": [
+                  "ior"
+                ],
+                "allOf": [
+                  {
+                    "properties": {
+                      "ior": {
+                        "type": "number"
+                      }
+                    }
+                  }
+                ]
+              }
             }
           }
         },
@@ -1154,6 +1194,7 @@
                         "type": "array",
                         "minItems": 1,
                         "items": {
+                          "additionalProperties": false,
                           "type": "object",
                           "properties": {
                             "format": {
@@ -1174,7 +1215,11 @@
                               "minItems": 2,
                               "maxItems": 2
                             }
-                          }
+                          },
+                          "required": [
+                            "format",
+                            "size"
+                          ]
                         }
                       },
                       "focalLength": {

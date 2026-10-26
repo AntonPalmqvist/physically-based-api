@@ -178,7 +178,7 @@ components:
           description: Surface tension measured in millinewton per meter (mN/m) at a temperature of 20°C. 1 mN/m = 1 dyn/cm.
         acousticAbsorption:
           type: array
-          description: "Absorption coefficients at 125, 250, 500, 1000, 2000, and 4000 kHz."
+          description: "Absorption coefficients at 125, 250, 500, 1000, 2000, and 4000 Hz."
           minItems: 6
           maxItems: 6
           items:

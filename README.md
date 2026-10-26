@@ -32,7 +32,7 @@ Access the API and documentation at [https://api.physicallybased.info/v2](https:
 
 ### Implementations
 
-Explore the database through these implementations:
+See what others have made with the data:
 
 - Blender [Photographer 5](https://chafouin.gumroad.com/l/photographer5) by [chafouin](https://mastodon.gamedev.place/@chafouin)
 - Blender [Remote Asset Library](https://blender.physicallybased.info/) by [AntonPalmqvist](https://github.com/AntonPalmqvist)

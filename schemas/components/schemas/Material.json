@@ -174,7 +174,7 @@
             "example": 72
           },
           "acousticAbsorption": {
-            "description": "Absorption coefficients at 125, 250, 500, 1000, 2000, and 4000 kHz.",
+            "description": "Absorption coefficients at 125, 250, 500, 1000, 2000, and 4000 Hz.",
             "type": "array",
             "items": {
               "type": "number"
@@ -246,7 +246,37 @@
           "category",
           "references",
           "images"
-        ]
+        ],
+        "if": {
+          "properties": {
+            "metalness": {
+              "const": 1
+            }
+          },
+          "required": ["metalness"]
+        },
+        "then": {
+          "not": {
+            "required": ["ior"],
+            "allOf": [
+              {
+                "properties": {
+                  "ior": { "type": "number" }
+                }
+              }
+            ]
+          }
+        },
+        "else": {
+          "required": ["ior"],
+          "allOf": [
+            {
+              "properties": {
+                "ior": { "type": "number" }
+              }
+            }
+          ]
+        }
       }
     }
   },
