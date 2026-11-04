@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Material.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202610261136,
+    "updated": 202611031901,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/materials",
     "deprecated": false
@@ -8575,7 +8575,8 @@
         }
       ],
       "metalness": 0,
-      "roughness": 0.9,
+      "roughness": 1.0,
+      "diffuseRoughness": 1.0,
       "ior": 1.5,
       "density": [20, 70, 50],
       "category": ["Manmade"],
