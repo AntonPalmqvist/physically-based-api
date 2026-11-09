@@ -2,7 +2,7 @@
   "$schema": "../../schemas/components/schemas/Camera.json",
   "header": {
     "schemaVersion": 2.2,
-    "updated": 202610071810,
+    "updated": 202611031901,
     "license": "CC0 1.0 Universal",
     "origin": "https://api.physicallybased.info/v2/cameras",
     "deprecated": false
@@ -754,8 +754,8 @@
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
-          "accessed": "2025-02-22"
+          "url": "https://www.arri.com/resource/blob/405022/c08af910b78bac75f5c3a69c20e443d3/2026-05-arri-formatsandresolutionsoverview-v6-2-data.pdf",
+          "accessed": "2026-11-03"
         },
         {
           "title": "Cameras & Image Capture: Requirements & Best Practices",
@@ -832,8 +832,8 @@
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
-          "accessed": "2025-02-22"
+          "url": "https://www.arri.com/resource/blob/405022/c08af910b78bac75f5c3a69c20e443d3/2026-05-arri-formatsandresolutionsoverview-v6-2-data.pdf",
+          "accessed": "2026-11-03"
         },
         {
           "title": "IMAX",
@@ -976,8 +976,8 @@
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
-          "accessed": "2025-02-22"
+          "url": "https://www.arri.com/resource/blob/405022/c08af910b78bac75f5c3a69c20e443d3/2026-05-arri-formatsandresolutionsoverview-v6-2-data.pdf",
+          "accessed": "2026-11-03"
         },
         {
           "title": "Cameras & Image Capture: Requirements & Best Practices",
@@ -1104,8 +1104,8 @@
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
-          "accessed": "2025-02-22"
+          "url": "https://www.arri.com/resource/blob/405022/c08af910b78bac75f5c3a69c20e443d3/2026-05-arri-formatsandresolutionsoverview-v6-2-data.pdf",
+          "accessed": "2026-11-03"
         }
       ],
       "tags": ["super 35"]
@@ -1235,8 +1235,8 @@
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
-          "accessed": "2025-02-22"
+          "url": "https://www.arri.com/resource/blob/405022/c08af910b78bac75f5c3a69c20e443d3/2026-05-arri-formatsandresolutionsoverview-v6-2-data.pdf",
+          "accessed": "2026-11-03"
         },
         {
           "title": "Cameras & Image Capture: Requirements & Best Practices",
@@ -1383,8 +1383,8 @@
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
-          "accessed": "2025-02-22"
+          "url": "https://www.arri.com/resource/blob/405022/c08af910b78bac75f5c3a69c20e443d3/2026-05-arri-formatsandresolutionsoverview-v6-2-data.pdf",
+          "accessed": "2026-11-03"
         }
       ],
       "tags": ["super 35"]
@@ -1465,8 +1465,8 @@
         {
           "title": "Formats and Resolutions Overview of Arri Digital Motion Picture Cameras",
           "publisher": "ARRI GmbH",
-          "url": "https://www.arri.com/resource/blob/390890/0ecfdcb70ea22c5fc489f0fb7267aa30/2025-11-arri-formatsandresolutionsoverview-v6-1-data.pdf",
-          "accessed": "2025-02-22"
+          "url": "https://www.arri.com/resource/blob/405022/c08af910b78bac75f5c3a69c20e443d3/2026-05-arri-formatsandresolutionsoverview-v6-2-data.pdf",
+          "accessed": "2026-11-03"
         }
       ],
       "tags": ["super 35"]
