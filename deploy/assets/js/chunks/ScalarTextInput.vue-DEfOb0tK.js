@@ -1,0 +1,15 @@
+/*!
+*    _____ _________    __    ___    ____
+*   / ___// ____/   |  / /   /   |  / __ \
+*   \__ \/ /   / /| | / /   / /| | / /_/ /
+*  ___/ / /___/ ___ |/ /___/ ___ |/ _, _/
+* /____/\____/_/  |_/_____/_/  |_/_/ |_|
+*
+* @scalar/api-reference 1.76.4
+*
+* Website: https://scalar.com
+* GitHub:  https://github.com/scalar/scalar
+* License: https://github.com/scalar/scalar/blob/main/LICENSE
+**/
+import{P as e,ht as t,v as n}from"./reactivity.esm-bundler-4QgHKZ3k.js";import{$ as r,A as i,D as a,S as o,U as s,W as c,Y as l,d as u,f as d,j as f,ot as p,p as m,q as h,st as g,u as _,z as v}from"./runtime-core.esm-bundler-BaYrl9uw.js";import{T as y,w as b,xt as x}from"./useLoadingState-DfL67FHy.js";var S=Symbol(),C=()=>a(S,!1),w=()=>{c(S,!0)},T=/* @__PURE__ */ o({inheritAttrs:!1,__name:`ScalarFormInput`,props:{is:{default:`button`}},setup(t){let{cx:n}=b(),r=C(),i=y({base:[`bg-b-1.5 flex items-center text-c-2 gap-0.75 p-3 text-base`,`outline-offset-[-1px] has-[:focus-visible]:outline`],variants:{grouped:{true:`first:rounded-t-[inherit] last:rounded-b-[inherit]`,false:`rounded shadow-border`},button:{true:`cursor-pointer hover:bg-b-2`}}});return(a,o)=>(s(),u(l(t.is),f({type:t.is===`button`?`button`:void 0},e(n)(e(i)({button:t.is===`button`,grouped:e(r)}))),{default:p(()=>[h(a.$slots,`default`)]),_:3},16,[`type`]))}}),E={class:`relative flex flex-1 items-center`},D={key:0,class:`whitespace-nowrap text-transparent select-none`},O=[`aria-readonly`,`readonly`],k={key:1,class:`absolute inset-0 flex items-center overflow-hidden whitespace-nowrap select-none`},A={key:0,class:`text-c-2`},j={class:`text-transparent`},M={key:1,class:`text-c-2`},N=/* @__PURE__ */ o({inheritAttrs:!1,__name:`ScalarTextInput`,props:/*@__PURE__*/ i({readonly:{type:Boolean}},{modelValue:{},modelModifiers:{}}),emits:/*@__PURE__*/ i([`click`],[`update:modelValue`]),setup(i,{emit:a}){let o=a,c=r(i,`modelValue`),l=n(),{stylingAttrsCx:y,otherAttrs:S}=b();v(()=>{`autofocus`in S.value&&l.value?.focus()});function C(e){o(`click`,e),i.readonly?l.value?.select():l.value?.focus()}return(n,r)=>(s(),u(e(T),f({is:`div`},e(y)(`cursor-text bg-b-1 text-c-1 dark:bg-b-1.5`),{onClick:C}),{default:p(()=>[_(`div`,E,[n.$slots.prefix?(s(),m(`div`,D,[h(n.$slots,`prefix`)])):d(``,!0),g(_(`input`,f({ref_key:`input`,ref:l,"onUpdate:modelValue":r[0]||=e=>c.value=e,"aria-readonly":i.readonly||void 0,class:`z-1 min-w-0 flex-1 rounded-none border-none bg-transparent placeholder:font-[inherit] focus-within:outline-none`,readonly:i.readonly},e(S)),null,16,O),[[x,c.value]]),n.$slots.prefix||n.$slots.suffix?(s(),m(`div`,k,[n.$slots.prefix?(s(),m(`span`,A,[h(n.$slots,`prefix`)])):d(``,!0),_(`span`,j,t(c.value||n.$attrs.placeholder),1),n.$slots.suffix?(s(),m(`span`,M,[h(n.$slots,`suffix`)])):d(``,!0)])):d(``,!0)]),h(n.$slots,`aside`)]),_:3},16))}});export{T as n,w as r,N as t};
+//# sourceMappingURL=ScalarTextInput.vue-DEfOb0tK.js.map
